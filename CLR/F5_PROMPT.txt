@@ -1,0 +1,26 @@
+您是 CLR 项目执行工程师。请直接执行以下任务，不需要读任何文件。所有代码修复信息已包含在此 prompt 中。
+
+项目路径：C:\Users\Ouyang Quan\.openclaw\workspace\local_clr\
+
+Phase 0: 环境确认
+运行：python3 -c "import torch; print('CUDA:', torch.cuda.is_available()); print('GPU:', torch.cuda.get_device_name() if torch.cuda.is_available() else 'N/A')"
+
+Phase 1: 修复数据生成器
+local_train_clutrr.py 中的 generate_trajectory 有 bug：
+- random.choice(list(COMP_TABLE.keys())) 返回的是元组 (如("father","father")) 而非关系字符串
+- 多跳答案落入 random.choice(RELATIONS) 纯噪声
+- 1-hop 标签退化为"从 prompt 抄 r1"
+- 理论天花板约 56.6%
+
+修复方案：
+1. 文件开头加 import: from clutrr_data import generate_trajectory, generate_dataset
+2. 删除内联的: COMP_TABLE, RELATIONS, NAMES_M, NAMES_F, rel_gender, random_person, generate_trajectory, generate_dataset 函数 (约第 50-134 行)
+3. 接口适配: 新生成器返回 {"turns": [{"prompt": ..., "answer": ..., "atomic": ...}]}，主代码期望 {"question": ..., "answer": ...}，需在 main() 函数的数据处理处把 "prompt" 键改成 "question"
+4. 验证: 运行 python3 test_clutrr_gen.py
+
+Phase 2: 训练脚本修复
+1. coh loss 权重: 找到 loss = 0.3 * gen_loss + 0.7 * coh, 改为 loss = 0.95 * gen_loss + 0.05 * coh
+2. eval 协议修复: 在 evaluate() 中, forward 推理前先 update S 得到 S_next, 再用 S_next 替换 S 做 generation
+3. checkpoint 补存 scale_proj state_dict
+
+完成后汇报进展。

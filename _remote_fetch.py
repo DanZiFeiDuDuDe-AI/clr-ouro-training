@@ -5,7 +5,7 @@ Safe to restart: skips download if file already exists and size matches.
 """
 import os, sys, subprocess, hashlib, time
 
-URL = "http://100.66.57.115:8765/model.safetensors"
+URL = "http://TAILSCALE_IP:8765/model.safetensors"
 DST = r"D:\training\Ouro-1.4B\model.safetensors"
 EXPECT = "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af"
 EXPECT_SIZE = 2869336434

@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Three-way ablation: Persistent state alone does not improve multi-hop reasoning; persistent \emph{evolution} does.}
+\vspace{-2mm}
+\begin{tabular}{lcccc}
+\toprule
+Condition & s=100 & s=200 & s=300 & s=400 \\
+\midrule
+w/o S (baseline) & 0.0pp & 0.0pp & 0.0pp & 0.0pp \\
+Static S & -1.4pp & 0.0pp & 0.0pp & 0.0pp \\
+Evolved S (4-seed $\mu$) & +8.7pp & +32.8pp & +35.5pp & +35.9pp \\
+Qwen2.5-0.5B Evolved & +13.8pp & +33.3pp & +35.5pp & +35.5pp \\
+\midrule
+Bayes ceiling & \multicolumn{4}{c}{49.7\%--56.6\%} \\
+\bottomrule
+\end{tabular}
+\label{tab:phase_b_ablation}
+\end{table}

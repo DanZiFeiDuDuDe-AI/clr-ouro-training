@@ -1,0 +1,25 @@
+{
+  "ckpt": "D:/LoopLM/checkpoints/clr_ouro_v0_s42/best_model.pt",
+  "n_traj": 150,
+  "ceiling": 0.5666666666666667,
+  "conditions": {
+    "with_S": {
+      "t1": 0.96,
+      "t2p": 0.2,
+      "t2p_counts": "30/150",
+      "t2p_wilson95": [
+        0.1438,
+        0.2711
+      ]
+    },
+    "without_S": {
+      "t1": 0.96,
+      "t2p": 0.1133,
+      "t2p_counts": "17/150",
+      "t2p_wilson95": [
+        0.072,
+        0.174
+      ]
+    }
+  }
+}

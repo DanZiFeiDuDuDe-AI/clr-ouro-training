@@ -1,0 +1,529 @@
+{
+  "ckpt": "runs/s0smoke_sequence_4x16_s42/best_model.pt",
+  "ckpt_sha256": "eb853149c5d31cc1",
+  "ckpt_step": 300,
+  "ceiling": 0.5666666666666667,
+  "n_eval": 150,
+  "seed": 42,
+  "protocol": "v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all",
+  "trainable_params": 937488,
+  "backbone_frozen_params": 818088961,
+  "k_curve": {
+    "k1": {
+      "with_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.0
+    },
+    "k2": {
+      "with_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 2,
+          "total": 150,
+          "acc": 0.013333333333333334
+        },
+        "last": {
+          "correct": 2,
+          "total": 150,
+          "acc": 0.013333333333333334
+        },
+        "all": {
+          "correct": 2,
+          "total": 300,
+          "acc": 0.006666666666666667
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.013333333333333334,
+      "t2p_counts": "2/150",
+      "t2p_wilson95": [
+        0.0037,
+        0.0473
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.0133
+    },
+    "k3": {
+      "with_S": {
+        "t1": {
+          "correct": 116,
+          "total": 150,
+          "acc": 0.7733333333333333
+        },
+        "t2p": {
+          "correct": 72,
+          "total": 150,
+          "acc": 0.48
+        },
+        "last": {
+          "correct": 87,
+          "total": 150,
+          "acc": 0.58
+        },
+        "all": {
+          "correct": 188,
+          "total": 300,
+          "acc": 0.6266666666666667
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.48,
+      "t2p_counts": "72/150",
+      "t2p_wilson95": [
+        0.4016,
+        0.5594
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.48
+    },
+    "k4": {
+      "with_S": {
+        "t1": {
+          "correct": 150,
+          "total": 150,
+          "acc": 1.0
+        },
+        "t2p": {
+          "correct": 78,
+          "total": 150,
+          "acc": 0.52
+        },
+        "last": {
+          "correct": 92,
+          "total": 150,
+          "acc": 0.6133333333333333
+        },
+        "all": {
+          "correct": 228,
+          "total": 300,
+          "acc": 0.76
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.52,
+      "t2p_counts": "78/150",
+      "t2p_wilson95": [
+        0.4406,
+        0.5984
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.52
+    }
+  },
+  "early_readout": {
+    "loop1": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150"
+    },
+    "loop2": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150"
+    },
+    "loop3": {
+      "t2p_acc": 0.11333333333333333,
+      "t2p_counts": "17/150"
+    },
+    "loop4": {
+      "t2p_acc": 0.5333333333333333,
+      "t2p_counts": "80/150"
+    }
+  },
+  "interventions": {
+    "normal": {
+      "t2p_acc": 0.54,
+      "t2p_counts": "81/150",
+      "t2p_wilson95": [
+        0.4602,
+        0.6178
+      ],
+      "all": {
+        "correct": 231,
+        "total": 300,
+        "acc": 0.77
+      }
+    },
+    "zero_slots": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "all": {
+        "correct": 0,
+        "total": 300,
+        "acc": 0.0
+      }
+    },
+    "random_slots": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "all": {
+        "correct": 0,
+        "total": 300,
+        "acc": 0.0
+      }
+    },
+    "static_trained": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "all": {
+        "correct": 0,
+        "total": 300,
+        "acc": 0.0
+      }
+    },
+    "permute_1": {
+      "t2p_acc": 0.5066666666666667,
+      "t2p_counts": "76/150",
+      "t2p_wilson95": [
+        0.4275,
+        0.5855
+      ],
+      "all": {
+        "correct": 226,
+        "total": 300,
+        "acc": 0.7533333333333333
+      }
+    },
+    "permute_2": {
+      "t2p_acc": 0.52,
+      "t2p_counts": "78/150",
+      "t2p_wilson95": [
+        0.4406,
+        0.5984
+      ],
+      "all": {
+        "correct": 228,
+        "total": 300,
+        "acc": 0.76
+      }
+    },
+    "permute_3": {
+      "t2p_acc": 0.5333333333333333,
+      "t2p_counts": "80/150",
+      "t2p_wilson95": [
+        0.4537,
+        0.6113
+      ],
+      "all": {
+        "correct": 230,
+        "total": 300,
+        "acc": 0.7666666666666667
+      }
+    },
+    "single_slot_1": {
+      "t2p_acc": 0.02666666666666667,
+      "t2p_counts": "4/150",
+      "t2p_wilson95": [
+        0.0104,
+        0.0666
+      ],
+      "all": {
+        "correct": 6,
+        "total": 300,
+        "acc": 0.02
+      }
+    },
+    "single_slot_2": {
+      "t2p_acc": 0.02666666666666667,
+      "t2p_counts": "4/150",
+      "t2p_wilson95": [
+        0.0104,
+        0.0666
+      ],
+      "all": {
+        "correct": 5,
+        "total": 300,
+        "acc": 0.016666666666666666
+      }
+    },
+    "single_slot_3": {
+      "t2p_acc": 0.02666666666666667,
+      "t2p_counts": "4/150",
+      "t2p_wilson95": [
+        0.0104,
+        0.0666
+      ],
+      "all": {
+        "correct": 5,
+        "total": 300,
+        "acc": 0.016666666666666666
+      }
+    },
+    "single_slot_4": {
+      "t2p_acc": 0.04666666666666667,
+      "t2p_counts": "7/150",
+      "t2p_wilson95": [
+        0.0228,
+        0.0932
+      ],
+      "all": {
+        "correct": 7,
+        "total": 300,
+        "acc": 0.023333333333333334
+      }
+    },
+    "dropout_p0.25_s1": {
+      "t2p_acc": 0.5333333333333333,
+      "t2p_counts": "80/150",
+      "t2p_wilson95": [
+        0.4537,
+        0.6113
+      ],
+      "all": {
+        "correct": 230,
+        "total": 300,
+        "acc": 0.7666666666666667
+      }
+    },
+    "dropout_p0.25_s2": {
+      "t2p_acc": 0.5333333333333333,
+      "t2p_counts": "80/150",
+      "t2p_wilson95": [
+        0.4537,
+        0.6113
+      ],
+      "all": {
+        "correct": 230,
+        "total": 300,
+        "acc": 0.7666666666666667
+      }
+    },
+    "dropout_p0.25_s3": {
+      "t2p_acc": 0.5133333333333333,
+      "t2p_counts": "77/150",
+      "t2p_wilson95": [
+        0.434,
+        0.592
+      ],
+      "all": {
+        "correct": 227,
+        "total": 300,
+        "acc": 0.7566666666666667
+      }
+    },
+    "dropout_p0.5_s1": {
+      "t2p_acc": 0.37333333333333335,
+      "t2p_counts": "56/150",
+      "t2p_wilson95": [
+        0.3,
+        0.453
+      ],
+      "all": {
+        "correct": 194,
+        "total": 300,
+        "acc": 0.6466666666666666
+      }
+    },
+    "dropout_p0.5_s2": {
+      "t2p_acc": 0.37333333333333335,
+      "t2p_counts": "56/150",
+      "t2p_wilson95": [
+        0.3,
+        0.453
+      ],
+      "all": {
+        "correct": 193,
+        "total": 300,
+        "acc": 0.6433333333333333
+      }
+    },
+    "dropout_p0.5_s3": {
+      "t2p_acc": 0.41333333333333333,
+      "t2p_counts": "62/150",
+      "t2p_wilson95": [
+        0.3377,
+        0.4933
+      ],
+      "all": {
+        "correct": 206,
+        "total": 300,
+        "acc": 0.6866666666666666
+      }
+    },
+    "dropout_p0.75_s1": {
+      "t2p_acc": 0.06666666666666667,
+      "t2p_counts": "10/150",
+      "t2p_wilson95": [
+        0.0366,
+        0.1184
+      ],
+      "all": {
+        "correct": 11,
+        "total": 300,
+        "acc": 0.03666666666666667
+      }
+    },
+    "dropout_p0.75_s2": {
+      "t2p_acc": 0.04,
+      "t2p_counts": "6/150",
+      "t2p_wilson95": [
+        0.0185,
+        0.0845
+      ],
+      "all": {
+        "correct": 16,
+        "total": 300,
+        "acc": 0.05333333333333334
+      }
+    },
+    "dropout_p0.75_s3": {
+      "t2p_acc": 0.013333333333333334,
+      "t2p_counts": "2/150",
+      "t2p_wilson95": [
+        0.0037,
+        0.0473
+      ],
+      "all": {
+        "correct": 8,
+        "total": 300,
+        "acc": 0.02666666666666667
+      }
+    },
+    "_perms": [
+      [
+        3,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ]
+    ]
+  }
+}

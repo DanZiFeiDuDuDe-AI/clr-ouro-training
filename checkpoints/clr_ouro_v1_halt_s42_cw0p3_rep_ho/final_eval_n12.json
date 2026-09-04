@@ -1,0 +1,68 @@
+{
+  "ckpt": "D:/LoopLM/checkpoints/clr_ouro_v1_halt_s42_cw0p3_rep_ho/best_model.pt",
+  "n": 12,
+  "seed": 42,
+  "replace": true,
+  "with_S": {
+    "t1": {
+      "correct": 12,
+      "total": 12,
+      "acc": 1.0
+    },
+    "t2p": {
+      "correct": 6,
+      "total": 12,
+      "acc": 0.5
+    },
+    "last": {
+      "correct": 7,
+      "total": 12,
+      "acc": 0.5833333333333334
+    },
+    "all": {
+      "correct": 18,
+      "total": 24,
+      "acc": 0.75
+    },
+    "mean_expected_exit": 1.8225911458333333,
+    "mean_gate_lambda": [
+      0.3919270833333333,
+      4.556030035018921e-06,
+      1.1535982290903728e-06,
+      2.269322673479716e-06
+    ]
+  },
+  "without_S": {
+    "t1": {
+      "correct": 0,
+      "total": 12,
+      "acc": 0.0
+    },
+    "t2p": {
+      "correct": 0,
+      "total": 12,
+      "acc": 0.0
+    },
+    "last": {
+      "correct": 0,
+      "total": 12,
+      "acc": 0.0
+    },
+    "all": {
+      "correct": 0,
+      "total": 24,
+      "acc": 0.0
+    },
+    "mean_expected_exit": 2.96484375,
+    "mean_gate_lambda": [
+      2.247591813405355e-07,
+      3.7656476100285846e-07,
+      0.03573195139567057,
+      0.531005859375
+    ]
+  },
+  "delta_t2p": 0.5,
+  "ceiling": 0.75,
+  "ckpt_step": 200,
+  "ckpt_score": 0.22926682692307693
+}
