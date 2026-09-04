@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\training\_diag_scale_20260828_165241_333.py", line 4, in <module>
+    w = ck["scale_proj"]["weight"].float()
+        ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str

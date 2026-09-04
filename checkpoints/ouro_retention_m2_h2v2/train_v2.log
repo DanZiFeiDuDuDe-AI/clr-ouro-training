@@ -1,0 +1,11 @@
+=== P0H2-v2 rank-4 LoRA + ranking loss (base=norm1800) ===
+steps=1500 lr=0.0001 rank=4 alpha=8 lam_block=0.3 lam_logit=1 lam_rank=0.1 mode=hinge margin=1
+loading student base...
+base norm1800 loaded: D:/training/checkpoints/ouro_retention_m2_d3/best_model.pt
+attached LoRA: 24 projections, rank=4, alpha=8, trainable=393216
+loading teacher (M0) for fidelity monitor...
+cache shards: 600
+dataset draw (P0H5-aligned, held-out skipped in cache)...
+train traj: 600 | eval traj: 150
+monitor@0: {"cand_acc": 0, "mean_rank": 9.846666666666666, "mean_margin": -4.924558865229288, "logit_cosine": 0.88567313849926, "delta_nll": 4.569829416275025, "hidden_cos": 0.5177866868674755}
+epoch 1/3 (step 0)

@@ -1,0 +1,28 @@
+{
+  "n_traj": 30,
+  "replaced_layers": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23
+  ],
+  "m2_ckpt": "D:/training/checkpoints/ouro_retention_m2_d3/best_model.pt",
+  "teacher_acc": [
+    0,
+    30
+  ],
+  "student_acc": [
+    0,
+    30
+  ],
+  "acc_loss_pp": 0.0,
+  "hidden_cos_mean": 0.6072513103485108,
+  "logit_cos_mean": 0.883422601222992,
+  "top1_agree": [
+    0,
+    5
+  ],
+  "nll_diff_mean": 5.06018180847168
+}

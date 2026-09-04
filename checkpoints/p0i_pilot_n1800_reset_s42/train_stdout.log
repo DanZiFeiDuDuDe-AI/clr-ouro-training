@@ -1,0 +1,21 @@
+=== P0I pilot: init=n1800 mode=reset steps=600 lr=0.0003 ===
+init=n1800 ckpt=D:/training/checkpoints/ouro_retention_m2_d3/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)
+step 50/600: loss=4.4721 (598s)
+step 100/600: loss=1.8760 (1210s)
+step 150/600: loss=1.2915 (1662s)
+step 200/600: loss=1.7964 (2242s)
+step 250/600: loss=2.2805 (2877s)
+step 300/600: loss=2.6585 (3524s)
+checkpoint: D:/training/checkpoints/p0i_pilot_n1800_reset_s42\ckpt_step0300.pt
+step 350/600: loss=2.1146 (4218s)
+step 400/600: loss=1.4303 (4863s)
+step 450/600: loss=2.0741 (5518s)
+step 500/600: loss=2.0407 (6172s)
+step 550/600: loss=1.9253 (6814s)
+step 600/600: loss=1.7520 (7467s)
+checkpoint: D:/training/checkpoints/p0i_pilot_n1800_reset_s42\best_model.pt
+
+saved to D:/training/checkpoints/p0i_pilot_n1800_reset_s42
+P0I pilot n1800/reset OK

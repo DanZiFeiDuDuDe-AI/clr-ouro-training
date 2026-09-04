@@ -1,0 +1,23 @@
+bias stats per layer:
+  layer0 bias mean=-0.00392 absmax=0.12500
+  layer1 bias mean=0.00104 absmax=0.12500
+  layer2 bias mean=-0.00069 absmax=0.12500
+  layer3 bias mean=0.00037 absmax=0.12500
+  layer4 bias mean=-0.00058 absmax=0.12500
+  layer5 bias mean=-0.00046 absmax=0.12500
+
+without_S simulated scale per layer (zeros S):
+  layer0 scale mean=-0.00039 std=0.00716 absmax=0.01244
+  layer1 scale mean=0.00010 std=0.00718 absmax=0.01244
+  layer2 scale mean=-0.00007 std=0.00712 absmax=0.01244
+  layer3 scale mean=0.00004 std=0.00711 absmax=0.01244
+  layer4 scale mean=-0.00006 std=0.00725 absmax=0.01244
+  layer5 scale mean=-0.00005 std=0.00722 absmax=0.01244
+
+with_S simulated scale (S norm 7, random dir):
+  layer0 scale mean=-0.00043 std=0.01108 absmax=0.03377
+  layer1 scale mean=-0.00001 std=0.01038 absmax=0.03373
+  layer2 scale mean=0.00001 std=0.01628 absmax=0.04776
+  layer3 scale mean=0.00061 std=0.01659 absmax=0.04884
+  layer4 scale mean=-0.00010 std=0.01069 absmax=0.03347
+  layer5 scale mean=-0.00017 std=0.00990 absmax=0.02970

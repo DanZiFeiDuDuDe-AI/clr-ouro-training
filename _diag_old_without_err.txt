@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:\training\_diag_old_without.py", line 10, in <module>
+    core.load_state_dict(ck["plaa_core"])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 2638, in load_state_dict
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: Error(s) in loading state_dict for PlaaCore:
+	size mismatch for init_s: copying a param with shape torch.Size([1, 64]) from checkpoint, the shape in current model is torch.Size([1, 2048]).
+	size mismatch for read_proj.weight: copying a param with shape torch.Size([64, 2048]) from checkpoint, the shape in current model is torch.Size([2048, 64]).
+	size mismatch for read_proj.bias: copying a param with shape torch.Size([64]) from checkpoint, the shape in current model is torch.Size([2048]).
+	size mismatch for gru.weight_ih: copying a param with shape torch.Size([192, 64]) from checkpoint, the shape in current model is torch.Size([6144, 2048]).
+	size mismatch for gru.weight_hh: copying a param with shape torch.Size([192, 64]) from checkpoint, the shape in current model is torch.Size([6144, 2048]).
+	size mismatch for gru.bias_ih: copying a param with shape torch.Size([192]) from checkpoint, the shape in current model is torch.Size([6144]).
+	size mismatch for gru.bias_hh: copying a param with shape torch.Size([192]) from checkpoint, the shape in current model is torch.Size([6144]).

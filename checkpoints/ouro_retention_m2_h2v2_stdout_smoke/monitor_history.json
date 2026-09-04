@@ -1,0 +1,26 @@
+[
+  {
+    "step": 0,
+    "n_eval": 1,
+    "cand_acc": 0,
+    "mean_rank": 7.0,
+    "mean_margin": -2.0824289321899414,
+    "rank_gt3": 1,
+    "logit_cosine": 0.8848163485527039,
+    "delta_nll": 2.717881202697754,
+    "hidden_cos": 0.5065969129403433,
+    "logit_n": 1
+  },
+  {
+    "step": 1,
+    "n_eval": 1,
+    "cand_acc": 0,
+    "mean_rank": 7.0,
+    "mean_margin": -1.9379501342773438,
+    "rank_gt3": 1,
+    "logit_cosine": 0.8709249496459961,
+    "delta_nll": 2.5834121704101562,
+    "hidden_cos": 0.4711732715368271,
+    "logit_n": 1
+  }
+]

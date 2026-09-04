@@ -1,0 +1,25 @@
+======================================================================
+CLR-v2 pilot | seed=42 smoke=True steps=4 slots=4 dim=64 latent_steps=1 FiLM=[3, 7, 11, 15, 19, 23]
+======================================================================
+train=24 eval=12 ceiling_eval=0.7500
+trainable: 1084.4K params (read 524.5K, core 33.3K, write 526.3K)
+  step    1/4 | L=34.2276 | |S|=5.906 | s_norms=[3.91, 3.55, 4.99, 5.91] | 1.5s/step | VRAM 1.33GB | ETA 0min
+  step    2/4 | L=32.9963 | |S|=5.469 | s_norms=[3.95, 3.36, 4.65, 5.46] | 1.3s/step | VRAM 1.33GB | ETA 0min
+
+  eval @ step 2 | latent_steps=1
+  t2p persist=0.0000 (0/6) reset=0.0000 random=0.0000 delta(p-r)=+0.0000
+
+  step    3/4 | L=32.7609 | |S|=5.969 | s_norms=[4.02, 3.39, 5.1, 5.97] | 2.5s/step | VRAM 1.33GB | ETA 0min
+  step    4/4 | L=28.8295 | |S|=5.406 | s_norms=[3.82, 3.31, 4.59, 5.4] | 2.1s/step | VRAM 1.33GB | ETA 0min
+
+  eval @ step 4 | latent_steps=1
+  t2p persist=0.0000 (0/6) reset=0.0000 random=0.0000 delta(p-r)=+0.0000
+
+  -> saved best (delta=+0.0000)
+
+FINAL expanded eval (150-traj protocol):
+  persist  t2p 0/12 = 0.0000  W95[0.000,0.242]  |S|=5.361 loop|S|=3.725
+  reset    t2p 0/12 = 0.0000  W95[0.000,0.242]  |S|=5.204 loop|S|=3.181
+  random   t2p 0/12 = 0.0000  W95[0.000,0.242]  |S|=5.544 loop|S|=6.260
+
+DONE. Results in D:/training/checkpoints/clr_v2_s42_smoke/  (params=1084.4K, peak_vram=1.33GB, wall=0.3min)

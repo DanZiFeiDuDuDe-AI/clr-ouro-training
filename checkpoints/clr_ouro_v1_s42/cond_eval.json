@@ -1,0 +1,74 @@
+{
+  "final": {
+    "persist": {
+      "t1": {
+        "correct": 150,
+        "total": 150,
+        "acc": 1.0
+      },
+      "t2p": {
+        "correct": 89,
+        "total": 168,
+        "acc": 0.5297619047619048
+      },
+      "last": {
+        "correct": 88,
+        "total": 150,
+        "acc": 0.5866666666666667
+      },
+      "all": {
+        "correct": 239,
+        "total": 318,
+        "acc": 0.7515723270440252
+      },
+      "mean_state_norm": 0.6160080197659679
+    },
+    "reset": {
+      "t1": {
+        "correct": 150,
+        "total": 150,
+        "acc": 1.0
+      },
+      "t2p": {
+        "correct": 88,
+        "total": 168,
+        "acc": 0.5238095238095238
+      },
+      "last": {
+        "correct": 87,
+        "total": 150,
+        "acc": 0.58
+      },
+      "all": {
+        "correct": 238,
+        "total": 318,
+        "acc": 0.7484276729559748
+      },
+      "mean_state_norm": 0.6139186386417292
+    },
+    "random": {
+      "t1": {
+        "correct": 150,
+        "total": 150,
+        "acc": 1.0
+      },
+      "t2p": {
+        "correct": 88,
+        "total": 168,
+        "acc": 0.5238095238095238
+      },
+      "last": {
+        "correct": 87,
+        "total": 150,
+        "acc": 0.58
+      },
+      "all": {
+        "correct": 238,
+        "total": 318,
+        "acc": 0.7484276729559748
+      },
+      "mean_state_norm": 0.6386366726467444
+    }
+  },
+  "ceiling": 0.5238095238095238
+}

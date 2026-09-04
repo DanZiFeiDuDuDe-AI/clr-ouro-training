@@ -1,0 +1,78 @@
+{
+  "final": {
+    "persist": {
+      "t1": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 168,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 318,
+        "acc": 0.0
+      },
+      "mean_state_norm": 8.670684851940322,
+      "mean_loop_norm": 7.651920047571075
+    },
+    "reset": {
+      "t1": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 168,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 318,
+        "acc": 0.0
+      },
+      "mean_state_norm": 8.565497014507558,
+      "mean_loop_norm": 6.773664529968357
+    },
+    "random": {
+      "t1": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 168,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 150,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 318,
+        "acc": 0.0
+      },
+      "mean_state_norm": 9.168521941083032,
+      "mean_loop_norm": 9.06098519068844
+    }
+  },
+  "ceiling": 0.5238095238095238,
+  "ckpt": "D:/training/checkpoints/clr_v2_s42_a3w05/best_model.pt"
+}

@@ -1,0 +1,1 @@
+{"step": 1, "n_steps": 1, "loss": 0.7902243137359619, "block_loss": 0.8568824529647827, "logit_loss": 7.622242264915258e-05, "rank_loss": 5.3308329582214355, "elapsed_s": 60.7000617980957, "epoch": 1, "matched": 1, "skipped": 0, "last_losses": [0.7902243137359619]}

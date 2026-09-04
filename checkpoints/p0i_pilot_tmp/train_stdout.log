@@ -1,0 +1,4 @@
+=== P0I pilot: init=n1800 mode=reset steps=3 lr=0.0003 ===
+init=n1800 ckpt=D:/training/checkpoints/ouro_retention_m2_d3/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)

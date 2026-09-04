@@ -1,0 +1,28 @@
+{
+  "n_traj": 30,
+  "replaced_layers": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23
+  ],
+  "teacher_acc": [
+    0,
+    30
+  ],
+  "student_acc": [
+    0,
+    30
+  ],
+  "acc_loss_pp": 0.0,
+  "hidden_cos_mean": 0.27410559356212616,
+  "logit_cos_mean": 0.7694085955619812,
+  "top1_agree": [
+    0,
+    5
+  ],
+  "nll_diff_mean": 15.237396144866944,
+  "verdict": "student_collapsed_fix_migration"
+}
