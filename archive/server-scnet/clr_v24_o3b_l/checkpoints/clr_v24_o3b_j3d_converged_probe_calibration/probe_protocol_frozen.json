@@ -1,0 +1,348 @@
+{
+  "experiment": "O3b-J3D converged matched linear-probe calibration",
+  "status": "FINAL_PROTOCOL_FROZEN_BEFORE_TEST_METRIC_EVALUATION",
+  "source_cache_verdict": "J3C-P — FRESH ID-CARRYING FEATURE CACHE PROVENANCE CERTIFIED",
+  "representations_for_calibration": [
+    "R0",
+    "R1"
+  ],
+  "primary_carrier": "J3C fresh I2b cache; R0/R1/R2 are frozen transformations; no model forward",
+  "tasks": [
+    "entity",
+    "relation",
+    "joint"
+  ],
+  "probe": {
+    "architecture": "affine linear classifier logits=X@W+b",
+    "hidden_layers": 0,
+    "bias": true,
+    "loss": "cross_entropy",
+    "dtype": "float32",
+    "initialization": "uniform[-1/sqrt(d),+1/sqrt(d)] for W and b; same seed-specific initial classifier copied across representations",
+    "batch_norm": false,
+    "dropout": false,
+    "gradient_clipping": false,
+    "mixed_precision": false
+  },
+  "preprocessing": {
+    "conditions": [
+      "raw",
+      "train_only_standardized"
+    ],
+    "standardization": "per representation and dimension, (x-mean_train)/std_train",
+    "epsilon": 1e-08,
+    "near_zero_std_policy": "if train std < epsilon, replace std with 1.0",
+    "apply_train_statistics_to": [
+      "train",
+      "val",
+      "testA",
+      "testB"
+    ],
+    "test_statistics_used": false
+  },
+  "seed_policy": {
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "source": "exact O3b-L longer_seeds, independently confirmed in O3b-L2 config",
+    "seed11_only_screen": true,
+    "same_seed_list_for_all_representations": true,
+    "task_seed_offset": {
+      "entity": 1,
+      "relation": 2,
+      "joint": 3
+    },
+    "minibatch_rng": "fixed task-specific stream seeded 42+913+task_offset; same order across representations and seeds"
+  },
+  "optimizer_selection": {
+    "data_allowed": [
+      "train",
+      "val"
+    ],
+    "representation_specific_tuning": false,
+    "protocol_scope": "one selected protocol per task, shared by all representations and raw/standardized conditions",
+    "candidate_screen": {
+      "screen_seed": 11,
+      "steps": 3000,
+      "evaluation_interval": 100,
+      "screen_conditions": [
+        "R0_raw",
+        "R1_raw",
+        "R0_standardized",
+        "R1_standardized"
+      ],
+      "selection_score": "mean validation accuracy over last 5 evaluations across four conditions; tie-break by lower mean validation cross entropy; deterministic candidate order is final tie-break",
+      "nonfinite_candidate": "exclude and record"
+    },
+    "candidates": [
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.001
+      }
+    ],
+    "main_regularization_control": "retain wd=0 candidate and the top-ranked nonzero-wd candidate under this same train/val screen; report matched parameterization control"
+  },
+  "convergence": {
+    "evaluation_interval_steps": 100,
+    "minimum_steps": 1000,
+    "maximum_steps": 50000,
+    "patience_evaluations": 30,
+    "minimum_relative_validation_loss_improvement": 1e-05,
+    "minimum_validation_accuracy_improvement_fraction": 0.0001,
+    "monitor": "validation cross entropy primary; validation accuracy secondary",
+    "restore": "best validation cross-entropy checkpoint",
+    "plateau_confirmed": "last up to 10 validation evaluations: abs linear val-loss slope / mean val loss <=1e-4 per evaluation, abs val-accuracy slope <=1e-4 fraction per evaluation, and best checkpoint at least 5 evaluations before stop",
+    "max_steps_without_plateau": "NOT_CONVERGED"
+  },
+  "statistics": {
+    "paired_seed_ci": "paired t-based 95% CI and paired bootstrap percentile 95% CI, 20000 resamples",
+    "same_seed_pairing": true
+  },
+  "gates": {
+    "R0_R1_standardized_absolute_mean_delta": {
+      "entity_testA": 0.005,
+      "entity_testB": 0.005,
+      "relation_testA": 0.005,
+      "relation_testB": 0.005,
+      "joint_testA": 0.01,
+      "joint_testB": 0.01
+    },
+    "R1_R2_standardized_absolute_mean_delta": {
+      "entity_testA": 0.005,
+      "entity_testB": 0.005,
+      "relation_testA": 0.005,
+      "relation_testB": 0.005,
+      "joint_testA": 0.01,
+      "joint_testB": 0.01
+    },
+    "ci_compatibility": "paired CI overlaps the preregistered symmetric tolerance band around zero",
+    "all_primary_runs_plateau_confirmed": true,
+    "analytical_weight_transfer": {
+      "max_logit_abs_error": 0.001,
+      "prediction_mismatch_rate": 0.0
+    }
+  },
+  "test_policy": "TestA/TestB are not read for metrics until optimizer, preprocessing, seeds, stopping rule, and all thresholds are frozen in probe_protocol_frozen.json",
+  "stop_rule": "No J stagewise attribution unless both R0/R1 and R1/R2 standardized gates and analytical weight transfer pass; reconnect/O3c remain forbidden",
+  "optimizer_selected_per_task_from_train_val_only": {
+    "entity": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "relation": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "joint": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    }
+  },
+  "best_screened_AdamW_per_task": {
+    "entity": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "relation": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "joint": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    }
+  },
+  "best_screened_SGD_per_task": {
+    "entity": {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.03,
+      "weight_decay": 0.0,
+      "candidate_index": 11
+    },
+    "relation": {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.03,
+      "weight_decay": 0.0,
+      "candidate_index": 11
+    },
+    "joint": {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.03,
+      "weight_decay": 0.0,
+      "candidate_index": 11
+    }
+  },
+  "weight_decay_matched_controls_per_task": {
+    "entity": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "candidate_index": 5
+      }
+    },
+    "relation": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "candidate_index": 5
+      }
+    },
+    "joint": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "candidate_index": 8
+      }
+    }
+  },
+  "j_cliff_interpretation_rules": {
+    "status": "FROZEN_BEFORE_ANY_TEST_METRIC_EVALUATION",
+    "reference_historical_cliff_pp": -55.62,
+    "primary_measurement": "fresh-cache, converged, standardized Z0-to-Z1 entity linear-accessibility paired delta",
+    "categories": {
+      "not_reproduced_at_comparable_magnitude": "absolute drop <= 10 percentage points",
+      "strong_cliff_reproduced": "absolute drop >= 40 percentage points",
+      "partial_cliff_reproduced": "drop magnitude > 10pp and < 40pp"
+    },
+    "nonlinear_trigger": {
+      "comparison": "standardized Z0 vs Z1, entity task",
+      "mean_delta_Z1_minus_Z0_at_most_pp": -5.0,
+      "paired_bootstrap_95ci_upper_strictly_below_zero": true,
+      "required_splits": [
+        "validation",
+        "TestA"
+      ],
+      "also_require_TestB_when_known_labels_exist": true
+    },
+    "interpretation_limit": "These thresholds classify probe accessibility results only; they do not establish information destruction."
+  },
+  "freeze_timestamp_utc": "2026-09-25T01:34:04Z",
+  "testA_testB_metric_evaluation_started": false,
+  "selected_using_only": [
+    "train",
+    "val"
+  ]
+}

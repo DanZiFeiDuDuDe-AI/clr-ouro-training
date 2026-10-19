@@ -1,0 +1,67 @@
+{
+  "verdict": "J3P-F — HISTORICAL ROW PROVENANCE CANNOT BE CERTIFIED",
+  "criteria": {
+    "historical_feature_traversal_recovered": false,
+    "historical_label_traversal_recovered": true,
+    "canonical_source_ids_built": true,
+    "feature_label_bidirectional_identity_join": false,
+    "source_feature_label_counts_equal_per_full_split": false,
+    "source_row_ids_unique": true,
+    "feature_duplicate_or_orphan_status": "UNDETERMINABLE_WITHOUT_FEATURE_IDS; no mismatch confirmed",
+    "source_to_label_entity_relation_semantics": true,
+    "mention_token_spans_replayable": false,
+    "historical_feature_reextraction_numerically_certified": false,
+    "test_splits_used_to_change_mapping": false,
+    "artifact_hashes_frozen_before_audit": true
+  },
+  "per_split_counts": {
+    "train": {
+      "N_source_full": 11665,
+      "N_feature": 4096,
+      "N_label_full": 11665,
+      "N_source_candidate_prefix": 4096,
+      "N_label_candidate_prefix": 4096,
+      "candidate_prefix_count_equality_only": true,
+      "identity_certified": false
+    },
+    "val": {
+      "N_source_full": 2332,
+      "N_feature": 2332,
+      "N_label_full": 2332,
+      "N_source_candidate_prefix": 2332,
+      "N_label_candidate_prefix": 2332,
+      "candidate_prefix_count_equality_only": true,
+      "identity_certified": false
+    },
+    "testA": {
+      "N_source_full": 2332,
+      "N_feature": 2332,
+      "N_label_full": 2332,
+      "N_source_candidate_prefix": 2332,
+      "N_label_candidate_prefix": 2332,
+      "candidate_prefix_count_equality_only": true,
+      "identity_certified": false
+    },
+    "testB": {
+      "N_source_full": 2332,
+      "N_feature": 2332,
+      "N_label_full": 2332,
+      "N_source_candidate_prefix": 2332,
+      "N_label_candidate_prefix": 2332,
+      "candidate_prefix_count_equality_only": true,
+      "identity_certified": false
+    }
+  },
+  "source_label_audit": {
+    "sample_count": 64,
+    "all_sample_checks_pass": true,
+    "source_array_label_checks_evaluated_over_all_rows": true,
+    "person_and_value_literal_checks_evaluated_on_sample": true
+  },
+  "checkpoint_sha256_after": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+  "probe_training_performed": false,
+  "model_forward_performed": false,
+  "checkpoint_or_architecture_modified": false,
+  "measurement_gate_reopened": false,
+  "recommended_next_experiment": "Build a fresh ID-carrying feature cache from original MR sources and frozen checkpoint, then certify that cache before any probe training."
+}

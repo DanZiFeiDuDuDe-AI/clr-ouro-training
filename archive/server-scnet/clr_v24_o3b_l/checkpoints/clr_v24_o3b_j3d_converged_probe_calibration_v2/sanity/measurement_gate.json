@@ -1,0 +1,7 @@
+{
+  "status": "CLOSED",
+  "r0_r1_pass": false,
+  "r1_r2_pass": false,
+  "weight_transfer_pass": true,
+  "stagewise_j_authorized": false
+}

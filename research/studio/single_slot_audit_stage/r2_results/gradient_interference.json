@@ -1,0 +1,18 @@
+{
+  "batch": 128,
+  "gradient_norm": {
+    "0": 0.1233767420053482,
+    "1": 0.37923896312713623,
+    "2": 0.4435935318470001,
+    "3": 0.4767221212387085
+  },
+  "pairwise_gradient_cosine": {
+    "pos0_pos1": 0.44243985414505005,
+    "pos0_pos2": 0.07915174961090088,
+    "pos0_pos3": 0.34531453251838684,
+    "pos1_pos2": -0.0717395469546318,
+    "pos1_pos3": 0.1225239709019661,
+    "pos2_pos3": 0.2101341187953949
+  },
+  "note": "Diagnostic only; no optimizer step and no architecture/optimizer change."
+}

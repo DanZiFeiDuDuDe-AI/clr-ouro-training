@@ -1,0 +1,250 @@
+{
+  "ckpt": "runs/s0smoke_vector_1x64_s42/best_model.pt",
+  "ckpt_sha256": "255b8c7e6ba4c3f5",
+  "ckpt_step": 300,
+  "ceiling": 0.5666666666666667,
+  "n_eval": 150,
+  "seed": 42,
+  "protocol": "v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all",
+  "trainable_params": 954880,
+  "backbone_frozen_params": 818088961,
+  "k_curve": {
+    "k1": {
+      "with_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.0
+    },
+    "k2": {
+      "with_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150",
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.0
+    },
+    "k3": {
+      "with_S": {
+        "t1": {
+          "correct": 113,
+          "total": 150,
+          "acc": 0.7533333333333333
+        },
+        "t2p": {
+          "correct": 47,
+          "total": 150,
+          "acc": 0.31333333333333335
+        },
+        "last": {
+          "correct": 66,
+          "total": 150,
+          "acc": 0.44
+        },
+        "all": {
+          "correct": 160,
+          "total": 300,
+          "acc": 0.5333333333333333
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.31333333333333335,
+      "t2p_counts": "47/150",
+      "t2p_wilson95": [
+        0.2445,
+        0.3914
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.3133
+    },
+    "k4": {
+      "with_S": {
+        "t1": {
+          "correct": 150,
+          "total": 150,
+          "acc": 1.0
+        },
+        "t2p": {
+          "correct": 81,
+          "total": 150,
+          "acc": 0.54
+        },
+        "last": {
+          "correct": 95,
+          "total": 150,
+          "acc": 0.6333333333333333
+        },
+        "all": {
+          "correct": 231,
+          "total": 300,
+          "acc": 0.77
+        }
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 150,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 300,
+          "acc": 0.0
+        }
+      },
+      "t2p_acc": 0.54,
+      "t2p_counts": "81/150",
+      "t2p_wilson95": [
+        0.4602,
+        0.6178
+      ],
+      "without_t2p_counts": "0/150",
+      "delta_t2p": 0.54
+    }
+  },
+  "early_readout": {
+    "loop1": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150"
+    },
+    "loop2": {
+      "t2p_acc": 0.0,
+      "t2p_counts": "0/150"
+    },
+    "loop3": {
+      "t2p_acc": 0.08,
+      "t2p_counts": "12/150"
+    },
+    "loop4": {
+      "t2p_acc": 0.5466666666666666,
+      "t2p_counts": "82/150"
+    }
+  },
+  "interventions": {
+    "note": "vector: not applicable"
+  }
+}

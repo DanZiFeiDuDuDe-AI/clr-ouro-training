@@ -1,0 +1,94 @@
+{
+  "testA": {
+    "slot0_to_city0": 0.9675,
+    "slot0_to_city1": 0.015,
+    "slot0_to_city2": 0.01,
+    "slot0_to_city3": 0.0075,
+    "slot1_to_city0": 0.0125,
+    "slot1_to_city1": 0.96,
+    "slot1_to_city2": 0.01,
+    "slot1_to_city3": 0.02,
+    "slot2_to_city0": 0.005,
+    "slot2_to_city1": 0.0125,
+    "slot2_to_city2": 0.94,
+    "slot2_to_city3": 0.005,
+    "slot3_to_city0": 0.02,
+    "slot3_to_city1": 0.0075,
+    "slot3_to_city2": 0.0125,
+    "slot3_to_city3": 0.92
+  },
+  "testB": {
+    "slot0_to_city0": 0.92,
+    "slot0_to_city1": 0.015,
+    "slot0_to_city2": 0.015,
+    "slot0_to_city3": 0.0125,
+    "slot1_to_city0": 0.025,
+    "slot1_to_city1": 0.9325,
+    "slot1_to_city2": 0.025,
+    "slot1_to_city3": 0.03,
+    "slot2_to_city0": 0.0075,
+    "slot2_to_city1": 0.015,
+    "slot2_to_city2": 0.9325,
+    "slot2_to_city3": 0.005,
+    "slot3_to_city0": 0.025,
+    "slot3_to_city1": 0.0125,
+    "slot3_to_city2": 0.0175,
+    "slot3_to_city3": 0.9075
+  },
+  "testA_matrix": [
+    [
+      0.9675,
+      0.015,
+      0.01,
+      0.0075
+    ],
+    [
+      0.0125,
+      0.96,
+      0.01,
+      0.02
+    ],
+    [
+      0.005,
+      0.0125,
+      0.94,
+      0.005
+    ],
+    [
+      0.02,
+      0.0075,
+      0.0125,
+      0.92
+    ]
+  ],
+  "testA_diagonal_mean": 0.9468749999999999,
+  "testA_off_diagonal_mean": 0.011458333333333334,
+  "testB_matrix": [
+    [
+      0.92,
+      0.015,
+      0.015,
+      0.0125
+    ],
+    [
+      0.025,
+      0.9325,
+      0.025,
+      0.03
+    ],
+    [
+      0.0075,
+      0.015,
+      0.9325,
+      0.005
+    ],
+    [
+      0.025,
+      0.0125,
+      0.0175,
+      0.9075
+    ]
+  ],
+  "testB_diagonal_mean": 0.923125,
+  "testB_off_diagonal_mean": 0.017083333333333336
+}

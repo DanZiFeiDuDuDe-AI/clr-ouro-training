@@ -1,0 +1,88 @@
+\section{Supplementary: Alpha Ablation and Causal Sensitivity}
+
+\label{app:alpha_ablation}
+
+\subsection{Motivation}
+
+A reviewer raised the concern that the paper's central claim --- that multiplicative
+FiLM induces structural differentiation without functional coupling --- may be
+contingent on the specific choice of modulation strength $\alpha = 0.1$. To address
+this, we conduct a controlled sweep over $\alpha \in \{0.1, 0.5, 1.0\}$, measuring
+the causal effect $\Delta = \mathcal{L}_{\text{trained}} - \mathcal{L}_{\text{removed}}$
+at two time points: (1) immediately after loading the trained checkpoint (step~0), and
+(2) after an additional 500 training steps at the target $\alpha$.
+
+\subsection{Method}
+
+Starting from the multiplicative FiLM checkpoint at step~850 (trained with $\alpha=0.1$,
+$w_{\mathrm{std}} = 0.307$, scale projection weights frozen), we:
+
+\begin{enumerate}
+  \item Reload the checkpoint with $\alpha$ set to the target value.
+  \item Run a single-pass causal evaluation on 10 held-out prompts (pure LM
+    cross-entropy, no auxiliary loss terms).
+  \item Train for 500 additional steps (same data, optimizer, and schedule as the
+    original run) while keeping all other hyperparameters fixed.
+  \item Repeat the causal evaluation.
+\end{enumerate}
+
+Each condition measures the same four outcomes: vanilla (no FiLM layers), trained
+(normal forward), removed ($W_\ell$ active but input $S_t$ suppressed by setting
+$\_s = \text{None}$), and frozen ($S_t$ fixed to $S_0$).
+
+\subsection{Results}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+$\boldsymbol{\alpha}$ & Step & $\Delta$ causal & $w_{\mathrm{std}}$ & Loss (trained) \\
+\midrule
+\multirow{2}{*}{0.1} & 0    & $-0.045$ & 0.307 & 2.700 \\
+                     & 500  & $+0.095$ & 0.515 & 2.682 \\
+\midrule
+\multirow{2}{*}{0.5} & 0    & $+0.238$ & 0.307 & 2.938 \\
+                     & 500  & $+0.526$ & 0.539 & 3.225 \\
+\midrule
+\multirow{2}{*}{1.0} & 0    & $+2.679$ & 0.307 & 5.381 \\
+                     & 500  & $+2.862$ & 0.467 & 6.621 \\
+\bottomrule
+\end{tabular}
+\caption{Alpha ablation results. $\Delta = \mathcal{L}_{\text{trained}} - \mathcal{L}_{\text{removed}}$;
+positive values indicate that removing FiLM modulation \emph{improves} loss (modulation
+is harmful). All loss values are pure LM cross-entropy on the same 10-prompt evaluation set.}
+\end{table}
+
+\subsection{Interpretation}
+
+Three findings emerge:
+
+\textbf{1. Causal sensitivity increases with $\alpha$.} The causal delta grows from
+$-0.045$ at $\alpha=0.1$ to $+2.862$ at $\alpha=1.0$. This confirms that the
+coupling strength between the modulation mechanism and the model's output is
+controlled by $\alpha$ --- a trivial but necessary verification.
+
+\textbf{2. Strong modulation is harmful, not helpful.} At $\alpha=0.5$ and $1.0$,
+the causal delta is positive, meaning the trained model \emph{performs worse} with
+FiLM enabled than without it. The modulation becomes destructive: the frozen LoRA
+adapters and Qwen backbone were optimized under $\alpha=0.1$, and the abrupt change
+in modulation amplitude disrupts their learned compensation patterns. Even 500
+additional training steps fail to reverse this effect.
+
+\textbf{3. The $\alpha=0.1$ regime is real but narrow.} The paper's central finding
+--- structural differentiation without proportional functional influence --- holds
+within the $\alpha=0.1$ operating point. However, the broader conclusion is that
+effective modulation requires precise amplitude calibration: too small ($\alpha=0.1$)
+produces measurable structure with marginal function; too large ($\alpha \geq 0.5$)
+produces destructive interference. The narrow operating window ($\alpha \approx 0.1$)
+represents a genuine architectural limitation of the current multiplicative FiLM
+framework.<｜end▁of▁thinking｜>
+
+\subsection{Implications for the Paper's Central Claim}
+
+The reviewer's concern is addressed: the dissociation between $w_{\mathrm{std}}$ and
+functional influence is confirmed at $\alpha=0.1$, the operating point used throughout
+the paper. At higher $\alpha$, modulation becomes causally powerful but
+destructive --- a different failure mode, not evidence of functional coupling.
+Future work should explore learned adaptive $\alpha$ per layer, or gated routing
+mechanisms that eliminate the need for fixed amplitude calibration.

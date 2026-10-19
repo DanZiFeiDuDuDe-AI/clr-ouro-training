@@ -1,0 +1,90 @@
+{
+  "data_splits": {
+    "train": {
+      "input_source_rows": 11665,
+      "removed_cross_split_exact_fact_rows": 0,
+      "removed_within_split_semantic_duplicates": 424,
+      "unique_semantic_facts": 11241
+    },
+    "validation": {
+      "input_source_rows": 2332,
+      "removed_cross_split_exact_fact_rows": 22,
+      "removed_within_split_semantic_duplicates": 19,
+      "unique_semantic_facts": 2291
+    }
+  },
+  "experiment": "O3b-M2",
+  "holdout": {
+    "testA": {
+      "N_levels": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "eligible_unique_semantic_facts": 2249,
+      "episodes": 6720,
+      "filter": {
+        "input_source_rows": 2332,
+        "removed_cross_split_exact_fact_rows": 62,
+        "removed_within_split_semantic_duplicates": 21,
+        "unique_semantic_facts": 2249
+      },
+      "per_N_per_type": 240
+    },
+    "testB": {
+      "N_levels": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "eligible_unique_semantic_facts": 2314,
+      "episodes": 6720,
+      "filter": {
+        "input_source_rows": 2332,
+        "removed_cross_split_exact_fact_rows": 0,
+        "removed_within_split_semantic_duplicates": 18,
+        "unique_semantic_facts": 2314
+      },
+      "per_N_per_type": 240
+    }
+  },
+  "n_levels": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "per_cell": 180,
+  "semantic_key_overlap_unfiltered": {
+    "testA-testB": 0,
+    "train-testA": 1479,
+    "train-testB": 0,
+    "train-val": 1475,
+    "val-testA": 922,
+    "val-testB": 0
+  },
+  "source_identity": "canonical fact IDs and feature rows are disjoint by split; validation exact triples overlapping train were excluded",
+  "source_separation": {
+    "testA-testB": 0,
+    "train-testA": 0,
+    "train-testB": 0,
+    "train-val": 0,
+    "val-testA": 0,
+    "val-testB": 0
+  },
+  "target_capacity": 4,
+  "testA_testB": "NOT_OPENED_BEFORE_DECISION_FREEZE",
+  "validation_episode_count": 5040,
+  "validation_semantic_triples_used": 2291
+}

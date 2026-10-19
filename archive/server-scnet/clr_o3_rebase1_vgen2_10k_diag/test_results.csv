@@ -1,0 +1,13 @@
+﻿split,metric,capacity,correct,count,accuracy
+testA,single_write_answer,1,323,334,0.9670658682634731
+testA,single_write_answer,2,647,666,0.9714714714714715
+testA,single_write_answer,4,1293,1332,0.9707207207207207
+testA,single_write_answer,all,2263,2332,0.9704116638078902
+testA,update_old,same_slot,1099,1141,0.9631901840490797
+testA,update_latest,same_slot,1121,1141,0.9824715162138475
+testB,single_write_answer,1,313,334,0.937125748502994
+testB,single_write_answer,2,631,666,0.9474474474474475
+testB,single_write_answer,4,1274,1332,0.9564564564564565
+testB,single_write_answer,all,2218,2332,0.951114922813036
+testB,update_old,same_slot,1059,1103,0.9601087941976428
+testB,update_latest,same_slot,1055,1103,0.956482320942883

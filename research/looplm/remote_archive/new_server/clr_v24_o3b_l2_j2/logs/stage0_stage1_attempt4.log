@@ -1,0 +1,16 @@
+{"stage": "start", "out": "/root/private_data/clr_v24_o3b_l2_j2", "device": "cuda", "device_name": "BW"}
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 389, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 386, in main
+    run_stage1(H,reps,infos,pmap,jlabels,jmap,U,S,Vh,metadata)
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 335, in run_stage1
+    svg_curves(all_curve,plots)
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 350, in svg_curves
+    ss=[r for r in rows if r["normalization"]==norm and r["task"]==task and r["split"]=="val"]
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 350, in <listcomp>
+    ss=[r for r in rows if r["normalization"]==norm and r["task"]==task and r["split"]=="val"]
+                                                                            ~^^^^^^^^^
+KeyError: 'split'

@@ -1,0 +1,13 @@
+split,task,rows,known_rows,unknown_rows,classes_present,min_nonzero_class_count,median_nonzero_class_count,max_class_count
+train,entity,4096,4096,0,600,1,6.0,26
+train,relation,4096,4096,0,4,993,1029.0,1045
+train,joint,4096,4096,0,1947,1,2.0,7
+val,entity,2332,2332,0,568,1,3.0,17
+val,relation,2332,2332,0,4,550,582.5,617
+val,joint,2332,2307,25,1475,1,1.0,6
+testA,entity,2332,2332,0,570,1,4.0,17
+testA,relation,2332,2332,0,4,565,583.5,600
+testA,joint,2332,2312,20,1479,1,1.0,6
+testB,entity,2332,0,2332,0,,,
+testB,relation,2332,2332,0,4,567,580.5,604
+testB,joint,2332,0,2332,0,,,

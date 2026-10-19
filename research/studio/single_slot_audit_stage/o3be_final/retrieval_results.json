@@ -1,0 +1,768 @@
+{
+  "baseline": {
+    "testA": {
+      "n": 1332,
+      "correct": 1325,
+      "errors": [
+        {
+          "true_pos": 1,
+          "pred_pos": 3,
+          "kind": "both_wrong",
+          "margin": 0.0003914833068847656,
+          "true_person": "凌修光",
+          "true_relation": 1,
+          "pred_person": "单采光",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.020797789096832275,
+          "true_person": "姜言太",
+          "true_relation": 0,
+          "pred_person": "姜言太",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.04291236400604248,
+          "true_person": "甄青星",
+          "true_relation": 3,
+          "pred_person": "甄青星",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.03314566612243652,
+          "true_person": "家昭镇",
+          "true_relation": 0,
+          "pred_person": "家昭镇",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.03453737497329712,
+          "true_person": "全知星",
+          "true_relation": 3,
+          "pred_person": "全知星",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.09618031978607178,
+          "true_person": "解向辰",
+          "true_relation": 3,
+          "pred_person": "解向辰",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.042509496212005615,
+          "true_person": "章安舟",
+          "true_relation": 3,
+          "pred_person": "章安舟",
+          "pred_relation": 2
+        }
+      ],
+      "position_counts": {
+        "0": 333,
+        "1": 333,
+        "2": 333,
+        "3": 333
+      },
+      "accuracy": 0.9947447447447447
+    },
+    "testB": {
+      "n": 1332,
+      "correct": 1324,
+      "errors": [
+        {
+          "true_pos": 1,
+          "pred_pos": 3,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.026362359523773193,
+          "true_person": "姜弦权",
+          "true_relation": 3,
+          "pred_person": "王弦山",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.008321166038513184,
+          "true_person": "柯光白",
+          "true_relation": 0,
+          "pred_person": "柯光白",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.013743281364440918,
+          "true_person": "危渠沐",
+          "true_relation": 2,
+          "pred_person": "危渠沐",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.02506434917449951,
+          "true_person": "孔微川",
+          "true_relation": 0,
+          "pred_person": "孔微川",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.04271960258483887,
+          "true_person": "严壁浦",
+          "true_relation": 0,
+          "pred_person": "严壁浦",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.02753448486328125,
+          "true_person": "潘安岫",
+          "true_relation": 2,
+          "pred_person": "潘安岫",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.15708976984024048,
+          "true_person": "方玑园",
+          "true_relation": 0,
+          "pred_person": "方玑园",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.02798527479171753,
+          "true_person": "蔡嘉安",
+          "true_relation": 1,
+          "pred_person": "蔡嘉安",
+          "pred_relation": 0
+        }
+      ],
+      "position_counts": {
+        "0": 333,
+        "1": 333,
+        "2": 333,
+        "3": 333
+      },
+      "accuracy": 0.993993993993994
+    }
+  },
+  "factorized": {
+    "testA": {
+      "n": 1332,
+      "correct": 1310,
+      "errors": [
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.0023077726364135742,
+          "true_person": "昌星远",
+          "true_relation": 0,
+          "pred_person": "昌星远",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.050122976303100586,
+          "true_person": "任星亦",
+          "true_relation": 3,
+          "pred_person": "任星亦",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.3432151675224304,
+          "true_person": "明明澜",
+          "true_relation": 0,
+          "pred_person": "明明澜",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.24009990692138672,
+          "true_person": "诸向玉",
+          "true_relation": 3,
+          "pred_person": "诸向玉",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.12046325206756592,
+          "true_person": "姜言太",
+          "true_relation": 0,
+          "pred_person": "姜言太",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.035752177238464355,
+          "true_person": "单采光",
+          "true_relation": 3,
+          "pred_person": "单采光",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 0,
+          "kind": "both_wrong",
+          "margin": 0.04374659061431885,
+          "true_person": "秦玉野",
+          "true_relation": 2,
+          "pred_person": "霍兰南",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.14617407321929932,
+          "true_person": "舒星让",
+          "true_relation": 0,
+          "pred_person": "袁承玑",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 3,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.132942795753479,
+          "true_person": "龚和川",
+          "true_relation": 0,
+          "pred_person": "湛许红",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.040174126625061035,
+          "true_person": "曹绮拾",
+          "true_relation": 0,
+          "pred_person": "曹绮拾",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.1226508617401123,
+          "true_person": "于光桂",
+          "true_relation": 2,
+          "pred_person": "于光桂",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.024708032608032227,
+          "true_person": "乌半玄",
+          "true_relation": 3,
+          "pred_person": "庞泽山",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.045882463455200195,
+          "true_person": "甄青星",
+          "true_relation": 3,
+          "pred_person": "甄青星",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.29724085330963135,
+          "true_person": "倪拾言",
+          "true_relation": 0,
+          "pred_person": "倪拾言",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.5831320285797119,
+          "true_person": "余行栖",
+          "true_relation": 3,
+          "pred_person": "余行栖",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.07643777132034302,
+          "true_person": "仇怀亦",
+          "true_relation": 0,
+          "pred_person": "仇怀亦",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.842782735824585,
+          "true_person": "施衡乔",
+          "true_relation": 0,
+          "pred_person": "施衡乔",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.08516085147857666,
+          "true_person": "余绮拾",
+          "true_relation": 0,
+          "pred_person": "余绮拾",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.056336164474487305,
+          "true_person": "麻舟紫",
+          "true_relation": 2,
+          "pred_person": "麻舟紫",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.24077391624450684,
+          "true_person": "席言昭",
+          "true_relation": 3,
+          "pred_person": "席言昭",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.018749356269836426,
+          "true_person": "金舟白",
+          "true_relation": 2,
+          "pred_person": "金舟白",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.04960620403289795,
+          "true_person": "章安舟",
+          "true_relation": 3,
+          "pred_person": "章安舟",
+          "pred_relation": 2
+        }
+      ],
+      "position_counts": {
+        "0": 333,
+        "1": 333,
+        "2": 333,
+        "3": 333
+      },
+      "accuracy": 0.9834834834834835
+    },
+    "testB": {
+      "n": 1332,
+      "correct": 1298,
+      "errors": [
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "both_wrong",
+          "margin": 0.014735102653503418,
+          "true_person": "汪和星",
+          "true_relation": 3,
+          "pred_person": "纪玉舟",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 3,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.16780602931976318,
+          "true_person": "姜弦权",
+          "true_relation": 3,
+          "pred_person": "王弦山",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.044547438621520996,
+          "true_person": "熊川红",
+          "true_relation": 2,
+          "pred_person": "熊川红",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.026167988777160645,
+          "true_person": "柯光白",
+          "true_relation": 0,
+          "pred_person": "柯光白",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 3,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.08798551559448242,
+          "true_person": "吴明光",
+          "true_relation": 0,
+          "pred_person": "吴明光",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 0,
+          "kind": "both_wrong",
+          "margin": 0.20083963871002197,
+          "true_person": "危修亦",
+          "true_relation": 1,
+          "pred_person": "皮星歌",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 0,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.07140743732452393,
+          "true_person": "邵星向",
+          "true_relation": 3,
+          "pred_person": "元晚辰",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 2,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.3665984869003296,
+          "true_person": "靳昭知",
+          "true_relation": 0,
+          "pred_person": "樊阳长",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.18276000022888184,
+          "true_person": "孔微川",
+          "true_relation": 3,
+          "pred_person": "孔微川",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.21231794357299805,
+          "true_person": "董荧白",
+          "true_relation": 2,
+          "pred_person": "董荧白",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.0020759105682373047,
+          "true_person": "松舟丹",
+          "true_relation": 3,
+          "pred_person": "伊修舟",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.1260586977005005,
+          "true_person": "巫觞光",
+          "true_relation": 0,
+          "pred_person": "巫觞光",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.11798596382141113,
+          "true_person": "翁白弦",
+          "true_relation": 2,
+          "pred_person": "翁白弦",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.11556839942932129,
+          "true_person": "严壁浦",
+          "true_relation": 0,
+          "pred_person": "严壁浦",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.22899854183197021,
+          "true_person": "汪素权",
+          "true_relation": 3,
+          "pred_person": "戎未河",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.10945630073547363,
+          "true_person": "葛星扶",
+          "true_relation": 0,
+          "pred_person": "葛星扶",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.39634430408477783,
+          "true_person": "伊初青",
+          "true_relation": 0,
+          "pred_person": "伊初青",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.0690528154373169,
+          "true_person": "单香阳",
+          "true_relation": 3,
+          "pred_person": "单香阳",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.5002151727676392,
+          "true_person": "方玑园",
+          "true_relation": 2,
+          "pred_person": "秦观问",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.16738402843475342,
+          "true_person": "周开摇",
+          "true_relation": 3,
+          "pred_person": "周开摇",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.4900258779525757,
+          "true_person": "明舒让",
+          "true_relation": 0,
+          "pred_person": "明舒让",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.1627945899963379,
+          "true_person": "明舒让",
+          "true_relation": 3,
+          "pred_person": "明舒让",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.007917284965515137,
+          "true_person": "时云澈",
+          "true_relation": 1,
+          "pred_person": "时云澈",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.29380732774734497,
+          "true_person": "时云澈",
+          "true_relation": 2,
+          "pred_person": "时云澈",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "both_wrong",
+          "margin": 0.07548153400421143,
+          "true_person": "郗青弦",
+          "true_relation": 2,
+          "pred_person": "湛澄红",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.38165128231048584,
+          "true_person": "储凌光",
+          "true_relation": 0,
+          "pred_person": "储凌光",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.07838797569274902,
+          "true_person": "林辰知",
+          "true_relation": 3,
+          "pred_person": "苗浦许",
+          "pred_relation": 3
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 1,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.181074857711792,
+          "true_person": "张雪辰",
+          "true_relation": 0,
+          "pred_person": "张雪辰",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.17665302753448486,
+          "true_person": "麻白药",
+          "true_relation": 2,
+          "pred_person": "麻白药",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 0,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.11370086669921875,
+          "true_person": "宣望观",
+          "true_relation": 0,
+          "pred_person": "宣望观",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 2,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.17759716510772705,
+          "true_person": "宣望观",
+          "true_relation": 3,
+          "pred_person": "宣望观",
+          "pred_relation": 2
+        },
+        {
+          "true_pos": 2,
+          "pred_pos": 3,
+          "kind": "both_wrong",
+          "margin": 0.16027939319610596,
+          "true_person": "贺瑶砚",
+          "true_relation": 2,
+          "pred_person": "唐月照",
+          "pred_relation": 0
+        },
+        {
+          "true_pos": 3,
+          "pred_pos": 1,
+          "kind": "wrong_entity_correct_relation",
+          "margin": 0.016951441764831543,
+          "true_person": "水执昀",
+          "true_relation": 1,
+          "pred_person": "荣向霜",
+          "pred_relation": 1
+        },
+        {
+          "true_pos": 1,
+          "pred_pos": 0,
+          "kind": "correct_entity_wrong_relation",
+          "margin": 0.1442493200302124,
+          "true_person": "蔡嘉安",
+          "true_relation": 1,
+          "pred_person": "蔡嘉安",
+          "pred_relation": 0
+        }
+      ],
+      "position_counts": {
+        "0": 333,
+        "1": 333,
+        "2": 333,
+        "3": 333
+      },
+      "accuracy": 0.9744744744744744
+    }
+  }
+}

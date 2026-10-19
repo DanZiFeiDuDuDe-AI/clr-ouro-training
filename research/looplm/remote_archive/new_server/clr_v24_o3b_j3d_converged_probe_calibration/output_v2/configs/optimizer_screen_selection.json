@@ -1,0 +1,204 @@
+{
+  "selection_method": {
+    "data_allowed": [
+      "train",
+      "val"
+    ],
+    "representation_specific_tuning": false,
+    "protocol_scope": "one selected protocol per task, shared by all representations and raw/standardized conditions",
+    "candidate_screen": {
+      "screen_seed": 11,
+      "steps": 3000,
+      "evaluation_interval": 100,
+      "screen_conditions": [
+        "R0_raw",
+        "R1_raw",
+        "R0_standardized",
+        "R1_standardized"
+      ],
+      "selection_score": "mean validation accuracy over last 5 evaluations across four conditions; tie-break by lower mean validation cross entropy; deterministic candidate order is final tie-break",
+      "nonfinite_candidate": "exclude and record"
+    },
+    "candidates": [
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.0
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.0001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.01,
+        "weight_decay": 0.001
+      },
+      {
+        "optimizer": "SGD_momentum_0.9",
+        "lr": 0.03,
+        "weight_decay": 0.001
+      }
+    ],
+    "main_regularization_control": "retain wd=0 candidate and the top-ranked nonzero-wd candidate under this same train/val screen; report matched parameterization control"
+  },
+  "selected": {
+    "entity": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "relation": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "joint": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    }
+  },
+  "alternates": {
+    "entity": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "relation": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "joint": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    }
+  },
+  "weight_decay_controls": {
+    "entity": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "candidate_index": 5
+      }
+    },
+    "relation": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "candidate_index": 5
+      }
+    },
+    "joint": {
+      "zero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "candidate_index": 2
+      },
+      "nonzero_wd": {
+        "optimizer": "AdamW",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "candidate_index": 8
+      }
+    }
+  },
+  "all_selection_data_splits": [
+    "train",
+    "val"
+  ]
+}

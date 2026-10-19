@@ -1,0 +1,28 @@
+{
+  "checkpoint": "local_clutrr_v2_nolora",
+  "n_entities": 16,
+  "sample_entities": [
+    "Alex",
+    "Anna",
+    "Ben",
+    "Beth",
+    "Chris",
+    "Claire",
+    "David",
+    "Diana",
+    "Ethan",
+    "Eva"
+  ],
+  "baseline": {
+    "t1": 1.0,
+    "t2p": 0.37681159420289856,
+    "all": 0.6386554621848739
+  },
+  "entity_shuffled": {
+    "t1": 1.0,
+    "t2p": 0.34057971014492755,
+    "all": 0.6176470588235294
+  },
+  "delta_t2p": 0.03623188405797101,
+  "verdict": "generalized"
+}

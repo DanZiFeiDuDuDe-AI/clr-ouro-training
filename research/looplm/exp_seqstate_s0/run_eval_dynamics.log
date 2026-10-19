@@ -1,0 +1,253 @@
+==== EVAL vector 1x64 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_vector_1x64_s42/best_model.pt
+  state type      : vector
+  num slots       : 1  slot dim: 64
+  trainable params: 954,880
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : 255b8c7e6ba4c3f5 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.651, 4.693, 4.699, 4.673, 4.64, 4.598]
+    [k1_with] 50/150 traj, 16s
+    [k1_with] 100/150 traj, 31s
+    [k1_without] 50/150 traj, 16s
+    [k1_without] 100/150 traj, 31s
+  k=1  with=0.0000 (0/150)  without=0.0000 (0/150)  delta=+0.0000
+    [k2_with] 50/150 traj, 31s
+    [k2_with] 100/150 traj, 62s
+    [k2_without] 50/150 traj, 31s
+    [k2_without] 100/150 traj, 63s
+  k=2  with=0.0000 (0/150)  without=0.0000 (0/150)  delta=+0.0000
+    [k3_with] 50/150 traj, 47s
+    [k3_with] 100/150 traj, 95s
+    [k3_without] 50/150 traj, 47s
+    [k3_without] 100/150 traj, 95s
+  k=3  with=0.3133 (47/150)  without=0.0000 (0/150)  delta=+0.3133
+    [k4_with] 50/150 traj, 63s
+    [k4_with] 100/150 traj, 127s
+    [k4_without] 50/150 traj, 63s
+    [k4_without] 100/150 traj, 127s
+  k=4  with=0.5400 (81/150)  without=0.0000 (0/150)  delta=+0.5400
+  early-readout t2p: loop1=0.0000 (0/150), loop2=0.0000 (0/150), loop3=0.0800 (12/150), loop4=0.5467 (82/150)
+  (vector config: slot interventions not applicable; existing vector interventions live in _interventions_*.py)
+
+DONE -> D:\LoopLM\exp_seqstate_s0\runs\s0smoke_vector_1x64_s42/eval_s0.json
+==== EVAL sequence 2x32 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_2x32_s42/best_model.pt
+  state type      : sequence
+  num slots       : 2  slot dim: 32
+  trainable params: 946,912
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : f8c1170f89855ea9 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.824, 4.881, 4.925, 4.837, 4.831, 4.721]
+    [k1_with] 50/150 traj, 16s
+    [k1_with] 100/150 traj, 32s
+    [k1_without] 50/150 traj, 16s
+    [k1_without] 100/150 traj, 32s
+  k=1  with=0.0000 (0/150)  without=0.0000 (0/150)  delta=+0.0000
+    [k2_with] 50/150 traj, 32s
+    [k2_with] 100/150 traj, 63s
+    [k2_without] 50/150 traj, 32s
+    [k2_without] 100/150 traj, 64s
+  k=2  with=0.0400 (6/150)  without=0.0000 (0/150)  delta=+0.0400
+    [k3_with] 50/150 traj, 48s
+    [k3_with] 100/150 traj, 95s
+    [k3_without] 50/150 traj, 47s
+    [k3_without] 100/150 traj, 95s
+  k=3  with=0.5133 (77/150)  without=0.0000 (0/150)  delta=+0.5133
+    [k4_with] 50/150 traj, 63s
+    [k4_with] 100/150 traj, 126s
+    [k4_without] 50/150 traj, 63s
+    [k4_without] 100/150 traj, 127s
+  k=4  with=0.5333 (80/150)  without=0.0000 (0/150)  delta=+0.5333
+  early-readout t2p: loop1=0.0000 (0/150), loop2=0.0000 (0/150), loop3=0.2333 (35/150), loop4=0.5533 (83/150)
+    [normal] 50/150 traj, 63s
+    [normal] 100/150 traj, 126s
+  normal           t2p=0.5267 (79/150)  W95(0.4471, 0.6049)
+    [zero_slots] 50/150 traj, 63s
+    [zero_slots] 100/150 traj, 127s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+Traceback (most recent call last):
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 335, in <module>
+    main()
+    ~~~~^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 314, in main
+    cond("random_slots", "random_slots")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 301, in cond
+    r = eval_cond(model, tok, eval_data, film_layers, state_module,
+                  max_tokens, intervene=fn, no_update=no_upd,
+                  label=name, progress=50)
+  File "C:\Users\Ouyang Quan\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 102, in eval_cond
+    logits, S_new, _ = turn_forward_v1(
+                       ~~~~~~~~~~~~~~~^
+        model, inp, film_layers, None, S, ablate_s=ablate_s,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state_module=state_module, max_ut=max_ut,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        intervene=intervene, no_update=no_update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\clr_ouro.py", line 264, in turn_forward_v1
+    z = intervene(S) if intervene is not None else S
+        ~~~~~~~~~^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 175, in rnd
+    return torch.randn_like(Z, generator=gen)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+TypeError: randn_like() got an unexpected keyword argument 'generator'
+==== EVAL sequence 4x16 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_4x16_s42/best_model.pt
+  state type      : sequence
+  num slots       : 4  slot dim: 16
+  trainable params: 937,488
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : eb853149c5d31cc1 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.993, 5.044, 5.084, 4.987, 4.979, 4.85]
+    [k1_with] 50/150 traj, 16s
+    [k1_with] 100/150 traj, 32s
+    [k1_without] 50/150 traj, 16s
+    [k1_without] 100/150 traj, 32s
+  k=1  with=0.0000 (0/150)  without=0.0000 (0/150)  delta=+0.0000
+    [k2_with] 50/150 traj, 32s
+    [k2_with] 100/150 traj, 64s
+    [k2_without] 50/150 traj, 32s
+    [k2_without] 100/150 traj, 64s
+  k=2  with=0.0133 (2/150)  without=0.0000 (0/150)  delta=+0.0133
+    [k3_with] 50/150 traj, 48s
+    [k3_with] 100/150 traj, 95s
+    [k3_without] 50/150 traj, 48s
+    [k3_without] 100/150 traj, 95s
+  k=3  with=0.4800 (72/150)  without=0.0000 (0/150)  delta=+0.4800
+    [k4_with] 50/150 traj, 63s
+    [k4_with] 100/150 traj, 126s
+    [k4_without] 50/150 traj, 64s
+    [k4_without] 100/150 traj, 127s
+  k=4  with=0.5200 (78/150)  without=0.0000 (0/150)  delta=+0.5200
+  early-readout t2p: loop1=0.0000 (0/150), loop2=0.0000 (0/150), loop3=0.1133 (17/150), loop4=0.5333 (80/150)
+    [normal] 50/150 traj, 63s
+    [normal] 100/150 traj, 126s
+  normal           t2p=0.5200 (78/150)  W95(0.4406, 0.5984)
+    [zero_slots] 50/150 traj, 63s
+    [zero_slots] 100/150 traj, 126s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+Traceback (most recent call last):
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 335, in <module>
+    main()
+    ~~~~^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 314, in main
+    cond("random_slots", "random_slots")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 301, in cond
+    r = eval_cond(model, tok, eval_data, film_layers, state_module,
+                  max_tokens, intervene=fn, no_update=no_upd,
+                  label=name, progress=50)
+  File "C:\Users\Ouyang Quan\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 102, in eval_cond
+    logits, S_new, _ = turn_forward_v1(
+                       ~~~~~~~~~~~~~~~^
+        model, inp, film_layers, None, S, ablate_s=ablate_s,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state_module=state_module, max_ut=max_ut,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        intervene=intervene, no_update=no_update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\clr_ouro.py", line 264, in turn_forward_v1
+    z = intervene(S) if intervene is not None else S
+        ~~~~~~~~~^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 175, in rnd
+    return torch.randn_like(Z, generator=gen)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+TypeError: randn_like() got an unexpected keyword argument 'generator'
+==== EVAL sequence 8x8 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_8x8_s42/best_model.pt
+  state type      : sequence
+  num slots       : 8  slot dim: 8
+  trainable params: 935,080
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : b924105249ecb8c8 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.807, 4.863, 4.871, 4.825, 4.808, 4.691]
+    [k1_with] 50/150 traj, 16s
+    [k1_with] 100/150 traj, 32s
+    [k1_without] 50/150 traj, 16s
+    [k1_without] 100/150 traj, 32s
+  k=1  with=0.0000 (0/150)  without=0.0000 (0/150)  delta=+0.0000
+    [k2_with] 50/150 traj, 32s
+    [k2_with] 100/150 traj, 64s
+    [k2_without] 50/150 traj, 32s
+    [k2_without] 100/150 traj, 64s
+  k=2  with=0.0067 (1/150)  without=0.0000 (0/150)  delta=+0.0067
+    [k3_with] 50/150 traj, 47s
+    [k3_with] 100/150 traj, 95s
+    [k3_without] 50/150 traj, 47s
+    [k3_without] 100/150 traj, 95s
+  k=3  with=0.4667 (70/150)  without=0.0000 (0/150)  delta=+0.4667
+    [k4_with] 50/150 traj, 63s
+    [k4_with] 100/150 traj, 127s
+    [k4_without] 50/150 traj, 63s
+    [k4_without] 100/150 traj, 126s
+  k=4  with=0.5333 (80/150)  without=0.0000 (0/150)  delta=+0.5333
+  early-readout t2p: loop1=0.0000 (0/150), loop2=0.0000 (0/150), loop3=0.3000 (45/150), loop4=0.5333 (80/150)
+    [normal] 50/150 traj, 63s
+    [normal] 100/150 traj, 126s
+  normal           t2p=0.5533 (83/150)  W95(0.4734, 0.6306)
+    [zero_slots] 50/150 traj, 64s
+    [zero_slots] 100/150 traj, 128s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+Traceback (most recent call last):
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 335, in <module>
+    main()
+    ~~~~^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 314, in main
+    cond("random_slots", "random_slots")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 301, in cond
+    r = eval_cond(model, tok, eval_data, film_layers, state_module,
+                  max_tokens, intervene=fn, no_update=no_upd,
+                  label=name, progress=50)
+  File "C:\Users\Ouyang Quan\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 102, in eval_cond
+    logits, S_new, _ = turn_forward_v1(
+                       ~~~~~~~~~~~~~~~^
+        model, inp, film_layers, None, S, ablate_s=ablate_s,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state_module=state_module, max_ut=max_ut,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        intervene=intervene, no_update=no_update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LoopLM\clr_ouro.py", line 264, in turn_forward_v1
+    z = intervene(S) if intervene is not None else S
+        ~~~~~~~~~^^^
+  File "D:\LoopLM\exp_seqstate_s0\evaluate.py", line 175, in rnd
+    return torch.randn_like(Z, generator=gen)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+TypeError: randn_like() got an unexpected keyword argument 'generator'
+==== DYNAMICS s0smoke_vector_1x64_s42 ====
+  -> runs/s0smoke_vector_1x64_s42/dynamics_s0.json
+==== DYNAMICS s0smoke_sequence_2x32_s42 ====
+  -> runs/s0smoke_sequence_2x32_s42/dynamics_s0.json
+==== DYNAMICS s0smoke_sequence_4x16_s42 ====
+  -> runs/s0smoke_sequence_4x16_s42/dynamics_s0.json
+==== DYNAMICS s0smoke_sequence_8x8_s42 ====
+  -> runs/s0smoke_sequence_8x8_s42/dynamics_s0.json
+ALL EVAL+DYNAMICS DONE

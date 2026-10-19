@@ -1,0 +1,91 @@
+C:\Users\Ouyang Quan\AppData\Local\Programs\Python\Python313\Lib\site-packages\transformers\modeling_rope_utils.py:1034: FutureWarning: `rope_config_validation` is deprecated and has been removed. Its functionality has been moved to RotaryEmbeddingConfigMixin.validate_rope method. PreTrainedConfig inherits this class, so please call self.validate_rope() instead. Also, make sure to use the new rope_parameters syntax. You can call self.standardize_rope_params() in the meantime.
+  warnings.warn(
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[ERROR] `cache_position` is part of OuroModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\Ouyang Quan\.cache\huggingface\modules\transformers_modules\Ouro_hyphen_1_dot_4B\modeling_ouro.py.
+[transformers] The `check_model_inputs` decorator is deprecated in favor of `merge_with_config_defaults`.
+[ERROR] `cache_position` is part of OuroForCausalLM.forward's signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\Ouyang Quan\.cache\huggingface\modules\transformers_modules\Ouro_hyphen_1_dot_4B\modeling_ouro.py.
+Loading weights:   0%|          | 0/269 [00:00<?, ?it/s]Loading weights:   0%|          | 1/269 [00:02<11:44,  2.63s/it]Loading weights:   1%|¨‡         | 4/269 [00:05<05:26,  1.23s/it]Loading weights:   3%|¨†         | 7/269 [00:05<02:43,  1.60it/s]Loading weights:   3%|¨†         | 8/269 [00:05<02:25,  1.79it/s]Loading weights:   3%|¨†         | 9/269 [00:06<02:10,  1.99it/s]Loading weights:   4%|¨…         | 12/269 [00:06<01:10,  3.67it/s]Loading weights:   5%|¨„         | 14/269 [00:06<00:56,  4.55it/s]Loading weights:   6%|¨„         | 16/269 [00:06<00:42,  5.90it/s]Loading weights:   7%|¨ƒ         | 18/269 [00:07<00:41,  6.05it/s]Loading weights:   7%|¨ƒ         | 20/269 [00:07<00:51,  4.88it/s]Loading weights:   9%|¨‚         | 23/269 [00:07<00:34,  7.21it/s]Loading weights:   9%|¨         | 25/269 [00:07<00:32,  7.58it/s]Loading weights:  10%|¨€         | 27/269 [00:08<00:27,  8.85it/s]Loading weights:  11%|¨€         | 29/269 [00:08<00:30,  7.98it/s]Loading weights:  12%|¨€¨‡        | 31/269 [00:08<00:41,  5.70it/s]Loading weights:  13%|¨€¨†        | 34/269 [00:09<00:28,  8.21it/s]Loading weights:  13%|¨€¨†        | 36/269 [00:09<00:27,  8.48it/s]Loading weights:  14%|¨€¨…        | 38/269 [00:09<00:23,  9.99it/s]Loading weights:  18%|¨€¨‚        | 48/269 [00:09<00:09, 23.98it/s]Loading weights:  20%|¨€¨        | 53/269 [00:09<00:07, 28.66it/s]Loading weights:  22%|¨€¨€¨‡       | 58/269 [00:09<00:06, 32.78it/s]Loading weights:  26%|¨€¨€¨„       | 69/269 [00:09<00:04, 48.25it/s]Loading weights:  30%|¨€¨€¨€       | 81/269 [00:09<00:02, 65.12it/s]Loading weights:  36%|¨€¨€¨€¨„      | 97/269 [00:10<00:01, 88.32it/s]Loading weights:  43%|¨€¨€¨€¨€¨†     | 117/269 [00:10<00:02, 64.23it/s]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 126/269 [00:11<00:05, 26.46it/s]Loading weights:  49%|¨€¨€¨€¨€¨     | 133/269 [00:12<00:07, 17.07it/s]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 138/269 [00:12<00:07, 16.70it/s]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 142/269 [00:13<00:11, 11.34it/s]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 145/269 [00:14<00:10, 11.45it/s]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 148/269 [00:14<00:10, 11.84it/s]Loading weights:  56%|¨€¨€¨€¨€¨€¨„    | 150/269 [00:14<00:11, 10.66it/s]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 152/269 [00:15<00:15,  7.79it/s]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 155/269 [00:15<00:11,  9.63it/s]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 157/269 [00:15<00:11,  9.50it/s]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 159/269 [00:15<00:10, 10.66it/s]Loading weights:  60%|¨€¨€¨€¨€¨€¨    | 161/269 [00:16<00:13,  8.07it/s]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 163/269 [00:16<00:18,  5.79it/s]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 166/269 [00:16<00:12,  7.96it/s]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 168/269 [00:16<00:12,  8.02it/s]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 170/269 [00:17<00:10,  9.28it/s]Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 172/269 [00:17<00:12,  8.05it/s]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨…   | 174/269 [00:18<00:17,  5.55it/s]Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 177/269 [00:18<00:11,  7.89it/s]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 179/269 [00:18<00:11,  8.00it/s]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 181/269 [00:18<00:09,  9.26it/s]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 183/269 [00:18<00:10,  7.93it/s]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 185/269 [00:19<00:15,  5.32it/s]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 188/269 [00:19<00:10,  7.61it/s]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 190/269 [00:19<00:10,  7.81it/s]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 192/269 [00:20<00:08,  9.17it/s]Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 194/269 [00:20<00:09,  8.05it/s]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 196/269 [00:21<00:13,  5.55it/s]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 199/269 [00:21<00:08,  8.01it/s]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 201/269 [00:21<00:08,  7.95it/s]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨„  | 203/269 [00:21<00:07,  9.35it/s]Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 205/269 [00:21<00:07,  8.26it/s]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 207/269 [00:22<00:11,  5.54it/s]Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 210/269 [00:22<00:07,  7.97it/s]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨  | 212/269 [00:22<00:06,  8.31it/s]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 214/269 [00:22<00:05,  9.82it/s]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨€  | 216/269 [00:23<00:06,  8.75it/s]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 218/269 [00:23<00:08,  6.02it/s]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 221/269 [00:23<00:05,  8.59it/s]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 223/269 [00:24<00:05,  8.75it/s]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 227/269 [00:24<00:04,  9.07it/s]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 229/269 [00:25<00:06,  6.12it/s]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 232/269 [00:25<00:04,  8.23it/s]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 234/269 [00:25<00:04,  8.30it/s]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 236/269 [00:25<00:03,  9.56it/s]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 238/269 [00:26<00:03,  8.17it/s]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 240/269 [00:26<00:05,  5.44it/s]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 243/269 [00:26<00:03,  7.65it/s]Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 245/269 [00:27<00:03,  7.24it/s]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 247/269 [00:27<00:02,  8.57it/s]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 249/269 [00:27<00:02,  7.71it/s]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 251/269 [00:28<00:03,  5.40it/s]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 254/269 [00:28<00:01,  7.79it/s]Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 256/269 [00:28<00:01,  7.99it/s]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 258/269 [00:28<00:01,  9.40it/s]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 260/269 [00:29<00:01,  8.29it/s]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 262/269 [00:29<00:01,  5.54it/s]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 265/269 [00:29<00:00,  7.94it/s]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 267/269 [00:29<00:00,  8.30it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 269/269 [00:30<00:00,  9.87it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 269/269 [00:30<00:00,  8.94it/s]
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+========================================================================
+[S0 Sequence-State screening] run=runs\s0smoke_sequence_4x16_s42
+  state type      : sequence
+  num slots       : 4
+  slot dim        : 16   (latent capacity 64 == 64)
+  updater layers  : 1   pool: flatten
+  trainable params: 937,488 (937.5K)
+  backbone frozen : 818,088,961 params (4-bit Ouro-1.4B, requires_grad=False)
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  steps           : 400  LR=0.0003  warmup=20
+  FiLM layers     : [3, 7, 11, 15, 19, 23]
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint id   : runs\s0smoke_sequence_4x16_s42
+========================================================================
+  step   10/400 | L=7.4308 | |Z|=8.000 | z_norms=[1.6, 3.87, 5.85, 8.01] | 2.3s/step | ETA 15min
+  step   20/400 | L=16.9655 | |Z|=9.500 | z_norms=[5.46, 6.74, 8.11, 9.52] | 2.3s/step | ETA 15min
+  step   30/400 | L=16.7940 | |Z|=9.500 | z_norms=[6.35, 7.71, 8.63, 9.5] | 2.3s/step | ETA 14min
+  step   40/400 | L=11.3656 | |Z|=11.125 | z_norms=[7.79, 9.43, 10.39, 11.14] | 2.4s/step | ETA 15min
+  step   50/400 | L=11.2960 | |Z|=29.500 | z_norms=[23.09, 26.13, 28.55, 29.54] | 2.4s/step | ETA 14min
+  step   60/400 | L=5.3269 | |Z|=30.500 | z_norms=[24.86, 28.1, 30.33, 30.56] | 2.5s/step | ETA 14min
+  step   70/400 | L=2.3807 | |Z|=15.500 | z_norms=[12.31, 15.19, 15.43, 15.52] | 2.5s/step | ETA 14min
+  step   80/400 | L=1.0937 | |Z|=11.188 | z_norms=[9.69, 12.41, 11.73, 11.16] | 2.5s/step | ETA 13min
+  step   90/400 | L=4.6991 | |Z|=10.875 | z_norms=[8.73, 11.0, 10.86, 10.86] | 2.4s/step | ETA 13min
+  step  100/400 | L=2.6904 | |Z|=5.094 | z_norms=[5.62, 8.4, 6.72, 5.09] | 2.4s/step | ETA 12min
+
+  eval @ step 100 | scale_proj norms: [4.687, 4.763, 4.798, 4.707, 4.723, 4.593]
+  t2p with=0.3947 (15/38) without=0.0000 delta=+0.3947
+
+  -> saved best (delta=+0.3947) sha256=c9b8a9685c62c52c
+  step  110/400 | L=0.1713 | |Z|=3.359 | z_norms=[4.68, 7.71, 6.07, 3.36] | 3.3s/step | ETA 16min
+  step  120/400 | L=1.1948 | |Z|=5.094 | z_norms=[4.81, 8.25, 6.68, 5.1] | 3.2s/step | ETA 15min
+  step  130/400 | L=2.1088 | |Z|=11.062 | z_norms=[8.0, 10.71, 10.57, 11.07] | 3.2s/step | ETA 14min
+  step  140/400 | L=1.9684 | |Z|=3.266 | z_norms=[3.47, 6.71, 5.2, 3.26] | 3.1s/step | ETA 14min
+  step  150/400 | L=2.0505 | |Z|=5.312 | z_norms=[5.94, 9.28, 7.19, 5.32] | 3.1s/step | ETA 13min
+  step  160/400 | L=3.3046 | |Z|=11.125 | z_norms=[6.83, 9.2, 9.53, 11.15] | 3.1s/step | ETA 12min
+  step  170/400 | L=3.2074 | |Z|=5.438 | z_norms=[6.58, 10.27, 8.03, 5.44] | 3.0s/step | ETA 12min
+  step  180/400 | L=5.7283 | |Z|=5.406 | z_norms=[4.83, 8.77, 6.7, 5.41] | 3.0s/step | ETA 11min
+  step  190/400 | L=2.7122 | |Z|=4.844 | z_norms=[6.16, 9.72, 7.04, 4.85] | 3.0s/step | ETA 10min
+  step  200/400 | L=1.4078 | |Z|=3.297 | z_norms=[3.97, 7.49, 4.75, 3.3] | 3.0s/step | ETA 10min
+
+  eval @ step 200 | scale_proj norms: [4.961, 5.015, 5.058, 4.954, 4.948, 4.815]
+  t2p with=0.4474 (17/38) without=0.0000 delta=+0.4474
+
+  -> saved best (delta=+0.4474) sha256=c6c62be279b2eae4
+  step  210/400 | L=0.8170 | |Z|=2.719 | z_norms=[4.0, 7.86, 5.41, 2.73] | 3.4s/step | ETA 11min
+  step  220/400 | L=4.3310 | |Z|=3.625 | z_norms=[4.95, 8.68, 6.32, 3.62] | 3.3s/step | ETA 10min
+  step  230/400 | L=0.4491 | |Z|=3.297 | z_norms=[4.91, 8.85, 5.96, 3.29] | 3.3s/step | ETA 9min
+  step  240/400 | L=2.8068 | |Z|=2.344 | z_norms=[4.41, 8.48, 5.66, 2.34] | 3.3s/step | ETA 9min
+  step  250/400 | L=2.5092 | |Z|=2.875 | z_norms=[4.7, 8.27, 6.33, 2.87] | 3.2s/step | ETA 8min
+  step  260/400 | L=0.9837 | |Z|=2.172 | z_norms=[4.54, 7.95, 5.74, 2.17] | 3.2s/step | ETA 8min
+  step  270/400 | L=1.1245 | |Z|=3.125 | z_norms=[4.43, 8.35, 5.32, 3.13] | 3.2s/step | ETA 7min
+  step  280/400 | L=0.4320 | |Z|=2.281 | z_norms=[4.21, 7.88, 5.55, 2.29] | 3.2s/step | ETA 6min
+  step  290/400 | L=0.0588 | |Z|=1.070 | z_norms=[4.96, 8.19, 5.29, 1.07] | 3.1s/step | ETA 6min
+  step  300/400 | L=1.7776 | |Z|=1.703 | z_norms=[4.59, 8.21, 5.27, 1.71] | 3.1s/step | ETA 5min
+
+  eval @ step 300 | scale_proj norms: [4.993, 5.044, 5.084, 4.987, 4.979, 4.85]
+  t2p with=0.5263 (20/38) without=0.0000 delta=+0.5263
+
+  -> saved best (delta=+0.5263) sha256=8b9fc56cd4311e58
+  step  310/400 | L=0.0555 | |Z|=1.078 | z_norms=[4.74, 7.97, 5.26, 1.08] | 3.4s/step | ETA 5min
+  step  320/400 | L=1.4573 | |Z|=1.820 | z_norms=[4.33, 8.13, 5.31, 1.82] | 3.4s/step | ETA 5min
+  step  330/400 | L=2.2004 | |Z|=3.562 | z_norms=[4.05, 8.06, 5.83, 3.56] | 3.4s/step | ETA 4min
+  step  340/400 | L=0.0710 | |Z|=1.016 | z_norms=[4.92, 8.21, 5.44, 1.01] | 3.3s/step | ETA 3min
+  step  350/400 | L=0.7604 | |Z|=2.891 | z_norms=[5.03, 8.7, 6.07, 2.89] | 3.3s/step | ETA 3min
+  step  360/400 | L=0.0560 | |Z|=0.918 | z_norms=[4.64, 7.99, 5.05, 0.92] | 3.3s/step | ETA 2min
+  step  370/400 | L=1.5916 | |Z|=3.188 | z_norms=[5.33, 8.76, 6.51, 3.19] | 3.2s/step | ETA 2min
+  step  380/400 | L=1.5375 | |Z|=2.422 | z_norms=[4.78, 8.35, 5.78, 2.42] | 3.2s/step | ETA 1min
+  step  390/400 | L=3.1461 | |Z|=4.844 | z_norms=[4.64, 8.44, 6.1, 4.84] | 3.2s/step | ETA 1min
+  step  400/400 | L=3.1736 | |Z|=4.094 | z_norms=[4.2, 8.27, 5.88, 4.1] | 3.2s/step | ETA 0min
+
+  eval @ step 400 | scale_proj norms: [4.994, 5.045, 5.085, 4.987, 4.979, 4.85]
+  t2p with=0.5263 (20/38) without=0.0000 delta=+0.5263
+
+
+FINAL expanded eval:
+  with_S    79/150 = 0.5267  W95[0.447,0.605]
+  without_S 0/150 = 0.0000  W95[0.000,0.025]
+  delta = +0.5267
+
+DONE. Results in runs\s0smoke_sequence_4x16_s42/

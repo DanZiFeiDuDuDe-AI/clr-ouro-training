@@ -1,0 +1,342 @@
+{
+  "protocol": {
+    "checkpoint_frozen": true,
+    "main_parameters_updated": false,
+    "ouro_rerun": false,
+    "probe": "AdamW lr=1e-3 weight_decay=0 batch=128 max_epochs=100 patience=10 seed=42"
+  },
+  "v22_oracle_head": {
+    "testA": 0.4175,
+    "testB": 0.375
+  },
+  "reported_ls0_distributed_reference": {
+    "testA": 0.91,
+    "testB": 0.9
+  },
+  "probe_results": {
+    "H": {
+      "name": "H",
+      "kind": "city",
+      "dim": 2048,
+      "train_acc": 1.0,
+      "val_acc": 0.8225,
+      "testA_acc": 0.8,
+      "testB_acc": 0.8,
+      "epochs": 73,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "value_read": {
+      "name": "value_read",
+      "kind": "city",
+      "dim": 32,
+      "train_acc": 0.751,
+      "val_acc": 0.5575,
+      "testA_acc": 0.535,
+      "testB_acc": 0.5125,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "value_candidate": {
+      "name": "value_candidate",
+      "kind": "city",
+      "dim": 32,
+      "train_acc": 0.6675,
+      "val_acc": 0.465,
+      "testA_acc": 0.47,
+      "testB_acc": 0.44,
+      "epochs": 66,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "slot0": {
+      "name": "slot0",
+      "kind": "city",
+      "dim": 64,
+      "train_acc": 0.8465,
+      "val_acc": 0.6725,
+      "testA_acc": 0.585,
+      "testB_acc": 0.565,
+      "epochs": 85,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "fulls": {
+      "name": "fulls",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8365,
+      "val_acc": 0.6725,
+      "testA_acc": 0.5925,
+      "testB_acc": 0.5425,
+      "epochs": 71,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    }
+  },
+  "kv_factorization": {
+    "key_read_to_city": {
+      "name": "key_read",
+      "kind": "city",
+      "dim": 31,
+      "train_acc": 0.6905,
+      "val_acc": 0.49,
+      "testA_acc": 0.48,
+      "testB_acc": 0.4675,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "key_read_to_person": {
+      "name": "key_read",
+      "kind": "person",
+      "dim": 31,
+      "train_acc": 0.016666666666666666,
+      "val_acc": 0.08333333333333333,
+      "testA_acc": 0.0,
+      "testB_acc": 0.0,
+      "epochs": 11,
+      "n_train": 180,
+      "n_testA": 10,
+      "n_testB": 0
+    },
+    "value_read_to_city": {
+      "name": "value_read",
+      "kind": "city",
+      "dim": 32,
+      "train_acc": 0.751,
+      "val_acc": 0.5575,
+      "testA_acc": 0.535,
+      "testB_acc": 0.5125,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "value_read_to_person": {
+      "name": "value_read",
+      "kind": "person",
+      "dim": 32,
+      "train_acc": 0.005555555555555556,
+      "val_acc": 0.0,
+      "testA_acc": 0.0,
+      "testB_acc": 0.0,
+      "epochs": 11,
+      "n_train": 180,
+      "n_testA": 10,
+      "n_testB": 0
+    }
+  },
+  "bottleneck_baselines": {
+    "32": {
+      "dim": 32,
+      "train_acc": 1.0,
+      "val_acc": 0.7925,
+      "testA_acc": 0.795,
+      "testB_acc": 0.75,
+      "epochs": 80
+    },
+    "64": {
+      "dim": 64,
+      "train_acc": 0.999,
+      "val_acc": 0.7975,
+      "testA_acc": 0.8025,
+      "testB_acc": 0.76,
+      "epochs": 46
+    },
+    "128": {
+      "dim": 128,
+      "train_acc": 1.0,
+      "val_acc": 0.84,
+      "testA_acc": 0.8025,
+      "testB_acc": 0.7875,
+      "epochs": 46
+    }
+  },
+  "single_slot": {
+    "train_acc": 1.0,
+    "val_acc": 0.8975,
+    "testA_acc": 0.8475,
+    "testB_acc": 0.8375,
+    "epochs": 83
+  },
+  "routing_ablation": {
+    "fulls": {
+      "name": "fulls",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8625,
+      "val_acc": 0.68,
+      "testA_acc": 0.6175,
+      "testB_acc": 0.585,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "force_slot0_full": {
+      "name": "force_slot0_full",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8325,
+      "val_acc": 0.67,
+      "testA_acc": 0.5975,
+      "testB_acc": 0.535,
+      "epochs": 66,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "force_uniform_full": {
+      "name": "force_uniform_full",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8475,
+      "val_acc": 0.675,
+      "testA_acc": 0.585,
+      "testB_acc": 0.565,
+      "epochs": 83,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    }
+  },
+  "gru_bypass": {
+    "bypass_full": {
+      "name": "bypass_full",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.825,
+      "val_acc": 0.64,
+      "testA_acc": 0.595,
+      "testB_acc": 0.555,
+      "epochs": 57,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "fulls": {
+      "name": "fulls",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8625,
+      "val_acc": 0.68,
+      "testA_acc": 0.6175,
+      "testB_acc": 0.585,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    }
+  },
+  "init_state": {
+    "fulls": {
+      "name": "fulls",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8365,
+      "val_acc": 0.6725,
+      "testA_acc": 0.5925,
+      "testB_acc": 0.5425,
+      "epochs": 71,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "zero_init_full": {
+      "name": "zero_init_full",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.828,
+      "val_acc": 0.66,
+      "testA_acc": 0.575,
+      "testB_acc": 0.535,
+      "epochs": 63,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    },
+    "random_init_full": {
+      "name": "random_init_full",
+      "kind": "city",
+      "dim": 256,
+      "train_acc": 0.8825,
+      "val_acc": 0.69,
+      "testA_acc": 0.59,
+      "testB_acc": 0.5725,
+      "epochs": 100,
+      "n_train": 2000,
+      "n_testA": 400,
+      "n_testB": 400
+    }
+  },
+  "geometry": {
+    "H": {
+      "mean_norm": 35.47036361694336,
+      "inter_sample_cosine": 0.8230257462419569,
+      "same_city_cosine": 0.844678932231509,
+      "different_city_cosine": 0.8226675103508492,
+      "margin_same_minus_diff": 0.022011421880659854
+    },
+    "value_read": {
+      "mean_norm": 33.370262145996094,
+      "inter_sample_cosine": 0.955971409137547,
+      "same_city_cosine": 0.9839425842333499,
+      "different_city_cosine": 0.9555086468059155,
+      "margin_same_minus_diff": 0.028433937427434386
+    },
+    "value_candidate": {
+      "mean_norm": 3.9868834018707275,
+      "inter_sample_cosine": 0.04769072828060139,
+      "same_city_cosine": 0.7547402179323583,
+      "different_city_cosine": 0.0359931192495385,
+      "margin_same_minus_diff": 0.7187470986828198
+    },
+    "slot0": {
+      "mean_norm": 5.450508117675781,
+      "inter_sample_cosine": 0.15256712099688186,
+      "same_city_cosine": 0.7842267095676398,
+      "different_city_cosine": 0.1421167819244896,
+      "margin_same_minus_diff": 0.6421099276431502
+    },
+    "fulls": {
+      "mean_norm": 5.463028430938721,
+      "inter_sample_cosine": 0.15564387986602338,
+      "same_city_cosine": 0.7850418067243975,
+      "different_city_cosine": 0.14523095830804728,
+      "margin_same_minus_diff": 0.6398108484163503
+    }
+  },
+  "testA_summary": {
+    "H": 0.8,
+    "value_read": 0.535,
+    "value_candidate": 0.47,
+    "slot0": 0.585,
+    "fulls": 0.5925
+  },
+  "testB_summary": {
+    "H": 0.8,
+    "value_read": 0.5125,
+    "value_candidate": 0.44,
+    "slot0": 0.565,
+    "fulls": 0.5425
+  },
+  "wall_clock_eval_s": 14.637123199994676,
+  "interpretation": {
+    "q1_2048_to_32_sufficient": false,
+    "q2_valueread_lost_information": true,
+    "q3_valuegru_further_loss": true,
+    "q4_routing_main_at_n1": false,
+    "q5_fixed_single_slot_recovers_ls0": false,
+    "q6_ls0_distributed_dependency": "inferred only if SS-64 is low while the reported LS0 distributed reference is high",
+    "q7_primary_failure": "closure measurement; see bottleneck, ValueRead, ValueGRU, routing, and SS-64 rows",
+    "q8_next_direction": "diagnostic recommendation only; no architecture change implemented"
+  }
+}

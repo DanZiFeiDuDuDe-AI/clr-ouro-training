@@ -1,0 +1,8 @@
+{
+  "available": true,
+  "inference_uses_oracle_labels": false,
+  "entity_source": "ground-truth labels used only for this offline upper-bound control",
+  "relation_source": "ground-truth labels used only for this offline upper-bound control",
+  "joint_address_equality": "100% by construction",
+  "interpretation": "not a learned architecture result"
+}

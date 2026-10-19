@@ -1,0 +1,102 @@
+{
+  "checked_utc": "2026-09-25T13:26:03.658201+00:00",
+  "source_snapshots": {
+    "a1_v24_o21a.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o21a.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a.py",
+      "bytes": 24142,
+      "sha256": "f91ff8f05c6f9427bf724f4040b3616f3da409bc600358d4a80f0f895955d0fb",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    },
+    "a1_v24_o21a_mr.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o21a_mr.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a_mr.py",
+      "bytes": 42834,
+      "sha256": "fe18d2425357c1152d98c216e8e793a4f6f1db611ab2bd12082b7863776169df",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    },
+    "a1_v24_vgen.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_vgen.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_vgen.py",
+      "bytes": 37928,
+      "sha256": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    },
+    "a1_v24_o3a.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3a.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3a.py",
+      "bytes": 28989,
+      "sha256": "f7142e82aa35233175ca6b14aaeb383ffe5bdee37c48371b9af314cbfa5f7b92",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    },
+    "a1_v24_o3b.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3b.py",
+      "bytes": 39619,
+      "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    },
+    "a1_v24_o2_common.py": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o2_common.py",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o2_common.py",
+      "bytes": 9697,
+      "sha256": "947ce501081fa63e338b3c99c76705792050df0c2cce9e76725807079da5446d",
+      "provenance": "read-only snapshot of the active remote CLR v2.4 code tree"
+    }
+  },
+  "diagnostic_configs_not_baseline": {
+    "o3b_l_diagnostic_config.json": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/output/config.json",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\o3b_l_diagnostic_config.json",
+      "bytes": 736,
+      "sha256": "ee83fafc4eefa6c2cc66683fb5908db6d0fd4a54795a10d1c5ff416764aa5d7c",
+      "classification": "O3b-L or O3b-K diagnostic config; not the original O3b integration config"
+    },
+    "o3b_k_diagnostic_config.json": {
+      "remote_path": "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json",
+      "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\o3b_k_diagnostic_config.json",
+      "bytes": 550,
+      "sha256": "21819cc4d85e8b6b52f06bfc2a0fe4f33bcbe822025a1aa3d2432800aad5e0b2",
+      "classification": "O3b-L or O3b-K diagnostic config; not the original O3b integration config"
+    }
+  },
+  "expected_dependency_paths": {
+    "o21a_mr_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt",
+      "exists": false,
+      "error_type": "FileNotFoundError"
+    },
+    "vgen2_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt",
+      "exists": false,
+      "error_type": "FileNotFoundError"
+    },
+    "o3a_allocator_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt",
+      "exists": false,
+      "error_type": "FileNotFoundError"
+    },
+    "baseline_router_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt",
+      "exists": false,
+      "error_type": "FileNotFoundError"
+    },
+    "baseline_o3b_config": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json",
+      "exists": false,
+      "error_type": "FileNotFoundError"
+    },
+    "o21b_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+      "exists": true,
+      "bytes": 4356237,
+      "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+    },
+    "candidate_b_checkpoint": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+      "exists": true,
+      "bytes": 1166389,
+      "sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc"
+    }
+  }
+}

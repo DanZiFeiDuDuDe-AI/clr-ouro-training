@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "candidate_accuracy": 140,
+  "candidate_accuracy_frac": 0.4666666666666667,
+  "n": 300,
+  "mean_rank": 2.756666666666667,
+  "mean_margin": -0.16536676519446902,
+  "entropy": 7.053567309379577,
+  "spearman_vs_M0": 0.2570802500774356,
+  "final_loss": 2.458888053894043
+}

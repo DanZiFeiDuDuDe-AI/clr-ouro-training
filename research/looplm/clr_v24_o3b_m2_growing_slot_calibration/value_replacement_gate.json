@@ -1,0 +1,125 @@
+{
+  "all_old_new_values_differ": true,
+  "by_split": {
+    "testA": {
+      "1": {
+        "duplicate_same_key_slot_rate": 0.0,
+        "macro_action_accuracy": 1.0,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 1.0,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.0,
+        "target_slot_recall": 1.0,
+        "true_update_action_recall": 1.0,
+        "value_replacement_accuracy": 1.0
+      },
+      "2": {
+        "duplicate_same_key_slot_rate": 0.004166666666666667,
+        "macro_action_accuracy": 0.9979166666666667,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 0.9989583333333333,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.004166666666666667,
+        "target_slot_recall": 0.9958333333333333,
+        "true_update_action_recall": 0.9958333333333333,
+        "value_replacement_accuracy": 0.9958333333333333
+      },
+      "4": {
+        "duplicate_same_key_slot_rate": 0.0,
+        "macro_action_accuracy": 1.0,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 1.0,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.0,
+        "target_slot_recall": 1.0,
+        "true_update_action_recall": 1.0,
+        "value_replacement_accuracy": 1.0
+      }
+    },
+    "testB": {
+      "1": {
+        "duplicate_same_key_slot_rate": 0.008333333333333333,
+        "macro_action_accuracy": 0.9958333333333333,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 0.9979166666666667,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.008333333333333333,
+        "target_slot_recall": 0.9916666666666667,
+        "true_update_action_recall": 0.9916666666666667,
+        "value_replacement_accuracy": 0.9916666666666667
+      },
+      "2": {
+        "duplicate_same_key_slot_rate": 0.004166666666666667,
+        "macro_action_accuracy": 0.9979166666666667,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 0.9989583333333333,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.004166666666666667,
+        "target_slot_recall": 0.9958333333333333,
+        "true_update_action_recall": 0.9958333333333333,
+        "value_replacement_accuracy": 0.9958333333333333
+      },
+      "4": {
+        "duplicate_same_key_slot_rate": 0.004166666666666667,
+        "macro_action_accuracy": 0.9979166666666667,
+        "n_events": 960,
+        "n_new": 720,
+        "n_true_update": 240,
+        "new_collision_rate": 0.0,
+        "overall_action_accuracy": 0.9989583333333333,
+        "p2_wrong_update_rate": 0.0,
+        "p3_wrong_update_rate": 0.0,
+        "p4_wrong_update_rate": 0.0,
+        "precision_update": 1.0,
+        "slot_count_error_rate": 0.004166666666666667,
+        "target_slot_recall": 0.9958333333333333,
+        "true_update_action_recall": 0.9958333333333333,
+        "value_replacement_accuracy": 0.9958333333333333
+      }
+    }
+  },
+  "operational_N": [
+    1,
+    2,
+    4
+  ],
+  "pass": true,
+  "requirements": {
+    "correct_target_slot_recall": ">=0.95",
+    "duplicate_same_key_slot_creation": "<=0.05",
+    "slot_count_error": "<=0.05",
+    "true_update_action_recall": ">=0.95",
+    "value_replacement_accuracy": ">=0.95"
+  },
+  "true_update_rows": 3360
+}

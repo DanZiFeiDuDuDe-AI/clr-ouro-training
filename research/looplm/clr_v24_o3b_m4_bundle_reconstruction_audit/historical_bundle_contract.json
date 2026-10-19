@@ -1,0 +1,196 @@
+{
+  "experiment": "O3b-M4",
+  "source_of_truth": "hash-matched a1_v24_o3b.py plus dependency sources; contract describes source, not recovered weights or measured behavior",
+  "constants": {
+    "raw_hidden_dim": 2048,
+    "slots": 4,
+    "key_dim": 64,
+    "value_dim": 64,
+    "value_classes": 64,
+    "relation_families": [
+      "current_city",
+      "birth_city",
+      "favorite_city",
+      "work_city"
+    ]
+  },
+  "execution_order": [
+    "Frozen extractor/cache supplies fact_H (2048D) and fact_query_H/query hidden input (2048D).",
+    "O21B KeyEncoder maps fact_H to normalized K in R^64; O21A-MR QueryEncoder maps query hidden to normalized Q in R^64.",
+    "Initialize K memory zeros [B,4,64], V memory via OracleLocalCore.zero_state zeros [B,4,64], and occupancy zeros [B,4].",
+    "For initial facts, frozen O3a K-aware Allocator receives [K_new(64), occupancy(4)] and emits 4 slot logits; occupied slots are masked for safety.",
+    "For an incoming fact, frozen key encoder forms K_new. UpdateRouter emits action logits [NEW, UPDATE] and four pair logits. UPDATE if softmax(action)[UPDATE] >= the threshold saved in router_best.pt.",
+    "UPDATE selects argmax pair logit over occupied slots, retains the existing K, and writes the new value representation into that V slot. NEW uses the frozen O3a allocator, writes K and V, and marks occupancy.",
+    "Read uses normalized Q-to-K dot product divided by temperature 0.1, argmax slot selection, then the selected 64D V state is decoded by the corresponding frozen 64->64 local value head."
+  ],
+  "components": [
+    {
+      "name": "Ouro frozen feature extractor",
+      "role": "produces 2048D hidden vectors used by the caches; O3b integration consumes cache vectors rather than loading Ouro in load_all",
+      "input": "tokenized fact/query",
+      "output": "fact_H/query_H: 2048D",
+      "state_dict_keys": "Pinned ByteDance/Ouro-1.4B model.safetensors; not part of O3b router state",
+      "learned_parameters": 1400000000,
+      "status": "EXACTLY RECOVERABLE as pinned upstream model artifact; M4 did not rehash the 2.87GB file"
+    },
+    {
+      "name": "O21B KeyEncoder",
+      "role": "encode stored/incoming fact keys",
+      "input": "H: [B,2048]",
+      "output": "L2-normalized K: [B,64]",
+      "state_dict_keys": [
+        "key.net.0.weight (256,2048)",
+        "key.net.0.bias (256)",
+        "key.net.2.weight (64,256)",
+        "key.net.2.bias (64)"
+      ],
+      "parameters": 540992,
+      "normalization": "F.normalize(..., dim=-1)",
+      "load_contract": "torch.load(O21B)['key']; strict=True",
+      "checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+      "status": "EXACTLY RECOVERABLE"
+    },
+    {
+      "name": "O21A-MR QueryEncoder",
+      "role": "encode read-side query",
+      "input": "query hidden: [B,2048]",
+      "output": "L2-normalized Q: [B,64]",
+      "state_dict_keys": [
+        "query.net.0.weight (256,2048)",
+        "query.net.0.bias (256)",
+        "query.net.2.weight (64,256)",
+        "query.net.2.bias (64)"
+      ],
+      "parameters": 540992,
+      "load_contract": "torch.load(O21A_MR)['query']; strict=True",
+      "status": "LEARNED COMPONENT — CHECKPOINT MISSING"
+    },
+    {
+      "name": "R2 OracleLocalCore / VGen2 value path",
+      "role": "content read plus recurrent per-slot V update; VGen2 supplies final trained core state and value heads",
+      "input": "fact_H: [B,2048], prior selected V slot: [B,64]",
+      "output": "V memory [B,4,64]",
+      "core_state_dict_keys": [
+        "core.content_read.weight (64,2048)",
+        "core.content_read.bias (64)",
+        "core.shared_gru.weight_ih (192,64)",
+        "core.shared_gru.weight_hh (192,64)",
+        "core.shared_gru.bias_ih (192)",
+        "core.shared_gru.bias_hh (192)"
+      ],
+      "core_parameters": 156096,
+      "vgen2_load_contract": "torch.load(VGEN2)['core']; strict=True",
+      "initializer_checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v23_oracle_r2/best_model.pt",
+      "initializer_status": "NOT FOUND; final O3b core state would be supplied by VGen2 if that full checkpoint existed; original source loader nevertheless calls load_r2_checkpoint first",
+      "status": "VGen2 learned core is missing; R2 initializer is an additional upstream training/loader dependency"
+    },
+    {
+      "name": "VGen2 MRValueHeads",
+      "role": "per-physical-slot value decoder",
+      "input": "selected V slot: [B,64]",
+      "output": "64 class logits",
+      "state_dict_keys": [
+        "value_heads.heads.{0..3}.weight (64,64)",
+        "value_heads.heads.{0..3}.bias (64)"
+      ],
+      "parameters": 16640,
+      "load_contract": "torch.load(VGEN2)['value_heads']; strict=True",
+      "status": "LEARNED COMPONENT — CHECKPOINT MISSING"
+    },
+    {
+      "name": "O3a K-aware FreeAllocator",
+      "role": "choose a legal free slot for NEW writes",
+      "input": "K_new [B,64] concatenated with occupancy [B,4]",
+      "output": "4 slot logits [B,4]",
+      "state_dict_keys": [
+        "allocator.net.0.weight (128,68)",
+        "allocator.net.0.bias (128)",
+        "allocator.net.2.weight (4,128)",
+        "allocator.net.2.bias (4)"
+      ],
+      "parameters": 9348,
+      "load_contract": "torch.load(O3A)['allocator']; strict=True",
+      "status": "LEARNED COMPONENT — CHECKPOINT MISSING"
+    },
+    {
+      "name": "O3b baseline UpdateRouter",
+      "role": "NEW/UPDATE decision and UPDATE target slot",
+      "input": {
+        "K_new": "[B,64]",
+        "existing_K": "[B,4,64]",
+        "occupancy": "[B,4]"
+      },
+      "pair_branch": "[K_new, K_slot, K_new*K_slot, abs(K_new-K_slot), occupancy_bit] = 257D -> 128 -> 1, per slot",
+      "action_branch": "[K_new, max occupied pair logit, occupancy(4)] = 69D -> 96 -> 2",
+      "output": {
+        "action_logits": "[B,2], class 0=NEW, 1=UPDATE",
+        "pair_logits": "[B,4]"
+      },
+      "state_dict_keys": [
+        "router.pair.0.{weight,bias}",
+        "router.pair.2.{weight,bias}",
+        "router.action.0.{weight,bias}",
+        "router.action.2.{weight,bias}"
+      ],
+      "parameters": 40067,
+      "checkpoint_payload": [
+        "router",
+        "threshold",
+        "step",
+        "score",
+        "params"
+      ],
+      "status": "LEARNED COMPONENT — CHECKPOINT MISSING"
+    },
+    {
+      "name": "Retrieval matcher",
+      "role": "select slot from Q and K",
+      "formula": "(Q[:,None,:] * K).sum(-1) / 0.1; argmax",
+      "learned_parameters": 0,
+      "deterministic": true,
+      "state_dependency": "requires recovered O21B KeyEncoder and O21A-MR QueryEncoder"
+    },
+    {
+      "name": "Memory initializer and occupancy",
+      "role": "initial K/V and slot metadata",
+      "formula": "K=zeros([B,4,64]); V=OracleLocalCore.zero_state=zeros([B,4,64]); occupancy=zeros([B,4])",
+      "learned_parameters": 0,
+      "buffers": "none; the V initializer is deterministic zero state, distinct from the learned write-cell weights",
+      "status": "DETERMINISTICALLY RECONSTRUCTABLE"
+    },
+    {
+      "name": "Value decoder",
+      "role": "turn selected V into a 64-class output",
+      "formula": "selected MRValueHeads Linear(64,64) for physical slot",
+      "learned_parameters": 16640,
+      "state_dependency": "VGen2 value_heads; missing"
+    }
+  ],
+  "router_action_semantics": {
+    "0": "NEW",
+    "1": "UPDATE",
+    "decision": "UPDATE when softmax(action_logits)[1] >= checkpoint threshold",
+    "update_target": "argmax pair logit after masking empty slots",
+    "new_target": "argmax O3a allocator logits after masking occupied slots",
+    "update_key_rule": "retain old K; overwrite/update only selected V slot",
+    "new_key_rule": "write incoming K and V to selected free slot"
+  },
+  "memory_state_layout": {
+    "K": "float [4,64]",
+    "V": "float [4,64]",
+    "occupancy": "binary/float [4]",
+    "slot_ids": "physical indices 0..3",
+    "values": "64-class label space"
+  },
+  "data_and_mapping": {
+    "cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+    "labels": "cache metadata; 4 relation names and 64 value classes",
+    "cache_found": true,
+    "cache_is_model_state": false
+  },
+  "source_limits": [
+    "O3b-L/K diagnostic configs are not original O3b config.",
+    "O3b source defaults are visible but original environment overrides, exact router threshold, selected steps, and original run logs are missing.",
+    "Only a1_v24_vgen.py was found; its default output folder is clr_v24_vgen, not the O3b VGEN2 path. The VGen2 run identity/config is not fully certified."
+  ]
+}

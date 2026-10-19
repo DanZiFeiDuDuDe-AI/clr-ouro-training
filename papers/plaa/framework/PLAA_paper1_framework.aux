@@ -1,0 +1,69 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}State Pipeline}{1}{subsection.2.1}\protected@file@percent }
+\citation{cho2014learning}
+\citation{hu2022lora}
+\citation{perez2018film}
+\citation{ba2016layer}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces PLAA state pipeline architecture. The latent state $S_t$ drives FiLM modulation of frozen transformer layers; the transformer's output hidden state $h_t$ updates the state via a GRU cell, producing $S_{t+1}$ for the next turn.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{2}{PLAA state pipeline architecture. The latent state $S_t$ drives FiLM modulation of frozen transformer layers; the transformer's output hidden state $h_t$ updates the state via a GRU cell, producing $S_{t+1}$ for the next turn}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Architecture: Two Injection Mechanisms}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Training Data}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Training data composition.}}{3}{table.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Optimization}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experiments}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Setup}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}The Additive Bottleneck}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Gate ablation results. Max $\Delta = 2.01$, noise $\mathrm  {std} = \pm 19$. Causal influence is below the noise floor.}}{4}{table.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}FiLM Modulation: A Phase Transition}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces FiLM v2 training dynamics.}}{4}{table.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces FiLM v2 training dynamics. Phase~1 (steps 1--200) exhibits violent exploration with large state norms and rapid changes. Phase~2 (steps 200--1000) shows convergent self-regularization. The dashed red line marks the phase transition.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:training-dynamics}{{2}{5}{FiLM v2 training dynamics. Phase~1 (steps 1--200) exhibits violent exploration with large state norms and rapid changes. Phase~2 (steps 200--1000) shows convergent self-regularization. The dashed red line marks the phase transition}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Layer Differentiation: Breaking Symmetry}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Effect of layer differentiation loss.}}{5}{table.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Causality Test Suite}{5}{subsection.3.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Causality test results. FiLM modulation is strongly causal but disruptive: removal \emph  {lowers} loss, indicating the modulation degrades LM quality while demonstrating genuine computational influence. The effect is predominantly static (freezing $S$ changes loss by only 1.33).\\ \textsuperscript  {$\dagger $}$\Delta = \mathrm  {Loss}_{\mathrm  {baseline}} - \mathrm  {Loss}_{\mathrm  {ablation}}$; positive $\Delta $ means removing the component \emph  {lowers} loss (its presence was harmful), negative means removing it raises loss (it was helpful). Here $\Delta = 14.68 - 3.24 \approx +11.44$ confirms FiLM is disruptive.}}{5}{table.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Causal influence comparison (ablation $\Delta $PPL). FiLM modulation produces $5.7\times $ stronger effect upon removal ($\Delta \mathrm  {PPL} = 11.44$) compared to additive injection ($\Delta \mathrm  {PPL} = 2.01$). Note: positive $\Delta $ indicates the component was \emph  {increasing} loss---the modulation is disruptive to language modeling but demonstrates genuine computational influence over the residual stream.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:causal-comparison}{{3}{6}{Causal influence comparison (ablation $\Delta $PPL). FiLM modulation produces $5.7\times $ stronger effect upon removal ($\Delta \mathrm {PPL} = 11.44$) compared to additive injection ($\Delta \mathrm {PPL} = 2.01$). Note: positive $\Delta $ indicates the component was \emph {increasing} loss---the modulation is disruptive to language modeling but demonstrates genuine computational influence over the residual stream}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}The Temporal--Specialization Tension}{6}{subsection.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Temporal coherence vs.\ layer specialization tradeoff.}}{6}{table.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Gate Sensitivity Sweep}{6}{subsection.3.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Complete insensitivity to $\alpha $. The $\tanh $ bound is not the limiting factor; the modulation structure is intrinsically saturated. $w_{\mathrm  {std}}/w_{\mathrm  {mean}} = 0.0015$ is pure initialization noise level.}}{6}{table.7}\protected@file@percent }
+\citation{sukhbaatar2019augmenting,wu2022memorizing}
+\citation{graves2016hybrid}
+\citation{perez2018film}
+\citation{huang2017arbitrary}
+\citation{ba2016layer}
+\citation{peebles2023scalable}
+\citation{elhage2021mathematical}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Analysis: Three Findings on Residual Stream Factorization}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Finding 1: Additive Injection is Structurally Weak}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Finding 2: Multiplicative Modulation Achieves Causal Disruption}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Finding 3: Static $\gg $ Dynamic in Learned Modulation}{7}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Related Work}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion \& Future Work}{7}{section.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Three-phase taxonomy for latent dynamics. Phase 3 was approached but not fully achieved under the AdaLN FiLM architecture.}}{8}{table.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Phase transition diagram in $|S|$--$dS$ space. The training trajectory (black arrows) shows the system transitioning from Phase~1 (violent exploration, high norm and change rate) through Phase~2 (convergent modulation) toward Phase~3 (structural specialization, not fully achieved). Shaded regions indicate the characteristic parameter ranges for each phase.}}{8}{figure.4}\protected@file@percent }
+\newlabel{fig:phase-diagram}{{4}{8}{Phase transition diagram in $|S|$--$dS$ space. The training trajectory (black arrows) shows the system transitioning from Phase~1 (violent exploration, high norm and change rate) through Phase~2 (convergent modulation) toward Phase~3 (structural specialization, not fully achieved). Shaded regions indicate the characteristic parameter ranges for each phase}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Behavior Divergence Table}{8}{appendix.A}\protected@file@percent }
+\bibstyle{unsrtnat}
+\bibdata{references}
+\bibcite{cho2014learning}{{1}{2014}{{Cho et~al.}}{{Cho, van Merrienboer, Gulcehre, Bahdanau, Bougares, Schwenk, and Bengio}}}
+\bibcite{hu2022lora}{{2}{2022}{{Hu et~al.}}{{Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and Chen}}}
+\bibcite{perez2018film}{{3}{2018}{{Perez et~al.}}{{Perez, Strub, de~Vries, Dumoulin, and Courville}}}
+\bibcite{ba2016layer}{{4}{2016}{{Ba et~al.}}{{Ba, Kiros, and Hinton}}}
+\bibcite{sukhbaatar2019augmenting}{{5}{2019}{{Sukhbaatar et~al.}}{{Sukhbaatar, Grave, Lample, Jegou, and Joulin}}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Full Training Pipeline}{9}{appendix.B}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Full training pipeline. Dashes (---) in Steps/Params columns indicate phases where these metrics are not applicable (infrastructure setup or validation-only stages).}}{9}{table.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Scale/Shift Statistics}{9}{appendix.C}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Scale/shift statistics at steps 1000 and 2000. All 13 layers produce nearly identical modulation, confirming that no layer specialization is achieved under baseline AdaLN FiLM training.}}{9}{table.10}\protected@file@percent }
+\bibcite{wu2022memorizing}{{6}{2022}{{Wu et~al.}}{{Wu, Rabe, Hutchins, and Szegedy}}}
+\bibcite{graves2016hybrid}{{7}{2016}{{Graves et~al.}}{{Graves, Wayne, Reynolds, Harley, Danihelka, Grabska-Barwi{\'n}ska, Colmenarejo, Grefenstette, Ramalho, Agapiou, et~al.}}}
+\bibcite{huang2017arbitrary}{{8}{2017}{{Huang and Belongie}}{{}}}
+\bibcite{peebles2023scalable}{{9}{2023}{{Peebles and Xie}}{{}}}
+\bibcite{elhage2021mathematical}{{10}{2021}{{Elhage et~al.}}{{Elhage, Nanda, Olsson, Henighan, Joseph, Mann, Askell, Bai, Chen, Conerly, et~al.}}}
+\gdef \@abspage@last{11}

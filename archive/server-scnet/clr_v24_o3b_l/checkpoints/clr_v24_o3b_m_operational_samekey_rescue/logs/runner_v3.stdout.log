@@ -1,0 +1,25 @@
+O3b-M runner starting; device=cuda; cache=/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache; out=/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue
+trained candidate=A seed=17 best_epoch=9 val_score=0.7134
+trained candidate=A seed=29 best_epoch=3 val_score=0.7119
+trained candidate=A seed=43 best_epoch=7 val_score=0.7112
+trained candidate=A seed=61 best_epoch=10 val_score=0.7120
+trained candidate=A seed=79 best_epoch=10 val_score=0.7137
+trained candidate=B seed=17 best_epoch=7 val_score=0.9993
+trained candidate=B seed=29 best_epoch=10 val_score=0.9997
+trained candidate=B seed=43 best_epoch=13 val_score=0.9997
+trained candidate=B seed=61 best_epoch=14 val_score=0.9997
+trained candidate=B seed=79 best_epoch=22 val_score=1.0000
+trained candidate=C seed=17 best_epoch=1 val_score=0.7090
+trained candidate=C seed=29 best_epoch=1 val_score=0.7124
+trained candidate=C seed=43 best_epoch=7 val_score=0.7016
+trained candidate=C seed=61 best_epoch=1 val_score=0.7024
+trained candidate=C seed=79 best_epoch=1 val_score=0.7026
+{
+  "verdict": "O3b-M-F \u2014 SAME-KEY CLASSIFICATION PASSES BUT ACTION-LEVEL ADDRESSING FAILS",
+  "winner": "B",
+  "seed": 43,
+  "offline_pass": true,
+  "action_pass": false,
+  "reconnect": "NOT_RUN: real O3b reconnect is locked unless both offline behavior and action-simulation gates PASS.",
+  "wall_seconds": 114.74980542098638
+}

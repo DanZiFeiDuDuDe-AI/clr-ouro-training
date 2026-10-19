@@ -1,0 +1,15 @@
+{
+  "primary": "J3-F — STAGE 0 ROW-IDENTITY AUDIT FAILS; CONVERGED PROBE CALIBRATION NOT RUN",
+  "measurement_gate": "FAIL",
+  "measurement_gate_stage": "Stage 0",
+  "reconnect": "NO",
+  "o3c": "NO",
+  "architecture_modified": "NO",
+  "checkpoint_modified": "NO",
+  "data_leakage_detected": "NO",
+  "stagewise_j_revalidation": "NOT_RUN",
+  "optimizer_calibration": "NOT_RUN",
+  "critical_failure": [
+    "O3b-H token feature rows cannot be strictly cross-joined to MR fact IDs: no row IDs/indices in NPZ and extraction manifest/source is absent"
+  ]
+}

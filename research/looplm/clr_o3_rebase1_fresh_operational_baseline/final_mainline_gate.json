@@ -1,0 +1,19 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "status": "FAIL_STOP_AT_VGEN2",
+  "gates": {
+    "O21A_standalone": {"status": "PASS", "TestA_N4_retrieval": 1.0, "TestB_N4_retrieval": 1.0, "TestA_same_entity_N4": 1.0, "TestB_same_entity_N4": 1.0, "TestA_same_relation_N4": 1.0, "TestB_same_relation_N4": 1.0},
+    "VGen2_validation_standalone": {"status": "FAIL", "single_write_overall": 0.8353344768439108, "single_write_N4": 0.8438438438438438, "update_latest_value": 0.870304114490161, "required_each": 0.95},
+    "VGen2_TestA_TestB": "NOT_RUN_VAL_GATE_FAILED",
+    "O3a_free_slot": "NOT_RUN_STOP_RULE",
+    "Candidate_B_sha_and_Rule_A": "PASS_FROZEN",
+    "deterministic_router": "SPECIFIED_NOT_INTEGRATED",
+    "basic_WRITE": "NOT_RUN",
+    "TRUE_UPDATE_in_memory": "NOT_RUN",
+    "P2_P3_P4_integration": "NOT_RUN",
+    "queried_READ_in_memory": "NOT_RUN",
+    "full_episode": "NOT_RUN",
+    "bundle_freeze": "NOT_CREATED"
+  },
+  "mainline_pass": false
+}

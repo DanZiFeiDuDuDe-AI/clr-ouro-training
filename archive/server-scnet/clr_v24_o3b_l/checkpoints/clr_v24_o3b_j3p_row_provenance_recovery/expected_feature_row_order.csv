@@ -1,0 +1,2 @@
+﻿status,reason,expected_feature_row_index,canonical_id,split,episode_index,item_index,fact_index,entity,relation,label
+NOT_RUN,"Historical O3b-H feature extraction traversal was not preserved; a prefix-derived order would be a hypothesis, not expected historical order.",,,,,,,,,

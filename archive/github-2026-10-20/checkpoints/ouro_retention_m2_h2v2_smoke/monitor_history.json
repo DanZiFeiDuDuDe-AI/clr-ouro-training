@@ -1,0 +1,14 @@
+[
+  {
+    "step": 0,
+    "n_eval": 20,
+    "cand_acc": 0,
+    "mean_rank": 10.1,
+    "mean_margin": -4.916182994842529,
+    "rank_gt3": 20,
+    "logit_cosine": 0.887061071395874,
+    "delta_nll": 3.699262237548828,
+    "hidden_cos": 0.5218547513087591,
+    "logit_n": 10
+  }
+]

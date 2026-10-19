@@ -1,0 +1,2 @@
+﻿status,reason
+NOT_RUN,Stopped at frozen dependency recovery gate; no reconnect or baseline run performed

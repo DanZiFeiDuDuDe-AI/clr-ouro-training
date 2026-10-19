@@ -1,0 +1,32 @@
+{
+  "optimizer": "SGD_momentum_0.9",
+  "lr": 0.1,
+  "weight_decay": 0.0,
+  "batch_size": 1024,
+  "seed_list": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "initialization": "uniform[-1/sqrt(256),+1/sqrt(256)] with seed+2018; matched R1/R2 starts unless paired-init control",
+  "preprocessing": "train-only per-dimension standardization; std<1e-8 set to 1; epsilon=1e-8",
+  "training_steps_max": 100000,
+  "minimum_steps": 2000,
+  "evaluation_interval": 200,
+  "plateau_rule": "50 consecutive validation evaluations; relative best CE improvement <1e-5, accuracy range <0.01pp, normalized CE slope <1e-5/eval, accuracy slope <0.01pp/eval",
+  "selection_basis": "train/validation only; prefer plateau count then validation CE; TestA excluded",
+  "selected_from_converged_candidates": {
+    "plateau_count": 0,
+    "runs": 10,
+    "mean_val_ce": 0.3837340193801974,
+    "mean_val_accuracy": 0.8896835717381879
+  },
+  "protocol_frozen_before_TestA": true,
+  "testB_joint": "NOT EVALUABLE — NO KNOWN JOINT LABELS (Stage 0 found 0 known rows)",
+  "verified_converged": false,
+  "plateau_confirmed_runs": 0,
+  "total_seed_representation_runs": 10,
+  "selection_and_freeze_used_test_metrics": false
+}

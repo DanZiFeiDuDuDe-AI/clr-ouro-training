@@ -1,0 +1,35 @@
+{
+  "rule_a_threshold": 0.8504285216331482,
+  "artifacts": {
+    "candidate_b": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+      "sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "expected": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "unchanged": true
+    },
+    "rule_a_config": {
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m2_growing_slot_calibration/decision_rule_frozen.json",
+      "sha256": "82c236fc6f098508aeed4d2bc7488b5edae8a287128f57f0a042ae16352d0f5c",
+      "expected": "82c236fc6f098508aeed4d2bc7488b5edae8a287128f57f0a042ae16352d0f5c",
+      "unchanged": true
+    },
+    "o21a": {
+      "path": "/root/private_data/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt",
+      "sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+      "expected": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+      "unchanged": true
+    },
+    "vgen_3k": {
+      "path": "/root/private_data/clr_o3_rebase1_fresh_operational_baseline/components/vgen2/vgen2_rebase.pt",
+      "sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd",
+      "expected": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd",
+      "unchanged": true
+    },
+    "vgen_10k": {
+      "path": "/root/private_data/clr_o3_rebase1_vgen2_10k_diag/vgen2_rebase_10k_best.pt",
+      "sha256": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb",
+      "expected": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb",
+      "unchanged": true
+    }
+  }
+}

@@ -1,0 +1,2715 @@
+{
+  "variants": {
+    "original": {
+      "best_step": 600,
+      "best_val": {
+        "accuracy": 0.9233333333333333,
+        "balanced_accuracy": 0.9233333333333333,
+        "precision": 0.9091494845360825,
+        "recall": 0.9406666666666667,
+        "f1": 0.9246395806028833,
+        "auroc": 0.9746155555555556,
+        "tp": 1411,
+        "tn": 1359,
+        "fp": 141,
+        "fn": 89,
+        "threshold": 0.9865485429763794,
+        "n": 3000,
+        "per_category_accuracy": {
+          "P1_same_key": {
+            "n": 1500,
+            "accuracy": 0.9406666666666667
+          },
+          "P2_same_entity_diff_relation": {
+            "n": 250,
+            "accuracy": 0.88
+          },
+          "P3_same_relation_diff_entity": {
+            "n": 250,
+            "accuracy": 0.736
+          },
+          "P4_same_value_diff_key": {
+            "n": 250,
+            "accuracy": 0.932
+          },
+          "P5_fully_different": {
+            "n": 250,
+            "accuracy": 0.992
+          },
+          "P6_lexical_hard_negative": {
+            "n": 250,
+            "accuracy": 0.984
+          },
+          "P7_similar_entity_names": {
+            "n": 250,
+            "accuracy": 0.912
+          }
+        },
+        "pr_auc": 0.975349886180618
+      },
+      "threshold": 0.9865485429763794,
+      "steps": 3000,
+      "p2_fraction": null,
+      "params": 4292,
+      "wall_clock_s": 950.4718237999914,
+      "logs": [
+        {
+          "step": 1,
+          "loss": 3.504281520843506,
+          "loss_pair": 1.1773381233215332,
+          "loss_relation": 1.39267098903656,
+          "loss_p2": 3.2612154483795166,
+          "val": {
+            "accuracy": 0.8716666666666667,
+            "balanced_accuracy": 0.8716666666666666,
+            "precision": 0.8482198625858838,
+            "recall": 0.9053333333333333,
+            "f1": 0.8758465011286682,
+            "auroc": 0.9400044444444444,
+            "tp": 1358,
+            "tn": 1257,
+            "fp": 243,
+            "fn": 142,
+            "threshold": 1.4812582731246948,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9053333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.404
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.884
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.856
+              }
+            },
+            "pr_auc": 0.9429164197243132
+          },
+          "threshold": 1.4812582731246948
+        },
+        {
+          "step": 200,
+          "loss": 1.5801531076431274,
+          "loss_pair": 0.5297106504440308,
+          "loss_relation": 1.1589114665985107,
+          "loss_p2": 0.9419733881950378,
+          "val": {
+            "accuracy": 0.8886666666666667,
+            "balanced_accuracy": 0.8886666666666667,
+            "precision": 0.9128895184135978,
+            "recall": 0.8593333333333333,
+            "f1": 0.8853021978021979,
+            "auroc": 0.9474828888888889,
+            "tp": 1289,
+            "tn": 1377,
+            "fp": 123,
+            "fn": 211,
+            "threshold": 1.0054444074630737,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8593333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.832
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.796
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.932
+              }
+            },
+            "pr_auc": 0.9519530053208817
+          },
+          "threshold": 1.0054444074630737
+        },
+        {
+          "step": 400,
+          "loss": 1.3224055767059326,
+          "loss_pair": 0.5238489508628845,
+          "loss_relation": 0.8658614158630371,
+          "loss_p2": 0.7312519550323486,
+          "val": {
+            "accuracy": 0.9096666666666666,
+            "balanced_accuracy": 0.9096666666666666,
+            "precision": 0.8833437305053026,
+            "recall": 0.944,
+            "f1": 0.91266516274573,
+            "auroc": 0.9675466666666667,
+            "tp": 1416,
+            "tn": 1313,
+            "fp": 187,
+            "fn": 84,
+            "threshold": 0.8777450323104858,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.944
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.816
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.648
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.908
+              }
+            },
+            "pr_auc": 0.9692675499275807
+          },
+          "threshold": 0.8777450323104858
+        },
+        {
+          "step": 600,
+          "loss": 1.2510700225830078,
+          "loss_pair": 0.5447144508361816,
+          "loss_relation": 0.6748351454734802,
+          "loss_p2": 0.7378758192062378,
+          "val": {
+            "accuracy": 0.9233333333333333,
+            "balanced_accuracy": 0.9233333333333333,
+            "precision": 0.9091494845360825,
+            "recall": 0.9406666666666667,
+            "f1": 0.9246395806028833,
+            "auroc": 0.9746155555555556,
+            "tp": 1411,
+            "tn": 1359,
+            "fp": 141,
+            "fn": 89,
+            "threshold": 0.9865485429763794,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9406666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.88
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.736
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.932
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.912
+              }
+            },
+            "pr_auc": 0.975349886180618
+          },
+          "threshold": 0.9865485429763794
+        },
+        {
+          "step": 800,
+          "loss": 0.9987579584121704,
+          "loss_pair": 0.5005537271499634,
+          "loss_relation": 0.523151159286499,
+          "loss_p2": 0.47325730323791504,
+          "val": {
+            "accuracy": 0.9196666666666666,
+            "balanced_accuracy": 0.9196666666666666,
+            "precision": 0.8966603654694392,
+            "recall": 0.9486666666666667,
+            "f1": 0.9219306770327178,
+            "auroc": 0.9747711111111111,
+            "tp": 1423,
+            "tn": 1336,
+            "fp": 164,
+            "fn": 77,
+            "threshold": 0.9598003029823303,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9486666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.848
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.7
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.924
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.908
+              }
+            },
+            "pr_auc": 0.975402518209503
+          },
+          "threshold": 0.9598003029823303
+        },
+        {
+          "step": 1000,
+          "loss": 1.1088387966156006,
+          "loss_pair": 0.4574359357357025,
+          "loss_relation": 0.4512104392051697,
+          "loss_p2": 0.8515952825546265,
+          "val": {
+            "accuracy": 0.915,
+            "balanced_accuracy": 0.915,
+            "precision": 0.8798047589993899,
+            "recall": 0.9613333333333334,
+            "f1": 0.9187639375597325,
+            "auroc": 0.9727422222222222,
+            "tp": 1442,
+            "tn": 1303,
+            "fp": 197,
+            "fn": 58,
+            "threshold": 0.8680203557014465,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9613333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.82
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.628
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.9
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.908
+              }
+            },
+            "pr_auc": 0.9733183663040605
+          },
+          "threshold": 0.8680203557014465
+        },
+        {
+          "step": 1200,
+          "loss": 1.010082483291626,
+          "loss_pair": 0.49200958013534546,
+          "loss_relation": 0.3791455924510956,
+          "loss_p2": 0.6570001244544983,
+          "val": {
+            "accuracy": 0.9133333333333333,
+            "balanced_accuracy": 0.9133333333333333,
+            "precision": 0.8846153846153846,
+            "recall": 0.9506666666666667,
+            "f1": 0.9164524421593829,
+            "auroc": 0.9720582222222223,
+            "tp": 1426,
+            "tn": 1314,
+            "fp": 186,
+            "fn": 74,
+            "threshold": 0.8987019062042236,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9506666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.828
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.66
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.9
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.912
+              }
+            },
+            "pr_auc": 0.9721182058742119
+          },
+          "threshold": 0.8987019062042236
+        },
+        {
+          "step": 1400,
+          "loss": 0.8302372694015503,
+          "loss_pair": 0.4622942805290222,
+          "loss_relation": 0.32068416476249695,
+          "loss_p2": 0.41520172357559204,
+          "val": {
+            "accuracy": 0.9123333333333333,
+            "balanced_accuracy": 0.9123333333333333,
+            "precision": 0.9286209286209286,
+            "recall": 0.8933333333333333,
+            "f1": 0.9106354060482501,
+            "auroc": 0.9675155555555556,
+            "tp": 1340,
+            "tn": 1397,
+            "fp": 103,
+            "fn": 160,
+            "threshold": 1.0763256549835205,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8933333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.82
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.948
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9688164854476149
+          },
+          "threshold": 1.0763256549835205
+        },
+        {
+          "step": 1600,
+          "loss": 0.8994522094726562,
+          "loss_pair": 0.40866923332214355,
+          "loss_relation": 0.2837914228439331,
+          "loss_p2": 0.6977745890617371,
+          "val": {
+            "accuracy": 0.911,
+            "balanced_accuracy": 0.911,
+            "precision": 0.9042622950819672,
+            "recall": 0.9193333333333333,
+            "f1": 0.9117355371900826,
+            "auroc": 0.9657986666666667,
+            "tp": 1379,
+            "tn": 1354,
+            "fp": 146,
+            "fn": 121,
+            "threshold": 0.9949454069137573,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9193333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.872
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.736
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.916
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.932
+              }
+            },
+            "pr_auc": 0.96756133000507
+          },
+          "threshold": 0.9949454069137573
+        },
+        {
+          "step": 1800,
+          "loss": 0.8203770518302917,
+          "loss_pair": 0.4571172893047333,
+          "loss_relation": 0.24113474786281586,
+          "loss_p2": 0.48538485169410706,
+          "val": {
+            "accuracy": 0.9076666666666666,
+            "balanced_accuracy": 0.9076666666666666,
+            "precision": 0.9145762711864407,
+            "recall": 0.8993333333333333,
+            "f1": 0.906890756302521,
+            "auroc": 0.9627995555555555,
+            "tp": 1349,
+            "tn": 1374,
+            "fp": 126,
+            "fn": 151,
+            "threshold": 1.0392669439315796,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8993333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.896
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.764
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.932
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9646719785595909
+          },
+          "threshold": 1.0392669439315796
+        },
+        {
+          "step": 2000,
+          "loss": 0.8104040622711182,
+          "loss_pair": 0.4745274782180786,
+          "loss_relation": 0.2433183491230011,
+          "loss_p2": 0.42843490839004517,
+          "val": {
+            "accuracy": 0.912,
+            "balanced_accuracy": 0.9119999999999999,
+            "precision": 0.9158815612382234,
+            "recall": 0.9073333333333333,
+            "f1": 0.9115874079035499,
+            "auroc": 0.9652271111111111,
+            "tp": 1361,
+            "tn": 1375,
+            "fp": 125,
+            "fn": 139,
+            "threshold": 1.0470280647277832,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9073333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.904
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.756
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9668827614163099
+          },
+          "threshold": 1.0470280647277832
+        },
+        {
+          "step": 2200,
+          "loss": 0.903508186340332,
+          "loss_pair": 0.4505309462547302,
+          "loss_relation": 0.1936849057674408,
+          "loss_p2": 0.7122695446014404,
+          "val": {
+            "accuracy": 0.9143333333333333,
+            "balanced_accuracy": 0.9143333333333333,
+            "precision": 0.9196488858879136,
+            "recall": 0.908,
+            "f1": 0.9137873196913787,
+            "auroc": 0.9649631111111111,
+            "tp": 1362,
+            "tn": 1381,
+            "fp": 119,
+            "fn": 138,
+            "threshold": 1.0490765571594238,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.908
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.904
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.772
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.944
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9665324738241011
+          },
+          "threshold": 1.0490765571594238
+        },
+        {
+          "step": 2400,
+          "loss": 0.8580069541931152,
+          "loss_pair": 0.43851757049560547,
+          "loss_relation": 0.181762233376503,
+          "loss_p2": 0.657216489315033,
+          "val": {
+            "accuracy": 0.9053333333333333,
+            "balanced_accuracy": 0.9053333333333333,
+            "precision": 0.9216366158113731,
+            "recall": 0.886,
+            "f1": 0.9034670292318151,
+            "auroc": 0.9599533333333333,
+            "tp": 1329,
+            "tn": 1387,
+            "fp": 113,
+            "fn": 171,
+            "threshold": 1.070905089378357,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.886
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.916
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.788
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.94
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9619943705728341
+          },
+          "threshold": 1.070905089378357
+        },
+        {
+          "step": 2600,
+          "loss": 0.7044249176979065,
+          "loss_pair": 0.4207787811756134,
+          "loss_relation": 0.18595480918884277,
+          "loss_p2": 0.3813374936580658,
+          "val": {
+            "accuracy": 0.9083333333333333,
+            "balanced_accuracy": 0.9083333333333334,
+            "precision": 0.9198080877313228,
+            "recall": 0.8946666666666667,
+            "f1": 0.9070631970260223,
+            "auroc": 0.9622475555555555,
+            "tp": 1342,
+            "tn": 1383,
+            "fp": 117,
+            "fn": 158,
+            "threshold": 1.0717897415161133,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8946666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.92
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.764
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.944
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9639335158302138
+          },
+          "threshold": 1.0717897415161133
+        },
+        {
+          "step": 2800,
+          "loss": 0.7571910619735718,
+          "loss_pair": 0.4754127860069275,
+          "loss_relation": 0.15371133387088776,
+          "loss_p2": 0.4098452627658844,
+          "val": {
+            "accuracy": 0.9063333333333333,
+            "balanced_accuracy": 0.9063333333333333,
+            "precision": 0.9126607989167231,
+            "recall": 0.8986666666666666,
+            "f1": 0.9056096741686261,
+            "auroc": 0.9617737777777777,
+            "tp": 1348,
+            "tn": 1371,
+            "fp": 129,
+            "fn": 152,
+            "threshold": 1.0373681783676147,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8986666666666666
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.912
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.744
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.92
+              }
+            },
+            "pr_auc": 0.9634735555656713
+          },
+          "threshold": 1.0373681783676147
+        },
+        {
+          "step": 3000,
+          "loss": 0.6857632398605347,
+          "loss_pair": 0.4331727623939514,
+          "loss_relation": 0.12939411401748657,
+          "loss_p2": 0.37578684091567993,
+          "val": {
+            "accuracy": 0.9086666666666666,
+            "balanced_accuracy": 0.9086666666666667,
+            "precision": 0.9310829817158931,
+            "recall": 0.8826666666666667,
+            "f1": 0.9062286105407257,
+            "auroc": 0.9610626666666666,
+            "tp": 1324,
+            "tn": 1402,
+            "fp": 98,
+            "fn": 176,
+            "threshold": 1.1067355871200562,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8826666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.944
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.808
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.944
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9626996489145474
+          },
+          "threshold": 1.1067355871200562
+        }
+      ]
+    },
+    "p2_25": {
+      "best_step": 800,
+      "best_val": {
+        "accuracy": 0.898,
+        "balanced_accuracy": 0.898,
+        "precision": 0.9180672268907563,
+        "recall": 0.874,
+        "f1": 0.8954918032786885,
+        "auroc": 0.954564,
+        "tp": 1311,
+        "tn": 1383,
+        "fp": 117,
+        "fn": 189,
+        "threshold": 1.1067384481430054,
+        "n": 3000,
+        "per_category_accuracy": {
+          "P1_same_key": {
+            "n": 1500,
+            "accuracy": 0.874
+          },
+          "P2_same_entity_diff_relation": {
+            "n": 250,
+            "accuracy": 0.94
+          },
+          "P3_same_relation_diff_entity": {
+            "n": 250,
+            "accuracy": 0.744
+          },
+          "P4_same_value_diff_key": {
+            "n": 250,
+            "accuracy": 0.932
+          },
+          "P5_fully_different": {
+            "n": 250,
+            "accuracy": 0.988
+          },
+          "P6_lexical_hard_negative": {
+            "n": 250,
+            "accuracy": 0.984
+          },
+          "P7_similar_entity_names": {
+            "n": 250,
+            "accuracy": 0.944
+          }
+        },
+        "pr_auc": 0.9560888211768722
+      },
+      "threshold": 1.1067384481430054,
+      "steps": 3000,
+      "p2_fraction": 0.25,
+      "params": 4292,
+      "wall_clock_s": 904.1011431999941,
+      "logs": [
+        {
+          "step": 1,
+          "loss": 3.3665366172790527,
+          "loss_pair": 1.1693153381347656,
+          "loss_relation": 1.3858802318572998,
+          "loss_p2": 3.0085623264312744,
+          "val": {
+            "accuracy": 0.875,
+            "balanced_accuracy": 0.875,
+            "precision": 0.8813559322033898,
+            "recall": 0.8666666666666667,
+            "f1": 0.8739495798319329,
+            "auroc": 0.9346982222222222,
+            "tp": 1300,
+            "tn": 1325,
+            "fp": 175,
+            "fn": 200,
+            "threshold": 1.5018556118011475,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8666666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.568
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.932
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.956
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.884
+              }
+            },
+            "pr_auc": 0.9401322941084551
+          },
+          "threshold": 1.5018556118011475
+        },
+        {
+          "step": 200,
+          "loss": 1.583718180656433,
+          "loss_pair": 0.49864277243614197,
+          "loss_relation": 1.1083173751831055,
+          "loss_p2": 1.061833381652832,
+          "val": {
+            "accuracy": 0.8726666666666667,
+            "balanced_accuracy": 0.8726666666666667,
+            "precision": 0.9280245022970903,
+            "recall": 0.808,
+            "f1": 0.8638631503920171,
+            "auroc": 0.940832,
+            "tp": 1212,
+            "tn": 1406,
+            "fp": 94,
+            "fn": 288,
+            "threshold": 1.0854214429855347,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.808
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.924
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.804
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.964
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.944
+              }
+            },
+            "pr_auc": 0.9454325591761581
+          },
+          "threshold": 1.0854214429855347
+        },
+        {
+          "step": 400,
+          "loss": 1.3532390594482422,
+          "loss_pair": 0.5423897504806519,
+          "loss_relation": 0.811373233795166,
+          "loss_p2": 0.8103254437446594,
+          "val": {
+            "accuracy": 0.897,
+            "balanced_accuracy": 0.897,
+            "precision": 0.9104066161268091,
+            "recall": 0.8806666666666667,
+            "f1": 0.8952897322941377,
+            "auroc": 0.9545942222222222,
+            "tp": 1321,
+            "tn": 1370,
+            "fp": 130,
+            "fn": 179,
+            "threshold": 1.0791559219360352,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8806666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.712
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.924
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.924
+              }
+            },
+            "pr_auc": 0.9567930339987459
+          },
+          "threshold": 1.0791559219360352
+        },
+        {
+          "step": 600,
+          "loss": 0.9494946599006653,
+          "loss_pair": 0.3850809931755066,
+          "loss_relation": 0.608617901802063,
+          "loss_p2": 0.5202094316482544,
+          "val": {
+            "accuracy": 0.8943333333333333,
+            "balanced_accuracy": 0.8943333333333333,
+            "precision": 0.9026548672566371,
+            "recall": 0.884,
+            "f1": 0.8932300437857864,
+            "auroc": 0.9552093333333334,
+            "tp": 1326,
+            "tn": 1357,
+            "fp": 143,
+            "fn": 174,
+            "threshold": 1.0606188774108887,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.884
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.676
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.916
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9567616149193685
+          },
+          "threshold": 1.0606188774108887
+        },
+        {
+          "step": 800,
+          "loss": 0.8995561003684998,
+          "loss_pair": 0.4199637174606323,
+          "loss_relation": 0.5080389976501465,
+          "loss_p2": 0.4511457681655884,
+          "val": {
+            "accuracy": 0.898,
+            "balanced_accuracy": 0.898,
+            "precision": 0.9180672268907563,
+            "recall": 0.874,
+            "f1": 0.8954918032786885,
+            "auroc": 0.954564,
+            "tp": 1311,
+            "tn": 1383,
+            "fp": 117,
+            "fn": 189,
+            "threshold": 1.1067384481430054,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.874
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.94
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.744
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.932
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.944
+              }
+            },
+            "pr_auc": 0.9560888211768722
+          },
+          "threshold": 1.1067384481430054
+        },
+        {
+          "step": 1000,
+          "loss": 0.9662537574768066,
+          "loss_pair": 0.5049625039100647,
+          "loss_relation": 0.39600804448127747,
+          "loss_p2": 0.526574432849884,
+          "val": {
+            "accuracy": 0.8803333333333333,
+            "balanced_accuracy": 0.8803333333333333,
+            "precision": 0.9267015706806283,
+            "recall": 0.826,
+            "f1": 0.8734578780401834,
+            "auroc": 0.9490066666666667,
+            "tp": 1239,
+            "tn": 1402,
+            "fp": 98,
+            "fn": 261,
+            "threshold": 1.1788203716278076,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.826
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.96
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.788
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.94
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.948
+              }
+            },
+            "pr_auc": 0.9502431976261915
+          },
+          "threshold": 1.1788203716278076
+        },
+        {
+          "step": 1200,
+          "loss": 0.9411903619766235,
+          "loss_pair": 0.4304172396659851,
+          "loss_relation": 0.3480709493160248,
+          "loss_p2": 0.6734752058982849,
+          "val": {
+            "accuracy": 0.8823333333333333,
+            "balanced_accuracy": 0.8823333333333334,
+            "precision": 0.9283047050037341,
+            "recall": 0.8286666666666667,
+            "f1": 0.8756604438182458,
+            "auroc": 0.9493684444444445,
+            "tp": 1243,
+            "tn": 1404,
+            "fp": 96,
+            "fn": 257,
+            "threshold": 1.1604620218276978,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8286666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.96
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.788
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.952
+              }
+            },
+            "pr_auc": 0.9502410190775644
+          },
+          "threshold": 1.1604620218276978
+        },
+        {
+          "step": 1400,
+          "loss": 1.0455708503723145,
+          "loss_pair": 0.444753497838974,
+          "loss_relation": 0.32355797290802,
+          "loss_p2": 0.8780767321586609,
+          "val": {
+            "accuracy": 0.8743333333333333,
+            "balanced_accuracy": 0.8743333333333334,
+            "precision": 0.9250567751703255,
+            "recall": 0.8146666666666667,
+            "f1": 0.8663594470046082,
+            "auroc": 0.9462568888888889,
+            "tp": 1222,
+            "tn": 1401,
+            "fp": 99,
+            "fn": 278,
+            "threshold": 1.169205904006958,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8146666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.764
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.94
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.952
+              }
+            },
+            "pr_auc": 0.9471418727449805
+          },
+          "threshold": 1.169205904006958
+        },
+        {
+          "step": 1600,
+          "loss": 0.9461305737495422,
+          "loss_pair": 0.43627509474754333,
+          "loss_relation": 0.265590101480484,
+          "loss_p2": 0.7541208267211914,
+          "val": {
+            "accuracy": 0.8553333333333333,
+            "balanced_accuracy": 0.8553333333333333,
+            "precision": 0.8059701492537313,
+            "recall": 0.936,
+            "f1": 0.8661320172732881,
+            "auroc": 0.9408435555555555,
+            "tp": 1404,
+            "tn": 1162,
+            "fp": 338,
+            "fn": 96,
+            "threshold": 0.8712256550788879,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.936
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.868
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.564
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.872
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.388
+              }
+            },
+            "pr_auc": 0.941208351801951
+          },
+          "threshold": 0.8712256550788879
+        },
+        {
+          "step": 1800,
+          "loss": 0.8888806700706482,
+          "loss_pair": 0.5066665410995483,
+          "loss_relation": 0.21219176054000854,
+          "loss_p2": 0.5522364377975464,
+          "val": {
+            "accuracy": 0.8496666666666667,
+            "balanced_accuracy": 0.8496666666666667,
+            "precision": 0.7899391929242675,
+            "recall": 0.9526666666666667,
+            "f1": 0.8637050468419462,
+            "auroc": 0.9349728888888889,
+            "tp": 1429,
+            "tn": 1120,
+            "fp": 380,
+            "fn": 71,
+            "threshold": 0.746167778968811,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9526666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.824
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.484
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.848
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.38
+              }
+            },
+            "pr_auc": 0.9348296707295153
+          },
+          "threshold": 0.746167778968811
+        },
+        {
+          "step": 2000,
+          "loss": 0.765346109867096,
+          "loss_pair": 0.4580628275871277,
+          "loss_relation": 0.2120055854320526,
+          "loss_p2": 0.40256091952323914,
+          "val": {
+            "accuracy": 0.8526666666666667,
+            "balanced_accuracy": 0.8526666666666667,
+            "precision": 0.79652466367713,
+            "recall": 0.9473333333333334,
+            "f1": 0.8654080389768575,
+            "auroc": 0.932168,
+            "tp": 1421,
+            "tn": 1137,
+            "fp": 363,
+            "fn": 79,
+            "threshold": 0.7597568035125732,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9473333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.852
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.508
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.852
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.38
+              }
+            },
+            "pr_auc": 0.9314460957484949
+          },
+          "threshold": 0.7597568035125732
+        },
+        {
+          "step": 2200,
+          "loss": 0.9059737920761108,
+          "loss_pair": 0.4148695468902588,
+          "loss_relation": 0.20825380086898804,
+          "loss_p2": 0.7739546895027161,
+          "val": {
+            "accuracy": 0.8523333333333334,
+            "balanced_accuracy": 0.8523333333333334,
+            "precision": 0.79312257348863,
+            "recall": 0.9533333333333334,
+            "f1": 0.8658795034816833,
+            "auroc": 0.9350942222222223,
+            "tp": 1430,
+            "tn": 1127,
+            "fp": 373,
+            "fn": 70,
+            "threshold": 0.7493508458137512,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9533333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.856
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.484
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.848
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.38
+              }
+            },
+            "pr_auc": 0.9348366216038325
+          },
+          "threshold": 0.7493508458137512
+        },
+        {
+          "step": 2400,
+          "loss": 0.9106168746948242,
+          "loss_pair": 0.4514920711517334,
+          "loss_relation": 0.17322424054145813,
+          "loss_p2": 0.7450253963470459,
+          "val": {
+            "accuracy": 0.8496666666666667,
+            "balanced_accuracy": 0.8496666666666667,
+            "precision": 0.790904048807543,
+            "recall": 0.9506666666666667,
+            "f1": 0.8634574629125039,
+            "auroc": 0.933376,
+            "tp": 1426,
+            "tn": 1123,
+            "fp": 377,
+            "fn": 74,
+            "threshold": 0.7312007546424866,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9506666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.856
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.488
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.832
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.38
+              }
+            },
+            "pr_auc": 0.9327863412811745
+          },
+          "threshold": 0.7312007546424866
+        },
+        {
+          "step": 2600,
+          "loss": 0.8880717158317566,
+          "loss_pair": 0.44762077927589417,
+          "loss_relation": 0.15834259986877441,
+          "loss_p2": 0.7225593328475952,
+          "val": {
+            "accuracy": 0.851,
+            "balanced_accuracy": 0.851,
+            "precision": 0.8,
+            "recall": 0.936,
+            "f1": 0.8626728110599079,
+            "auroc": 0.9301848888888888,
+            "tp": 1404,
+            "tn": 1149,
+            "fp": 351,
+            "fn": 96,
+            "threshold": 0.8344653844833374,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.936
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.872
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.532
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.84
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.972
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.396
+              }
+            },
+            "pr_auc": 0.9288283730242479
+          },
+          "threshold": 0.8344653844833374
+        },
+        {
+          "step": 2800,
+          "loss": 0.7141155004501343,
+          "loss_pair": 0.40955638885498047,
+          "loss_relation": 0.15684303641319275,
+          "loss_p2": 0.4522751271724701,
+          "val": {
+            "accuracy": 0.8536666666666667,
+            "balanced_accuracy": 0.8536666666666667,
+            "precision": 0.8082510168506682,
+            "recall": 0.9273333333333333,
+            "f1": 0.8637069233157405,
+            "auroc": 0.9296786666666667,
+            "tp": 1391,
+            "tn": 1170,
+            "fp": 330,
+            "fn": 109,
+            "threshold": 0.8615802526473999,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9273333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.884
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.544
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.872
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.416
+              }
+            },
+            "pr_auc": 0.9284662169488426
+          },
+          "threshold": 0.8615802526473999
+        },
+        {
+          "step": 3000,
+          "loss": 0.7992250919342041,
+          "loss_pair": 0.4575954079627991,
+          "loss_relation": 0.12498451769351959,
+          "loss_p2": 0.5582748055458069,
+          "val": {
+            "accuracy": 0.8546666666666667,
+            "balanced_accuracy": 0.8546666666666667,
+            "precision": 0.8015873015873016,
+            "recall": 0.9426666666666667,
+            "f1": 0.866421568627451,
+            "auroc": 0.9324884444444445,
+            "tp": 1414,
+            "tn": 1150,
+            "fp": 350,
+            "fn": 86,
+            "threshold": 0.8155115246772766,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9426666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.88
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.512
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.852
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.976
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.98
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.4
+              }
+            },
+            "pr_auc": 0.931494769526809
+          },
+          "threshold": 0.8155115246772766
+        }
+      ]
+    },
+    "p2_50": {
+      "best_step": 2400,
+      "best_val": {
+        "accuracy": 0.895,
+        "balanced_accuracy": 0.895,
+        "precision": 0.8905735003295979,
+        "recall": 0.9006666666666666,
+        "f1": 0.8955916473317865,
+        "auroc": 0.9522791111111111,
+        "tp": 1351,
+        "tn": 1334,
+        "fp": 166,
+        "fn": 149,
+        "threshold": 1.2388920783996582,
+        "n": 3000,
+        "per_category_accuracy": {
+          "P1_same_key": {
+            "n": 1500,
+            "accuracy": 0.9006666666666666
+          },
+          "P2_same_entity_diff_relation": {
+            "n": 250,
+            "accuracy": 0.992
+          },
+          "P3_same_relation_diff_entity": {
+            "n": 250,
+            "accuracy": 0.52
+          },
+          "P4_same_value_diff_key": {
+            "n": 250,
+            "accuracy": 0.9
+          },
+          "P5_fully_different": {
+            "n": 250,
+            "accuracy": 0.996
+          },
+          "P6_lexical_hard_negative": {
+            "n": 250,
+            "accuracy": 0.996
+          },
+          "P7_similar_entity_names": {
+            "n": 250,
+            "accuracy": 0.932
+          }
+        },
+        "pr_auc": 0.9484112302210024
+      },
+      "threshold": 1.2388920783996582,
+      "steps": 3000,
+      "p2_fraction": 0.5,
+      "params": 4292,
+      "wall_clock_s": 904.5989008000033,
+      "logs": [
+        {
+          "step": 1,
+          "loss": 3.686937093734741,
+          "loss_pair": 1.4457972049713135,
+          "loss_relation": 1.3772428035736084,
+          "loss_p2": 3.105037212371826,
+          "val": {
+            "accuracy": 0.8666666666666667,
+            "balanced_accuracy": 0.8666666666666667,
+            "precision": 0.8190255220417634,
+            "recall": 0.9413333333333334,
+            "f1": 0.8759305210918115,
+            "auroc": 0.9478008888888889,
+            "tp": 1412,
+            "tn": 1188,
+            "fp": 312,
+            "fn": 88,
+            "threshold": 1.4873952865600586,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9413333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.32
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.8
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.9
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.964
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.968
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.8
+              }
+            },
+            "pr_auc": 0.9499972747590555
+          },
+          "threshold": 1.4873952865600586
+        },
+        {
+          "step": 200,
+          "loss": 1.548849105834961,
+          "loss_pair": 0.529110312461853,
+          "loss_relation": 1.0735818147659302,
+          "loss_p2": 0.9658957719802856,
+          "val": {
+            "accuracy": 0.8683333333333333,
+            "balanced_accuracy": 0.8683333333333334,
+            "precision": 0.9012345679012346,
+            "recall": 0.8273333333333334,
+            "f1": 0.8627042057698994,
+            "auroc": 0.9391408888888889,
+            "tp": 1241,
+            "tn": 1364,
+            "fp": 136,
+            "fn": 259,
+            "threshold": 1.1187419891357422,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8273333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.936
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.664
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.924
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.944
+              }
+            },
+            "pr_auc": 0.9423031135551035
+          },
+          "threshold": 1.1187419891357422
+        },
+        {
+          "step": 400,
+          "loss": 1.2870681285858154,
+          "loss_pair": 0.5205111503601074,
+          "loss_relation": 0.7765400409698486,
+          "loss_p2": 0.7565739750862122,
+          "val": {
+            "accuracy": 0.8796666666666667,
+            "balanced_accuracy": 0.8796666666666666,
+            "precision": 0.8974180041870202,
+            "recall": 0.8573333333333333,
+            "f1": 0.8769178315717694,
+            "auroc": 0.9427057777777778,
+            "tp": 1286,
+            "tn": 1353,
+            "fp": 147,
+            "fn": 214,
+            "threshold": 1.2900207042694092,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8573333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.984
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.6
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9420893717354083
+          },
+          "threshold": 1.2900207042694092
+        },
+        {
+          "step": 600,
+          "loss": 1.164788007736206,
+          "loss_pair": 0.4951145350933075,
+          "loss_relation": 0.5933529734611511,
+          "loss_p2": 0.7459940314292908,
+          "val": {
+            "accuracy": 0.8786666666666667,
+            "balanced_accuracy": 0.8786666666666667,
+            "precision": 0.8955431754874652,
+            "recall": 0.8573333333333333,
+            "f1": 0.8760217983651225,
+            "auroc": 0.9412804444444445,
+            "tp": 1286,
+            "tn": 1350,
+            "fp": 150,
+            "fn": 214,
+            "threshold": 1.3204176425933838,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8573333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.58
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.924
+              }
+            },
+            "pr_auc": 0.9394926447715437
+          },
+          "threshold": 1.3204176425933838
+        },
+        {
+          "step": 800,
+          "loss": 0.995080828666687,
+          "loss_pair": 0.40929532051086426,
+          "loss_relation": 0.47230565547943115,
+          "loss_p2": 0.6992653012275696,
+          "val": {
+            "accuracy": 0.8696666666666667,
+            "balanced_accuracy": 0.8696666666666666,
+            "precision": 0.8992080633549316,
+            "recall": 0.8326666666666667,
+            "f1": 0.8646590515749395,
+            "auroc": 0.9397773333333334,
+            "tp": 1249,
+            "tn": 1360,
+            "fp": 140,
+            "fn": 251,
+            "threshold": 1.37711501121521,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8326666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 1.0
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.612
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9370859041289767
+          },
+          "threshold": 1.37711501121521
+        },
+        {
+          "step": 1000,
+          "loss": 0.9735239744186401,
+          "loss_pair": 0.42333218455314636,
+          "loss_relation": 0.390397310256958,
+          "loss_p2": 0.70998615026474,
+          "val": {
+            "accuracy": 0.8716666666666667,
+            "balanced_accuracy": 0.8716666666666666,
+            "precision": 0.8984989278055754,
+            "recall": 0.838,
+            "f1": 0.8671955846843739,
+            "auroc": 0.9398777777777778,
+            "tp": 1257,
+            "tn": 1358,
+            "fp": 142,
+            "fn": 243,
+            "threshold": 1.3556864261627197,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.838
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 1.0
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.6
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.912
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.936886759727348
+          },
+          "threshold": 1.3556864261627197
+        },
+        {
+          "step": 1200,
+          "loss": 1.0445008277893066,
+          "loss_pair": 0.5187439322471619,
+          "loss_relation": 0.3156561553478241,
+          "loss_p2": 0.7358577251434326,
+          "val": {
+            "accuracy": 0.871,
+            "balanced_accuracy": 0.871,
+            "precision": 0.8989247311827957,
+            "recall": 0.836,
+            "f1": 0.8663212435233161,
+            "auroc": 0.9403982222222222,
+            "tp": 1254,
+            "tn": 1359,
+            "fp": 141,
+            "fn": 246,
+            "threshold": 1.3554378747940063,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.836
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 1.0
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.592
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.924
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9372058827593756
+          },
+          "threshold": 1.3554378747940063
+        },
+        {
+          "step": 1400,
+          "loss": 0.8038132190704346,
+          "loss_pair": 0.40358197689056396,
+          "loss_relation": 0.2999933063983917,
+          "loss_p2": 0.5004691481590271,
+          "val": {
+            "accuracy": 0.8783333333333333,
+            "balanced_accuracy": 0.8783333333333333,
+            "precision": 0.8900343642611683,
+            "recall": 0.8633333333333333,
+            "f1": 0.8764805414551607,
+            "auroc": 0.9429493333333333,
+            "tp": 1295,
+            "tn": 1340,
+            "fp": 160,
+            "fn": 205,
+            "threshold": 1.2935205698013306,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8633333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.536
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9391497231310533
+          },
+          "threshold": 1.2935205698013306
+        },
+        {
+          "step": 1600,
+          "loss": 0.9061671495437622,
+          "loss_pair": 0.4388110339641571,
+          "loss_relation": 0.23781311511993408,
+          "loss_p2": 0.6968991160392761,
+          "val": {
+            "accuracy": 0.879,
+            "balanced_accuracy": 0.879,
+            "precision": 0.8917987594762233,
+            "recall": 0.8626666666666667,
+            "f1": 0.8769908505591325,
+            "auroc": 0.9440315555555555,
+            "tp": 1294,
+            "tn": 1343,
+            "fp": 157,
+            "fn": 206,
+            "threshold": 1.2806979417800903,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8626666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.536
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.92
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.9405257656678275
+          },
+          "threshold": 1.2806979417800903
+        },
+        {
+          "step": 1800,
+          "loss": 0.8711465001106262,
+          "loss_pair": 0.48866337537765503,
+          "loss_relation": 0.21533939242362976,
+          "loss_p2": 0.5496268272399902,
+          "val": {
+            "accuracy": 0.8773333333333333,
+            "balanced_accuracy": 0.8773333333333333,
+            "precision": 0.8930555555555556,
+            "recall": 0.8573333333333333,
+            "f1": 0.8748299319727892,
+            "auroc": 0.9445071111111111,
+            "tp": 1286,
+            "tn": 1346,
+            "fp": 154,
+            "fn": 214,
+            "threshold": 1.3073993921279907,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8573333333333333
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.548
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.92
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.928
+              }
+            },
+            "pr_auc": 0.940615755482935
+          },
+          "threshold": 1.3073993921279907
+        },
+        {
+          "step": 2000,
+          "loss": 0.9045499563217163,
+          "loss_pair": 0.4628751277923584,
+          "loss_relation": 0.16917672753334045,
+          "loss_p2": 0.7141730189323425,
+          "val": {
+            "accuracy": 0.887,
+            "balanced_accuracy": 0.887,
+            "precision": 0.8989690721649485,
+            "recall": 0.872,
+            "f1": 0.8852791878172589,
+            "auroc": 0.9481333333333334,
+            "tp": 1308,
+            "tn": 1353,
+            "fp": 147,
+            "fn": 192,
+            "threshold": 1.292734980583191,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.872
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.572
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.92
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.932
+              }
+            },
+            "pr_auc": 0.9433810808209269
+          },
+          "threshold": 1.292734980583191
+        },
+        {
+          "step": 2200,
+          "loss": 0.8400648832321167,
+          "loss_pair": 0.44468578696250916,
+          "loss_relation": 0.16801844537258148,
+          "loss_p2": 0.6227397322654724,
+          "val": {
+            "accuracy": 0.893,
+            "balanced_accuracy": 0.893,
+            "precision": 0.8964357767316745,
+            "recall": 0.8886666666666667,
+            "f1": 0.8925343153665886,
+            "auroc": 0.9506422222222223,
+            "tp": 1333,
+            "tn": 1346,
+            "fp": 154,
+            "fn": 167,
+            "threshold": 1.2726224660873413,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8886666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.552
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.908
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9466392223824218
+          },
+          "threshold": 1.2726224660873413
+        },
+        {
+          "step": 2400,
+          "loss": 0.8043518662452698,
+          "loss_pair": 0.459396094083786,
+          "loss_relation": 0.1579163670539856,
+          "loss_p2": 0.5319951772689819,
+          "val": {
+            "accuracy": 0.895,
+            "balanced_accuracy": 0.895,
+            "precision": 0.8905735003295979,
+            "recall": 0.9006666666666666,
+            "f1": 0.8955916473317865,
+            "auroc": 0.9522791111111111,
+            "tp": 1351,
+            "tn": 1334,
+            "fp": 166,
+            "fn": 149,
+            "threshold": 1.2388920783996582,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9006666666666666
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.992
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.52
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.9
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.932
+              }
+            },
+            "pr_auc": 0.9484112302210024
+          },
+          "threshold": 1.2388920783996582
+        },
+        {
+          "step": 2600,
+          "loss": 0.7768316268920898,
+          "loss_pair": 0.4294273257255554,
+          "loss_relation": 0.12541085481643677,
+          "loss_p2": 0.5693978071212769,
+          "val": {
+            "accuracy": 0.8936666666666667,
+            "balanced_accuracy": 0.8936666666666666,
+            "precision": 0.8992562542258282,
+            "recall": 0.8866666666666667,
+            "f1": 0.8929170862705605,
+            "auroc": 0.9502684444444445,
+            "tp": 1330,
+            "tn": 1351,
+            "fp": 149,
+            "fn": 170,
+            "threshold": 1.2787786722183228,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8866666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.568
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.912
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.936
+              }
+            },
+            "pr_auc": 0.9466354433243763
+          },
+          "threshold": 1.2787786722183228
+        },
+        {
+          "step": 2800,
+          "loss": 0.6355637311935425,
+          "loss_pair": 0.3620404601097107,
+          "loss_relation": 0.12428102642297745,
+          "loss_p2": 0.4227655231952667,
+          "val": {
+            "accuracy": 0.8623333333333333,
+            "balanced_accuracy": 0.8623333333333334,
+            "precision": 0.8044817927170869,
+            "recall": 0.9573333333333334,
+            "f1": 0.8742770167427701,
+            "auroc": 0.9463617777777777,
+            "tp": 1436,
+            "tn": 1151,
+            "fp": 349,
+            "fn": 64,
+            "threshold": 1.0114991664886475,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.9573333333333334
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.956
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.392
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.86
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.988
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.42
+              }
+            },
+            "pr_auc": 0.943584606280771
+          },
+          "threshold": 1.0114991664886475
+        },
+        {
+          "step": 3000,
+          "loss": 0.8176971673965454,
+          "loss_pair": 0.45348358154296875,
+          "loss_relation": 0.09609640389680862,
+          "loss_p2": 0.6323307156562805,
+          "val": {
+            "accuracy": 0.8836666666666667,
+            "balanced_accuracy": 0.8836666666666666,
+            "precision": 0.9125448028673835,
+            "recall": 0.8486666666666667,
+            "f1": 0.879447322970639,
+            "auroc": 0.9484462222222222,
+            "tp": 1273,
+            "tn": 1378,
+            "fp": 122,
+            "fn": 227,
+            "threshold": 1.3520426750183105,
+            "n": 3000,
+            "per_category_accuracy": {
+              "P1_same_key": {
+                "n": 1500,
+                "accuracy": 0.8486666666666667
+              },
+              "P2_same_entity_diff_relation": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P3_same_relation_diff_entity": {
+                "n": 250,
+                "accuracy": 0.64
+              },
+              "P4_same_value_diff_key": {
+                "n": 250,
+                "accuracy": 0.94
+              },
+              "P5_fully_different": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P6_lexical_hard_negative": {
+                "n": 250,
+                "accuracy": 0.996
+              },
+              "P7_similar_entity_names": {
+                "n": 250,
+                "accuracy": 0.944
+              }
+            },
+            "pr_auc": 0.9456560394136737
+          },
+          "threshold": 1.3520426750183105
+        }
+      ]
+    }
+  },
+  "best_variant": "original",
+  "best_scheme": "E1_a1_b1"
+}

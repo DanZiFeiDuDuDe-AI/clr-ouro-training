@@ -1,0 +1,43 @@
+=== P0I pilot: init=m1 mode=reset steps=1500 lr=0.0003 ===
+init=m1 ckpt=D:/training/checkpoints/ouro_retention_m1/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)
+step 50/1500: loss=5.5625 (531s)
+step 100/1500: loss=1.9050 (1037s)
+step 150/1500: loss=2.9794 (1544s)
+step 200/1500: loss=1.7478 (2044s)
+step 250/1500: loss=3.3940 (2546s)
+step 300/1500: loss=3.0227 (3053s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s42\ckpt_step0300.pt
+step 350/1500: loss=1.2475 (3553s)
+step 400/1500: loss=1.0509 (4051s)
+step 450/1500: loss=2.5941 (4563s)
+step 500/1500: loss=1.4050 (5103s)
+step 550/1500: loss=3.8051 (5609s)
+step 600/1500: loss=2.9551 (6116s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s42\ckpt_step0600.pt
+step 650/1500: loss=1.5899 (6631s)
+step 700/1500: loss=1.5731 (7133s)
+step 750/1500: loss=0.6133 (7665s)
+step 800/1500: loss=0.8411 (8170s)
+step 850/1500: loss=0.7691 (8684s)
+step 900/1500: loss=0.4580 (9201s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s42\ckpt_step0900.pt
+step 950/1500: loss=0.7204 (9724s)
+step 1000/1500: loss=1.5120 (10214s)
+step 1050/1500: loss=0.3047 (10713s)
+step 1100/1500: loss=0.7130 (11231s)
+step 1150/1500: loss=1.7226 (11730s)
+step 1200/1500: loss=2.7253 (12259s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s42\ckpt_step1200.pt
+step 1250/1500: loss=0.3795 (12775s)
+epoch 2 (step 1254)
+step 1300/1500: loss=2.3249 (13293s)
+step 1350/1500: loss=0.5058 (13801s)
+step 1400/1500: loss=3.2223 (14298s)
+step 1450/1500: loss=1.2630 (14805s)
+step 1500/1500: loss=0.9494 (15328s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s42\best_model.pt
+
+saved to D:\training\checkpoints\p0i_pilot_m1_reset_s42
+P0I pilot m1/reset OK

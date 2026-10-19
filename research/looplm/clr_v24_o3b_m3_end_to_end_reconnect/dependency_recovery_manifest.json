@@ -1,0 +1,301 @@
+{
+  "available_non_substitutes": [
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt"
+  ],
+  "checked_utc": "2026-09-25T13:31:47.134889+00:00",
+  "components": [
+    {
+      "architecture": "QueryEncoder 2048→256→64; MRValueHeads has per-slot 64→N_CLASSES=64 heads",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt",
+      "component": "O21A_MR supervised/query/value-head checkpoint",
+      "confidence": "HIGH that the expected path is missing; source code and default path agree",
+      "config_path": "Expected clr_v24_o21a_mr run config; not found with the checkpoint/output bundle",
+      "evidence": [
+        {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt"
+        },
+        {
+          "bytes": 24142,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o21a.py",
+          "sha256": "f91ff8f05c6f9427bf724f4040b3616f3da409bc600358d4a80f0f895955d0fb"
+        },
+        {
+          "bytes": 42834,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a_mr.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o21a_mr.py",
+          "sha256": "fe18d2425357c1152d98c216e8e793a4f6f1db611ab2bd12082b7863776169df"
+        }
+      ],
+      "expected_role": "Frozen query encoder and MR value heads used by original O3b path",
+      "frozen": true,
+      "historical_metric": "O2.1a-MR cache exists; this does not certify or replace trained weights",
+      "input_output_dims": {
+        "query_encoder": [
+          2048,
+          256,
+          64
+        ],
+        "value_head_per_slot": [
+          64,
+          64
+        ]
+      },
+      "originating_experiment": "O2.1a-MR frozen supervised checkpoint",
+      "sha256": null,
+      "status": "MISSING"
+    },
+    {
+      "architecture": "KeyEncoder 2048→256→64",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+      "component": "O21B KeyEncoder checkpoint",
+      "confidence": "STRONG: remote file hash matches the local archived O21B checkpoint and original integration path",
+      "config_path": "O21B run config not recovered in the searched bundle",
+      "evidence": {
+        "local_archive": {
+          "exists": true,
+          "matches_active_remote": true,
+          "not_a_substitute_for_O21A_MR_VGen2_O3A_or_router": true,
+          "path": "H:\\LoopLM\\remote_archive\\cheems\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+          "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+        },
+        "remote": {
+          "bytes": 4356237,
+          "exists": true,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+          "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+        },
+        "source": {
+          "bytes": 39619,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3b.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b.py",
+          "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+        }
+      },
+      "expected_role": "Frozen key encoder used to form occupied and incoming keys",
+      "frozen": true,
+      "historical_metric": "Referenced by the original O3b code; detailed original checkpoint run metrics not available in this recovered bundle",
+      "input_output_dims": {
+        "O3b_slots": 4,
+        "key_dim": 64,
+        "key_encoder": [
+          2048,
+          256,
+          64
+        ]
+      },
+      "originating_experiment": "O2.1b; explicitly referenced by original O3b integration source",
+      "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+      "status": "STRONGLY_MATCHED"
+    },
+    {
+      "architecture": "Original integration expects checkpoint entries core and value_heads; source has a 64D latent value state and 64-way per-slot value heads",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt",
+      "component": "VGen2 frozen core/value checkpoint",
+      "confidence": "HIGH that checkpoint path and experiment directory are absent from searched stores; source code is available",
+      "config_path": "Expected VGen2 config not found",
+      "evidence": [
+        {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt"
+        },
+        {
+          "bytes": 37928,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_vgen.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_vgen.py",
+          "sha256": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13"
+        }
+      ],
+      "expected_role": "Frozen V/Core dynamics and value heads for the original write/update and answer path",
+      "frozen": true,
+      "historical_metric": "No recovered VGen2 checkpoint-specific metric/config",
+      "input_output_dims": {
+        "checkpoint_contract": [
+          "core",
+          "value_heads"
+        ],
+        "latent_value_state": 64,
+        "value_classes": 64
+      },
+      "originating_experiment": "CLR v2.4 VGen2",
+      "sha256": null,
+      "status": "MISSING"
+    },
+    {
+      "architecture": "Allocator(k_aware=True): [64D key + 4D occupancy]→128→4 slot logits",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt",
+      "component": "O3a K-aware free-slot allocator checkpoint",
+      "confidence": "HIGH that required checkpoint is missing; exact architecture source is present",
+      "config_path": "Expected O3a run config/checkpoint directory not found",
+      "evidence": [
+        {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt"
+        },
+        {
+          "bytes": 28989,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3a.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3a.py",
+          "sha256": "f7142e82aa35233175ca6b14aaeb383ffe5bdee37c48371b9af314cbfa5f7b92"
+        }
+      ],
+      "expected_role": "Frozen NEW action slot selection",
+      "frozen": true,
+      "historical_metric": "Prior project state reports O3a learned free-slot allocation PASS; original allocator weights absent",
+      "input_output_dims": {
+        "hidden": 128,
+        "input": 68,
+        "output_slots": 4
+      },
+      "originating_experiment": "CLR v2.4 O3a learned free-slot allocation",
+      "sha256": null,
+      "status": "MISSING"
+    },
+    {
+      "architecture": "UpdateRouter: pair branch 257→128→1; action branch 69→96→2; SLOTS=4, DIM=64",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt",
+      "component": "Original O3b baseline router checkpoint",
+      "confidence": "HIGH that expected router path and original output directory are absent; source script is hash-matched to local archive",
+      "config_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json",
+      "evidence": [
+        {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt"
+        },
+        {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json"
+        },
+        {
+          "bytes": 39619,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3b.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b.py",
+          "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+        }
+      ],
+      "expected_role": "Pre-reconnect baseline NEW/UPDATE and target-slot decision component",
+      "frozen": true,
+      "historical_metric": "Historical O3b behavior is documented in the project brief; no router checkpoint or original O3b output/config recovered for reproduction",
+      "input_output_dims": {
+        "action_input": 69,
+        "action_output": 2,
+        "pair_input": 257,
+        "pair_output": 1
+      },
+      "originating_experiment": "CLR v2.4 O3b baseline write/update router",
+      "sha256": null,
+      "status": "MISSING"
+    },
+    {
+      "architecture": "Frozen KeyEncoder/QueryEncoder/VGen2/O3a allocator plus original UpdateRouter",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b.py",
+      "component": "Original O3b integration source",
+      "confidence": "STRONG: remote source SHA-256 exactly matches the local archived a1_v24_o3b.py",
+      "config_path": "Defaults are embedded in source; original generated config.json under clr_v24_o3b_update is missing",
+      "evidence": {
+        "local_archive": {
+          "exists": true,
+          "matches_active_remote": true,
+          "path": "H:\\LoopLM\\remote_archive\\cheems\\a1_v24_o3b.py",
+          "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+        },
+        "remote_source": {
+          "bytes": 39619,
+          "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3b.py",
+          "provenance": "read-only snapshot of the active remote CLR v2.4 code tree",
+          "remote_path": "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b.py",
+          "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+        }
+      },
+      "expected_role": "Historical integration and action semantics reference",
+      "frozen": true,
+      "historical_metric": "Source emits an O3b config at runtime; corresponding output bundle not recovered",
+      "input_output_dims": {
+        "latent_key": 64,
+        "raw_hidden": 2048,
+        "slots": 4
+      },
+      "originating_experiment": "CLR v2.4 O3b",
+      "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd",
+      "status": "STRONGLY_MATCHED"
+    },
+    {
+      "architecture": "Not independently recoverable beyond source defaults",
+      "artifact_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json",
+      "component": "Original O3b run config and evaluation logs",
+      "confidence": "HIGH for missing named O3b output; diagnostic configs explicitly belong to O3b-L/K",
+      "config_path": null,
+      "evidence": {
+        "config_reference_search": [
+          "/root/private_data/clr_v24_o3b_l/output/config.json",
+          "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json",
+          "/public/home/ac92f4k0z9/clr_v24_o3b_l/output/config.json",
+          "/public/home/ac92f4k0z9/clr_v24_o3b_l/context/o3b_k/config.json"
+        ],
+        "found_but_not_baseline": {
+          "o3b_k_diagnostic_config.json": {
+            "bytes": 550,
+            "classification": "O3b-L or O3b-K diagnostic config; not the original O3b integration config",
+            "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\o3b_k_diagnostic_config.json",
+            "remote_path": "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json",
+            "sha256": "21819cc4d85e8b6b52f06bfc2a0fe4f33bcbe822025a1aa3d2432800aad5e0b2"
+          },
+          "o3b_l_diagnostic_config.json": {
+            "bytes": 736,
+            "classification": "O3b-L or O3b-K diagnostic config; not the original O3b integration config",
+            "local_snapshot": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\o3b_l_diagnostic_config.json",
+            "remote_path": "/root/private_data/clr_v24_o3b_l/output/config.json",
+            "sha256": "ee83fafc4eefa6c2cc66683fb5908db6d0fd4a54795a10d1c5ff416764aa5d7c"
+          }
+        },
+        "missing_baseline_config": {
+          "error_type": "FileNotFoundError",
+          "exists": false,
+          "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json"
+        }
+      },
+      "expected_role": "Exact historical eval split, run configuration, and baseline measurements needed for reproduction",
+      "frozen": true,
+      "historical_metric": "O3b-L and O3b-K diagnostic configs were found but are not the original O3b integration config; not used as substitutes",
+      "input_output_dims": null,
+      "originating_experiment": "CLR v2.4 O3b integration run",
+      "sha256": null,
+      "status": "MISSING"
+    }
+  ],
+  "experiment": "O3b-M3",
+  "missing_required_frozen_weights": [
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt"
+  ],
+  "no_retraining": true,
+  "no_substitutes_used": true,
+  "search_scope": {
+    "local_workspace_and_remote_archive": [
+      "H:\\LoopLM",
+      "H:\\LoopLM\\remote_archive\\cheems",
+      "H:\\LoopLM\\remote_archive\\new_server",
+      "H:\\LoopLM\\checkpoints"
+    ],
+    "non_user_shared_data": "Unrelated other-user public_data/other was not traversed; no artifacts were read from other users' directories",
+    "remote_active_project": "/root/private_data/clr_v24_o3b_l",
+    "remote_exact_checkpoint_search": "active checkpoint tree + exact expected filenames under user-owned public/share roots",
+    "remote_user_home_mirror": "/public/home/ac92f4k0z9/clr_v24_o3b_l"
+  },
+  "status": "INCOMPLETE_ORIGINAL_FROZEN_BUNDLE_NOT_RECOVERED"
+}

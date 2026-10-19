@@ -1,0 +1,19 @@
+{
+  "task": "joint",
+  "candidates_completed_for_task": 18,
+  "candidate_count": 18,
+  "completed_rows": 54,
+  "latest": {
+    "task": "joint",
+    "candidate_index": 17,
+    "optimizer": "SGD_momentum_0.9",
+    "lr": 0.03,
+    "weight_decay": 0.001,
+    "screen_seed": 11,
+    "screen_steps": 3000,
+    "mean_val_accuracy_last5_four_conditions": 0.6971174657344819,
+    "mean_val_cross_entropy_last5_four_conditions": 1.264651936368462,
+    "all_finite": true,
+    "by_condition_json": "{\"R0_raw\": {\"val_accuracy_last5_mean\": 0.6315561413764954, \"val_loss_last5_mean\": 1.525998317182232}, \"R0_standardized\": {\"val_accuracy_last5_mean\": 0.7435630679130554, \"val_loss_last5_mean\": 1.0179926079023336}, \"R1_raw\": {\"val_accuracy_last5_mean\": 0.669787585735321, \"val_loss_last5_mean\": 1.4966242055899144}, \"R1_standardized\": {\"val_accuracy_last5_mean\": 0.7435630679130554, \"val_loss_last5_mean\": 1.0179926147993683}}"
+  }
+}

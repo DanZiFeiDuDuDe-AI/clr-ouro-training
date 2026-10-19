@@ -1,0 +1,44 @@
+{
+  "phase": "CLR-v2.4-O3b",
+  "seed": 42,
+  "device": "cuda",
+  "source_o21b": "D:\\training\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+  "source_vgen2": "D:\\training\\checkpoints\\clr_v24_vgen2\\best.pt",
+  "source_o3a_allocator": "D:\\training\\checkpoints\\clr_v24_o3a_allocation\\allocator_kaware_best.pt",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "trainable": [
+    "UpdateRouter action head",
+    "UpdateRouter pairwise target head"
+  ],
+  "frozen": [
+    "learned KeyEncoder",
+    "V/core/GRU",
+    "QueryEncoder",
+    "read router",
+    "decoder",
+    "answer head",
+    "Ouro",
+    "O3a free-slot allocator"
+  ],
+  "router_inputs": "K_new + existing K_0..K_3 + explicit occupancy",
+  "value_input_used": false,
+  "loss": "action CE + update-target CE + 0.5 pairwise BCE (NEW occupied pairs are negatives); NEW uses frozen O3a set-valued allocator",
+  "steps": 3000,
+  "eval_every": 100,
+  "best_step": 800,
+  "threshold": 0.5299999999999999,
+  "params": 40067,
+  "data": {
+    "train": 6000,
+    "val": 1000,
+    "testA": 1000,
+    "testB": 1000,
+    "new_update_ratio": "50/50",
+    "hard_negative_categories": [
+      "same_entity_diff_relation",
+      "same_relation_diff_entity",
+      "fully_different",
+      "same_value_diff_key"
+    ]
+  }
+}

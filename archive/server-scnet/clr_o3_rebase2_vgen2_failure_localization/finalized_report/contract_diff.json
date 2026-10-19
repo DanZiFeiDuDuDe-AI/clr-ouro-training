@@ -1,0 +1,257 @@
+{
+  "comparison": "Recovered legacy source contract vs explicitly new rebase baseline; legacy source is NOT certified as the historical passing VGen2 implementation",
+  "historical_checkpoint_found": false,
+  "historical_commit_found": false,
+  "rebase_3k_to_10k_config_diff": {
+    "checkpoint_evaluation_schedule": {
+      "10k": [
+        0,
+        100,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000,
+        10000
+      ],
+      "3k": null
+    },
+    "curve_eval_every": {
+      "10k": 100,
+      "3k": null
+    },
+    "device_name": {
+      "10k": "BW",
+      "3k": null
+    },
+    "evaluation_randomness": {
+      "10k": "fixed deterministic validation slot permutations reused at every checkpoint; training RNG/objective unchanged",
+      "3k": null
+    },
+    "frozen_o21a_checkpoint_sha256_verified": {
+      "10k": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+      "3k": null
+    },
+    "reproduction_parent_config_sha256": {
+      "10k": "5be7a10274df9b1ae7689f71cc1bb3726fd03cdf605303988b06fa434b576b8b",
+      "3k": null
+    },
+    "reproduction_parent_script_sha256": {
+      "10k": "179a9473810ad62bc2e890b6620f0e383970e0c0a0ace2809bc0063c27e545be",
+      "3k": null
+    },
+    "selection": {
+      "10k": "validation-only lexicographic priority: UPDATE latest-value accuracy, then N=4 single-write accuracy, then overall single-write accuracy, then lower validation loss",
+      "3k": "best VAL score = 0.5*single-write overall accuracy + 0.5*update latest-value accuracy"
+    },
+    "selection_policy_changed_only_as_explicitly_required": {
+      "10k": true,
+      "3k": null
+    },
+    "steps": {
+      "10k": 10000,
+      "3k": 3000
+    },
+    "test_policy": {
+      "10k": "TestA/TestB files are not opened unless selected validation checkpoint passes all three frozen >=95% gates",
+      "3k": "TestA/TestB are not loaded until both VAL standalone gates pass"
+    },
+    "train_loss_reporting": {
+      "10k": "last minibatch, rolling mean over preceding 100 optimization steps, and deterministic train-only diagnostic subset loss",
+      "3k": null
+    },
+    "training_hyperparameters_unchanged_from_3k": {
+      "10k": true,
+      "3k": null
+    },
+    "validation_loss": {
+      "10k": "0.5 * full validation episode CE + 0.5 * full validation update CE; update CE averages first-write and latest-value CE",
+      "3k": null
+    }
+  },
+  "rows": [
+    {
+      "field": "input_tensor_source",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "MR cache fact_H, certified bitwise equal to J3C H_base_I0",
+      "recovered_legacy_source": "MR cache fact_H + LS0 old replay H",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "shape_dtype",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "[batch,N,2048], cast float32",
+      "recovered_legacy_source": "MR [batch,N,2048] -> float32; cached dtype unknown for historic run",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "normalization",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "No VGen normalization; probe-only train-stat standardization recorded separately",
+      "recovered_legacy_source": "No normalization in recovered VGen core/decoder; extraction details unknown",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "backbone_layer_token",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "See prepare/extraction_policy_frozen.json and carrier_construction.json; R0 is cached direct source carrier, not a fresh backbone replay",
+      "recovered_legacy_source": "Historical cache-builder/run overrides unavailable",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "K_Q_V_extraction",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "V only from frozen fact_H; K/Q not inputs to value core or decoder",
+      "recovered_legacy_source": "K/Q separately encoded; V core linear+GRU; oracle correct-slot value diagnosis",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "entity_relation_value_carrier",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Certified relation carrier H_base_I0; semantic entity/relation labels used only for update-pair construction",
+      "recovered_legacy_source": "Recovered MRCache fact_H and fact_Y; historical binary cache identity unavailable",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "target_construction",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Mean per-written-slot fact_Y CE; UPDATE average first/latest CE",
+      "recovered_legacy_source": "Query-selected MR Y; LS0 replay Y; T2/T3 mean CE",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "vocabulary_mapping",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "64 classes; rowwise object-to-class consistency measured in input_audit.json",
+      "recovered_legacy_source": "64 classes; historical ordered vocabulary artifact unavailable",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "padding_masking",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Cap-specific batches, random distinct physical slots; no padded targets",
+      "recovered_legacy_source": "Cap-specific batches; slots 0..N-1, zero unoccupied state",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "negative_sampling",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "No sampled value CE negatives; all 64 logits; different-value same-key UPDATE pairs",
+      "recovered_legacy_source": "No value CE negatives; counterfactual diagnostics exist separately",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "N_distribution",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Uniform cap sampling 1,2,4 in episode branch",
+      "recovered_legacy_source": "Uniform cap sampling among 1,2,4 by sample_mr; historic run overrides unknown",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "single_multi_ratio",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "50% episode branch, 50% same-slot UPDATE branch",
+      "recovered_legacy_source": "50% LS0 N=1 replay plus 50% MR for T2/T3",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "UPDATE_construction",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Same entity/relation, different source facts, object values and labels; all unordered changed-value pairs",
+      "recovered_legacy_source": "No same-slot latest-value UPDATE objective in recovered VGen staged training",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "train_val_split",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Zero canonical fact overlap; row joins checked; episode IDs not encoded in NPZ",
+      "recovered_legacy_source": "Cached train/val; historical cache hashes/split lineage unavailable",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "random_seed",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "42; training RNG seed=2442",
+      "recovered_legacy_source": "Default 42; stage-specific RNG seed=42+sum(ord(name))%10000",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "optimizer",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "AdamW",
+      "recovered_legacy_source": "AdamW, stages differ in trainable parameter sets",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "LR",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": 0.0003,
+      "recovered_legacy_source": 0.0003,
+      "status": "SAME"
+    },
+    {
+      "field": "batch_size",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": 64,
+      "recovered_legacy_source": "MR up to 64 plus old replay 32 for T2/T3",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "scheduler",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "None",
+      "recovered_legacy_source": "None in recovered source",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "steps",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": 3000,
+      "recovered_legacy_source": "Default 3000 per stage; historical exact budget and best step unknown",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "initialization",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Fresh random core and heads; R2 state unavailable",
+      "recovered_legacy_source": "load_r2_checkpoint: pretrained R2 core; T3 starts from MR trained value decoder",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "frozen_unfrozen",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Core and four value heads jointly trainable; upstream components frozen",
+      "recovered_legacy_source": "T1 decoder only, T2 core only, T3 core+decoder; backbone frozen",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "selection_metric",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "best VAL score = 0.5*single-write overall accuracy + 0.5*update latest-value accuracy",
+      "recovered_legacy_source": "Validation macro queried-answer accuracy; exact VGen2 source/passing run absent",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "validation_randomness",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "3K varies eval slot permutation by step; 10K fixes permutation (evaluation only)",
+      "recovered_legacy_source": "Fixed physical positions in recovered source",
+      "status": "DIFFERENT"
+    },
+    {
+      "field": "historical_identity",
+      "historical_actual_run_authenticated": false,
+      "rebase_3k": "Explicit rebase component vgen2_rebase.pt",
+      "recovered_legacy_source": "O3 loaders require clr_v24_vgen2/best.pt; recovered staged trainer defaults to clr_v24_vgen/t*_best.pt",
+      "status": "DIFFERENT"
+    }
+  ]
+}

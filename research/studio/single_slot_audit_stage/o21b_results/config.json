@@ -1,0 +1,85 @@
+{
+  "phase": "CLR-v2.4-O2.1b",
+  "seed": 42,
+  "device": "cuda",
+  "source_supervised_key": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\best_model.pt",
+  "source_vgen2": "D:\\training\\checkpoints\\clr_v24_vgen2\\best.pt",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "capacities": [
+    1,
+    2,
+    4
+  ],
+  "relations": [
+    "current_city",
+    "birth_city",
+    "favorite_city",
+    "work_city"
+  ],
+  "query_frozen": true,
+  "explicit_entity_relation_supervision": false,
+  "loss": "within-episode retrieval CE + 0.5 batch positive InfoNCE",
+  "temperature": 0.1,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "steps": 3000,
+  "eval_every": 100,
+  "trainable": [
+    "KeyEncoder.net.*"
+  ],
+  "frozen": [
+    "QueryEncoder",
+    "V write/core",
+    "decoder",
+    "answer head",
+    "router/matcher",
+    "allocation",
+    "physical slot logic",
+    "Ouro"
+  ],
+  "key_writer_parameters": 540992,
+  "dataset": {
+    "train": {
+      "episodes": 5000,
+      "query_relation_counts": [
+        1212,
+        1244,
+        1275,
+        1269
+      ]
+    },
+    "val": {
+      "episodes": 1000,
+      "query_relation_counts": [
+        264,
+        251,
+        234,
+        251
+      ]
+    },
+    "testA": {
+      "episodes": 1000,
+      "query_relation_counts": [
+        234,
+        257,
+        271,
+        238
+      ]
+    },
+    "testB": {
+      "episodes": 1000,
+      "query_relation_counts": [
+        242,
+        256,
+        236,
+        266
+      ]
+    }
+  },
+  "git": {
+    "sha": null,
+    "diff_stat": null
+  },
+  "exact_command": "py -3 a1_v24_o21b.py"
+}

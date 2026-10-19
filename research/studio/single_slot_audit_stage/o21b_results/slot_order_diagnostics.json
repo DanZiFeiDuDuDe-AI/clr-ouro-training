@@ -1,0 +1,76 @@
+{
+  "supervised": {
+    "1": {
+      "target_frequency": [
+        334
+      ],
+      "selected_frequency": [
+        334
+      ],
+      "retrieval": 1.0
+    },
+    "2": {
+      "target_frequency": [
+        163,
+        170
+      ],
+      "selected_frequency": [
+        164,
+        169
+      ],
+      "retrieval": 0.996996996996997
+    },
+    "4": {
+      "target_frequency": [
+        85,
+        85,
+        77,
+        86
+      ],
+      "selected_frequency": [
+        84,
+        86,
+        77,
+        86
+      ],
+      "retrieval": 0.990990990990991
+    }
+  },
+  "learned": {
+    "1": {
+      "target_frequency": [
+        334
+      ],
+      "selected_frequency": [
+        334
+      ],
+      "retrieval": 1.0
+    },
+    "2": {
+      "target_frequency": [
+        163,
+        170
+      ],
+      "selected_frequency": [
+        164,
+        169
+      ],
+      "retrieval": 0.996996996996997
+    },
+    "4": {
+      "target_frequency": [
+        85,
+        85,
+        77,
+        86
+      ],
+      "selected_frequency": [
+        85,
+        85,
+        78,
+        85
+      ],
+      "retrieval": 0.990990990990991
+    }
+  }
+}

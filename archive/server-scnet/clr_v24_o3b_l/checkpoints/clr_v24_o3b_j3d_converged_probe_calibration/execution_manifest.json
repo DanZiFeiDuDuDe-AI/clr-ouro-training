@@ -1,0 +1,13 @@
+{
+  "pid": 290,
+  "started_utc": "2026-09-25T01:29:23.155726+00:00",
+  "python": "/usr/local/bin/python",
+  "python_version": "3.11.9 (main, Apr  5 2026, 19:32:29) [GCC 11.4.0]",
+  "pipeline": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration/code/j3d_pipeline_calibrated_v2.py",
+  "pipeline_sha256": "057a0186bfc83475ba90ef16838dc9cfab3a012b3487362433e840663910c6a7",
+  "stdout_stderr_log": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration/logs/j3d_pipeline_run.log",
+  "cache_integrity_stage0_pass": true,
+  "row_transform_stage0_pass": true,
+  "ld_library_path": "/opt/dtk-26.04/hip/lib:/opt/dtk-26.04/lib:/opt/dtk-26.04/.hyhal/rocm_smi/lib",
+  "checkpoint_modified": false
+}

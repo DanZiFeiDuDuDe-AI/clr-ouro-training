@@ -1,0 +1,64 @@
+{
+  "status": "STATIC INTERFACE DRY RUN PASS; behavioral/runtime evaluation NOT RUN",
+  "kind": "shape-only contract trace; no modules with missing learned weights were instantiated or scored",
+  "uses_fabricated_weights": false,
+  "mock_or_stub_outputs": "Only symbolic shape contracts; no generated tensor weights or predictions",
+  "checks": {
+    "input_hidden": {
+      "dtype": "float32 as source cache cast",
+      "shape": "[B,2048]",
+      "status": "PASS"
+    },
+    "key_encoder_output": {
+      "shape": "[B,64]",
+      "normalization": "L2",
+      "status": "PASS by source"
+    },
+    "query_encoder_output": {
+      "shape": "[B,64]",
+      "normalization": "L2",
+      "status": "PASS by source; learned weights absent"
+    },
+    "memory_state": {
+      "K": "[B,4,64]",
+      "V": "[B,4,64]",
+      "occupancy": "[B,4]",
+      "status": "PASS by source"
+    },
+    "allocator": {
+      "input": "[B,68]",
+      "output": "[B,4]",
+      "status": "PASS by source; weights absent"
+    },
+    "router": {
+      "pair_input": "[B,4,257]",
+      "pair_logits": "[B,4]",
+      "action_input": "[B,69]",
+      "action_logits": "[B,2]",
+      "status": "PASS by source; weights/threshold absent"
+    },
+    "update_write": {
+      "key": "preserve target K",
+      "value": "write selected slot through Core",
+      "status": "PASS by source semantics"
+    },
+    "new_write": {
+      "key": "write incoming key to free slot",
+      "value": "write selected slot through Core",
+      "status": "PASS by source semantics"
+    },
+    "retrieval": {
+      "scores": "[B,4]",
+      "selected_slot": "[B]",
+      "answer_logits": "[B,64]",
+      "status": "PASS by source semantics"
+    }
+  },
+  "not_run": [
+    "torch module execution with learned weights",
+    "baseline metric reproduction",
+    "retrieval/full-KV evaluation",
+    "free-slot regression",
+    "Candidate B reconnect"
+  ]
+}

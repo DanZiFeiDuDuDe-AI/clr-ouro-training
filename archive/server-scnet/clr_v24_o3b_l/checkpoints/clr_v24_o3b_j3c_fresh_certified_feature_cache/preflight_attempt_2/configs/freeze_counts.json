@@ -1,0 +1,60 @@
+{
+  "joint_label_classes": 2378,
+  "mention_resolution_counts": {
+    "testA": {
+      "accepted": 2332,
+      "eligible": 2332,
+      "multiple_matches": 0,
+      "no_match": 0,
+      "token_span_noncontiguous": 0,
+      "token_span_unmapped": 0,
+      "too_long": 0,
+      "total_facts": 2332
+    },
+    "testB": {
+      "accepted": 2332,
+      "eligible": 2332,
+      "multiple_matches": 0,
+      "no_match": 0,
+      "token_span_noncontiguous": 0,
+      "token_span_unmapped": 0,
+      "too_long": 0,
+      "total_facts": 2332
+    },
+    "train": {
+      "accepted": 11665,
+      "eligible": 11665,
+      "multiple_matches": 0,
+      "no_match": 0,
+      "token_span_noncontiguous": 0,
+      "token_span_unmapped": 0,
+      "too_long": 0,
+      "total_facts": 11665
+    },
+    "val": {
+      "accepted": 2332,
+      "eligible": 2332,
+      "multiple_matches": 0,
+      "no_match": 0,
+      "token_span_noncontiguous": 0,
+      "token_span_unmapped": 0,
+      "too_long": 0,
+      "total_facts": 2332
+    }
+  },
+  "model_forward_count": 0,
+  "probe_training_count": 0,
+  "row_plan_counts": {
+    "testA": 2332,
+    "testB": 2332,
+    "train": 11665,
+    "val": 2332
+  },
+  "source_counts": {
+    "testA": 2332,
+    "testB": 2332,
+    "train": 11665,
+    "val": 2332
+  },
+  "total_plan_rows": 18661
+}

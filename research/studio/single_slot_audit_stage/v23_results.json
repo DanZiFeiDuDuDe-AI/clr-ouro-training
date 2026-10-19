@@ -1,0 +1,198 @@
+{
+  "stage": "O0-only",
+  "device": "cuda",
+  "capacity": {
+    "train": {
+      "1": {
+        "acc": 0.973,
+        "correct": 1946,
+        "total": 2000,
+        "by_position": [
+          0.973
+        ],
+        "position_total": [
+          2000
+        ]
+      }
+    },
+    "val": {
+      "1": {
+        "acc": 0.735,
+        "correct": 294,
+        "total": 400,
+        "by_position": [
+          0.735
+        ],
+        "position_total": [
+          400
+        ]
+      }
+    },
+    "testA": {
+      "1": {
+        "acc": 0.69,
+        "correct": 276,
+        "total": 400,
+        "by_position": [
+          0.69
+        ],
+        "position_total": [
+          400
+        ]
+      }
+    },
+    "testB": {
+      "1": {
+        "acc": 0.74,
+        "correct": 296,
+        "total": 400,
+        "by_position": [
+          0.74
+        ],
+        "position_total": [
+          400
+        ]
+      }
+    }
+  },
+  "position_matrix": {
+    "train": {
+      "1": [
+        {
+          "acc": 0.973,
+          "correct": 1946,
+          "total": 2000,
+          "by_position": [
+            0.973
+          ],
+          "position_total": [
+            2000
+          ]
+        }
+      ]
+    },
+    "val": {
+      "1": [
+        {
+          "acc": 0.735,
+          "correct": 294,
+          "total": 400,
+          "by_position": [
+            0.735
+          ],
+          "position_total": [
+            400
+          ]
+        }
+      ]
+    },
+    "testA": {
+      "1": [
+        {
+          "acc": 0.69,
+          "correct": 276,
+          "total": 400,
+          "by_position": [
+            0.69
+          ],
+          "position_total": [
+            400
+          ]
+        }
+      ]
+    },
+    "testB": {
+      "1": [
+        {
+          "acc": 0.74,
+          "correct": 296,
+          "total": 400,
+          "by_position": [
+            0.74
+          ],
+          "position_total": [
+            400
+          ]
+        }
+      ]
+    }
+  },
+  "fresh_position_probes": {
+    "1": [
+      {
+        "train_acc": 0.9740000367164612,
+        "val_acc": 0.7674999833106995,
+        "testA_acc": 0.6949999928474426,
+        "testB_acc": 0.7299999594688416,
+        "epochs": 31
+      }
+    ]
+  },
+  "slot_local_probes": {
+    "skipped": "O0 gate failed; O1 not entered"
+  },
+  "slot_purity": {
+    "skipped": "O0 gate failed"
+  },
+  "write_survival": {
+    "skipped": "O0 gate failed"
+  },
+  "overload_capacity": {
+    "skipped": "O1 storage gate not passed"
+  },
+  "params": {
+    "content_read": 131136,
+    "shared_gru": 24960,
+    "init_s": 256,
+    "core_total": 156352
+  },
+  "o0_gate": {
+    "testA_n1": {
+      "acc": 0.69,
+      "correct": 276,
+      "total": 400,
+      "by_position": [
+        0.69
+      ],
+      "position_total": [
+        400
+      ]
+    },
+    "testB_n1": {
+      "acc": 0.74,
+      "correct": 296,
+      "total": 400,
+      "by_position": [
+        0.74
+      ],
+      "position_total": [
+        400
+      ]
+    },
+    "pass": false,
+    "stop_below_75": true
+  },
+  "o1_gate": {
+    "pass": false
+  },
+  "baseline_comparison": {
+    "original_LS2_N4": {
+      "testA": 0.165,
+      "testB": 0.1925
+    },
+    "v21a_N4": {
+      "testA": 0.185,
+      "testB": 0.19
+    },
+    "v21b_N4": {
+      "testA": 0.1275,
+      "testB": 0.155
+    },
+    "v22_S0_N1": {
+      "testA": 0.4175,
+      "testB": 0.375
+    }
+  },
+  "verdict": "O0 FAIL",
+  "wall_clock_eval_s": 2.40042460001132
+}

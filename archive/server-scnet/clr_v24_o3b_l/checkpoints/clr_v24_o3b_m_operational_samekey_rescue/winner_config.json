@@ -1,0 +1,36 @@
+{
+  "candidate_val_mean_operational_score": {
+    "A": 0.7124530017778093,
+    "B": 0.9996701169655893,
+    "C": 0.7056209181571511
+  },
+  "checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+  "deployed_seed": 43,
+  "seed_rule": "median validation operational score among the winner candidate's five seeds; no ensemble",
+  "selected_by": "TRAIN/VAL only",
+  "training_protocol": {
+    "batch_size": 1024,
+    "early_stop_patience": 7,
+    "learning_rate": 0.001,
+    "max_epochs": 40,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001
+  },
+  "validation_metrics": {
+    "accuracy": 0.9997801231310466,
+    "new_false_update_rate": 0.0,
+    "operational_score": 0.9996701363294628,
+    "p1_accuracy": 0.9991204925241864,
+    "p2_accuracy": 1.0,
+    "p2_false_update_rate": 0.0,
+    "p3_accuracy": 1.0,
+    "p4_accuracy": 1.0,
+    "precision": 1.0,
+    "same_key_f1": 0.9995600527936648,
+    "update_recall": 0.9991204925241864
+  },
+  "validation_thresholds": {
+    "threshold": 0.57
+  },
+  "winner": "B"
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-20",
+  "repository": "DanZiFeiDuDuDe-AI/clr-ouro-training",
+  "original_github": {
+    "git_sha": "913c5826bf9e4dd0c142049cb1b559e3d0e68ef0",
+    "files": 649,
+    "archive_path": "archive/github-2026-10-20"
+  },
+  "complete_remote_included": true,
+  "files": 3584,
+  "git_files": 2802,
+  "release_files": 782,
+  "unique_release_blobs": 460,
+  "unique_release_bytes": 13767697219,
+  "logical_file_bytes": 24676001787,
+  "redacted_files": 81,
+  "groups": {
+    "research/looplm": {
+      "files": 926,
+      "bytes": 3505609609
+    },
+    "research/clr": {
+      "files": 304,
+      "bytes": 6350998030
+    },
+    "research/migrations": {
+      "files": 336,
+      "bytes": 6351186128
+    },
+    "research/plaa": {
+      "files": 88,
+      "bytes": 1644440383
+    },
+    "research/studio": {
+      "files": 483,
+      "bytes": 39301478
+    },
+    "archive/server-scnet": {
+      "files": 763,
+      "bytes": 6181505588
+    },
+    "archive/github-2026-10-20": {
+      "files": 649,
+      "bytes": 600781023
+    },
+    "papers/clr": {
+      "files": 6,
+      "bytes": 527951
+    },
+    "papers/plaa": {
+      "files": 26,
+      "bytes": 1517437
+    },
+    "papers/reports": {
+      "files": 3,
+      "bytes": 134160
+    }
+  },
+  "runtime_exclusions": [
+    ".agents",
+    ".cache",
+    ".claude",
+    ".git",
+    ".ipynb_checkpoints",
+    ".local",
+    ".reasonix",
+    ".ssh",
+    ".venv",
+    ".zcode",
+    "__pycache__",
+    "archive_packages",
+    "github_publish",
+    "node_modules",
+    "server_full_archive",
+    "venv"
+  ],
+  "legacy_server": {
+    "connected": false,
+    "error_type": "gaierror",
+    "detail": "Legacy cheems SSH unavailable; Tailscale reported NoState. No server configuration changed."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "data_leakage_detected": false,
+  "input_file_hashes_train_validation_only": {
+    "train/entity_features": {
+      "bytes": 95559808,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_train.npy",
+      "sha256": "4752e03b4b4ff3a65ce77ae4c27cfa304644815a4640c6297e8bb2f7ad0dfce5"
+    },
+    "train/labels": {
+      "bytes": 1710972,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_train.csv",
+      "sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115"
+    },
+    "train/mr_npz": {
+      "bytes": 109768934,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_data.npz",
+      "sha256": "612f387f326d1c4cb1490fdc3eac9bb62d502315a81d203f7407597d56a65e23"
+    },
+    "train/relation_features": {
+      "bytes": 95559808,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_train.npy",
+      "sha256": "8b69102f50a3ead5727b7aae477adbb733437c7a199cb6caebb8c03c4e34a30b"
+    },
+    "train/sidecar": {
+      "bytes": 4153720,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_train_sidecar.csv",
+      "sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078"
+    },
+    "val/entity_features": {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_val.npy",
+      "sha256": "d17d24ecc060c28033a4aa5d6c682634370c3c51f589b04f96499a31f1b08726"
+    },
+    "val/labels": {
+      "bytes": 313881,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_val.csv",
+      "sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7"
+    },
+    "val/mr_npz": {
+      "bytes": 21958477,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/val_data.npz",
+      "sha256": "967c7b7bf761d8baeeb900a1bc1413013d1825a7facee6555263a5c73fbb6ceb"
+    },
+    "val/relation_features": {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_val.npy",
+      "sha256": "2a00d828f92bc0237657e4c13f68d7599294e27595bdb1950deaae4f0caf0718"
+    },
+    "val/sidecar": {
+      "bytes": 769144,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_val_sidecar.csv",
+      "sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf"
+    }
+  },
+  "o21a_parent_gate": "PASS; frozen artifact read-only",
+  "parent_all_split_episode_id_overlap_zero": true,
+  "parent_all_split_episode_overlap_audit_sha256": "9fa2b183ca4008291380ac31767d3a6582ab80f0b3b0ee42fc3acd784bef10a5",
+  "parent_artifact_hashes": {
+    "device_name": "BW",
+    "o21a_checkpoint_sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+    "previous_config_sha256": "5be7a10274df9b1ae7689f71cc1bb3726fd03cdf605303988b06fa434b576b8b",
+    "previous_script_sha256": "179a9473810ad62bc2e890b6620f0e383970e0c0a0ace2809bc0063c27e545be"
+  },
+  "source_separation_verified": true,
+  "status": "PASS",
+  "testA_testB_split_row_and_feature_join_validated_on_load": true,
+  "test_data_accessed_only_after_validation_gate_pass": true,
+  "test_evaluation_status": "COMPLETED_AFTER_VALIDATION_PASS",
+  "test_split_files_opened": false,
+  "test_split_files_opened_during_stage0": false,
+  "test_split_files_opened_final": true,
+  "train": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 27955,
+    "entity_carrier_shape": [
+      11665,
+      2048
+    ],
+    "episode_counts_by_N": {
+      "1": 1667,
+      "2": 1667,
+      "4": 1666
+    },
+    "episode_ids_present": false,
+    "episodes": 5000,
+    "fact_rows": 11665,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "train"
+  },
+  "train_validation_canonical_fact_id_overlap": 0,
+  "train_validation_episode_id_overlap": null,
+  "validation": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 1118,
+    "entity_carrier_shape": [
+      2332,
+      2048
+    ],
+    "episode_counts_by_N": {
+      "1": 334,
+      "2": 333,
+      "4": 333
+    },
+    "episode_ids_present": false,
+    "episodes": 1000,
+    "fact_rows": 2332,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "val"
+  }
+}

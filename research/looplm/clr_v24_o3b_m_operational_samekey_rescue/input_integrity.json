@@ -1,0 +1,170 @@
+{
+  "cache_certificate": "J3C-P — FRESH ID-CARRYING FEATURE CACHE PROVENANCE CERTIFIED",
+  "cache_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "experiment": "O3b-M input integrity",
+  "feature_sources": {
+    "entity": {
+      "dimension": 2048,
+      "file_pattern": "H_mention_fresh_{split}.npy",
+      "frozen": true,
+      "normalized_in_cache": false,
+      "semantic_source": "fresh exact entity-mention mean hidden state"
+    },
+    "relation": {
+      "dimension": 2048,
+      "file_pattern": "H_base_I0_{split}.npy",
+      "frozen": true,
+      "normalized_in_cache": false,
+      "semantic_source": "certified MR fact_H addressed by canonical source fact row"
+    }
+  },
+  "files": [
+    {
+      "bytes": 1710972,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_train.csv",
+      "sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115"
+    },
+    {
+      "bytes": 4153720,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_train_sidecar.csv",
+      "sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078"
+    },
+    {
+      "bytes": 95559808,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_train.npy",
+      "sha256": "4752e03b4b4ff3a65ce77ae4c27cfa304644815a4640c6297e8bb2f7ad0dfce5"
+    },
+    {
+      "bytes": 95559808,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_train.npy",
+      "sha256": "8b69102f50a3ead5727b7aae477adbb733437c7a199cb6caebb8c03c4e34a30b"
+    },
+    {
+      "bytes": 313881,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_val.csv",
+      "sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7"
+    },
+    {
+      "bytes": 769144,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_val_sidecar.csv",
+      "sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_val.npy",
+      "sha256": "d17d24ecc060c28033a4aa5d6c682634370c3c51f589b04f96499a31f1b08726"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_val.npy",
+      "sha256": "2a00d828f92bc0237657e4c13f68d7599294e27595bdb1950deaae4f0caf0718"
+    },
+    {
+      "bytes": 332314,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_testA.csv",
+      "sha256": "f234ae2af50dc2ef34715700fd7ee9f7029291d5819bbcd2f9a9f911d495d5e0"
+    },
+    {
+      "bytes": 805930,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_testA_sidecar.csv",
+      "sha256": "f091dd82ac03b5ad88a97e806667b8f4904dec74465e4ac94298ee8d2750c581"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_testA.npy",
+      "sha256": "b64a42d24dbd8ae45fc52a18865b197f361625b788a81ddaa8601c8d12f8dbcb"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_testA.npy",
+      "sha256": "36315eb97edf84d74448f27e41707beec1f4af2179710dee44723e7e86da28cf"
+    },
+    {
+      "bytes": 326905,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_testB.csv",
+      "sha256": "90ebf1234f511876b83ee01309b9b928cb7a127c408b93f238f860043bce8aea"
+    },
+    {
+      "bytes": 800680,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_testB_sidecar.csv",
+      "sha256": "6f659e03df8a85f4e0f061ca3a141216ee5d5ce752b2c0895bf4fd8e5711aa99"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_testB.npy",
+      "sha256": "21873664641c8a9453c784aebb41d2ffc9abaa828cd7ff9e9f47ef508438e114"
+    },
+    {
+      "bytes": 19103872,
+      "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_testB.npy",
+      "sha256": "8e6ac8910d0f5cfd673b09790d60ffd8e6f3a1697854301ecbd38b09a1264bb8"
+    }
+  ],
+  "pass": true,
+  "source_id_overlap": {
+    "testA-testB": 0,
+    "train-testA": 0,
+    "train-testB": 0,
+    "train-val": 0,
+    "val-testA": 0,
+    "val-testB": 0
+  },
+  "splits": {
+    "testA": {
+      "canonical_fact_id_unique": true,
+      "entity_count": 570,
+      "entity_dtype": "float32",
+      "feature_row_id_unique": true,
+      "feature_shape": [
+        2332,
+        2048
+      ],
+      "relation_count": 4,
+      "relation_dtype": "float32",
+      "repeat_key_count": 593,
+      "rows": 2332
+    },
+    "testB": {
+      "canonical_fact_id_unique": true,
+      "entity_count": 568,
+      "entity_dtype": "float32",
+      "feature_row_id_unique": true,
+      "feature_shape": [
+        2332,
+        2048
+      ],
+      "relation_count": 4,
+      "relation_dtype": "float32",
+      "repeat_key_count": 607,
+      "rows": 2332
+    },
+    "train": {
+      "canonical_fact_id_unique": true,
+      "entity_count": 600,
+      "entity_dtype": "float32",
+      "feature_row_id_unique": true,
+      "feature_shape": [
+        11665,
+        2048
+      ],
+      "relation_count": 4,
+      "relation_dtype": "float32",
+      "repeat_key_count": 2286,
+      "rows": 11665
+    },
+    "val": {
+      "canonical_fact_id_unique": true,
+      "entity_count": 568,
+      "entity_dtype": "float32",
+      "feature_row_id_unique": true,
+      "feature_shape": [
+        2332,
+        2048
+      ],
+      "relation_count": 4,
+      "relation_dtype": "float32",
+      "repeat_key_count": 617,
+      "rows": 2332
+    }
+  }
+}

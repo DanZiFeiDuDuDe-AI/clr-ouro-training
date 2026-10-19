@@ -1,0 +1,8 @@
+{
+  "R0": "H_fresh @ Vh.T",
+  "R1": "R0 * S elementwise",
+  "R2": "H_fresh @ W1.T; algebraically R1 @ U.T",
+  "float": "CPU float64 SVD; feature transforms emitted float32",
+  "source": "exact first KeyEncoder Linear W1 from frozen O2.1b b1_best.pt",
+  "svd": "W1=U diag(S) Vh; thin full-rank SVD"
+}

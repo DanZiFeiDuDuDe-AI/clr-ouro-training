@@ -1,0 +1,3649 @@
+{
+  "format": "split-tar-zstd-v1",
+  "compression": {
+    "codec": "zstd",
+    "version": "0.23.0",
+    "level": 3,
+    "threads": 4
+  },
+  "tag": "archive-2026-10-20",
+  "repository": "DanZiFeiDuDuDe-AI/clr-ouro-training",
+  "parts": [
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0001",
+      "bytes": 536870912,
+      "sha256": "a16d41620a5674bd50823becab30dab097d455db4584927a9dd19bfcc1ae7b1c"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0002",
+      "bytes": 536870912,
+      "sha256": "1f81dd81f6ba0e447040e5d8657dcfae87f9224c62c03a8cb6454678426a4919"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0003",
+      "bytes": 536870912,
+      "sha256": "1e3c792780487c1367ca9948e9e800c9b147842291f6f4ef08a4491a0896be6c"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0004",
+      "bytes": 536870912,
+      "sha256": "4022514a58aa3de9df9e2ff93dfc50112bb94e37813e79554983de6fc2776b1f"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0005",
+      "bytes": 536870912,
+      "sha256": "2395844bd486476f4fa661e18c13b166331afd8974e4f2d8fba473db63c678e7"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0006",
+      "bytes": 536870912,
+      "sha256": "c0ef31fddf62049269c71d481567db1558d35559c3fa75cedadfbb84d5af35d0"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0007",
+      "bytes": 536870912,
+      "sha256": "9201c34da7a08fb7d36aa1da304a31238c8b5f2675afd6300d9db22bc9b769c3"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0008",
+      "bytes": 536870912,
+      "sha256": "78d5f317997e0eb34cf0aaa4c2381eb2c2070fbfcecfa7c8967ad0285e7e2407"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0009",
+      "bytes": 536870912,
+      "sha256": "aaff51bc08b62b0aeff64ba7555658572dfe156d562c4e4c32f87f6946da9da6"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0010",
+      "bytes": 536870912,
+      "sha256": "162a9de6910daa9d6e9290c77547f8501e6ffe33b456ade1335e4a615ac3162f"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0011",
+      "bytes": 536870912,
+      "sha256": "5aa34896611676439656f163ef6cd22f5bfafc3f1d899dea4daf1914ad4722ab"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0012",
+      "bytes": 536870912,
+      "sha256": "5698438082f27b52b5ab3e44da54dc08bbfa0fa7df7e788fc5039d050e7ba4f0"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0013",
+      "bytes": 536870912,
+      "sha256": "8937ed0e32a750b7ac54731488ceebe14e2e635cd060aeff57ab7daa105eac6c"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0014",
+      "bytes": 536870912,
+      "sha256": "fcbc641f1f134851b456e58eefef170ad5e6739bc012eecb81074cda007fc9be"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0015",
+      "bytes": 536870912,
+      "sha256": "29ecaf02b0c5160df093e111afdb66b61c54e672758ba90aa33e8f273368a81c"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0016",
+      "bytes": 536870912,
+      "sha256": "84812ddbe7b2036ef6e3e8f4e5d0875eb87e10dbfe861356929aaeabcde6612e"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0017",
+      "bytes": 536870912,
+      "sha256": "3697a57a1f04da0e6bbbf0ccfed522dfbef8d18b8ca8f5d4caf4f7ed007e25c7"
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0018",
+      "bytes": 46462671,
+      "sha256": "729d7e9e8f5668fe5e4ab47343f85ad938aa3dacb8d20ee4b229a0f3a8cf9804"
+    }
+  ],
+  "compressed_bytes": 9173268175,
+  "unique_blob_bytes": 13767697219,
+  "blobs": [
+    {
+      "sha256": "0081a6f5a02ef63d0efe1908f6481667fe992411c19cf5a61645962b602467f2",
+      "bytes": 855821,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_final_rerun/ckpt_step0900.pt"
+      ]
+    },
+    {
+      "sha256": "018b8c661a6f13d59c3f7f4ab2dc267eebee471add12284bbe5fa84b688b9702",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_79.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_79.pt"
+      ]
+    },
+    {
+      "sha256": "01a8e1abf74941e54440f832b0d0323ad1bdccb91c9413be93944fbfaae9ce66",
+      "bytes": 16835682,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_sparse12_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_sparse12_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_sparse12_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "028944806027febded7d0abd8893cf71ea550c0e523c901747a0f94656505c07",
+      "bytes": 167269,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "02a212a467dd4cfdd48dcae08e36fe6c0e7242a0202c0f0e02ec577a5fdeb8f2",
+      "bytes": 29446644,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_all24_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_all24_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_all24_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "02f21d7dfae660568f069ccd298217e774b20c420ad97d55515134c67616674c",
+      "bytes": 635311,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "044089582ef56814313e7788812f30b62a81c0889ff834bc5d860982584d5a02",
+      "bytes": 16835682,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_sparse12_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_sparse12_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_sparse12_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696",
+      "bytes": 1746942600,
+      "paths": [
+        "research/clr/models/Qwen3.5-0.8B/model.safetensors-00001-of-00001.safetensors",
+        "research/migrations/d_clr/models/Qwen3.5-0.8B/model.safetensors-00001-of-00001.safetensors"
+      ]
+    },
+    {
+      "sha256": "04da53037f6ab8434a957db0a27045dbf48b93cb11f4db7e933f0d650d6ec473",
+      "bytes": 2176219,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step200.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step200.pt"
+      ]
+    },
+    {
+      "sha256": "064cec447dad77393f2379a74a56aa67ad7185eda95f72c092060aac3bb7c0e3",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s43/ckpt_step0600.pt"
+      ]
+    },
+    {
+      "sha256": "0663aa3dcae8726c6e63632316bb8189771841ccfb50937970c11cbd9a2db349",
+      "bytes": 124168,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_vector_1x64_s42/z_logs.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_vector_1x64_s42/z_logs.pt"
+      ]
+    },
+    {
+      "sha256": "06b18e8fbc921bd9beba480ee613c4ffff335d7ceda6d669d7cf1fb1ddc1014f",
+      "bytes": 11945088,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z1_train.npy"
+      ]
+    },
+    {
+      "sha256": "06c3af9a0fdf0b13a5fe1251f6ad91307c93b4a9cbe8fd53f5e117f97f0bc55b",
+      "bytes": 20541,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3be_final/factorized_p2_25_best.pt"
+      ]
+    },
+    {
+      "sha256": "07bd9704fb913a8e3f194c56cde508589cb020c40478de33729d9a8074ff9799",
+      "bytes": 163223,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "07e36a0893fa479bc7bb2caeb28b8b98573a3c414165d030f232fe2ae1395ca5",
+      "bytes": 18019157,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/canonical_source_manifest.jsonl",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/preflight_attempt_2/canonical_source_manifest.jsonl",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/preflight_attempt_3/canonical_source_manifest.jsonl"
+      ]
+    },
+    {
+      "sha256": "080f349e7d26610fa5f2ae096549e57a50805a34186a0ce8e4171d46b383ffb7",
+      "bytes": 319037,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "086214aecb784c8c14e8dce9f02923d35669b10e7821a52292d84ec52aa726ae",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R0_testA.npy"
+      ]
+    },
+    {
+      "sha256": "098575cca4b1038b72c24c3e5a3d78d3d5167d69747b14df7bb49b65f03008f5",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_n1800_reset_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "0ac54b2a971bba5bf10aa048b65dce251484314bddba1562b81924e39a14ff3c",
+      "bytes": 81413,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "0b28c1326beffad0a15292b9eb56d6fb35a3805e6151c2be784af8598f4a198d",
+      "bytes": 20567,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "0b5935efa4f7b4871da85b4acf72ab3d00c07bea550b9e2e63051c75c1b9a10a",
+      "bytes": 36477,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R3_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R3_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "0ba082c32162473c5e93c38c6611af75d84c508e001ca24637c5a2104407e283",
+      "bytes": 10191661,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3p_row_provenance_recovery/extraction_provenance_sidecar.jsonl"
+      ]
+    },
+    {
+      "sha256": "0cb2c6c7de3a052c33f2cefb0bcbb63eb9499282f76c1ce84fbcb317942497f8",
+      "bytes": 2056012,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds128_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds128_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds128_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "0cb62b143f52a4e38cb3b548b869e2597740a31ad09edadfdf6ed25e23d56497",
+      "bytes": 55549,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d3/ckpt_step0900.pt"
+      ]
+    },
+    {
+      "sha256": "0d79816afe27e4cf285c0b693312aed86f1064fe1d31ec0529042eae51ffd3d6",
+      "bytes": 1166389,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_17.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_17.pt"
+      ]
+    },
+    {
+      "sha256": "0d9f3918da8df77090d5d34754fb1c0092345f650e8fc2922e4a46ae062f7e67",
+      "bytes": 81413,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "0e08e7b23b07cd98e56007471ad7a2dd4195c17cbfa712b344015e1dc3b7c083",
+      "bytes": 167239,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "0e5be1a5b980ec28e095c6aa06e9e8eb0f1ac03af9c36f691a2a7d22ec8e036e",
+      "bytes": 643453,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "0e84278516bf7102de637ad1a15b70e21d7f969b48e9045a7d6522dfcad4555c",
+      "bytes": 626277,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "0f7c611fd27343f193fd9e21afcab5b19491a80e3d82626ff7f3377e1a9dd024",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_persist_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "0f9e9374b234242611292c978bdfcaa78854af928849487071ceed4870bc7d36",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z3_testB.npy"
+      ]
+    },
+    {
+      "sha256": "10478de4142f837b41738ebaa50080a37aef625656becc32935e72e8881ec6ab",
+      "bytes": 2797,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "104f2656550f711bf8964de9efce647d27454cdf8a244e02e3c6760a07a06abe",
+      "bytes": 871628,
+      "paths": [
+        "research/clr/checkpoints/smoke_qwen2.5-0.5b/last.pt",
+        "research/migrations/d_clr/checkpoints/smoke_qwen2.5-0.5b/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/smoke_qwen2.5-0.5b/last.pt"
+      ]
+    },
+    {
+      "sha256": "12c5153444353d18d49b2bb9318143bd20068469a12942a9b9bb9b900c338ab2",
+      "bytes": 1917090,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_s130/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "12ca5b95c1431e9b1b83e19219ef81b9ae8ee2cd9e46d4d218442d60da83bd98",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R1_testA.npy"
+      ]
+    },
+    {
+      "sha256": "139ee4321ec50f76de6b3bda3d8ca9e56daf4dc654b990cf19b30328a7aeb4f3",
+      "bytes": 986658,
+      "paths": [
+        "research/clr/checkpoints/baseline_v2_fixed/best_model.pt",
+        "research/migrations/d_clr/checkpoints/baseline_v2_fixed/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/baseline_v2_fixed/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "148d4f6b8a4850fe155e4670f0c98c4c24f653be711be653515af1eec1a39591",
+      "bytes": 12315,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "1545240878de8be9c13d4324c0cc41b5420a9928743bc91694aecb513ee7ca6e",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00500.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_00500.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00500.pt"
+      ]
+    },
+    {
+      "sha256": "157d925e57a16343aa644d3cc074ba70eb86b1e8f2a1e18817279ec30876bb0b",
+      "bytes": 1789508,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_sparse12_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_sparse12_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_sparse12_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "15b42f6070bc0c3e568d6b95cdd93a292272b059af7eb22a935153b325792fbb",
+      "bytes": 1917026,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_ut3_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_ut3_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "18afcdeb8187600d9cb7bccc47e859818d6c59ab990bf0ec54e83a6169881a9c",
+      "bytes": 987916,
+      "paths": [
+        "research/clr/checkpoints/phaseb_static_DS64/last.pt",
+        "research/migrations/d_clr/checkpoints/phaseb_static_DS64/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phaseb_static_DS64/last.pt"
+      ]
+    },
+    {
+      "sha256": "19d1dacbbe35781938c66d0ffc8941d04f40b67e5e8db144c06064251045013d",
+      "bytes": 3577,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_r2/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "19ebda534044a527cb54ffa8bb2f5a1d9aed09298d9df88d1ad9315ebe1e84d8",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s43/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "19ff650530d96b5ef9fb7184393d09e44e2d8b4f35a79014b3e610da69ce94f2",
+      "bytes": 13968884,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_all24_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_all24_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_all24_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "1abd1ff73564877c7803d1ed1782dcce29f3105f8bc7db60cd91ac6fa08f16ed",
+      "bytes": 3309,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "1bb3849442f58167524366384eb97ee60e94f122932e148a213935b81a680ece",
+      "bytes": 855821,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_final_rerun/ckpt_step1200.pt"
+      ]
+    },
+    {
+      "sha256": "1d6d7fbd9c6eca59dfde99623e03ca2d6ac404e1a6e7d112cdee0e18ae673a1c",
+      "bytes": 2797,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "1f6a25891928a18d75487f63fedf65ee243c5778001f681bdcd99537e27241c8",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_testA.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z0_testA.npy"
+      ]
+    },
+    {
+      "sha256": "1fcf231ba83fab5e3bbe1ad18f6169613242b7e49fc1acd689ad460718761978",
+      "bytes": 20541,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3be_final/factorized_p2_50_best.pt"
+      ]
+    },
+    {
+      "sha256": "209c1d5c354361b0727e4e4e0f729a4b5fdc3bc0a2cb48e45bff1f80f3f24c29",
+      "bytes": 635261,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "210a04f97266e43c0219c65c97f79e107fec18f94312370bb40ccecbd1c0869e",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z2_val.npy"
+      ]
+    },
+    {
+      "sha256": "21873664641c8a9453c784aebb41d2ffc9abaa828cd7ff9e9f47ef508438e114",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_testB.npy"
+      ]
+    },
+    {
+      "sha256": "21d2a10b492f78b12d76815b3ef2ae727601cc659deab4b3840f3a364deb0425",
+      "bytes": 989346,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail6_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail6_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail6_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "22041573f0f5baed7923bf7b2444162215d28a9a68a96a08a7b2e8702cf42afc",
+      "bytes": 4487586,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail6_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail6_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail6_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "2250b66f99bbbc77e229b243900dbde94bd757b3c21a67c571696dd9c8af37d4",
+      "bytes": 20641,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3be_final/factorized_original_best.pt"
+      ]
+    },
+    {
+      "sha256": "2434674f9b7da39e5182e6646d9d450cd3c475074f92590a3c97e936f0559bb3",
+      "bytes": 3257,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m1/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "24a76156fb997b27c3ec739475d602ffc0965c1d004a1fc77ada0fba65018117",
+      "bytes": 124168,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_8x8_s42/z_logs.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_8x8_s42/z_logs.pt"
+      ]
+    },
+    {
+      "sha256": "24b3b115e83a89b0aa3489b9d4d6fd697cefca77da582037b4e2e70198268eec",
+      "bytes": 588130,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail3_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail3_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail3_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "24bc6a606e6fd581d8ba1ca6122da69b2576d7d9f5cb7b207286049eb24d6691",
+      "bytes": 20537,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "24ce86872e8a44c72af1297f6bd6710c4e33567643efc1e4f6ee2328a9e6d365",
+      "bytes": 36477,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R2_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R2_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "253849e314eb386fa50b9abb80916575fcec9dcae920385c6c447ebc78c753ed",
+      "bytes": 2175285,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "255b8c7e6ba4c3f5114b691d661d41ad54f58946feaff7a9ddb1e711f1a8c5f3",
+      "bytes": 1918946,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_vector_1x64_s42/best_model.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_vector_1x64_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "2583bc7820663c55eaa2aeb4fbb89a4a901abc03a27d9995b83728a791ac8116",
+      "bytes": 1791586,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_sparse12_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_sparse12_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_sparse12_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "25e632c4b593fe2395d2e2365059293e2c068176c43a43b7e088d753e33a597c",
+      "bytes": 3193,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "265fd1560e46ea63fa7d2fde1b5133d4bfd19ed2a802179846c6a88e68f2de23",
+      "bytes": 127505,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l0p5_best.pt"
+      ]
+    },
+    {
+      "sha256": "26c47b7e02ee8e1802bcb0a5fba684ae7cf3d34f4bf5158675bf52db7b39920e",
+      "bytes": 1917922,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_halt_s42_cw0p5/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_halt_s42_cw0p5/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "273d6915538e3e3350e628aae4ecb6fc0ab49a974b5277cfe73c0de8b30198a7",
+      "bytes": 167289,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "28e55e2097db339fd800bcba701ac654bc0b8a188f8a818499af964de15ba10f",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s44/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "294bf5812095cf2c871c82f10cf738ecc132c998730db99572cdb47d33ad8229",
+      "bytes": 2693,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "2a00d828f92bc0237657e4c13f68d7599294e27595bdb1950deaae4f0caf0718",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I0_val.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_val.npy"
+      ]
+    },
+    {
+      "sha256": "2b7a533beea2a0f9941255db9ba9b8f50de6fbc1818b86050cf32b219c4e17e8",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_persist_s42_broken_backup/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "2bbf78d3ac8a44f6ba6a0e727c55bf8c629a09dc09bcc082f698880779803679",
+      "bytes": 55933,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_norm_r2/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "2c034a45851c2942b3161382c423688ffe943a0451f4fe4677b40a76b2677a0b",
+      "bytes": 4487458,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail6_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail6_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail6_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "2cd6cd62440d34b50b978a356159c28fc1ed4d7f30e7055e2606880a3c41a2bc",
+      "bytes": 5265,
+      "paths": [
+        "research/plaa/qwen3-4b-phase1/final/training_args.bin"
+      ]
+    },
+    {
+      "sha256": "2eda0cf46090bd3c19e39aaf5987d5f325c4ae9571a6de078b6219d37ae54a6f",
+      "bytes": 2797,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "2f8f255eafeae9b30fe90ffb6948aef08d28a785c8b669fd5cdcca69963a7544",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_01000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_01000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_01000.pt"
+      ]
+    },
+    {
+      "sha256": "2febfa8d0016d4a9873fb614fa06ed515d3497f4e388cf179bbc3a61581ba99f",
+      "bytes": 165501,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "3003231e99d47b1727cd50e858f55047d7b36b634ae8b2d7732e3a8bef6c60f7",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_10000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_10000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_10000.pt"
+      ]
+    },
+    {
+      "sha256": "3086929b81e988d0f3e919cde38c1597bb8ce400f6e47fe54321a90614b376f0",
+      "bytes": 17906192,
+      "paths": [
+        "research/plaa/model/plaa-mfilm-qwen3-4b/plaa_full.pt"
+      ]
+    },
+    {
+      "sha256": "3107d0adaa60a80066d3dd2929a2e36ac9d3ed50be47829bdc13906e8c6c1f01",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_79.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_79.pt"
+      ]
+    },
+    {
+      "sha256": "31b600fe02e39a78536341a078be69acaac973a3c3c1585e411c15053e6203e8",
+      "bytes": 2175451,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step100.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step100.pt"
+      ]
+    },
+    {
+      "sha256": "31d3c5d001760b739b3ff685c357aac5cc1cb4ce54d0397d4de09d280a896e9d",
+      "bytes": 643483,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "33077996d7c5a1efedec2e48fc350ce755726e4ab135685651d1575de3e64d28",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/_repro_persist_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "330ddf518289bd416f845d82c3ce0dd578a23947a5ac8ff99b2d176a36957ceb",
+      "bytes": 2179803,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step600.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step600.pt"
+      ]
+    },
+    {
+      "sha256": "338b60af8c52e3f194709bd81e4d8e982000fed195feeace01dc3ce2a7611213",
+      "bytes": 81437,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "33fdbaa3911a2431c8cf823704eaa5e84029fd3e03d3db4b8b54e74bebbdf9df",
+      "bytes": 12375,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "34c9ea2af51c94e6211a7dc40cda1ff8ff63a56b9fed467af24151695f9ca413",
+      "bytes": 167269,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "351dd5baed18b20849096b6ad59162c4a5745624be63cce1be22c73a8a350cde",
+      "bytes": 124168,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_4x16_s42/z_logs.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_4x16_s42/z_logs.pt"
+      ]
+    },
+    {
+      "sha256": "358fa94a84fbd2be417af7a93d701d4c7c8f62b209c5803070b1d13919292bdd",
+      "bytes": 95559808,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I2a_train.npy"
+      ]
+    },
+    {
+      "sha256": "35a29e4d02f0fb6f6c36907a05ed8d8cf779b4c34864735beff8c30265d2f7eb",
+      "bytes": 22670872,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/phase_b_1_AdamW_lr0p01_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/phase_b_1_AdamW_lr0p01_wd0.npz"
+      ]
+    },
+    {
+      "sha256": "3600ca243ab185d31679095e66ec0366f7162ba1bc69b0026e5d899d3d2530bb",
+      "bytes": 3229,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "36315eb97edf84d74448f27e41707beec1f4af2179710dee44723e7e86da28cf",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I0_testA.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_testA.npy"
+      ]
+    },
+    {
+      "sha256": "37677207b120aef8f21591086f772bd36ac13266a5197a630b0cabbba7a2fa4e",
+      "bytes": 1917922,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_halt_s42_smoke/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_halt_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "37ffe4f0292ab87fd593ea7eb34a9b991d49647f92cc3d54802cf5972a39e8a8",
+      "bytes": 109285,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G1_hadamard_final.pt"
+      ]
+    },
+    {
+      "sha256": "38f77a407293b3ce33a0f5b1ad731ced1eb4a3fc03fa5a199d793d38cd4db0c0",
+      "bytes": 3392692,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_all24_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_all24_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_all24_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "39cc5588965a84f4a82d2823ae98d86aa8f046c32b0ec0675148aa8c12dcccef",
+      "bytes": 167269,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "3a373e4003562713bcd152d75d29a6567904bb703f84a0acf7d787af90c87661",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s43/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "3b0ba44ea0f39b63f5644fb734808626341b3887e717a95cb3717f57698f85c1",
+      "bytes": 22710332,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/paired_init_detailed_SGD_momentum_0p9_lr0p1_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/paired_init_detailed_SGD_momentum_0p9_lr0p1_wd0.npz"
+      ]
+    },
+    {
+      "sha256": "3b946a9c4972a26e3789e4fd1807e380dd999d906f3e9fe91eef85224d987197",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R1_val.npy"
+      ]
+    },
+    {
+      "sha256": "3d08bf5574656e7135f4b4e9ceab7ce60c384081733da34a6ccbb56aa4704ab9",
+      "bytes": 3396450,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_all24_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_all24_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_all24_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "3d8d6926342da418a28c3abb3cf41339891a5cde1c57c4762b25a9692e36ab2b",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_ut2_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_ut2_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "3d9e8b6b94c480ab7f844296c601b46b690329cb92648a0a66dbe301f61ebb4a",
+      "bytes": 2055692,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail6_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail6_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail6_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "3db5bd9fc811bfcd8f36eb5f9b6e8a1e83a6bcdeb74c2bade3dd4a019a9aa04b",
+      "bytes": 2717,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "3df492ca2907fa4516f7290a04b5fea073e1dfa5f10cea7f97609546fc6a39f3",
+      "bytes": 525851,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_centroid/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_centroid/probe.pt"
+      ]
+    },
+    {
+      "sha256": "3ee21cb24c0691a05186f1169de51961a59d64847a20831c52bbc6d53c61066d",
+      "bytes": 22723156,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/phase_b_2_SGD_momentum_0p9_lr0p1_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/phase_b_2_SGD_momentum_0p9_lr0p1_wd0.npz"
+      ]
+    },
+    {
+      "sha256": "3f18486791a4c0220f6d52bdc72dd852566a18060f414ae757bbd2f83235fda8",
+      "bytes": 2175413,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "3f5b928bd3c5bc192a710965cee7fc7b3034a4570ac7de8b1b619af20332e5d3",
+      "bytes": 20557,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "3fd1d43ac03d766aaea62554ec62a14898478f47a5a1c2d871718986861ab4d7",
+      "bytes": 2805,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "4019c42004996635c4ed982fd401364bc45ee279a7dc755cb9b2e37250f346d1",
+      "bytes": 3396642,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_all24_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_all24_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_all24_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "402a16c3298c1d2d72f55c06d6e4b516cc130313c0007debc30c534d2730b68b",
+      "bytes": 587248,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail3_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail3_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail3_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "40f24c00208ff935baea632e3e6e6840310461df367b21e392cd726d6a30ce18",
+      "bytes": 127421,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l2_final.pt"
+      ]
+    },
+    {
+      "sha256": "41c832fa4f1f03f453ee9074a49f572b626d680a4cc2599e1cbe5b9129a77dba",
+      "bytes": 167269,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "42282520a548d991f6d8a9de768e7ab11511ad866366784775d27ae4ab5606b8",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I2a_val.npy"
+      ]
+    },
+    {
+      "sha256": "4279b5c464cbf11e2020a7405d2fe8c7d2dc1f30bdd9eda999f1012f15b0ccbe",
+      "bytes": 319061,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "4393e9d3ddae491157ca88e1c4bad6450639e918d77dda47ccdb058c3905032d",
+      "bytes": 11945088,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R1_train.npy"
+      ]
+    },
+    {
+      "sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "bytes": 1166389,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt"
+      ]
+    },
+    {
+      "sha256": "43dcd31530149083345854320794fabb25fc8779f5dc1b07da8c4bcf7bab79ae",
+      "bytes": 1918946,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_halt_s42_cw0p3_rep_ho/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_halt_s42_cw0p3_rep_ho/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "44edf679eaead2148453d7fe20b9a12c86a20753774e81a0e15daa0867a79cce",
+      "bytes": 27013372,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/prepare/3k_val.npz",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/prepare/3k_val.npz"
+      ]
+    },
+    {
+      "sha256": "457f899bebfd8b1f76e940d61718581609d32707dba60f77054ee0a6ef13836e",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_math_s42_smoke/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_math_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "45d1f8be24631f483b639d8b69575f5ac1281e2f815ff7b55f6194d736bbf3ea",
+      "bytes": 117685,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G4_learned_concat_best.pt"
+      ]
+    },
+    {
+      "sha256": "4637e080e0a8d5211bf0c29ea5291f1773f07a5325ba01bea542beb421458e20",
+      "bytes": 2581,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "464a67626e2529b7890b7e60314979f1b1a66963009b30d7989e283333d93cb9",
+      "bytes": 20507,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "46676516632aa6120bc435713723521659f9fb102cc244755f09b797f95c3b4d",
+      "bytes": 102663940,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_l2_j2/features/l2_i2b_features.npz",
+        "archive/server-scnet/clr_v24_o3b_l2_j2/features/l2_i2b_features.npz"
+      ]
+    },
+    {
+      "sha256": "466ffb3882d8bd4272b04d0c1b92c2367e6aa664a804149db8ccaa5157941c6c",
+      "bytes": 251660,
+      "paths": [
+        "research/clr/checkpoints/smoke_ds16_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/smoke_ds16_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/smoke_ds16_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "46b035ba85d4964f7f1fc17f9876383b927ef9382448e448f3df3828188e0472",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s44/ckpt_step0600.pt"
+      ]
+    },
+    {
+      "sha256": "4752e03b4b4ff3a65ce77ae4c27cfa304644815a4640c6297e8bb2f7ad0dfce5",
+      "bytes": 95559808,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_train.npy"
+      ]
+    },
+    {
+      "sha256": "4773ecf758e7a9851849e363dd29727a164e09ee19b342e0ab9bc53669e6e7ce",
+      "bytes": 13968884,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_all24_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_all24_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_all24_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "490241fa77969c4a57c26838afa6ece9bf2557b67d5e52461b087b25c896aa53",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_val.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z0_val.npy"
+      ]
+    },
+    {
+      "sha256": "492e1e10ed0ddf5a069a1aa025f9cfe97fcc247e60a6cd3322f42d837b9bc7c0",
+      "bytes": 81453,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "49b57bad639e030301f4374e619a7c6f8de64b85382ffa97359bb8e1bcea2c84",
+      "bytes": 21946895,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testA_data.npz"
+      ]
+    },
+    {
+      "sha256": "4a020abd8f6b47be48f2b6ae33f463caedfe37fcad6eba07fc9060100dd42002",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s42/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "4a1e5e6db69da71343eaae1c0536d1473bb59e10b78556e432843cf0dc27346e",
+      "bytes": 81461,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "4b7e3c6613bc818920b108e7fd60da97074729f099d6d3ba1d3b2354c1aa698a",
+      "bytes": 873250,
+      "paths": [
+        "research/clr/checkpoints/qwen2.5-0.5b_evolved_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/qwen2.5-0.5b_evolved_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/qwen2.5-0.5b_evolved_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "4c5c8cbcd7a3889377ecb7a95d236648c382ab63478e191a069434921ac6b38b",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z4_testA.npy"
+      ]
+    },
+    {
+      "sha256": "4c7c7797eec4c419effd9b187cfba5dc8e43a277f593665d4005681b872cc336",
+      "bytes": 81421,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "4c9d786a0ec8c5ede32b6576ef7c4288701a1d0ae6e325734e9b2831879c3a53",
+      "bytes": 175431,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "4d6a25990cca44e2c7f2cc6d9d457e53ff25ab1015ac0fe52baef12fd7a7bb70",
+      "bytes": 36477,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R4_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R4_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "4df200f412d608cf35d64eecaac475ea808b165959b96dc8f4840c60965b2a92",
+      "bytes": 2905904,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail3_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail3_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail3_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "4df85578a23d995f206b7a8f4570f7fced356294b1fef8f7974d6c9eb4c39ca2",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_02000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_02000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_02000.pt"
+      ]
+    },
+    {
+      "sha256": "4ee01c52b3aeab3967555da342e20648c73c014fb5405356ecddf55ba28922a4",
+      "bytes": 1917026,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_ut1_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_ut1_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "4f4617d8772b2221178078305e3df42cafd99e55ead59c6b263093df982f342d",
+      "bytes": 643513,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "4fd12596c1d89a326f8b2478ffd232958aca57630b0cd808fc06136358959d1f",
+      "bytes": 55549,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_norm/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "500de5c06d2881132a7ae337fe4db63a7b46172fc381b4e2a63c7d133af6fc6a",
+      "bytes": 7649186,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_sparse12_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_sparse12_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_sparse12_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "5073c8e2a7ea1f2c02f9b8a527e237b05b19f020bddcdd8efb651eb9e1037291",
+      "bytes": 2813,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "51615083803e7f048af1599b54a13c83bc6f6eaac7f251cbfcd3a1761889389d",
+      "bytes": 2565,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "52291740b68f2bf16e3a3e8e70b6eced66ae480f6718521145daeed19954dcca",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_01500.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_01500.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_01500.pt"
+      ]
+    },
+    {
+      "sha256": "526cd6c33675e16562d563b893311cd3146b8808495d388d7d26a8faff70fd87",
+      "bytes": 635261,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "52af523864c1b19608e30908c17a1c092f826815192cafff2041bbb1d1e09e6e",
+      "bytes": 6819764,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_all24_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_all24_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_all24_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "52c34cb9b70ad3450744ffb8390055cb94590dd2e0b253f67e5a14007c001bfe",
+      "bytes": 3643716,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_sparse12_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_sparse12_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_sparse12_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "541c971bc600c5e54ffa62b2ad34183b35afce13cca632bd5c35c56ae4c341b4",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s45/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "5426e1e452aa158cd804159da06de827d8946bec30e4c71571849428be58cd11",
+      "bytes": 1261872,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail3_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail3_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail3_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "54affc372edb4acd776094642581cf277b21cac5104d610a8039e2bdad353828",
+      "bytes": 2056930,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail6_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail6_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail6_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "5576db87324c4cf610565f904cdaac4af2f2db6bc96537699e0e8cb795c7b7ff",
+      "bytes": 16833412,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_sparse12_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_sparse12_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_sparse12_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "55c4e3ec289d5ab42bbd0043b4383d190102445319617a75b867ebb58e82eb77",
+      "bytes": 6819764,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_all24_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_all24_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_all24_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "55d1f80a1b35f57dd5a7d61c914999eba702d7920b5c8150dd20dc82e6df8317",
+      "bytes": 626301,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "56dc0cee4bfb4878b94963ed94917487dbfc847b787192a95f6244bb3813f167",
+      "bytes": 95559808,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_train.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z0_train.npy"
+      ]
+    },
+    {
+      "sha256": "57dcf0f45bf443bcaaaf2786a08e63475ccfc750e5c6cd1e51d9eaaaf98406ff",
+      "bytes": 127421,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l1_final.pt"
+      ]
+    },
+    {
+      "sha256": "585d14438dc5e1c486ddc78610243fbf32cc6ef986352afdb38afe696a2ba89a",
+      "bytes": 252706,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds16_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds16_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds16_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "586355588164d3e7e68fcb42be4a96ba50330c7556a678b035660271878716f3",
+      "bytes": 264308896,
+      "paths": [
+        "research/plaa/qwen3-4b-sft-v2/final/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+      "bytes": 2869336434,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/Ouro-1.4B/model.safetensors",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/Ouro-1.4B/model.safetensors"
+      ]
+    },
+    {
+      "sha256": "590f679a25681b4712bc8fcaaba0c8dfa57d1d4a488fa77b8dfdebebf6f92902",
+      "bytes": 626237,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "59132540e2292e232dbfb7cf51a568b8b621da70424d4ecbf616c6144c3c51d1",
+      "bytes": 119893,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G3_projected_tensor_best.pt"
+      ]
+    },
+    {
+      "sha256": "59973fb63045a0b9262bbfd052dfcedf06f350b37a562e07859d9ba1803ced26",
+      "bytes": 626261,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "59c04de384a5a6557463c9df12ff769dc2f30352dbeacac607a282e1b68e576c",
+      "bytes": 319077,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "59ea6ab84fa033f36f6d15d8447d36dbad9301d9659ef8cf39e7de103d5e7d27",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_29.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_29.pt"
+      ]
+    },
+    {
+      "sha256": "5aaa683907472618fdffe57178a847cb7a30f7ccc52b80864788378baeb73ff5",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R0_testB.npy"
+      ]
+    },
+    {
+      "sha256": "5ae16b9dfab9752ddf1370977e744d4c530eaac132b2f0700fa3f38440e7252c",
+      "bytes": 587248,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail3_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail3_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail3_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "5c0778270aa0b17d61c7faf47f1e8ae2bee91fda94d3676320d8885e1c4aaae4",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s43/ckpt_step1200.pt"
+      ]
+    },
+    {
+      "sha256": "5c35a8ac0d5b8541605c4a6c2b3102836b1649727fef55152b4413290e9721d7",
+      "bytes": 55549,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d3/ckpt_step0600.pt"
+      ]
+    },
+    {
+      "sha256": "5d142bb3a6759a7af047c83baa573df885cc35322a0c1047a0a29e02c7f9ca84",
+      "bytes": 101711,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bf_final/best_matcher.pt"
+      ]
+    },
+    {
+      "sha256": "5e5e718eb3b47b0baaf90d36799d8de8b3a580fd232cda5eb0d2769431bea8a9",
+      "bytes": 989666,
+      "paths": [
+        "research/clr/checkpoints/seed_520/best_model.pt",
+        "research/migrations/d_clr/checkpoints/seed_520/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_520/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "bytes": 12807982,
+      "paths": [
+        "research/clr/models/Qwen3.5-0.8B/tokenizer.json",
+        "research/migrations/d_clr/models/Qwen3.5-0.8B/tokenizer.json"
+      ]
+    },
+    {
+      "sha256": "602424a5029aaab228493b127185bfa86e30c8b7f9b809e117df5843d93c11c3",
+      "bytes": 81437,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "6052c34d716a69934dbfb89ea1e99c08e10d28e2d38acaa6b60e131632d6c90d",
+      "bytes": 988236,
+      "paths": [
+        "research/clr/checkpoints/local_clutrr_v2_nolora/last.pt",
+        "research/migrations/d_clr/checkpoints/local_clutrr_v2_nolora/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/local_clutrr_v2_nolora/last.pt"
+      ]
+    },
+    {
+      "sha256": "612f387f326d1c4cb1490fdc3eac9bb62d502315a81d203f7407597d56a65e23",
+      "bytes": 109768934,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_data.npz"
+      ]
+    },
+    {
+      "sha256": "6181db50c0b947cae5fac69521f5e1ccdb93489db660c403b1baeb19cf0b8035",
+      "bytes": 2821,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "6218271b272f08c2a18d078fb3652275044dea6c34e8dbb82847e25e55c2a749",
+      "bytes": 158237,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "6267dccacff6b3b24c7ac93f54b18a871e4d559c66833ec781da3b1810ff7d28",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_norm/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "630e250d6505cbc9b505cf6134134f031a7d196a3b3bbab5bb0420ce2b310a9a",
+      "bytes": 8299,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "633de8356867f8635ab541420c3c3adb89f1ba5508ac1855e84936368447f796",
+      "bytes": 5265,
+      "paths": [
+        "research/plaa/qwen3-4b-sft-v2/final/training_args.bin"
+      ]
+    },
+    {
+      "sha256": "63882a99aece851dff72a5c0065ec9f5a76b4b5929bb919d97929cfe94fc850c",
+      "bytes": 635321,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "63a5523747688f42582ace68d191a4bdf504f8fa0d813c3e0b75b5bb90ea363c",
+      "bytes": 10528162,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail6_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail6_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail6_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "644530d71a5719abe5c0b822d369dcf415ff23ff7072af02ff69a6bdf047007b",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d3/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "64ea8b974e28a15478254e4e841a7365f46854209da12e4d36a36fe7936d5d5e",
+      "bytes": 855821,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_final_rerun/ckpt_step0600.pt"
+      ]
+    },
+    {
+      "sha256": "64f669009dd8f9e1428f65977bc3890cd52a0caba2f0cc95c96a96552f90d4f2",
+      "bytes": 988236,
+      "paths": [
+        "research/clr/checkpoints/seed_130/last.pt",
+        "research/migrations/d_clr/checkpoints/seed_130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_130/last.pt"
+      ]
+    },
+    {
+      "sha256": "6580022347c1ec08d0de7cf0000f080095da002a9188dc0590acfb925ace0f5a",
+      "bytes": 3613,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_r2/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "6640e2e382018f3097e82d4167f210e43b84f6c21b0928b831fe97a4c974dd53",
+      "bytes": 2986368,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z4_train.npy"
+      ]
+    },
+    {
+      "sha256": "66a872757cc3735a95a8d2b6bdd10893b4930cb22a75730b7fbcd34a7e4f720c",
+      "bytes": 43077,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "66cc0ab3d43cb4acf93a168e62cb3f4ff8c1ad6bef0ff2d26b25c3b1feff1312",
+      "bytes": 26985107,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/prepare/10k_val.npz",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/prepare/10k_val.npz"
+      ]
+    },
+    {
+      "sha256": "67416a3ab7dd00f9ebe3cf9dbaa267f9e0b8833a9677e45d7e097ab049e4515d",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z1_testB.npy"
+      ]
+    },
+    {
+      "sha256": "68475fd25c194586d174726245422b02b0cc56ef7313878ec5c25f076859ef36",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R2_testB.npy"
+      ]
+    },
+    {
+      "sha256": "687f2fd6e6a4053cb2c92db7635f2ca4ac6965c2a6d809a23d9ee97cacbdd814",
+      "bytes": 319085,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "69686f127d904334856cb9b35e424c764414f1fdf0316d95f5d2a05b5ab67c27",
+      "bytes": 6823714,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_all24_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_all24_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_all24_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "698cbc129e41e4980788a5298cca8759e586061544cc8fa2253a17d775f28d1e",
+      "bytes": 158237,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "698ed44a69361c102c92bb3e1723b4579e1dfc59890f433f6dde4eeb7ae2e803",
+      "bytes": 319061,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "6b011a4e83f8e0149aa64631a4676f5811748a368f03e00f9e64cced0eedc9e9",
+      "bytes": 989666,
+      "paths": [
+        "research/clr/checkpoints/seed_130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/seed_130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "6b749262ae1032f9692af5b2ae90cde876dc747d79cb271b2031d20edd1e0e5d",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_09000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_09000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_09000.pt"
+      ]
+    },
+    {
+      "sha256": "6bfff86ccefbed29d9654f58e05dde88149d6a24e01911021f995c6101375b80",
+      "bytes": 81461,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+      "bytes": 4356237,
+      "paths": [
+        "research/looplm/remote_archive/cheems/checkpoints/clr_v24_o21b/b1_best.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt"
+      ]
+    },
+    {
+      "sha256": "6c8de032d51515d7faa4a1a448fe16378dd6a690734995c77e2d8d3fa17b91d1",
+      "bytes": 989474,
+      "paths": [
+        "research/clr/checkpoints/local_clutrr_v2_nolora/best_model.pt",
+        "research/migrations/d_clr/checkpoints/local_clutrr_v2_nolora/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/local_clutrr_v2_nolora/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "6e78b70ce3cb54d4615094a30f26632dcd88885bb89cdf18d66e303a3a27c566",
+      "bytes": 2056930,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail6_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail6_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail6_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "6e877beb0d8c3b678b6a64b1be06dbc7cae393014be1b77552e0ee97227003bc",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_persist_s42/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "6ea4a3282875857edf2052720f56a8b356ca5d04519861a892ee6c3a64c10387",
+      "bytes": 492450,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds32_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds32_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds32_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "6ec974673e88d451527d1fb3a18c4e3e97f1d00f3e35b4af2d223e97a3bc8c9f",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s42/ckpt_step0600.pt"
+      ]
+    },
+    {
+      "sha256": "6fae9c5e84b2429671de947f6ae5617221258f60c7d2f1d7fef64571dbdfd4c2",
+      "bytes": 3645794,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_sparse12_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_sparse12_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_sparse12_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "6fd4eca58ecdd97c3ca801dd5288eb4094b11059cef0cee70ffbf732dd3b79aa",
+      "bytes": 175461,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "70992403d833022ecd02520e29b51121c544c03027b26801695c372657516fed",
+      "bytes": 2178011,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step400.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step400.pt"
+      ]
+    },
+    {
+      "sha256": "71837ddb49f397c77e09c3ebf237d762870b480bbb8dddd620fa7974defe16ab",
+      "bytes": 7647108,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_sparse12_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_sparse12_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_sparse12_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "71adf163ddc7a6a7acc4918b372bea931bc2defa6d078e2d437b23e0c5bbb33e",
+      "bytes": 13972834,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_all24_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_all24_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_all24_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "728831ceedbd3dd934cec4cf04f6bd317b67ed11d86db1ba4b74de4e4dbab31b",
+      "bytes": 7373616,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail3_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail3_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail3_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "730b30d3961ebce3e073c6c0cf42bbbebef9bbb415ba99f91310b84c5020076a",
+      "bytes": 11945088,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R2_train.npy"
+      ]
+    },
+    {
+      "sha256": "73360743af819736a22686b38fb0b597ccc561a7783117bbe34494ec8732ad6e",
+      "bytes": 12365,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "73644b2b511cfbec748cd51e636f37a789f162f42794b9e82c3c0faec2a2488a",
+      "bytes": 10526732,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail6_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail6_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail6_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "74f2b6b23e90aa1f55eeb1ad21fcac27e993462b2828d6a80ae29499afc3245c",
+      "bytes": 7647108,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_sparse12_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_sparse12_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_sparse12_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "75653d45ecdbd46872707b83851232e96b0c760014f3b86be28dd888cc85a5bd",
+      "bytes": 16438218,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3_converged_probe_calibration/row_alignment_audit.csv",
+        "archive/server-scnet/clr_v24_o3b_j3_converged_probe_calibration/row_alignment_audit.csv"
+      ]
+    },
+    {
+      "sha256": "75c8622c07c926f07e12fed612ed1b7ef3922c14bf1492f5c33ef9662129fb41",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_recall_s42_smoke/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_recall_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "76e808bfc57359810558c826be61a3546ee8dc40ecb38eeb70fdb9b6e40b9aff",
+      "bytes": 22598353,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/paired_init_detailed_AdamW_lr0p01_wd0.npz",
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/paired_initialization_AdamW_lr0p01_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/paired_init_detailed_AdamW_lr0p01_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/paired_initialization_AdamW_lr0p01_wd0.npz"
+      ]
+    },
+    {
+      "sha256": "772279fdd6db85a9780fcf95140bbeee2cdd0f65e72dc24bfd4ba2ea6b909911",
+      "bytes": 20587,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "773f93a7171daecaebdbc33323cf51a15eb436480bf026f198ec4ab69501a074",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R2_val.npy"
+      ]
+    },
+    {
+      "sha256": "7753b827d85daaf7d7492fe2d98f9db2f84e052f9917bfb7f5568e2c6d56d781",
+      "bytes": 167299,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "7756d468a6c1f988aaf173b105094bcf76aaf0dac1ed7952c87a62d9fa5e4040",
+      "bytes": 643483,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "79697ccafc0073c404a160a781a554687e02ccf8a1d6a34767cbcbd9bbd8f561",
+      "bytes": 163223,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "7ade9a0b70d79d330a9fb8b80e5fc2b1dff4c30a94a71ab381b95e86ada60ae1",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_61.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_61.pt"
+      ]
+    },
+    {
+      "sha256": "7ae8bdbc016c0664605747a1f0674a0f724f07628705369704c06489b6ad9575",
+      "bytes": 81453,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "7b7a7e8017c4c314873f474ffaeb7d58f20b3b41142c8025af172bd8a2805286",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_17.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_17.pt"
+      ]
+    },
+    {
+      "sha256": "7c1830545b160ed4c020a6596864e361bec73c506ca81dcdd1dadeead18e4666",
+      "bytes": 158277,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "7e2e3ce689134a2b60f4b6eaacd8b3ee9e25e6175ff6afffa3a3f380714154b7",
+      "bytes": 2906914,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail3_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail3_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail3_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "7ec6874122c719320d0605b70b17eebe1eb1c1c155904a74f6452aa046ec0e31",
+      "bytes": 3309,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "7f44bc664945788107f1c6c77ab79ae45caee0b668694e0bd4cc5ce00edf1695",
+      "bytes": 1262690,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail3_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail3_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail3_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "802de4e527457dab69d1253fa0bf18028cc11bc485a490735cbe6c8719ffb86b",
+      "bytes": 543177,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_linear/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_linear/probe.pt"
+      ]
+    },
+    {
+      "sha256": "810e7f1b2353e381d9ce237c0ccb6dcb8a66e4dc021ed65633458805bb9f8f33",
+      "bytes": 635291,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "81cedcfbbf6407609f2ce945dc723148c798da775887681319689dbf652fe043",
+      "bytes": 258179832,
+      "paths": [
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/prepare/10k_train.npz"
+      ]
+    },
+    {
+      "sha256": "81fd14e8a9e2ddae1fedad504536fed5c51505a75cf9f4e050070e46230e3481",
+      "bytes": 838539950,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag/token_layer_features.npz"
+      ]
+    },
+    {
+      "sha256": "8415f3979abf31ea071b4fbacf43e63ffb24ef05d29de61f09384a620b9909cd",
+      "bytes": 988236,
+      "paths": [
+        "research/clr/checkpoints/phaseb_static_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/phaseb_static_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phaseb_static_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "862ec3435508cb41e76a1a9f7dda0cd53f01f5dec0c254e700e89003c4018d12",
+      "bytes": 560253,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "86c7acd2cb520fa97e5ffad1fa8f5206f9530a2da251cbdf69dfd593c3a5268c",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_08000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_08000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_08000.pt"
+      ]
+    },
+    {
+      "sha256": "86dc1bec49a6ec0180a8248c9ed94689d1925a04eb6284dd6ba853188958683e",
+      "bytes": 132187888,
+      "paths": [
+        "research/plaa/checkpoints/phase3_alpha_stable/final/phase1/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "872c76f4352f2edbb4ce9a7c28962d4538a5d2962246ecb02d3eb1680da2a278",
+      "bytes": 643503,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "8771362794a6dd36f9662abe81a590f690f8762bce24cc1fb0c8e5804e75dce2",
+      "bytes": 81437,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "881e35bc5069ab14b52cf8ccae0a9dd6abbc0d262d704f68b422788309be69c1",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I2a_testB.npy"
+      ]
+    },
+    {
+      "sha256": "8887a372c44b0f1af6666a0285de53573c9bb8c1d7183f292a600a66c93bd7ef",
+      "bytes": 626285,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342",
+      "bytes": 988097824,
+      "paths": [
+        "research/clr/models/Qwen2.5-0.5B/model.safetensors",
+        "research/migrations/d_clr/models/Qwen2.5-0.5B/model.safetensors"
+      ]
+    },
+    {
+      "sha256": "88c4bb3f94fcd014ba773ecc3bd1c746cbf197d63a472379a83955f5ce06f332",
+      "bytes": 13972834,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_all24_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_all24_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_all24_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "88d650e6587df21db7fd546b401c72090565cdf76f081f33df5e9816966e20c4",
+      "bytes": 2176117,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_s42_w05/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "89582dc1fc704b0d722e24badacb597604dfcc46f8cd95e826e7ec23a35cf231",
+      "bytes": 165501,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "8aeaf07caf6b6a7ee4490de950aad4bba4f86cc5c2accefa02ac9f7a8716a751",
+      "bytes": 2177115,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step300.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step300.pt"
+      ]
+    },
+    {
+      "sha256": "8b3384bca433c62e5707293ca1199008e7577a07c5879133c637dc504ea947ec",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s42/ckpt_step1200.pt"
+      ]
+    },
+    {
+      "sha256": "8b69102f50a3ead5727b7aae477adbb733437c7a199cb6caebb8c03c4e34a30b",
+      "bytes": 95559808,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I0_train.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_train.npy"
+      ]
+    },
+    {
+      "sha256": "8c8cfcce44658c1e67e777ce2509244de543d68a95e11cd62c881273ab571911",
+      "bytes": 52711,
+      "paths": [
+        "research/clr/checkpoints/local_clutrr_v1/best_model.pt",
+        "research/migrations/d_clr/checkpoints/local_clutrr_v1/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/local_clutrr_v1/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "8d83878d254766fb30163cbe19a694c01e540f65ed13ac91fb189da329cf9c2f",
+      "bytes": 175481,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "8e6ac8910d0f5cfd673b09790d60ffd8e6f3a1697854301ecbd38b09a1264bb8",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I0_testB.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_testB.npy"
+      ]
+    },
+    {
+      "sha256": "8f1a6c7447173ac3b89957d3d74033ec836e19713c58cd7b1451756fcb3fcb38",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_05000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_05000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_05000.pt"
+      ]
+    },
+    {
+      "sha256": "8fca5f312f16009d0635740e894c9de1b30c5eb438306b994469ae6a7bd6e45b",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_07000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_07000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_07000.pt"
+      ]
+    },
+    {
+      "sha256": "9037d772b27a697fe09c12f518237454dee210b64496778e08b2efe0506994e2",
+      "bytes": 987916,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail6_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail6_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail6_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "90b9fb33087f9534f9092931558821271314911413e0e872476bb1d7eafeee61",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_04000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_04000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_04000.pt"
+      ]
+    },
+    {
+      "sha256": "90bb754d649d1ec8caa64ceaebeebae0ac8e8db420a1dd92c199e6ba985bb41f",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d2_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "90f4f6e7ba3a212ddf3a3c2f4701886d1eef8f94282208d586c9921778ff298b",
+      "bytes": 1916834,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_s42_smoke/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "910015a2acd8c648c56f7a90ff7b2090ddff798ade8ebbb1d31b8e78e5c396ae",
+      "bytes": 1917026,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_s520/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_s520/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "928ca760695ac21ffc264ffe46d3c7db6593ef28bd711876fd22673be3f247b2",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z2_testA.npy"
+      ]
+    },
+    {
+      "sha256": "9329411a9fa46e8f5c51eefc6c7b672d36ac430ec95dfc3d2645ff5f8b13e723",
+      "bytes": 855669,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_final_rerun/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "952d055522a55476f6d3da053ac32938ab3c98e70de86bbe1d20063b367cddf5",
+      "bytes": 2797,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "95bbf822d81ba5733eb76b4ffc7b4f4964ba1223eb71688899efd1d2e731ee60",
+      "bytes": 319061,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "961b0841d010b99e04bda4a3c14672f273553d9e2e042fb89b4929f9147a3321",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_06000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_06000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_06000.pt"
+      ]
+    },
+    {
+      "sha256": "966a6dc2878630f4336ec97416e716c89b91b20d3dcd0244ff673859f3bdfc5b",
+      "bytes": 8299,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "967c7b7bf761d8baeeb900a1bc1413013d1825a7facee6555263a5c73fbb6ceb",
+      "bytes": 21958477,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/val_data.npz"
+      ]
+    },
+    {
+      "sha256": "96e1efe11f81abf1e3fb161121b6c266762817aafbb73f392aa02140ee1f272d",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R0_val.npy"
+      ]
+    },
+    {
+      "sha256": "97066a3f84b9f5ad723c33052f9542a62802a991b6c661950ff78e99852ec06c",
+      "bytes": 2055692,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail6_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail6_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail6_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "971e89e335727bd39969854a35bcd0bafe3aeddf54ad4829ec3407a5f1b2e83e",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d3_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "9778d7b6fc22e215e39975f2a5cdf8d2a28217db610bd41aee6a262216b4d732",
+      "bytes": 12345,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "97a83b5d025de6d7dab6336314be14988eeb651097867c06c7b14306bf3edff1",
+      "bytes": 55549,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d3/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "97b8ad5341b2ba8e70501e6e57acc1d3f772b399436682eeaecce772c358d426",
+      "bytes": 158253,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "989a1973c6d9f95ca5e4cbb2c3644521446d420990341e19a7f403376c62a9ea",
+      "bytes": 167299,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "98e07bf101e16cd81a9ead3b1bc169573e447ffb78f7e9a90d807298d7a60c43",
+      "bytes": 2174901,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "9924da2a4c46fd09b6a16bdc5368a0bd74b18ffe6f0658ea270c216bc594fdf2",
+      "bytes": 3193,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "99307004d76dc16f6354fee927dc432107915803074832dbfd67997f0fc4f7be",
+      "bytes": 588130,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail3_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail3_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail3_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "995bc626c7385811559c618d5791ccd8167a313392963b91c68883e36ca55aee",
+      "bytes": 12345,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "995ccc4918ad1ca9884289b2ea4e374e809523c4dd4299f7cfc4474122554048",
+      "bytes": 635321,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "99764c859e30d526e35ae04ca968f18e709b4c7df6d2965d6cc996f3759d7cc5",
+      "bytes": 872930,
+      "paths": [
+        "research/clr/checkpoints/smoke_qwen2.5-0.5b/best_model.pt",
+        "research/migrations/d_clr/checkpoints/smoke_qwen2.5-0.5b/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/smoke_qwen2.5-0.5b/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "9be1b3cc0ca58e172fea301bb1b9c107ee87b401260b421de510f42f5d603ca7",
+      "bytes": 167289,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "9c3d3b963ed99237c6225a6df7203afdaddfb70e13ec2bd02a930edd39aa7910",
+      "bytes": 4486156,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail6_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail6_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail6_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "9d9764f9a0a143bdb4a730540f69e359463aed199e61611c70e6c28403758079",
+      "bytes": 631245,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "9de8e2918242aff0615b116b58401fa8bda09ca4afe427c5d6d22efe213e63bf",
+      "bytes": 1791586,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_sparse12_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_sparse12_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_sparse12_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "9e8e446759a95e457b00889326239ad4a80a6cd3e62aaf07b38e4857a8a5be31",
+      "bytes": 635311,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "9e92dca3a91fd8d982424ee3cd43d7d53cf16b875dce0e67a9e7611fd1d00983",
+      "bytes": 697893,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/sanity_256_0.25/sanity.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/sanity_256_0.25/sanity.pt"
+      ]
+    },
+    {
+      "sha256": "9fc099928dc48f3f20259388342927822aa8f4cbfc8c004c2a8dd44fb4f4f52d",
+      "bytes": 1916578,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "a1cd617e52396d1838b0d6dbaba9967f396356cfa72ae1692ba94b2e1bad67ed",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z1_testA.npy"
+      ]
+    },
+    {
+      "sha256": "a29e0869c65c0b939a192296f4ac82e5d09a44ef1d4bcdd31ce7bc9c73ea2da2",
+      "bytes": 2709,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "a2ea6c09bce0625dfa3643981908d309901434fadd2a8e7ac410a7dee3c5962f",
+      "bytes": 7373616,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail3_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail3_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail3_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "a3cbff8792dd59af74ea94dbeb28e1531dcc31d8620595a225e0971cab98c8b7",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s44/ckpt_step1200.pt"
+      ]
+    },
+    {
+      "sha256": "a41519c7090a1020b00ca13a3380a88134a370e6af824216c0c16e5330605e00",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00200.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_00200.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00200.pt"
+      ]
+    },
+    {
+      "sha256": "a48830cfab5488fe0bb4f504b4569f9ca7e469740b315e2e1647bd760d469cee",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "a514718dc34ce202eecf4910e995bf9ab55cc86965e5be3daad8f417c708472c",
+      "bytes": 3325,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "a5aef68ca89895317dc3f3754ac5c0944b0ea8bfd9be3fe2112c7d49a198d086",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z4_val.npy"
+      ]
+    },
+    {
+      "sha256": "a72ed28520d9e4d44bf857e7de5ed3341870acf9a77e5597605e4cc087d7b509",
+      "bytes": 989154,
+      "paths": [
+        "research/clr/checkpoints/phaseb_static_DS64/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phaseb_static_DS64/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phaseb_static_DS64/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "a7c2f4eee2c599cb90c0f52c0c507a84864d604241d19eb53d14366b90f5f092",
+      "bytes": 2821,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "a8e88e34f6d1443a9beefc0d1bb23d1ab44523a6dca11759f748a5d6e9258a5f",
+      "bytes": 43061,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "a95d2acbf4b32218c8d348200da90a6837bfa59a31466896b262b6c2ed120701",
+      "bytes": 3087467144,
+      "paths": [
+        "research/clr/models/Qwen2.5-1.5B/model.safetensors",
+        "research/migrations/d_clr/models/Qwen2.5-1.5B/model.safetensors"
+      ]
+    },
+    {
+      "sha256": "a966e1288d51e6fb0978741b1b684e6d16bdfa9e211cd8ec3c6e8588cb9d7063",
+      "bytes": 3349,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "aa0358da269a14c9c5c76e3de5ea2957b20561987f3e101d8f8e081cc9fbf38f",
+      "bytes": 319085,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "ab1a34b5c1f17196bdad92d99a9542a3c834a0e7614a914211f4c6cc7b7d310c",
+      "bytes": 127525,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l0p5_final.pt"
+      ]
+    },
+    {
+      "sha256": "abf554829d414c28e766355b2aaac15f848e9d86f59cf370657a5691bb283a51",
+      "bytes": 81437,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "ad05697c93d34395e79dc8e45f54113fdb5cb99ce354e5b11d8277f309d9f32a",
+      "bytes": 81445,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "ad9a838901dbed5c72d6ac6c869ecd29f3e5f6292eb93ebf2682509ef3b28c9b",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R2_testA.npy"
+      ]
+    },
+    {
+      "sha256": "adf8ee83e1927daff1fdd35d92f41e2a8e676d96b6dbb051b886b969045492fc",
+      "bytes": 36477,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_10k_R3_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_10k_R3_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "af7cb826e3a326d7212ca94e3db863ec2e091433699af42aeda4f7229c9175e6",
+      "bytes": 252706,
+      "paths": [
+        "research/clr/checkpoints/smoke_ds16_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/smoke_ds16_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/smoke_ds16_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b0f7b41fca31e913940ba930fee13dd30804aacbcbea6b353b4d9bdb7b48cde7",
+      "bytes": 158261,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "b12cbe548b79247623e120b3865c0ad4f4356c15b768455844ecd348e04c309b",
+      "bytes": 12365,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "b25fa5f81dc117d353b73f9073a30fbd8a674d47b2d80c43fea7551937a74878",
+      "bytes": 635291,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "b29db573ceb3436b63321dd84bc55245010e9c7ce14ab9807b1b223e696ab793",
+      "bytes": 319077,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "b2a5579fb3a8a2dfc432fe4f6d04cb541142c033ee60c44f13693ee1b7c7c1ca",
+      "bytes": 989474,
+      "paths": [
+        "research/clr/checkpoints/seed_1103/best_model.pt",
+        "research/migrations/d_clr/checkpoints/seed_1103/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_1103/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b3231be8ec212017d674fcc2577d45827495843687156e7434d02d802857f8f6",
+      "bytes": 264308896,
+      "paths": [
+        "research/plaa/checkpoints/phase3_alpha_stable/final/persona/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "b3dd80c3f41ab7e873aac685b048c4fe8577d59f51df807c34ea8da5d76f3c54",
+      "bytes": 127401,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l2_best.pt"
+      ]
+    },
+    {
+      "sha256": "b3e9f6eee0ad1c077e2d813fa14b87a5c19af0f80485b295030ecfc6c4e5575b",
+      "bytes": 20473,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3be_final/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b4f930361a068544d4f60a089b8fbb49b6736e18b999802e21d967c8557d326c",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_61.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_61.pt"
+      ]
+    },
+    {
+      "sha256": "b5668a45b91169472a318111421196df4c1a384e7bca459a92b173e64472caf4",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_s42_smoke/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_s42_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b588c88e28a46d30c8dd938185381fe57deaa0d1ca9992b1233cdf5225be37a3",
+      "bytes": 4542865,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/full_batch_matched_protocol_SGD_momentum_0p9_lr0p1_wd0.npz",
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/full_batch_sgd_SGD_momentum_0p9_lr0p1_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/full_batch_matched_protocol_SGD_momentum_0p9_lr0p1_wd0.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/full_batch_sgd_SGD_momentum_0p9_lr0p1_wd0.npz"
+      ]
+    },
+    {
+      "sha256": "b59f28bc40249f7e31087e0bf431e2f6dec2018de909b776ef24ee12f5686e64",
+      "bytes": 11423022,
+      "paths": [
+        "research/plaa/checkpoints/phase3_alpha_stable/final/tokenizer.json"
+      ]
+    },
+    {
+      "sha256": "b64a42d24dbd8ae45fc52a18865b197f361625b788a81ddaa8601c8d12f8dbcb",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_testA.npy"
+      ]
+    },
+    {
+      "sha256": "b6e6b4a529ec2ac563e4349d86782ead0cd5f864d083a00a78f6cda186c23260",
+      "bytes": 3646050,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_sparse12_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_sparse12_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_sparse12_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b737ed280bd1e8a24febaf0e7efb304edab2b7eefa49805a7275dfafc2788cfa",
+      "bytes": 855821,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_final_rerun/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "b8e1c5da6c3205eb524336c0fbb509a5d4c29b10b99afb29b43af839f937249b",
+      "bytes": 988236,
+      "paths": [
+        "research/clr/checkpoints/seed_520/last.pt",
+        "research/migrations/d_clr/checkpoints/seed_520/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_520/last.pt"
+      ]
+    },
+    {
+      "sha256": "b924105249ecb8c82c457ae34d1fe416d9ec69aa3c8ee849134da85405687058",
+      "bytes": 1885730,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_8x8_s42/best_model.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_8x8_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "b9b163d8c162e227f1feed53ee426e2d349a21d3cd7f3d2ea1c0ae93f151fc93",
+      "bytes": 119909,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G3_projected_tensor_final.pt"
+      ]
+    },
+    {
+      "sha256": "ba8bb9be30011f24658b84c158457e3acc71c5adb5aa91be42b7af92952c3ea6",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z3_testA.npy"
+      ]
+    },
+    {
+      "sha256": "baebc01f0c8303e6356b4ffdda77cf18c7035fe307f0afff776d31251e4fc3da",
+      "bytes": 697893,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/sanity_256_1/sanity.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/sanity_256_1/sanity.pt"
+      ]
+    },
+    {
+      "sha256": "bb977b55a260009f6ab8b5933bcb967c51d1b1e40cfd5f4f495c7ab133302343",
+      "bytes": 81437,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "bd3c9694b35553d64c92d429a95941d2dda7471dd3758942939b2ac809aad72c",
+      "bytes": 7649378,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_sparse12_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_sparse12_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_sparse12_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "bdf012553d5fb2d802b650e3c1b76b7e66ea2f084121d951514c2fe70557e483",
+      "bytes": 2581,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_E_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "bec4eb259662276be6fed41a611fb8566ecfcf4b9f14c98325b62fdb7753abe2",
+      "bytes": 1917602,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_halt_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_halt_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "bed5b0516a11b482624e1264a734484f3b7e41da34569ba06f3dae9c83cac070",
+      "bytes": 175461,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "bef2214e4bcc31dbdd01660dbeb7fbb10117997101f8330540d8c5f618851c74",
+      "bytes": 2179784,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/final_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/final_model.pt"
+      ]
+    },
+    {
+      "sha256": "c12afdcf6211ee6e6077c5e887f640f9435c5f900c7a2674fdb37f45fc0f54ba",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_29.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_29.pt"
+      ]
+    },
+    {
+      "sha256": "c1cb1b00f95eeeb82505b8a83c3257b8ba1286871e6a4870a94e1abfac62dcea",
+      "bytes": 2178907,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/ckpt_step500.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/ckpt_step500.pt"
+      ]
+    },
+    {
+      "sha256": "c2e3d4db4c989fcfd9ebc719b3b0eb1092c13f506c770eddb5902b5604eea066",
+      "bytes": 14800200,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3p_row_provenance_recovery/canonical_source_manifest.jsonl"
+      ]
+    },
+    {
+      "sha256": "c2ee30cd8479b0c7701cc670af12e5835cb810b7a0753f750ffc3c49f3a5d2eb",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d2/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c30ec13a4f6a998954acba6754210ea4a21587df98129e1f909772440f2347c6",
+      "bytes": 855669,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_stdout_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c3746be2197f85a9465667b1eb2f2b09095d21e4f4d416dcd8d2e7754955a432",
+      "bytes": 1262690,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail3_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail3_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail3_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c3c7a5fcb0a2c2cb9d1a41df77f3f99bbd2f1175b6421cb03663db803bdda40e",
+      "bytes": 167239,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "c3f4984b8ada617a629b6e50ba09d72ed45a21afe7efaec986de2be9a1322266",
+      "bytes": 55861,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_gammafix_norm_r2/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c4af5ea72d640f49f03d1389e1427e65840c0acf91026d095b07119d88c5f1d9",
+      "bytes": 1261872,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_tail3_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_tail3_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_tail3_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "c54a1e46366c41687c59c95ff7cba9e44e166bcfe0469446b697a45ae2dd9803",
+      "bytes": 3333,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "c57bdc55277b7ae707baf53e44c26768c5312be7388b43da0a83affb34dfd049",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R1_testB.npy"
+      ]
+    },
+    {
+      "sha256": "c619b8ff2baf695500941c45081229b4afc759e3f411ba15d7a1159df376312d",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s44/ckpt_step0900.pt"
+      ]
+    },
+    {
+      "sha256": "c64d1403e5fed1a1c3e35a8e9382dfe3b33dd7758424a6cfefb5bb90cf1a5a8c",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s43/ckpt_step0900.pt"
+      ]
+    },
+    {
+      "sha256": "c651e1c6ecb6654d99ddf6b0ee58e2d8620f5711f53fc362419990b23768e677",
+      "bytes": 2175285,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_s42_a3w05/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c7737d6eb5a4650303fbf23e493aae06693865a0ec9637af6758a54b0b700d59",
+      "bytes": 21947303,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testB_data.npz"
+      ]
+    },
+    {
+      "sha256": "c7841c5d656636e176fd271e10ee7f8c015d2aac6ce4510687ecca580e9ea7c1",
+      "bytes": 855541,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c9bc828968baa92e2aac313f2972df8ddbbf3c926b05f47cb5d0d406302c436e",
+      "bytes": 4487458,
+      "paths": [
+        "research/clr/checkpoints/smoke_DS256_tail6/best_model.pt",
+        "research/migrations/d_clr/checkpoints/smoke_DS256_tail6/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/smoke_DS256_tail6/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "c9bf6113277b080801ec08984faeeefce80ad8b87ea542278507d6f02ec9cb8b",
+      "bytes": 2797,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "ca27b611cf293814882482880707254186015538b63730458b45943ad8b5e556",
+      "bytes": 11423022,
+      "paths": [
+        "research/plaa/qwen3-4b-sft-v2/final/tokenizer.json"
+      ]
+    },
+    {
+      "sha256": "ca2f58b69f40db62884a8f43b2fa62146daa954ca48e7ec296363ab93562dffc",
+      "bytes": 855605,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2v2_smoke/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "cadac4519693a0e354b91a33bb7c2b22d7658a18316e0d20d9d357d8c9caafec",
+      "bytes": 2905904,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail3_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail3_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail3_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "cae5d137b809a07d2edd9b8b9fe4fdb2dc3b0c3ee34bf669791942cd8d7e40c7",
+      "bytes": 158213,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "cb30c98fc582548f1534251c902b764c10279e7d0aeb61a0d09b11953421cfc4",
+      "bytes": 3392692,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_all24_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_all24_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_all24_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "cbbcf7f0ac62a64b3e7a48abf10e92d45ac8cda78760586f6c60ec78b5100b83",
+      "bytes": 16833412,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_sparse12_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_sparse12_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_sparse12_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "cd6b4a2973137b78d3af1bdf1149508bac1dea7bc3359be37e5ec3b2903aa0d5",
+      "bytes": 20537,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "cdf5728f2ac02048067d0d476ea17adc0b22c17c88cacfb2d829648d90943efe",
+      "bytes": 635291,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "ce668e48d0ea0de7c83fd68c53e0d87180cc279b94d5ab703d8af1cf22e0651a",
+      "bytes": 626261,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_K_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "cec7ff9a0c9505d2c36a8d35ae08a4c431c955bb23b573102a1bc9ffff36fa9e",
+      "bytes": 3643716,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_sparse12_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_sparse12_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_sparse12_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "ceff3803cd2f386775361998649b1f187a4c96a58fd0239bc32ef35e303a0900",
+      "bytes": 4486156,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail6_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail6_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail6_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "cf3cc3287074dde5ee9f1ee7bcb0d65930d4cd8581dc0ddf34b28d52cdbc19ea",
+      "bytes": 24532702,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/mention_resolution_manifest.jsonl",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/preflight_attempt_2/mention_resolution_manifest.jsonl"
+      ]
+    },
+    {
+      "sha256": "d1038394c5590163dba5e0d3210bfb8228cbe6d3f9e8c284d8a2bfcc44ad663b",
+      "bytes": 1917090,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v1_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v1_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d17d24ecc060c28033a4aa5d6c682634370c3c51f589b04f96499a31f1b08726",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_mention_fresh_val.npy"
+      ]
+    },
+    {
+      "sha256": "d1b8b3754c407c129b14ea9313fbe6cd7af90cc0c234cee25d45c84c1d3ce8c2",
+      "bytes": 7374434,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail3_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail3_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail3_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d29a907b1a6a14766c740bbb9bf86eedbb156e78358a6f533a584a82fd5d6753",
+      "bytes": 2717,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_factor_relation.pt"
+      ]
+    },
+    {
+      "sha256": "d32d2a08d577546ee7d4629efdb3eedf7ed3e0122f50842c1753602900b6bbac",
+      "bytes": 29450402,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_all24_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_all24_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_all24_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d421bca646a56c8f73b1c1b3fa2ffb77292935590d5e78c42dbdc35ac7424268",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_n1800_persist_s42/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "d4a94dff4c1da7c95f1828f66678cfc516ae7a13309f7bc64c4b409237824ec3",
+      "bytes": 258527115,
+      "paths": [
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/prepare/3k_train.npz"
+      ]
+    },
+    {
+      "sha256": "d50d19ea398b8717c295afd898d174a0bbf661f97fe6dde74c92ba52c09599f1",
+      "bytes": 5329,
+      "paths": [
+        "research/plaa/checkpoints/phase3_alpha_stable/final/training_args.bin"
+      ]
+    },
+    {
+      "sha256": "d5b362dd2e1c7a4ed3a5e265123ff074cc049f62c2140a16e271ff2e1cbd174c",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_00000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00000.pt"
+      ]
+    },
+    {
+      "sha256": "d61a1e81ece59f512ba446d686c91c85d03e0687028f16cd2054d3f743cfa758",
+      "bytes": 124168,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_2x32_s42/z_logs.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_2x32_s42/z_logs.pt"
+      ]
+    },
+    {
+      "sha256": "d69c48c908234b0d1af438e251273eca040f7e76f1da65d3f5ac8948090a8199",
+      "bytes": 989346,
+      "paths": [
+        "research/clr/checkpoints/phaseb_static_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phaseb_static_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phaseb_static_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d6a26cfb2aa384bb146d957eab7fc626f06630da63596505db35e5f446e9d603",
+      "bytes": 360448,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "d6e5f7052f373617ced4293c40a70e0af79f5b0ecd24423be438d9fb3a51fb85",
+      "bytes": 1789508,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_sparse12_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_sparse12_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_sparse12_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "d70de01c1be5820633abf0f7e06d41cd647db0519d841e01692ba9c517f0db59",
+      "bytes": 10526732,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail6_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail6_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail6_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "d75c535e7b5d603545b60b3af2d7f6320429a72fade5251db29c06436f4573ce",
+      "bytes": 2906722,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS256_tail3_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS256_tail3_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS256_tail3_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d7af80523233da803673a7b10682d3fd6ca75d8af578c9d912e9ff5a18446d15",
+      "bytes": 81333,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "d7bfa0cc35724bd48b6449bef3441fda9f4cb60b9d346d7141f0c2962064dfcb",
+      "bytes": 1166389,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_79.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_79.pt"
+      ]
+    },
+    {
+      "sha256": "d81371a84bf0e89604da3943121eca6d942e8dfb9a90b4c56a76fb6af5d40813",
+      "bytes": 2177077,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/best_delta.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/best_delta.pt"
+      ]
+    },
+    {
+      "sha256": "d87848b0a461a3a235df4c97d85388fb305fec021bc7ea5c45a9ebcd9eb2a11d",
+      "bytes": 29450402,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_all24_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_all24_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_all24_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "d8994230818677851b8a0741be3f8b700b54da7ab225bf856843380c597d6cf7",
+      "bytes": 175511,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "d8ccbdd1e3b0868c3e3f10adf13d1323eaa84056a01bb37f5a633e058e23461a",
+      "bytes": 20485,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3be_final/final_model.pt"
+      ]
+    },
+    {
+      "sha256": "d95a7d896f7779082cccef2a64589e3b036fd5de7a6110e33c93995f17f10b7c",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_n1800_reset_s42/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+      "bytes": 4645831,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt",
+        "archive/server-scnet/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt"
+      ]
+    },
+    {
+      "sha256": "dc544d6aa15148d1d35cade14734aa34477cd0519ac532e6cd5d3e844d297024",
+      "bytes": 704421,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/sanity_1024_1/sanity.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/sanity_1024_1/sanity.pt"
+      ]
+    },
+    {
+      "sha256": "dd930581e792dc991515780fd68d32207c620fe12217a16deac5a73bfe362ae5",
+      "bytes": 987916,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail6_s130/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail6_s130/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail6_s130/last.pt"
+      ]
+    },
+    {
+      "sha256": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb",
+      "bytes": 699797,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/best_val_candidate.pt",
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/vgen2_rebase_10k_best.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/best_val_candidate.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/vgen2_rebase_10k_best.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/best_val_candidate.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/vgen2_rebase_10k_best.pt"
+      ]
+    },
+    {
+      "sha256": "ddfed2f0ec9f0af9e215b5f25ed92bad2f54479f47c5ece16356afa57d066f82",
+      "bytes": 989154,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS64_tail6_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS64_tail6_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS64_tail6_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "de07cb9de1d999ce4682ee59749df076604d0d3d084f282d1371333bf92aa196",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_I2a_testA.npy"
+      ]
+    },
+    {
+      "sha256": "dedf558a70dbec04eafbd1c953357c05a0e87bc1b0815deabca660757a94d4c9",
+      "bytes": 2813,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l0p5_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "def9be5bc782997c6b0585172889dcf2ee35b684565e79492fa2005957d81a27",
+      "bytes": 491212,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds32_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds32_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds32_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "df090d170807c7a55071d644d765d486b627d7adeb78853f73e5867ea1cf6792",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z2_testB.npy"
+      ]
+    },
+    {
+      "sha256": "df45473ac0895826a2ead122683bd600ccacd26ed43869f4daabc46300806ad4",
+      "bytes": 170341900,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_l2_j2/features/probe_endpoint_parameters.npz",
+        "archive/server-scnet/clr_v24_o3b_l2_j2/features/probe_endpoint_parameters.npz"
+      ]
+    },
+    {
+      "sha256": "e02938d83b9408eb5d5002619a32953d2f1621da83017e46dc1fa6ce08369fdd",
+      "bytes": 2986368,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z3_train.npy"
+      ]
+    },
+    {
+      "sha256": "e08bd61e69583c721ac66fe554fa21b13f732d54102903978f284dfe4812d67b",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s42/ckpt_step0900.pt"
+      ]
+    },
+    {
+      "sha256": "e11c6deb5719154a358c6fb87d54927dacf4e564e3cb4392bb17030d5bbade55",
+      "bytes": 29446644,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_all24_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_all24_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_all24_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "e150c20852e3b742064ada85fa7a73ed69e98555d87eaaf9380f641afb4c70ee",
+      "bytes": 988236,
+      "paths": [
+        "research/clr/checkpoints/seed_1103/last.pt",
+        "research/migrations/d_clr/checkpoints/seed_1103/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/seed_1103/last.pt"
+      ]
+    },
+    {
+      "sha256": "e1e330febcae7e638bb58ad94881b4a28b2018b21803aa195ef79ba87ea1f9f7",
+      "bytes": 872012,
+      "paths": [
+        "research/clr/checkpoints/qwen2.5-0.5b_evolved_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/qwen2.5-0.5b_evolved_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/qwen2.5-0.5b_evolved_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "e2944633470a194d5dc89485f1bc9892ecb99b52fc4a171031487573a26e6c35",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z3_val.npy"
+      ]
+    },
+    {
+      "sha256": "e30194483e8571c8a1ee398a97714c500362e960a635d431f7d7f8badb6b05c2",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_43.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_c_seed_43.pt"
+      ]
+    },
+    {
+      "sha256": "e3237bc96b54353bc6be8d79991917ce78eb3851920ff164f58454a929ec6cae",
+      "bytes": 33728,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_m1_teacher_vecs.npy"
+      ]
+    },
+    {
+      "sha256": "e344ae7984f25cccd8eea55e4023f76acb970049cce2beae2d8b36f8c9b917a4",
+      "bytes": 127401,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G2_residual_l1_best.pt"
+      ]
+    },
+    {
+      "sha256": "e35705ee0041d35e2ed9439e466f1d72c77b9e67d4553356f45111fd3a2ce27f",
+      "bytes": 11945088,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z2_train.npy"
+      ]
+    },
+    {
+      "sha256": "e3714b291c245cd6c363d4aaf5d0512c5bc7d91542ddabc6fbf2a7365b77a99f",
+      "bytes": 4487778,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds256_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds256_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds256_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "e5a86d34ff0cea38e303cd383ea4f1417f01715264411edfbfd44fec53dd4a97",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_n1800_persist_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "e5e71ee96ddf58f69165ac23ed07766869a43fbcb69c3701080b9542903e5233",
+      "bytes": 1166389,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_61.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_61.pt"
+      ]
+    },
+    {
+      "sha256": "e668a86dc81afaa7425ac4c136ec08517142ab5cae8157204661d520ff2dd57e",
+      "bytes": 643533,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_K_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "e8705dfb493fe8ea6db4f1bd4fba1264a748df8acc0209aa4d354594fd5c0843",
+      "bytes": 1166389,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_29.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_29.pt"
+      ]
+    },
+    {
+      "sha256": "e99183539f2106a969d8c97d6b3978da46caf698c12943747c2c21f9f8951d37",
+      "bytes": 132187888,
+      "paths": [
+        "research/plaa/qwen3-4b-phase1/final/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "e9973ef3b28f353eb88cdc472f3796b4c7076c38b8542f3acf8d29bcf16cab2b",
+      "bytes": 6798595,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/w1_svd_matrices.npz"
+      ]
+    },
+    {
+      "sha256": "ea536ef572610ed43e6837d45d1c8983b919056f51fceac2b2f5427314659131",
+      "bytes": 3193,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_d1/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "eaa223ab5401bfb196a41e5da5aa7d130d96e9e07b7ed860a2f5af6454b3b862",
+      "bytes": 10528162,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail6_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail6_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail6_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "eaaeb94fed974360eb857afac90b8095a801344be4d208a0b2b1074387677fbe",
+      "bytes": 319037,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "eb853149c5d31cc114a69e9c36f0a9c52db05532d3a3f3d768317063534ad3cf",
+      "bytes": 1890402,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_4x16_s42/best_model.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_4x16_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "ec4344c1f0476429adea796d1fe445dd3a59f618a1768bde315ea63b286de869",
+      "bytes": 55477,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s45/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "ecb2a8b433bc87607924f8592c5f2bb72b45cc1b9e2bf63481b968d52588e987",
+      "bytes": 252044,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds16_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds16_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds16_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "ece2940a22d29f5880ad16832cb92f7d56120140a1c89d93c90621be3c34ca4e",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_s130/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "edcc9475d37aa35e82c935c50cee2ddcff54bc3d469c7950634402b19667b926",
+      "bytes": 117701,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G4_learned_concat_final.pt"
+      ]
+    },
+    {
+      "sha256": "edcfacb7b16578af4aa23e521da1e7f1519224ce3f163e7dc0f17304833a3c07",
+      "bytes": 2177115,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1/best_persist.pt",
+        "archive/github-2026-10-20/checkpoints/clr_v2_a1_prev_20260830/best_persist.pt"
+      ]
+    },
+    {
+      "sha256": "ef3fd65b7c035b3fb60524c87587fee07de14a869de751e2725a4694164938fd",
+      "bytes": 175491,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_K_entity_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "ef421020be41ca91e323beb2c6466117f348cdc6959b1447cfd624f0c3a0714f",
+      "bytes": 11945088,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/R0_train.npy"
+      ]
+    },
+    {
+      "sha256": "ef434433fdb65e0af67d498ad2b436f967c3ee000cdb7f8acfd0010f375604fe",
+      "bytes": 855757,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/ouro_retention_m2_h2/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "f0904faf3bb5b563108f02a85bc3467f332c3ed1adbbcca23ca2a5d4c9f5c05d",
+      "bytes": 2057442,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds128_s42/best_model.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds128_s42/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds128_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "f0b4c2115a96f1ac356de89dc7e22364e700d9f658208d577c06e9fdcd62d947",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_03000.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_03000.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_03000.pt"
+      ]
+    },
+    {
+      "sha256": "f127f9084c9cbbe71c04f7d41bd5278ca35288704a43ad86cc131da4897e3dfa",
+      "bytes": 2460,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/source_audit/validation_seen_exact_train_text.npy",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/source_audit/validation_seen_exact_train_text.npy"
+      ]
+    },
+    {
+      "sha256": "f1ad6d6a80b36b71ae5cef9005fdfb8ac3f68a1ea1d2b9735b57704395580f85",
+      "bytes": 2388096,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z1_val.npy"
+      ]
+    },
+    {
+      "sha256": "f1d0309bae582ac8cd718c3bea66b99a682eab81e7d62b977a06760089c300d6",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_17.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_17.pt"
+      ]
+    },
+    {
+      "sha256": "f1f6c7ba18b7cf0f264f2c2e52bae8274a7f6454cbff743465dfb2797bf46580",
+      "bytes": 7374434,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS512_tail3_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS512_tail3_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS512_tail3_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "f221083d8b21286463315bc4f4e8e187edc179201cd0abc35ced1cb976ee4fee",
+      "bytes": 11423023,
+      "paths": [
+        "research/plaa/qwen3-4b-phase1/final/tokenizer.json"
+      ]
+    },
+    {
+      "sha256": "f2a38b81287de776288343e102700caf45bbacd9e2650b7da3ea3394dfd4e798",
+      "bytes": 19103872,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_testB.npy",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z0_testB.npy"
+      ]
+    },
+    {
+      "sha256": "f2d08bf9eff0ea957a11aa6da5a6dc282a6cd87ab2ae7b1c5571c3b28d783668",
+      "bytes": 55485,
+      "paths": [
+        "archive/github-2026-10-20/checkpoints/p0i_pilot_m1_reset_s44/ckpt_step0300.pt"
+      ]
+    },
+    {
+      "sha256": "f2f7c990577ad788ca126a01fd5ca0be9dd65663f173a61263af7c914989242d",
+      "bytes": 697893,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/sanity_256_4/sanity.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/sanity_256_4/sanity.pt"
+      ]
+    },
+    {
+      "sha256": "f32a367593027e4e764c01312ed19839445bc03879d9658005127d822108a671",
+      "bytes": 2709,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "f4986064a1e6f975e137200d5cd5e2eb749204b50ff8a4084d03b609c3cb4925",
+      "bytes": 264308896,
+      "paths": [
+        "research/plaa/checkpoints/phase3_alpha_stable/final/phase2/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "f5286b7d609b48c2a8aca11532c5891acf851771d396bc5334ad6511e30251c5",
+      "bytes": 7702416,
+      "paths": [
+        "research/looplm/remote_archive/cheems/checkpoints/clr_v24_o3b_h_entity_carrier_diag/token_layer_features.npz"
+      ]
+    },
+    {
+      "sha256": "f563739b2306b35115c10ae9e7ab232b504086b1bd802d0fa7a61b93e023a41a",
+      "bytes": 597120,
+      "paths": [
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/Z4_testB.npy"
+      ]
+    },
+    {
+      "sha256": "f6e69dbb7192416604be86901250b5190ad0af9d12a1409d6d30a30f58be6f5c",
+      "bytes": 264308896,
+      "paths": [
+        "research/plaa/checkpoints/qwen3-4b-persona/final/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "f7982fc81e15327a3f30e4060ec6b3427d850acacb5be3c5b096d98332aff1d7",
+      "bytes": 1916578,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_static_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_static_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "f7bc8327dbe2d7af374edd1a071d4cf05fe1a23dd66347274ed28d798e7e71d8",
+      "bytes": 43077,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_entity_linear.pt"
+      ]
+    },
+    {
+      "sha256": "f7bde8bd7805416938522f8cc914cf583e5d345fef2d9b3bb9b26960358df411",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_02500.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_02500.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_02500.pt"
+      ]
+    },
+    {
+      "sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd",
+      "bytes": 698333,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_fresh_operational_baseline/components/vgen2/vgen2_rebase.pt",
+        "archive/server-scnet/clr_o3_rebase1_fresh_operational_baseline/components/vgen2/vgen2_rebase.pt"
+      ]
+    },
+    {
+      "sha256": "f8185165ac529d9aabdc9e66b16fcb473435109a7d00872b8a46fb8091c02a5b",
+      "bytes": 81421,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_factor_entity.pt"
+      ]
+    },
+    {
+      "sha256": "f8b07e262ddd6dc028247ca0529e1c03ffd3d63f97925865bb65351833de3911",
+      "bytes": 12345,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l2_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "f8c1170f89855ea9c86e2d418beb61e6690c8d473b4d03815d573ad1808a200f",
+      "bytes": 1909538,
+      "paths": [
+        "research/looplm/exp_seqstate_s0/runs/s0smoke_sequence_2x32_s42/best_model.pt",
+        "archive/github-2026-10-20/exp_seqstate_s0/runs/s0smoke_sequence_2x32_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "f97976204623069c0e38936e33f7a2a0b3cae6f83ab781d0e4784a5845e17e12",
+      "bytes": 3029,
+      "paths": [
+        "research/looplm/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_43.pt",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_a_seed_43.pt"
+      ]
+    },
+    {
+      "sha256": "f9caf42136ac979c1049d43eee8c90836953a0afd31700fbad119935089c8aee",
+      "bytes": 12315,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "f9d4a910a9f5abf11b79bbc33ac8dfd9e1f65ff5c3f289aac22fd23b251aac14",
+      "bytes": 1916578,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_math_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_math_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "f9f77abae0dc762999406fa600e52b67d415659eb70d22a01b3d36d82c38f149",
+      "bytes": 1916770,
+      "paths": [
+        "research/looplm/checkpoints/clr_ouro_v0_recall_s42/best_model.pt",
+        "archive/github-2026-10-20/checkpoints/clr_ouro_v0_recall_s42/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "fa89a69f51c04f07d2a747080cbc246fd99723aa1880804be26a895a427b887a",
+      "bytes": 22668905,
+      "paths": [
+        "research/looplm/remote_archive/new_server/clr_v24_o3b_j3e_joint_convergence_diag/output/probe_runs/phase_b_3_AdamW_lr0p01_wd0p001.npz",
+        "archive/server-scnet/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/probe_runs/phase_b_3_AdamW_lr0p01_wd0p001.npz"
+      ]
+    },
+    {
+      "sha256": "fb39a507d5f526e3fecc86401a7b580f13532158ed526e05d7111df5599aa276",
+      "bytes": 3221,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G1_hadamard_K_relation_linear.pt"
+      ]
+    },
+    {
+      "sha256": "fb97852bac23323af56b3937658c2ada74ee0036b706e1330af5e7a4fd300437",
+      "bytes": 319061,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_E_joint_linear.pt"
+      ]
+    },
+    {
+      "sha256": "fba05db52ae092f96fc9b98bb30696a6e0008697ea1dd07f387f67c03f6e9cd3",
+      "bytes": 560253,
+      "paths": [
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R0_mlp/probe.pt",
+        "archive/server-scnet/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R0_mlp/probe.pt"
+      ]
+    },
+    {
+      "sha256": "fc1c4f6e3d8cbf3424e117d9bf35974d5fbf27eca3e977d94c850b253ac9c370",
+      "bytes": 6823522,
+      "paths": [
+        "research/clr/checkpoints/sweep_DS128_all24_s130/best_model.pt",
+        "research/migrations/d_clr/checkpoints/sweep_DS128_all24_s130/best_model.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/sweep_DS128_all24_s130/best_model.pt"
+      ]
+    },
+    {
+      "sha256": "fcd376112a6ca40f16004f5c2563bd59194126447080d96f8e10b9bb2fd21335",
+      "bytes": 109333,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/checkpoints/G1_hadamard_best.pt"
+      ]
+    },
+    {
+      "sha256": "fd6f9cb810dd1b09c8840d5f1aa0fb04a8fe60bc904bdb096637f512d0312749",
+      "bytes": 631245,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G3_projected_tensor_R_joint_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "fe91e52d7cde6b83ab51db294f6d092aa03f3989dc134dbc500eb54b4983f894",
+      "bytes": 264309440,
+      "paths": [
+        "research/plaa/model/plaa-mfilm-qwen3-4b/adapter_model.safetensors"
+      ]
+    },
+    {
+      "sha256": "ff487b4eea76018fc52e2db5e1396630b70c5e752cc779c7911629ba5a9af5e1",
+      "bytes": 12345,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G2_residual_l1_R_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "ff5737c92b79056dea46fd012543ea6a21ab79c99bf1ab16c02b2f31640d9838",
+      "bytes": 4486540,
+      "paths": [
+        "research/clr/checkpoints/phase_d_ds256_s42/last.pt",
+        "research/migrations/d_clr/checkpoints/phase_d_ds256_s42/last.pt",
+        "archive/github-2026-10-20/CLR/checkpoints/phase_d_ds256_s42/last.pt"
+      ]
+    },
+    {
+      "sha256": "ff9d3bfa9f1bbdc5dba38c3d3ab48a5e6d9dd778af5173e676e898466f90b63e",
+      "bytes": 12375,
+      "paths": [
+        "research/studio/single_slot_audit_stage/o3bg_final/probes/G4_learned_concat_E_relation_mlp.pt"
+      ]
+    },
+    {
+      "sha256": "fff2436d177c1f9080ab108324e1a2f00f603017bfaef813b13cea953b1a000f",
+      "bytes": 697013,
+      "paths": [
+        "research/looplm/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00100.pt",
+        "research/looplm/clr_o3_rebase2_vgen2_failure_localization/downloads/vgen2_10k/snapshots/step_00100.pt",
+        "archive/server-scnet/clr_o3_rebase1_vgen2_10k_diag/snapshots/step_00100.pt"
+      ]
+    }
+  ]
+}

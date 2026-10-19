@@ -1,0 +1,10 @@
+{
+  "allocator_allowed": false,
+  "current_rebase_diagnosis_complete": true,
+  "historical_attribution_complete": false,
+  "integrated_o3_allowed": false,
+  "reason": "Current 3K shortfall can be localized using paired rebase checkpoints. The exact historical passing VGen2 implementation/checkpoint/dataset/config/commit is not authenticated, so historical regression attribution remains incomplete. Longer training is not a repaired implementation defect; PASS-A is not claimed. Candidate legacy-source drift alone cannot prove FAIL-CONTRACT for an unidentified passing run.",
+  "router_memory_reconnect_allowed": false,
+  "testA_testB_opened_this_round": false,
+  "verdict": "O3-REBASE2-INCOMPLETE — ROOT CAUSE NOT YET IDENTIFIED"
+}

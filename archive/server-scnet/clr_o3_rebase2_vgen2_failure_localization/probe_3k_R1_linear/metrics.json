@@ -1,0 +1,42 @@
+{
+  "evaluation": "frozen validation only",
+  "fit": "train only",
+  "kind": "linear",
+  "metrics": {
+    "N1": {
+      "accuracy": 0.9550898203592815,
+      "correct": 319,
+      "count": 334
+    },
+    "N2": {
+      "accuracy": 0.972972972972973,
+      "correct": 648,
+      "count": 666
+    },
+    "N4": {
+      "accuracy": 0.9662162162162162,
+      "correct": 1287,
+      "count": 1332
+    },
+    "UPDATE_latest": {
+      "accuracy": 0.964221824686941,
+      "correct": 1078,
+      "count": 1118
+    },
+    "single_write": {
+      "accuracy": 0.9665523156089194,
+      "correct": 2254,
+      "count": 2332
+    },
+    "value_identity": {
+      "accuracy": 0.9657971014492753,
+      "correct": 3332,
+      "count": 3450
+    }
+  },
+  "preprocessing": "train-only per-feature standardization",
+  "selection": "final fixed-step model; no validation selection",
+  "snapshot": "3k",
+  "stage": "R1",
+  "steps": 2000
+}

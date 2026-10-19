@@ -1,0 +1,73 @@
+{
+  "adapter_added": false,
+  "memory_layout_runtime_check": "NOT_RUN",
+  "reason": "The original O21A-MR, VGen2, O3a allocator, and baseline router checkpoints are not recovered; source-level shape notes do not certify runtime compatibility.",
+  "state_dict_key_compatibility": "NOT_RUN",
+  "static_source_contracts": {
+    "allocator": {
+      "hidden": 128,
+      "input": [
+        64,
+        4
+      ],
+      "output": 4,
+      "weights_loaded": false
+    },
+    "baseline_router": {
+      "action_branch": [
+        69,
+        96,
+        2
+      ],
+      "pair_branch": [
+        257,
+        128,
+        1
+      ],
+      "weights_loaded": false
+    },
+    "candidate_b": {
+      "frozen": true,
+      "score_orientation": "higher means same-key",
+      "threshold": 0.8504285216331482,
+      "update_target": "argmax occupied slot"
+    },
+    "key_encoder": {
+      "shape": [
+        2048,
+        256,
+        64
+      ],
+      "weights_loaded": false
+    },
+    "query_encoder": {
+      "shape": [
+        2048,
+        256,
+        64
+      ],
+      "weights_loaded": false
+    },
+    "raw_carrier": {
+      "input_dim": 2048,
+      "source": "Original source code / M2 frozen carrier manifest"
+    },
+    "slot_key_state": {
+      "convention": "slot index 0..3",
+      "shape": [
+        4,
+        64
+      ]
+    },
+    "value_path": {
+      "checkpoint_entries_expected": [
+        "core",
+        "value_heads"
+      ],
+      "latent_dim": 64,
+      "weights_loaded": false
+    }
+  },
+  "status": "BLOCKED_NOT_RUN — required frozen weights missing",
+  "tensor_shape_connection_test": "NOT_RUN"
+}

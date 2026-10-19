@@ -1,0 +1,47 @@
+{
+  "phase": "CLR-v2.4-O3b-I",
+  "seed": 42,
+  "git_sha": "NO_GIT_REPO",
+  "device": "cuda",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "source_H_output": "D:\\training\\checkpoints\\clr_v24_o3b_h_entity_carrier_diag",
+  "variants": [
+    "I0_raw_write_H",
+    "I1_pure_mention_mean",
+    "I2_residual_a0p5",
+    "I2_residual_a1",
+    "I2_residual_a2",
+    "I3_norm_gate",
+    "I4_layer23_mention"
+  ],
+  "best_variant": "I1_pure_mention_mean",
+  "best_testB_variant_diagnostic": "I1_pure_mention_mean",
+  "frozen": [
+    "Ouro/backbone",
+    "original O2.1b KeyEncoder and all projections",
+    "normalization",
+    "O2.1a-MR QueryEncoder",
+    "V/ValueEncoder",
+    "GRU",
+    "allocator",
+    "memory write/update",
+    "downstream answer head"
+  ],
+  "changed": [
+    "write-side input state selection only"
+  ],
+  "mention_features": "O3b-H frozen-Ouro bounded fact entity_mention_mean and layer_23_mention_mean",
+  "I3_gate": "parameter-free norm-adaptive sigmoid gate; no labels/oracle at inference",
+  "probe_steps": 240,
+  "pair_steps": 280,
+  "pair_n": 3500,
+  "wall_clock_s": 451.02743729998474,
+  "peak_vram": {
+    "allocated_gb": 0.270918144,
+    "reserved_gb": 0.291504128
+  },
+  "verdict": "O3b-I: WRITE-STATE SELECTION IS A MAJOR ADDRESSING BOTTLENECK",
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "independent unresolved issue"
+}

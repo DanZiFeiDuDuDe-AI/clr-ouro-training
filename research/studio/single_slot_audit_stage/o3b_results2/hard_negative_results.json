@@ -1,0 +1,46 @@
+{
+  "testA": {
+    "fully_different": {
+      "n": 250,
+      "action_accuracy": 0.964,
+      "update_or_new_target": null
+    },
+    "same_entity_diff_relation": {
+      "n": 250,
+      "action_accuracy": 0.816,
+      "update_or_new_target": null
+    },
+    "same_relation_diff_entity": {
+      "n": 250,
+      "action_accuracy": 0.968,
+      "update_or_new_target": null
+    },
+    "same_value_diff_key": {
+      "n": 250,
+      "action_accuracy": 0.964,
+      "update_or_new_target": null
+    }
+  },
+  "testB": {
+    "fully_different": {
+      "n": 250,
+      "action_accuracy": 0.984,
+      "update_or_new_target": null
+    },
+    "same_entity_diff_relation": {
+      "n": 250,
+      "action_accuracy": 0.78,
+      "update_or_new_target": null
+    },
+    "same_relation_diff_entity": {
+      "n": 250,
+      "action_accuracy": 0.96,
+      "update_or_new_target": null
+    },
+    "same_value_diff_key": {
+      "n": 250,
+      "action_accuracy": 0.996,
+      "update_or_new_target": null
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "requested": "cuda",
+  "selected": "cuda",
+  "cuda_available": true,
+  "cuda_name": "BW"
+}

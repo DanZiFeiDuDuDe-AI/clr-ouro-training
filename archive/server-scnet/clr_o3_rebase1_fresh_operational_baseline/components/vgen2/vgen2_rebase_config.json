@@ -1,0 +1,26 @@
+{
+  "architecture": "OracleLocalCore: Linear(2048,64) + GRUCell(64,64), plus four Linear(64,64) slot decoders",
+  "batch_size": 64,
+  "device": "cuda",
+  "episode_objective": "mean per-written-slot 64-class cross entropy",
+  "eval_every": 100,
+  "experiment": "CLR-O3-REBASE-1/VGen2",
+  "frozen_dependency": {
+    "o21a_checkpoint": "/root/private_data/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt",
+    "o21a_checkpoint_sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+    "o21a_gate_pass": true
+  },
+  "gradient_clip": 1.0,
+  "initialization": "fresh random initialization; no missing R2/VGen state substituted",
+  "j3c_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "lr": 0.0003,
+  "mr_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+  "optimizer": "AdamW",
+  "seed": 42,
+  "selection": "best VAL score = 0.5*single-write overall accuracy + 0.5*update latest-value accuracy",
+  "steps": 3000,
+  "test_policy": "TestA/TestB are not loaded until both VAL standalone gates pass",
+  "training_mixture": "50% source-separated multi-slot episodes; 50% source-separated same-key changed-value update pairs",
+  "update_objective": "mean CE after first write and after same-slot second write; latest value is supervised",
+  "weight_decay": 0.01
+}

@@ -1,0 +1,3848 @@
+{
+  "both_wrong": 80,
+  "breakdown": {
+    "entity_semantic_value": {
+      "\u4e01\u6447\u6600": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u4e01\u7391\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 22,
+        "rescued": 0
+      },
+      "\u4e07\u7d2b\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4e25\u7b3a\u957f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u4e4c\u5fae\u9999": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4e50\u4e54\u542f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4e8e\u5149\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4e8e\u5357\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u4e8e\u60d1\u5fae": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4e91\u56ed\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u4e91\u6b4c\u89c2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u4e91\u6cfd\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u4e95\u9999\u5cab": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u4ec7\u6000\u4ea6": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 10,
+        "rescued": 1
+      },
+      "\u4ec7\u68a7\u6f9c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u4ef0\u56ed\u5609": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u4ef0\u6cfd\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u4ef2\u660e\u6f88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 15,
+        "rescued": 0
+      },
+      "\u4efb\u4fee\u9547": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u4efb\u661f\u4ea6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u4efb\u821f\u95ee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u4f0a\u5929\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 16,
+        "rescued": 0
+      },
+      "\u4f0a\u6708\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 10,
+        "rescued": 1
+      },
+      "\u4f0a\u7ff0\u67a2": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 5,
+        "rescued": 3
+      },
+      "\u4f0d\u68a7\u887f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 12,
+        "rescued": 2
+      },
+      "\u4f0f\u4e91\u6850": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 2,
+        "rescued": 2
+      },
+      "\u4f0f\u91c7\u56ed": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u4f55\u592a\u897f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u4f55\u62fe\u56ed": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u4f55\u665a\u8367": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4f55\u6e20\u65f6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u4f59\u5f71\u8587": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u4f59\u7ea2\u6b4c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u4f59\u7eee\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 6,
+        "rescued": 4
+      },
+      "\u4f59\u884c\u6816": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u4faf\u4ea6\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u4faf\u661f\u89de": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u4faf\u8861\u6708": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u4fde\u4e66\u671b": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u4fde\u9752\u7d20": {
+        "10k_wrong": 3,
+        "3k_wrong": 8,
+        "count": 15,
+        "rescued": 5
+      },
+      "\u502a\u62fe\u8a00": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u502a\u661f\u56ed": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u5085\u60d1\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u5085\u671b\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u5085\u6cfd\u9547": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5085\u9ec4\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u50a8\u542c\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5143\u957f\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5168\u77e5\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5168\u7bab\u68a7": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 12,
+        "rescued": 2
+      },
+      "\u5168\u836f\u9526": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u51af\u5fae\u661f": {
+        "10k_wrong": 2,
+        "3k_wrong": 2,
+        "count": 11,
+        "rescued": 1
+      },
+      "\u51af\u62fe\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u51af\u68f9\u8fdf": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u51af\u7d2b\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u51cc\u4fee\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u51cc\u957f\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 6,
+        "rescued": 3
+      },
+      "\u51e4\u51cc\u836f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u51e4\u5b89\u5f26": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u5201\u5c81\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u5201\u6cfd\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5218\u6697\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5218\u821f\u6c50": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5305\u4e66\u660e": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5305\u91ce\u8d8a": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u534e\u5b50\u4e66": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u534e\u6267\u8bed": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u534e\u671b\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5355\u758f\u58a8": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5355\u91c7\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u535c\u67a2\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 8,
+        "rescued": 3
+      },
+      "\u535e\u6447\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u535e\u6b4c\u627f": {
+        "10k_wrong": 2,
+        "3k_wrong": 4,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u535e\u7389\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u5362\u6816\u7d2b": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u536b\u4e88\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 14,
+        "rescued": 0
+      },
+      "\u536b\u542c\u7476": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5371\u5f00\u665e": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5371\u661f\u6e20": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u5371\u8fb0\u6842": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5389\u5929\u7384": {
+        "10k_wrong": 2,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u5389\u5b50\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u5389\u5f00\u6f84": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u5389\u6447\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5389\u6708\u7b3a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u5389\u95ee\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u53f2\u4e39\u5c71": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 9,
+        "rescued": 2
+      },
+      "\u5409\u665a\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u5415\u5929\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5415\u6c90\u5b50": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5415\u836f\u4e1c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u5434\u68a7\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5434\u7389\u7eff": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u548c\u5b89\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u548c\u8861\u6c90": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u5510\u8212\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u55bb\u5929\u65e2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u55bb\u6c50\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u595a\u5f71\u8fdf": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u59da\u4e91\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u59da\u747e\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u59dc\u821f\u4e88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u59dc\u8a00\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5a04\u4e54\u68cb": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5a04\u521d\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u5a04\u6000\u971c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 12,
+        "rescued": 1
+      },
+      "\u5a04\u8fb0\u6f88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5b54\u5149\u6c50": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5b54\u661f\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5b54\u6986\u6cb3": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u5b54\u77e5\u8fdf": {
+        "10k_wrong": 1,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5b59\u6600\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5b5f\u821f\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5b63\u58a8\u4e34": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5b63\u5ddd\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u5b63\u5e9a\u8fb0": {
+        "10k_wrong": 4,
+        "3k_wrong": 4,
+        "count": 7,
+        "rescued": 0
+      },
+      "\u5b63\u6600\u6f88": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u5b63\u671b\u5609": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 10,
+        "rescued": 3
+      },
+      "\u5b63\u672a\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u5b63\u77e5\u6447": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5b63\u887f\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u5b81\u8fdc\u68cb": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u5b81\u8fdc\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u5b89\u5357\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 7,
+        "rescued": 2
+      },
+      "\u5b89\u6000\u542f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u5b89\u6267\u8ba9": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 11,
+        "rescued": 3
+      },
+      "\u5b89\u7384\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5b8b\u6842\u836f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5b93\u4e66\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5b93\u661f\u542c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5b97\u821f\u6e20": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5ba3\u5357\u548c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5ba3\u747e\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 18,
+        "rescued": 5
+      },
+      "\u5ba3\u8587\u7391": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u5ba3\u8fdc\u4e88": {
+        "10k_wrong": 1,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u5bab\u665a\u67a2": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 11,
+        "rescued": 3
+      },
+      "\u5bab\u6b4c\u887f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u5bab\u8212\u8fb0": {
+        "10k_wrong": 1,
+        "3k_wrong": 0,
+        "count": 13,
+        "rescued": 0
+      },
+      "\u5bab\u8fb0\u68cb": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 16,
+        "rescued": 2
+      },
+      "\u5bab\u95ee\u6447": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 32,
+        "rescued": 2
+      },
+      "\u5bb6\u662d\u9547": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5bb6\u6986\u4ea6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u5bb6\u767d\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5bb6\u7ff0\u884c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5bcc\u4e91\u60d1": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 15,
+        "rescued": 2
+      },
+      "\u5bcc\u6267\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u5bcc\u6697\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 13,
+        "rescued": 3
+      },
+      "\u5bcc\u6cb3\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u5c01\u542c\u5f71": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5c01\u548c\u661f": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 0
+      },
+      "\u5c01\u548c\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5c01\u661f\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5c01\u7eee\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u5c01\u821f\u6850": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u5c24\u781a\u65f6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 13,
+        "rescued": 0
+      },
+      "\u5c39\u6d66\u665e": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 11,
+        "rescued": 2
+      },
+      "\u5c48\u8861\u627f": {
+        "10k_wrong": 2,
+        "3k_wrong": 3,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u5c71\u6447\u666f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5c71\u9752\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5c91\u6276\u5609": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5c91\u672a\u534a": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5c91\u821f\u65f6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u5c91\u8fdc\u6816": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5d14\u521d\u7d20": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5d14\u5ddd\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 14,
+        "rescued": 1
+      },
+      "\u5d14\u6708\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5d14\u671b\u8587": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5d14\u6cb3\u6c50": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 21,
+        "rescued": 2
+      },
+      "\u5d14\u7389\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u5d14\u971c\u7fbd": {
+        "10k_wrong": 2,
+        "3k_wrong": 5,
+        "count": 26,
+        "rescued": 3
+      },
+      "\u5d47\u836f\u8bed": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5d47\u89de\u6c90": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 5,
+        "rescued": 3
+      },
+      "\u5de6\u5e9a\u6600": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 17,
+        "rescued": 0
+      },
+      "\u5de6\u6743\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5de6\u7bab\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 11,
+        "rescued": 3
+      },
+      "\u5deb\u5ddd\u4e88": {
+        "10k_wrong": 1,
+        "3k_wrong": 4,
+        "count": 13,
+        "rescued": 4
+      },
+      "\u5deb\u9526\u6276": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5df4\u6861\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u5df4\u781a\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u5e2d\u6842\u767d": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u5e2d\u68cb\u5e9a": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 18,
+        "rescued": 1
+      },
+      "\u5e2d\u6c50\u4e1c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5e2d\u8a00\u662d": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u5e38\u5f00\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5e38\u5f26\u6e20": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5e72\u7eff\u5609": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5e73\u6e20\u897f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u5e73\u7389\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u5e94\u4e34\u7ff0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u5e94\u6cb3\u6697": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u5e94\u6e05\u6e20": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u5e9e\u5149\u5e9a": {
+        "10k_wrong": 4,
+        "3k_wrong": 7,
+        "count": 20,
+        "rescued": 3
+      },
+      "\u5e9e\u6000\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5e9e\u6cfd\u5c71": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5e9e\u7bab\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u5eb7\u6c50\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u5eb7\u7167\u6447": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5ec9\u5cab\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u5ec9\u6850\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u5ec9\u884c\u6c50": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u5ec9\u89c2\u6861": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u5f13\u6697\u9547": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5f6d\u4e91\u5170": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u5f90\u60d1\u5cab": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5f90\u7384\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u5f90\u8fdf\u4e91": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u60e0\u8367\u6e20": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u620e\u7389\u6986": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u6210\u7bab\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 12,
+        "rescued": 0
+      },
+      "\u6210\u7ea2\u661f": {
+        "10k_wrong": 3,
+        "3k_wrong": 7,
+        "count": 11,
+        "rescued": 4
+      },
+      "\u621a\u548c\u65e2": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u6234\u6e05\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 12,
+        "rescued": 4
+      },
+      "\u623f\u4ea6\u4e88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u623f\u5fae\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u623f\u68a7\u9633": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u652f\u7391\u7d20": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u65b9\u6276\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u65b9\u95ee\u6c90": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u65b9\u9633\u6708": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 22,
+        "rescued": 2
+      },
+      "\u65bc\u5e9a\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u65bd\u62fe\u671b": {
+        "10k_wrong": 1,
+        "3k_wrong": 6,
+        "count": 29,
+        "rescued": 5
+      },
+      "\u65bd\u7476\u627f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u65bd\u8861\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u65f6\u7ea2\u5f00": {
+        "10k_wrong": 2,
+        "3k_wrong": 3,
+        "count": 13,
+        "rescued": 1
+      },
+      "\u660c\u661f\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u660c\u7ff0\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 8,
+        "rescued": 3
+      },
+      "\u660e\u5f71\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u660e\u660e\u6f9c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u660e\u6697\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u660e\u7eff\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 21,
+        "rescued": 5
+      },
+      "\u660e\u8bed\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u661d\u58c1\u6d66": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u661d\u6c90\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u666f\u971c\u8d8a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u66b4\u6743\u781a": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 5,
+        "rescued": 2
+      },
+      "\u66b4\u6cfd\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u66b4\u7389\u4e91": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u66b4\u8fb0\u6000": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 10,
+        "rescued": 4
+      },
+      "\u66f2\u65f6\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u66f2\u661f\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u66f2\u7391\u51cc": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u66f9\u534a\u548c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u66f9\u7eee\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u66f9\u8fb0\u91c7": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u6731\u5fae\u96ea": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u6731\u821f\u5411": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u6731\u8d8a\u6f84": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u674e\u51cc\u627f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u675c\u5149\u6708": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u675c\u9547\u665a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u6768\u8fdc\u671b": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 15,
+        "rescued": 4
+      },
+      "\u6768\u9752\u8bed": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u676d\u6b4c\u4e66": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u677e\u4e1c\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u677e\u58a8\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 9,
+        "rescued": 2
+      },
+      "\u6797\u5170\u5357": {
+        "10k_wrong": 7,
+        "3k_wrong": 7,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u6797\u7384\u542c": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 7,
+        "rescued": 4
+      },
+      "\u6797\u91ce\u6cb3": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u67cf\u6e20\u5f71": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u67cf\u7476\u7bab": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u67f3\u661f\u4e34": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u67f3\u6cfd\u4e34": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u67f3\u7bab\u68f9": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u683e\u56ed\u8367": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u683e\u62fe\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u683e\u67a2\u6267": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u683e\u8ba9\u7389": {
+        "10k_wrong": 2,
+        "3k_wrong": 3,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u683e\u8bb8\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u6881\u58c1\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 9,
+        "rescued": 5
+      },
+      "\u6881\u6743\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 5,
+        "rescued": 3
+      },
+      "\u6885\u5929\u662d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 20,
+        "rescued": 0
+      },
+      "\u6885\u60d1\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u6885\u6447\u548c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u6885\u821f\u58c1": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u6a0a\u5e9a\u672a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u6b66\u6f84\u534a": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 11,
+        "rescued": 2
+      },
+      "\u6b66\u821f\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u6bb5\u58c1\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u6bb5\u5e9a\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u6bb5\u95ee\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u6bb7\u7fbd\u6f84": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u6bb7\u821f\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 13,
+        "rescued": 1
+      },
+      "\u6bd5\u6cfd\u7b3a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u6bd5\u8367\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u6bdb\u58c1\u6c90": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u6bdb\u660e\u4e66": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 15,
+        "rescued": 4
+      },
+      "\u6bdb\u6697\u660e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u6c34\u4ea6\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u6c5f\u4e54\u7167": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u6c64\u821f\u5ddd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u6c64\u9752\u7391": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u6c6a\u4e54\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u6c72\u660e\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u6c72\u6b4c\u5b89": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u6c72\u6e05\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u6c72\u9752\u4fee": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 0
+      },
+      "\u6c88\u897f\u5fae": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u6d2a\u592a\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u6d2a\u767d\u5411": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u6d2a\u8fb0\u9633": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u6d2a\u8fdf\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u6e5b\u8bb8\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u6ed1\u5f00\u4ea6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 17,
+        "rescued": 0
+      },
+      "\u6ed1\u6e05\u4e88": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 36,
+        "rescued": 1
+      },
+      "\u6ed1\u6f9c\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u6ed1\u8a00\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u6ed1\u9752\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u6f58\u58c1\u9ec4": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u7126\u7389\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u718a\u767d\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u7267\u5c71\u661f": {
+        "10k_wrong": 3,
+        "3k_wrong": 5,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u7267\u65e2\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u7267\u68cb\u7ff0": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 10,
+        "rescued": 3
+      },
+      "\u7267\u91c7\u58c1": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u72c4\u65e2\u58a8": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u738b\u51cc\u77e5": {
+        "10k_wrong": 2,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u738b\u7389\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u738b\u7eee\u6850": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u7504\u660e\u6267": {
+        "10k_wrong": 1,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u7504\u68f9\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 11,
+        "rescued": 0
+      },
+      "\u7504\u6cb3\u6697": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 36,
+        "rescued": 5
+      },
+      "\u7504\u897f\u887f": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 17,
+        "rescued": 3
+      },
+      "\u7504\u957f\u5c81": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 4,
+        "rescued": 3
+      },
+      "\u7504\u957f\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u7504\u9752\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u7518\u5b89\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u7518\u5f71\u6000": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 5,
+        "rescued": 2
+      },
+      "\u7518\u887f\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u7518\u8a00\u5cab": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 4,
+        "rescued": 3
+      },
+      "\u7530\u661f\u5411": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u7530\u6850\u662d": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 7,
+        "rescued": 3
+      },
+      "\u7530\u7384\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u76ae\u4ea6\u68a7": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u76ae\u665e\u9633": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u76db\u8fdc\u68cb": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u7941\u6d66\u89c2": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 16,
+        "rescued": 4
+      },
+      "\u7956\u4e88\u662d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7956\u5cab\u6600": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u7956\u6276\u58c1": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7956\u661f\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u7956\u7389\u96ea": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7956\u758f\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u7956\u89de\u6447": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 14,
+        "rescued": 0
+      },
+      "\u79b9\u5f71\u627f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 16,
+        "rescued": 1
+      },
+      "\u79e6\u5170\u7d2b": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u79e6\u5c71\u971c": {
+        "10k_wrong": 0,
+        "3k_wrong": 8,
+        "count": 24,
+        "rescued": 8
+      },
+      "\u79e6\u7389\u91ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 10,
+        "rescued": 1
+      },
+      "\u79e6\u957f\u4ea6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u7a46\u5149\u67a2": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u7aa6\u8bb8\u5fae": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 27,
+        "rescued": 0
+      },
+      "\u7ae0\u51cc\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7ae0\u56ed\u96ea": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7ae5\u548c\u5b89": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 15,
+        "rescued": 5
+      },
+      "\u7ae5\u6cfd\u5f00": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 15,
+        "rescued": 4
+      },
+      "\u7ae5\u6d66\u51cc": {
+        "10k_wrong": 1,
+        "3k_wrong": 4,
+        "count": 10,
+        "rescued": 3
+      },
+      "\u7b26\u56ed\u4e88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u7b26\u6d66\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u7b26\u6e20\u747e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7b26\u8fb0\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u7b26\u9633\u89c2": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 0
+      },
+      "\u7ba1\u51cc\u7476": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 1
+      },
+      "\u7ba1\u8fb0\u5cab": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u7c73\u4e1c\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u7c73\u8fb0\u6850": {
+        "10k_wrong": 2,
+        "3k_wrong": 7,
+        "count": 13,
+        "rescued": 5
+      },
+      "\u7eaa\u521d\u6447": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 15,
+        "rescued": 2
+      },
+      "\u7eaa\u5609\u51cc": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 10,
+        "rescued": 5
+      },
+      "\u7eaa\u95ee\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u7ecf\u5170\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u7ecf\u7ea2\u660e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u7ecf\u971c\u665e": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u7f2a\u6708\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u7f8a\u4e34\u4e1c": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u7f8a\u5929\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 25,
+        "rescued": 1
+      },
+      "\u7fbf\u672a\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u7fbf\u6f88\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 33,
+        "rescued": 2
+      },
+      "\u7fc1\u6816\u6842": {
+        "10k_wrong": 2,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u7fc1\u6cfd\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u7fc1\u7389\u8fdf": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u80e1\u767d\u9633": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u81e7\u58c1\u836f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u81e7\u592a\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u81e7\u592a\u8367": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u8212\u661f\u8ba9": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u82ae\u4e88\u6708": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 11,
+        "rescued": 0
+      },
+      "\u82ae\u758f\u5b89": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 7,
+        "rescued": 0
+      },
+      "\u82ae\u897f\u6d66": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 9,
+        "rescued": 2
+      },
+      "\u82b1\u6447\u7eff": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u82b1\u6816\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u82cf\u7d2b\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u82d7\u58a8\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u82d7\u5e9a\u7d20": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u82d7\u836f\u4e54": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 4,
+        "rescued": 3
+      },
+      "\u8303\u5357\u89c2": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 3,
+        "rescued": 3
+      },
+      "\u8303\u5ddd\u6842": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u8305\u5929\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u8340\u4e88\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 18,
+        "rescued": 0
+      },
+      "\u8340\u542f\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u8340\u65f6\u7167": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u8363\u4e88\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u8363\u58a8\u9999": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u8427\u5929\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 12,
+        "rescued": 1
+      },
+      "\u8427\u6cfd\u7167": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u8427\u8fb0\u7384": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u845b\u5149\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u845b\u96ea\u7d20": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      },
+      "\u845b\u971c\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u845b\u9999\u665a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8463\u68f9\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u848b\u65f6\u9999": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u84dd\u5357\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 9,
+        "rescued": 2
+      },
+      "\u84dd\u5609\u660e": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u84dd\u9526\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u84ec\u77e5\u5fae": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u84ec\u836f\u8367": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8521\u4e91\u6986": {
+        "10k_wrong": 1,
+        "3k_wrong": 4,
+        "count": 7,
+        "rescued": 3
+      },
+      "\u8521\u661f\u8d8a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u8521\u747e\u6b4c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u859b\u62fe\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 12,
+        "rescued": 2
+      },
+      "\u859b\u7fbd\u6708": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u859b\u821f\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u865e\u7fbd\u542f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8881\u4e88\u542c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u8881\u4e88\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u8881\u627f\u7391": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u88f4\u58a8\u887f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 9,
+        "rescued": 2
+      },
+      "\u88f4\u758f\u627f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u88f4\u9547\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u891a\u4e39\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 1
+      },
+      "\u891a\u4e88\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 24,
+        "rescued": 1
+      },
+      "\u891a\u7476\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u89e3\u5411\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 11,
+        "rescued": 0
+      },
+      "\u89e3\u542f\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u8a79\u5149\u6d66": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 7,
+        "rescued": 2
+      },
+      "\u8a79\u627f\u5f26": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u8a79\u661f\u7476": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 9,
+        "rescued": 4
+      },
+      "\u8a79\u8fb0\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u8ba1\u627f\u887f": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u8ba1\u6c90\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 6,
+        "count": 19,
+        "rescued": 6
+      },
+      "\u8bb8\u666f\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u8bb8\u8fdc\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u8bf8\u5411\u7389": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u8bf8\u661f\u91c7": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u8bf8\u6c90\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u8c08\u9633\u6b4c": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u8c22\u4e39\u7eee": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u8c22\u665e\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u8c22\u7391\u65f6": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u8c37\u9ec4\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 15,
+        "rescued": 4
+      },
+      "\u8d32\u534a\u9547": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u8d32\u5411\u5ddd": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 7,
+        "rescued": 2
+      },
+      "\u8d39\u5b50\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8d39\u5c81\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u8d3a\u89c2\u8587": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 16,
+        "rescued": 0
+      },
+      "\u8d75\u4e88\u6e05": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8d75\u6728\u7eff": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u8d75\u6b4c\u9999": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u8d75\u7d2b\u5e9a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u8d75\u897f\u6276": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u8def\u6e05\u7eee": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u8f66\u5929\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u9093\u7d2b\u6850": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u90a2\u665a\u5c81": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u90ac\u6d66\u6447": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u90b1\u6728\u77e5": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 7,
+        "rescued": 1
+      },
+      "\u90b5\u6708\u5f26": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u90b9\u6816\u68cb": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u90b9\u897f\u7d2b": {
+        "10k_wrong": 0,
+        "3k_wrong": 6,
+        "count": 15,
+        "rescued": 6
+      },
+      "\u90c1\u5f00\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u90c1\u6d66\u9ec4": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u90ce\u542f\u6816": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 13,
+        "rescued": 1
+      },
+      "\u90d1\u5f00\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u90d7\u7389\u5c81": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 13,
+        "rescued": 0
+      },
+      "\u90d7\u77e5\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u90dd\u96ea\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u90ed\u6842\u6cfd": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 36,
+        "rescued": 1
+      },
+      "\u90ed\u68cb\u4ea6": {
+        "10k_wrong": 2,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u90ed\u6986\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 14,
+        "rescued": 0
+      },
+      "\u90ed\u971c\u5ddd": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9146\u7d20\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u91d1\u5cab\u67a2": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u91d1\u5fae\u897f": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u91d1\u62fe\u521d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u91d1\u821f\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 15,
+        "rescued": 1
+      },
+      "\u949f\u4e39\u6b4c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 10,
+        "rescued": 0
+      },
+      "\u949f\u5ddd\u7476": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 11,
+        "rescued": 3
+      },
+      "\u949f\u5f00\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 15,
+        "rescued": 1
+      },
+      "\u949f\u62fe\u8fdc": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u949f\u6f88\u7ea2": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u94ad\u60d1\u534a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u94ad\u7d2b\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u94ad\u836f\u58a8": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u94ad\u8fb0\u9ec4": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 13,
+        "rescued": 1
+      },
+      "\u94ad\u9752\u6850": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 17,
+        "rescued": 3
+      },
+      "\u94ae\u4e1c\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u94ae\u95ee\u7389": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u94b1\u7fbd\u7ff0": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 9,
+        "rescued": 4
+      },
+      "\u95f5\u5c81\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u95f5\u6697\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 5,
+        "count": 12,
+        "rescued": 5
+      },
+      "\u95f5\u767d\u5ddd": {
+        "10k_wrong": 7,
+        "3k_wrong": 6,
+        "count": 13,
+        "rescued": 1
+      },
+      "\u95f5\u8fb0\u7b3a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9646\u897f\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9646\u8a00\u836f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9646\u9999\u5170": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9648\u592a\u6743": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u9648\u758f\u7391": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 6,
+        "rescued": 1
+      },
+      "\u9676\u8861\u7eff": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u9697\u8212\u6cb3": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9697\u8fdc\u4fee": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 3,
+        "rescued": 2
+      },
+      "\u9697\u957f\u897f": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 45,
+        "rescued": 2
+      },
+      "\u96f7\u4e54\u521d": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u96f7\u8fb0\u6728": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u970d\u5170\u5357": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u970d\u56ed\u884c": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u970d\u58a8\u5fae": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 10,
+        "rescued": 1
+      },
+      "\u970d\u6cb3\u9752": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u970d\u6f84\u6743": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 8,
+        "rescued": 2
+      },
+      "\u9773\u4e39\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u9773\u957f\u7fbd": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u97e6\u51cc\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 1,
+        "rescued": 1
+      },
+      "\u97e6\u6f84\u8fdf": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 4,
+        "rescued": 2
+      },
+      "\u9879\u4e1c\u7389": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9879\u68f9\u781a": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 2,
+        "rescued": 1
+      },
+      "\u9879\u767d\u542c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9879\u89c2\u62fe": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u987e\u662d\u8ba9": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 1
+      },
+      "\u989c\u51cc\u758f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u989c\u6850\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u989c\u7d2b\u91c7": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9a6c\u534a\u548c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u9a6c\u5357\u661f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9a86\u7391\u6861": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9ad8\u5c71\u5c81": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 6,
+        "rescued": 2
+      },
+      "\u9b4f\u7d20\u58a8": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 9,
+        "rescued": 1
+      },
+      "\u9c81\u6276\u7d2b": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9c81\u68cb\u4e88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9c81\u6b4c\u6f88": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u9c81\u6cfd\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u9c81\u7389\u887f": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9c81\u758f\u5411": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u9c81\u767d\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9c81\u8212\u767d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u9c81\u884c\u521d": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u9c81\u9547\u7d20": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u9c8d\u5929\u8fb0": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 11,
+        "rescued": 1
+      },
+      "\u9c8d\u6e05\u5929": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 3,
+        "rescued": 0
+      },
+      "\u9c8d\u7eff\u5149": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 6,
+        "rescued": 0
+      },
+      "\u9c8d\u9752\u8a00": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9ebb\u5cab\u8861": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 5,
+        "rescued": 0
+      },
+      "\u9ebb\u758f\u5b50": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9ebb\u7d20\u6cfd": {
+        "10k_wrong": 2,
+        "3k_wrong": 4,
+        "count": 10,
+        "rescued": 2
+      },
+      "\u9ebb\u821f\u7d2b": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u9ec4\u6e20\u6f9c": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 8,
+        "rescued": 0
+      },
+      "\u9ec4\u7167\u542c": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u9ec4\u8212\u7d2b": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9f50\u534a\u781a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u9f50\u5c71\u4e91": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9f50\u660e\u5f00": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 9,
+        "rescued": 0
+      },
+      "\u9f50\u68cb\u89c2": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 4,
+        "rescued": 1
+      },
+      "\u9f50\u821f\u4e66": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u9f50\u971c\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 4,
+        "rescued": 0
+      },
+      "\u9f99\u5b50\u6f88": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 16,
+        "rescued": 2
+      },
+      "\u9f99\u6850\u671b": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 2,
+        "rescued": 0
+      },
+      "\u9f99\u957f\u821f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u9f99\u9752\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 8,
+        "rescued": 1
+      },
+      "\u9f9a\u548c\u5ddd": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 3,
+        "rescued": 1
+      },
+      "\u9f9a\u58a8\u592a": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 2,
+        "rescued": 2
+      },
+      "\u9f9a\u65e2\u9ec4": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 1,
+        "rescued": 0
+      },
+      "\u9f9a\u6861\u836f": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 5,
+        "rescued": 1
+      }
+    },
+    "object_value": {
+      "\u4e34\u5c9a\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 8,
+        "count": 48,
+        "rescued": 8
+      },
+      "\u4e91\u5ddd\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 9,
+        "count": 72,
+        "rescued": 7
+      },
+      "\u5170\u6c40\u57ce": {
+        "10k_wrong": 3,
+        "3k_wrong": 5,
+        "count": 43,
+        "rescued": 2
+      },
+      "\u5317\u6c40\u57ce": {
+        "10k_wrong": 2,
+        "3k_wrong": 7,
+        "count": 48,
+        "rescued": 5
+      },
+      "\u5357\u5c7f\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 37,
+        "rescued": 1
+      },
+      "\u579a\u57ce\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 36,
+        "rescued": 1
+      },
+      "\u5c9a\u6c5f\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 63,
+        "rescued": 1
+      },
+      "\u661f\u6e2f\u5e02": {
+        "10k_wrong": 3,
+        "3k_wrong": 6,
+        "count": 49,
+        "rescued": 4
+      },
+      "\u671b\u5ddd\u5e02": {
+        "10k_wrong": 8,
+        "3k_wrong": 7,
+        "count": 47,
+        "rescued": 1
+      },
+      "\u6749\u5cad\u5e02": {
+        "10k_wrong": 5,
+        "3k_wrong": 13,
+        "count": 53,
+        "rescued": 9
+      },
+      "\u674f\u575b\u5e02": {
+        "10k_wrong": 3,
+        "3k_wrong": 3,
+        "count": 36,
+        "rescued": 1
+      },
+      "\u677e\u5dde\u5e02": {
+        "10k_wrong": 5,
+        "3k_wrong": 17,
+        "count": 78,
+        "rescued": 13
+      },
+      "\u67ab\u57ce\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 46,
+        "rescued": 4
+      },
+      "\u67ab\u6d25\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 1,
+        "count": 58,
+        "rescued": 0
+      },
+      "\u67cf\u57ce\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 46,
+        "rescued": 1
+      },
+      "\u67da\u5c71\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 4,
+        "count": 53,
+        "rescued": 4
+      },
+      "\u67f3\u5ddd\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 13,
+        "count": 47,
+        "rescued": 12
+      },
+      "\u6800\u57ce\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 59,
+        "rescued": 2
+      },
+      "\u6816\u971e\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 52,
+        "rescued": 2
+      },
+      "\u683e\u5ddd\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 11,
+        "count": 70,
+        "rescued": 9
+      },
+      "\u6842\u6eaa\u5e02": {
+        "10k_wrong": 5,
+        "3k_wrong": 24,
+        "count": 71,
+        "rescued": 19
+      },
+      "\u6843\u6e21\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 9,
+        "count": 46,
+        "rescued": 9
+      },
+      "\u6849\u8c37\u5e02": {
+        "10k_wrong": 4,
+        "3k_wrong": 7,
+        "count": 57,
+        "rescued": 3
+      },
+      "\u6850\u6d32\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 3,
+        "count": 54,
+        "rescued": 3
+      },
+      "\u6851\u6d66\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 67,
+        "rescued": 1
+      },
+      "\u6864\u9547\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 16,
+        "count": 42,
+        "rescued": 16
+      },
+      "\u6866\u5ddd\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 16,
+        "count": 58,
+        "rescued": 15
+      },
+      "\u6885\u5c7f\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 13,
+        "count": 52,
+        "rescued": 12
+      },
+      "\u6893\u5dde\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 19,
+        "count": 48,
+        "rescued": 18
+      },
+      "\u68a7\u6e2f\u5e02": {
+        "10k_wrong": 3,
+        "3k_wrong": 15,
+        "count": 56,
+        "rescued": 12
+      },
+      "\u68a8\u4e61\u57ce": {
+        "10k_wrong": 4,
+        "3k_wrong": 22,
+        "count": 65,
+        "rescued": 18
+      },
+      "\u6960\u6eaa\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 58,
+        "rescued": 1
+      },
+      "\u6960\u9547\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 21,
+        "count": 53,
+        "rescued": 20
+      },
+      "\u6986\u5173\u5e02": {
+        "10k_wrong": 6,
+        "3k_wrong": 18,
+        "count": 57,
+        "rescued": 12
+      },
+      "\u6989\u539f\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 30,
+        "count": 67,
+        "rescued": 29
+      },
+      "\u69d0\u4e61\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 50,
+        "rescued": 1
+      },
+      "\u69d0\u5b89\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 3,
+        "count": 61,
+        "rescued": 2
+      },
+      "\u6a1f\u9547\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 57,
+        "rescued": 1
+      },
+      "\u6a31\u8c37\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 42,
+        "rescued": 0
+      },
+      "\u6a80\u6751\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 3,
+        "count": 52,
+        "rescued": 2
+      },
+      "\u6c40\u6d32\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 7,
+        "count": 52,
+        "rescued": 7
+      },
+      "\u6c50\u6e2f\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 24,
+        "count": 52,
+        "rescued": 22
+      },
+      "\u6c9a\u5ddd\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 4,
+        "count": 53,
+        "rescued": 4
+      },
+      "\u6ca7\u6f9c\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 55,
+        "rescued": 2
+      },
+      "\u6e1d\u6e2f\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 6,
+        "count": 50,
+        "rescued": 5
+      },
+      "\u6f84\u6d77\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 5,
+        "count": 52,
+        "rescued": 3
+      },
+      "\u73e9\u6d32\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 9,
+        "count": 63,
+        "rescued": 7
+      },
+      "\u767d\u6c99\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 4,
+        "count": 63,
+        "rescued": 4
+      },
+      "\u77f3\u6e56\u5e02": {
+        "10k_wrong": 2,
+        "3k_wrong": 2,
+        "count": 65,
+        "rescued": 1
+      },
+      "\u7af9\u5cad\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 1,
+        "count": 62,
+        "rescued": 0
+      },
+      "\u82a6\u6d32\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 15,
+        "count": 51,
+        "rescued": 14
+      },
+      "\u82c7\u6e21\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 20,
+        "count": 64,
+        "rescued": 19
+      },
+      "\u82cf\u837b\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 12,
+        "count": 47,
+        "rescued": 12
+      },
+      "\u82dc\u6eaa\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 17,
+        "count": 56,
+        "rescued": 17
+      },
+      "\u8377\u6cfd\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 10,
+        "count": 47,
+        "rescued": 10
+      },
+      "\u837b\u6d66\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 12,
+        "count": 36,
+        "rescued": 11
+      },
+      "\u8386\u6c40\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 2,
+        "count": 35,
+        "rescued": 2
+      },
+      "\u83f1\u6e2f\u57ce": {
+        "10k_wrong": 0,
+        "3k_wrong": 2,
+        "count": 52,
+        "rescued": 2
+      },
+      "\u83f1\u6eaa\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 1,
+        "count": 43,
+        "rescued": 1
+      },
+      "\u8605\u829c\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 11,
+        "count": 64,
+        "rescued": 10
+      },
+      "\u96fe\u5cab\u5e02": {
+        "10k_wrong": 0,
+        "3k_wrong": 0,
+        "count": 57,
+        "rescued": 0
+      },
+      "\u971c\u6865\u5e02": {
+        "10k_wrong": 1,
+        "3k_wrong": 12,
+        "count": 67,
+        "rescued": 11
+      },
+      "\u9752\u79be\u5e02": {
+        "10k_wrong": 3,
+        "3k_wrong": 5,
+        "count": 62,
+        "rescued": 2
+      },
+      "\u9e6d\u539f\u57ce": {
+        "10k_wrong": 1,
+        "3k_wrong": 6,
+        "count": 48,
+        "rescued": 5
+      }
+    },
+    "relation_semantic_value": {
+      "birth_city": {
+        "10k_wrong": 19,
+        "3k_wrong": 115,
+        "count": 849,
+        "rescued": 97
+      },
+      "current_city": {
+        "10k_wrong": 26,
+        "3k_wrong": 150,
+        "count": 949,
+        "rescued": 128
+      },
+      "favorite_city": {
+        "10k_wrong": 14,
+        "3k_wrong": 121,
+        "count": 777,
+        "rescued": 108
+      },
+      "work_city": {
+        "10k_wrong": 34,
+        "3k_wrong": 146,
+        "count": 875,
+        "rescued": 119
+      }
+    }
+  },
+  "by_context": {
+    "UPDATE_latest": {
+      "3k_wrong": 145,
+      "count": 1118,
+      "rescued": 126
+    },
+    "single_write": {
+      "3k_wrong": 387,
+      "count": 2332,
+      "rescued": 326
+    }
+  },
+  "comparison": "paired 3K failing versus 10K passing rebase, NOT an authenticated historical VGen2 checkpoint",
+  "examples": 3450,
+  "failing_correct_passing_wrong": 13,
+  "historical_checkpoint_replay": "UNAVAILABLE; prior bounded recovery found no historical VGen2/R2 weights",
+  "labels_equal": true,
+  "latent_max_abs_diff": 1.9892746210098267,
+  "passing_correct_failing_wrong": 452,
+  "projection_max_abs_diff": 5.212072849273682,
+  "raw_input_equal": true
+}

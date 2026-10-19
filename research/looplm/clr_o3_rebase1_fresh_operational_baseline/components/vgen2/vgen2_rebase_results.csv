@@ -1,0 +1,6 @@
+﻿split,metric,capacity,correct,count,answer_accuracy,pair_count,old_value_accuracy_after_first_write,latest_value_accuracy_after_update,non_target_slot_mutation
+val,single_write_answer,1,276,334,0.8263473053892215,,,,
+val,single_write_answer,2,548,666,0.8228228228228228,,,,
+val,single_write_answer,4,1124,1332,0.8438438438438438,,,,
+val,single_write_answer,all,1948,2332,0.8353344768439108,,,,
+val,update,same_slot,,,,1118,0.855098389982111,0.870304114490161,False

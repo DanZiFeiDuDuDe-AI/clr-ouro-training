@@ -1,0 +1,37 @@
+{
+  "best_step": 3000,
+  "best_val_score": 0.8564642356327306,
+  "experiment": "CLR-O3-REBASE-1/VGen2",
+  "gate_pass": false,
+  "protocol_frozen": true,
+  "test_evaluation": "NOT_RUN_VAL_GATE_FAILED",
+  "val_gate_pass": false,
+  "val_single": {
+    "1": {
+      "answer_accuracy": 0.8263473053892215,
+      "correct": 276,
+      "count": 334
+    },
+    "2": {
+      "answer_accuracy": 0.8228228228228228,
+      "correct": 548,
+      "count": 666
+    },
+    "4": {
+      "answer_accuracy": 0.8438438438438438,
+      "correct": 1124,
+      "count": 1332
+    },
+    "overall": {
+      "answer_accuracy": 0.8353344768439108,
+      "correct": 1948,
+      "count": 2332
+    }
+  },
+  "val_update": {
+    "latest_value_accuracy_after_update": 0.870304114490161,
+    "non_target_slot_mutation": false,
+    "old_value_accuracy_after_first_write": 0.855098389982111,
+    "pair_count": 1118
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "random_free": {
+    "testA": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.9309309309309309,
+        0.93993993993994,
+        0.960960960960961,
+        0.9009009009009009
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9331831831831832,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7627627627627628
+    },
+    "testB": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.9459459459459459,
+        0.9099099099099099,
+        0.9009009009009009,
+        0.933933933933934
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9226726726726727,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7477477477477478
+    }
+  },
+  "first_free": {
+    "testA": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.9519519519519519,
+        0.9429429429429429,
+        0.9129129129129129,
+        0.9039039039039038
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9279279279279279,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7537537537537538
+    },
+    "testB": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.9369369369369369,
+        0.9369369369369369,
+        0.8858858858858859,
+        0.9219219219219219
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9204204204204204,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7327327327327328
+    }
+  },
+  "learned_soft": {
+    "testA": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.948948948948949,
+        0.93993993993994,
+        0.9519519519519519,
+        0.9099099099099099
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9376876876876877,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7837837837837838
+    },
+    "testB": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.9369369369369369,
+        0.9039039039039038,
+        0.9159159159159159,
+        0.9309309309309309
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9219219219219219,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7447447447447447
+    }
+  },
+  "learned_hard_mask": {
+    "testA": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.948948948948949,
+        0.93993993993994,
+        0.9519519519519519,
+        0.9099099099099099
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9376876876876877,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7837837837837838
+    },
+    "testB": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.9369369369369369,
+        0.9039039039039038,
+        0.9159159159159159,
+        0.9309309309309309
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9219219219219219,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7447447447447447
+    }
+  },
+  "k_blind_soft": {
+    "testA": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.9459459459459459,
+        0.9099099099099099,
+        0.960960960960961,
+        0.9219219219219219
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9346846846846847,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7657657657657657
+    },
+    "testB": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.948948948948949,
+        0.8918918918918919,
+        0.918918918918919,
+        0.9309309309309309
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9226726726726727,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7417417417417418
+    }
+  }
+}

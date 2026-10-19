@@ -1,0 +1,100 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "baseline_id": "clr_o3_rebase_bundle_v1",
+  "status": "CONTRACT_FROZEN_BEFORE_COMPONENT_TRAINING",
+  "scope": "fresh operational latent-slot memory; not a reproduction of the historical baseline",
+  "memory": {
+    "slot_count": 4,
+    "key_retrieval_dim": 64,
+    "candidate_b_entity_factor_dim": 64,
+    "candidate_b_relation_factor_dim": 64,
+    "value_dim": 64,
+    "value_classes": 64,
+    "occupancy_shape": [4],
+    "slot_address_payload": ["retrieval_K_64", "candidate_B_entity_factor_64", "candidate_B_relation_factor_64"],
+    "slot_value_payload": "V_64",
+    "slot_state": "(K, factorized_entity, factorized_relation, V, occupied)"
+  },
+  "frozen_extraction": {
+    "backbone": "ByteDance/Ouro-1.4B",
+    "backbone_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+    "trainable": false,
+    "feature_dim": 2048,
+    "fact_query_source": "existing O21A-MR frozen hidden cache: fact_H and query_H",
+    "candidate_b_entity_source": "J3C-certified H_mention_fresh: exact entity mention mean hidden",
+    "candidate_b_relation_source": "J3C-certified H_base_I0; row-joined fact_H carrier",
+    "cache_generation": "not part of component training; no backbone forward in this phase"
+  },
+  "components": {
+    "o21a_rebase": {
+      "status": "TRAIN_NEXT",
+      "architecture": "independent KeyEncoder and QueryEncoder: Linear(2048,256)-GELU-Linear(256,64)-L2",
+      "input": {"fact_H": ["B", 2048], "query_H": ["B", 2048]},
+      "output": {"K": ["B", 64], "Q": ["B", 64]},
+      "retrieval": "argmax((Q @ K.T) / 0.1); occupied slots only",
+      "objective": "retrieval CE + 0.5*batch-positive alignment CE + 0.1*(fact-entity CE + query-entity CE)",
+      "training": {"optimizer": "AdamW", "lr": 0.001, "weight_decay": 0.01, "grad_clip": 1.0, "batch_size": 128, "steps": 3000, "eval_every": 100, "seed": 42, "selection": "best validation macro retrieval averaged over capacities 1,2,4"},
+      "standalone_gate": {"val_N4_retrieval_min": 0.9, "testA_N4_retrieval_min": 0.9, "testB_N4_retrieval_min": 0.85, "testA_same_entity_different_relation_min": 0.9, "testB_same_entity_different_relation_min": 0.9, "testA_same_relation_different_entity_min": 0.9, "testB_same_relation_different_entity_min": 0.9},
+      "artifact": "components/o21a_rebase.pt"
+    },
+    "vgen2_rebase": {
+      "status": "BLOCKED_UNTIL_O21A_PASS",
+      "architecture": "OracleLocalCore: Linear(2048,64) content read + shared GRUCell(64,64); four slot-specific Linear(64,64) value heads",
+      "write_input": ["fact_H_2048", "previous_slot_V_64", "target_slot_id"],
+      "write_output": "updated target V_64; non-target slots bitwise unchanged",
+      "read_output": "64-class logits from selected slot-specific value head",
+      "standalone_gate": {"single_write_answer_min_testA": 0.95, "single_write_answer_min_testB": 0.95, "one_update_latest_value_min_testA": 0.95, "one_update_latest_value_min_testB": 0.95},
+      "artifact": "components/vgen2_rebase.pt"
+    },
+    "o3a_allocator_rebase": {
+      "status": "BLOCKED_UNTIL_O21A_PASS",
+      "architecture": "Linear(68,128)-GELU-Linear(128,4); input [K_64, occupancy_4]",
+      "output": "four free-slot logits; occupied slots masked as safety",
+      "objective": "-log(total probability mass over unoccupied slots)",
+      "training": {"optimizer": "AdamW", "lr": 0.0003, "weight_decay": 0.01, "grad_clip": 1.0, "batch_size": 128, "steps": 3000, "eval_every": 100, "seed": 42},
+      "standalone_gate": {"val_legal_free_slot_min": 0.99, "testA_legal_free_slot_min": 0.95, "testB_legal_free_slot_min": 0.95, "test_collision_max": 0.05, "occupancy_states": [0, 1, 2, 3]},
+      "artifact": "components/o3a_allocator_rebase.pt"
+    },
+    "candidate_b": {
+      "status": "FROZEN_NO_TRAINING",
+      "checkpoint": "clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+      "checkpoint_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "config_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+      "feature_stats": "use embedded train-only entity/relation mean and std; do not refit",
+      "input": {"entity_mention_H": ["B", 2048], "relation_H": ["B", 2048]},
+      "encoded_factors": {"entity": ["B", 64], "relation": ["B", 64]},
+      "score": "sigmoid(pair_head([abs(Eq-Em), Eq*Em, abs(Rq-Rm), Rq*Rm]))",
+      "decision_rule": {"threshold": 0.8504285216331482, "if_max_score_greater_equal": "UPDATE(argmax occupied score)", "otherwise": "NEW via allocator", "empty_memory": "NEW"}
+    },
+    "router": {
+      "status": "DETERMINISTIC",
+      "actions": ["NEW", "UPDATE", "READ"],
+      "write_flow": "Candidate B on incoming entity/relation factors; UPDATE matched slot if frozen threshold passes, else NEW via O3a allocator",
+      "update_semantics": "preserve the existing slot address and occupancy; update only its V state",
+      "read_flow": "O21A Q-to-K retrieval among occupied slots; decode selected V"
+    }
+  },
+  "data_discipline": {
+    "splits": ["train", "val", "testA", "testB"],
+    "model_selection": "train and val only",
+    "test_usage": "final evaluation only after component and protocol freeze",
+    "testB": "key-disjoint stronger generalization split",
+    "feature_join": "canonical fact ID / certified source row; never assume array order without an explicit join audit",
+    "normalization": "O21A uses source-defined raw hidden features; Candidate B uses its frozen embedded train-only statistics"
+  },
+  "integration_mainline_gate": {
+    "new_collision_max": 0.05,
+    "same_key_f1_min": 0.95,
+    "update_recall_min": 0.95,
+    "target_slot_recall_min": 0.95,
+    "P2_wrong_update_max": 0.05,
+    "P3_wrong_update_max": 0.05,
+    "duplicate_key_max": 0.05,
+    "value_replacement_min": 0.95,
+    "retrieval_min": 0.95,
+    "latest_value_read_min": 0.95,
+    "full_episode": "report exact success rate and cascading-error breakdown; do not hide failures"
+  },
+  "stop_rule": "If a rebuilt component fails its standalone gate, stop before training or integrating downstream components.",
+  "historical_reproduction_claim": false
+}

@@ -1,0 +1,2 @@
+status,detail
+NOT_RUN_STOP_RULE,O21A standalone retrieval passed, but integrated slot-memory READ was not run because VGen2 failed

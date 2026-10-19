@@ -1,0 +1,7 @@
+{
+  "build_row_provenance_audit.py": {
+    "sha256": "74777ccace668e99e263ec2da7387996faf281d89d8b838913f5ae523f585991",
+    "purpose": "read-only source/label order and feature-row provenance audit"
+  },
+  "hash_scope_note": "Created after the frozen start-of-run artifact manifest; recorded separately."
+}

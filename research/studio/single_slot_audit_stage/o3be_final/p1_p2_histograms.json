@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "testA": {
+      "histogram_overlap": 0.41836461126005364,
+      "range_overlap": 0.8886255398392677
+    },
+    "testB": {
+      "histogram_overlap": 0.44581939799331105,
+      "range_overlap": 0.8493660259991884
+    }
+  },
+  "factorized": {
+    "testA": 0.19066666666666668,
+    "testB": 0.18533333333333332
+  }
+}

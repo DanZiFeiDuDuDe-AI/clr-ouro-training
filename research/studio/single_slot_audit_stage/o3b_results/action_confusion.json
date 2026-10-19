@@ -1,0 +1,20 @@
+{
+  "val": {
+    "true_NEW_pred_NEW": 5,
+    "true_NEW_pred_UPDATE": 495,
+    "true_UPDATE_pred_UPDATE": 500,
+    "true_UPDATE_pred_NEW": 0
+  },
+  "testA": {
+    "true_NEW_pred_NEW": 6,
+    "true_NEW_pred_UPDATE": 494,
+    "true_UPDATE_pred_UPDATE": 500,
+    "true_UPDATE_pred_NEW": 0
+  },
+  "testB": {
+    "true_NEW_pred_NEW": 6,
+    "true_NEW_pred_UPDATE": 494,
+    "true_UPDATE_pred_UPDATE": 500,
+    "true_UPDATE_pred_NEW": 0
+  }
+}

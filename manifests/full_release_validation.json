@@ -1,0 +1,13 @@
+{
+  "validation_date": "2026-10-20",
+  "entire_archive_streamed": true,
+  "verified_parts": 18,
+  "verified_objects": 460,
+  "compressed_bytes": 9173268175,
+  "unique_blob_bytes": 13767697219,
+  "all_part_sha256_verified": true,
+  "all_object_sha256_verified": true,
+  "model_training_or_evaluation_executed": false,
+  "verification_command": "python tools/restore_artifacts.py --cache <local-generated-parts> --offline --verify-only",
+  "artifacts_manifest_sha256": "a4f0bfb2ed231c55a8ccdacd54db71b28177bbe29e0f32a0335fb4b340b2b0ae"
+}

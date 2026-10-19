@@ -1,0 +1,12 @@
+{"stage": "start", "out": "/root/private_data/clr_v24_o3b_l2_j2", "device": "cuda", "device_name": "BW"}
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 383, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 379, in main
+    H,reps,infos,pmap,jlabels,jmap,U,S,Vh,W,b,metadata=audit_and_features()
+                                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 226, in audit_and_features
+    if len(set(lens.values()))!=1: raise RuntimeError(f"sample alignment mismatch {split}: {lens}")
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: sample alignment mismatch train: {'H': 4096, 'entity': 11665, 'relation': 11665, 'joint': 11665}

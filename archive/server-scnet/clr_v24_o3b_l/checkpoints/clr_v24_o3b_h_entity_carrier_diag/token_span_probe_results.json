@@ -1,0 +1,3968 @@
+{
+  "available": true,
+  "note": "bounded frozen-Ouro diagnostic sample; no production module was changed",
+  "fact": {
+    "entity_mention_max": {
+      "entity": {
+        "name": "token_fact_entity_mention_max_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.9466666666666667,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.95,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_entity_mention_max_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.369873046875,
+              "top1": 0.369873046875,
+              "top5": 1.0,
+              "macro_f1": 0.3602271559239026,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.25471698113207547,
+              "top1": 0.25471698113207547,
+              "top5": 1.0,
+              "macro_f1": 0.24555121898975354,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.25085763293310465,
+              "top1": 0.25085763293310465,
+              "top5": 1.0,
+              "macro_f1": 0.24009105690502067,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.25085763293310465,
+              "top1": 0.25085763293310465,
+              "top5": 1.0,
+              "macro_f1": 0.243249134932907,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.369873046875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.369873046875
+            ]
+          },
+          "val": {
+            "mean": 0.25471698113207547,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25471698113207547
+            ]
+          },
+          "testA": {
+            "mean": 0.25085763293310465,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25085763293310465
+            ]
+          },
+          "testB": {
+            "mean": 0.25085763293310465,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25085763293310465
+            ]
+          }
+        }
+      }
+    },
+    "entity_mention_mean": {
+      "entity": {
+        "name": "token_fact_entity_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.9466666666666667,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.95,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_entity_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.357666015625,
+              "top1": 0.357666015625,
+              "top5": 1.0,
+              "macro_f1": 0.34072310274238965,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.25171526586620924,
+              "top1": 0.25171526586620924,
+              "top5": 1.0,
+              "macro_f1": 0.2377443194217353,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.25514579759862777,
+              "top1": 0.25514579759862777,
+              "top5": 1.0,
+              "macro_f1": 0.2356871830429327,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.2560034305317324,
+              "top1": 0.2560034305317324,
+              "top5": 1.0,
+              "macro_f1": 0.24151694160375484,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.357666015625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.357666015625
+            ]
+          },
+          "val": {
+            "mean": 0.25171526586620924,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25171526586620924
+            ]
+          },
+          "testA": {
+            "mean": 0.25514579759862777,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25514579759862777
+            ]
+          },
+          "testB": {
+            "mean": 0.2560034305317324,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2560034305317324
+            ]
+          }
+        }
+      }
+    },
+    "final_token": {
+      "entity": {
+        "name": "token_fact_final_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.95458984375,
+              "top1": 0.95458984375,
+              "top5": 0.992919921875,
+              "macro_f1": 0.9483134594780427,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.5981989708404802,
+              "top1": 0.5981989708404802,
+              "top5": 0.7628644939965694,
+              "macro_f1": 0.5132805607138157,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.5823327615780446,
+              "top1": 0.5823327615780446,
+              "top5": 0.7602915951972555,
+              "macro_f1": 0.4996049676845476,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.95458984375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.95458984375
+            ]
+          },
+          "val": {
+            "mean": 0.5981989708404802,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5981989708404802
+            ]
+          },
+          "testA": {
+            "mean": 0.5823327615780446,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5823327615780446
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_final_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.98193359375,
+              "top1": 0.98193359375,
+              "top5": 1.0,
+              "macro_f1": 0.9819329271797052,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.9704116638078902,
+              "top1": 0.9704116638078902,
+              "top5": 1.0,
+              "macro_f1": 0.9705840678435897,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.9729845626072041,
+              "top1": 0.9729845626072041,
+              "top5": 1.0,
+              "macro_f1": 0.9728065903090735,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.9686963979416809,
+              "top1": 0.9686963979416809,
+              "top5": 1.0,
+              "macro_f1": 0.9686570926800786,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.98193359375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.98193359375
+            ]
+          },
+          "val": {
+            "mean": 0.9704116638078902,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9704116638078902
+            ]
+          },
+          "testA": {
+            "mean": 0.9729845626072041,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9729845626072041
+            ]
+          },
+          "testB": {
+            "mean": 0.9686963979416809,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9686963979416809
+            ]
+          }
+        }
+      }
+    },
+    "global_mean": {
+      "entity": {
+        "name": "token_fact_global_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.987548828125,
+              "top1": 0.987548828125,
+              "top5": 0.9990234375,
+              "macro_f1": 0.9698076572932617,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.7392795883361921,
+              "top1": 0.7392795883361921,
+              "top5": 0.8610634648370498,
+              "macro_f1": 0.6518167202877972,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.7461406518010292,
+              "top1": 0.7461406518010292,
+              "top5": 0.8692109777015438,
+              "macro_f1": 0.6647829601718559,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.987548828125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.987548828125
+            ]
+          },
+          "val": {
+            "mean": 0.7392795883361921,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.7392795883361921
+            ]
+          },
+          "testA": {
+            "mean": 0.7461406518010292,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.7461406518010292
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_global_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "top1": 0.999755859375,
+              "top5": 1.0,
+              "macro_f1": 0.9997569831907469,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.999755859375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.999755859375
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    "layer_0_mention_mean": {
+      "entity": {
+        "name": "token_fact_layer_0_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.998291015625,
+              "top1": 0.998291015625,
+              "top5": 1.0,
+              "macro_f1": 0.987422871005448,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.9858490566037735,
+              "top1": 0.9858490566037735,
+              "top5": 1.0,
+              "macro_f1": 0.9315026455026456,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.9888507718696398,
+              "top1": 0.9888507718696398,
+              "top5": 1.0,
+              "macro_f1": 0.9337085137085137,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.998291015625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.998291015625
+            ]
+          },
+          "val": {
+            "mean": 0.9858490566037735,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9858490566037735
+            ]
+          },
+          "testA": {
+            "mean": 0.9888507718696398,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9888507718696398
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_layer_0_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.355224609375,
+              "top1": 0.355224609375,
+              "top5": 1.0,
+              "macro_f1": 0.34591967620734426,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.25128644939965694,
+              "top1": 0.25128644939965694,
+              "top5": 1.0,
+              "macro_f1": 0.24386977183693972,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.25128644939965694,
+              "top1": 0.25128644939965694,
+              "top5": 1.0,
+              "macro_f1": 0.24179644406777046,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.2538593481989708,
+              "top1": 0.2538593481989708,
+              "top5": 1.0,
+              "macro_f1": 0.24131756601614054,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.355224609375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.355224609375
+            ]
+          },
+          "val": {
+            "mean": 0.25128644939965694,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25128644939965694
+            ]
+          },
+          "testA": {
+            "mean": 0.25128644939965694,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25128644939965694
+            ]
+          },
+          "testB": {
+            "mean": 0.2538593481989708,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2538593481989708
+            ]
+          }
+        }
+      }
+    },
+    "layer_12_mention_mean": {
+      "entity": {
+        "name": "token_fact_layer_12_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.968017578125,
+              "top1": 0.968017578125,
+              "top5": 0.99169921875,
+              "macro_f1": 0.8928894915569762,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.8979416809605489,
+              "top1": 0.8979416809605489,
+              "top5": 0.9566895368782161,
+              "macro_f1": 0.8238733106393857,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.9073756432246999,
+              "top1": 0.9073756432246999,
+              "top5": 0.9635506003430532,
+              "macro_f1": 0.8230782954385643,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.968017578125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.968017578125
+            ]
+          },
+          "val": {
+            "mean": 0.8979416809605489,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.8979416809605489
+            ]
+          },
+          "testA": {
+            "mean": 0.9073756432246999,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9073756432246999
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_layer_12_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.33154296875,
+              "top1": 0.33154296875,
+              "top5": 1.0,
+              "macro_f1": 0.31424937858874813,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.25085763293310465,
+              "top1": 0.25085763293310465,
+              "top5": 1.0,
+              "macro_f1": 0.23640899662999337,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.2607204116638079,
+              "top1": 0.2607204116638079,
+              "top5": 1.0,
+              "macro_f1": 0.23938423560387367,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.24957118353344768,
+              "top1": 0.24957118353344768,
+              "top5": 1.0,
+              "macro_f1": 0.23281031770050692,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.33154296875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.33154296875
+            ]
+          },
+          "val": {
+            "mean": 0.25085763293310465,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25085763293310465
+            ]
+          },
+          "testA": {
+            "mean": 0.2607204116638079,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2607204116638079
+            ]
+          },
+          "testB": {
+            "mean": 0.24957118353344768,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.24957118353344768
+            ]
+          }
+        }
+      }
+    },
+    "layer_18_mention_mean": {
+      "entity": {
+        "name": "token_fact_layer_18_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.995361328125,
+              "top1": 0.995361328125,
+              "top5": 0.997802734375,
+              "macro_f1": 0.9695260052741351,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.9695540308747856,
+              "top1": 0.9695540308747856,
+              "top5": 0.9811320754716981,
+              "macro_f1": 0.9101521305491894,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.9729845626072041,
+              "top1": 0.9729845626072041,
+              "top5": 0.9819897084048027,
+              "macro_f1": 0.9114188533201691,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.995361328125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.995361328125
+            ]
+          },
+          "val": {
+            "mean": 0.9695540308747856,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9695540308747856
+            ]
+          },
+          "testA": {
+            "mean": 0.9729845626072041,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9729845626072041
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_layer_18_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.3408203125,
+              "top1": 0.3408203125,
+              "top5": 1.0,
+              "macro_f1": 0.3300714159504932,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.2585763293310463,
+              "top1": 0.2585763293310463,
+              "top5": 1.0,
+              "macro_f1": 0.24965421382179936,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.25300171526586623,
+              "top1": 0.25300171526586623,
+              "top5": 1.0,
+              "macro_f1": 0.24031581299402477,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.2521440823327616,
+              "top1": 0.2521440823327616,
+              "top5": 1.0,
+              "macro_f1": 0.24140069545375425,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.3408203125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.3408203125
+            ]
+          },
+          "val": {
+            "mean": 0.2585763293310463,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2585763293310463
+            ]
+          },
+          "testA": {
+            "mean": 0.25300171526586623,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25300171526586623
+            ]
+          },
+          "testB": {
+            "mean": 0.2521440823327616,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2521440823327616
+            ]
+          }
+        }
+      }
+    },
+    "layer_23_mention_mean": {
+      "entity": {
+        "name": "token_fact_layer_23_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.9990234375,
+              "top1": 0.9990234375,
+              "top5": 1.0,
+              "macro_f1": 0.9926791726791727,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.9901372212692967,
+              "top1": 0.9901372212692967,
+              "top5": 1.0,
+              "macro_f1": 0.9380357142857144,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.991852487135506,
+              "top1": 0.991852487135506,
+              "top5": 1.0,
+              "macro_f1": 0.940521645021645,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.9990234375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9990234375
+            ]
+          },
+          "val": {
+            "mean": 0.9901372212692967,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9901372212692967
+            ]
+          },
+          "testA": {
+            "mean": 0.991852487135506,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.991852487135506
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_layer_23_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.351806640625,
+              "top1": 0.351806640625,
+              "top5": 1.0,
+              "macro_f1": 0.3486727889900628,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.2525728987993139,
+              "top1": 0.2525728987993139,
+              "top5": 1.0,
+              "macro_f1": 0.24990533109518337,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.2542881646655232,
+              "top1": 0.2542881646655232,
+              "top5": 1.0,
+              "macro_f1": 0.2522795151566074,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.258147512864494,
+              "top1": 0.258147512864494,
+              "top5": 1.0,
+              "macro_f1": 0.2560396530963755,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.351806640625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.351806640625
+            ]
+          },
+          "val": {
+            "mean": 0.2525728987993139,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2525728987993139
+            ]
+          },
+          "testA": {
+            "mean": 0.2542881646655232,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2542881646655232
+            ]
+          },
+          "testB": {
+            "mean": 0.258147512864494,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.258147512864494
+            ]
+          }
+        }
+      }
+    },
+    "layer_6_mention_mean": {
+      "entity": {
+        "name": "token_fact_layer_6_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.96826171875,
+              "top1": 0.96826171875,
+              "top5": 0.9912109375,
+              "macro_f1": 0.8911866001624495,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.8992281303602059,
+              "top1": 0.8992281303602059,
+              "top5": 0.9515437392795884,
+              "macro_f1": 0.8238627666268331,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.9086620926243568,
+              "top1": 0.9086620926243568,
+              "top5": 0.9622641509433962,
+              "macro_f1": 0.82307622112399,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.96826171875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.96826171875
+            ]
+          },
+          "val": {
+            "mean": 0.8992281303602059,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.8992281303602059
+            ]
+          },
+          "testA": {
+            "mean": 0.9086620926243568,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9086620926243568
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_layer_6_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.334228515625,
+              "top1": 0.334228515625,
+              "top5": 1.0,
+              "macro_f1": 0.32073401131317425,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.2560034305317324,
+              "top1": 0.2560034305317324,
+              "top5": 1.0,
+              "macro_f1": 0.2448066043861657,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.2538593481989708,
+              "top1": 0.2538593481989708,
+              "top5": 1.0,
+              "macro_f1": 0.2362538378069159,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.25343053173241853,
+              "top1": 0.25343053173241853,
+              "top5": 1.0,
+              "macro_f1": 0.24117527413660717,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.334228515625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.334228515625
+            ]
+          },
+          "val": {
+            "mean": 0.2560034305317324,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2560034305317324
+            ]
+          },
+          "testA": {
+            "mean": 0.2538593481989708,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2538593481989708
+            ]
+          },
+          "testB": {
+            "mean": 0.25343053173241853,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25343053173241853
+            ]
+          }
+        }
+      }
+    },
+    "next_token": {
+      "entity": {
+        "name": "token_fact_next_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.951416015625,
+              "top1": 0.951416015625,
+              "top5": 0.99072265625,
+              "macro_f1": 0.9457593333968611,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.5780445969125214,
+              "top1": 0.5780445969125214,
+              "top5": 0.6350771869639794,
+              "macro_f1": 0.507973519998271,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.5737564322469982,
+              "top1": 0.5737564322469982,
+              "top5": 0.6329331046312179,
+              "macro_f1": 0.500231649345706,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.951416015625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.951416015625
+            ]
+          },
+          "val": {
+            "mean": 0.5780445969125214,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5780445969125214
+            ]
+          },
+          "testA": {
+            "mean": 0.5737564322469982,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5737564322469982
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_next_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.822021484375,
+              "top1": 0.822021484375,
+              "top5": 1.0,
+              "macro_f1": 0.8276149690208279,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.8091766723842195,
+              "top1": 0.8091766723842195,
+              "top5": 1.0,
+              "macro_f1": 0.8149959754459051,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.7963121783876501,
+              "top1": 0.7963121783876501,
+              "top5": 1.0,
+              "macro_f1": 0.8045840123824717,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.7971698113207547,
+              "top1": 0.7971698113207547,
+              "top5": 1.0,
+              "macro_f1": 0.806344973621098,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.822021484375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.822021484375
+            ]
+          },
+          "val": {
+            "mean": 0.8091766723842195,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.8091766723842195
+            ]
+          },
+          "testA": {
+            "mean": 0.7963121783876501,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.7963121783876501
+            ]
+          },
+          "testB": {
+            "mean": 0.7971698113207547,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.7971698113207547
+            ]
+          }
+        }
+      }
+    },
+    "prev_token": {
+      "entity": {
+        "name": "token_fact_prev_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.18115234375,
+              "top1": 0.18115234375,
+              "top5": 0.49951171875,
+              "macro_f1": 0.0564157974851427,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.11878216123499143,
+              "top1": 0.11878216123499143,
+              "top5": 0.3769296740994854,
+              "macro_f1": 0.04300408252334188,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.11406518010291596,
+              "top1": 0.11406518010291596,
+              "top5": 0.3867924528301887,
+              "macro_f1": 0.04302936472320613,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.18115234375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.18115234375
+            ]
+          },
+          "val": {
+            "mean": 0.11878216123499143,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.11878216123499143
+            ]
+          },
+          "testA": {
+            "mean": 0.11406518010291596,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.11406518010291596
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_prev_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.265869140625,
+              "top1": 0.265869140625,
+              "top5": 1.0,
+              "macro_f1": 0.16313875771871658,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.23927958833619212,
+              "top1": 0.23927958833619212,
+              "top5": 1.0,
+              "macro_f1": 0.14497005023332357,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.24528301886792453,
+              "top1": 0.24528301886792453,
+              "top5": 1.0,
+              "macro_f1": 0.14405779379585532,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 0.2478559176672384,
+              "top1": 0.2478559176672384,
+              "top5": 1.0,
+              "macro_f1": 0.14432946677502062,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.265869140625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.265869140625
+            ]
+          },
+          "val": {
+            "mean": 0.23927958833619212,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.23927958833619212
+            ]
+          },
+          "testA": {
+            "mean": 0.24528301886792453,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.24528301886792453
+            ]
+          },
+          "testB": {
+            "mean": 0.2478559176672384,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2478559176672384
+            ]
+          }
+        }
+      }
+    },
+    "relation_span_mean": {
+      "entity": {
+        "name": "token_fact_relation_span_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 600,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.671875,
+              "top1": 0.671875,
+              "top5": 0.8369140625,
+              "macro_f1": 0.6434571867014747,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 0.27915951972555747,
+              "top1": 0.27915951972555747,
+              "top5": 0.379073756432247,
+              "macro_f1": 0.2464710343397627,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 0.2722984562607204,
+              "top1": 0.2722984562607204,
+              "top5": 0.37006861063464835,
+              "macro_f1": 0.2422484037662512,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.671875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.671875
+            ]
+          },
+          "val": {
+            "mean": 0.27915951972555747,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.27915951972555747
+            ]
+          },
+          "testA": {
+            "mean": 0.2722984562607204,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2722984562607204
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_fact_relation_span_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 4096,
+            "nclass": 4,
+            "train": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "top1": 0.999755859375,
+              "top5": 1.0,
+              "macro_f1": 0.9997569831907469,
+              "known_fraction": 1.0,
+              "n_known": 4096
+            },
+            "val": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testA": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            },
+            "testB": {
+              "n": 2332,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 2332
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.999755859375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.999755859375
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  "query": {
+    "entity_mention_max": {
+      "entity": {
+        "name": "token_query_entity_mention_max_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6086639656639657,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6230938505938506,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testA": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_entity_mention_max_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.58984375,
+              "top1": 0.58984375,
+              "top5": 1.0,
+              "macro_f1": 0.5897482693462824,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.255,
+              "top1": 0.255,
+              "top5": 1.0,
+              "macro_f1": 0.2514132413788126,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.253,
+              "top1": 0.253,
+              "top5": 1.0,
+              "macro_f1": 0.2507021071766097,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.279,
+              "top1": 0.279,
+              "top5": 1.0,
+              "macro_f1": 0.27639296359237076,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.58984375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.58984375
+            ]
+          },
+          "val": {
+            "mean": 0.255,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.255
+            ]
+          },
+          "testA": {
+            "mean": 0.253,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.253
+            ]
+          },
+          "testB": {
+            "mean": 0.279,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.279
+            ]
+          }
+        }
+      }
+    },
+    "entity_mention_mean": {
+      "entity": {
+        "name": "token_query_entity_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6155709568209567,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.626970362970363,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testA": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_entity_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.5283203125,
+              "top1": 0.5283203125,
+              "top5": 1.0,
+              "macro_f1": 0.5217077459648649,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.26,
+              "top1": 0.26,
+              "top5": 1.0,
+              "macro_f1": 0.25091564350570766,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.25,
+              "top1": 0.25,
+              "top5": 1.0,
+              "macro_f1": 0.23999208703636848,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.26,
+              "top1": 0.26,
+              "top5": 1.0,
+              "macro_f1": 0.25609657272469777,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.5283203125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5283203125
+            ]
+          },
+          "val": {
+            "mean": 0.26,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.26
+            ]
+          },
+          "testA": {
+            "mean": 0.25,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.25
+            ]
+          },
+          "testB": {
+            "mean": 0.26,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.26
+            ]
+          }
+        }
+      }
+    },
+    "final_token": {
+      "entity": {
+        "name": "token_query_final_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.424,
+              "top1": 0.424,
+              "top5": 0.565,
+              "macro_f1": 0.26783588633588634,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.419,
+              "top1": 0.419,
+              "top5": 0.551,
+              "macro_f1": 0.28844920765509,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.424,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.424
+            ]
+          },
+          "testA": {
+            "mean": 0.419,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.419
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_final_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.9951171875,
+              "top1": 0.9951171875,
+              "top5": 1.0,
+              "macro_f1": 0.9951612914574679,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.976,
+              "top1": 0.976,
+              "top5": 1.0,
+              "macro_f1": 0.9763160915595896,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.979,
+              "top1": 0.979,
+              "top5": 1.0,
+              "macro_f1": 0.9787490171281921,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.982,
+              "top1": 0.982,
+              "top5": 1.0,
+              "macro_f1": 0.9817049137259066,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.9951171875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9951171875
+            ]
+          },
+          "val": {
+            "mean": 0.976,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.976
+            ]
+          },
+          "testA": {
+            "mean": 0.979,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.979
+            ]
+          },
+          "testB": {
+            "mean": 0.982,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.982
+            ]
+          }
+        }
+      }
+    },
+    "global_mean": {
+      "entity": {
+        "name": "token_query_global_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.9990234375,
+              "top1": 0.9990234375,
+              "top5": 1.0,
+              "macro_f1": 0.8215151515151514,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.485,
+              "top1": 0.485,
+              "top5": 0.609,
+              "macro_f1": 0.31350420875420876,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.482,
+              "top1": 0.482,
+              "top5": 0.611,
+              "macro_f1": 0.3459329559329559,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.9990234375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9990234375
+            ]
+          },
+          "val": {
+            "mean": 0.485,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.485
+            ]
+          },
+          "testA": {
+            "mean": 0.482,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.482
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_global_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    "layer_0_mention_mean": {
+      "entity": {
+        "name": "token_query_layer_0_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6126348096348095,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.625979020979021,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testA": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_layer_0_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.5068359375,
+              "top1": 0.5068359375,
+              "top5": 1.0,
+              "macro_f1": 0.5058384159027342,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.236,
+              "top1": 0.236,
+              "top5": 1.0,
+              "macro_f1": 0.23235721917491575,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.236,
+              "top1": 0.236,
+              "top5": 1.0,
+              "macro_f1": 0.23389656283166615,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.266,
+              "top1": 0.266,
+              "top5": 1.0,
+              "macro_f1": 0.2654832791553723,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.5068359375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.5068359375
+            ]
+          },
+          "val": {
+            "mean": 0.236,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.236
+            ]
+          },
+          "testA": {
+            "mean": 0.236,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.236
+            ]
+          },
+          "testB": {
+            "mean": 0.266,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.266
+            ]
+          }
+        }
+      }
+    },
+    "layer_12_mention_mean": {
+      "entity": {
+        "name": "token_query_layer_12_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.98046875,
+              "top1": 0.98046875,
+              "top5": 1.0,
+              "macro_f1": 0.785979538979539,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.785,
+              "top1": 0.785,
+              "top5": 0.817,
+              "macro_f1": 0.583352893694999,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.791,
+              "top1": 0.791,
+              "top5": 0.817,
+              "macro_f1": 0.5995015817515817,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.98046875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.98046875
+            ]
+          },
+          "val": {
+            "mean": 0.785,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.785
+            ]
+          },
+          "testA": {
+            "mean": 0.791,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.791
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_layer_12_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.443359375,
+              "top1": 0.443359375,
+              "top5": 1.0,
+              "macro_f1": 0.44071036922409373,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.232,
+              "top1": 0.232,
+              "top5": 1.0,
+              "macro_f1": 0.22976150363481374,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.242,
+              "top1": 0.242,
+              "top5": 1.0,
+              "macro_f1": 0.23650928137587068,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.279,
+              "top1": 0.279,
+              "top5": 1.0,
+              "macro_f1": 0.27566459475089,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.443359375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.443359375
+            ]
+          },
+          "val": {
+            "mean": 0.232,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.232
+            ]
+          },
+          "testA": {
+            "mean": 0.242,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.242
+            ]
+          },
+          "testB": {
+            "mean": 0.279,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.279
+            ]
+          }
+        }
+      }
+    },
+    "layer_18_mention_mean": {
+      "entity": {
+        "name": "token_query_layer_18_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.612792217042217,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6229573112073112,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testA": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_layer_18_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.4873046875,
+              "top1": 0.4873046875,
+              "top5": 1.0,
+              "macro_f1": 0.4858230235104223,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.252,
+              "top1": 0.252,
+              "top5": 1.0,
+              "macro_f1": 0.250800504959674,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.238,
+              "top1": 0.238,
+              "top5": 1.0,
+              "macro_f1": 0.23664227696224518,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.274,
+              "top1": 0.274,
+              "top5": 1.0,
+              "macro_f1": 0.2740369639000912,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.4873046875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.4873046875
+            ]
+          },
+          "val": {
+            "mean": 0.252,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.252
+            ]
+          },
+          "testA": {
+            "mean": 0.238,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.238
+            ]
+          },
+          "testB": {
+            "mean": 0.274,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.274
+            ]
+          }
+        }
+      }
+    },
+    "layer_23_mention_mean": {
+      "entity": {
+        "name": "token_query_layer_23_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6148793243793244,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.817,
+              "top1": 0.817,
+              "top5": 0.817,
+              "macro_f1": 0.6247534317534317,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testA": {
+            "mean": 0.817,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.817
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_layer_23_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.4912109375,
+              "top1": 0.4912109375,
+              "top5": 1.0,
+              "macro_f1": 0.48693721122700706,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.248,
+              "top1": 0.248,
+              "top5": 1.0,
+              "macro_f1": 0.2398548728132113,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.241,
+              "top1": 0.241,
+              "top5": 1.0,
+              "macro_f1": 0.23578792321692155,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.259,
+              "top1": 0.259,
+              "top5": 1.0,
+              "macro_f1": 0.25611634952308976,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.4912109375,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.4912109375
+            ]
+          },
+          "val": {
+            "mean": 0.248,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.248
+            ]
+          },
+          "testA": {
+            "mean": 0.241,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.241
+            ]
+          },
+          "testB": {
+            "mean": 0.259,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.259
+            ]
+          }
+        }
+      }
+    },
+    "layer_6_mention_mean": {
+      "entity": {
+        "name": "token_query_layer_6_mention_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.9794921875,
+              "top1": 0.9794921875,
+              "top5": 1.0,
+              "macro_f1": 0.7842229252229251,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.782,
+              "top1": 0.782,
+              "top5": 0.817,
+              "macro_f1": 0.581541403041403,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.79,
+              "top1": 0.79,
+              "top5": 0.817,
+              "macro_f1": 0.5985662792373319,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.9794921875,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9794921875
+            ]
+          },
+          "val": {
+            "mean": 0.782,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.782
+            ]
+          },
+          "testA": {
+            "mean": 0.79,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.79
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_layer_6_mention_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.453125,
+              "top1": 0.453125,
+              "top5": 1.0,
+              "macro_f1": 0.44883408285086357,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.239,
+              "top1": 0.239,
+              "top5": 1.0,
+              "macro_f1": 0.2366279510050604,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.241,
+              "top1": 0.241,
+              "top5": 1.0,
+              "macro_f1": 0.236043201710959,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.274,
+              "top1": 0.274,
+              "top5": 1.0,
+              "macro_f1": 0.2725442986575235,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.453125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.453125
+            ]
+          },
+          "val": {
+            "mean": 0.239,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.239
+            ]
+          },
+          "testA": {
+            "mean": 0.241,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.241
+            ]
+          },
+          "testB": {
+            "mean": 0.274,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.274
+            ]
+          }
+        }
+      }
+    },
+    "next_token": {
+      "entity": {
+        "name": "token_query_next_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 0.8233333333333334,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.254,
+              "top1": 0.254,
+              "top5": 0.275,
+              "macro_f1": 0.16470758038258038,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.255,
+              "top1": 0.255,
+              "top5": 0.271,
+              "macro_f1": 0.19463251563251563,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 0.254,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.254
+            ]
+          },
+          "testA": {
+            "mean": 0.255,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.255
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_next_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.892578125,
+              "top1": 0.892578125,
+              "top5": 1.0,
+              "macro_f1": 0.8932547358502034,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.821,
+              "top1": 0.821,
+              "top5": 1.0,
+              "macro_f1": 0.8263083926710202,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.833,
+              "top1": 0.833,
+              "top5": 1.0,
+              "macro_f1": 0.8360678448614953,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.824,
+              "top1": 0.824,
+              "top5": 1.0,
+              "macro_f1": 0.8337091533326219,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.892578125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.892578125
+            ]
+          },
+          "val": {
+            "mean": 0.821,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.821
+            ]
+          },
+          "testA": {
+            "mean": 0.833,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.833
+            ]
+          },
+          "testB": {
+            "mean": 0.824,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.824
+            ]
+          }
+        }
+      }
+    },
+    "prev_token": {
+      "entity": {
+        "name": "token_query_prev_token_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.2080078125,
+              "top1": 0.2080078125,
+              "top5": 0.54296875,
+              "macro_f1": 0.05310709868495307,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.115,
+              "top1": 0.115,
+              "top5": 0.337,
+              "macro_f1": 0.03573540366273507,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.113,
+              "top1": 0.113,
+              "top5": 0.342,
+              "macro_f1": 0.03435072720303847,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.2080078125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2080078125
+            ]
+          },
+          "val": {
+            "mean": 0.115,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.115
+            ]
+          },
+          "testA": {
+            "mean": 0.113,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.113
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_prev_token_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.2939453125,
+              "top1": 0.2939453125,
+              "top5": 1.0,
+              "macro_f1": 0.24422294240488257,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.249,
+              "top1": 0.249,
+              "top5": 1.0,
+              "macro_f1": 0.21086961715922464,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.247,
+              "top1": 0.247,
+              "top5": 1.0,
+              "macro_f1": 0.20758700626066504,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 0.257,
+              "top1": 0.257,
+              "top5": 1.0,
+              "macro_f1": 0.2192892314529086,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.2939453125,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.2939453125
+            ]
+          },
+          "val": {
+            "mean": 0.249,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.249
+            ]
+          },
+          "testA": {
+            "mean": 0.247,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.247
+            ]
+          },
+          "testB": {
+            "mean": 0.257,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.257
+            ]
+          }
+        }
+      }
+    },
+    "relation_span_mean": {
+      "entity": {
+        "name": "token_query_relation_span_mean_entity",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 1229400,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 600,
+            "train": {
+              "n": 1024,
+              "accuracy": 0.9541015625,
+              "top1": 0.9541015625,
+              "top5": 0.9951171875,
+              "macro_f1": 0.7906007854231539,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 0.172,
+              "top1": 0.172,
+              "top5": 0.188,
+              "macro_f1": 0.11745263206292618,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 0.18,
+              "top1": 0.18,
+              "top5": 0.195,
+              "macro_f1": 0.14303399500110028,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "accuracy": null,
+              "known_fraction": 0.0,
+              "n_known": 0
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 0.9541015625,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.9541015625
+            ]
+          },
+          "val": {
+            "mean": 0.172,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.172
+            ]
+          },
+          "testA": {
+            "mean": 0.18,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              0.18
+            ]
+          },
+          "testB": {
+            "mean": null,
+            "std": null,
+            "n": 0
+          }
+        }
+      },
+      "relation": {
+        "name": "token_query_relation_span_mean_relation",
+        "shallow": false,
+        "seeds": [
+          42
+        ],
+        "seed_records": [
+          {
+            "params": 8196,
+            "shallow": false,
+            "train_n": 1024,
+            "nclass": 4,
+            "train": {
+              "n": 1024,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1024
+            },
+            "val": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testA": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            },
+            "testB": {
+              "n": 1000,
+              "accuracy": 1.0,
+              "top1": 1.0,
+              "top5": 1.0,
+              "macro_f1": 1.0,
+              "known_fraction": 1.0,
+              "n_known": 1000
+            }
+          }
+        ],
+        "aggregate": {
+          "train": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "val": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testA": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          },
+          "testB": {
+            "mean": 1.0,
+            "std": 0.0,
+            "n": 1,
+            "values": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

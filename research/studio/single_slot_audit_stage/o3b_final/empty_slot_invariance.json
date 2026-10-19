@@ -1,0 +1,3 @@
+{
+  "note": "O3b keeps existing K and changes only V on UPDATE; legal empty-slot invariance is inherited from O3a and rechecked in new_results."
+}

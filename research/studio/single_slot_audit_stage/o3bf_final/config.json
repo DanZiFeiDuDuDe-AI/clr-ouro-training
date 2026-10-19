@@ -1,0 +1,51 @@
+{
+  "phase": "CLR-v2.4-O3b-F",
+  "seed": 42,
+  "git_sha": "NO_GIT_REPO",
+  "git_diff": "NO_GIT_REPO",
+  "device": "cuda",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "cache_reused": true,
+  "cache_generation_s": 0,
+  "cache_file_count": 11,
+  "cache_bytes": 181337971,
+  "frozen": [
+    "KeyEncoder",
+    "QueryEncoder",
+    "backbone/Ouro",
+    "V/ValueEncoder/GRU",
+    "allocator",
+    "memory storage",
+    "slots",
+    "downstream answer head"
+  ],
+  "diagnostic_trainable": [
+    "linear/MLP probes",
+    "full and low-rank bilinear matchers",
+    "interaction matcher"
+  ],
+  "pair_sizes": {
+    "train": 6000,
+    "val": 3000,
+    "testA": 3000,
+    "testB": 3000
+  },
+  "matcher_steps": 800,
+  "probe_steps": 600,
+  "best_metric": "interaction_mlp",
+  "best_bilinear": "lowrank16",
+  "explicit_best": "concat",
+  "initial_f3_metric_protocol": "Q_a was inadvertently paired with K_a; superseded by kk_metric_addendum.json",
+  "canonical_metric_protocol": "O3b-D/E exact K-K equality; q=K_a, k=K_b",
+  "canonical_best_metric": "interaction_mlp",
+  "canonical_best_bilinear": "symmetric_bilinear",
+  "peak_vram": {
+    "allocated_gb": 0.145197056,
+    "reserved_gb": 0.182452224
+  },
+  "wall_clock_s": 1512.9630109999998,
+  "verdict": "O3b-F: MIXED BINDING + METRIC FAILURE",
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "independent unresolved issue"
+}

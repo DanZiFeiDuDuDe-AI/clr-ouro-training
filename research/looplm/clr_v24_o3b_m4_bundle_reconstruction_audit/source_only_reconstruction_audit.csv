@@ -1,0 +1,9 @@
+﻿component,source_or_config,source_complete,learned_state_required,state_analytically_derivable,source_only_result
+O3b integration/control flow,H:\LoopLM\clr_v24_o3b_m3_end_to_end_reconnect\source_reference\a1_v24_o3b.py,YES,YES for router and all strict-loaded encoders/allocator/core,NO,"Interfaces, NEW/UPDATE semantics, checkpoint keys, defaults are recoverable; original weights/config/threshold are not"
+KeyEncoder / QueryEncoder,H:\LoopLM\clr_v24_o3b_m3_end_to_end_reconnect\source_reference\a1_v24_o21a.py,YES,YES,NO,"Architecture 2048→256→64 and L2 normalization recovered; O21B key exact, O21A-MR query absent"
+VGen2 Core,H:\LoopLM\clr_v24_o3b_m4_bundle_reconstruction_audit\source_reference\clr_v23_oracle_r2.py,YES for module definition; training source partly recovered,YES,NO,Core state keys and exact architecture recovered; trained core/value head state absent; VGen2 run identity not certified
+O3a allocator,H:\LoopLM\clr_v24_o3b_m3_end_to_end_reconnect\source_reference\a1_v24_o3a.py,YES,YES,NO,K-aware MLP and soft empty-mass loss recovered; weights absent
+Baseline UpdateRouter,H:\LoopLM\clr_v24_o3b_m3_end_to_end_reconnect\source_reference\a1_v24_o3b.py,YES,YES,NO,"Architecture/objective/defaults and threshold-selection logic recovered; checkpoint, selected threshold and actual run config absent"
+"L2, dot-product read, zero-state, occupancy masks, slot/action control flow",hash-matched source modules,YES,NO,YES,Deterministically recoverable without model weights
+Label/index maps and MR cache,/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache,YES for cache artifacts/metadata presence,NO,YES,Dataset/cache survives; this does not encode model parameters
+Original baseline experiment config/report,expected clr_v24_o3b_update/config.json and output report,NO,N/A,NO exact reconstruction,Only defaults and diagnostic O3b-K/L configs survive; exact seed overrides/best step/threshold/report not recoverable

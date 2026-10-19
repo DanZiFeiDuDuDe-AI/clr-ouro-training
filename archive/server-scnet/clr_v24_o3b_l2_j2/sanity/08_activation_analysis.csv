@@ -1,0 +1,2 @@
+status,stage,reason,reconnect,o3c
+NOT_RUN,ACTIVATION_ANALYSIS,NOT_RUN: branch B; activation revalidation is deferred until the probe pipeline is reliable,False,False

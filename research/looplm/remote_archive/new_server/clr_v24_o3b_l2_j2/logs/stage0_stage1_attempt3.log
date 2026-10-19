@@ -1,0 +1,11 @@
+{"stage": "start", "out": "/root/private_data/clr_v24_o3b_l2_j2", "device": "cuda", "device_name": "BW"}
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 385, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 382, in main
+    run_stage1(H,reps,infos,pmap,jlabels,jmap,U,S,Vh,metadata)
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 319, in run_stage1
+    lg1=x1@w1.T+b1; lg2=x2@w2.T+b2; err=float((lg1-lg2).abs().max().item()); a1=accuracy(lg1,y); a2=accuracy(lg2,y)
+                        ~~^~~~~
+RuntimeError: expected mat1 and mat2 to have the same dtype, but got: float != double

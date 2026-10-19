@@ -1,0 +1,101 @@
+{
+  "best_judge": "B3_pair_mlp",
+  "best_source": "learned:B3_pair_mlp",
+  "threshold": 0.4228423237800598,
+  "testA": {
+    "accuracy": 0.9503333333333334,
+    "balanced_accuracy": 0.9503333333333333,
+    "precision": 0.9400651465798046,
+    "recall": 0.962,
+    "f1": 0.9509060955518945,
+    "auroc": 0.9890231111111111,
+    "tp": 1443,
+    "tn": 1408,
+    "fp": 92,
+    "fn": 57,
+    "threshold": 0.4228423237800598,
+    "n": 3000,
+    "per_category_accuracy": {
+      "P1_same_key": {
+        "n": 1500,
+        "accuracy": 0.962
+      },
+      "P2_same_entity_diff_relation": {
+        "n": 250,
+        "accuracy": 0.824
+      },
+      "P3_same_relation_diff_entity": {
+        "n": 250,
+        "accuracy": 0.904
+      },
+      "P4_same_value_diff_key": {
+        "n": 250,
+        "accuracy": 0.968
+      },
+      "P5_fully_different": {
+        "n": 250,
+        "accuracy": 1.0
+      },
+      "P6_lexical_hard_negative": {
+        "n": 250,
+        "accuracy": 0.996
+      },
+      "P7_similar_entity_names": {
+        "n": 250,
+        "accuracy": 0.94
+      }
+    }
+  },
+  "testB": {
+    "accuracy": 0.9406666666666667,
+    "balanced_accuracy": 0.9406666666666667,
+    "precision": 0.9406666666666667,
+    "recall": 0.9406666666666667,
+    "f1": 0.9406666666666667,
+    "auroc": 0.9859413333333333,
+    "tp": 1411,
+    "tn": 1411,
+    "fp": 89,
+    "fn": 89,
+    "threshold": 0.4228423237800598,
+    "n": 3000,
+    "per_category_accuracy": {
+      "P1_same_key": {
+        "n": 1500,
+        "accuracy": 0.9406666666666667
+      },
+      "P2_same_entity_diff_relation": {
+        "n": 250,
+        "accuracy": 0.836
+      },
+      "P3_same_relation_diff_entity": {
+        "n": 250,
+        "accuracy": 0.92
+      },
+      "P4_same_value_diff_key": {
+        "n": 250,
+        "accuracy": 0.98
+      },
+      "P5_fully_different": {
+        "n": 250,
+        "accuracy": 1.0
+      },
+      "P6_lexical_hard_negative": {
+        "n": 250,
+        "accuracy": 0.992
+      },
+      "P7_similar_entity_names": {
+        "n": 250,
+        "accuracy": 0.916
+      }
+    }
+  },
+  "offline_gate": {
+    "testA_f1_ge_95": true,
+    "testB_f1_ge_95": false,
+    "testA_update_recall_ge_95": true,
+    "testB_update_recall_ge_95": false,
+    "P2_testA_ge_95": false,
+    "P2_testB_ge_90": false
+  }
+}

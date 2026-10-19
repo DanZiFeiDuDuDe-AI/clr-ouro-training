@@ -1,0 +1,54 @@
+{
+  "supervised": {
+    "mr1_same_entity": {
+      "n": 65,
+      "retrieval": 0.9846153846153847,
+      "hard_answer": 0.9230769230769231,
+      "oracle_answer": 0.9384615384615385
+    },
+    "mr2_same_relation": {
+      "n": 63,
+      "retrieval": 1.0,
+      "hard_answer": 0.9841269841269841,
+      "oracle_answer": 0.9841269841269841
+    },
+    "lexical_stress": {
+      "n": 68,
+      "retrieval": 0.9705882352941176,
+      "hard_answer": 0.8970588235294118,
+      "oracle_answer": 0.9264705882352942
+    },
+    "same_value": {
+      "n": 66,
+      "retrieval": 1.0,
+      "hard_answer": 0.9696969696969697,
+      "oracle_answer": 0.9696969696969697
+    }
+  },
+  "learned": {
+    "mr1_same_entity": {
+      "n": 65,
+      "retrieval": 0.9846153846153847,
+      "hard_answer": 0.9230769230769231,
+      "oracle_answer": 0.9384615384615385
+    },
+    "mr2_same_relation": {
+      "n": 63,
+      "retrieval": 1.0,
+      "hard_answer": 0.9841269841269841,
+      "oracle_answer": 0.9841269841269841
+    },
+    "lexical_stress": {
+      "n": 68,
+      "retrieval": 0.9852941176470589,
+      "hard_answer": 0.9117647058823529,
+      "oracle_answer": 0.9264705882352942
+    },
+    "same_value": {
+      "n": 66,
+      "retrieval": 1.0,
+      "hard_answer": 0.9696969696969697,
+      "oracle_answer": 0.9696969696969697
+    }
+  }
+}

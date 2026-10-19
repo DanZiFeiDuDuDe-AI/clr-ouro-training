@@ -1,0 +1,12 @@
+{
+  "additional_saved_components": [
+    "H_base_I0",
+    "H_mention_fresh",
+    "H_I2a=H_base_I0+H_mention_fresh",
+    "H_fresh=H_I2b"
+  ],
+  "base_component": "source MR train/val/test data NPZ fact_H, joined by canonical source fact flat_fact_index; the NPZ is hashed and never prefix-aligned",
+  "formula": "MR cache fact_H addressed by fact_offsets + 2.0 * fresh entity-mention mean hidden state",
+  "mention_component": "fresh hidden state defined above",
+  "name": "fresh J-I2b carrier"
+}

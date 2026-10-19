@@ -1,0 +1,120 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cho et~al.(2014)Cho, van Merrienboer, Gulcehre, Bahdanau, Bougares,
+  Schwenk, and Bengio]{cho2014learning}
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi
+  Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1724--1734, 2014.
+\newblock \doi{10.3115/v1/D14-1179}.
+
+\bibitem[Perez et~al.(2018)Perez, Strub, de~Vries, Dumoulin, and
+  Courville]{perez2018film}
+Ethan Perez, Florian Strub, Harm de~Vries, Vincent Dumoulin, and Aaron
+  Courville.
+\newblock {FiLM}: Visual reasoning with a general conditioning layer.
+\newblock In \emph{Proceedings of the 32nd AAAI Conference on Artificial
+  Intelligence (AAAI)}, volume~32, pages 3942--3951, 2018.
+\newblock \doi{10.1609/aaai.v32i1.11671}.
+
+\bibitem[Peebles and Xie(2023)]{peebles2023scalable}
+William Peebles and Saining Xie.
+\newblock Scalable diffusion models with transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}, pages 4195--4205, 2023.
+\newblock \doi{10.1109/ICCV51070.2023.00387}.
+
+\bibitem[Sukhbaatar et~al.(2019)Sukhbaatar, Grave, Lample, Jegou, and
+  Joulin]{sukhbaatar2019augmenting}
+Sainbayar Sukhbaatar, Edouard Grave, Guillaume Lample, Herve Jegou, and Armand
+  Joulin.
+\newblock Augmenting self-attention with persistent memory.
+\newblock \emph{arXiv preprint arXiv:1907.01470}, 2019.
+\newblock \doi{10.48550/arXiv.1907.01470}.
+\newblock Presented at NeurIPS 2019 Workshop on Context and Compositionality.
+
+\bibitem[Wu et~al.(2022)Wu, Rabe, Hutchins, and Szegedy]{wu2022memorizing}
+Yuhuai Wu, Markus~N. Rabe, DeLesley Hutchins, and Christian Szegedy.
+\newblock Memorizing transformers.
+\newblock In \emph{Proceedings of the 10th International Conference on Learning
+  Representations (ICLR)}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=TrjbxzRcnf-}.
+
+\bibitem[Graves et~al.(2016)Graves, Wayne, Reynolds, Harley, Danihelka,
+  Grabska-Barwi{\'n}ska, Colmenarejo, Grefenstette, Ramalho, Agapiou,
+  et~al.]{graves2016hybrid}
+Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka
+  Grabska-Barwi{\'n}ska, Sergio~G{\'o}mez Colmenarejo, Edward Grefenstette,
+  Tiago Ramalho, John Agapiou, et~al.
+\newblock Hybrid computing using a neural network with dynamic external memory.
+\newblock \emph{Nature}, 538\penalty0 (7626):\penalty0 471--476, 2016.
+\newblock \doi{10.1038/nature20101}.
+
+\bibitem[Huang and Belongie(2017)]{huang2017arbitrary}
+Xun Huang and Serge Belongie.
+\newblock Arbitrary style transfer in real-time with adaptive instance
+  normalization.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer
+  Vision (ICCV)}, pages 1501--1510, 2017.
+\newblock \doi{10.1109/ICCV.2017.167}.
+
+\bibitem[Ba et~al.(2016)Ba, Kiros, and Hinton]{ba2016layer}
+Jimmy~Lei Ba, Jamie~Ryan Kiros, and Geoffrey~E. Hinton.
+\newblock Layer normalization.
+\newblock \emph{arXiv preprint arXiv:1607.06450}, 2016.
+\newblock \doi{10.48550/arXiv.1607.06450}.
+
+\bibitem[Tenney et~al.(2019)Tenney, Das, and Pavlick]{tenney2019bert}
+Ian Tenney, Dipanjan Das, and Ellie Pavlick.
+\newblock {BERT} rediscovers the classical {NLP} pipeline.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, pages 4593--4601, 2019.
+\newblock \doi{10.18653/v1/P19-1452}.
+
+\bibitem[Clark et~al.(2019)Clark, Khandelwal, Levy, and Manning]{clark2019does}
+Kevin Clark, Urvashi Khandelwal, Omer Levy, and Christopher~D. Manning.
+\newblock What does {BERT} look at? an analysis of {BERT}'s attention.
+\newblock In \emph{Proceedings of the ACL Workshop BlackboxNLP: Analyzing and
+  Interpreting Neural Networks for NLP}, pages 276--286, 2019.
+\newblock \doi{10.18653/v1/W19-4828}.
+
+\bibitem[Rogers et~al.(2020)Rogers, Kovaleva, and Rumshisky]{rogers2020primer}
+Anna Rogers, Olga Kovaleva, and Anna Rumshisky.
+\newblock A primer in {BERTology}: What we know about how {BERT} works.
+\newblock \emph{Transactions of the Association for Computational Linguistics
+  (TACL)}, 8:\penalty0 842--866, 2020.
+\newblock \doi{10.1162/tacl_a_00349}.
+
+\bibitem[Elhage et~al.(2021)Elhage, Nanda, Olsson, Henighan, Joseph, Mann,
+  Askell, Bai, Chen, Conerly, et~al.]{elhage2021mathematical}
+Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Nicholas Joseph, Ben
+  Mann, Amanda Askell, Yuntao Bai, Anna Chen, Tom Conerly, et~al.
+\newblock A mathematical framework for transformer circuits.
+\newblock \emph{Transformer Circuits Thread}, 2021.
+\newblock URL \url{https://transformer-circuits.pub/2021/framework/index.html}.
+\newblock Anthropic research publication.
+
+\bibitem[Gur-Ari et~al.(2018)Gur-Ari, Roberts, and Dyer]{gurari2018gradient}
+Guy Gur-Ari, Daniel~A. Roberts, and Ethan Dyer.
+\newblock Gradient descent happens in a tiny subspace.
+\newblock \emph{arXiv preprint arXiv:1812.04754}, 2018.
+\newblock \doi{10.48550/arXiv.1812.04754}.
+
+\bibitem[Shazeer et~al.(2017)Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton,
+  and Dean]{shazeer2017outrageously}
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le,
+  Geoffrey Hinton, and Jeff Dean.
+\newblock Outrageously large neural networks: The sparsely-gated
+  mixture-of-experts layer.
+\newblock In \emph{Proceedings of the 5th International Conference on Learning
+  Representations (ICLR)}, 2017.
+\newblock URL \url{https://openreview.net/forum?id=B1ckMDqlg}.
+
+\end{thebibliography}

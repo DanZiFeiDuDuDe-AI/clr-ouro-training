@@ -1,0 +1,127 @@
+{
+  "candidate": "B",
+  "candidate_checkpoint_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "candidate_not_retrained": true,
+  "candidate_state_dict_sha256": "c7a087c7e99fa276e49c4a7497516aa6179496566e92c138034116785ee10808",
+  "carrier_match": "H_base_I0 equals MR fact_H bitwise for every checked row; H_mention_fresh is canonical-row aligned",
+  "deployment_seed": 43,
+  "device": "cuda",
+  "feature_cache_manifest_sha256": null,
+  "holdout_filter": {
+    "testA": {
+      "input_source_rows": 2332,
+      "removed_cross_split_exact_fact_rows": 62,
+      "removed_within_split_semantic_duplicates": 21,
+      "unique_semantic_facts": 2249
+    },
+    "testB": {
+      "input_source_rows": 2332,
+      "removed_cross_split_exact_fact_rows": 0,
+      "removed_within_split_semantic_duplicates": 18,
+      "unique_semantic_facts": 2314
+    },
+    "validation": {
+      "input_source_rows": 2332,
+      "removed_cross_split_exact_fact_rows": 22,
+      "removed_within_split_semantic_duplicates": 19,
+      "unique_semantic_facts": 2291
+    }
+  },
+  "holdout_semantic_triple_overlap_after_filter": {
+    "testA-testB": 0,
+    "train-testA": 0,
+    "train-testB": 0,
+    "train-val": 0,
+    "val-testA": 0,
+    "val-testB": 0
+  },
+  "pairwise_source_overlap": {
+    "testA-testB": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 0,
+      "semantic_triples": 0,
+      "source_record_sha256": 0
+    },
+    "train-testA": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 1479,
+      "semantic_triples": 24,
+      "source_record_sha256": 0
+    },
+    "train-testB": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 0,
+      "semantic_triples": 0,
+      "source_record_sha256": 0
+    },
+    "train-val": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 1475,
+      "semantic_triples": 22,
+      "source_record_sha256": 0
+    },
+    "val-testA": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 922,
+      "semantic_triples": 38,
+      "source_record_sha256": 0
+    },
+    "val-testB": {
+      "canonical_fact_ids": 0,
+      "feature_row_ids": 0,
+      "semantic_keys": 0,
+      "semantic_triples": 0,
+      "source_record_sha256": 0
+    }
+  },
+  "pass_row_identity": true,
+  "runtime": {
+    "python": "3.11.9",
+    "torch": "2.9.0"
+  },
+  "semantic_overlap_policy": "validation excludes exact train semantic triples; final holdouts exclude train+validation exact triples; TestB also excludes TestA exact triples. Key identity overlap is reported, not silently called source leakage.",
+  "splits": {
+    "testA": {
+      "multivalue_key_count": 580,
+      "rows": 2332,
+      "unique_feature_ids": 2332,
+      "unique_keys": 1489,
+      "unique_semantic_facts": 2311,
+      "unique_source_ids": 2332,
+      "unique_source_record_hashes": 2332
+    },
+    "testB": {
+      "multivalue_key_count": 601,
+      "rows": 2332,
+      "unique_feature_ids": 2332,
+      "unique_keys": 1498,
+      "unique_semantic_facts": 2314,
+      "unique_source_ids": 2332,
+      "unique_source_record_hashes": 2332
+    },
+    "train": {
+      "multivalue_key_count": 2285,
+      "rows": 11665,
+      "unique_feature_ids": 11665,
+      "unique_keys": 2378,
+      "unique_semantic_facts": 11241,
+      "unique_source_ids": 11665,
+      "unique_source_record_hashes": 11665
+    },
+    "val": {
+      "multivalue_key_count": 610,
+      "rows": 2332,
+      "unique_feature_ids": 2332,
+      "unique_keys": 1488,
+      "unique_semantic_facts": 2313,
+      "unique_source_ids": 2332,
+      "unique_source_record_hashes": 2332
+    }
+  },
+  "test_access_after_policy_freeze": true
+}

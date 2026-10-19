@@ -1,0 +1,6 @@
+# Preserve archived bytes: manifests describe actual file content, including EOLs.
+* -text
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary

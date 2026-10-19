@@ -1,0 +1,62 @@
+{
+  "testA": {
+    "P1_same_key": {
+      "n": 1500,
+      "accuracy": 0.962
+    },
+    "P2_same_entity_diff_relation": {
+      "n": 250,
+      "accuracy": 0.824
+    },
+    "P3_same_relation_diff_entity": {
+      "n": 250,
+      "accuracy": 0.904
+    },
+    "P4_same_value_diff_key": {
+      "n": 250,
+      "accuracy": 0.968
+    },
+    "P5_fully_different": {
+      "n": 250,
+      "accuracy": 1.0
+    },
+    "P6_lexical_hard_negative": {
+      "n": 250,
+      "accuracy": 0.996
+    },
+    "P7_similar_entity_names": {
+      "n": 250,
+      "accuracy": 0.94
+    }
+  },
+  "testB": {
+    "P1_same_key": {
+      "n": 1500,
+      "accuracy": 0.9406666666666667
+    },
+    "P2_same_entity_diff_relation": {
+      "n": 250,
+      "accuracy": 0.836
+    },
+    "P3_same_relation_diff_entity": {
+      "n": 250,
+      "accuracy": 0.92
+    },
+    "P4_same_value_diff_key": {
+      "n": 250,
+      "accuracy": 0.98
+    },
+    "P5_fully_different": {
+      "n": 250,
+      "accuracy": 1.0
+    },
+    "P6_lexical_hard_negative": {
+      "n": 250,
+      "accuracy": 0.992
+    },
+    "P7_similar_entity_names": {
+      "n": 250,
+      "accuracy": 0.916
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "build_row_provenance_audit.py": {
+    "sha256": "74777CCACE668E99E263EC2DA7387996FAF281D89D8B838913F5AE523F585991",
+    "purpose": "Read-only reconstruction of MR source/label order and O3b-H feature row identity audit"
+  },
+  "hash_scope_note": "This run script was created after the frozen start-of-run artifact manifest; this separate file records its own hash without altering the frozen baseline manifest."
+}

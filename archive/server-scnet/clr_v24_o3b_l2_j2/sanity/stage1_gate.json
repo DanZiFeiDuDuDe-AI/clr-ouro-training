@@ -1,0 +1,8 @@
+{
+  "status": "FAIL-MEASUREMENT",
+  "reason": "Training curves continue to improve materially between 500 and 1000 steps; independent probes remain representation/learning-rate sensitive despite algebraically equivalent R1/R2 and exact transferred-logit parity. Probe optimization is not saturated/reliable for J cliff attribution.",
+  "j_revalidation_started": false,
+  "branch": "B_measurement_pipeline_diagnosis",
+  "reconnect": false,
+  "o3c": false
+}

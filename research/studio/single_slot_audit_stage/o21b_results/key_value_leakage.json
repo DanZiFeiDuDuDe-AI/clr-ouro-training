@@ -1,0 +1,42 @@
+{
+  "prior_supervised": {
+    "train": {
+      "K_to_value_probe": {
+        "accuracy": 0.10132876125160738,
+        "n": 11665
+      }
+    },
+    "val": {
+      "K_to_value_probe": {
+        "accuracy": 0.07632933104631218,
+        "n": 2332
+      }
+    },
+    "testA": {
+      "K_to_value_probe": {
+        "accuracy": 0.08147512864493997,
+        "n": 2332
+      }
+    },
+    "testB": {
+      "K_to_value_probe": {
+        "accuracy": 0.0823327615780446,
+        "n": 2332
+      }
+    }
+  },
+  "learned": {
+    "val": {
+      "accuracy": 0.06732418524871354,
+      "n": 2332
+    },
+    "testA": {
+      "accuracy": 0.07632933104631218,
+      "n": 2332
+    },
+    "testB": {
+      "accuracy": 0.07890222984562607,
+      "n": 2332
+    }
+  }
+}

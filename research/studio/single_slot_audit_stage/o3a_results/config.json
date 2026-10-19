@@ -1,0 +1,73 @@
+{
+  "phase": "CLR-v2.4-O3a",
+  "seed": 42,
+  "device": "cuda",
+  "source_o21b": "D:\\training\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+  "source_vgen2": "D:\\training\\checkpoints\\clr_v24_vgen2\\best.pt",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "capacities": [
+    1,
+    2,
+    4
+  ],
+  "slots": 4,
+  "allocator_inputs": {
+    "k_aware": "K_new + explicit occupied mask",
+    "k_blind": "explicit occupied mask only"
+  },
+  "occupancy_representation": "explicit binary occupied mask",
+  "hard_mask_condition": "occupied logits masked only for safety control",
+  "soft_loss": "-log(sum probability mass over empty slots)",
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "steps": 3000,
+  "eval_every": 100,
+  "trainable": [
+    "Allocator only"
+  ],
+  "frozen": [
+    "learned KeyEncoder",
+    "V/core/GRU",
+    "QueryEncoder",
+    "retrieval matcher",
+    "decoder",
+    "answer head",
+    "Ouro",
+    "physical memory dimensions"
+  ],
+  "dataset": {
+    "train": {
+      "episodes": 5000,
+      "by_capacity": {
+        "1": 1667,
+        "2": 1667,
+        "4": 1666
+      }
+    },
+    "val": {
+      "episodes": 1000,
+      "by_capacity": {
+        "1": 334,
+        "2": 333,
+        "4": 333
+      }
+    },
+    "testA": {
+      "episodes": 1000,
+      "by_capacity": {
+        "1": 334,
+        "2": 333,
+        "4": 333
+      }
+    },
+    "testB": {
+      "episodes": 1000,
+      "by_capacity": {
+        "1": 334,
+        "2": 333,
+        "4": 333
+      }
+    }
+  }
+}

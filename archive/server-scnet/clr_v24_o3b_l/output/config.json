@@ -1,0 +1,45 @@
+{
+  "phase": "CLR-v2.4-O3b-L",
+  "carrier": "L-I2b",
+  "cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+  "source_key_checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+  "probe_steps": 180,
+  "probe_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    107,
+    131,
+    157,
+    181
+  ],
+  "permutations": 20,
+  "permutation_probe_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "longer_steps": 500,
+  "longer_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "pair_n_requested": 1800,
+  "w1_shape": [
+    256,
+    2048
+  ],
+  "rank": 256,
+  "reconnect": false,
+  "o3c": false,
+  "architecture_changed": false,
+  "wall_clock_s": 118.8813339190092
+}

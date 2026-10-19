@@ -1,0 +1,16 @@
+{
+  "episodes": 500,
+  "retrieval_accuracy": 0.6791248860528715,
+  "answer_accuracy": 0.6490428441203282,
+  "all_facts_retained_rate": 0.298,
+  "all_facts_answered_rate": 0.276,
+  "action_accuracy": 1.0,
+  "update_target_accuracy": 0.29,
+  "new_valid_empty_rate": null,
+  "new_collision_rate": null,
+  "duplicate_key_rate": 0.71,
+  "latest_value_accuracy": 0.45,
+  "old_value_probability": 0.0018808612988413331,
+  "untouched_k_drift": 0.0,
+  "untouched_v_drift": 0.0
+}

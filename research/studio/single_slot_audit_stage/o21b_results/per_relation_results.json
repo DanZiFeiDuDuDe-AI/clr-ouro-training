@@ -1,0 +1,94 @@
+{
+  "supervised": {
+    "testA": {
+      "current_city": {
+        "n": 82,
+        "retrieval": 0.9878048780487805,
+        "hard_answer": 0.9634146341463414
+      },
+      "birth_city": {
+        "n": 75,
+        "retrieval": 1.0,
+        "hard_answer": 0.96
+      },
+      "favorite_city": {
+        "n": 88,
+        "retrieval": 0.9886363636363636,
+        "hard_answer": 0.9431818181818182
+      },
+      "work_city": {
+        "n": 88,
+        "retrieval": 0.9886363636363636,
+        "hard_answer": 0.8977272727272727
+      }
+    },
+    "testB": {
+      "current_city": {
+        "n": 69,
+        "retrieval": 1.0,
+        "hard_answer": 0.9710144927536232
+      },
+      "birth_city": {
+        "n": 89,
+        "retrieval": 0.9887640449438202,
+        "hard_answer": 0.8876404494382022
+      },
+      "favorite_city": {
+        "n": 82,
+        "retrieval": 0.9878048780487805,
+        "hard_answer": 0.8658536585365854
+      },
+      "work_city": {
+        "n": 93,
+        "retrieval": 0.989247311827957,
+        "hard_answer": 0.8924731182795699
+      }
+    }
+  },
+  "learned": {
+    "testA": {
+      "current_city": {
+        "n": 82,
+        "retrieval": 1.0,
+        "hard_answer": 0.975609756097561
+      },
+      "birth_city": {
+        "n": 75,
+        "retrieval": 0.9866666666666667,
+        "hard_answer": 0.9466666666666667
+      },
+      "favorite_city": {
+        "n": 88,
+        "retrieval": 1.0,
+        "hard_answer": 0.9545454545454546
+      },
+      "work_city": {
+        "n": 88,
+        "retrieval": 0.9772727272727273,
+        "hard_answer": 0.8863636363636364
+      }
+    },
+    "testB": {
+      "current_city": {
+        "n": 69,
+        "retrieval": 1.0,
+        "hard_answer": 0.9710144927536232
+      },
+      "birth_city": {
+        "n": 89,
+        "retrieval": 1.0,
+        "hard_answer": 0.898876404494382
+      },
+      "favorite_city": {
+        "n": 82,
+        "retrieval": 1.0,
+        "hard_answer": 0.8780487804878049
+      },
+      "work_city": {
+        "n": 93,
+        "retrieval": 1.0,
+        "hard_answer": 0.8924731182795699
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pass": false,
+  "reason": "Cannot establish a trustworthy baseline without the original frozen O21A-MR, VGen2, O3a allocator, and router bundle.",
+  "reconnect_allowed": false,
+  "status": "BLOCKED_NOT_RUN"
+}

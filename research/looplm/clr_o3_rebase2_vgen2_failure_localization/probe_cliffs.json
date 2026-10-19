@@ -1,0 +1,25 @@
+{
+  "edges": [
+    {
+      "edge": "R0 -> R1",
+      "single_write_drop_pp": 0.0,
+      "update_latest_drop_pp": 0.0
+    },
+    {
+      "edge": "R1 -> R2",
+      "single_write_drop_pp": 1.9725557461406473,
+      "update_latest_drop_pp": 2.0572450805009024
+    },
+    {
+      "edge": "R2 -> R3",
+      "single_write_drop_pp": 3.0017152658662116,
+      "update_latest_drop_pp": 3.1305903398926582
+    },
+    {
+      "edge": "R3 -> R4",
+      "single_write_drop_pp": 3.216123499142365,
+      "update_latest_drop_pp": 0.7155635062611854
+    }
+  ],
+  "interpretation": "Fixed probe readout differences; not proof of irreversible information loss or a specific implementation defect"
+}

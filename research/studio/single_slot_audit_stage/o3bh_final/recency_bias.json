@@ -1,0 +1,22 @@
+{
+  "probe": {
+    "params": 1229400,
+    "shallow": false,
+    "train_n": 11665,
+    "nclass": 600,
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.7401372212692967,
+      "top1": 0.7401372212692967,
+      "top5": 0.8962264150943396,
+      "macro_f1": 0.6625249867523407,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    }
+  },
+  "total_errors": 595,
+  "member_error_counts": {},
+  "member_error_rate": 0.0,
+  "last_given_member_rate": 0.0,
+  "first_given_member_rate": 0.0
+}

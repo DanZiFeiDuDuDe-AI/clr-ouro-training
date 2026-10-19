@@ -1,0 +1,34 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "dag_frozen_before_training": true,
+  "nodes": [
+    {"id": "ouro", "kind": "frozen_pretrained", "state": "pinned Ouro-1.4B; no finetuning"},
+    {"id": "feature_cache", "kind": "frozen_extraction_data", "state": "O21A-MR fact/query cache plus J3C entity/relation carriers"},
+    {"id": "o21a_rebase", "kind": "learned", "state": "KeyEncoder K64 + QueryEncoder Q64; trained first"},
+    {"id": "candidate_b", "kind": "learned_frozen", "state": "M2 Candidate B factorized E64/R64 encoders and symmetric pair head; SHA frozen"},
+    {"id": "vgen2_rebase", "kind": "learned", "state": "64D content read + shared GRU write cell + four local value heads"},
+    {"id": "allocator_rebase", "kind": "learned", "state": "K-aware 4-way free-slot allocator"},
+    {"id": "router", "kind": "deterministic", "state": "NEW/UPDATE/READ explicit control flow; no learned router"},
+    {"id": "slot_memory", "kind": "integration", "state": "four slots: K64, Candidate-B E64/R64 factors, V64, occupancy bit"},
+    {"id": "queried_read", "kind": "integration", "state": "Q64-to-K64 retrieval, then slot-specific value decode"}
+  ],
+  "edges": [
+    {"from": "ouro", "to": "feature_cache", "reason": "frozen 2048D fact/query/mention representations"},
+    {"from": "feature_cache", "to": "o21a_rebase", "reason": "fact_H/query_H and retrieval/entity supervision"},
+    {"from": "feature_cache", "to": "candidate_b", "reason": "certified entity mention and relation-side carriers"},
+    {"from": "feature_cache", "to": "vgen2_rebase", "reason": "fact_H and 64-class value labels"},
+    {"from": "o21a_rebase", "to": "allocator_rebase", "reason": "frozen K64 input distribution"},
+    {"from": "o21a_rebase", "to": "router", "reason": "K64 addressing representation"},
+    {"from": "candidate_b", "to": "router", "reason": "frozen same-key scores and stored E/R factors"},
+    {"from": "allocator_rebase", "to": "router", "reason": "NEW slot choice"},
+    {"from": "router", "to": "slot_memory", "reason": "deterministic action and target-slot selection"},
+    {"from": "o21a_rebase", "to": "slot_memory", "reason": "write and retrieval K64"},
+    {"from": "candidate_b", "to": "slot_memory", "reason": "per-slot factorized E/R address fields"},
+    {"from": "vgen2_rebase", "to": "slot_memory", "reason": "new/update V64 write"},
+    {"from": "slot_memory", "to": "queried_read", "reason": "occupied K/V slots"},
+    {"from": "o21a_rebase", "to": "queried_read", "reason": "Q64 for slot selection"},
+    {"from": "vgen2_rebase", "to": "queried_read", "reason": "selected-slot value decoder"}
+  ],
+  "execution_order": ["freeze_contract", "audit_current_cache_join", "rebuild_o21a_and_standalone_gate", "rebuild_vgen2_and_standalone_gate", "rebuild_allocator_and_standalone_gate", "verify_candidate_b_hash_and_threshold", "implement_deterministic_router", "freeze_bundle", "basic_write", "true_update", "P2_P3_P4_distractors", "queried_read", "multi_step_episodes"],
+  "stop_rule": "Do not begin a downstream learned component or integration stage until its dependencies passed their frozen standalone gates."
+}

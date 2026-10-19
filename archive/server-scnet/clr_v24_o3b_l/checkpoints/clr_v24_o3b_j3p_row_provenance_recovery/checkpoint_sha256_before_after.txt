@@ -1,0 +1,4 @@
+checkpoint=/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt
+sha256_before=6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570
+sha256_after=6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570
+comparison=identical; checkpoint was read-only and no model forward was run

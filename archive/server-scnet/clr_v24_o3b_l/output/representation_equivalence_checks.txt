@@ -1,0 +1,16 @@
+train: max_abs(R2 - R1 @ U.T) = 3.242492676e-05
+train: max_abs(R1_inverse - R0) = 1.907348633e-06
+train: max_abs(R2 - H @ W.T) = 0.000000000e+00
+val: max_abs(R2 - R1 @ U.T) = 3.433227539e-05
+val: max_abs(R1_inverse - R0) = 1.907348633e-06
+val: max_abs(R2 - H @ W.T) = 0.000000000e+00
+testA: max_abs(R2 - R1 @ U.T) = 3.051757812e-05
+testA: max_abs(R1_inverse - R0) = 1.907348633e-06
+testA: max_abs(R2 - H @ W.T) = 0.000000000e+00
+testB: max_abs(R2 - R1 @ U.T) = 4.005432129e-05
+testB: max_abs(R1_inverse - R0) = 1.907348633e-06
+testB: max_abs(R2 - H @ W.T) = 0.000000000e+00
+W1 shape = (256, 2048); U=(256, 256); Sigma=(256,); Vh=(256, 2048)
+R0 = H @ Vh.T; R1 = R0 * Sigma; R2 = H @ W1.T; R3 = R2 + b1; R4 = GELU(R3).
+R1_inverse exactly rescales each nonzero singular coordinate back to R0.
+R1 and R2 differ only by the orthogonal output rotation U; a large matched-linear difference would indicate an implementation/protocol issue.

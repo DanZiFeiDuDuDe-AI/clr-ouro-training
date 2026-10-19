@@ -1,0 +1,256 @@
+{
+  "entity_classes_train": 600,
+  "joint_classes_train": 2400,
+  "testB_note": "TestB is unseen-person; closed-world joint/entity accuracy is N/A and known_fraction is reported.",
+  "factorized_reconstruction": {
+    "train": {
+      "accuracy": 0.26335190741534503,
+      "entity_accuracy": 0.29729961423060436,
+      "relation_accuracy": 0.8908701243034719,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "accuracy": 0.20025728987993138,
+      "entity_accuracy": 0.22727272727272727,
+      "relation_accuracy": 0.8872212692967409,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "accuracy": 0.1865351629502573,
+      "entity_accuracy": 0.21054888507718697,
+      "relation_accuracy": 0.8910806174957119,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "accuracy": null,
+      "known_fraction": 0.0
+    }
+  },
+  "linear_joint": {
+    "params": 156000,
+    "shallow": false,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.1642520360051436,
+      "top1": 0.1642520360051436,
+      "top5": 0.365195027861123,
+      "macro_f1": 0.07594773314390557,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.0879073756432247,
+      "top1": 0.0879073756432247,
+      "top5": 0.21655231560891938,
+      "macro_f1": 0.050265326158816716,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.09391080617495712,
+      "top1": 0.09391080617495712,
+      "top5": 0.23113207547169812,
+      "macro_f1": 0.05908795267636646,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "accuracy": null,
+      "known_fraction": 0.0,
+      "n_known": 0
+    }
+  },
+  "linear_entity": {
+    "params": 39000,
+    "shallow": false,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.2870124303471925,
+      "top1": 0.2870124303471925,
+      "top5": 0.5753964852121731,
+      "macro_f1": 0.20066596866544031,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.2169811320754717,
+      "top1": 0.2169811320754717,
+      "top5": 0.4716981132075472,
+      "macro_f1": 0.1522441550519658,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.2109777015437393,
+      "top1": 0.2109777015437393,
+      "top5": 0.46783876500857635,
+      "macro_f1": 0.14695268775329182,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "accuracy": null,
+      "known_fraction": 0.0,
+      "n_known": 0
+    }
+  },
+  "linear_relation": {
+    "params": 260,
+    "shallow": false,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.8763823403343335,
+      "top1": 0.8763823403343335,
+      "top5": 1.0,
+      "macro_f1": 0.8753619213333861,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.8730703259005146,
+      "top1": 0.8730703259005146,
+      "top5": 1.0,
+      "macro_f1": 0.8727860482803916,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.8850771869639794,
+      "top1": 0.8850771869639794,
+      "top5": 1.0,
+      "macro_f1": 0.8839094091533871,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "n": 2332,
+      "accuracy": 0.8717838765008576,
+      "top1": 0.8717838765008576,
+      "top5": 1.0,
+      "macro_f1": 0.8701992267824259,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    }
+  },
+  "mlp_joint": {
+    "params": 160160,
+    "shallow": true,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.11538791255893699,
+      "top1": 0.11538791255893699,
+      "top5": 0.29232747535362197,
+      "macro_f1": 0.044535150615491445,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.06989708404802744,
+      "top1": 0.06989708404802744,
+      "top5": 0.1702401372212693,
+      "macro_f1": 0.03971461657216136,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.056174957118353346,
+      "top1": 0.056174957118353346,
+      "top5": 0.16423670668953688,
+      "macro_f1": 0.03231166147554791,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "accuracy": null,
+      "known_fraction": 0.0,
+      "n_known": 0
+    }
+  },
+  "mlp_entity": {
+    "params": 43160,
+    "shallow": true,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.2480925846549507,
+      "top1": 0.2480925846549507,
+      "top5": 0.5262751821688813,
+      "macro_f1": 0.14762883227493487,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.1895368782161235,
+      "top1": 0.1895368782161235,
+      "top5": 0.42538593481989706,
+      "macro_f1": 0.11810222828788428,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.15566037735849056,
+      "top1": 0.15566037735849056,
+      "top5": 0.4099485420240137,
+      "macro_f1": 0.10048489163000171,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "accuracy": null,
+      "known_fraction": 0.0,
+      "n_known": 0
+    }
+  },
+  "mlp_relation": {
+    "params": 4420,
+    "shallow": true,
+    "train": {
+      "n": 11665,
+      "accuracy": 0.9525932276039434,
+      "top1": 0.9525932276039434,
+      "top5": 1.0,
+      "macro_f1": 0.9522935312058014,
+      "known_fraction": 1.0,
+      "n_known": 11665
+    },
+    "val": {
+      "n": 2332,
+      "accuracy": 0.9463979416809606,
+      "top1": 0.9463979416809606,
+      "top5": 1.0,
+      "macro_f1": 0.9465272071102564,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testA": {
+      "n": 2332,
+      "accuracy": 0.9584048027444254,
+      "top1": 0.9584048027444254,
+      "top5": 1.0,
+      "macro_f1": 0.9579985448164817,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    },
+    "testB": {
+      "n": 2332,
+      "accuracy": 0.9481132075471698,
+      "top1": 0.9481132075471698,
+      "top5": 1.0,
+      "macro_f1": 0.9476924593686513,
+      "known_fraction": 1.0,
+      "n_known": 2332
+    }
+  }
+}

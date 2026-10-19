@@ -1,0 +1,40 @@
+{
+  "phase": "CLR-v2.4-O3b-H",
+  "seed": 42,
+  "git_sha": "NO_GIT_REPO",
+  "device": "cuda",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "cache_reused": true,
+  "cache_token_layer_available": true,
+  "frozen": [
+    "Ouro/backbone",
+    "KeyEncoder",
+    "QueryEncoder",
+    "V/ValueEncoder",
+    "GRU",
+    "allocator",
+    "memory write/update",
+    "downstream answer head"
+  ],
+  "diagnostic_trainable": [
+    "linear probes",
+    "shallow MLP probes",
+    "small equality probes"
+  ],
+  "probe_steps": 320,
+  "pair_steps": 350,
+  "pair_n": 3500,
+  "token_sample": {
+    "facts_per_split": 4096,
+    "other_per_split": 1024
+  },
+  "wall_clock_s": 880.5463003999903,
+  "peak_vram": {
+    "allocated_gb": 1.216861696,
+    "reserved_gb": 1.522532352
+  },
+  "verdict": "O3b-H: MIXED ENTITY CARRIER + PROJECTION FAILURE",
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "independent unresolved issue"
+}

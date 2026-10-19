@@ -1,0 +1,86 @@
+{
+  "ckpt_step": 100,
+  "ceiling": 0.5666666666666667,
+  "conditions": {
+    "A_full": {
+      "t2p_correct": 73,
+      "t2p_total": 150,
+      "t2p": 0.4867,
+      "t2p_wilson95": [
+        0.408,
+        0.566
+      ],
+      "t1": 0.0
+    },
+    "B_zeroed": {
+      "t2p_correct": 0,
+      "t2p_total": 150,
+      "t2p": 0.0,
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "t1": 0.0
+    },
+    "C_random": {
+      "t2p_correct": 0,
+      "t2p_total": 150,
+      "t2p": 0.0,
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "t1": 0.0
+    },
+    "D_frozen_S0": {
+      "t2p_correct": 0,
+      "t2p_total": 150,
+      "t2p": 0.0,
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "t1": 0.0
+    },
+    "E_dose_0.25": {
+      "t2p_correct": 0,
+      "t2p_total": 150,
+      "t2p": 0.0,
+      "t2p_wilson95": [
+        0.0,
+        0.025
+      ],
+      "t1": 0.0
+    },
+    "E_dose_0.50": {
+      "t2p_correct": 15,
+      "t2p_total": 150,
+      "t2p": 0.1,
+      "t2p_wilson95": [
+        0.0615,
+        0.1584
+      ],
+      "t1": 0.0
+    },
+    "E_dose_0.75": {
+      "t2p_correct": 70,
+      "t2p_total": 150,
+      "t2p": 0.4667,
+      "t2p_wilson95": [
+        0.3887,
+        0.5463
+      ],
+      "t1": 0.0
+    },
+    "E_dose_1.00": {
+      "t2p_correct": 72,
+      "t2p_total": 150,
+      "t2p": 0.48,
+      "t2p_wilson95": [
+        0.4016,
+        0.5594
+      ],
+      "t1": 0.0
+    }
+  }
+}

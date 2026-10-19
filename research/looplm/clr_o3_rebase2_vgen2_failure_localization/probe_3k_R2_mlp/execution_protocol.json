@@ -1,0 +1,19 @@
+{
+  "batch_size": 256,
+  "checkpoint_sha256": "24ce86872e8a44c72af1297f6bd6710c4e33567643efc1e4f6ee2328a9e6d365",
+  "hidden_width": 64,
+  "input_manifest_sha256": "93af7a12a65cb1d0b20680139a79a1b945a03f61ab8895535d5c536a636dd688",
+  "model_selection": "fixed final step; no VAL selection",
+  "normalization": "train-only per-feature standardization",
+  "optimizer": {
+    "gradient_clip": 10,
+    "lr": 0.003,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "seed": 42,
+  "source_revision_note": "Only sanity admission changed from MLP-only to either supervised raw probe; probe implementation unchanged throughout this round",
+  "source_sha256": "3855f6e38d48288631038315f11ef8664610c5408067de22cd4af40d05edd544",
+  "steps": 2000,
+  "training_mixture": "50% single-write facts, 50% UPDATE latest contexts"
+}

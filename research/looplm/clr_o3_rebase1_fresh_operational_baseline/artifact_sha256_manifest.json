@@ -1,0 +1,182 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "hash_algorithm": "SHA-256",
+  "manifest_excludes_itself": true,
+  "json_files_validated": 16,
+  "csv_files_validated": 10,
+  "o21a_gate": "PASS",
+  "vgen2_gate": "FAIL; test not run",
+  "candidate_b_frozen_sha_verified": true,
+  "files": [
+    {
+      "path": "basic_write_results.csv",
+      "bytes": 91,
+      "sha256": "5a64a5495eff70446f334a042789291682ade454f892f891119c699ee809697f"
+    },
+    {
+      "path": "bundle_manifest.json",
+      "bytes": 783,
+      "sha256": "3fe0046f47dc78e1be3b93d7696ca31cc89f53f2008fb10ad045cec0e153758f"
+    },
+    {
+      "path": "candidate_b_integrity.json",
+      "bytes": 729,
+      "sha256": "7e3e22b602129ab2ec9e2618ca061c337491c10d2f07c2d1d3e67a6b20b715b4"
+    },
+    {
+      "path": "code/finalize_rebase_artifacts.py",
+      "bytes": 2712,
+      "sha256": "54ef039df709c621a3aba299f879e70e2a36ad6162fb3f9c6e0d2f56563f7c2e"
+    },
+    {
+      "path": "code/train_o21a_rebase.py",
+      "bytes": 12563,
+      "sha256": "c502c8bf7bdc07888070d70c729cafcb9780e3e5b1b350167e657cf712028e97"
+    },
+    {
+      "path": "code/train_vgen2_rebase.py",
+      "bytes": 18170,
+      "sha256": "179a9473810ad62bc2e890b6620f0e383970e0c0a0ace2809bc0063c27e545be"
+    },
+    {
+      "path": "component_dependency_dag.json",
+      "bytes": 3129,
+      "sha256": "8b6ec1d28c75b297ed8e2072575c0984a3f220bfdedfc93db685d988f81e1bd3"
+    },
+    {
+      "path": "component_rebuild_manifest.json",
+      "bytes": 1505,
+      "sha256": "d6e3e318f9d7a0950469e05c371e341d08819bea1cb1dd209e5541fec3d3a652"
+    },
+    {
+      "path": "components/o21a/o21a_rebase.pt",
+      "bytes": 4645831,
+      "sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced"
+    },
+    {
+      "path": "components/o21a/o21a_rebase_config.json",
+      "bytes": 633,
+      "sha256": "8bd52253bc34a2f3ba1db749db5fd435b82bb6515d4d12e33e4968fa8724d27c"
+    },
+    {
+      "path": "components/o21a/o21a_rebase_gate.json",
+      "bytes": 1151,
+      "sha256": "e21a82f96fe5dec8dc4e1155a23dc5e3757af6b0c028ce6d9f295c0544293f43"
+    },
+    {
+      "path": "components/o21a/o21a_rebase_learning_curve.csv",
+      "bytes": 5339,
+      "sha256": "f998300b3b30f8e6db7bf12d293869662957eb4d970a38ef5198c6efc74a325f"
+    },
+    {
+      "path": "components/o21a/o21a_rebase_results.csv",
+      "bytes": 541,
+      "sha256": "d98343f2fcd8c614bc448261c1e81736c7972ba97f364f56b8d4eb7927b8388b"
+    },
+    {
+      "path": "components/o21a/o21a_rebase_runtime.json",
+      "bytes": 167,
+      "sha256": "2c678fc3df7ec04dfaf10688573da2f3a126e8619e3458dd67f19df86cd65efc"
+    },
+    {
+      "path": "components/vgen2/vgen2_input_join_audit.json",
+      "bytes": 668,
+      "sha256": "0eb100df88412105495b67d9c5beec5bf59fc6773ed27bff27642faac039f790"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase.pt",
+      "bytes": 698333,
+      "sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase_config.json",
+      "bytes": 1384,
+      "sha256": "5be7a10274df9b1ae7689f71cc1bb3726fd03cdf605303988b06fa434b576b8b"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase_gate.json",
+      "bytes": 885,
+      "sha256": "01319f6fc8a0158b8d29994725653943885c9ce1229e6073937c97612a752fb0"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase_learning_curve.csv",
+      "bytes": 5312,
+      "sha256": "f3bf2387f6913c1928d717a407f2703e837109c570145aef3f4adcdfcca2d3cc"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase_results.csv",
+      "bytes": 474,
+      "sha256": "c0c22dbe80f00fe2e77e3288ed0b409049ad1c438da0515c197f2725d9788bee"
+    },
+    {
+      "path": "components/vgen2/vgen2_rebase_runtime.json",
+      "bytes": 142,
+      "sha256": "a2ee802360c2513c83bf6ad5008be66e858b64035d3af8453cba790c7b6d24c7"
+    },
+    {
+      "path": "distractor_results.csv",
+      "bytes": 91,
+      "sha256": "5a64a5495eff70446f334a042789291682ade454f892f891119c699ee809697f"
+    },
+    {
+      "path": "final_mainline_gate.json",
+      "bytes": 951,
+      "sha256": "54d2205ca8eecd4ac33737bae2948fe06465be7d73f033710fc75f1bf0622349"
+    },
+    {
+      "path": "final_report.md",
+      "bytes": 7195,
+      "sha256": "a695e267dddfd695fb8fb804436f832af52a852c77d07c4ea11bcac2ff6b043b"
+    },
+    {
+      "path": "FINAL_VERDICT.txt",
+      "bytes": 54,
+      "sha256": "cf36b9af53404cfcd07c7f53b7399e06a3863c4e822cd5e55a11853ff33c6373"
+    },
+    {
+      "path": "full_episode_results.csv",
+      "bytes": 91,
+      "sha256": "5a64a5495eff70446f334a042789291682ade454f892f891119c699ee809697f"
+    },
+    {
+      "path": "input_integrity.json",
+      "bytes": 1288,
+      "sha256": "9fa2b183ca4008291380ac31767d3a6582ab80f0b3b0ee42fc3acd784bef10a5"
+    },
+    {
+      "path": "logs/o21a_rebase.log",
+      "bytes": 13308,
+      "sha256": "82ebd1e30f8b7955edf000676df20d8d628d00a7439a48aa6ba83abe3d019a25"
+    },
+    {
+      "path": "logs/vgen2_rebase.log",
+      "bytes": 12200,
+      "sha256": "84eb2bf7b855516dbf4fbc40ab3c91740ebd8d334e1ddaab738a43f4f1f913d1"
+    },
+    {
+      "path": "o3_rebase_contract.json",
+      "bytes": 6163,
+      "sha256": "836152ef92196ea37d1648804ec618abbea82b428b402c0acebc2b8ee7d8ca8e"
+    },
+    {
+      "path": "o3a_rebase_results.csv",
+      "bytes": 118,
+      "sha256": "38da268b64d5e69fe49a8facd2a248715317e33584610b7a18f1acc5d6c0cf13"
+    },
+    {
+      "path": "queried_read_results.csv",
+      "bytes": 131,
+      "sha256": "e0381b2b7d03d3ea88b50d477b14db0249225345a94310c386a89d3a068a312d"
+    },
+    {
+      "path": "router_config.json",
+      "bytes": 686,
+      "sha256": "fd19aed6aa83760a679615c2cb027b18fd698c4418736e3b56b3d6a9ebe167a6"
+    },
+    {
+      "path": "true_update_results.csv",
+      "bytes": 91,
+      "sha256": "5a64a5495eff70446f334a042789291682ade454f892f891119c699ee809697f"
+    }
+  ]
+}

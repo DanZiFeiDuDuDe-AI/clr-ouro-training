@@ -1,0 +1,1 @@
+{"model_type": "bpe_64k", "vocab_size": 64000, "unk_token": "<unk>", "pad_token": "<pad>", "bos_token": "<s>", "eos_token": "</s>"}

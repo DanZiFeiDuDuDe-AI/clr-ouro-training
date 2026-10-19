@@ -1,0 +1,26 @@
+{"normalization": "raw", "task": "entity", "lr": "0.5x", "elapsed_s": 6.444943523034453, "completed": true}
+{"normalization": "raw", "task": "entity", "lr": "1x", "elapsed_s": 1.5805179859744385, "completed": true}
+{"normalization": "raw", "task": "entity", "lr": "2x", "elapsed_s": 1.561099607963115, "completed": true}
+{"normalization": "raw", "task": "relation", "lr": "0.5x", "elapsed_s": 1.2406103379908018, "completed": true}
+{"normalization": "raw", "task": "relation", "lr": "1x", "elapsed_s": 1.2005481529631652, "completed": true}
+{"normalization": "raw", "task": "relation", "lr": "2x", "elapsed_s": 1.2077055459958501, "completed": true}
+{"normalization": "raw", "task": "joint", "lr": "0.5x", "elapsed_s": 4.765403056982905, "completed": true}
+{"normalization": "raw", "task": "joint", "lr": "1x", "elapsed_s": 4.754809937963728, "completed": true}
+{"normalization": "raw", "task": "joint", "lr": "2x", "elapsed_s": 4.784481607959606, "completed": true}
+{"normalization": "standardized", "task": "entity", "lr": "0.5x", "elapsed_s": 1.5032651320216246, "completed": true}
+{"normalization": "standardized", "task": "entity", "lr": "1x", "elapsed_s": 1.531983016000595, "completed": true}
+{"normalization": "standardized", "task": "entity", "lr": "2x", "elapsed_s": 1.5223824040149339, "completed": true}
+{"normalization": "standardized", "task": "relation", "lr": "0.5x", "elapsed_s": 1.2414720020024106, "completed": true}
+{"normalization": "standardized", "task": "relation", "lr": "1x", "elapsed_s": 1.2187153800041415, "completed": true}
+{"normalization": "standardized", "task": "relation", "lr": "2x", "elapsed_s": 1.2759095180081204, "completed": true}
+{"normalization": "standardized", "task": "joint", "lr": "0.5x", "elapsed_s": 4.76821078103967, "completed": true}
+{"normalization": "standardized", "task": "joint", "lr": "1x", "elapsed_s": 4.756432403984945, "completed": true}
+{"normalization": "standardized", "task": "joint", "lr": "2x", "elapsed_s": 4.786291716969572, "completed": true}
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_measurement_diagnosis.py", line 204, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_measurement_diagnosis.py", line 129, in main
+    if a["step"]==b["step"] and a["split"]==b["split"]:
+                                ~^^^^^^^^^
+KeyError: 'split'

@@ -1,2 +1,0 @@
-﻿python: C:\Users\34438\AppData\Local\Programs\Python\Python312\python.exe
-ERROR: ModuleNotFoundError No module named 'torch'

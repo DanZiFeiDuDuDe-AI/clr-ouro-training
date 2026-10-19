@@ -1,0 +1,19 @@
+{
+  "host": "ssh.zzai.scnet.cn",
+  "port": 11810,
+  "remote": "/root/private_data/clr_o3_rebase2_vgen2_failure_localization/source_audit",
+  "verified_files": [
+    {
+      "path": "source_split_audit.json",
+      "bytes": 4107,
+      "sha256": "611c1f656847f060de287438c786ce9a767f0ff8ba8dc825b000254811d22a10"
+    },
+    {
+      "path": "validation_seen_exact_train_text.npy",
+      "bytes": 2460,
+      "sha256": "f127f9084c9cbbe71c04f7d41bd5278ca35288704a43ad86cc131da4897e3dfa"
+    }
+  ],
+  "verified_at_unix": 1790962170.4245615,
+  "weights": 0
+}

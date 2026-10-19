@@ -1,0 +1,7 @@
+{
+  "wall_clock_s": null,
+  "runtime_note": "Training and weight-transfer computation completed; wall-clock summary was not emitted because the first plotting attempt hit a harness error after all result CSVs were written.",
+  "device": "cuda",
+  "device_name": "BW",
+  "stage1_complete": true
+}

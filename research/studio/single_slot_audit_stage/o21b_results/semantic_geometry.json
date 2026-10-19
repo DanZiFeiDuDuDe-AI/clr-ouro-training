@@ -1,0 +1,54 @@
+{
+  "supervised": {
+    "val": {
+      "positive_score_mean": 8.39957144498825,
+      "negative_score_mean": 1.9093408649675436,
+      "margin_mean": 6.490230580020707,
+      "routing_entropy_mean": 0.10209380915130487,
+      "within_entity_cosine_mean": 0.6389081168401224,
+      "within_relation_cosine_mean": 0.1730513930064626
+    },
+    "testA": {
+      "positive_score_mean": 8.345638687133789,
+      "negative_score_mean": 1.765906256963373,
+      "margin_mean": 6.5797324301704165,
+      "routing_entropy_mean": 0.10704058154091399,
+      "within_entity_cosine_mean": 0.6453949515306744,
+      "within_relation_cosine_mean": 0.17200281969550996
+    },
+    "testB": {
+      "positive_score_mean": 8.212629710674285,
+      "negative_score_mean": 1.771306551100026,
+      "margin_mean": 6.441323159574259,
+      "routing_entropy_mean": 0.10272329263009441,
+      "within_entity_cosine_mean": 0.15189542704608175,
+      "within_relation_cosine_mean": 0.17315230906306533
+    }
+  },
+  "learned": {
+    "val": {
+      "positive_score_mean": 8.30825429868698,
+      "negative_score_mean": 1.6912192534511998,
+      "margin_mean": 6.617035045235781,
+      "routing_entropy_mean": 0.08888270744934199,
+      "within_entity_cosine_mean": 0.6334945389265887,
+      "within_relation_cosine_mean": 0.17441165685554733
+    },
+    "testA": {
+      "positive_score_mean": 8.256518553256988,
+      "negative_score_mean": 1.6508221761743027,
+      "margin_mean": 6.605696377082686,
+      "routing_entropy_mean": 0.0973247001523796,
+      "within_entity_cosine_mean": 0.639707070509376,
+      "within_relation_cosine_mean": 0.17372835573367776
+    },
+    "testB": {
+      "positive_score_mean": 8.083194125175476,
+      "negative_score_mean": 1.5564730145626593,
+      "margin_mean": 6.526721110612817,
+      "routing_entropy_mean": 0.09182326030415061,
+      "within_entity_cosine_mean": 0.14409867102990392,
+      "within_relation_cosine_mean": 0.17851555929275492
+    }
+  }
+}

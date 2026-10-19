@@ -1,0 +1,88 @@
+{
+  "TestA": {
+    "F2a_same_entity_leave_one_out": {
+      "n": 2176,
+      "accuracy": 0.5059742647058824,
+      "per_entity_macro": 0.40484352656261546,
+      "worst_decile": 0.0
+    },
+    "F2b_same_entity_P1_vs_P2": {
+      "threshold_val_subset": 0.23501601815223694,
+      "test": {
+        "accuracy": 0.8577142857142858,
+        "balanced_accuracy": 0.5436666666666666,
+        "precision": 0.8681577398469688,
+        "recall": 0.9833333333333333,
+        "f1": 0.9221631759924976,
+        "auroc": 0.855736,
+        "tp": 1475,
+        "tn": 26,
+        "fp": 224,
+        "fn": 25,
+        "threshold": 0.23501601815223694,
+        "n": 1750,
+        "per_category_accuracy": {
+          "P1_same_key": {
+            "n": 1500,
+            "accuracy": 0.9833333333333333
+          },
+          "P2_same_entity_diff_relation": {
+            "n": 250,
+            "accuracy": 0.104
+          }
+        },
+        "pr_auc": 0.9738043773785181
+      },
+      "P1": 0.9833333333333333,
+      "P2": 0.104
+    }
+  },
+  "TestB": {
+    "F2a_same_entity_leave_one_out": {
+      "n": 2183,
+      "accuracy": 0.5057260650480989,
+      "per_entity_macro": 0.39311154602102877,
+      "worst_decile": 0.0
+    },
+    "F2b_same_entity_P1_vs_P2": {
+      "threshold_val_subset": 0.23501601815223694,
+      "test": {
+        "accuracy": 0.86,
+        "balanced_accuracy": 0.5433333333333333,
+        "precision": 0.8680351906158358,
+        "recall": 0.9866666666666667,
+        "f1": 0.923556942277691,
+        "auroc": 0.8328933333333334,
+        "tp": 1480,
+        "tn": 25,
+        "fp": 225,
+        "fn": 20,
+        "threshold": 0.23501601815223694,
+        "n": 1750,
+        "per_category_accuracy": {
+          "P1_same_key": {
+            "n": 1500,
+            "accuracy": 0.9866666666666667
+          },
+          "P2_same_entity_diff_relation": {
+            "n": 250,
+            "accuracy": 0.1
+          }
+        },
+        "pr_auc": 0.9694128472876806
+      },
+      "P1": 0.9866666666666667,
+      "P2": 0.1
+    }
+  },
+  "F2c_relation_retrieval_with_entity_fixed": {
+    "TestA": {
+      "n": 1955,
+      "accuracy": 0.5647058823529412
+    },
+    "TestB": {
+      "n": 1944,
+      "accuracy": 0.5653292181069959
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "gate": {
+    "baseline_reproduced": true,
+    "testA_f1_ge_95": false,
+    "testB_f1_ge_95": false,
+    "testA_update_recall_ge_95": false,
+    "testB_update_recall_ge_95": false,
+    "P2_testA_ge_95": false,
+    "P2_testB_ge_90": true,
+    "K_r_to_relation_testB_ge_90": false
+  },
+  "passed": false,
+  "reconnect": {
+    "allowed": false,
+    "reason": "O3b-E is offline only; no reconnect was performed even if a future rerun passes."
+  },
+  "o3c": "not entered"
+}

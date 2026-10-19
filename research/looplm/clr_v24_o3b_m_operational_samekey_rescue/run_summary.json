@@ -1,0 +1,11 @@
+{
+  "action_pass": false,
+  "data_leakage": false,
+  "device": "cuda",
+  "model_or_checkpoint_modified": false,
+  "o3c": "NO",
+  "offline_pass": true,
+  "reconnect": "NOT_RUN: real O3b reconnect is locked unless both offline behavior and action-simulation gates PASS.",
+  "total_wall_seconds": 114.70372995198704,
+  "verdict": "O3b-M-F — SAME-KEY CLASSIFICATION PASSES BUT ACTION-LEVEL ADDRESSING FAILS"
+}

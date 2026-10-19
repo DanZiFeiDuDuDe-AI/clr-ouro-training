@@ -1,0 +1,50 @@
+{
+  "determinism": {
+    "algorithms_enabled": true,
+    "cuda_matmul_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "warn_only": true
+  },
+  "device": {
+    "cuda_api_available": true,
+    "device_0": {
+      "gcn_arch_name": "gfx936:sramecc+:xnack-",
+      "major": 9,
+      "minor": 3,
+      "multiprocessor_count": 80,
+      "name": "BW",
+      "total_memory_bytes": 68702699520
+    },
+    "device_count": 1,
+    "torch_cuda_version": null,
+    "torch_hip_version": "6.3.26093"
+  },
+  "feature_dtype": "float32",
+  "frozen_at_unix": 1790266992.5120082,
+  "hostname": "crdnotebook-2102236099555217409-ac92f4k0z9-62881",
+  "keyencoder_sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+  "model_dtype": "bfloat16",
+  "model_repo": "ByteDance/Ouro-1.4B",
+  "model_revision": "574fa66cb8bf5abdc979642d01cf2b79b16bfab1",
+  "ouro_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+  "packages": {
+    "accelerate": null,
+    "numpy": "1.25.0",
+    "safetensors": "0.7.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.9.0+das.opt1.dtk2604",
+    "transformers": "4.57.6"
+  },
+  "paths": {
+    "extraction_code": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py",
+    "frozen_ouro_model": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/Ouro-1.4B",
+    "frozen_ouro_source_manifest": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/source_model_artifact_manifest.json",
+    "keyencoder_checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+    "mr_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+    "output": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache"
+  },
+  "platform": "Linux-5.15.0-25-generic-x86_64-with-glibc2.35",
+  "python": "3.11.9 (main, Apr  5 2026, 19:32:29) [GCC 11.4.0]",
+  "seed": 42
+}

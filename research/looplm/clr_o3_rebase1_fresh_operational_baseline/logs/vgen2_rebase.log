@@ -1,0 +1,68 @@
+{"stage": "VGEN2_REBASE", "step": 1, "train_loss": 4.1703362464904785, "train_task": "update", "val_single_overall": 0.016295025728987993, "val_single_N1": 0.014970059880239521, "val_single_N2": 0.012012012012012012, "val_single_N4": 0.01876876876876877, "val_update_old": 0.01073345259391771, "val_update_latest": 0.023255813953488372, "val_score": 0.019775419841238182}
+{"stage": "VGEN2_REBASE", "step": 100, "train_loss": 4.1634368896484375, "train_task": "episode", "val_single_overall": 0.02358490566037736, "val_single_N1": 0.02694610778443114, "val_single_N2": 0.02702702702702703, "val_single_N4": 0.021021021021021023, "val_update_old": 0.01967799642218247, "val_update_latest": 0.0259391771019678, "val_score": 0.024762041381172578}
+{"stage": "VGEN2_REBASE", "step": 200, "train_loss": 4.0849833488464355, "train_task": "update", "val_single_overall": 0.03816466552315609, "val_single_N1": 0.038922155688622756, "val_single_N2": 0.046546546546546545, "val_single_N4": 0.033783783783783786, "val_update_old": 0.03041144901610018, "val_update_latest": 0.03667262969588551, "val_score": 0.037418647609520794}
+{"stage": "VGEN2_REBASE", "step": 300, "train_loss": 3.97182297706604, "train_task": "update", "val_single_overall": 0.06903945111492281, "val_single_N1": 0.059880239520958084, "val_single_N2": 0.08258258258258258, "val_single_N4": 0.06456456456456457, "val_update_old": 0.07602862254025045, "val_update_latest": 0.07960644007155634, "val_score": 0.07432294559323957}
+{"stage": "VGEN2_REBASE", "step": 400, "train_loss": 3.8166980743408203, "train_task": "update", "val_single_overall": 0.12778730703259006, "val_single_N1": 0.1407185628742515, "val_single_N2": 0.13813813813813813, "val_single_N4": 0.11936936936936937, "val_update_old": 0.10554561717352415, "val_update_latest": 0.11717352415026834, "val_score": 0.12248041559142919}
+{"stage": "VGEN2_REBASE", "step": 500, "train_loss": 3.5852622985839844, "train_task": "update", "val_single_overall": 0.15780445969125215, "val_single_N1": 0.1377245508982036, "val_single_N2": 0.17567567567567569, "val_single_N4": 0.1539039039039039, "val_update_old": 0.1547406082289803, "val_update_latest": 0.15026833631484796, "val_score": 0.15403639800305005}
+{"stage": "VGEN2_REBASE", "step": 600, "train_loss": 3.3547048568725586, "train_task": "update", "val_single_overall": 0.1792452830188679, "val_single_N1": 0.18263473053892215, "val_single_N2": 0.17567567567567569, "val_single_N4": 0.18018018018018017, "val_update_old": 0.18694096601073346, "val_update_latest": 0.19320214669051877, "val_score": 0.18622371485469336}
+{"stage": "VGEN2_REBASE", "step": 700, "train_loss": 3.258241653442383, "train_task": "update", "val_single_overall": 0.23542024013722126, "val_single_N1": 0.25748502994011974, "val_single_N2": 0.24924924924924924, "val_single_N4": 0.22297297297297297, "val_update_old": 0.21914132379248658, "val_update_latest": 0.24329159212880144, "val_score": 0.23935591613301135}
+{"stage": "VGEN2_REBASE", "step": 800, "train_loss": 2.924546241760254, "train_task": "episode", "val_single_overall": 0.27358490566037735, "val_single_N1": 0.2694610778443114, "val_single_N2": 0.2747747747747748, "val_single_N4": 0.27402402402402404, "val_update_old": 0.25402504472271914, "val_update_latest": 0.2817531305903399, "val_score": 0.2776690181253586}
+{"stage": "VGEN2_REBASE", "step": 900, "train_loss": 2.8343546390533447, "train_task": "episode", "val_single_overall": 0.3194682675814751, "val_single_N1": 0.30538922155688625, "val_single_N2": 0.34534534534534533, "val_single_N4": 0.31006006006006004, "val_update_old": 0.3023255813953488, "val_update_latest": 0.33810375670840787, "val_score": 0.3287860121449415}
+{"stage": "VGEN2_REBASE", "step": 1000, "train_loss": 2.7454819679260254, "train_task": "update", "val_single_overall": 0.3542024013722127, "val_single_N1": 0.3383233532934132, "val_single_N2": 0.3708708708708709, "val_single_N4": 0.34984984984984985, "val_update_old": 0.35241502683363146, "val_update_latest": 0.38461538461538464, "val_score": 0.36940889299379864}
+{"stage": "VGEN2_REBASE", "step": 1100, "train_loss": 2.5620741844177246, "train_task": "episode", "val_single_overall": 0.411663807890223, "val_single_N1": 0.39520958083832336, "val_single_N2": 0.4039039039039039, "val_single_N4": 0.4196696696696697, "val_update_old": 0.39087656529516995, "val_update_latest": 0.4472271914132379, "val_score": 0.42944549965173046}
+{"stage": "VGEN2_REBASE", "step": 1200, "train_loss": 2.507411479949951, "train_task": "episode", "val_single_overall": 0.4691252144082333, "val_single_N1": 0.4550898203592814, "val_single_N2": 0.45795795795795796, "val_single_N4": 0.47822822822822825, "val_update_old": 0.44991055456171736, "val_update_latest": 0.49821109123434704, "val_score": 0.48366815282129016}
+{"stage": "VGEN2_REBASE", "step": 1300, "train_loss": 2.320180892944336, "train_task": "update", "val_single_overall": 0.483704974271012, "val_single_N1": 0.4491017964071856, "val_single_N2": 0.47897897897897895, "val_single_N4": 0.4947447447447447, "val_update_old": 0.4588550983899821, "val_update_latest": 0.5178890876565295, "val_score": 0.5007970309637708}
+{"stage": "VGEN2_REBASE", "step": 1400, "train_loss": 2.0994458198547363, "train_task": "episode", "val_single_overall": 0.5218696397941681, "val_single_N1": 0.5029940119760479, "val_single_N2": 0.5135135135135135, "val_single_N4": 0.5307807807807807, "val_update_old": 0.5241502683363148, "val_update_latest": 0.5644007155635062, "val_score": 0.5431351776788371}
+{"stage": "VGEN2_REBASE", "step": 1500, "train_loss": 2.1114273071289062, "train_task": "episode", "val_single_overall": 0.5621783876500858, "val_single_N1": 0.5359281437125748, "val_single_N2": 0.56006006006006, "val_single_N4": 0.5698198198198198, "val_update_old": 0.5715563506261181, "val_update_latest": 0.5867620751341681, "val_score": 0.5744702313921269}
+{"stage": "VGEN2_REBASE", "step": 1600, "train_loss": 2.1238255500793457, "train_task": "episode", "val_single_overall": 0.5793310463121784, "val_single_N1": 0.5778443113772455, "val_single_N2": 0.575075075075075, "val_single_N4": 0.5818318318318318, "val_update_old": 0.590339892665474, "val_update_latest": 0.5966010733452594, "val_score": 0.5879660598287189}
+{"stage": "VGEN2_REBASE", "step": 1700, "train_loss": 1.8280305862426758, "train_task": "episode", "val_single_overall": 0.6187821612349914, "val_single_N1": 0.5988023952095808, "val_single_N2": 0.6171171171171171, "val_single_N4": 0.6246246246246246, "val_update_old": 0.6028622540250447, "val_update_latest": 0.646690518783542, "val_score": 0.6327363400092667}
+{"stage": "VGEN2_REBASE", "step": 1800, "train_loss": 1.791534185409546, "train_task": "episode", "val_single_overall": 0.6436535162950258, "val_single_N1": 0.6137724550898204, "val_single_N2": 0.6366366366366366, "val_single_N4": 0.6546546546546547, "val_update_old": 0.6645796064400715, "val_update_latest": 0.684257602862254, "val_score": 0.6639555595786399}
+{"stage": "VGEN2_REBASE", "step": 1900, "train_loss": 1.6455152034759521, "train_task": "episode", "val_single_overall": 0.6749571183533448, "val_single_N1": 0.6526946107784432, "val_single_N2": 0.6771771771771772, "val_single_N4": 0.6794294294294294, "val_update_old": 0.6985688729874776, "val_update_latest": 0.7039355992844365, "val_score": 0.6894463588188906}
+{"stage": "VGEN2_REBASE", "step": 2000, "train_loss": 1.6146490573883057, "train_task": "update", "val_single_overall": 0.6779588336192109, "val_single_N1": 0.6676646706586826, "val_single_N2": 0.6606606606606606, "val_single_N4": 0.6891891891891891, "val_update_old": 0.6797853309481217, "val_update_latest": 0.7137745974955277, "val_score": 0.6958667155573693}
+{"stage": "VGEN2_REBASE", "step": 2100, "train_loss": 1.4678997993469238, "train_task": "update", "val_single_overall": 0.6963979416809606, "val_single_N1": 0.6646706586826348, "val_single_N2": 0.7027027027027027, "val_single_N4": 0.7012012012012012, "val_update_old": 0.7200357781753131, "val_update_latest": 0.7468694096601073, "val_score": 0.7216336756705339}
+{"stage": "VGEN2_REBASE", "step": 2200, "train_loss": 1.4860444068908691, "train_task": "episode", "val_single_overall": 0.7242710120068611, "val_single_N1": 0.6856287425149701, "val_single_N2": 0.7177177177177178, "val_single_N4": 0.7372372372372372, "val_update_old": 0.7441860465116279, "val_update_latest": 0.7683363148479427, "val_score": 0.7463036634274018}
+{"stage": "VGEN2_REBASE", "step": 2300, "train_loss": 1.4590789079666138, "train_task": "episode", "val_single_overall": 0.7311320754716981, "val_single_N1": 0.7125748502994012, "val_single_N2": 0.7162162162162162, "val_single_N4": 0.7432432432432432, "val_update_old": 0.7567084078711985, "val_update_latest": 0.7915921288014311, "val_score": 0.7613621021365646}
+{"stage": "VGEN2_REBASE", "step": 2400, "train_loss": 1.3274798393249512, "train_task": "update", "val_single_overall": 0.7435677530017153, "val_single_N1": 0.7215568862275449, "val_single_N2": 0.7477477477477478, "val_single_N4": 0.746996996996997, "val_update_old": 0.7728085867620751, "val_update_latest": 0.7880143112701252, "val_score": 0.7657910321359203}
+{"stage": "VGEN2_REBASE", "step": 2500, "train_loss": 1.272789478302002, "train_task": "episode", "val_single_overall": 0.7783018867924528, "val_single_N1": 0.7634730538922155, "val_single_N2": 0.7762762762762763, "val_single_N4": 0.7830330330330331, "val_update_old": 0.7844364937388193, "val_update_latest": 0.8076923076923077, "val_score": 0.7929970972423803}
+{"stage": "VGEN2_REBASE", "step": 2600, "train_loss": 1.1599183082580566, "train_task": "update", "val_single_overall": 0.7873070325900514, "val_single_N1": 0.7425149700598802, "val_single_N2": 0.7957957957957958, "val_single_N4": 0.7942942942942943, "val_update_old": 0.815742397137746, "val_update_latest": 0.8130590339892666, "val_score": 0.800183033289659}
+{"stage": "VGEN2_REBASE", "step": 2700, "train_loss": 1.057902455329895, "train_task": "update", "val_single_overall": 0.7984562607204116, "val_single_N1": 0.7844311377245509, "val_single_N2": 0.8018018018018018, "val_single_N4": 0.8003003003003003, "val_update_old": 0.817531305903399, "val_update_latest": 0.8264758497316637, "val_score": 0.8124660552260377}
+{"stage": "VGEN2_REBASE", "step": 2800, "train_loss": 1.0294671058654785, "train_task": "update", "val_single_overall": 0.8160377358490566, "val_single_N1": 0.7874251497005988, "val_single_N2": 0.8288288288288288, "val_single_N4": 0.8168168168168168, "val_update_old": 0.8363148479427549, "val_update_latest": 0.8398926654740608, "val_score": 0.8279652006615588}
+{"stage": "VGEN2_REBASE", "step": 2900, "train_loss": 1.0400948524475098, "train_task": "update", "val_single_overall": 0.8156089193825042, "val_single_N1": 0.7904191616766467, "val_single_N2": 0.8123123123123123, "val_single_N4": 0.8235735735735735, "val_update_old": 0.8211091234347049, "val_update_latest": 0.8488372093023255, "val_score": 0.8322230643424149}
+{"stage": "VGEN2_REBASE", "step": 3000, "train_loss": 1.0350167751312256, "train_task": "episode", "val_single_overall": 0.8426243567753001, "val_single_N1": 0.8502994011976048, "val_single_N2": 0.8348348348348348, "val_single_N4": 0.8445945945945946, "val_update_old": 0.855098389982111, "val_update_latest": 0.870304114490161, "val_score": 0.8564642356327306}
+{
+  "experiment": "CLR-O3-REBASE-1/VGen2",
+  "protocol_frozen": true,
+  "best_step": 3000,
+  "best_val_score": 0.8564642356327306,
+  "val_single": {
+    "1": {
+      "correct": 276,
+      "count": 334,
+      "answer_accuracy": 0.8263473053892215
+    },
+    "2": {
+      "correct": 548,
+      "count": 666,
+      "answer_accuracy": 0.8228228228228228
+    },
+    "4": {
+      "correct": 1124,
+      "count": 1332,
+      "answer_accuracy": 0.8438438438438438
+    },
+    "overall": {
+      "correct": 1948,
+      "count": 2332,
+      "answer_accuracy": 0.8353344768439108
+    }
+  },
+  "val_update": {
+    "pair_count": 1118,
+    "old_value_accuracy_after_first_write": 0.855098389982111,
+    "latest_value_accuracy_after_update": 0.870304114490161,
+    "non_target_slot_mutation": false
+  },
+  "val_gate_pass": false,
+  "gate_pass": false,
+  "test_evaluation": "NOT_RUN_VAL_GATE_FAILED"
+}

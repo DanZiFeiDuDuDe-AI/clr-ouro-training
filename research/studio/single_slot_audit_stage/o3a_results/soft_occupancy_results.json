@@ -1,0 +1,238 @@
+{
+  "testA": {
+    "1": {
+      "n_episodes": 334,
+      "writes": 334,
+      "valid": 334,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0
+      ],
+      "selected_frequency": [
+        73,
+        91,
+        55,
+        115
+      ]
+    },
+    "2": {
+      "n_episodes": 333,
+      "writes": 666,
+      "valid": 666,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0,
+        1.0
+      ],
+      "selected_frequency": [
+        150,
+        216,
+        145,
+        155
+      ]
+    },
+    "4": {
+      "n_episodes": 333,
+      "writes": 1332,
+      "valid": 1332,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selected_frequency": [
+        333,
+        333,
+        333,
+        333
+      ]
+    },
+    "k_aware": true,
+    "hard_mask": false
+  },
+  "testB": {
+    "1": {
+      "n_episodes": 334,
+      "writes": 334,
+      "valid": 334,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0
+      ],
+      "selected_frequency": [
+        65,
+        90,
+        76,
+        103
+      ]
+    },
+    "2": {
+      "n_episodes": 333,
+      "writes": 666,
+      "valid": 666,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0,
+        1.0
+      ],
+      "selected_frequency": [
+        159,
+        199,
+        155,
+        153
+      ]
+    },
+    "4": {
+      "n_episodes": 333,
+      "writes": 1332,
+      "valid": 1332,
+      "collisions": 0,
+      "valid_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_step_valid_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selected_frequency": [
+        333,
+        333,
+        333,
+        333
+      ]
+    },
+    "k_aware": true,
+    "hard_mask": false
+  },
+  "pipeline": {
+    "testA": {
+      "1": {
+        "episodes": 334,
+        "writes": 334,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          1.0
+        ],
+        "per_fact_answer": [
+          0.9461077844311377
+        ],
+        "retrieval_accuracy": 1.0,
+        "answer_accuracy": 0.9461077844311377,
+        "all_facts_retained_rate": 1.0,
+        "all_facts_answered_rate": 0.9461077844311377
+      },
+      "2": {
+        "episodes": 333,
+        "writes": 666,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          0.996996996996997,
+          0.996996996996997
+        ],
+        "per_fact_answer": [
+          0.9429429429429429,
+          0.9579579579579579
+        ],
+        "retrieval_accuracy": 0.996996996996997,
+        "answer_accuracy": 0.9504504504504504,
+        "all_facts_retained_rate": 0.993993993993994,
+        "all_facts_answered_rate": 0.9039039039039038
+      },
+      "4": {
+        "episodes": 333,
+        "writes": 1332,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          0.993993993993994,
+          0.996996996996997,
+          1.0,
+          0.987987987987988
+        ],
+        "per_fact_answer": [
+          0.948948948948949,
+          0.93993993993994,
+          0.9519519519519519,
+          0.9099099099099099
+        ],
+        "retrieval_accuracy": 0.9947447447447447,
+        "answer_accuracy": 0.9376876876876877,
+        "all_facts_retained_rate": 0.978978978978979,
+        "all_facts_answered_rate": 0.7837837837837838
+      }
+    },
+    "testB": {
+      "1": {
+        "episodes": 334,
+        "writes": 334,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          1.0
+        ],
+        "per_fact_answer": [
+          0.9281437125748503
+        ],
+        "retrieval_accuracy": 1.0,
+        "answer_accuracy": 0.9281437125748503,
+        "all_facts_retained_rate": 1.0,
+        "all_facts_answered_rate": 0.9281437125748503
+      },
+      "2": {
+        "episodes": 333,
+        "writes": 666,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          1.0,
+          1.0
+        ],
+        "per_fact_answer": [
+          0.93993993993994,
+          0.954954954954955
+        ],
+        "retrieval_accuracy": 1.0,
+        "answer_accuracy": 0.9474474474474475,
+        "all_facts_retained_rate": 1.0,
+        "all_facts_answered_rate": 0.9039039039039038
+      },
+      "4": {
+        "episodes": 333,
+        "writes": 1332,
+        "valid_allocation_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_fact_retrieval": [
+          0.987987987987988,
+          0.993993993993994,
+          0.993993993993994,
+          1.0
+        ],
+        "per_fact_answer": [
+          0.9369369369369369,
+          0.9039039039039038,
+          0.9159159159159159,
+          0.9309309309309309
+        ],
+        "retrieval_accuracy": 0.993993993993994,
+        "answer_accuracy": 0.9219219219219219,
+        "all_facts_retained_rate": 0.975975975975976,
+        "all_facts_answered_rate": 0.7447447447447447
+      }
+    }
+  }
+}

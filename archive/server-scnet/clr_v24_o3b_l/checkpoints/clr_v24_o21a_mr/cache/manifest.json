@@ -1,0 +1,40 @@
+{
+  "cache_version": "O2.1a-MR-v1",
+  "seed": 42,
+  "smoke": false,
+  "sizes": {
+    "train": 5000,
+    "val": 1000,
+    "testA": 1000,
+    "testB": 1000
+  },
+  "capacities": [
+    1,
+    2,
+    4
+  ],
+  "relations": [
+    "current_city",
+    "birth_city",
+    "favorite_city",
+    "work_city"
+  ],
+  "n_relations": 4,
+  "n_classes": 64,
+  "chance": 0.015625,
+  "hidden_dtype": "float32",
+  "hidden_shape": [
+    2048
+  ],
+  "total_facts": 18661,
+  "unique_fact_texts": 18424,
+  "unique_query_texts": 7769,
+  "train_persons": 600,
+  "testb_persons": 600,
+  "fact_hidden_wall_sec": 368.03,
+  "query_hidden_wall_sec": 153.42,
+  "wall_sec": 612.62,
+  "source": "new multi-relation text schema encoded by frozen Ouro",
+  "ouro_learnable": false,
+  "protocol": "four relation families; same-entity, same-relation, same-value, lexical stress; query contains person+relation only"
+}

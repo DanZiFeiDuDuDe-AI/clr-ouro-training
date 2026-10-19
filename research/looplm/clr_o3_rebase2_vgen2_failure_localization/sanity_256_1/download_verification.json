@@ -1,0 +1,29 @@
+{
+  "host": "ssh.zzai.scnet.cn",
+  "port": 11810,
+  "remote": "/root/private_data/clr_o3_rebase2_vgen2_failure_localization/sanity_256_1",
+  "verified_files": [
+    {
+      "path": "COMPLETE.json",
+      "bytes": 52,
+      "sha256": "505c2b16203d4b6a51436601b15c1f37923177f46c78b85b60ac7832c8aaef11"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 314,
+      "sha256": "799981d10d2e1d14fa00733d84802e1f923cc2b9cd6931fcfc7c13c310e5ba64"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 48127,
+      "sha256": "bc1f1d1726192ca27c7f2708c5c08cf8c45a27291a0462b5fc3a6057b97a8194"
+    },
+    {
+      "path": "sanity.pt",
+      "bytes": 697893,
+      "sha256": "baebc01f0c8303e6356b4ffdda77cf18c7035fe307f0afff776d31251e4fc3da"
+    }
+  ],
+  "verified_at_unix": 1790961902.2340457,
+  "weights": 1
+}

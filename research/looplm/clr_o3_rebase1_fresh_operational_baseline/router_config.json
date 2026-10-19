@@ -1,0 +1,15 @@
+{
+  "status": "SPECIFIED_NOT_IMPLEMENTED",
+  "type": "deterministic_control_flow",
+  "actions": ["NEW", "UPDATE", "READ"],
+  "threshold": 0.8504285216331482,
+  "write": [
+    "If no occupied slots: NEW.",
+    "Else score incoming Candidate-B entity/relation factors against occupied factors.",
+    "If max score >= threshold: UPDATE(argmax occupied slot), preserving address/occupancy and writing V only.",
+    "Otherwise: NEW via O3a allocator, writing K/factors/V and setting occupancy."
+  ],
+  "read": "O21A query Q64 retrieves among occupied K64 by dot-product/0.1 argmax, then decodes the selected V64.",
+  "learned_router": false,
+  "execution": "NOT_RUN_STOPPED_AT_VGEN2_GATE"
+}

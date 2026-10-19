@@ -1,0 +1,4388 @@
+{
+  "k_aware": {
+    "train": {
+      "k_aware": true,
+      "steps": 3000,
+      "best_step": 100,
+      "best_val_macro_valid": 1.0,
+      "wall_clock_s": 35.735851899997215,
+      "params": 9348,
+      "peak_vram": {
+        "allocated_gb": 0.035915776,
+        "reserved_gb": 0.048234496
+      },
+      "logs": [
+        {
+          "step": 1,
+          "loss_valid": 0.27562177181243896,
+          "train_collision_rate": 0.65234375,
+          "val_macro_valid": 0.6619119119119119,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                272,
+                5,
+                0,
+                57
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 413,
+              "collisions": 253,
+              "valid_rate": 0.6201201201201201,
+              "collision_rate": 0.37987987987987987,
+              "per_step_valid_rate": [
+                1.0,
+                0.24024024024024024
+              ],
+              "selected_frequency": [
+                468,
+                6,
+                0,
+                192
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 487,
+              "collisions": 845,
+              "valid_rate": 0.3656156156156156,
+              "collision_rate": 0.6343843843843844,
+              "per_step_valid_rate": [
+                1.0,
+                0.16216216216216217,
+                0.12012012012012012,
+                0.18018018018018017
+              ],
+              "selected_frequency": [
+                836,
+                1,
+                0,
+                495
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 100,
+          "loss_valid": 0.5115589499473572,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                68,
+                96,
+                61,
+                109
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                162,
+                212,
+                132,
+                160
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 200,
+          "loss_valid": 0.45173677802085876,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                101,
+                81,
+                79,
+                73
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                171,
+                199,
+                159,
+                137
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 300,
+          "loss_valid": 0.30286532640457153,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                113,
+                45,
+                100,
+                76
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                183,
+                135,
+                214,
+                134
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 400,
+          "loss_valid": 8.381903171539307e-09,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                110,
+                53,
+                92,
+                79
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                207,
+                134,
+                176,
+                149
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 500,
+          "loss_valid": 0.09995876997709274,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                93,
+                62,
+                97,
+                82
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                168,
+                160,
+                186,
+                152
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 600,
+          "loss_valid": 0.05920100584626198,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                93,
+                59,
+                99,
+                83
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                174,
+                155,
+                186,
+                151
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 700,
+          "loss_valid": 1.1175870895385742e-08,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                96,
+                55,
+                105,
+                78
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                173,
+                160,
+                201,
+                132
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 800,
+          "loss_valid": 0.02423178032040596,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                94,
+                59,
+                102,
+                79
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                166,
+                171,
+                201,
+                128
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 900,
+          "loss_valid": 0.0180588997900486,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                100,
+                55,
+                113,
+                66
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                202,
+                135,
+                216,
+                113
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1000,
+          "loss_valid": 0.010710768401622772,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                100,
+                51,
+                102,
+                81
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                187,
+                141,
+                196,
+                142
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1100,
+          "loss_valid": 0.011813214980065823,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                95,
+                56,
+                102,
+                81
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                187,
+                145,
+                204,
+                130
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1200,
+          "loss_valid": 8.381903171539307e-09,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                92,
+                58,
+                102,
+                82
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                180,
+                156,
+                190,
+                140
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1300,
+          "loss_valid": 7.916241884231567e-09,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                101,
+                51,
+                101,
+                81
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                182,
+                154,
+                189,
+                141
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1400,
+          "loss_valid": 0.006159204989671707,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                91,
+                61,
+                101,
+                81
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                178,
+                159,
+                180,
+                149
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1500,
+          "loss_valid": 0.0042497459799051285,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                94,
+                59,
+                100,
+                81
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                186,
+                152,
+                183,
+                145
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1600,
+          "loss_valid": 7.916241884231567e-09,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                91,
+                61,
+                99,
+                83
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                178,
+                159,
+                186,
+                143
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1700,
+          "loss_valid": 1.3504177331924438e-08,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                94,
+                59,
+                105,
+                76
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                185,
+                152,
+                196,
+                133
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1800,
+          "loss_valid": 0.0023298554588109255,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                95,
+                53,
+                103,
+                83
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                192,
+                140,
+                188,
+                146
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1900,
+          "loss_valid": 0.0006026942282915115,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                91,
+                59,
+                105,
+                79
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                185,
+                152,
+                180,
+                149
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2000,
+          "loss_valid": 0.0018906991463154554,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                97,
+                55,
+                109,
+                73
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                183,
+                153,
+                186,
+                144
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2100,
+          "loss_valid": 0.002265819814056158,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                95,
+                54,
+                108,
+                77
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                180,
+                150,
+                185,
+                151
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2200,
+          "loss_valid": 0.0015753525076434016,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                97,
+                53,
+                113,
+                71
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                180,
+                151,
+                184,
+                151
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2300,
+          "loss_valid": 0.00133892975281924,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                95,
+                55,
+                112,
+                72
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                181,
+                151,
+                189,
+                145
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2400,
+          "loss_valid": 0.0011637487914413214,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                96,
+                52,
+                114,
+                72
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                183,
+                145,
+                198,
+                140
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2500,
+          "loss_valid": 0.00032165367156267166,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                91,
+                54,
+                116,
+                73
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                166,
+                163,
+                202,
+                135
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2600,
+          "loss_valid": 0.0012676097685471177,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                97,
+                48,
+                110,
+                79
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                178,
+                148,
+                189,
+                151
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2700,
+          "loss_valid": 9.778887033462524e-09,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                94,
+                52,
+                113,
+                75
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                173,
+                155,
+                188,
+                150
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2800,
+          "loss_valid": 0.000774362706579268,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                95,
+                50,
+                117,
+                72
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                178,
+                150,
+                197,
+                141
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2900,
+          "loss_valid": 0.00020555322407744825,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                94,
+                51,
+                111,
+                78
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                173,
+                155,
+                189,
+                149
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 3000,
+          "loss_valid": 0.0007147891446948051,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                97,
+                49,
+                114,
+                74
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                172,
+                154,
+                192,
+                148
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": true,
+            "hard_mask": false
+          }
+        }
+      ]
+    },
+    "testA_allocation": {
+      "1": {
+        "n_episodes": 334,
+        "writes": 334,
+        "valid": 334,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0
+        ],
+        "selected_frequency": [
+          73,
+          91,
+          55,
+          115
+        ]
+      },
+      "2": {
+        "n_episodes": 333,
+        "writes": 666,
+        "valid": 666,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          150,
+          216,
+          145,
+          155
+        ]
+      },
+      "4": {
+        "n_episodes": 333,
+        "writes": 1332,
+        "valid": 1332,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          333,
+          333,
+          333,
+          333
+        ]
+      },
+      "k_aware": true,
+      "hard_mask": false
+    },
+    "testB_allocation": {
+      "1": {
+        "n_episodes": 334,
+        "writes": 334,
+        "valid": 334,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0
+        ],
+        "selected_frequency": [
+          65,
+          90,
+          76,
+          103
+        ]
+      },
+      "2": {
+        "n_episodes": 333,
+        "writes": 666,
+        "valid": 666,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          159,
+          199,
+          155,
+          153
+        ]
+      },
+      "4": {
+        "n_episodes": 333,
+        "writes": 1332,
+        "valid": 1332,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          333,
+          333,
+          333,
+          333
+        ]
+      },
+      "k_aware": true,
+      "hard_mask": false
+    },
+    "testA_pipeline_N4": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.948948948948949,
+        0.93993993993994,
+        0.9519519519519519,
+        0.9099099099099099
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9376876876876877,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7837837837837838
+    },
+    "testB_pipeline_N4": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.9369369369369369,
+        0.9039039039039038,
+        0.9159159159159159,
+        0.9309309309309309
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9219219219219219,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7447447447447447
+    }
+  },
+  "k_blind": {
+    "train": {
+      "k_aware": false,
+      "steps": 3000,
+      "best_step": 100,
+      "best_val_macro_valid": 1.0,
+      "wall_clock_s": 35.79337569999916,
+      "params": 580,
+      "peak_vram": {
+        "allocated_gb": 0.035776512,
+        "reserved_gb": 0.048234496
+      },
+      "logs": [
+        {
+          "step": 1,
+          "loss_valid": 0.31395259499549866,
+          "train_collision_rate": 0.75,
+          "val_macro_valid": 0.5833333333333334,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 333,
+              "collisions": 333,
+              "valid_rate": 0.5,
+              "collision_rate": 0.5,
+              "per_step_valid_rate": [
+                1.0,
+                0.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                666
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 333,
+              "collisions": 999,
+              "valid_rate": 0.25,
+              "collision_rate": 0.75,
+              "per_step_valid_rate": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                1332
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 100,
+          "loss_valid": 0.5203712582588196,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                334,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                333,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 200,
+          "loss_valid": 0.5014733076095581,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 300,
+          "loss_valid": 0.35961779952049255,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                0,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 400,
+          "loss_valid": 0.32401859760284424,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 500,
+          "loss_valid": 0.0,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 600,
+          "loss_valid": 0.21795040369033813,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 700,
+          "loss_valid": 0.1790677309036255,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 800,
+          "loss_valid": 0.03498135134577751,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 900,
+          "loss_valid": 0.027308711782097816,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1000,
+          "loss_valid": 0.0,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1100,
+          "loss_valid": 0.08488625288009644,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1200,
+          "loss_valid": 0.056278567761182785,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1300,
+          "loss_valid": 0.0,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1400,
+          "loss_valid": 0.038764823228120804,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                334,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                333,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1500,
+          "loss_valid": 0.0319318026304245,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                0,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1600,
+          "loss_valid": 0.009478984400629997,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                334,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                333,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1700,
+          "loss_valid": 0.028656145557761192,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                0,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1800,
+          "loss_valid": 0.01957910694181919,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 1900,
+          "loss_valid": 0.0,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                334,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                333,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2000,
+          "loss_valid": 0.01059091929346323,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2100,
+          "loss_valid": 0.01380033977329731,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2200,
+          "loss_valid": 0.007903270423412323,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2300,
+          "loss_valid": 0.011753590777516365,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                334,
+                0,
+                0,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                0,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2400,
+          "loss_valid": 0.006074456498026848,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2500,
+          "loss_valid": 0.0014277796726673841,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2600,
+          "loss_valid": 0.006770992651581764,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                0,
+                334
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                0,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2700,
+          "loss_valid": 0.00414601806551218,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2800,
+          "loss_valid": 0.005603479221463203,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                0,
+                333,
+                0
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 2900,
+          "loss_valid": 0.0042634946294128895,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        },
+        {
+          "step": 3000,
+          "loss_valid": 0.003828885033726692,
+          "train_collision_rate": 0.0,
+          "val_macro_valid": 1.0,
+          "val": {
+            "1": {
+              "n_episodes": 334,
+              "writes": 334,
+              "valid": 334,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                334,
+                0
+              ]
+            },
+            "2": {
+              "n_episodes": 333,
+              "writes": 666,
+              "valid": 666,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                0,
+                0,
+                333,
+                333
+              ]
+            },
+            "4": {
+              "n_episodes": 333,
+              "writes": 1332,
+              "valid": 1332,
+              "collisions": 0,
+              "valid_rate": 1.0,
+              "collision_rate": 0.0,
+              "per_step_valid_rate": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "selected_frequency": [
+                333,
+                333,
+                333,
+                333
+              ]
+            },
+            "k_aware": false,
+            "hard_mask": false
+          }
+        }
+      ]
+    },
+    "testA_allocation": {
+      "1": {
+        "n_episodes": 334,
+        "writes": 334,
+        "valid": 334,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0
+        ],
+        "selected_frequency": [
+          0,
+          334,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "n_episodes": 333,
+        "writes": 666,
+        "valid": 666,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          0,
+          333,
+          333,
+          0
+        ]
+      },
+      "4": {
+        "n_episodes": 333,
+        "writes": 1332,
+        "valid": 1332,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          333,
+          333,
+          333,
+          333
+        ]
+      },
+      "k_aware": false,
+      "hard_mask": false
+    },
+    "testB_allocation": {
+      "1": {
+        "n_episodes": 334,
+        "writes": 334,
+        "valid": 334,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0
+        ],
+        "selected_frequency": [
+          0,
+          334,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "n_episodes": 333,
+        "writes": 666,
+        "valid": 666,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          0,
+          333,
+          333,
+          0
+        ]
+      },
+      "4": {
+        "n_episodes": 333,
+        "writes": 1332,
+        "valid": 1332,
+        "collisions": 0,
+        "valid_rate": 1.0,
+        "collision_rate": 0.0,
+        "per_step_valid_rate": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selected_frequency": [
+          333,
+          333,
+          333,
+          333
+        ]
+      },
+      "k_aware": false,
+      "hard_mask": false
+    },
+    "testA_pipeline_N4": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.993993993993994,
+        0.996996996996997,
+        1.0,
+        0.987987987987988
+      ],
+      "per_fact_answer": [
+        0.9459459459459459,
+        0.9099099099099099,
+        0.960960960960961,
+        0.9219219219219219
+      ],
+      "retrieval_accuracy": 0.9947447447447447,
+      "answer_accuracy": 0.9346846846846847,
+      "all_facts_retained_rate": 0.978978978978979,
+      "all_facts_answered_rate": 0.7657657657657657
+    },
+    "testB_pipeline_N4": {
+      "episodes": 333,
+      "writes": 1332,
+      "valid_allocation_rate": 1.0,
+      "collision_rate": 0.0,
+      "per_fact_retrieval": [
+        0.987987987987988,
+        0.993993993993994,
+        0.993993993993994,
+        1.0
+      ],
+      "per_fact_answer": [
+        0.948948948948949,
+        0.8918918918918919,
+        0.918918918918919,
+        0.9309309309309309
+      ],
+      "retrieval_accuracy": 0.993993993993994,
+      "answer_accuracy": 0.9226726726726727,
+      "all_facts_retained_rate": 0.975975975975976,
+      "all_facts_answered_rate": 0.7417417417417418
+    }
+  }
+}

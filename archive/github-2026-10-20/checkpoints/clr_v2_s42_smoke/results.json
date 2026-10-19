@@ -1,0 +1,241 @@
+{
+  "final": {
+    "persist": {
+      "t1": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 24,
+        "acc": 0.0
+      },
+      "mean_state_norm": 5.361117998758952,
+      "mean_loop_norm": 3.7249401410420737
+    },
+    "reset": {
+      "t1": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 24,
+        "acc": 0.0
+      },
+      "mean_state_norm": 5.204183419545491,
+      "mean_loop_norm": 3.1812283881008625
+    },
+    "random": {
+      "t1": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 12,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 24,
+        "acc": 0.0
+      },
+      "mean_state_norm": 5.544329822063446,
+      "mean_loop_norm": 6.2600937734047575
+    }
+  },
+  "ceiling": 0.75,
+  "seed": 42,
+  "protocol": "clr_v2 persist/reset/random",
+  "trainable_params": 1084416,
+  "latent_slots": 4,
+  "latent_dim": 64,
+  "latent_steps_train": 1,
+  "peak_vram_gb": 1.333989376,
+  "wall_clock_s": 19.61185097694397,
+  "steps": 4,
+  "s_per_step": 4.902962744235992,
+  "eval_log": [
+    {
+      "step": 2,
+      "persist": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.351030627886455,
+        "mean_loop_norm": 3.710828689237436
+      },
+      "reset": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.184476812680562,
+        "mean_loop_norm": 3.1742885957161584
+      },
+      "random": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.522569378217061,
+        "mean_loop_norm": 6.298557658990224
+      },
+      "delta_persist_reset": 0.0
+    },
+    {
+      "step": 4,
+      "persist": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.313886404037476,
+        "mean_loop_norm": 3.6862166499098143
+      },
+      "reset": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.154596408208211,
+        "mean_loop_norm": 3.1615282321969667
+      },
+      "random": {
+        "t1": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 6,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "mean_state_norm": 5.514334241549174,
+        "mean_loop_norm": 6.280222912629445
+      },
+      "delta_persist_reset": 0.0
+    }
+  ]
+}

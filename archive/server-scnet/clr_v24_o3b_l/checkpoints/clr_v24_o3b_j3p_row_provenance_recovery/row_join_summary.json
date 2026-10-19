@@ -1,0 +1,251 @@
+{
+  "verdict": "J3P-F — HISTORICAL ROW PROVENANCE CANNOT BE CERTIFIED",
+  "run_scope": "read-only source/label/order audit; no probe training, no model load/forward, no checkpoint edits",
+  "source_roots": {
+    "mr_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+    "o3b_h": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag"
+  },
+  "artifact_hashes": {
+    "token_layer_features.npz": {
+      "sha256": "81fd14e8a9e2ddae1fedad504536fed5c51505a75cf9f4e050070e46230e3481",
+      "size_bytes": 838539950
+    },
+    "MR_cache_manifest.json": {
+      "sha256": "4217381ca0bd3ba09e87a1aeb243f64292ed3cec548568f7ca509101d4df96c0",
+      "size_bytes": 914
+    }
+  },
+  "token_npz_keys": [
+    "fact_testA_entity_mention_max",
+    "fact_testA_entity_mention_mean",
+    "fact_testA_final_token",
+    "fact_testA_global_mean",
+    "fact_testA_layer_0_mention_mean",
+    "fact_testA_layer_12_mention_mean",
+    "fact_testA_layer_18_mention_mean",
+    "fact_testA_layer_23_mention_mean",
+    "fact_testA_layer_6_mention_mean",
+    "fact_testA_next_token",
+    "fact_testA_prev_token",
+    "fact_testA_relation_span_mean",
+    "fact_testB_entity_mention_max",
+    "fact_testB_entity_mention_mean",
+    "fact_testB_final_token",
+    "fact_testB_global_mean",
+    "fact_testB_layer_0_mention_mean",
+    "fact_testB_layer_12_mention_mean",
+    "fact_testB_layer_18_mention_mean",
+    "fact_testB_layer_23_mention_mean",
+    "fact_testB_layer_6_mention_mean",
+    "fact_testB_next_token",
+    "fact_testB_prev_token",
+    "fact_testB_relation_span_mean",
+    "fact_train_entity_mention_max",
+    "fact_train_entity_mention_mean",
+    "fact_train_final_token",
+    "fact_train_global_mean",
+    "fact_train_layer_0_mention_mean",
+    "fact_train_layer_12_mention_mean",
+    "fact_train_layer_18_mention_mean",
+    "fact_train_layer_23_mention_mean",
+    "fact_train_layer_6_mention_mean",
+    "fact_train_next_token",
+    "fact_train_prev_token",
+    "fact_train_relation_span_mean",
+    "fact_val_entity_mention_max",
+    "fact_val_entity_mention_mean",
+    "fact_val_final_token",
+    "fact_val_global_mean",
+    "fact_val_layer_0_mention_mean",
+    "fact_val_layer_12_mention_mean",
+    "fact_val_layer_18_mention_mean",
+    "fact_val_layer_23_mention_mean",
+    "fact_val_layer_6_mention_mean",
+    "fact_val_next_token",
+    "fact_val_prev_token",
+    "fact_val_relation_span_mean",
+    "query_testA_entity_mention_max",
+    "query_testA_entity_mention_mean",
+    "query_testA_final_token",
+    "query_testA_global_mean",
+    "query_testA_layer_0_mention_mean",
+    "query_testA_layer_12_mention_mean",
+    "query_testA_layer_18_mention_mean",
+    "query_testA_layer_23_mention_mean",
+    "query_testA_layer_6_mention_mean",
+    "query_testA_next_token",
+    "query_testA_prev_token",
+    "query_testA_relation_span_mean",
+    "query_testB_entity_mention_max",
+    "query_testB_entity_mention_mean",
+    "query_testB_final_token",
+    "query_testB_global_mean",
+    "query_testB_layer_0_mention_mean",
+    "query_testB_layer_12_mention_mean",
+    "query_testB_layer_18_mention_mean",
+    "query_testB_layer_23_mention_mean",
+    "query_testB_layer_6_mention_mean",
+    "query_testB_next_token",
+    "query_testB_prev_token",
+    "query_testB_relation_span_mean",
+    "query_train_entity_mention_max",
+    "query_train_entity_mention_mean",
+    "query_train_final_token",
+    "query_train_global_mean",
+    "query_train_layer_0_mention_mean",
+    "query_train_layer_12_mention_mean",
+    "query_train_layer_18_mention_mean",
+    "query_train_layer_23_mention_mean",
+    "query_train_layer_6_mention_mean",
+    "query_train_next_token",
+    "query_train_prev_token",
+    "query_train_relation_span_mean",
+    "query_val_entity_mention_max",
+    "query_val_entity_mention_mean",
+    "query_val_final_token",
+    "query_val_global_mean",
+    "query_val_layer_0_mention_mean",
+    "query_val_layer_12_mention_mean",
+    "query_val_layer_18_mention_mean",
+    "query_val_layer_23_mention_mean",
+    "query_val_layer_6_mention_mean",
+    "query_val_next_token",
+    "query_val_prev_token",
+    "query_val_relation_span_mean"
+  ],
+  "token_npz_id_like_keys": [],
+  "feature_arrays": {
+    "train": {
+      "key": "fact_train_entity_mention_mean",
+      "shape": [
+        4096,
+        2048
+      ],
+      "dtype": "float32"
+    },
+    "val": {
+      "key": "fact_val_entity_mention_mean",
+      "shape": [
+        2332,
+        2048
+      ],
+      "dtype": "float32"
+    },
+    "testA": {
+      "key": "fact_testA_entity_mention_mean",
+      "shape": [
+        2332,
+        2048
+      ],
+      "dtype": "float32"
+    },
+    "testB": {
+      "key": "fact_testB_entity_mention_mean",
+      "shape": [
+        2332,
+        2048
+      ],
+      "dtype": "float32"
+    }
+  },
+  "split_structure_and_labels": {
+    "train": {
+      "meta_episode_count": 5000,
+      "source_fact_count": 11665,
+      "fact_H_count": 11665,
+      "fact_offsets_count": 5001,
+      "capacity_sum": 11665,
+      "traversal_and_label_issues": [],
+      "source_label_order_pass": true,
+      "unique_canonical_ids": 11665
+    },
+    "val": {
+      "meta_episode_count": 1000,
+      "source_fact_count": 2332,
+      "fact_H_count": 2332,
+      "fact_offsets_count": 1001,
+      "capacity_sum": 2332,
+      "traversal_and_label_issues": [],
+      "source_label_order_pass": true,
+      "unique_canonical_ids": 2332
+    },
+    "testA": {
+      "meta_episode_count": 1000,
+      "source_fact_count": 2332,
+      "fact_H_count": 2332,
+      "fact_offsets_count": 1001,
+      "capacity_sum": 2332,
+      "traversal_and_label_issues": [],
+      "source_label_order_pass": true,
+      "unique_canonical_ids": 2332
+    },
+    "testB": {
+      "meta_episode_count": 1000,
+      "source_fact_count": 2332,
+      "fact_H_count": 2332,
+      "fact_offsets_count": 1001,
+      "capacity_sum": 2332,
+      "traversal_and_label_issues": [],
+      "source_label_order_pass": true,
+      "unique_canonical_ids": 2332
+    }
+  },
+  "strict_structural_row_join_pass": false,
+  "prefix_count_equality_is_not_identity_evidence": true,
+  "prefix_join_summary": {
+    "train": {
+      "source_facts_full": 11665,
+      "historical_feature_rows": 4096,
+      "candidate_prefix_rows": 4096,
+      "source_rows_outside_candidate_prefix": 7569,
+      "candidate_ids_unique_by_construction": true,
+      "candidate_prefix_count_match": true,
+      "strict_identity_join_certified": false,
+      "reason": "feature NPZ has no row/sample/fact IDs and extractor traversal/manifest is absent"
+    },
+    "val": {
+      "source_facts_full": 2332,
+      "historical_feature_rows": 2332,
+      "candidate_prefix_rows": 2332,
+      "source_rows_outside_candidate_prefix": 0,
+      "candidate_ids_unique_by_construction": true,
+      "candidate_prefix_count_match": true,
+      "strict_identity_join_certified": false,
+      "reason": "feature NPZ has no row/sample/fact IDs and extractor traversal/manifest is absent"
+    },
+    "testA": {
+      "source_facts_full": 2332,
+      "historical_feature_rows": 2332,
+      "candidate_prefix_rows": 2332,
+      "source_rows_outside_candidate_prefix": 0,
+      "candidate_ids_unique_by_construction": true,
+      "candidate_prefix_count_match": true,
+      "strict_identity_join_certified": false,
+      "reason": "feature NPZ has no row/sample/fact IDs and extractor traversal/manifest is absent"
+    },
+    "testB": {
+      "source_facts_full": 2332,
+      "historical_feature_rows": 2332,
+      "candidate_prefix_rows": 2332,
+      "source_rows_outside_candidate_prefix": 0,
+      "candidate_ids_unique_by_construction": true,
+      "candidate_prefix_count_match": true,
+      "strict_identity_join_certified": false,
+      "reason": "feature NPZ has no row/sample/fact IDs and extractor traversal/manifest is absent"
+    }
+  },
+  "semantic_label_audit": {
+    "sample_count": 64,
+    "all_sample_checks_pass": true,
+    "source_array_label_checks_evaluated_over_all_rows": true,
+    "person_and_value_literal_checks_evaluated_on_sample": true
+  },
+  "historical_extraction_provenance_missing": [
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag/O3b-H token/mention feature extraction source",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag/row/sample/fact ID manifest or extraction-order sidecar",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag/tokenizer name/revision and tokenization config",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_h_entity_carrier_diag/mention span/token selection rule and per-row selected indices"
+  ],
+  "feature_reextraction": "NOT RUN: historical tokenizer, mention locator, selected state/pooling, and row order are unrecovered; speculative re-extraction would not validate old cache semantics",
+  "old_results_interpretation": "Historical probe results remain numerically reproducible but lack certifiable row-level semantic provenance."
+}

@@ -1,0 +1,4 @@
+# Only the SSH transfer helpers need this package.
+# Release restoration additionally needs zstandard; manifest verification is stdlib-only.
+paramiko>=3.3,<6
+zstandard>=0.22,<1

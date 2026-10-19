@@ -1,0 +1,19 @@
+=== H2-v2 offline teacher cache (fixed seed) ===
+protocol: seed=42 600-replay | 150-heldout-skip | 600 train
+loading teacher (original Ouro)...
+loaded 10s
+  cached 50 trajectories (105 turns) 48s
+  cached 100 trajectories (213 turns) 87s
+  cached 150 trajectories (320 turns) 126s
+  cached 200 trajectories (429 turns) 165s
+  cached 250 trajectories (528 turns) 201s
+  cached 300 trajectories (630 turns) 238s
+  cached 350 trajectories (735 turns) 276s
+  cached 400 trajectories (842 turns) 316s
+  cached 450 trajectories (942 turns) 353s
+  cached 500 trajectories (1046 turns) 390s
+  cached 550 trajectories (1153 turns) 429s
+
+cached 600 trajectories, 1254 turns (466s)
+manifest: D:/training/teacher_cache_v2_manifest.json
+H2V2 CACHE OK

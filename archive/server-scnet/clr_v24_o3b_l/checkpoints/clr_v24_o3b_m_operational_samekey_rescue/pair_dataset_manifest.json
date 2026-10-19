@@ -1,0 +1,90 @@
+{
+  "pair_construction": {
+    "testA": {
+      "p1_available": 1162,
+      "p1_different_object_value_available": 0,
+      "p2_available": 4432,
+      "p3_sampled": 1162,
+      "p4_sampled": 1162,
+      "pair_endpoint_ids_unique_to_this_source_split": true,
+      "pair_types_balanced": true,
+      "sampled_pairs_per_type": 1162,
+      "sampled_total": 4648,
+      "source_rows": 2332,
+      "split": "testA"
+    },
+    "testB": {
+      "p1_available": 1121,
+      "p1_different_object_value_available": 0,
+      "p2_available": 4313,
+      "p3_sampled": 1121,
+      "p4_sampled": 1121,
+      "pair_endpoint_ids_unique_to_this_source_split": true,
+      "pair_types_balanced": true,
+      "sampled_pairs_per_type": 1121,
+      "sampled_total": 4484,
+      "source_rows": 2332,
+      "split": "testB"
+    },
+    "train": {
+      "p1_available": 28389,
+      "p1_different_object_value_available": 0,
+      "p2_available": 89151,
+      "p3_sampled": 8000,
+      "p4_sampled": 8000,
+      "pair_endpoint_ids_unique_to_this_source_split": true,
+      "pair_types_balanced": true,
+      "sampled_pairs_per_type": 8000,
+      "sampled_total": 32000,
+      "source_rows": 11665,
+      "split": "train"
+    },
+    "val": {
+      "p1_available": 1137,
+      "p1_different_object_value_available": 0,
+      "p2_available": 4515,
+      "p3_sampled": 1137,
+      "p4_sampled": 1137,
+      "pair_endpoint_ids_unique_to_this_source_split": true,
+      "pair_types_balanced": true,
+      "sampled_pairs_per_type": 1137,
+      "sampled_total": 4548,
+      "source_rows": 2332,
+      "split": "val"
+    }
+  },
+  "source_id_overlap": {
+    "testA-testB": 0,
+    "train-testA": 0,
+    "train-testB": 0,
+    "train-val": 0,
+    "val-testA": 0,
+    "val-testB": 0
+  },
+  "split_pair_counts": {
+    "testA": {
+      "P1": 1162,
+      "P2": 1162,
+      "P3": 1162,
+      "P4": 1162
+    },
+    "testB": {
+      "P1": 1121,
+      "P2": 1121,
+      "P3": 1121,
+      "P4": 1121
+    },
+    "train": {
+      "P1": 8000,
+      "P2": 8000,
+      "P3": 8000,
+      "P4": 8000
+    },
+    "val": {
+      "P1": 1137,
+      "P2": 1137,
+      "P3": 1137,
+      "P4": 1137
+    }
+  }
+}

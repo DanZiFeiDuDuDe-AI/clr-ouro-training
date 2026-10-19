@@ -1,0 +1,165 @@
+============================================================
+CLR Phase 1 v2 - CLUTRR Local (verified data, no-LoRA diagnostic)
+Model: Qwen3.5-0.8B | GPU: NVIDIA GeForce GTX 1650 (4.0GB)
+DS=256 | FiLM=[3, 7, 11, 15, 19, 23] | steps=400 | LR=0.0003 | LoRA=False | coh_w=0.05 | probe_w=0.2
+============================================================
+Seed: 42 | Data seed: 42
+
+Generating verified CLUTRR data...
+train=600 eval=100 | memoryless ceiling: turns>=2 0.536, all turns 0.496
+
+Loading Qwen3.5-0.8B (4-bit)...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/320 [00:11<59:13, 11.14s/it]
+Loading weights:   2%|▏         | 6/320 [00:11<07:17,  1.39s/it]
+Loading weights:   3%|▎         | 10/320 [00:11<03:44,  1.38it/s]
+Loading weights:   4%|▍         | 13/320 [00:11<02:33,  2.00it/s]
+Loading weights:   7%|▋         | 22/320 [00:12<01:04,  4.62it/s]
+Loading weights:   8%|▊         | 25/320 [00:12<00:51,  5.68it/s]
+Loading weights:   9%|▉         | 28/320 [00:12<00:45,  6.45it/s]
+Loading weights:  11%|█▏        | 36/320 [00:12<00:28, 10.12it/s]
+Loading weights:  12%|█▏        | 39/320 [00:12<00:24, 11.27it/s]
+Loading weights:  13%|█▎        | 42/320 [00:13<00:24, 11.29it/s]
+Loading weights:  14%|█▍        | 45/320 [00:13<00:20, 13.16it/s]
+Loading weights:  15%|█▌        | 48/320 [00:13<00:19, 13.98it/s]
+Loading weights:  17%|█▋        | 53/320 [00:13<00:16, 15.75it/s]
+Loading weights:  19%|█▉        | 61/320 [00:13<00:12, 20.53it/s]
+Loading weights:  20%|██        | 64/320 [00:14<00:12, 20.51it/s]
+Loading weights:  21%|██        | 67/320 [00:14<00:16, 15.41it/s]
+Loading weights:  23%|██▎       | 75/320 [00:14<00:12, 20.29it/s]
+Loading weights:  24%|██▍       | 78/320 [00:14<00:11, 21.30it/s]
+Loading weights:  25%|██▌       | 81/320 [00:15<00:13, 17.80it/s]
+Loading weights:  28%|██▊       | 89/320 [00:15<00:09, 25.13it/s]
+Loading weights:  29%|██▉       | 92/320 [00:15<00:08, 25.80it/s]
+Loading weights:  30%|██▉       | 95/320 [00:15<00:11, 20.06it/s]
+Loading weights:  31%|███       | 99/320 [00:15<00:10, 20.76it/s]
+Loading weights:  32%|███▏      | 103/320 [00:15<00:09, 24.07it/s]
+Loading weights:  33%|███▎      | 106/320 [00:15<00:09, 22.87it/s]
+Loading weights:  36%|███▌      | 114/320 [00:16<00:06, 29.74it/s]
+Loading weights:  37%|███▋      | 118/320 [00:16<00:07, 25.94it/s]
+Loading weights:  38%|███▊      | 121/320 [00:16<00:08, 22.31it/s]
+Loading weights:  40%|████      | 128/320 [00:16<00:06, 27.47it/s]
+Loading weights:  41%|████      | 131/320 [00:16<00:07, 26.99it/s]
+Loading weights:  42%|████▏     | 134/320 [00:17<00:13, 14.24it/s]
+Loading weights:  44%|████▍     | 142/320 [00:17<00:08, 20.93it/s]
+Loading weights:  45%|████▌     | 145/320 [00:17<00:07, 22.22it/s]
+Loading weights:  46%|████▋     | 148/320 [00:18<00:10, 17.20it/s]
+Loading weights:  47%|████▋     | 151/320 [00:18<00:08, 19.15it/s]
+Loading weights:  48%|████▊     | 154/320 [00:18<00:14, 11.79it/s]
+Loading weights:  49%|████▉     | 157/320 [00:18<00:13, 12.22it/s]
+Loading weights:  50%|████▉     | 159/320 [00:19<00:12, 12.62it/s]
+Loading weights:  52%|█████▏    | 167/320 [00:19<00:11, 13.74it/s]
+Loading weights:  53%|█████▎    | 169/320 [00:19<00:11, 13.11it/s]
+Loading weights:  53%|█████▎    | 171/320 [00:19<00:11, 13.02it/s]
+Loading weights:  54%|█████▍    | 173/320 [00:20<00:13, 11.10it/s]
+Loading weights:  57%|█████▋    | 181/320 [00:20<00:09, 15.37it/s]
+Loading weights:  57%|█████▋    | 183/320 [00:20<00:08, 15.33it/s]
+Loading weights:  58%|█████▊    | 185/320 [00:20<00:10, 13.39it/s]
+Loading weights:  58%|█████▊    | 187/320 [00:21<00:10, 12.54it/s]
+Loading weights:  61%|██████    | 195/320 [00:21<00:06, 18.83it/s]
+Loading weights:  62%|██████▏   | 198/320 [00:21<00:06, 19.12it/s]
+Loading weights:  62%|██████▎   | 200/320 [00:21<00:08, 13.79it/s]
+Loading weights:  63%|██████▎   | 202/320 [00:22<00:09, 12.96it/s]
+Loading weights:  64%|██████▍   | 204/320 [00:22<00:08, 13.99it/s]
+Loading weights:  64%|██████▍   | 206/320 [00:22<00:09, 11.78it/s]
+Loading weights:  66%|██████▋   | 212/320 [00:22<00:06, 17.39it/s]
+Loading weights:  69%|██████▉   | 220/320 [00:22<00:04, 22.48it/s]
+Loading weights:  70%|██████▉   | 223/320 [00:22<00:04, 22.88it/s]
+Loading weights:  71%|███████   | 226/320 [00:23<00:05, 17.68it/s]
+Loading weights:  73%|███████▎  | 234/320 [00:23<00:05, 16.38it/s]
+Loading weights:  74%|███████▍  | 237/320 [00:23<00:04, 17.58it/s]
+Loading weights:  75%|███████▌  | 240/320 [00:24<00:05, 14.91it/s]
+Loading weights:  78%|███████▊  | 248/320 [00:24<00:03, 21.33it/s]
+Loading weights:  78%|███████▊  | 251/320 [00:24<00:03, 21.82it/s]
+Loading weights:  79%|███████▉  | 254/320 [00:24<00:04, 16.48it/s]
+Loading weights:  81%|████████  | 258/320 [00:25<00:03, 15.85it/s]
+Loading weights:  81%|████████▏ | 260/320 [00:25<00:03, 15.53it/s]
+Loading weights:  82%|████████▏ | 263/320 [00:25<00:03, 17.10it/s]
+Loading weights:  83%|████████▎ | 265/320 [00:25<00:03, 15.12it/s]
+Loading weights:  85%|████████▌ | 273/320 [00:25<00:02, 21.69it/s]
+Loading weights:  86%|████████▋ | 276/320 [00:25<00:01, 22.37it/s]
+Loading weights:  87%|████████▋ | 279/320 [00:26<00:02, 15.81it/s]
+Loading weights:  90%|████████▉ | 287/320 [00:26<00:01, 23.27it/s]
+Loading weights:  91%|█████████ | 290/320 [00:26<00:01, 23.64it/s]
+Loading weights:  92%|█████████▏| 293/320 [00:26<00:01, 18.53it/s]
+Loading weights:  94%|█████████▍| 301/320 [00:27<00:00, 25.40it/s]
+Loading weights:  95%|█████████▌| 304/320 [00:27<00:00, 25.46it/s]
+Loading weights:  96%|█████████▌| 307/320 [00:27<00:00, 17.73it/s]
+Loading weights:  97%|█████████▋| 310/320 [00:27<00:00, 19.63it/s]
+Loading weights:  98%|█████████▊| 313/320 [00:27<00:00, 18.71it/s]
+Loading weights:  99%|█████████▉| 316/320 [00:27<00:00, 19.95it/s]
+Loading weights: 100%|█████████▉| 319/320 [00:28<00:00, 21.07it/s]
+Loading weights: 100%|██████████| 320/320 [00:28<00:00, 11.42it/s]
+Model: Qwen3.5-0.8B | hidden_size=1024 | layers=24
+FiLM injected into 6 layers
+Trainable params: 2.24M
+
+Training: 400 steps...
+  step   10/400 | gen=13.1643 coh=4.530 probe=2.567 probe_acc=0/2 |S|=7.26 | lr=1.50e-04
+  step   20/400 | gen=4.6913 coh=6.798 probe=2.760 probe_acc=0/2 |S|=11.98 | lr=3.00e-04
+  step   30/400 | gen=1.9537 coh=7.891 probe=2.480 probe_acc=0/2 |S|=14.61 | lr=2.99e-04
+  step   40/400 | gen=2.3911 coh=5.130 probe=3.420 probe_acc=0/3 |S|=14.67 | lr=2.98e-04
+  step   50/400 | gen=0.6312 coh=7.481 probe=2.583 probe_acc=0/2 |S|=14.58 | lr=2.95e-04
+  step   60/400 | gen=0.1247 coh=14.190 probe=2.904 probe_acc=0/1 |S|=14.39 | lr=2.92e-04
+  step   70/400 | gen=1.4008 coh=7.195 probe=1.795 probe_acc=1/2 |S|=14.34 | lr=2.87e-04
+  step   80/400 | gen=0.0603 coh=13.940 probe=2.349 probe_acc=0/1 |S|=14.20 | lr=2.82e-04
+  step   90/400 | gen=1.6514 coh=7.123 probe=2.810 probe_acc=0/2 |S|=14.17 | lr=2.76e-04
+  step  100/400 | gen=0.7209 coh=5.195 probe=3.099 probe_acc=0/3 |S|=14.12 | lr=2.68e-04
+
+  Eval at step 100 (5.5 min elapsed)...
+  EVAL s100: t2p w=0.391 wo=0.065 d=+0.326 (ceiling 0.536) | t1 w=1.000 wo=0.810 | last w=0.450 wo=0.060 | all w=0.647 wo=0.378
+  -> saved best (delta_t2p=+0.326)
+  step  110/400 | gen=1.1667 coh=4.633 probe=3.047 probe_acc=0/3 |S|=14.00 | lr=2.60e-04
+  step  120/400 | gen=0.1750 coh=6.851 probe=2.376 probe_acc=0/2 |S|=14.04 | lr=2.52e-04
+  step  130/400 | gen=0.3929 coh=7.000 probe=2.900 probe_acc=0/2 |S|=14.01 | lr=2.42e-04
+  step  140/400 | gen=1.0488 coh=6.812 probe=2.252 probe_acc=0/2 |S|=13.98 | lr=2.32e-04
+  step  150/400 | gen=0.9965 coh=6.765 probe=2.006 probe_acc=1/2 |S|=13.92 | lr=2.21e-04
+  step  160/400 | gen=0.2483 coh=6.812 probe=2.256 probe_acc=1/2 |S|=13.87 | lr=2.10e-04
+  step  170/400 | gen=0.5512 coh=4.456 probe=2.699 probe_acc=0/3 |S|=13.80 | lr=1.99e-04
+  step  180/400 | gen=0.0987 coh=13.114 probe=2.222 probe_acc=0/1 |S|=13.68 | lr=1.87e-04
+  step  190/400 | gen=0.2810 coh=7.252 probe=2.180 probe_acc=1/2 |S|=13.66 | lr=1.75e-04
+  step  200/400 | gen=0.0355 coh=12.990 probe=2.403 probe_acc=0/1 |S|=13.66 | lr=1.62e-04
+
+  Eval at step 200 (19.9 min elapsed)...
+  EVAL s200: t2p w=0.413 wo=0.065 d=+0.348 (ceiling 0.536) | t1 w=1.000 wo=0.810 | last w=0.450 wo=0.060 | all w=0.660 wo=0.378
+  -> saved best (delta_t2p=+0.348)
+  step  210/400 | gen=0.1317 coh=6.534 probe=2.514 probe_acc=0/2 |S|=13.69 | lr=1.50e-04
+  step  220/400 | gen=0.1446 coh=12.961 probe=2.105 probe_acc=0/1 |S|=13.67 | lr=1.38e-04
+  step  230/400 | gen=0.0390 coh=12.905 probe=1.761 probe_acc=1/1 |S|=13.65 | lr=1.25e-04
+  step  240/400 | gen=0.0256 coh=12.819 probe=2.599 probe_acc=0/1 |S|=13.58 | lr=1.13e-04
+  step  250/400 | gen=0.9884 coh=4.410 probe=2.864 probe_acc=0/3 |S|=13.65 | lr=1.01e-04
+  step  260/400 | gen=0.3152 coh=6.505 probe=3.023 probe_acc=0/2 |S|=13.64 | lr=8.97e-05
+  step  270/400 | gen=0.0593 coh=12.889 probe=2.472 probe_acc=0/1 |S|=13.65 | lr=7.86e-05
+  step  280/400 | gen=0.2638 coh=6.475 probe=2.606 probe_acc=0/2 |S|=13.69 | lr=6.80e-05
+  step  290/400 | gen=0.7803 coh=6.465 probe=2.749 probe_acc=0/2 |S|=13.69 | lr=5.79e-05
+  step  300/400 | gen=0.7918 coh=6.475 probe=2.718 probe_acc=0/2 |S|=13.69 | lr=4.84e-05
+
+  Eval at step 300 (33.7 min elapsed)...
+  EVAL s300: t2p w=0.478 wo=0.065 d=+0.413 (ceiling 0.536) | t1 w=1.000 wo=0.810 | last w=0.460 wo=0.060 | all w=0.697 wo=0.378
+  -> saved best (delta_t2p=+0.413)
+  step  310/400 | gen=0.7458 coh=4.318 probe=3.119 probe_acc=0/3 |S|=13.65 | lr=3.96e-05
+  step  320/400 | gen=0.5017 coh=6.461 probe=2.294 probe_acc=1/2 |S|=13.67 | lr=3.16e-05
+  step  330/400 | gen=1.1332 coh=4.320 probe=2.244 probe_acc=1/3 |S|=13.65 | lr=2.44e-05
+  step  340/400 | gen=0.3157 coh=6.442 probe=2.989 probe_acc=0/2 |S|=13.64 | lr=1.81e-05
+  step  350/400 | gen=0.4958 coh=6.440 probe=2.988 probe_acc=0/2 |S|=13.64 | lr=1.26e-05
+  step  360/400 | gen=0.0142 coh=12.923 probe=2.161 probe_acc=0/1 |S|=13.69 | lr=8.13e-06
+  step  370/400 | gen=0.4921 coh=4.317 probe=2.652 probe_acc=0/3 |S|=13.66 | lr=4.59e-06
+  step  380/400 | gen=0.7289 coh=4.314 probe=2.319 probe_acc=1/3 |S|=13.64 | lr=2.05e-06
+  step  390/400 | gen=0.7389 coh=6.462 probe=2.352 probe_acc=0/2 |S|=13.65 | lr=5.12e-07
+  step  400/400 | gen=0.3661 coh=4.313 probe=2.973 probe_acc=0/3 |S|=13.63 | lr=0.00e+00
+
+  Eval at step 400 (48.2 min elapsed)...
+  EVAL s400: t2p w=0.471 wo=0.065 d=+0.406 (ceiling 0.536) | t1 w=1.000 wo=0.810 | last w=0.450 wo=0.060 | all w=0.693 wo=0.378
+
+============================================================
+Results (t2p = memory-dependent turns >=2)
+  s 100: t2p 0.391/0.065 d=+0.326 | t1 1.000/0.810 | all 0.647/0.378
+  s 200: t2p 0.413/0.065 d=+0.348 | t1 1.000/0.810 | all 0.660/0.378
+  s 300: t2p 0.478/0.065 d=+0.413 | t1 1.000/0.810 | all 0.697/0.378
+  s 400: t2p 0.471/0.065 d=+0.406 | t1 1.000/0.810 | all 0.693/0.378
+  memoryless ceiling (t2p): 0.536
+
+Done in 56.4 min. H:\CLR/checkpoints/phase_d_ds256_s42/

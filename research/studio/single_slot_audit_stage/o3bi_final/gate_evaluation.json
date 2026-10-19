@@ -1,0 +1,13 @@
+{
+  "baseline_reproduced": true,
+  "diagnostic_only": true,
+  "verdict": "O3b-I: WRITE-STATE SELECTION IS A MAJOR ADDRESSING BOTTLENECK",
+  "reconnect": false,
+  "o3c": false,
+  "best_variant": "I1_pure_mention_mean",
+  "best_testB_variant_diagnostic": "I1_pure_mention_mean",
+  "state_selection_entity_gain": 0.2580045740423099,
+  "projection_residual": true,
+  "no_keyencoder_change": true,
+  "no_oracle_labels_in_inference": true
+}

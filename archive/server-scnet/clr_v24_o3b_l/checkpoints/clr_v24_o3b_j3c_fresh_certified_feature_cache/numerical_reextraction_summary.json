@@ -1,0 +1,21 @@
+{
+  "max_abs_diff_observed": 0.0,
+  "max_mean_abs_diff_observed": 0.0,
+  "min_cosine_similarity_observed": 0.9999999403953552,
+  "pass": true,
+  "predeclared_tolerance": {
+    "basis": "bf16 model computation, float32 cache, same device/software and identical original batch composition",
+    "max_abs_diff": 0.001,
+    "mean_abs_diff": 0.0001,
+    "min_cosine_similarity": 0.99999
+  },
+  "retokenization_pass": true,
+  "retokenization_rows": 256,
+  "rows_by_split": {
+    "testA": 64,
+    "testB": 64,
+    "train": 64,
+    "val": 64
+  },
+  "sample_rows": 256
+}

@@ -1,0 +1,6 @@
+{
+  "requested": "cuda",
+  "selected": "cuda",
+  "cuda_available": true,
+  "cuda_name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

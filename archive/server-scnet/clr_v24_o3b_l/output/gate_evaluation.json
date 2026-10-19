@@ -1,0 +1,9 @@
+{
+  "diagnostic_only": true,
+  "reconnect": false,
+  "o3c": false,
+  "production_architecture_changed": false,
+  "new_projection_trained": false,
+  "repeated_v_update_contamination": "unresolved; not touched",
+  "stop_rule": "O3b-L complete; stop after report"
+}

@@ -1,0 +1,9 @@
+{
+  "streaming_multivolume_roundtrip": true,
+  "verify_only": true,
+  "different_file_preserved": true,
+  "corrupt_part_rejected": true,
+  "fixture_parts": 25,
+  "fixture_objects": 2,
+  "training_or_evaluation_run": false
+}

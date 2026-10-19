@@ -1,0 +1,28 @@
+{
+  "supervised": {
+    "correct_k_zero_retrieval": 0.09540719787279765,
+    "wrong_k_swap": {
+      "retrieval": 0.0043290043249726295,
+      "switch_to_alt": 0.9887378215789795,
+      "answer_original": 0.17867288986841837
+    },
+    "full_kv_permutation": {
+      "retrieval": 0.9887378215789795,
+      "answer": 0.9263054728507996
+    },
+    "fact_order_permutation_retrieval": 0.9887378215789795
+  },
+  "learned": {
+    "correct_k_zero_retrieval": 0.09625270466009776,
+    "wrong_k_swap": {
+      "retrieval": 0.0,
+      "switch_to_alt": 0.9887378215789795,
+      "answer_original": 0.17434388399124146
+    },
+    "full_kv_permutation": {
+      "retrieval": 0.9887378215789795,
+      "answer": 0.9263054728507996
+    },
+    "fact_order_permutation_retrieval": 0.9887378215789795
+  }
+}

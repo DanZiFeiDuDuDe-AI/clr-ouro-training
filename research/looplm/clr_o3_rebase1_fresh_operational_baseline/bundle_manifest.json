@@ -1,0 +1,14 @@
+{
+  "bundle_id": "clr_o3_rebase_bundle_v1",
+  "status": "NOT_CREATED",
+  "reason": "VGen2 standalone validation gate failed; O3a and integration were not run.",
+  "included_as_diagnostic_only": [
+    {"component": "O21A rebase", "path": "components/o21a/o21a_rebase.pt", "sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced", "gate": "PASS"},
+    {"component": "VGen2 rebase", "path": "components/vgen2/vgen2_rebase.pt", "sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd", "gate": "FAIL"}
+  ],
+  "frozen_candidate_b_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "rule_a_threshold": 0.8504285216331482,
+  "allocator": "NOT_RUN",
+  "router": "specified only; not integrated",
+  "bundle_frozen": false
+}

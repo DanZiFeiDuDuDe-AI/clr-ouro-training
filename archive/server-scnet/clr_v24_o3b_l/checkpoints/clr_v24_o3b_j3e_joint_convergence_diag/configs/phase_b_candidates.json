@@ -1,0 +1,29 @@
+{
+  "selection_is_train_validation_only": true,
+  "test_metrics_read": false,
+  "screening_steps": 250,
+  "selection_rule": "retain best AdamW and best SGD by R1/R2 mean validation CE; add a same-LR AdamW weight-decay contrast, using the strongest screened nonzero decay if the best AdamW is wd=0",
+  "phase_b_candidates": [
+    {
+      "optimizer": "AdamW",
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "validation_ce_last2_mean_R1_R2": 0.44207840062326825,
+      "validation_accuracy_last2_mean_R1_R2": 0.8699609882964889
+    },
+    {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.1,
+      "weight_decay": 0.0,
+      "validation_ce_last2_mean_R1_R2": 1.63776115579575,
+      "validation_accuracy_last2_mean_R1_R2": 0.6218032076289554
+    },
+    {
+      "optimizer": "AdamW",
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "validation_ce_last2_mean_R1_R2": 0.4421094360044305,
+      "validation_accuracy_last2_mean_R1_R2": 0.8698526224534027
+    }
+  ]
+}

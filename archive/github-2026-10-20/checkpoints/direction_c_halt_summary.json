@@ -1,0 +1,178 @@
+{
+  "title": "Direction C S->halting prototype \u2014 consolidated results",
+  "date": "2026-07-25",
+  "baseline_residual_cw0p02_n150": {
+    "path": "D:/LoopLM/checkpoints/clr_ouro_v1_halt_s42",
+    "with_t2p": {
+      "correct": 76,
+      "total": 150,
+      "acc": 0.5066666666666667
+    },
+    "without_t2p": {
+      "correct": 0,
+      "total": 150,
+      "acc": 0.0
+    },
+    "delta": 0.5066666666666667,
+    "E_exit_with": 2.998854166666667,
+    "note": "additive bias on frozen gate; exit stuck at ~3.0"
+  },
+  "halt_only_residual_cw0p5_n150": {
+    "path": "D:/LoopLM/checkpoints/clr_ouro_v1_halt_s42_cw0p5",
+    "with_t2p": {
+      "correct": 76,
+      "total": 150,
+      "acc": 0.5066666666666667
+    },
+    "without_t2p": {
+      "correct": 0,
+      "total": 150,
+      "acc": 0.0
+    },
+    "delta": 0.5066666666666667,
+    "E_exit_with": 2.997916666666667,
+    "note": "stronger compute loss still cannot move pretrained early-exit distribution"
+  },
+  "replace_mode_halt_only_cw0p3": {
+    "path": "D:/LoopLM/checkpoints/clr_ouro_v1_halt_s42_cw0p3_rep_ho",
+    "config": {
+      "CLR_HALT_REPLACE": true,
+      "CLR_HALT_ONLY": true,
+      "CLR_COMPUTE_W": 0.3,
+      "CLR_HALT_GAIN": 5.0,
+      "CLR_HALT_LR": 0.001,
+      "steps": 200,
+      "warm": "clr_ouro_v1_s42/best_model.pt (controller only)"
+    },
+    "train_eval_curve": [
+      {
+        "step": 50,
+        "with_acc": 0.4737,
+        "k": 18,
+        "n": 38,
+        "without_acc": 0.0,
+        "delta": 0.4737,
+        "E_exit": 1.459,
+        "score": 0.2548
+      },
+      {
+        "step": 100,
+        "with_acc": 0.4737,
+        "k": 18,
+        "n": 38,
+        "without_acc": 0.0,
+        "delta": 0.4737,
+        "E_exit": 1.702,
+        "score": 0.2184
+      },
+      {
+        "step": 150,
+        "with_acc": 0.4737,
+        "k": 18,
+        "n": 38,
+        "without_acc": 0.0,
+        "delta": 0.4737,
+        "E_exit": 1.795,
+        "score": 0.2044
+      },
+      {
+        "step": 200,
+        "with_acc": 0.5,
+        "k": 19,
+        "n": 38,
+        "without_acc": 0.0,
+        "delta": 0.5,
+        "E_exit": 1.805,
+        "score": 0.2293
+      }
+    ],
+    "best_ckpt_step_from_train": 200,
+    "final_eval_n12": {
+      "ckpt": "D:/LoopLM/checkpoints/clr_ouro_v1_halt_s42_cw0p3_rep_ho/best_model.pt",
+      "n": 12,
+      "seed": 42,
+      "replace": true,
+      "with_S": {
+        "t1": {
+          "correct": 12,
+          "total": 12,
+          "acc": 1.0
+        },
+        "t2p": {
+          "correct": 6,
+          "total": 12,
+          "acc": 0.5
+        },
+        "last": {
+          "correct": 7,
+          "total": 12,
+          "acc": 0.5833333333333334
+        },
+        "all": {
+          "correct": 18,
+          "total": 24,
+          "acc": 0.75
+        },
+        "mean_expected_exit": 1.8225911458333333,
+        "mean_gate_lambda": [
+          0.3919270833333333,
+          4.556030035018921e-06,
+          1.1535982290903728e-06,
+          2.269322673479716e-06
+        ]
+      },
+      "without_S": {
+        "t1": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "t2p": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "last": {
+          "correct": 0,
+          "total": 12,
+          "acc": 0.0
+        },
+        "all": {
+          "correct": 0,
+          "total": 24,
+          "acc": 0.0
+        },
+        "mean_expected_exit": 2.96484375,
+        "mean_gate_lambda": [
+          2.247591813405355e-07,
+          3.7656476100285846e-07,
+          0.03573195139567057,
+          0.531005859375
+        ]
+      },
+      "delta_t2p": 0.5,
+      "ceiling": 0.75,
+      "ckpt_step": 200,
+      "ckpt_score": 0.22926682692307693
+    },
+    "interpretation": [
+      "Replacing backbone early_exit_gate with S-conditioned logits moves E[exit] from ~3.0 to ~1.5-1.8.",
+      "During-train quick eval keeps delta_t2p ~+0.47 to +0.50 with without_S=0.",
+      "n=12 held-out style eval: with=50%, without=0%, E[exit]=1.82; gate mass concentrates on loop0 (~0.39) then near-zero later lambdas (geometric remaining forces late mass via residual PDF).",
+      "Additive residual bias onto frozen gate is insufficient (early lambda\u0007pprox0 saturates). Replace mode is the first working Direction C mechanism on this stack."
+    ]
+  },
+  "artifacts": {
+    "code": [
+      "D:/LoopLM/clr_ouro.py (HaltGate gain+replace)",
+      "D:/LoopLM/_train_clr_ouro_v1_halt.py",
+      "D:/LoopLM/_eval_halt_ckpt.py"
+    ],
+    "logs": [
+      "D:/LoopLM/tmp/train_v1_halt_full.log",
+      "D:/LoopLM/tmp/train_v1_halt_cw05.log",
+      "D:/LoopLM/tmp/train_v1_halt_rep.log",
+      "D:/LoopLM/tmp/eval_halt_smoke.log"
+    ]
+  }
+}

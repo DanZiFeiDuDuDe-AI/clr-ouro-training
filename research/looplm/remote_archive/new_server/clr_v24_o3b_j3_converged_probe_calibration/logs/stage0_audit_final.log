@@ -1,0 +1,1 @@
+{"stage0": "FAIL", "critical_failures": ["O3b-H token feature rows cannot be strictly cross-joined to MR fact IDs: no row IDs/indices in NPZ and extraction manifest/source is absent"], "checkpoint_sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570", "elapsed_seconds": 23.119254914985504}

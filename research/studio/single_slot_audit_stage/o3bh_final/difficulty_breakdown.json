@@ -1,0 +1,86 @@
+{
+  "testA": {
+    "episode_type:mixed": {
+      "n": 516,
+      "accuracy": 0.7558139534883721
+    },
+    "episode_type:same_entity": {
+      "n": 482,
+      "accuracy": 0.7614107883817427
+    },
+    "episode_type:same_relation": {
+      "n": 464,
+      "accuracy": 0.7672413793103449
+    },
+    "episode_type:lexical_stress": {
+      "n": 272,
+      "accuracy": 0.6985294117647058
+    },
+    "episode_type:single": {
+      "n": 334,
+      "accuracy": 0.8023952095808383
+    },
+    "episode_type:same_value": {
+      "n": 264,
+      "accuracy": 0.7537878787878788
+    },
+    "relation:0": {
+      "n": 565,
+      "accuracy": 0.7805309734513274
+    },
+    "relation:1": {
+      "n": 600,
+      "accuracy": 0.7866666666666666
+    },
+    "relation:2": {
+      "n": 593,
+      "accuracy": 0.7116357504215851
+    },
+    "relation:3": {
+      "n": 574,
+      "accuracy": 0.7578397212543554
+    }
+  },
+  "testB": {
+    "episode_type:mixed": {
+      "n": 464,
+      "accuracy": 0.0
+    },
+    "episode_type:single": {
+      "n": 334,
+      "accuracy": 0.0
+    },
+    "episode_type:same_relation": {
+      "n": 502,
+      "accuracy": 0.0
+    },
+    "episode_type:same_value": {
+      "n": 248,
+      "accuracy": 0.0
+    },
+    "episode_type:same_entity": {
+      "n": 496,
+      "accuracy": 0.0
+    },
+    "episode_type:lexical_stress": {
+      "n": 288,
+      "accuracy": 0.0
+    },
+    "relation:0": {
+      "n": 578,
+      "accuracy": 0.0
+    },
+    "relation:1": {
+      "n": 583,
+      "accuracy": 0.0
+    },
+    "relation:2": {
+      "n": 567,
+      "accuracy": 0.0
+    },
+    "relation:3": {
+      "n": 604,
+      "accuracy": 0.0
+    }
+  }
+}

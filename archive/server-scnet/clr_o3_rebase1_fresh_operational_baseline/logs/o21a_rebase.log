@@ -1,0 +1,90 @@
+{"stage": "O21A_REBASE", "step": 1, "train_loss": 4.705101490020752, "loss_retrieval": 0.8500727415084839, "loss_align": 5.149927139282227, "loss_entity": 6.396364212036133, "loss_query_entity": 6.404287338256836, "val_macro_retrieval": 0.6056056056056056, "val_N1": 1.0, "val_N2": 0.5375375375375375, "val_N4": 0.27927927927927926, "val_same_entity_N4": 0.25675675675675674, "val_same_relation_N4": 0.2982456140350877}
+{"stage": "O21A_REBASE", "step": 100, "train_loss": 2.4417223930358887, "loss_retrieval": 0.06885935366153717, "loss_align": 2.220820903778076, "loss_entity": 6.296176910400391, "loss_query_entity": 6.328347206115723, "val_macro_retrieval": 0.9339339339339339, "val_N1": 1.0, "val_N2": 0.9579579579579579, "val_N4": 0.8438438438438438, "val_same_entity_N4": 0.8513513513513513, "val_same_relation_N4": 0.7368421052631579}
+{"stage": "O21A_REBASE", "step": 200, "train_loss": 1.8659207820892334, "loss_retrieval": 0.0, "loss_align": 1.2507892847061157, "loss_entity": 6.19840145111084, "loss_query_entity": 6.206858158111572, "val_macro_retrieval": 0.984984984984985, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 0.9579579579579579, "val_same_entity_N4": 1.0, "val_same_relation_N4": 0.9122807017543859}
+{"stage": "O21A_REBASE", "step": 300, "train_loss": 1.6630558967590332, "loss_retrieval": 0.0668606162071228, "loss_align": 0.7579236030578613, "loss_entity": 6.092009544372559, "loss_query_entity": 6.080325126647949, "val_macro_retrieval": 0.993993993993994, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.9819819819819819, "val_same_entity_N4": 0.972972972972973, "val_same_relation_N4": 0.9473684210526315}
+{"stage": "O21A_REBASE", "step": 400, "train_loss": 1.5484411716461182, "loss_retrieval": 0.055432289838790894, "loss_align": 0.6142176985740662, "loss_entity": 5.933994293212891, "loss_query_entity": 5.925006866455078, "val_macro_retrieval": 0.995995995995996, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.987987987987988, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 0.9649122807017544}
+{"stage": "O21A_REBASE", "step": 500, "train_loss": 1.383538842201233, "loss_retrieval": 0.0, "loss_align": 0.49763599038124084, "loss_entity": 5.671324253082275, "loss_query_entity": 5.675884246826172, "val_macro_retrieval": 0.9969969969969971, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 0.993993993993994, "val_same_entity_N4": 1.0, "val_same_relation_N4": 0.9824561403508771}
+{"stage": "O21A_REBASE", "step": 600, "train_loss": 1.3103848695755005, "loss_retrieval": 0.0075545418076217175, "loss_align": 0.4024806022644043, "loss_entity": 5.535229206085205, "loss_query_entity": 5.480670928955078, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.996996996996997, "val_same_entity_N4": 1.0, "val_same_relation_N4": 0.9824561403508771}
+{"stage": "O21A_REBASE", "step": 700, "train_loss": 1.3009804487228394, "loss_retrieval": 0.04124646633863449, "loss_align": 0.38784104585647583, "loss_entity": 5.377102851867676, "loss_query_entity": 5.281032085418701, "val_macro_retrieval": 0.9979979979979979, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.993993993993994, "val_same_entity_N4": 1.0, "val_same_relation_N4": 0.9824561403508771}
+{"stage": "O21A_REBASE", "step": 800, "train_loss": 1.261932611465454, "loss_retrieval": 0.049060478806495667, "loss_align": 0.36004573106765747, "loss_entity": 5.193965911865234, "loss_query_entity": 5.134527206420898, "val_macro_retrieval": 0.9979979979979979, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.993993993993994, "val_same_entity_N4": 0.972972972972973, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 900, "train_loss": 1.1281589269638062, "loss_retrieval": 0.0, "loss_align": 0.31698524951934814, "loss_entity": 4.820879936218262, "loss_query_entity": 4.875783443450928, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.996996996996997, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1000, "train_loss": 1.1193857192993164, "loss_retrieval": 0.010003620758652687, "loss_align": 0.34731271862983704, "loss_entity": 4.650907516479492, "loss_query_entity": 4.7063493728637695, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 0.996996996996997, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1100, "train_loss": 1.0565017461776733, "loss_retrieval": 0.028477847576141357, "loss_align": 0.22707021236419678, "loss_entity": 4.605684280395508, "loss_query_entity": 4.539203643798828, "val_macro_retrieval": 1.0, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 1.0, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1200, "train_loss": 1.0347070693969727, "loss_retrieval": 0.03088485077023506, "loss_align": 0.24648524820804596, "loss_entity": 4.457650184631348, "loss_query_entity": 4.348145484924316, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 1.0, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1300, "train_loss": 0.9992863535881042, "loss_retrieval": 0.0, "loss_align": 0.31922197341918945, "loss_entity": 4.158564567565918, "loss_query_entity": 4.238188743591309, "val_macro_retrieval": 1.0, "val_N1": 1.0, "val_N2": 1.0, "val_N4": 1.0, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1400, "train_loss": 0.9136182069778442, "loss_retrieval": 0.0, "loss_align": 0.2852773368358612, "loss_entity": 3.8172457218170166, "loss_query_entity": 3.892549514770508, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 1.0, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1500, "train_loss": 0.8887519836425781, "loss_retrieval": 0.00817006453871727, "loss_align": 0.23017151653766632, "loss_entity": 3.8655173778533936, "loss_query_entity": 3.7894437313079834, "val_macro_retrieval": 0.9979979979979979, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 0.996996996996997, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1600, "train_loss": 0.8797779679298401, "loss_retrieval": 0.03378164768218994, "loss_align": 0.1780235469341278, "loss_entity": 3.7973296642303467, "loss_query_entity": 3.7725157737731934, "val_macro_retrieval": 0.998998998998999, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 1.0, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1700, "train_loss": 0.7745975255966187, "loss_retrieval": 0.0, "loss_align": 0.20981445908546448, "loss_entity": 3.337636947631836, "loss_query_entity": 3.3592662811279297, "val_macro_retrieval": 0.9979979979979979, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 0.996996996996997, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1800, "train_loss": 0.7747968435287476, "loss_retrieval": 0.014429774135351181, "loss_align": 0.18688145279884338, "loss_entity": 3.2947564125061035, "loss_query_entity": 3.374506950378418, "val_macro_retrieval": 0.9969969969969971, "val_N1": 1.0, "val_N2": 0.996996996996997, "val_N4": 0.993993993993994, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 1900, "train_loss": 0.7885898947715759, "loss_retrieval": 0.03703643009066582, "loss_align": 0.17776411771774292, "loss_entity": 3.3330535888671875, "loss_query_entity": 3.2936601638793945, "val_macro_retrieval": 0.9969969969969968, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.996996996996997, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2000, "train_loss": 0.7455688714981079, "loss_retrieval": 0.025322530418634415, "loss_align": 0.17138634622097015, "loss_entity": 3.2269134521484375, "loss_query_entity": 3.118617534637451, "val_macro_retrieval": 0.994994994994995, "val_N1": 1.0, "val_N2": 0.990990990990991, "val_N4": 0.993993993993994, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2100, "train_loss": 0.7269659042358398, "loss_retrieval": 0.01583857834339142, "loss_align": 0.2123577892780304, "loss_entity": 2.977191925048828, "loss_query_entity": 3.0722925662994385, "val_macro_retrieval": 0.995995995995996, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.993993993993994, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2200, "train_loss": 0.5996432304382324, "loss_retrieval": 0.0, "loss_align": 0.19356884062290192, "loss_entity": 2.44140362739563, "loss_query_entity": 2.5871849060058594, "val_macro_retrieval": 0.995995995995996, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.993993993993994, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2300, "train_loss": 0.7094061970710754, "loss_retrieval": 0.02191898599267006, "loss_align": 0.251974880695343, "loss_entity": 2.805577278137207, "loss_query_entity": 2.809420108795166, "val_macro_retrieval": 0.9969969969969968, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.996996996996997, "val_same_entity_N4": 1.0, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2400, "train_loss": 0.6258510947227478, "loss_retrieval": 0.013557846657931805, "loss_align": 0.2176901400089264, "loss_entity": 2.5210094451904297, "loss_query_entity": 2.513472080230713, "val_macro_retrieval": 0.995995995995996, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.993993993993994, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2500, "train_loss": 0.580043613910675, "loss_retrieval": 0.012848000042140484, "loss_align": 0.19002306461334229, "loss_entity": 2.3770596981048584, "loss_query_entity": 2.344780921936035, "val_macro_retrieval": 0.994994994994995, "val_N1": 1.0, "val_N2": 0.990990990990991, "val_N4": 0.993993993993994, "val_same_entity_N4": 0.9864864864864865, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2600, "train_loss": 0.5869115591049194, "loss_retrieval": 0.012296779081225395, "loss_align": 0.20749571919441223, "loss_entity": 2.3422417640686035, "loss_query_entity": 2.366427421569824, "val_macro_retrieval": 0.9929929929929929, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.984984984984985, "val_same_entity_N4": 0.9594594594594594, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2700, "train_loss": 0.5122033357620239, "loss_retrieval": 0.0, "loss_align": 0.16263937950134277, "loss_entity": 2.0476315021514893, "loss_query_entity": 2.261204242706299, "val_macro_retrieval": 0.993993993993994, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.987987987987988, "val_same_entity_N4": 0.972972972972973, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2800, "train_loss": 0.5901073217391968, "loss_retrieval": 0.040457502007484436, "loss_align": 0.18359455466270447, "loss_entity": 2.324763536453247, "loss_query_entity": 2.2537620067596436, "val_macro_retrieval": 0.993993993993994, "val_N1": 1.0, "val_N2": 0.993993993993994, "val_N4": 0.987987987987988, "val_same_entity_N4": 0.972972972972973, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 2900, "train_loss": 0.5768969058990479, "loss_retrieval": 0.04526542127132416, "loss_align": 0.1597960740327835, "loss_entity": 2.3057878017425537, "loss_query_entity": 2.2115466594696045, "val_macro_retrieval": 0.9929929929929932, "val_N1": 1.0, "val_N2": 0.990990990990991, "val_N4": 0.987987987987988, "val_same_entity_N4": 0.972972972972973, "val_same_relation_N4": 1.0}
+{"stage": "O21A_REBASE", "step": 3000, "train_loss": 0.488053560256958, "loss_retrieval": 0.019729603081941605, "loss_align": 0.18792620301246643, "loss_entity": 1.8573956489562988, "loss_query_entity": 1.886212706565857, "val_macro_retrieval": 0.98998998998999, "val_N1": 1.0, "val_N2": 0.990990990990991, "val_N4": 0.978978978978979, "val_same_entity_N4": 0.9324324324324325, "val_same_relation_N4": 1.0}
+{
+  "experiment": "CLR-O3-REBASE-1/O21A",
+  "protocol_frozen": true,
+  "best_step": 1100,
+  "best_val_macro": 1.0,
+  "val_N4_retrieval": 1.0,
+  "val_gate_pass": true,
+  "test_evaluation": "COMPLETED_FROZEN_EVALUATION",
+  "gate_pass": true,
+  "test_metrics": {
+    "testA": {
+      "1": {
+        "count": 334,
+        "retrieval": 1.0
+      },
+      "2": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "4": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "macro_retrieval": 1.0,
+      "same_entity": {
+        "count": 65,
+        "retrieval": 1.0
+      },
+      "same_relation": {
+        "count": 63,
+        "retrieval": 1.0
+      }
+    },
+    "testB": {
+      "1": {
+        "count": 334,
+        "retrieval": 1.0
+      },
+      "2": {
+        "count": 333,
+        "retrieval": 0.996996996996997
+      },
+      "4": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "macro_retrieval": 0.998998998998999,
+      "same_entity": {
+        "count": 70,
+        "retrieval": 1.0
+      },
+      "same_relation": {
+        "count": 63,
+        "retrieval": 1.0
+      }
+    }
+  },
+  "test_gate_pass": true
+}

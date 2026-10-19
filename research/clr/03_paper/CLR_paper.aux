@@ -1,0 +1,87 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{graves2014neural,bulatov2022recurrent}
+\citation{turner2023activation,zou2023representation}
+\citation{hao2024reasoning}
+\citation{perez2018film}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{cho2014learning}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces System architecture. A GRU-evolved latent state $\mathbf  {s}_t$ modulates a frozen backbone via FiLM (layers 27--40) and gated residual injection (layer 8). The backbone forward pass and GRU update iterate $k$ times per reasoning step.}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:arch}{{1}{2}{System architecture. A GRU-evolved latent state $\mathbf {s}_t$ modulates a frozen backbone via FiLM (layers 27--40) and gated residual injection (layer 8). The backbone forward pass and GRU update iterate $k$ times per reasoning step}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Architecture}{2}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:gru}{{1}{2}{Architecture}{equation.1}{}}
+\newlabel{eq:film}{{2}{2}{Architecture}{equation.2}{}}
+\newlabel{eq:gate}{{3}{2}{Architecture}{equation.3}{}}
+\citation{sinha2019clutrr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Training Protocol}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Intervention Design}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experiment 1: CLUTRR Relational Reasoning}{3}{section.3}\protected@file@percent }
+\newlabel{sec:clutrr}{{3}{3}{Experiment 1: CLUTRR Relational Reasoning}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Setup}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Results}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Four-condition ablation on CLUTRR (200 examples; ACC is top-1 exact-match on the relation label). The evolved state achieves 47.0\% accuracy while zeroed and base conditions both yield near-zero accuracy. Random state produces weak, noisy effects.}}{4}{table.caption.2}\protected@file@percent }
+\newlabel{tab:clutrr_four}{{1}{4}{Four-condition ablation on CLUTRR (200 examples; ACC is top-1 exact-match on the relation label). The evolved state achieves 47.0\% accuracy while zeroed and base conditions both yield near-zero accuracy. Random state produces weak, noisy effects}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Interim Discussion}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiment 2: Dose-Response Intervention}{4}{section.4}\protected@file@percent }
+\newlabel{sec:dose}{{4}{4}{Experiment 2: Dose-Response Intervention}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Rationale}{4}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:dose}{{4}{4}{Rationale}{equation.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Results}{4}{subsection.4.2}\protected@file@percent }
+\citation{cobbe2021training}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Dose-response intervention ($\alpha \cdot \mathbf  {s}_t$) on CLUTRR (100 examples). The response is non-monotonic, peaking at $\alpha = 0.75$.}}{5}{table.caption.3}\protected@file@percent }
+\newlabel{tab:dose}{{2}{5}{Dose-response intervention ($\alpha \cdot \mathbf {s}_t$) on CLUTRR (100 examples). The response is non-monotonic, peaking at $\alpha = 0.75$}{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Dose-response curve for $\alpha \cdot \mathbf  {s}_t$. Accuracy peaks at $\alpha = 0.75$ before declining, exhibiting an inverted-U shape. 2-hop outputs track closely with accuracy.}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:dose}{{2}{5}{Dose-response curve for $\alpha \cdot \mathbf {s}_t$. Accuracy peaks at $\alpha = 0.75$ before declining, exhibiting an inverted-U shape. 2-hop outputs track closely with accuracy}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Analysis}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces GSM8K cross-turn results. Removing $\mathbf  {s}_t$ at later training stages causes measurable degradation in both PPL and accuracy.}}{6}{table.caption.5}\protected@file@percent }
+\newlabel{tab:gsm8k}{{3}{6}{GSM8K cross-turn results. Removing $\mathbf {s}_t$ at later training stages causes measurable degradation in both PPL and accuracy}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces GSM8K PPL difference: $\mathbf  {s}_t$ transitions from harmful ($-$2.53) to beneficial ($+$1.26) over training.}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:gsm8k_ppl}{{3}{6}{GSM8K PPL difference: $\mathbf {s}_t$ transitions from harmful ($-$2.53) to beneficial ($+$1.26) over training}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experiment 3: GSM8K Cross-Turn Reasoning}{6}{section.5}\protected@file@percent }
+\newlabel{sec:gsm8k}{{5}{6}{Experiment 3: GSM8K Cross-Turn Reasoning}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Setup}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Analysis}{6}{subsection.5.3}\protected@file@percent }
+\citation{plaa}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{7}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{7}{Discussion}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Summary of Evidence}{7}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Reconciling with the Near-Inert Regime}{7}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}The Reasoning Attractor Hypothesis}{8}{subsection.6.3}\protected@file@percent }
+\newlabel{sec:attractor}{{6.3}{8}{The Reasoning Attractor Hypothesis}{subsection.6.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations}{8}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Future Work}{8}{subsection.6.5}\protected@file@percent }
+\citation{suzgun2022challenging}
+\citation{trivedi2022musique}
+\citation{graves2014neural}
+\citation{dai2019transformer}
+\citation{gu2022efficiently}
+\citation{turner2023activation,rimsky2023steering}
+\citation{zou2023representation}
+\citation{hao2024reasoning}
+\citation{deng2023chain}
+\citation{turner2023activation}
+\bibstyle{unsrt}
+\bibcite{graves2014neural}{1}
+\bibcite{bulatov2022recurrent}{2}
+\bibcite{turner2023activation}{3}
+\bibcite{zou2023representation}{4}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Related Work}{9}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{9}{section.8}\protected@file@percent }
+\bibcite{hao2024reasoning}{5}
+\bibcite{cobbe2021training}{6}
+\bibcite{sinha2019clutrr}{7}
+\bibcite{cho2014learning}{8}
+\bibcite{perez2018film}{9}
+\bibcite{plaa}{10}
+\bibcite{deng2023chain}{11}
+\bibcite{dai2019transformer}{12}
+\bibcite{gu2022efficiently}{13}
+\bibcite{rimsky2023steering}{14}
+\bibcite{suzgun2022challenging}{15}
+\bibcite{trivedi2022musique}{16}
+\gdef \@abspage@last{10}

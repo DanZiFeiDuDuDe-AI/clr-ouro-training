@@ -1,0 +1,14 @@
+{
+  "batch_size": null,
+  "checkpoint_sha256": "3df492ca2907fa4516f7290a04b5fea073e1dfa5f10cea7f97609546fc6a39f3",
+  "hidden_width": null,
+  "input_manifest_sha256": "93af7a12a65cb1d0b20680139a79a1b945a03f61ab8895535d5c536a636dd688",
+  "model_selection": "fixed final step; no VAL selection",
+  "normalization": "cosine",
+  "optimizer": null,
+  "seed": 42,
+  "source_revision_note": "Only sanity admission changed from MLP-only to either supervised raw probe; probe implementation unchanged throughout this round",
+  "source_sha256": "3855f6e38d48288631038315f11ef8664610c5408067de22cd4af40d05edd544",
+  "steps": 0,
+  "training_mixture": "all train contexts for class centroids"
+}

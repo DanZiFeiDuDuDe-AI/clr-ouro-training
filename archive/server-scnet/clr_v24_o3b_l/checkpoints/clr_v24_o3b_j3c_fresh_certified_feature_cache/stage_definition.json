@@ -1,0 +1,7 @@
+{
+  "Z0": "H_fresh I2b carrier, 2048D",
+  "Z1": "KeyEncoder.net[0] Linear(2048->256), includes frozen bias, pre-activation",
+  "Z2": "KeyEncoder.net[1] GELU output, 256D",
+  "Z3": "KeyEncoder.net[2] Linear(256->64), pre-normalization",
+  "Z4": "L2-normalize Z3 across dimension 64"
+}

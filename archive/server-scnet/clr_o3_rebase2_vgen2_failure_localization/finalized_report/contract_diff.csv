@@ -1,0 +1,26 @@
+﻿field,recovered_legacy_source,rebase_3k,status,historical_actual_run_authenticated
+input_tensor_source,MR cache fact_H + LS0 old replay H,"MR cache fact_H, certified bitwise equal to J3C H_base_I0",DIFFERENT,False
+shape_dtype,"MR [batch,N,2048] -> float32; cached dtype unknown for historic run","[batch,N,2048], cast float32",DIFFERENT,False
+normalization,No normalization in recovered VGen core/decoder; extraction details unknown,No VGen normalization; probe-only train-stat standardization recorded separately,DIFFERENT,False
+backbone_layer_token,Historical cache-builder/run overrides unavailable,"See prepare/extraction_policy_frozen.json and carrier_construction.json; R0 is cached direct source carrier, not a fresh backbone replay",DIFFERENT,False
+K_Q_V_extraction,K/Q separately encoded; V core linear+GRU; oracle correct-slot value diagnosis,V only from frozen fact_H; K/Q not inputs to value core or decoder,DIFFERENT,False
+entity_relation_value_carrier,Recovered MRCache fact_H and fact_Y; historical binary cache identity unavailable,Certified relation carrier H_base_I0; semantic entity/relation labels used only for update-pair construction,DIFFERENT,False
+target_construction,Query-selected MR Y; LS0 replay Y; T2/T3 mean CE,Mean per-written-slot fact_Y CE; UPDATE average first/latest CE,DIFFERENT,False
+vocabulary_mapping,64 classes; historical ordered vocabulary artifact unavailable,64 classes; rowwise object-to-class consistency measured in input_audit.json,DIFFERENT,False
+padding_masking,"Cap-specific batches; slots 0..N-1, zero unoccupied state","Cap-specific batches, random distinct physical slots; no padded targets",DIFFERENT,False
+negative_sampling,No value CE negatives; counterfactual diagnostics exist separately,No sampled value CE negatives; all 64 logits; different-value same-key UPDATE pairs,DIFFERENT,False
+N_distribution,"Uniform cap sampling among 1,2,4 by sample_mr; historic run overrides unknown","Uniform cap sampling 1,2,4 in episode branch",DIFFERENT,False
+single_multi_ratio,50% LS0 N=1 replay plus 50% MR for T2/T3,"50% episode branch, 50% same-slot UPDATE branch",DIFFERENT,False
+UPDATE_construction,No same-slot latest-value UPDATE objective in recovered VGen staged training,"Same entity/relation, different source facts, object values and labels; all unordered changed-value pairs",DIFFERENT,False
+train_val_split,Cached train/val; historical cache hashes/split lineage unavailable,Zero canonical fact overlap; row joins checked; episode IDs not encoded in NPZ,DIFFERENT,False
+random_seed,Default 42; stage-specific RNG seed=42+sum(ord(name))%10000,42; training RNG seed=2442,DIFFERENT,False
+optimizer,"AdamW, stages differ in trainable parameter sets",AdamW,DIFFERENT,False
+LR,0.0003,0.0003,SAME,False
+batch_size,MR up to 64 plus old replay 32 for T2/T3,64,DIFFERENT,False
+scheduler,None in recovered source,None,DIFFERENT,False
+steps,Default 3000 per stage; historical exact budget and best step unknown,3000,DIFFERENT,False
+initialization,load_r2_checkpoint: pretrained R2 core; T3 starts from MR trained value decoder,Fresh random core and heads; R2 state unavailable,DIFFERENT,False
+frozen_unfrozen,"T1 decoder only, T2 core only, T3 core+decoder; backbone frozen",Core and four value heads jointly trainable; upstream components frozen,DIFFERENT,False
+selection_metric,Validation macro queried-answer accuracy; exact VGen2 source/passing run absent,best VAL score = 0.5*single-write overall accuracy + 0.5*update latest-value accuracy,DIFFERENT,False
+validation_randomness,Fixed physical positions in recovered source,3K varies eval slot permutation by step; 10K fixes permutation (evaluation only),DIFFERENT,False
+historical_identity,O3 loaders require clr_v24_vgen2/best.pt; recovered staged trainer defaults to clr_v24_vgen/t*_best.pt,Explicit rebase component vgen2_rebase.pt,DIFFERENT,False

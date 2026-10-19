@@ -1,0 +1,29 @@
+{
+  "cross_split_canonical_fact_id_overlap": 0,
+  "train": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 27955,
+    "entity_carrier_shape": [
+      11665,
+      2048
+    ],
+    "episodes": 5000,
+    "fact_rows": 11665,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "train"
+  },
+  "val": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 1118,
+    "entity_carrier_shape": [
+      2332,
+      2048
+    ],
+    "episodes": 1000,
+    "fact_rows": 2332,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "val"
+  }
+}

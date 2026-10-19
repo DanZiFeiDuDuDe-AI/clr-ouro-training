@@ -1,0 +1,116 @@
+{
+  "candidate_checkpoint_sha256_after_recovery": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "candidate_checkpoint_sha256_before": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "candidate_config_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+  "pass": true,
+  "protected_artifacts": [
+    {
+      "frozen_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "name": "candidate_b_checkpoint",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\models\\candidate_b_seed_43.pt",
+      "sha256_after_recovery_search": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+      "name": "candidate_b_config",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\winner_config.json",
+      "sha256_after_recovery_search": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "a8fb5af9f4601d052802f48b44a13413cbc32f926f6218f5524c2c6d833a8d10",
+      "name": "candidate_b_training_config",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\experiment_config.json",
+      "sha256_after_recovery_search": "a8fb5af9f4601d052802f48b44a13413cbc32f926f6218f5524c2c6d833a8d10",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "86b842bad86d0c74b8cb516b4d1496c731909d01841a22ecdc038bb2e5a75d3f",
+      "name": "feature_source_manifest",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\feature_source_manifest.json",
+      "sha256_after_recovery_search": "86b842bad86d0c74b8cb516b4d1496c731909d01841a22ecdc038bb2e5a75d3f",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "11d51da91806577feaeda5883e1aa1d6add11c9e95bf5afc6f64d7aa40869514",
+      "name": "train_only_normalization_statistics",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\feature_standardization.json",
+      "sha256_after_recovery_search": "11d51da91806577feaeda5883e1aa1d6add11c9e95bf5afc6f64d7aa40869514",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "804bc7f452b48a0f7040edacc4b2a2ba7765b283e8858f2979b07f320a7cdbdd",
+      "name": "label_and_pair_construction_manifest",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\pair_dataset_manifest.json",
+      "sha256_after_recovery_search": "804bc7f452b48a0f7040edacc4b2a2ba7765b283e8858f2979b07f320a7cdbdd",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "24d1e1be576c93b6cb775e0fc2e293da809d2dd9a1d7e14f2d41eaacd64beedd",
+      "name": "growing_slot_episode_manifest",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\episode_dataset_manifest.json",
+      "sha256_after_recovery_search": "24d1e1be576c93b6cb775e0fc2e293da809d2dd9a1d7e14f2d41eaacd64beedd",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "43553a4bb0fe08a54254d85da849523d0123c57265d59fa51430f010a4ae39bd",
+      "name": "true_update_manifest",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\true_update_dataset_manifest.json",
+      "sha256_after_recovery_search": "43553a4bb0fe08a54254d85da849523d0123c57265d59fa51430f010a4ae39bd",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "82c236fc6f098508aeed4d2bc7488b5edae8a287128f57f0a042ae16352d0f5c",
+      "name": "decision_rule_a_config",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\decision_rule_frozen.json",
+      "sha256_after_recovery_search": "82c236fc6f098508aeed4d2bc7488b5edae8a287128f57f0a042ae16352d0f5c",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "d92ea01b090d294a382f2d9922e41ff17e1ee93703a849298fb0179ebb0fbc7f",
+      "name": "candidate_frozen_manifest",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\candidate_b_frozen_manifest.json",
+      "sha256_after_recovery_search": "d92ea01b090d294a382f2d9922e41ff17e1ee93703a849298fb0179ebb0fbc7f",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "eee20ecd15455a77af1d9b2348515140bdce2ce11d08ebd7fac918ee71d98f7d",
+      "name": "m2_input_integrity",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\input_integrity.json",
+      "sha256_after_recovery_search": "eee20ecd15455a77af1d9b2348515140bdce2ce11d08ebd7fac918ee71d98f7d",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "8e6189a606dab4123ec0bb73d3943141b71b4701505d95b86b211efb7c3813b5",
+      "name": "m2_action_gate",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\action_gate.json",
+      "sha256_after_recovery_search": "8e6189a606dab4123ec0bb73d3943141b71b4701505d95b86b211efb7c3813b5",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "7cbc29956a104740312f0707b66c47098a9f956d27d5e2924b549cb9ffb9c310",
+      "name": "m2_value_replacement_gate",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\value_replacement_gate.json",
+      "sha256_after_recovery_search": "7cbc29956a104740312f0707b66c47098a9f956d27d5e2924b549cb9ffb9c310",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "37d587bb3146402fe742ac4494927519814f270bb1b82a6e7381a60408f77161",
+      "name": "candidate_b_training_code",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m_operational_samekey_rescue\\o3b_m_runner.py",
+      "sha256_after_recovery_search": "37d587bb3146402fe742ac4494927519814f270bb1b82a6e7381a60408f77161",
+      "unchanged": true
+    },
+    {
+      "frozen_sha256": "1fbacbc2c09d27582b079365ee1bd6d69e265158ec4bc0c542c71b96eda3e582",
+      "name": "m2_action_simulation_code",
+      "path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\o3b_m2_runner.py",
+      "sha256_after_recovery_search": "1fbacbc2c09d27582b079365ee1bd6d69e265158ec4bc0c542c71b96eda3e582",
+      "unchanged": true
+    }
+  ],
+  "remote_candidate_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "rule": "A",
+  "threshold_exact": 0.8504285216331482
+}

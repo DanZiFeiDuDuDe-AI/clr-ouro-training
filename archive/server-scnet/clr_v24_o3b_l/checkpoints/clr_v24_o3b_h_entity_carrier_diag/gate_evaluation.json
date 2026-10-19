@@ -1,0 +1,15 @@
+{
+  "baseline_reproduced": true,
+  "verdict": "O3b-H: MIXED ENTITY CARRIER + PROJECTION FAILURE",
+  "reconnect": false,
+  "o3c": false,
+  "h_input_entity_testA": 0.7419954259576901,
+  "final_K_entity_testA": 0.12292738707833047,
+  "token_best": [
+    1.0,
+    "entity_mention_mean"
+  ],
+  "closed_world_testB_entity_classifier": "N/A; TestB is unseen-person",
+  "testB_identity_equality_available": true,
+  "protocol_impacting_issue": null
+}

@@ -1,0 +1,26 @@
+{
+  "train": {
+    "P0_same_entity_same_relation": 450,
+    "P1_diff_entity_same_relation": 450,
+    "P2_same_entity_diff_relation": 450,
+    "P3_diff_entity_diff_relation": 450
+  },
+  "val": {
+    "P0_same_entity_same_relation": 450,
+    "P1_diff_entity_same_relation": 450,
+    "P2_same_entity_diff_relation": 450,
+    "P3_diff_entity_diff_relation": 450
+  },
+  "testA": {
+    "P0_same_entity_same_relation": 450,
+    "P1_diff_entity_same_relation": 450,
+    "P2_same_entity_diff_relation": 450,
+    "P3_diff_entity_diff_relation": 450
+  },
+  "testB": {
+    "P0_same_entity_same_relation": 450,
+    "P1_diff_entity_same_relation": 450,
+    "P2_same_entity_diff_relation": 450,
+    "P3_diff_entity_diff_relation": 450
+  }
+}

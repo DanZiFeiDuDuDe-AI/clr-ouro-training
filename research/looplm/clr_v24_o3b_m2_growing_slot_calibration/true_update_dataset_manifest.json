@@ -1,0 +1,22 @@
+{
+  "holdout": "NOT_RUN_UNTIL_DECISION_FROZEN",
+  "holdout_filter_applied_after_policy_freeze": true,
+  "testA": {
+    "distinct_old_new_values_verified": true,
+    "eligible_changed_value_keys": 559,
+    "true_update_episodes": 1680
+  },
+  "testB": {
+    "distinct_old_new_values_verified": true,
+    "eligible_changed_value_keys": 601,
+    "true_update_episodes": 1680
+  },
+  "train": {
+    "eligible_changed_value_keys": 2285
+  },
+  "validation": {
+    "different_source_fact_per_value": true,
+    "eligible_changed_value_keys": 601,
+    "true_update_episode_count": 1260
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "valid_source_json_preserved_as_valid_json": 1121,
+  "valid_source_jsonl_preserved_as_valid_jsonl": 8,
+  "scientific_source_json_bytes_unchanged": true,
+  "model_tokenizer_and_binary_artifact_bytes_unchanged": true,
+  "redacted_files": 81,
+  "authentication_values_detected": 3
+}

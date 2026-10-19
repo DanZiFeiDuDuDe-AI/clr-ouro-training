@@ -1,0 +1,52 @@
+{
+  "best_priority_tuple": [
+    1095,
+    1293,
+    2266,
+    -0.10440234648846744
+  ],
+  "best_step": 9600,
+  "best_validation_loss": 0.10440234648846744,
+  "best_validation_single": {
+    "1": {
+      "answer_accuracy": 0.9700598802395209,
+      "correct": 324,
+      "count": 334
+    },
+    "2": {
+      "answer_accuracy": 0.9744744744744744,
+      "correct": 649,
+      "count": 666
+    },
+    "4": {
+      "answer_accuracy": 0.9707207207207207,
+      "correct": 1293,
+      "count": 1332
+    },
+    "loss": 0.1414473599164809,
+    "overall": {
+      "answer_accuracy": 0.9716981132075472,
+      "correct": 2266,
+      "count": 2332
+    }
+  },
+  "best_validation_update": {
+    "latest_correct": 1095,
+    "latest_loss": 0.12795963568849514,
+    "latest_value_accuracy_after_update": 0.9794275491949911,
+    "loss": 0.06735733306045395,
+    "non_target_slot_mutation": false,
+    "old_correct": 1085,
+    "old_loss": 0.1414696965533207,
+    "old_value_accuracy_after_first_write": 0.9704830053667263,
+    "pair_count": 1118
+  },
+  "selection_rule": "validation-only lexicographic priority: UPDATE latest-value accuracy, then N=4 single-write accuracy, then overall single-write accuracy, then lower validation loss",
+  "test_access_before_gate": false,
+  "validation_gate": {
+    "N4_ge_0.95": true,
+    "pass": true,
+    "single_write_overall_ge_0.95": true,
+    "update_latest_ge_0.95": true
+  }
+}

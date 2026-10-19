@@ -1,0 +1,146 @@
+=== P0I pilot: init=m1 mode=reset steps=600 lr=0.0003 ===
+init=m1 ckpt=D:/training/checkpoints/ouro_retention_m1/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)
+step 50/600: loss=1.6460 (591s)
+step 100/600: loss=2.3212 (1329s)
+step 150/600: loss=2.0402 (2080s)
+step 200/600: loss=4.2746 (2614s)
+step 250/600: loss=1.8423 (3188s)
+step 300/600: loss=1.2448 (3759s)
+checkpoint: D:/training/checkpoints/p0i_pilot_m1_reset_s45\ckpt_step0300.pt
+step 350/600: loss=0.7349 (4678s)
+step 400/600: loss=3.6047 (5492s)
+Traceback (most recent call last):
+
+  File "D:\training\p0i_pilot_train.py", line 335, in <module>
+    sys.exit(main())
+             ~~~~^^
+
+  File "D:\training\p0i_pilot_train.py", line 281, in main
+    scores = candidate_scores(model, tok, prompt_ids, cand_ids, pad_id,
+                              offset=offset)
+
+  File "D:\training\p0i_pilot_train.py", line 185, in candidate_scores
+    out = model.model(input_ids=input_ids, attention_mask=attn, use_cache=False,
+                      position_ids=pos)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\transformers\utils\generic.py", line 1069, in wrapper
+    outputs = func(self, *args, **kwargs)
+
+  File "C:\Users\AI Training\.cache\huggingface\modules\transformers_modules\Ouro-1.4B\modeling_ouro.py", line 636, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<7 lines>...
+        **kwargs,
+    )
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\transformers\modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+
+  File "C:\Users\AI Training\.cache\huggingface\modules\transformers_modules\Ouro-1.4B\modeling_ouro.py", line 420, in forward
+    hidden_states = self.mlp(hidden_states)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+
+  File "C:\Users\AI Training\.cache\huggingface\modules\transformers_modules\Ouro-1.4B\modeling_ouro.py", line 77, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                                           ~~~~~~~~~~~~~~^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\bitsandbytes\nn\modules.py", line 637, in forward
+    return bnb.matmul_4bit(x, self.weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 491, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\autograd\function.py", line 625, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 334, in forward
+    output = torch.ops.bitsandbytes.gemm_4bit.default(
+        A,
+    ...<8 lines>...
+        absmax_offset=quant_state.offset,
+    )
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\_ops.py", line 875, in __call__
+    return self._op(*args, **kwargs)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1446, in _fn
+    return fn(*args, **kwargs)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\library.py", line 939, in func_no_dynamo
+    return func(*args, **kwargs)
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\bitsandbytes\backends\cuda\ops.py", line 980, in _
+    return _gemm_4bit_kernel_impl(
+        A, B, shapeB, absmax, blocksize, quant_type, bias, absmax_8bit, absmax_code, absmax_offset
+    )
+
+  File "C:\Users\AI Training\AppData\Local\Programs\Python\Python313\Lib\site-packages\bitsandbytes\backends\cuda\ops.py", line 868, in _gemm_4bit_kernel_impl
+    out = torch.empty((*A.shape[:-1], N), dtype=A.dtype, device=A.device)
+
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 0 bytes is free. Of the allocated memory 7.27 GiB is allocated by PyTorch, and 232.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+=== P0I pilot: init=m1 mode=reset steps=600 lr=0.0003 ===
+=== P0I pilot: init=m1 mode=reset steps=600 lr=0.0003 ===
+init=m1 ckpt=D:/training/checkpoints/ouro_retention_m1/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)
+step 50/600: loss=1.6460 (623s)
+step 100/600: loss=2.3212 (1135s)
+step 150/600: loss=2.0402 (1657s)
+step 200/600: loss=4.2746 (2168s)
+step 250/600: loss=1.8423 (2675s)
+step 300/600: loss=1.2448 (3182s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s45\ckpt_step0300.pt
+step 350/600: loss=0.7349 (3689s)
+step 400/600: loss=3.6047 (4213s)
+step 450/600: loss=3.2570 (4743s)
+step 500/600: loss=1.4780 (5255s)
+step 550/600: loss=1.2186 (5781s)
+step 600/600: loss=1.0453 (6269s)
+checkpoint: D:\training\checkpoints\p0i_pilot_m1_reset_s45\best_model.pt
+
+saved to D:\training\checkpoints\p0i_pilot_m1_reset_s45
+P0I pilot m1/reset OK
+=== P0I pilot: init=m1 mode=reset steps=1500 lr=0.0003 ===
+init=m1 ckpt=D:/training/checkpoints/ouro_retention_m1/best_model.pt trainable=24576 (post-norm)
+train trajectories: 600
+epoch 1 (step 0)
+step 50/1500: loss=1.6460 (810s)
+step 100/1500: loss=2.3212 (1663s)

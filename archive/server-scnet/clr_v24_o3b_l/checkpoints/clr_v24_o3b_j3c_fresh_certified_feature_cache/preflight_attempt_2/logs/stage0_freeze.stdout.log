@@ -1,0 +1,1 @@
+{"mode": "freeze", "policy_sha256": "3a377e3be2e820d9b7d879f16119b7d70baa095cc9cd66f8135d6ae50ffd57a3", "source_counts": {"train": 11665, "val": 2332, "testA": 2332, "testB": 2332}, "accepted": 18661, "row_counts": {"train": 11665, "val": 2332, "testA": 2332, "testB": 2332}, "forwards": 0}

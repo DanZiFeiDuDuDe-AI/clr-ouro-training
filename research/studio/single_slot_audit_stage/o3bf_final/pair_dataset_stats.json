@@ -1,0 +1,72 @@
+{
+  "train": {
+    "n": 6000,
+    "positive": 3000,
+    "negative": 3000,
+    "categories": {
+      "P4_same_value_diff_key": 500,
+      "P6_lexical_hard_negative": 500,
+      "P2_same_entity_diff_relation": 500,
+      "P1_same_key": 3000,
+      "P3_same_relation_diff_entity": 500,
+      "P7_similar_entity_names": 500,
+      "P5_fully_different": 500
+    },
+    "unique_source_episodes": 5000,
+    "unique_persons": 600
+  },
+  "val": {
+    "n": 3000,
+    "positive": 1500,
+    "negative": 1500,
+    "categories": {
+      "P1_same_key": 1500,
+      "P5_fully_different": 250,
+      "P2_same_entity_diff_relation": 250,
+      "P7_similar_entity_names": 250,
+      "P3_same_relation_diff_entity": 250,
+      "P4_same_value_diff_key": 250,
+      "P6_lexical_hard_negative": 250
+    },
+    "unique_source_episodes": 1000,
+    "unique_persons": 568
+  },
+  "testA": {
+    "n": 3000,
+    "positive": 1500,
+    "negative": 1500,
+    "categories": {
+      "P1_same_key": 1500,
+      "P5_fully_different": 250,
+      "P6_lexical_hard_negative": 250,
+      "P7_similar_entity_names": 250,
+      "P2_same_entity_diff_relation": 250,
+      "P4_same_value_diff_key": 250,
+      "P3_same_relation_diff_entity": 250
+    },
+    "unique_source_episodes": 1000,
+    "unique_persons": 570
+  },
+  "testB": {
+    "n": 3000,
+    "positive": 1500,
+    "negative": 1500,
+    "categories": {
+      "P1_same_key": 1500,
+      "P5_fully_different": 250,
+      "P7_similar_entity_names": 250,
+      "P2_same_entity_diff_relation": 250,
+      "P4_same_value_diff_key": 250,
+      "P6_lexical_hard_negative": 250,
+      "P3_same_relation_diff_entity": 250
+    },
+    "unique_source_episodes": 1000,
+    "unique_persons": 568
+  },
+  "sampling": {
+    "original_P2_fraction_of_negative": 0.16666666666666666,
+    "P2_25_fraction_of_negative": 0.25,
+    "P2_50_fraction_of_negative": 0.5,
+    "same_episode_pairing": false
+  }
+}

@@ -1,0 +1,83 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{cho2014learning}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}State Pipeline}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces PLAA state pipeline with multiplicative FiLM. The latent state $S_t$ gates the feature amplitude of frozen transformer layers $16$--$28$; the output hidden state $h_t$ updates the state via a GRU cell, producing $S_{t+1}$ for the next turn. The dashed loop is the persistence channel that makes $S_t$ the only cross-turn carrier.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:architecture}{{1}{2}{PLAA state pipeline with multiplicative FiLM. The latent state $S_t$ gates the feature amplitude of frozen transformer layers $16$--$28$; the output hidden state $h_t$ updates the state via a GRU cell, producing $S_{t+1}$ for the next turn. The dashed loop is the persistence channel that makes $S_t$ the only cross-turn carrier}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Three Injection Mechanisms}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Training Data}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Training data composition.}}{3}{table.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Optimization}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Training configuration. The composite training loss is $\mathcal  {L} = \mathcal  {W}_{\mathrm  {LM}}\mathcal  {L}_{\mathrm  {LM}} + \mathcal  {W}_{\mathrm  {COH}}\|\Delta S\| + \mathcal  {W}_{\mathrm  {DIV}}\mathcal  {L}_{\mathrm  {repulsion}} + \mathcal  {W}_{\mathrm  {NORM}}\|S\| + \mathcal  {W}_{\mathrm  {DIV\_LAYER}}\mathrm  {Var}(\|W_\ell \|)$; crucially, all \emph  {causal} evaluations in this paper use the pure LM term $\mathcal  {L}_{\mathrm  {LM}}$ only (see Section~\ref {sec:bug}).}}{3}{table.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Metrics}{3}{subsection.2.5}\protected@file@percent }
+\citation{perez2018film,peebles2023scalable}
+\@writefile{toc}{\contentsline {section}{\numberline {3}The Additive Bottleneck}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Gate Gradient Diagnostic and Multi-Stage Attenuation}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Gate Ablation}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Gate ablation. Maximum $\Delta \mathrm  {PPL} = 2.01$, against measurement noise $\mathrm  {std} = \pm 19$. Causal influence is below the noise floor.}}{4}{table.3}\protected@file@percent }
+\newlabel{tab:gate}{{3}{4}{Gate ablation. Maximum $\Delta \mathrm {PPL} = 2.01$, against measurement noise $\mathrm {std} = \pm 19$. Causal influence is below the noise floor}{table.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}AdaLN FiLM and the Checkpoint Persistence Bug}{4}{section.4}\protected@file@percent }
+\newlabel{sec:bug}{{4}{4}{AdaLN FiLM and the Checkpoint Persistence Bug}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}An Apparent (but Invalid) Strong Result}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}The Two Errors}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Corrected Causal Ablation (Pure LM Loss, Verified Weights)}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Causal ablation with verified non-zero FiLM weights, pure LM cross-entropy (no auxiliary terms). The corrected story is the opposite of the artifact: removing FiLM costs only $+0.044$; freezing the latent state costs $+0.0002$.}}{5}{table.4}\protected@file@percent }
+\newlabel{tab:causal}{{4}{5}{Causal ablation with verified non-zero FiLM weights, pure LM cross-entropy (no auxiliary terms). The corrected story is the opposite of the artifact: removing FiLM costs only $+0.044$; freezing the latent state costs $+0.0002$}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Corrected causal ablation. The $24\%$ improvement over vanilla ($3.53\!\to \!2.70$) comes from the LoRA adapters; removing FiLM or freezing the latent state leaves the loss essentially unchanged (red reference line at the trained level). The previously reported $\Delta =11.44$ for AdaLN FiLM was a composite-loss/checkpoint-bug artifact and is \emph  {not} shown here.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:ablation}{{2}{5}{Corrected causal ablation. The $24\%$ improvement over vanilla ($3.53\!\to \!2.70$) comes from the LoRA adapters; removing FiLM or freezing the latent state leaves the loss essentially unchanged (red reference line at the trained level). The previously reported $\Delta =11.44$ for AdaLN FiLM was a composite-loss/checkpoint-bug artifact and is \emph {not} shown here}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Multiplicative FiLM: Structural Symmetry Breaking}{5}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Layer Specialization Growth}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Monotonic growth of inter-layer modulation variance: $6.6\times $ over 2{,}650 steps, with no saturation plateau. Contrast the additive/AdaLN plateau of $w_{\mathrm  {std}}= 0.033$.}}{5}{table.5}\protected@file@percent }
+\newlabel{tab:wstd}{{5}{5}{Monotonic growth of inter-layer modulation variance: $6.6\times $ over 2{,}650 steps, with no saturation plateau. Contrast the additive/AdaLN plateau of $\wstd = 0.033$}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Structural symmetry breaking. Inter-layer modulation variance $w_{\mathrm  {std}}$ grows monotonically ($6.6\times $), far above the additive/AdaLN plateau (gray dashed). During the two synchronization bursts (red dashed, steps $1750$/$1950$, where gradient cosine spikes to $0.63$/$0.70$), $w_{\mathrm  {std}}$ does \emph  {not} collapse---it continues rising ($0.348\!\to \!0.382$), and loss recovers to a lower attractor afterward.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:wstd-growth}{{3}{6}{Structural symmetry breaking. Inter-layer modulation variance $\wstd $ grows monotonically ($6.6\times $), far above the additive/AdaLN plateau (gray dashed). During the two synchronization bursts (red dashed, steps $1750$/$1950$, where gradient cosine spikes to $0.63$/$0.70$), $\wstd $ does \emph {not} collapse---it continues rising ($0.348\!\to \!0.382$), and loss recovers to a lower attractor afterward}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Phase-Plane Dynamics and Regime Hopping}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces $w_{\mathrm  {std}}$--cos phase plane. The system departs the symmetric corner (Phase~I, homogeneous layers) and settles into Phase~IV, a metastable coupled hierarchy, via intermittent synchronization bursts. Phase classification here is \emph  {structural} only; the causal ablation (Figure~\ref {fig:ablation}) shows this differentiation does not entail functional specialization.}}{6}{figure.4}\protected@file@percent }
+\newlabel{fig:phase-plane}{{4}{6}{$\wstd $--cos phase plane. The system departs the symmetric corner (Phase~I, homogeneous layers) and settles into Phase~IV, a metastable coupled hierarchy, via intermittent synchronization bursts. Phase classification here is \emph {structural} only; the causal ablation (Figure~\ref {fig:ablation}) shows this differentiation does not entail functional specialization}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Structure--Performance Correlation is Spurious}{6}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Architecture Comparison}{7}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Architecture comparison. $^\dagger $Measured under composite loss with auxiliary terms \emph  {and} prior to the checkpoint-persistence fix; the pure-LM causal effect of AdaLN FiLM is unverified and this number is retained only as a documented artifact (Section~\ref {sec:bug}).}}{7}{table.6}\protected@file@percent }
+\newlabel{tab:arch}{{6}{7}{Architecture comparison. $^\dagger $Measured under composite loss with auxiliary terms \emph {and} prior to the checkpoint-persistence fix; the pure-LM causal effect of AdaLN FiLM is unverified and this number is retained only as a documented artifact (Section~\ref {sec:bug})}{table.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Analysis}{7}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Phase Taxonomy}{7}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Four-phase taxonomy (structural metrics only). Our system occupies Phase~IV. Causal ablation reveals that Phase~IV structural differentiation does not imply functional specialization.}}{7}{table.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Why Structure Diverges from Function}{7}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Amplitude Sensitivity: a Narrow Operating Window}{7}{subsection.6.3}\protected@file@percent }
+\citation{sukhbaatar2019augmenting,wu2022memorizing}
+\citation{graves2016hybrid}
+\citation{perez2018film}
+\citation{huang2017arbitrary}
+\citation{ba2016layer}
+\citation{peebles2023scalable}
+\citation{tenney2019bert,clark2019does,rogers2020primer}
+\citation{elhage2021mathematical}
+\citation{gurari2018gradient}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Amplitude sweep ($\Delta = \mathcal  {L}_{\text  {trained}}-\mathcal  {L}_{\text  {removed}}$, positive $=$ modulation harmful). Causal sensitivity grows with $\alpha $, but in the \emph  {destructive} direction: at $\alpha \geq 0.5$ the modulation makes the model worse, and $500$ further steps fail to reverse it. The $\alpha \approx 0.1$ regime---measurable structure with marginal, non-destructive function---is real but narrow.}}{8}{table.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Implications for Latent-Modulation Research}{8}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Related Work}{8}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion \& Future Work}{8}{section.8}\protected@file@percent }
+\citation{shazeer2017outrageously}
+\bibstyle{unsrtnat}
+\bibdata{references}
+\bibcite{cho2014learning}{{1}{2014}{{Cho et~al.}}{{Cho, van Merrienboer, Gulcehre, Bahdanau, Bougares, Schwenk, and Bengio}}}
+\bibcite{perez2018film}{{2}{2018}{{Perez et~al.}}{{Perez, Strub, de~Vries, Dumoulin, and Courville}}}
+\bibcite{peebles2023scalable}{{3}{2023}{{Peebles and Xie}}{{}}}
+\bibcite{sukhbaatar2019augmenting}{{4}{2019}{{Sukhbaatar et~al.}}{{Sukhbaatar, Grave, Lample, Jegou, and Joulin}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Full Training Pipeline}{9}{appendix.A}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Training pipeline. Dashes indicate infrastructure/validation stages where step/param counts do not apply.}}{9}{table.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Reproducibility Notes}{9}{appendix.B}\protected@file@percent }
+\bibcite{wu2022memorizing}{{5}{2022}{{Wu et~al.}}{{Wu, Rabe, Hutchins, and Szegedy}}}
+\bibcite{graves2016hybrid}{{6}{2016}{{Graves et~al.}}{{Graves, Wayne, Reynolds, Harley, Danihelka, Grabska-Barwi{\'n}ska, Colmenarejo, Grefenstette, Ramalho, Agapiou, et~al.}}}
+\bibcite{huang2017arbitrary}{{7}{2017}{{Huang and Belongie}}{{}}}
+\bibcite{ba2016layer}{{8}{2016}{{Ba et~al.}}{{Ba, Kiros, and Hinton}}}
+\bibcite{tenney2019bert}{{9}{2019}{{Tenney et~al.}}{{Tenney, Das, and Pavlick}}}
+\bibcite{clark2019does}{{10}{2019}{{Clark et~al.}}{{Clark, Khandelwal, Levy, and Manning}}}
+\bibcite{rogers2020primer}{{11}{2020}{{Rogers et~al.}}{{Rogers, Kovaleva, and Rumshisky}}}
+\bibcite{elhage2021mathematical}{{12}{2021}{{Elhage et~al.}}{{Elhage, Nanda, Olsson, Henighan, Joseph, Mann, Askell, Bai, Chen, Conerly, et~al.}}}
+\bibcite{gurari2018gradient}{{13}{2018}{{Gur-Ari et~al.}}{{Gur-Ari, Roberts, and Dyer}}}
+\bibcite{shazeer2017outrageously}{{14}{2017}{{Shazeer et~al.}}{{Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton, and Dean}}}
+\gdef \@abspage@last{11}

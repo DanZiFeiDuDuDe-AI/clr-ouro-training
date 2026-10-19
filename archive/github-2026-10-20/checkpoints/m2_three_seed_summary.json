@@ -1,0 +1,33 @@
+{
+  "per_seed": {
+    "s42": {
+      "with": "78/150",
+      "t2p": 0.52,
+      "without": "0/150",
+      "ceiling": 0.5667,
+      "frac_of_ceiling": 0.918
+    },
+    "s130": {
+      "with": "72/162",
+      "t2p": 0.4444,
+      "without": "0/162",
+      "ceiling": 0.5247,
+      "frac_of_ceiling": 0.847
+    },
+    "s520": {
+      "with": "101/184",
+      "t2p": 0.5489,
+      "without": "0/184",
+      "ceiling": 0.5543,
+      "frac_of_ceiling": 0.99
+    }
+  },
+  "mean_delta_pp": 50.4,
+  "hier_boot95_pp": [
+    43.6,
+    56.7
+  ],
+  "pooled_with": "251/496",
+  "pooled_without": "0/496",
+  "mean_frac_of_ceiling": 0.918
+}

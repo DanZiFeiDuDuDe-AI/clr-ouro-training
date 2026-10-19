@@ -1,3 +1,0 @@
-<class 'dict'>
-['step', 'seed', 'ds', 'film_layers', 'variant', 'plaa_core', 'scale_proj', 'eval_log', 'best_delta']
-sub plaa_core ['init_s', 'read_proj.weight', 'read_proj.bias', 'gru.weight_ih', 'gru.weight_hh', 'gru.bias_ih', 'gru.bias_hh']

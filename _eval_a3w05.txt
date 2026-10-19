@@ -1,6 +1,0 @@
-ckpt: best_model.pt | saved step: 200 | best_delta: 0.05263157894736842 | latent_steps: 1
-eval trajs=150 ceiling=0.5238
-  persist  t2p 0/168 = 0.0000  W95[0.000,0.022]  |S|=8.671 loop|S|=7.652
-  reset    t2p 0/168 = 0.0000  W95[0.000,0.022]  |S|=8.565 loop|S|=6.774
-  random   t2p 0/168 = 0.0000  W95[0.000,0.022]  |S|=9.169 loop|S|=9.061
-saved: D:/training/checkpoints/clr_v2_s42_a3w05\final_eval.json

@@ -1,0 +1,734 @@
+{
+  "primary_verdict": "J3E-F — STANDARDIZED JOINT PROBE STILL FAILS TO REACH VERIFIED CONVERGENCE",
+  "input_integrity_pass": true,
+  "selected_protocol": {
+    "optimizer": "SGD_momentum_0.9",
+    "lr": 0.1,
+    "weight_decay": 0.0,
+    "batch_size": 1024,
+    "seed_list": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "initialization": "uniform[-1/sqrt(256),+1/sqrt(256)] with seed+2018; matched R1/R2 starts unless paired-init control",
+    "preprocessing": "train-only per-dimension standardization; std<1e-8 set to 1; epsilon=1e-8",
+    "training_steps_max": 100000,
+    "minimum_steps": 2000,
+    "evaluation_interval": 200,
+    "plateau_rule": "50 consecutive validation evaluations; relative best CE improvement <1e-5, accuracy range <0.01pp, normalized CE slope <1e-5/eval, accuracy slope <0.01pp/eval",
+    "selection_basis": "train/validation only; prefer plateau count then validation CE; TestA excluded",
+    "selected_from_converged_candidates": {
+      "plateau_count": 0,
+      "runs": 10,
+      "mean_val_ce": 0.3837340193801974,
+      "mean_val_accuracy": 0.8896835717381879
+    },
+    "protocol_frozen_before_TestA": true,
+    "testB_joint": "NOT EVALUABLE — NO KNOWN JOINT LABELS (Stage 0 found 0 known rows)",
+    "verified_converged": false,
+    "plateau_confirmed_runs": 0,
+    "total_seed_representation_runs": 10,
+    "selection_and_freeze_used_test_metrics": false
+  },
+  "plateau_count": 0,
+  "phase_b_run_count": 10,
+  "testA_R1_accuracy_percent": {
+    "n": 5,
+    "mean": 83.99654150009155,
+    "std": 0.10594803433259865,
+    "ci95": [
+      83.92733693122864,
+      84.08304810523987
+    ]
+  },
+  "testA_R2_accuracy_percent": {
+    "n": 5,
+    "mean": 92.04152703285217,
+    "std": 0.03058386066549139,
+    "ci95": [
+      92.01557517051697,
+      92.06747770309448
+    ]
+  },
+  "testA_R1_minus_R2_accuracy_pp": {
+    "n": 5,
+    "mean": -8.04498553276062,
+    "std": 0.08092047537074179,
+    "ci95": [
+      -8.096890449523926,
+      -7.975778579711914
+    ]
+  },
+  "analytical_transfer_pass": true,
+  "max_actual_transfer_logit_error": 6.103515625e-05,
+  "known_good_val_loss_gap": {
+    "n": 10,
+    "mean": 0.0,
+    "std": 0.235605688664524,
+    "ci95": [
+      -0.1342330902814865,
+      0.134237140417099
+    ]
+  },
+  "known_good_val_accuracy_gap_pp": {
+    "n": 10,
+    "mean": 0.0,
+    "std": 8.189947890655896,
+    "ci95": [
+      -4.690073728561401,
+      4.690074324607849
+    ]
+  },
+  "weight_decay_validation_contrasts": {
+    "0.0": {
+      "r1_minus_r2_val_ce": {
+        "n": 5,
+        "mean": 0.28199843035503314,
+        "std": 0.0015324646322162957,
+        "ci95": [
+          0.28062068293839976,
+          0.2830980414671703
+        ]
+      },
+      "r1_minus_r2_val_accuracy_pp": {
+        "n": 5,
+        "mean": -6.163849154746425,
+        "std": 0.05651670919118152,
+        "ci95": [
+          -6.207195491980932,
+          -6.120502817511921
+        ]
+      },
+      "plateau_count": 0,
+      "runs": 10
+    },
+    "0.001": {
+      "r1_minus_r2_val_ce": {
+        "n": 5,
+        "mean": 0.2862973548641607,
+        "std": 0.0012095530363128277,
+        "ci95": [
+          0.2853103622451242,
+          0.2871554480409927
+        ]
+      },
+      "r1_minus_r2_val_accuracy_pp": {
+        "n": 5,
+        "mean": -6.0078023407022085,
+        "std": 0.058155213979187104,
+        "ci95": [
+          -6.059817945383612,
+          -5.981794538361507
+        ]
+      },
+      "plateau_count": 0,
+      "runs": 10
+    }
+  },
+  "full_batch_vs_minibatch_at_5k": {
+    "R1": {
+      "full_batch_val_ce": 0.5202318039592752,
+      "minibatch_val_ce_step5000": 0.5201990679242011,
+      "full_batch_val_accuracy": 0.8361508452535761,
+      "minibatch_val_accuracy_step5000": 0.835283918508886
+    },
+    "R2": {
+      "full_batch_val_ce": 0.3300014324271288,
+      "minibatch_val_ce_step5000": 0.3300328081724806,
+      "full_batch_val_accuracy": 0.9141742522756827,
+      "minibatch_val_accuracy_step5000": 0.9133073255309926
+    }
+  },
+  "paired_initialization": {
+    "initial_max_logit_error": 1.7580912858861097e-06,
+    "initial_prediction_mismatch_max": 0.0,
+    "paired_minus_independent_at_10k_val_ce": {
+      "n": 10,
+      "mean": 0.0006163595512391817,
+      "std": 0.0009335035528842725,
+      "ci95": [
+        0.00012618891358812668,
+        0.0012328632060213452
+      ]
+    },
+    "paired_minus_independent_at_10k_val_accuracy_pp": {
+      "n": 10,
+      "mean": -0.01733853489380266,
+      "std": 0.15721971401514662,
+      "ci95": [
+        -0.11270047680971063,
+        0.07368877329865464
+      ]
+    }
+  },
+  "warmstart": {
+    "R1_to_R2": {
+      "val_ce_change_1000_minus_0": {
+        "n": 5,
+        "mean": -0.007715749740600586,
+        "std": 0.00026335848713233365,
+        "ci95": [
+          -0.00785888433456421,
+          -0.007482439279556274
+        ]
+      },
+      "val_accuracy_change_pp_1000_minus_0": {
+        "n": 5,
+        "mean": 0.16471624374389648,
+        "std": 0.08883211347841259,
+        "ci95": [
+          0.10403275489807129,
+          0.23406982421875
+        ]
+      },
+      "steps_recorded": [
+        0,
+        10,
+        100,
+        1000
+      ]
+    },
+    "R2_to_R1": {
+      "val_ce_change_1000_minus_0": {
+        "n": 5,
+        "mean": 9.884834289550782e-05,
+        "std": 1.2390033724597105e-05,
+        "ci95": [
+          9.021162986755371e-05,
+          0.00010939836502075196
+        ]
+      },
+      "val_accuracy_change_pp_1000_minus_0": {
+        "n": 5,
+        "mean": 0.008668899536132812,
+        "std": 0.04748151824686012,
+        "ci95": [
+          -0.026006698608398438,
+          0.052013397216796875
+        ]
+      },
+      "steps_recorded": [
+        0,
+        10,
+        100,
+        1000
+      ]
+    }
+  },
+  "Q1_Q17": {
+    "Q1_R1_R2_analytical_weight_transfer_pass": true,
+    "Q2_matched_protocol_all_plateau": false,
+    "Q3_frozen_protocol": {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.1,
+      "weight_decay": 0.0,
+      "batch_size": 1024,
+      "seed_list": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "initialization": "uniform[-1/sqrt(256),+1/sqrt(256)] with seed+2018; matched R1/R2 starts unless paired-init control",
+      "preprocessing": "train-only per-dimension standardization; std<1e-8 set to 1; epsilon=1e-8",
+      "training_steps_max": 100000,
+      "minimum_steps": 2000,
+      "evaluation_interval": 200,
+      "plateau_rule": "50 consecutive validation evaluations; relative best CE improvement <1e-5, accuracy range <0.01pp, normalized CE slope <1e-5/eval, accuracy slope <0.01pp/eval",
+      "selection_basis": "train/validation only; prefer plateau count then validation CE; TestA excluded",
+      "selected_from_converged_candidates": {
+        "plateau_count": 0,
+        "runs": 10,
+        "mean_val_ce": 0.3837340193801974,
+        "mean_val_accuracy": 0.8896835717381879
+      },
+      "protocol_frozen_before_TestA": true,
+      "testB_joint": "NOT EVALUABLE — NO KNOWN JOINT LABELS (Stage 0 found 0 known rows)",
+      "verified_converged": false,
+      "plateau_confirmed_runs": 0,
+      "total_seed_representation_runs": 10,
+      "selection_and_freeze_used_test_metrics": false
+    },
+    "Q4_weight_decay_zero_improves_basis_invariance": {
+      "0.0": {
+        "r1_minus_r2_val_ce": {
+          "n": 5,
+          "mean": 0.28199843035503314,
+          "std": 0.0015324646322162957,
+          "ci95": [
+            0.28062068293839976,
+            0.2830980414671703
+          ]
+        },
+        "r1_minus_r2_val_accuracy_pp": {
+          "n": 5,
+          "mean": -6.163849154746425,
+          "std": 0.05651670919118152,
+          "ci95": [
+            -6.207195491980932,
+            -6.120502817511921
+          ]
+        },
+        "plateau_count": 0,
+        "runs": 10
+      },
+      "0.001": {
+        "r1_minus_r2_val_ce": {
+          "n": 5,
+          "mean": 0.2862973548641607,
+          "std": 0.0012095530363128277,
+          "ci95": [
+            0.2853103622451242,
+            0.2871554480409927
+          ]
+        },
+        "r1_minus_r2_val_accuracy_pp": {
+          "n": 5,
+          "mean": -6.0078023407022085,
+          "std": 0.058155213979187104,
+          "ci95": [
+            -6.059817945383612,
+            -5.981794538361507
+          ]
+        },
+        "plateau_count": 0,
+        "runs": 10
+      }
+    },
+    "Q5_full_batch_control": {
+      "R1": {
+        "full_batch_val_ce": 0.5202318039592752,
+        "minibatch_val_ce_step5000": 0.5201990679242011,
+        "full_batch_val_accuracy": 0.8361508452535761,
+        "minibatch_val_accuracy_step5000": 0.835283918508886
+      },
+      "R2": {
+        "full_batch_val_ce": 0.3300014324271288,
+        "minibatch_val_ce_step5000": 0.3300328081724806,
+        "full_batch_val_accuracy": 0.9141742522756827,
+        "minibatch_val_accuracy_step5000": 0.9133073255309926
+      }
+    },
+    "Q6_lbfgs_restores_R1_R2_validation_consistency": {
+      "verdict": "NO — independent LBFGS runs still have a visible validation gap",
+      "validation_ce_R1": 3.024301767349243,
+      "validation_ce_R2": 0.9621556401252747,
+      "validation_ce_R1_minus_R2": 2.0621461272239685,
+      "validation_accuracy_R1": 0.8201127052307129,
+      "validation_accuracy_R2": 0.8972691893577576,
+      "validation_accuracy_R1_minus_R2_pp": -7.715648412704468,
+      "train_ce_R1": 2.411852904060652e-07,
+      "train_ce_R2": 8.856218869368604e-07
+    },
+    "Q7_val_known_good_loss_gap": {
+      "pooled_bidirectional": {
+        "n": 10,
+        "mean": 0.0,
+        "std": 0.235605688664524,
+        "ci95": [
+          -0.1342330902814865,
+          0.134237140417099
+        ]
+      },
+      "directional": {
+        "R1_to_R2": {
+          "train": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.01204438884742558,
+              "std": 0.0004983470233917248,
+              "ci95": [
+                -0.012274039490148426,
+                -0.011596730211749673
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 0.0,
+              "std": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "val": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.2235138475894928,
+              "std": 0.0008634333479873095,
+              "ci95": [
+                -0.2241927683353424,
+                -0.22291238903999328
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": -7.767664194107056,
+              "std": 0.19721426824733457,
+              "ci95": [
+                -7.906372547149658,
+                -7.602946758270264
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "testA": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.2187541902065277,
+              "std": 0.0012664120251868044,
+              "ci95": [
+                -0.21973658204078675,
+                -0.21777179837226868
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": -8.04498553276062,
+              "std": 0.08092047537074179,
+              "ci95": [
+                -8.096890449523926,
+                -7.975778579711914
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          }
+        },
+        "R2_to_R1": {
+          "train": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.01204438884742558,
+              "std": 0.0004983470233917248,
+              "ci95": [
+                0.011596730211749673,
+                0.012274039490148426
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 0.0,
+              "std": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "val": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.2235138475894928,
+              "std": 0.0008634333479873095,
+              "ci95": [
+                0.22291238903999328,
+                0.2241927683353424
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 7.767664194107056,
+              "std": 0.19721426824733457,
+              "ci95": [
+                7.602946758270264,
+                7.906372547149658
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 5
+          },
+          "testA": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.2187541902065277,
+              "std": 0.0012664120251868044,
+              "ci95": [
+                0.21777179837226868,
+                0.21973658204078675
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 8.04498553276062,
+              "std": 0.08092047537074179,
+              "ci95": [
+                7.975778579711914,
+                8.096890449523926
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 5
+          }
+        }
+      }
+    },
+    "Q8_known_good_transfer_better_count": {
+      "positive_loss_gap_of": 10,
+      "positive_loss_gap_count": 5,
+      "accuracy_gap_pp": {
+        "n": 10,
+        "mean": 0.0,
+        "std": 8.189947890655896,
+        "ci95": [
+          -4.690073728561401,
+          4.690074324607849
+        ]
+      },
+      "directional": {
+        "R1_to_R2": {
+          "train": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.01204438884742558,
+              "std": 0.0004983470233917248,
+              "ci95": [
+                -0.012274039490148426,
+                -0.011596730211749673
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 0.0,
+              "std": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "val": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.2235138475894928,
+              "std": 0.0008634333479873095,
+              "ci95": [
+                -0.2241927683353424,
+                -0.22291238903999328
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": -7.767664194107056,
+              "std": 0.19721426824733457,
+              "ci95": [
+                -7.906372547149658,
+                -7.602946758270264
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "testA": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": -0.2187541902065277,
+              "std": 0.0012664120251868044,
+              "ci95": [
+                -0.21973658204078675,
+                -0.21777179837226868
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": -8.04498553276062,
+              "std": 0.08092047537074179,
+              "ci95": [
+                -8.096890449523926,
+                -7.975778579711914
+              ]
+            },
+            "transferred_better_by_loss_count": 0,
+            "transferred_better_by_accuracy_count": 0
+          }
+        },
+        "R2_to_R1": {
+          "train": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.01204438884742558,
+              "std": 0.0004983470233917248,
+              "ci95": [
+                0.011596730211749673,
+                0.012274039490148426
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 0.0,
+              "std": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 0
+          },
+          "val": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.2235138475894928,
+              "std": 0.0008634333479873095,
+              "ci95": [
+                0.22291238903999328,
+                0.2241927683353424
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 7.767664194107056,
+              "std": 0.19721426824733457,
+              "ci95": [
+                7.602946758270264,
+                7.906372547149658
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 5
+          },
+          "testA": {
+            "loss_gap_independent_minus_transferred": {
+              "n": 5,
+              "mean": 0.2187541902065277,
+              "std": 0.0012664120251868044,
+              "ci95": [
+                0.21777179837226868,
+                0.21973658204078675
+              ]
+            },
+            "accuracy_gap_transferred_minus_independent_pp": {
+              "n": 5,
+              "mean": 8.04498553276062,
+              "std": 0.08092047537074179,
+              "ci95": [
+                7.975778579711914,
+                8.096890449523926
+              ]
+            },
+            "transferred_better_by_loss_count": 5,
+            "transferred_better_by_accuracy_count": 5
+          }
+        }
+      }
+    },
+    "Q9_paired_transformed_initialization": {
+      "initial_max_logit_error": 1.7580912858861097e-06,
+      "initial_prediction_mismatch_max": 0.0,
+      "paired_minus_independent_at_10k_val_ce": {
+        "n": 10,
+        "mean": 0.0006163595512391817,
+        "std": 0.0009335035528842725,
+        "ci95": [
+          0.00012618891358812668,
+          0.0012328632060213452
+        ]
+      },
+      "paired_minus_independent_at_10k_val_accuracy_pp": {
+        "n": 10,
+        "mean": -0.01733853489380266,
+        "std": 0.15721971401514662,
+        "ci95": [
+          -0.11270047680971063,
+          0.07368877329865464
+        ]
+      }
+    },
+    "Q10_warmstart_retention": {
+      "R1_to_R2": {
+        "val_ce_change_1000_minus_0": {
+          "n": 5,
+          "mean": -0.007715749740600586,
+          "std": 0.00026335848713233365,
+          "ci95": [
+            -0.00785888433456421,
+            -0.007482439279556274
+          ]
+        },
+        "val_accuracy_change_pp_1000_minus_0": {
+          "n": 5,
+          "mean": 0.16471624374389648,
+          "std": 0.08883211347841259,
+          "ci95": [
+            0.10403275489807129,
+            0.23406982421875
+          ]
+        },
+        "steps_recorded": [
+          0,
+          10,
+          100,
+          1000
+        ]
+      },
+      "R2_to_R1": {
+        "val_ce_change_1000_minus_0": {
+          "n": 5,
+          "mean": 9.884834289550782e-05,
+          "std": 1.2390033724597105e-05,
+          "ci95": [
+            9.021162986755371e-05,
+            0.00010939836502075196
+          ]
+        },
+        "val_accuracy_change_pp_1000_minus_0": {
+          "n": 5,
+          "mean": 0.008668899536132812,
+          "std": 0.04748151824686012,
+          "ci95": [
+            -0.026006698608398438,
+            0.052013397216796875
+          ]
+        },
+        "steps_recorded": [
+          0,
+          10,
+          100,
+          1000
+        ]
+      }
+    },
+    "Q11_final_testA_joint_delta_pp": {
+      "n": 5,
+      "mean": -8.04498553276062,
+      "std": 0.08092047537074179,
+      "ci95": [
+        -8.096890449523926,
+        -7.975778579711914
+      ]
+    },
+    "Q12_five_seed_ci_supports_basis_invariance": false,
+    "Q13_primary_failure_source": "optimizer parameterization sensitivity is the leading explanation; strict convergence remains unverified, while explicit weight-decay/init effects are secondary or unresolved",
+    "Q14_standardized_joint_gate": "FAIL",
+    "Q15_entire_J3_measurement_gate_can_resume": "NO",
+    "Q16_reconnect_allowed": "NO",
+    "Q17_exactly_one_next_experiment": "Run a narrower deterministic solver study: float64 full-batch LBFGS for standardized R1/R2 Joint, initialize one basis from the affine-transferred classifier of the other, log stationary-gradient and line-search convergence, use train/validation only, and do not select on TestA."
+  },
+  "plots": {
+    "status": "PASS",
+    "reason": null,
+    "files": [
+      "optimizer_search_validation_ce.png",
+      "selected_protocol_convergence.png",
+      "known_good_transfer_vs_independent.png",
+      "paired_initialization_trajectory.png",
+      "full_batch_matched_control.png"
+    ]
+  },
+  "testB_joint": "NOT EVALUABLE — NO KNOWN JOINT LABELS",
+  "test_metrics_used_for_selection": false,
+  "checkpoint_modified": false,
+  "data_leakage_detected": false
+}

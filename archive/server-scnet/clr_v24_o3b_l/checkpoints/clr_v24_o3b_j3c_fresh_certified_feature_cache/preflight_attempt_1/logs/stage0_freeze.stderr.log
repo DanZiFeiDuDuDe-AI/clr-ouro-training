@@ -1,0 +1,31 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0925 00:11:26.267290 21863 Context.cpp:368] torch.backends.cuda.matmul.allow_tf32 is not supported on ROCm by default. Please set environment variable HIPBLASLT_ALLOW_TF32=1 to enable it.
+/usr/local/lib/python3.11/site-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /home/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 1101, in <module>
+    main()
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 1095, in main
+    stage0_freeze()
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 526, in stage0_freeze
+    source_rows, vocabs, info = read_source_rows()
+                                ^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 281, in read_source_rows
+    base_row = np.ascontiguousarray(data["fact_H"][flat])
+                                    ~~~~^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/numpy/lib/npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/numpy/lib/format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/numpy/lib/format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/zipfile.py", line 965, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/zipfile.py", line 1041, in _read1
+    data = self._decompressor.decompress(data, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

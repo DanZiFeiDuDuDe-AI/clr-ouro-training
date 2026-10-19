@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-10",
+  "script": "_rerun_baseline_v2_eval.py",
+  "checkpoint": "H:/CLR/checkpoints/baseline_v2_fixed/best_model.pt",
+  "checkpoint_step": 200,
+  "scale_proj_norms": [
+    4.4643659591674805,
+    4.674294948577881,
+    4.617129802703857,
+    4.466371059417725,
+    4.118908405303955,
+    3.831390619277954
+  ],
+  "protocol": "fast_eval (pre-update S, next-token argmax), identical to _run_baseline_v2.py",
+  "new_eval": {
+    "seed": 20260710,
+    "n_traj_requested": 150,
+    "n_traj_used": 148,
+    "dropped_as_train_dup": 2,
+    "bayes_ceiling_t2p": 0.5333333333333333,
+    "with_S": {
+      "t1": {
+        "correct": 0,
+        "total": 148,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 45,
+        "total": 165,
+        "acc": 0.2727272727272727
+      },
+      "last": {
+        "correct": 34,
+        "total": 148,
+        "acc": 0.22972972972972974
+      },
+      "all": {
+        "correct": 45,
+        "total": 313,
+        "acc": 0.14376996805111822
+      }
+    },
+    "without_S": {
+      "t1": {
+        "correct": 0,
+        "total": 148,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 165,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 148,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 313,
+        "acc": 0.0
+      }
+    },
+    "t2p_with_wilson95": [
+      0.21052229979694392,
+      0.3452740044765915
+    ],
+    "t2p_without_wilson95": [
+      0.0,
+      0.022751869401778084
+    ],
+    "t2p_delta": 0.2727272727272727,
+    "t2p_delta_boot95": [
+      0.20606060606060606,
+      0.3393939393939394
+    ]
+  },
+  "sanity_check_original_8traj": {
+    "with_S": {
+      "t1": {
+        "correct": 0,
+        "total": 8,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 3,
+        "total": 9,
+        "acc": 0.3333333333333333
+      },
+      "last": {
+        "correct": 3,
+        "total": 8,
+        "acc": 0.375
+      },
+      "all": {
+        "correct": 3,
+        "total": 17,
+        "acc": 0.17647058823529413
+      }
+    },
+    "without_S": {
+      "t1": {
+        "correct": 0,
+        "total": 8,
+        "acc": 0.0
+      },
+      "t2p": {
+        "correct": 0,
+        "total": 9,
+        "acc": 0.0
+      },
+      "last": {
+        "correct": 0,
+        "total": 8,
+        "acc": 0.0
+      },
+      "all": {
+        "correct": 0,
+        "total": 17,
+        "acc": 0.0
+      }
+    },
+    "original_reported": {
+      "with_S_t2p": 0.3333,
+      "without_S_t2p": 0.0
+    },
+    "note": "init_state adds N(0, 0.01) noise per trajectory; exact reproduction is not guaranteed, agreement should be close."
+  }
+}

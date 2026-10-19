@@ -1,0 +1,34 @@
+{
+  "slot0": {
+    "train_acc": 1.0,
+    "val_acc": 0.93,
+    "testA_acc": 0.9675,
+    "testB_acc": 0.92,
+    "epochs": 35,
+    "seed": 42
+  },
+  "slot1": {
+    "train_acc": 0.999,
+    "val_acc": 0.94,
+    "testA_acc": 0.96,
+    "testB_acc": 0.9325,
+    "epochs": 34,
+    "seed": 42
+  },
+  "slot2": {
+    "train_acc": 0.9985,
+    "val_acc": 0.9475,
+    "testA_acc": 0.94,
+    "testB_acc": 0.9325,
+    "epochs": 34,
+    "seed": 42
+  },
+  "slot3": {
+    "train_acc": 0.9985,
+    "val_acc": 0.915,
+    "testA_acc": 0.92,
+    "testB_acc": 0.9075,
+    "epochs": 23,
+    "seed": 42
+  }
+}

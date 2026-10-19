@@ -1,0 +1,5 @@
+{
+  "connected": false,
+  "error_type": "gaierror",
+  "detail": "Legacy cheems SSH unavailable; Tailscale reported NoState. No server configuration changed."
+}

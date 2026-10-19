@@ -1,0 +1,17 @@
+{
+  "architecture": "2048-256-GELU-64-L2 for independent K/Q encoders",
+  "batch_size": 128,
+  "cache_root": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+  "device": "cuda",
+  "eval_every": 100,
+  "experiment": "CLR-O3-REBASE-1/O21A",
+  "gradient_clip": 1.0,
+  "lr": 0.001,
+  "objective": "retrieval CE + 0.5*in-batch positive alignment CE + 0.1*(fact entity CE + query entity CE)",
+  "optimizer": "AdamW",
+  "seed": 42,
+  "selection": "best validation macro retrieval over capacities 1,2,4",
+  "steps": 3000,
+  "test_policy": "TestA/TestB are not loaded until the VAL gate passes",
+  "weight_decay": 0.01
+}

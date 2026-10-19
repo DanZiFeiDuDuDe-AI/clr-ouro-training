@@ -1,0 +1,14 @@
+{
+  "baseline_variant": "I0_raw_write_H",
+  "best_variant": "I1_pure_mention_mean",
+  "baseline_input_entity": 0.7419954259576901,
+  "best_input_entity": 1.0,
+  "input_entity_gain": 0.2580045740423099,
+  "baseline_final_K_entity": 0.12292738707833047,
+  "best_final_K_entity": 0.06046312178387651,
+  "final_K_entity_gain": -0.06246426529445396,
+  "best_input_relation": 0.25514579759862777,
+  "baseline_input_relation": 0.9734133790737565,
+  "best_testB_f1_gain": 0.058197556177072673,
+  "interpretation": "O3b-I: WRITE-STATE SELECTION IS A MAJOR ADDRESSING BOTTLENECK"
+}

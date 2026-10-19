@@ -1,0 +1,22 @@
+{
+  "train": {
+    "max_abs_R0std_R1std": 1.1920928955078125e-06,
+    "mean_abs_R0std_R1std": 4.978304559430727e-08,
+    "pearson_flattened": 0.9999999999999964
+  },
+  "val": {
+    "max_abs_R0std_R1std": 7.748603820800781e-07,
+    "mean_abs_R0std_R1std": 4.984127092138649e-08,
+    "pearson_flattened": 0.9999999999999971
+  },
+  "testA": {
+    "max_abs_R0std_R1std": 1.1920928955078125e-06,
+    "mean_abs_R0std_R1std": 4.9867208321889076e-08,
+    "pearson_flattened": 0.9999999999999958
+  },
+  "testB": {
+    "max_abs_R0std_R1std": 8.344650268554688e-07,
+    "mean_abs_R0std_R1std": 4.991475535188153e-08,
+    "pearson_flattened": 0.9999999999999921
+  }
+}

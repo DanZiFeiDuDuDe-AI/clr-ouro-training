@@ -1,0 +1,753 @@
+{
+  "primary_verdict": "J3D-F — CONVERGED MATCHED-PROBE CALIBRATION GATE FAILED",
+  "measurement_gate": "CLOSED",
+  "stage0_cache_integrity_pass": true,
+  "stage0_transform_audit_pass": true,
+  "frozen_optimizer_selection_train_val_only": {
+    "entity": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "relation": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "joint": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    }
+  },
+  "main_convergence": {
+    "R0_R1": {
+      "entity": {
+        "n": 20,
+        "converged": 0,
+        "not_converged": 20,
+        "max_steps": 10,
+        "validation_patience": 10
+      },
+      "relation": {
+        "n": 20,
+        "converged": 0,
+        "not_converged": 20,
+        "max_steps": 0,
+        "validation_patience": 20
+      },
+      "joint": {
+        "n": 20,
+        "converged": 3,
+        "not_converged": 17,
+        "max_steps": 0,
+        "validation_patience": 20
+      }
+    },
+    "R1_R2": {
+      "entity": {
+        "n": 20,
+        "converged": 0,
+        "not_converged": 20,
+        "max_steps": 8,
+        "validation_patience": 12
+      },
+      "relation": {
+        "n": 20,
+        "converged": 0,
+        "not_converged": 20,
+        "max_steps": 0,
+        "validation_patience": 20
+      },
+      "joint": {
+        "n": 20,
+        "converged": 3,
+        "not_converged": 17,
+        "max_steps": 0,
+        "validation_patience": 20
+      }
+    }
+  },
+  "test_accuracy_mean_std_by_condition": {
+    "R0_R1": [
+      {
+        "task": "entity",
+        "normalization": "raw",
+        "representation": "R0_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "standardized",
+        "representation": "R0_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "joint",
+        "normalization": "raw",
+        "representation": "R0_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.841522491349481,
+        "std": 0.0016918345342221035,
+        "min": 0.8399653979238755,
+        "max": 0.8442906574394463
+      },
+      {
+        "task": "joint",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.8711072664359861,
+        "std": 0.003473697751775277,
+        "min": 0.8650519031141869,
+        "max": 0.8737024221453287
+      },
+      {
+        "task": "joint",
+        "normalization": "standardized",
+        "representation": "R0_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.8397058823529412,
+        "std": 0.0006559580833954783,
+        "min": 0.8391003460207612,
+        "max": 0.8408304498269896
+      },
+      {
+        "task": "joint",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.8397058823529412,
+        "std": 0.0006559580833954783,
+        "min": 0.8391003460207612,
+        "max": 0.8408304498269896
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R0_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9745283018867925,
+        "std": 0.0006503323708448816,
+        "min": 0.9734133790737565,
+        "max": 0.9751286449399656
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R0_raw",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.907032590051458,
+        "std": 0.0009296519463412757,
+        "min": 0.9056603773584906,
+        "max": 0.9078044596912521
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9717838765008576,
+        "std": 0.00035877359628393835,
+        "min": 0.9712692967409948,
+        "max": 0.9721269296740995
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9078902229845626,
+        "std": 0.00046974490352073384,
+        "min": 0.9073756432246999,
+        "max": 0.9086620926243568
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R0_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9717838765008576,
+        "std": 0.00019177255381646428,
+        "min": 0.9716981132075472,
+        "max": 0.9721269296740995
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R0_standardized",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9053173241852487,
+        "std": 0.0006360376060973756,
+        "min": 0.9043739279588336,
+        "max": 0.9060891938250428
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9717838765008576,
+        "std": 0.00019177255381646428,
+        "min": 0.9716981132075472,
+        "max": 0.9721269296740995
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9053173241852487,
+        "std": 0.0006360376060973756,
+        "min": 0.9043739279588336,
+        "max": 0.9060891938250428
+      }
+    ],
+    "R1_R2": [
+      {
+        "task": "entity",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "raw",
+        "representation": "R2_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "entity",
+        "normalization": "standardized",
+        "representation": "R2_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      {
+        "task": "joint",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.8711072664359861,
+        "std": 0.003473697751775277,
+        "min": 0.8650519031141869,
+        "max": 0.8737024221453287
+      },
+      {
+        "task": "joint",
+        "normalization": "raw",
+        "representation": "R2_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9228373702422146,
+        "std": 0.004177851432886906,
+        "min": 0.9173875432525952,
+        "max": 0.9282006920415224
+      },
+      {
+        "task": "joint",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.8397058823529412,
+        "std": 0.0006559580833954783,
+        "min": 0.8391003460207612,
+        "max": 0.8408304498269896
+      },
+      {
+        "task": "joint",
+        "normalization": "standardized",
+        "representation": "R2_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9273356401384083,
+        "std": 0.00143452629340632,
+        "min": 0.9251730103806228,
+        "max": 0.9290657439446367
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9717838765008576,
+        "std": 0.00035877359628393835,
+        "min": 0.9712692967409948,
+        "max": 0.9721269296740995
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R1_raw",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9078902229845626,
+        "std": 0.00046974490352073384,
+        "min": 0.9073756432246999,
+        "max": 0.9086620926243568
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R2_raw",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9694682675814752,
+        "std": 0.0008248449426102851,
+        "min": 0.9686963979416809,
+        "max": 0.9708404802744426
+      },
+      {
+        "task": "relation",
+        "normalization": "raw",
+        "representation": "R2_raw",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9049742710120069,
+        "std": 0.0031306539019629403,
+        "min": 0.902229845626072,
+        "max": 0.910377358490566
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9717838765008576,
+        "std": 0.00019177255381646428,
+        "min": 0.9716981132075472,
+        "max": 0.9721269296740995
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R1_standardized",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9053173241852487,
+        "std": 0.0006360376060973756,
+        "min": 0.9043739279588336,
+        "max": 0.9060891938250428
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R2_standardized",
+        "split": "testA",
+        "n": 5,
+        "mean": 0.9735849056603774,
+        "std": 0.0007789837960799872,
+        "min": 0.9725557461406518,
+        "max": 0.9746998284734134
+      },
+      {
+        "task": "relation",
+        "normalization": "standardized",
+        "representation": "R2_standardized",
+        "split": "testB",
+        "n": 5,
+        "mean": 0.9008576329331046,
+        "std": 0.000559108268027662,
+        "min": 0.9000857632933105,
+        "max": 0.9013722126929674
+      }
+    ]
+  },
+  "paired_standardized_test_deltas": {
+    "R0_vs_R1_standardized_entity_testA": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "entity",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_delta_pp": 0.0
+    },
+    "R1_vs_R2_standardized_entity_testA": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "entity",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_delta_pp": 0.0
+    },
+    "R0_vs_R1_standardized_entity_testB": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "entity",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [],
+      "delta_left_minus_right": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "mean_delta_pp": null
+    },
+    "R1_vs_R2_standardized_entity_testB": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "entity",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [],
+      "delta_left_minus_right": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "mean_delta_pp": null
+    },
+    "R0_vs_R1_standardized_relation_testA": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "relation",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_delta_pp": 0.0
+    },
+    "R1_vs_R2_standardized_relation_testA": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "relation",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": -0.0018010291595197182,
+        "std": 0.0007670902152658168,
+        "min": -0.003001715265866234,
+        "max": -0.0008576329331045907
+      },
+      "mean_delta_pp": -0.1801029159519718
+    },
+    "R0_vs_R1_standardized_relation_testB": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "relation",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_delta_pp": 0.0
+    },
+    "R1_vs_R2_standardized_relation_testB": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "relation",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.004459691252144071,
+        "std": 0.0010327268077866135,
+        "min": 0.0034305317324185847,
+        "max": 0.005574614065180117
+      },
+      "mean_delta_pp": 0.4459691252144071
+    },
+    "R0_vs_R1_standardized_joint_testA": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "joint",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_delta_pp": 0.0
+    },
+    "R1_vs_R2_standardized_joint_testA": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "joint",
+      "normalization": "standardized",
+      "split": "testA",
+      "paired_seeds": [
+        11,
+        23,
+        37,
+        53,
+        71
+      ],
+      "delta_left_minus_right": {
+        "n": 5,
+        "mean": -0.08762975778546715,
+        "std": 0.0012079792425405526,
+        "min": -0.08866782006920415,
+        "max": -0.08564013840830453
+      },
+      "mean_delta_pp": -8.762975778546716
+    },
+    "R0_vs_R1_standardized_joint_testB": {
+      "left": "R0_standardized",
+      "right": "R1_standardized",
+      "task": "joint",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [],
+      "delta_left_minus_right": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "mean_delta_pp": null
+    },
+    "R1_vs_R2_standardized_joint_testB": {
+      "left": "R1_standardized",
+      "right": "R2_standardized",
+      "task": "joint",
+      "normalization": "standardized",
+      "split": "testB",
+      "paired_seeds": [],
+      "delta_left_minus_right": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "mean_delta_pp": null
+    }
+  },
+  "r0_r1_gate_pass": false,
+  "r1_r2_gate_pass": false,
+  "r0_r1_all_primary_runs_converged": false,
+  "r1_r2_all_primary_runs_converged": false,
+  "analytical_weight_transfer": {
+    "pass": true,
+    "max_logit_abs_error_all_tasks_seeds_norms_directions_splits": 1.449099492489836e-05,
+    "max_prediction_mismatch_rate": 0.0,
+    "numeric_tolerance": 0.001,
+    "prediction_mismatch_tolerance": 0.0
+  },
+  "control_fit_convergence": {
+    "weight_decay": {
+      "weight_decay_control_entity": {
+        "n": 10,
+        "converged": 0,
+        "max_steps": 9
+      },
+      "weight_decay_control_joint": {
+        "n": 10,
+        "converged": 1,
+        "max_steps": 0
+      },
+      "weight_decay_control_relation": {
+        "n": 10,
+        "converged": 0,
+        "max_steps": 0
+      }
+    },
+    "alternate_optimizer": {
+      "alternate_optimizer_entity": {
+        "n": 10,
+        "converged": 0,
+        "max_steps": 10
+      },
+      "alternate_optimizer_joint": {
+        "n": 10,
+        "converged": 2,
+        "max_steps": 8
+      },
+      "alternate_optimizer_relation": {
+        "n": 10,
+        "converged": 0,
+        "max_steps": 0
+      }
+    }
+  },
+  "stagewise_j_authorized": false,
+  "stagewise_j_run": false,
+  "activation_and_nonlinear_revalidation": "NOT_RUN: preregistered measurement gates closed",
+  "reconnect": false,
+  "o3c": false,
+  "checkpoint_modified": false,
+  "data_leakage_detected": false,
+  "runtime_seconds": 1795.2834413051605,
+  "runtime_minutes": 29.921390688419343,
+  "single_gpu_device": "BW (ROCm/HIP 6.3.26093; preflight-verified)",
+  "gpu_busy_time_sampled": false,
+  "initial_invalidated_attempt": "Preserved separately; early-stop-freeze bug; stopped before held-out performance metrics.",
+  "execution_manifest": {
+    "pid": 1458,
+    "started_utc": "2026-09-25T01:46:28.162508+00:00",
+    "python": "/usr/local/bin/python",
+    "python_version": "3.11.9 (main, Apr  5 2026, 19:32:29) [GCC 11.4.0]",
+    "pipeline": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration_v2/code/j3d_pipeline_calibrated_v2.py",
+    "pipeline_sha256": "5cdfc28321b68c404617aad0f264cfe5fc68172df2828c741667b79cfda623d3",
+    "stdout_stderr_log": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration_v2/logs/j3d_pipeline_run.log",
+    "cache_integrity_stage0_pass": true,
+    "row_transform_stage0_pass": true,
+    "ld_library_path": "/opt/dtk-26.04/hip/lib:/opt/dtk-26.04/lib:/opt/dtk-26.04/.hyhal/rocm_smi/lib",
+    "checkpoint_modified": false
+  },
+  "stagewise_not_run_marker": [
+    {
+      "status": "NOT_RUN",
+      "reason": "R0/R1 standardized; R1/R2 standardized gate(s) failed despite successful analytical R1/R2 classifier transfer"
+    }
+  ],
+  "generated_utc": "2026-09-25T02:27:13.588516+00:00"
+}

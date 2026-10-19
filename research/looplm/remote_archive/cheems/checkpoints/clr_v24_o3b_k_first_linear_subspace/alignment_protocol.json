@@ -1,0 +1,11 @@
+{
+  "carriers": [
+    "K-I0",
+    "K-I2b",
+    "K-I2a"
+  ],
+  "classifier_steps": 60,
+  "direction_svd": "exact",
+  "rows": 48,
+  "elapsed_s": 665.518928000005
+}

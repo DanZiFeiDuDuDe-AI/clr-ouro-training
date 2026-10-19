@@ -1,0 +1,31 @@
+{
+  "finalization_wall_clock_s": 12.702715762949083,
+  "optimizer_lr_matrix_fit_wall_clock_s": 50.144782110874075,
+  "stage1_probe_fit_wall_clock_s": null,
+  "stage1_probe_fit_runtime_note": "The Stage 1 process did not emit an aggregate timer before the first post-training plotting error; probe endpoints and transfer metrics were saved.",
+  "device": "cuda",
+  "device_name": "BW",
+  "lr_conditions": [
+    [
+      "0.5x",
+      0.00015
+    ],
+    [
+      "1x",
+      0.0003
+    ],
+    [
+      "2x",
+      0.0006
+    ]
+  ],
+  "fixed_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "optimizer_lr_matrix_fit_count": 18,
+  "deterministic_repeat_fit_count": 2
+}

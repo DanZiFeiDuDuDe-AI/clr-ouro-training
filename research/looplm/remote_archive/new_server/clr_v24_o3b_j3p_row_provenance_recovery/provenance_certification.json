@@ -1,0 +1,22 @@
+{
+  "verdict": "J3P-F — HISTORICAL ROW PROVENANCE CANNOT BE CERTIFIED",
+  "failure_type": "provenance gate failure; no confirmed row misalignment",
+  "historical_feature_traversal_recovered": false,
+  "historical_label_traversal_recovered": true,
+  "source_canonical_ids_built": true,
+  "source_rows": 18661,
+  "source_label_checks": "all rows: pass",
+  "semantic_sample_count": 64,
+  "semantic_sample_pass": true,
+  "feature_ids_present": false,
+  "strict_feature_source_join": false,
+  "mention_spans_replayable": false,
+  "historical_feature_reextraction": "NOT_RUN: strict join gate failed",
+  "measurement_gate_reopened": false,
+  "probe_training_performed": false,
+  "model_forward_performed": false,
+  "checkpoint_modified": false,
+  "reconnect_allowed": false,
+  "o3c_allowed": false,
+  "recommended_next_experiment": "Build a fresh ID-carrying feature cache from original MR sources and the frozen checkpoint, then certify that cache before any probe training."
+}

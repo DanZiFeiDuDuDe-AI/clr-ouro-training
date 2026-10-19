@@ -1,0 +1,39 @@
+{
+  "exact_name_search": "rg --files H:\\LoopLM filtered for expected O21A/VGen2/O3a/router checkpoint and source filenames",
+  "relevant_local_archive_hits": {
+    "O21B_checkpoint": {
+      "exists": true,
+      "matches_active_remote": true,
+      "not_a_substitute_for_O21A_MR_VGen2_O3A_or_router": true,
+      "path": "H:\\LoopLM\\remote_archive\\cheems\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+      "sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+    },
+    "original_o3b_integration_script": {
+      "exists": true,
+      "matches_active_remote": true,
+      "path": "H:\\LoopLM\\remote_archive\\cheems\\a1_v24_o3b.py",
+      "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+    },
+    "other_requested_frozen_checkpoints": "No matching original checkpoint files found in searched local workspace/archive names."
+  },
+  "remote_search_results": {
+    "exact_component_names_exit": 0,
+    "own_shared_home_checkpoint_search_exit": 0,
+    "own_shared_home_checkpoint_search_matches": "",
+    "project_output_config_references": [
+      "/root/private_data/clr_v24_o3b_l/output/config.json",
+      "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json",
+      "/public/home/ac92f4k0z9/clr_v24_o3b_l/output/config.json",
+      "/public/home/ac92f4k0z9/clr_v24_o3b_l/context/o3b_k/config.json"
+    ],
+    "relevant_checkpoint_file_listing_exit": 0,
+    "unrelated_other_users_public_data_not_inspected": true
+  },
+  "roots": [
+    "H:\\LoopLM",
+    "H:\\LoopLM\\remote_archive\\cheems",
+    "H:\\LoopLM\\remote_archive\\new_server",
+    "H:\\LoopLM\\checkpoints"
+  ],
+  "searched_utc": "2026-09-25T13:31:47.110885+00:00"
+}

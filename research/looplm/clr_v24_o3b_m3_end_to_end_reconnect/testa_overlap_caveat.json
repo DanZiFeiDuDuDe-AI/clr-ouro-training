@@ -1,0 +1,8 @@
+{
+  "M3_TestA_TestB_evaluated": false,
+  "TestA_key_identity_overlap_with_train": 1479,
+  "TestA_key_identity_overlap_with_validation": 922,
+  "TestB_key_identity_overlap_with_train_or_validation": 0,
+  "exact_source_rows_and_filtered_semantic_facts_overlap": 0,
+  "interpretation": "If M3 resumes, TestA is operational/regression evidence, not unseen-key generalization; key-disjoint TestB is the stricter generalization gate."
+}

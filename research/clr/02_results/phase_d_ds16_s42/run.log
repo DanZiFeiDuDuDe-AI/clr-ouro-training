@@ -1,0 +1,91 @@
+============================================================
+CLR Phase 1 v2 - CLUTRR Local (verified data, no-LoRA diagnostic)
+Model: Qwen3.5-0.8B | GPU: NVIDIA GeForce GTX 1650 (4.0GB)
+DS=16 | FiLM=[3, 7, 11, 15, 19, 23] | steps=400 | LR=0.0003 | LoRA=False | coh_w=0.05 | probe_w=0.2
+============================================================
+Seed: 42 | Data seed: 42
+
+Generating verified CLUTRR data...
+train=600 eval=100 | memoryless ceiling: turns>=2 0.536, all turns 0.496
+
+Loading Qwen3.5-0.8B (4-bit)...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/320 [00:00<00:56,  5.62it/s]
+Loading weights:   9%|▉         | 28/320 [00:00<00:02, 123.28it/s]
+Loading weights:  25%|██▌       | 81/320 [00:00<00:00, 280.53it/s]
+Loading weights:  44%|████▍     | 141/320 [00:00<00:00, 393.56it/s]
+Loading weights:  60%|█████▉    | 191/320 [00:00<00:00, 429.29it/s]
+Loading weights:  77%|███████▋  | 247/320 [00:00<00:00, 471.10it/s]
+Loading weights:  94%|█████████▍| 301/320 [00:00<00:00, 486.38it/s]
+Loading weights: 100%|██████████| 320/320 [00:00<00:00, 388.73it/s]
+Model: Qwen3.5-0.8B | hidden_size=1024 | layers=24
+FiLM injected into 6 layers
+Trainable params: 0.12M
+
+Training: 400 steps...
+  step   10/400 | gen=13.9504 coh=0.766 probe=2.553 probe_acc=0/2 |S|=1.17 | lr=1.50e-04
+  step   20/400 | gen=12.5651 coh=1.177 probe=2.534 probe_acc=1/2 |S|=2.00 | lr=3.00e-04
+  step   30/400 | gen=13.0998 coh=1.613 probe=2.499 probe_acc=1/2 |S|=2.93 | lr=2.99e-04
+  step   40/400 | gen=11.7878 coh=1.211 probe=2.669 probe_acc=0/3 |S|=3.39 | lr=2.98e-04
+  step   50/400 | gen=11.0286 coh=1.864 probe=2.262 probe_acc=1/2 |S|=3.57 | lr=2.95e-04
+  step   60/400 | gen=4.8372 coh=3.627 probe=3.148 probe_acc=0/1 |S|=3.67 | lr=2.92e-04
+  step   70/400 | gen=8.3626 coh=1.855 probe=2.413 probe_acc=0/2 |S|=3.73 | lr=2.87e-04
+  step   80/400 | gen=3.9899 coh=3.675 probe=2.365 probe_acc=0/1 |S|=3.73 | lr=2.82e-04
+  step   90/400 | gen=7.1974 coh=1.844 probe=2.605 probe_acc=0/2 |S|=3.74 | lr=2.76e-04
+  step  100/400 | gen=6.2247 coh=1.232 probe=2.491 probe_acc=1/3 |S|=3.74 | lr=2.68e-04
+
+  Eval at step 100 (4.9 min elapsed)...
+  EVAL s100: t2p w=0.130 wo=0.058 d=+0.072 (ceiling 0.536) | t1 w=0.980 wo=0.860 | last w=0.110 wo=0.050 | all w=0.487 wo=0.395
+  -> saved best (delta_t2p=+0.072)
+  step  110/400 | gen=5.8487 coh=1.228 probe=3.103 probe_acc=0/3 |S|=3.74 | lr=2.60e-04
+  step  120/400 | gen=2.7242 coh=1.837 probe=2.561 probe_acc=0/2 |S|=3.74 | lr=2.52e-04
+  step  130/400 | gen=4.6803 coh=1.828 probe=2.245 probe_acc=0/2 |S|=3.74 | lr=2.42e-04
+  step  140/400 | gen=1.7559 coh=1.838 probe=2.929 probe_acc=0/2 |S|=3.74 | lr=2.32e-04
+  step  150/400 | gen=2.8134 coh=1.814 probe=2.382 probe_acc=1/2 |S|=3.74 | lr=2.21e-04
+  step  160/400 | gen=3.0222 coh=1.810 probe=2.556 probe_acc=0/2 |S|=3.74 | lr=2.10e-04
+  step  170/400 | gen=2.6986 coh=1.206 probe=2.285 probe_acc=0/3 |S|=3.74 | lr=1.99e-04
+  step  180/400 | gen=1.3320 coh=3.614 probe=2.080 probe_acc=1/1 |S|=3.74 | lr=1.87e-04
+  step  190/400 | gen=3.1701 coh=1.799 probe=2.827 probe_acc=0/2 |S|=3.74 | lr=1.75e-04
+  step  200/400 | gen=0.9434 coh=3.591 probe=2.327 probe_acc=0/1 |S|=3.74 | lr=1.62e-04
+
+  Eval at step 200 (17.5 min elapsed)...
+  EVAL s200: t2p w=0.123 wo=0.065 d=+0.058 (ceiling 0.536) | t1 w=1.000 wo=0.860 | last w=0.100 wo=0.050 | all w=0.492 wo=0.399
+  step  210/400 | gen=1.8455 coh=1.795 probe=2.263 probe_acc=1/2 |S|=3.74 | lr=1.50e-04
+  step  220/400 | gen=0.9573 coh=3.564 probe=2.072 probe_acc=1/1 |S|=3.74 | lr=1.38e-04
+  step  230/400 | gen=0.7137 coh=3.569 probe=2.654 probe_acc=0/1 |S|=3.74 | lr=1.25e-04
+  step  240/400 | gen=0.6796 coh=3.548 probe=2.379 probe_acc=0/1 |S|=3.74 | lr=1.13e-04
+  step  250/400 | gen=1.7201 coh=1.187 probe=2.881 probe_acc=0/3 |S|=3.74 | lr=1.01e-04
+  step  260/400 | gen=1.7651 coh=1.779 probe=2.539 probe_acc=0/2 |S|=3.74 | lr=8.97e-05
+  step  270/400 | gen=0.4230 coh=3.540 probe=3.064 probe_acc=0/1 |S|=3.74 | lr=7.86e-05
+  step  280/400 | gen=2.7039 coh=1.784 probe=2.458 probe_acc=0/2 |S|=3.74 | lr=6.80e-05
+  step  290/400 | gen=2.5690 coh=1.773 probe=2.812 probe_acc=0/2 |S|=3.74 | lr=5.79e-05
+  step  300/400 | gen=2.8551 coh=1.771 probe=2.812 probe_acc=0/2 |S|=3.74 | lr=4.84e-05
+
+  Eval at step 300 (29.9 min elapsed)...
+  EVAL s300: t2p w=0.123 wo=0.065 d=+0.058 (ceiling 0.536) | t1 w=1.000 wo=0.870 | last w=0.100 wo=0.050 | all w=0.492 wo=0.403
+  step  310/400 | gen=3.1300 coh=1.187 probe=2.863 probe_acc=0/3 |S|=3.74 | lr=3.96e-05
+  step  320/400 | gen=2.8100 coh=1.779 probe=2.820 probe_acc=0/2 |S|=3.74 | lr=3.16e-05
+  step  330/400 | gen=3.1471 coh=1.183 probe=2.572 probe_acc=1/3 |S|=3.74 | lr=2.44e-05
+  step  340/400 | gen=1.7753 coh=1.783 probe=2.539 probe_acc=0/2 |S|=3.74 | lr=1.81e-05
+  step  350/400 | gen=2.5547 coh=1.782 probe=2.540 probe_acc=0/2 |S|=3.74 | lr=1.26e-05
+  step  360/400 | gen=0.3806 coh=3.549 probe=2.324 probe_acc=0/1 |S|=3.74 | lr=8.13e-06
+  step  370/400 | gen=1.5137 coh=1.193 probe=2.536 probe_acc=0/3 |S|=3.74 | lr=4.59e-06
+  step  380/400 | gen=2.2529 coh=1.188 probe=2.393 probe_acc=1/3 |S|=3.74 | lr=2.05e-06
+  step  390/400 | gen=1.0292 coh=1.776 probe=2.903 probe_acc=0/2 |S|=3.74 | lr=5.12e-07
+  step  400/400 | gen=1.9783 coh=1.190 probe=2.419 probe_acc=0/3 |S|=3.74 | lr=0.00e+00
+
+  Eval at step 400 (42.7 min elapsed)...
+  EVAL s400: t2p w=0.123 wo=0.065 d=+0.058 (ceiling 0.536) | t1 w=1.000 wo=0.870 | last w=0.100 wo=0.050 | all w=0.492 wo=0.403
+
+============================================================
+Results (t2p = memory-dependent turns >=2)
+  s 100: t2p 0.130/0.058 d=+0.072 | t1 0.980/0.860 | all 0.487/0.395
+  s 200: t2p 0.123/0.065 d=+0.058 | t1 1.000/0.860 | all 0.492/0.399
+  s 300: t2p 0.123/0.065 d=+0.058 | t1 1.000/0.870 | all 0.492/0.403
+  s 400: t2p 0.123/0.065 d=+0.058 | t1 1.000/0.870 | all 0.492/0.403
+  memoryless ceiling (t2p): 0.536
+
+Done in 50.2 min. H:\CLR/checkpoints/phase_d_ds16_s42/

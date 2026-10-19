@@ -1,0 +1,40 @@
+{
+  "slot01": {
+    "episodes": 333,
+    "writes": 666,
+    "valid_allocation_rate": 1.0,
+    "collision_rate": 0.0,
+    "per_fact_retrieval": [
+      0.996996996996997,
+      0.996996996996997
+    ],
+    "per_fact_answer": [
+      0.9519519519519519,
+      0.960960960960961
+    ],
+    "retrieval_accuracy": 0.996996996996997,
+    "answer_accuracy": 0.9564564564564565,
+    "all_facts_retained_rate": 0.993993993993994,
+    "all_facts_answered_rate": 0.9159159159159159
+  },
+  "slot03": {
+    "episodes": 333,
+    "writes": 666,
+    "valid_allocation_rate": 1.0,
+    "collision_rate": 0.0,
+    "per_fact_retrieval": [
+      0.996996996996997,
+      0.996996996996997
+    ],
+    "per_fact_answer": [
+      0.9519519519519519,
+      0.9429429429429429
+    ],
+    "retrieval_accuracy": 0.996996996996997,
+    "answer_accuracy": 0.9474474474474475,
+    "all_facts_retained_rate": 0.993993993993994,
+    "all_facts_answered_rate": 0.9009009009009009
+  },
+  "retrieval_abs_diff_pp": 0.0,
+  "answer_abs_diff_pp": 0.9009009009009028
+}

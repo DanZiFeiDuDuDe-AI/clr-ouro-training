@@ -1,0 +1,17 @@
+{
+  "learned": {
+    "testA": 0.049,
+    "testB": 0.056
+  },
+  "diagnostic": {
+    "duplicate_slots": [
+      0,
+      2
+    ],
+    "key_cosine": -0.09722194820642471,
+    "read_selected_slot": 0,
+    "answer": 37,
+    "value_slot0": 37,
+    "value_slot2": 19
+  }
+}

@@ -1,0 +1,2 @@
+﻿status
+NOT_RUN: real O3b reconnect is locked unless both offline behavior and action-simulation gates PASS.

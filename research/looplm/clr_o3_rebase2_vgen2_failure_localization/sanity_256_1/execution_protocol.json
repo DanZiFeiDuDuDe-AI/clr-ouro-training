@@ -1,0 +1,18 @@
+{
+  "batch_size": 64,
+  "checkpoint_sha256": "baebc01f0c8303e6356b4ffdda77cf18c7035fe307f0afff776d31251e4fc3da",
+  "information_gate": "raw linear single>=95% and UPDATE>=95%; negative MLP does not negate linear positive evidence",
+  "initial_checkpoint_sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd",
+  "model_selection": "fixed final step; no VAL selection",
+  "objective": "single-write CE; random physical slot each step",
+  "optimizer": {
+    "gradient_clip": 1,
+    "lr": 0.0003,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "seed": 42,
+  "source_sha256": "3855f6e38d48288631038315f11ef8664610c5408067de22cd4af40d05edd544",
+  "steps": 2000,
+  "unique_train_fact_count": 256
+}

@@ -1,0 +1,533 @@
+{
+  "10k": {
+    "R0_R1_exact": true,
+    "geometry": {
+      "R0": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.7818060517311096,
+          "std": 0.18033277988433838
+        },
+        "same_vs_different_cosine_auc": 0.5345679012345679,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.794301450252533,
+          "std": 0.1764322966337204
+        }
+      },
+      "R1": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.7818060517311096,
+          "std": 0.18033277988433838
+        },
+        "same_vs_different_cosine_auc": 0.5345679012345679,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.794301450252533,
+          "std": 0.1764322966337204
+        }
+      },
+      "R2": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.7002213597297668,
+          "std": 0.09483091533184052
+        },
+        "same_vs_different_cosine_auc": 0.9660493827160493,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.881783127784729,
+          "std": 0.050931863486766815
+        }
+      },
+      "R3": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.024629218503832817,
+          "std": 0.2510087788105011
+        },
+        "same_vs_different_cosine_auc": 0.9962962962962963,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.7704470753669739,
+          "std": 0.12739452719688416
+        }
+      },
+      "R4": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.0019148584688082337,
+          "std": 0.35167160630226135
+        },
+        "same_vs_different_cosine_auc": 0.9938271604938271,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.8507506847381592,
+          "std": 0.11474228650331497
+        }
+      }
+    },
+    "single": {
+      "1": {
+        "answer_accuracy": 0.9700598802395209,
+        "correct": 324,
+        "count": 334
+      },
+      "2": {
+        "answer_accuracy": 0.96996996996997,
+        "correct": 646,
+        "count": 666
+      },
+      "4": {
+        "answer_accuracy": 0.9714714714714715,
+        "correct": 1294,
+        "count": 1332
+      },
+      "overall": {
+        "answer_accuracy": 0.9708404802744426,
+        "correct": 2264,
+        "count": 2332
+      }
+    },
+    "update": {
+      "latest_value_accuracy_after_update": 0.9794275491949911,
+      "non_target_slot_mutation": false,
+      "old_value_accuracy_after_first_write": 0.9704830053667263,
+      "pair_count": 1118
+    }
+  },
+  "3k": {
+    "R0_R1_exact": true,
+    "geometry": {
+      "R0": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.7818060517311096,
+          "std": 0.18033277988433838
+        },
+        "same_vs_different_cosine_auc": 0.5345679012345679,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.794301450252533,
+          "std": 0.1764322966337204
+        }
+      },
+      "R1": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.7818060517311096,
+          "std": 0.18033277988433838
+        },
+        "same_vs_different_cosine_auc": 0.5345679012345679,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.794301450252533,
+          "std": 0.1764322966337204
+        }
+      },
+      "R2": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.8818197250366211,
+          "std": 0.048373907804489136
+        },
+        "same_vs_different_cosine_auc": 0.9259259259259259,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.950753390789032,
+          "std": 0.02445080876350403
+        }
+      },
+      "R3": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.03585615009069443,
+          "std": 0.3008604645729065
+        },
+        "same_vs_different_cosine_auc": 0.980246913580247,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.7326034903526306,
+          "std": 0.1507471650838852
+        }
+      },
+      "R4": {
+        "between_class_cosine": {
+          "count": 98354,
+          "mean": 0.009656999260187149,
+          "std": 0.4209687411785126
+        },
+        "same_vs_different_cosine_auc": 0.9691358024691358,
+        "within_class_cosine": {
+          "count": 1620,
+          "mean": 0.8102772831916809,
+          "std": 0.14300599694252014
+        }
+      }
+    },
+    "single": {
+      "1": {
+        "answer_accuracy": 0.8203592814371258,
+        "correct": 274,
+        "count": 334
+      },
+      "2": {
+        "answer_accuracy": 0.8138138138138138,
+        "correct": 542,
+        "count": 666
+      },
+      "4": {
+        "answer_accuracy": 0.8445945945945946,
+        "correct": 1125,
+        "count": 1332
+      },
+      "overall": {
+        "answer_accuracy": 0.8323327615780446,
+        "correct": 1941,
+        "count": 2332
+      }
+    },
+    "update": {
+      "latest_value_accuracy_after_update": 0.870304114490161,
+      "non_target_slot_mutation": false,
+      "old_value_accuracy_after_first_write": 0.855098389982111,
+      "pair_count": 1118
+    }
+  },
+  "artifacts": {
+    "10k": {
+      "config": {
+        "architecture": "OracleLocalCore: Linear(2048,64) + GRUCell(64,64), plus four Linear(64,64) slot decoders",
+        "batch_size": 64,
+        "checkpoint_evaluation_schedule": [
+          0,
+          100,
+          200,
+          500,
+          1000,
+          1500,
+          2000,
+          2500,
+          3000,
+          4000,
+          5000,
+          6000,
+          7000,
+          8000,
+          9000,
+          10000
+        ],
+        "curve_eval_every": 100,
+        "device": "cuda",
+        "device_name": "BW",
+        "episode_objective": "mean per-written-slot 64-class cross entropy",
+        "eval_every": 100,
+        "evaluation_randomness": "fixed deterministic validation slot permutations reused at every checkpoint; training RNG/objective unchanged",
+        "experiment": "CLR-O3-REBASE-1/VGen2",
+        "frozen_dependency": {
+          "o21a_checkpoint": "/root/private_data/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt",
+          "o21a_checkpoint_sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+          "o21a_gate_pass": true
+        },
+        "frozen_o21a_checkpoint_sha256_verified": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+        "gradient_clip": 1.0,
+        "initialization": "fresh random initialization; no missing R2/VGen state substituted",
+        "j3c_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+        "lr": 0.0003,
+        "mr_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+        "optimizer": "AdamW",
+        "reproduction_parent_config_sha256": "5be7a10274df9b1ae7689f71cc1bb3726fd03cdf605303988b06fa434b576b8b",
+        "reproduction_parent_script_sha256": "179a9473810ad62bc2e890b6620f0e383970e0c0a0ace2809bc0063c27e545be",
+        "seed": 42,
+        "selection": "validation-only lexicographic priority: UPDATE latest-value accuracy, then N=4 single-write accuracy, then overall single-write accuracy, then lower validation loss",
+        "selection_policy_changed_only_as_explicitly_required": true,
+        "steps": 10000,
+        "test_policy": "TestA/TestB files are not opened unless selected validation checkpoint passes all three frozen >=95% gates",
+        "train_loss_reporting": "last minibatch, rolling mean over preceding 100 optimization steps, and deterministic train-only diagnostic subset loss",
+        "training_hyperparameters_unchanged_from_3k": true,
+        "training_mixture": "50% source-separated multi-slot episodes; 50% source-separated same-key changed-value update pairs",
+        "update_objective": "mean CE after first write and after same-slot second write; latest value is supervised",
+        "validation_loss": "0.5 * full validation episode CE + 0.5 * full validation update CE; update CE averages first-write and latest-value CE",
+        "weight_decay": 0.01
+      },
+      "sha256": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb",
+      "step": 9600
+    },
+    "3k": {
+      "config": {
+        "architecture": "OracleLocalCore: Linear(2048,64) + GRUCell(64,64), plus four Linear(64,64) slot decoders",
+        "batch_size": 64,
+        "device": "cuda",
+        "episode_objective": "mean per-written-slot 64-class cross entropy",
+        "eval_every": 100,
+        "experiment": "CLR-O3-REBASE-1/VGen2",
+        "frozen_dependency": {
+          "o21a_checkpoint": "/root/private_data/clr_o3_rebase1_fresh_operational_baseline/components/o21a/o21a_rebase.pt",
+          "o21a_checkpoint_sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced",
+          "o21a_gate_pass": true
+        },
+        "gradient_clip": 1.0,
+        "initialization": "fresh random initialization; no missing R2/VGen state substituted",
+        "j3c_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+        "lr": 0.0003,
+        "mr_cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+        "optimizer": "AdamW",
+        "seed": 42,
+        "selection": "best VAL score = 0.5*single-write overall accuracy + 0.5*update latest-value accuracy",
+        "steps": 3000,
+        "test_policy": "TestA/TestB are not loaded until both VAL standalone gates pass",
+        "training_mixture": "50% source-separated multi-slot episodes; 50% source-separated same-key changed-value update pairs",
+        "update_objective": "mean CE after first write and after same-slot second write; latest value is supervised",
+        "weight_decay": 0.01
+      },
+      "sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd",
+      "step": 3000
+    }
+  },
+  "candidate_b_modified": false,
+  "canonical_fact_overlap": 0,
+  "class_histogram_train": [
+    180,
+    182,
+    206,
+    146,
+    187,
+    176,
+    196,
+    184,
+    165,
+    186,
+    170,
+    169,
+    180,
+    193,
+    203,
+    182,
+    173,
+    186,
+    184,
+    169,
+    184,
+    187,
+    193,
+    181,
+    201,
+    169,
+    180,
+    159,
+    192,
+    170,
+    187,
+    195,
+    180,
+    175,
+    186,
+    177,
+    197,
+    171,
+    213,
+    215,
+    194,
+    185,
+    196,
+    181,
+    196,
+    178,
+    174,
+    177,
+    184,
+    203,
+    186,
+    165,
+    178,
+    200,
+    187,
+    168,
+    144,
+    199,
+    167,
+    193,
+    157,
+    169,
+    188,
+    167
+  ],
+  "class_histogram_val": [
+    28,
+    42,
+    41,
+    41,
+    32,
+    35,
+    43,
+    32,
+    37,
+    34,
+    33,
+    37,
+    35,
+    39,
+    36,
+    42,
+    41,
+    34,
+    39,
+    44,
+    46,
+    35,
+    34,
+    31,
+    44,
+    36,
+    28,
+    42,
+    58,
+    40,
+    32,
+    33,
+    32,
+    31,
+    47,
+    44,
+    28,
+    40,
+    33,
+    37,
+    36,
+    34,
+    33,
+    29,
+    39,
+    32,
+    35,
+    33,
+    35,
+    36,
+    38,
+    44,
+    41,
+    30,
+    34,
+    40,
+    41,
+    47,
+    28,
+    24,
+    26,
+    33,
+    32,
+    36
+  ],
+  "git_sha": null,
+  "git_sha_reason": "workspace and source snapshot are not Git repositories",
+  "rule_a_threshold": 0.8504285216331482,
+  "source_hashes": {
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_data.npz": "612f387f326d1c4cb1490fdc3eac9bb62d502315a81d203f7407597d56a65e23",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/val_data.npz": "967c7b7bf761d8baeeb900a1bc1413013d1825a7facee6555263a5c73fbb6ceb",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_train.npy": "8b69102f50a3ead5727b7aae477adbb733437c7a199cb6caebb8c03c4e34a30b",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_base_I0_val.npy": "2a00d828f92bc0237657e4c13f68d7599294e27595bdb1950deaae4f0caf0718",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_train_sidecar.csv": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/H_fresh_val_sidecar.csv": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/carrier_construction.json": "2fcb2b3e46cdc15d4a48a79dc65c18daa2ff6427944ffe413238c7b221cc1160",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/environment_manifest.json": "8ab1347e3958a688489c368eae5359ddf39b5d8f78552512df6750a0a1bf997c",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/extraction_policy_frozen.json": "b53182cce202549cf3f65f2de27e58a8c7dc43ada7965749832337eb60ed3e67",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/joint_label_map.json": "d1adc265f2a47bae7d5f6d73340e4d1417fa6c004de27fbb3ca6e07d85c600f5",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_train.csv": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115",
+    "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/labels_val.csv": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7"
+  },
+  "test_files_opened": false,
+  "train": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 27955,
+    "entity_carrier_shape": [
+      11665,
+      2048
+    ],
+    "episodes": 5000,
+    "fact_rows": 11665,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "train"
+  },
+  "val": {
+    "canonical_fact_id_unique": true,
+    "changed_value_update_pair_count": 1118,
+    "entity_carrier_shape": [
+      2332,
+      2048
+    ],
+    "episodes": 1000,
+    "fact_rows": 2332,
+    "label_sidecar_ids_exact": true,
+    "relation_carrier_exact_to_fact_H": true,
+    "split": "val"
+  },
+  "value_class_mapping": {
+    "\u4e34\u5c9a\u5e02": 8,
+    "\u4e91\u5ddd\u5e02": 3,
+    "\u5170\u6c40\u57ce": 26,
+    "\u5317\u6c40\u57ce": 10,
+    "\u5357\u5c7f\u5e02": 0,
+    "\u579a\u57ce\u5e02": 58,
+    "\u5c9a\u6c5f\u5e02": 1,
+    "\u661f\u6e2f\u5e02": 4,
+    "\u671b\u5ddd\u5e02": 7,
+    "\u6749\u5cad\u5e02": 46,
+    "\u674f\u575b\u5e02": 36,
+    "\u677e\u5dde\u5e02": 28,
+    "\u67ab\u57ce\u57ce": 48,
+    "\u67ab\u6d25\u5e02": 12,
+    "\u67cf\u57ce\u5e02": 47,
+    "\u67da\u5c71\u57ce": 38,
+    "\u67f3\u5ddd\u5e02": 30,
+    "\u6800\u57ce\u5e02": 19,
+    "\u6816\u971e\u57ce": 11,
+    "\u683e\u5ddd\u5e02": 52,
+    "\u6842\u6eaa\u5e02": 34,
+    "\u6843\u6e21\u5e02": 31,
+    "\u6849\u8c37\u5e02": 50,
+    "\u6850\u6d32\u57ce": 54,
+    "\u6851\u6d66\u57ce": 24,
+    "\u6864\u9547\u5e02": 53,
+    "\u6866\u5ddd\u5e02": 49,
+    "\u6885\u5c7f\u5e02": 25,
+    "\u6893\u5dde\u57ce": 43,
+    "\u68a7\u6e2f\u5e02": 42,
+    "\u68a8\u4e61\u57ce": 35,
+    "\u6960\u6eaa\u57ce": 44,
+    "\u6960\u9547\u57ce": 55,
+    "\u6986\u5173\u5e02": 13,
+    "\u6989\u539f\u5e02": 51,
+    "\u69d0\u4e61\u57ce": 40,
+    "\u69d0\u5b89\u5e02": 29,
+    "\u6a1f\u9547\u57ce": 39,
+    "\u6a31\u8c37\u5e02": 32,
+    "\u6a80\u6751\u5e02": 45,
+    "\u6c40\u6d32\u5e02": 18,
+    "\u6c50\u6e2f\u5e02": 17,
+    "\u6c9a\u5ddd\u57ce": 37,
+    "\u6ca7\u6f9c\u5e02": 14,
+    "\u6e1d\u6e2f\u5e02": 41,
+    "\u6f84\u6d77\u5e02": 9,
+    "\u73e9\u6d32\u5e02": 56,
+    "\u767d\u6c99\u57ce": 2,
+    "\u77f3\u6e56\u5e02": 20,
+    "\u7af9\u5cad\u5e02": 27,
+    "\u82a6\u6d32\u5e02": 22,
+    "\u82c7\u6e21\u5e02": 21,
+    "\u82cf\u837b\u5e02": 62,
+    "\u82dc\u6eaa\u5e02": 61,
+    "\u8377\u6cfd\u57ce": 33,
+    "\u837b\u6d66\u57ce": 60,
+    "\u8386\u6c40\u57ce": 59,
+    "\u83f1\u6e2f\u57ce": 63,
+    "\u83f1\u6eaa\u5e02": 23,
+    "\u8605\u829c\u5e02": 57,
+    "\u96fe\u5cab\u5e02": 15,
+    "\u971c\u6865\u5e02": 16,
+    "\u9752\u79be\u5e02": 6,
+    "\u9e6d\u539f\u57ce": 5
+  },
+  "value_mapping_conflicts": []
+}

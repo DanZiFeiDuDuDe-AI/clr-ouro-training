@@ -1,0 +1,50 @@
+{
+  "oracle": {
+    "episodes": 1000,
+    "retrieval_accuracy": 0.95825,
+    "answer_accuracy": 0.90375,
+    "all_facts_retained_rate": 0.833,
+    "all_facts_answered_rate": 0.653,
+    "action_accuracy": 1.0,
+    "update_target_accuracy": 1.0,
+    "new_valid_empty_rate": null,
+    "new_collision_rate": null,
+    "duplicate_key_rate": 0.0,
+    "latest_value_accuracy": 0.959,
+    "old_value_probability": 0.3475000767358522,
+    "untouched_k_drift": 0.0,
+    "untouched_v_drift": 0.0
+  },
+  "learned": {
+    "episodes": 1000,
+    "retrieval_accuracy": 0.9665,
+    "answer_accuracy": 0.911,
+    "all_facts_retained_rate": 0.866,
+    "all_facts_answered_rate": 0.676,
+    "action_accuracy": 0.987,
+    "update_target_accuracy": 0.907,
+    "new_valid_empty_rate": null,
+    "new_collision_rate": null,
+    "duplicate_key_rate": 0.093,
+    "latest_value_accuracy": 0.954,
+    "old_value_probability": 0.3475656277714393,
+    "untouched_k_drift": 0.0,
+    "untouched_v_drift": 0.0
+  },
+  "append": {
+    "episodes": 1000,
+    "retrieval_accuracy": 0.99475,
+    "answer_accuracy": 0.9375,
+    "all_facts_retained_rate": 0.979,
+    "all_facts_answered_rate": 0.783,
+    "action_accuracy": 0.0,
+    "update_target_accuracy": 0.0,
+    "new_valid_empty_rate": null,
+    "new_collision_rate": null,
+    "duplicate_key_rate": 0.0,
+    "latest_value_accuracy": null,
+    "old_value_probability": null,
+    "untouched_k_drift": 0.0,
+    "untouched_v_drift": 0.0
+  }
+}

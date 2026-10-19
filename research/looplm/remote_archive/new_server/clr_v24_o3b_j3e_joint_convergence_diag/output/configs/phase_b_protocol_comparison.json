@@ -1,0 +1,39 @@
+{
+  "selection_metrics": "train/validation only",
+  "test_metrics_read": false,
+  "candidates": [
+    {
+      "optimizer": "AdamW",
+      "lr": 0.01,
+      "weight_decay": 0.0,
+      "plateau_count": 0,
+      "total_runs": 10,
+      "mean_best_val_loss": 0.3917544787680706,
+      "mean_best_val_accuracy": 0.9165583008235803,
+      "mean_abs_R1_R2_val_CE_gap": 0.28199843035503325,
+      "all_seeds_both_representations_plateau": false
+    },
+    {
+      "optimizer": "AdamW",
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "plateau_count": 0,
+      "total_runs": 10,
+      "mean_best_val_loss": 0.3887292485402801,
+      "mean_best_val_accuracy": 0.9168183788469875,
+      "mean_abs_R1_R2_val_CE_gap": 0.28629735486416075,
+      "all_seeds_both_representations_plateau": false
+    },
+    {
+      "optimizer": "SGD_momentum_0.9",
+      "lr": 0.1,
+      "weight_decay": 0.0,
+      "plateau_count": 0,
+      "total_runs": 10,
+      "mean_best_val_loss": 0.3837340193801974,
+      "mean_best_val_accuracy": 0.8896835717381879,
+      "mean_abs_R1_R2_val_CE_gap": 0.22351383309124684,
+      "all_seeds_both_representations_plateau": false
+    }
+  ]
+}

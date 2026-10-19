@@ -1,0 +1,2 @@
+﻿status,detail
+NOT_RUN: frozen O3b dependencies missing,/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt (frozen query encoder/value heads); /root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt (frozen V/Core and value heads); /root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt (frozen free-slot allocator); /root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt (pre-reconnect baseline router for regression comparison)

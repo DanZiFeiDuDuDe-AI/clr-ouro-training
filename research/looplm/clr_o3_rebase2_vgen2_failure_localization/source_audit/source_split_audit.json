@@ -1,0 +1,199 @@
+{
+  "test_files_opened": false,
+  "splits": {
+    "train": {
+      "arrays": {
+        "fact_H": {
+          "shape": [
+            11665,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "fact_query_H": {
+          "shape": [
+            11665,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "fact_offsets": {
+          "shape": [
+            5001
+          ],
+          "dtype": "int64"
+        },
+        "query_H": {
+          "shape": [
+            5000,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "Y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int64"
+        },
+        "N": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int64"
+        },
+        "query_idx": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int64"
+        },
+        "fact_Y": {
+          "shape": [
+            11665
+          ],
+          "dtype": "int64"
+        },
+        "fact_relation": {
+          "shape": [
+            11665
+          ],
+          "dtype": "int64"
+        },
+        "fact_entity": {
+          "shape": [
+            11665
+          ],
+          "dtype": "int64"
+        },
+        "query_relation": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int64"
+        },
+        "query_entity": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int64"
+        }
+      },
+      "query_target_offset_mismatches": 0,
+      "metadata_fact_class_mismatches": 0,
+      "duplicate_fact_text_rows": 183,
+      "raw_norm_mean": 34.928443908691406
+    },
+    "val": {
+      "arrays": {
+        "fact_H": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "fact_query_H": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "fact_offsets": {
+          "shape": [
+            1001
+          ],
+          "dtype": "int64"
+        },
+        "query_H": {
+          "shape": [
+            1000,
+            2048
+          ],
+          "dtype": "float32"
+        },
+        "Y": {
+          "shape": [
+            1000
+          ],
+          "dtype": "int64"
+        },
+        "N": {
+          "shape": [
+            1000
+          ],
+          "dtype": "int64"
+        },
+        "query_idx": {
+          "shape": [
+            1000
+          ],
+          "dtype": "int64"
+        },
+        "fact_Y": {
+          "shape": [
+            2332
+          ],
+          "dtype": "int64"
+        },
+        "fact_relation": {
+          "shape": [
+            2332
+          ],
+          "dtype": "int64"
+        },
+        "fact_entity": {
+          "shape": [
+            2332
+          ],
+          "dtype": "int64"
+        },
+        "query_relation": {
+          "shape": [
+            1000
+          ],
+          "dtype": "int64"
+        },
+        "query_entity": {
+          "shape": [
+            1000
+          ],
+          "dtype": "int64"
+        }
+      },
+      "query_target_offset_mismatches": 0,
+      "metadata_fact_class_mismatches": 0,
+      "duplicate_fact_text_rows": 9,
+      "raw_norm_mean": 34.94569396972656
+    }
+  },
+  "cross_split": {
+    "unique_shared_exact_fact_texts": 7,
+    "validation_fact_rows_seen_as_exact_text_in_train": 7,
+    "validation_fact_rows": 2332,
+    "shared_semantic_entity_relation_value_triples": 22,
+    "episode_ids_overlap": 0,
+    "qualification": "Split-prefixed canonical IDs alone cannot exclude duplicate source text or semantic triples."
+  },
+  "probe_3k_R1_linear": {
+    "single_unseen_exact_text": {
+      "count": 2325,
+      "accuracy": 0.9664516129032258
+    },
+    "update_unseen_latest_exact_text": {
+      "count": 1116,
+      "accuracy": 0.96415770609319
+    }
+  },
+  "probe_3k_R1_mlp": {
+    "single_unseen_exact_text": {
+      "count": 2325,
+      "accuracy": 0.9243010752688172
+    },
+    "update_unseen_latest_exact_text": {
+      "count": 1116,
+      "accuracy": 0.9310035842293907
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "cache_roots": {
+    "mr": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache",
+    "j3c": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache"
+  },
+  "split_rows": {"train": 11665, "val": 2332, "testA": 2332, "testB": 2332},
+  "checks": {
+    "mr_fact_H_equals_j3c_H_base_I0_bitwise": {"train": true, "val": true, "testA": true, "testB": true},
+    "mention_feature_shape_matches_relation_feature": {"train": true, "val": true, "testA": true, "testB": true},
+    "mr_episode_ids_unique_within_split": {"train": true, "val": true, "testA": true, "testB": true},
+    "mr_episode_id_cross_split_overlap": {"train-val": 0, "train-testA": 0, "train-testB": 0, "val-testA": 0, "val-testB": 0, "testA-testB": 0},
+    "j3c_candidate_b_training_split_provenance": "reused frozen M2/J3C split metadata and ID joins; no regeneration"
+  },
+  "training_use": {
+    "o21a": "train and validation used for fitting/selection; TestA/TestB evaluated once after selected checkpoint and VAL gate were frozen",
+    "vgen2": "train and validation only; TestA/TestB not loaded because VAL gate failed",
+    "o3a": "NOT_RUN"
+  },
+  "data_leakage_detected": false,
+  "status": "PASS_FOR_O21A_AND_VGEN2_INPUT_JOIN"
+}

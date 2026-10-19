@@ -1,0 +1,55 @@
+{
+  "phase": "CLR-v2.4 O3b-L2-500STD / J2 gate",
+  "carrier": "L-I2b",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "representations": [
+    "R0",
+    "R1",
+    "R2"
+  ],
+  "transforms": {
+    "R0": "Vh.T @ H",
+    "R1": "Sigma * R0",
+    "R2": "W1 @ H"
+  },
+  "probe": "linear softmax",
+  "optimizer": "AdamW",
+  "base_lr": 0.0003,
+  "weight_decay": 0.01,
+  "batch_size": "min(1024,n_train_known)",
+  "primary_steps": 500,
+  "convergence_extension_steps": [
+    750,
+    1000
+  ],
+  "standardization": "train-only per-feature mean/std",
+  "lr_robustness": {
+    "scales": {
+      "0.5x": 0.00015,
+      "1x": 0.0003,
+      "2x": 0.0006
+    },
+    "steps": [
+      500,
+      1000
+    ],
+    "representations": [
+      "R0",
+      "R1",
+      "R2"
+    ]
+  },
+  "stage1_gate": "FAIL-MEASUREMENT",
+  "j2_revalidation_run": false,
+  "reconnect": false,
+  "o3c": false,
+  "checkpoint_modified": false,
+  "data_leakage_detected": false,
+  "checkpoint_sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+}

@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "mtime_utc": "2026-08-24T08:35:04+00:00",
+      "sha256": "3fd25593ed5ff9714bcedec9c8df5f49612ba55f0d5f565d2c0cffe4ed139d61",
+      "size_bytes": 1534,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\config.json",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/config.json",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:04+00:00",
+      "sha256": "e27a3e2aa9a5415b2a71d7abbc98222532bcd1fa2704175091a22843931c61f2",
+      "size_bytes": 11772,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\configuration_ouro.py",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/configuration_ouro.py",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T10:49:41+00:00",
+      "sha256": "8402fb30f342226003ab0e45caf9978fba53fc672c0a917fa0b9c571e21f7576",
+      "size_bytes": 36492,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\modeling_ouro.py",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/modeling_ouro.py",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:05+00:00",
+      "sha256": "5f835c5e4f81e3beee0ea9c3a548ad76ba483c2353caccf5da508ed814f45e3a",
+      "size_bytes": 515292,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\merges.txt",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/merges.txt",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:05+00:00",
+      "sha256": "d5b5a96adff8cbb0ab6d84bff374e028389dccd7e7a290f9416934bacc8bf10a",
+      "size_bytes": 867,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\special_tokens_map.json",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/special_tokens_map.json",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:06+00:00",
+      "sha256": "b311bfdc7381a38b252f361e358af465c0dcca6afacf6c95fc33c212e40604e4",
+      "size_bytes": 3767592,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\tokenizer.json",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/tokenizer.json",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:08+00:00",
+      "sha256": "a6598e7c4f390dcf8bd69c62bfe4dbf240bc9b38d7748be5172c314b923ed969",
+      "size_bytes": 4380,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\tokenizer_config.json",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/tokenizer_config.json",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T08:35:09+00:00",
+      "sha256": "7b9de3f47796abf8d00ab96be299fea0dc9afdf1827f34e7e0b9fb44593efe5c",
+      "size_bytes": 800656,
+      "snapshot_path": "H:\\LoopLM\\remote_archive\\new_server\\clr_v24_o3b_j3c_fresh_certified_feature_cache\\source_snapshot\\Ouro-1.4B\\vocab.json",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/vocab.json",
+      "transfer_verified": true
+    },
+    {
+      "mtime_utc": "2026-08-24T10:18:57+00:00",
+      "retrieval_replica": {
+        "full_local_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+        "repository": "ByteDance/Ouro-1.4B",
+        "revision": "574fa66cb8bf5abdc979642d01cf2b79b16bfab1",
+        "source_url": "https://huggingface.co/ByteDance/Ouro-1.4B/resolve/574fa66cb8bf5abdc979642d01cf2b79b16bfab1/model.safetensors",
+        "x_linked_etag_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af"
+      },
+      "sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+      "sha256_method": "remote Windows certutil -hashfile SHA256; verified against project pinned SHA",
+      "sha256_verified": true,
+      "size_bytes": 2869336434,
+      "snapshot_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/Ouro-1.4B/model.safetensors",
+      "source_host": "cheems",
+      "source_path": "D:/training/Ouro-1.4B/model.safetensors",
+      "transfer_verified": true,
+      "transfer_verified_method": "remote sha256sum after SFTP upload; exact pinned SHA matched"
+    }
+  ],
+  "model_id": "ByteDance/Ouro-1.4B",
+  "note": "Metadata/tokenizer/modeling files were copied read-only from the pinned source. The large model tensor is hashed on source but is not staged to the J3C target until extraction policy has been written.",
+  "pinned_model_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+  "source_dir": "D:/training/Ouro-1.4B"
+}

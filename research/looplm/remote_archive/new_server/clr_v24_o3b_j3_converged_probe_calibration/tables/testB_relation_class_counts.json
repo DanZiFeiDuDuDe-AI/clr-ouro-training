@@ -1,0 +1,15 @@
+{
+  "rows": 2332,
+  "known_rows": 2332,
+  "unknown_rows": 0,
+  "classes_present": 4,
+  "min_nonzero_class_count": 567,
+  "median_nonzero_class_count": 580.5,
+  "max_class_count": 604,
+  "counts": {
+    "0": 578,
+    "1": 583,
+    "2": 567,
+    "3": 604
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "host": "ssh.zzai.scnet.cn",
+  "port": 11810,
+  "remote": "/root/private_data/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R4_mlp",
+  "verified_files": [
+    {
+      "path": "COMPLETE.json",
+      "bytes": 52,
+      "sha256": "43ce6d33babc61310a1f290b301c31cc88d388fba1ed68110027360801d82207"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 463,
+      "sha256": "06a27afdea30b69e6c8a4ac259ceb18845e42af8bf05db47a5a6fa3e30fa373c"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 912,
+      "sha256": "c7e86a5b77ebb2e51b32fc3524598861063cc80a5cfda2c0bfbedf6038d08bc0"
+    },
+    {
+      "path": "probe.pt",
+      "bytes": 36477,
+      "sha256": "4d6a25990cca44e2c7f2cc6d9d457e53ff25ab1015ac0fe52baef12fd7a7bb70"
+    },
+    {
+      "path": "train_metrics.json",
+      "bytes": 1673,
+      "sha256": "e261ecfa9826a71e104f9ef67fc0550779cadcf17ccf2b1d6f1e56746719302b"
+    }
+  ],
+  "verified_at_unix": 1790961732.057142,
+  "weights": 1
+}

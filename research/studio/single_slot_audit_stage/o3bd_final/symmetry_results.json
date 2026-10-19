@@ -1,0 +1,13 @@
+{
+  "testA": {
+    "disagreement_rate": 0.7126666666666667,
+    "max_abs_probability_delta": 0.9407243132591248,
+    "mean_abs_probability_delta": 0.03145705536007881
+  },
+  "testB": {
+    "disagreement_rate": 0.75,
+    "max_abs_probability_delta": 0.8358080983161926,
+    "mean_abs_probability_delta": 0.035709135234355927
+  },
+  "best_judge": "B3_pair_mlp"
+}

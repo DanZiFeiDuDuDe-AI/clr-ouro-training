@@ -1,0 +1,69 @@
+======================================================================
+CLR-v2 pilot | seed=42 smoke=False steps=400 slots=4 dim=64 latent_steps=1 FiLM=[3, 7, 11, 15, 19, 23]
+======================================================================
+train=600 eval=150 ceiling_eval=0.5667
+trainable: 1084.4K params (read 524.5K, core 33.3K, write 526.3K)
+  step   10/400 | L=6.7311 | |S|=5.250 | s_norms=[1.51, 2.44, 4.21, 5.24] | 0.8s/step | VRAM 1.33GB | ETA 5min
+  step   20/400 | L=10.0788 | |S|=10.000 | s_norms=[7.72, 7.57, 9.16, 10.02] | 0.7s/step | VRAM 1.33GB | ETA 5min
+  step   30/400 | L=3.6025 | |S|=13.125 | s_norms=[11.8, 12.13, 12.83, 13.15] | 0.7s/step | VRAM 1.33GB | ETA 4min
+  step   40/400 | L=1.1825 | |S|=13.938 | s_norms=[13.17, 13.66, 14.14, 13.93] | 0.7s/step | VRAM 1.33GB | ETA 4min
+  step   50/400 | L=8.0476 | |S|=12.125 | s_norms=[12.58, 13.06, 13.03, 12.09] | 0.7s/step | VRAM 1.33GB | ETA 4min
+  step   60/400 | L=3.4003 | |S|=9.812 | s_norms=[10.9, 12.08, 11.16, 9.82] | 0.8s/step | VRAM 1.33GB | ETA 4min
+  step   70/400 | L=1.6699 | |S|=7.719 | s_norms=[9.47, 11.51, 11.45, 7.73] | 0.7s/step | VRAM 1.33GB | ETA 4min
+  step   80/400 | L=0.7238 | |S|=7.125 | s_norms=[9.9, 11.78, 11.63, 7.13] | 0.8s/step | VRAM 1.33GB | ETA 4min
+  step   90/400 | L=4.3238 | |S|=4.406 | s_norms=[9.25, 11.47, 11.48, 4.4] | 0.7s/step | VRAM 1.33GB | ETA 4min
+  step  100/400 | L=3.1847 | |S|=4.500 | s_norms=[9.23, 11.51, 11.24, 4.49] | 0.7s/step | VRAM 1.33GB | ETA 4min
+
+  eval @ step 100 | latent_steps=1
+  t2p persist=0.4474 (17/38) reset=0.4474 random=0.4211 delta(p-r)=+0.0000
+
+  -> saved best (delta=+0.0000)
+  step  110/400 | L=0.2330 | |S|=4.594 | s_norms=[8.72, 11.14, 9.58, 4.61] | 0.9s/step | VRAM 1.33GB | ETA 5min
+  step  120/400 | L=0.8022 | |S|=3.281 | s_norms=[9.01, 11.34, 10.72, 3.28] | 0.9s/step | VRAM 1.33GB | ETA 4min
+  step  130/400 | L=1.0561 | |S|=2.344 | s_norms=[8.66, 11.19, 10.64, 2.35] | 0.9s/step | VRAM 1.33GB | ETA 4min
+  step  140/400 | L=1.8426 | |S|=2.391 | s_norms=[8.52, 11.06, 11.38, 2.38] | 0.9s/step | VRAM 1.33GB | ETA 4min
+  step  150/400 | L=2.3289 | |S|=1.867 | s_norms=[8.78, 11.22, 9.92, 1.86] | 0.9s/step | VRAM 1.33GB | ETA 4min
+  step  160/400 | L=3.4701 | |S|=2.125 | s_norms=[9.12, 11.38, 10.09, 2.13] | 0.9s/step | VRAM 1.33GB | ETA 4min
+  step  170/400 | L=3.7948 | |S|=2.234 | s_norms=[9.01, 11.41, 11.53, 2.23] | 0.9s/step | VRAM 1.33GB | ETA 3min
+  step  180/400 | L=4.0690 | |S|=1.992 | s_norms=[8.99, 11.45, 11.54, 1.99] | 0.9s/step | VRAM 1.33GB | ETA 3min
+  step  190/400 | L=2.1944 | |S|=2.031 | s_norms=[9.17, 11.51, 10.34, 2.02] | 0.9s/step | VRAM 1.33GB | ETA 3min
+  step  200/400 | L=1.2292 | |S|=1.758 | s_norms=[9.01, 11.41, 10.25, 1.76] | 0.9s/step | VRAM 1.33GB | ETA 3min
+
+  eval @ step 200 | latent_steps=1
+  t2p persist=0.3947 (15/38) reset=0.3947 random=0.4211 delta(p-r)=+0.0000
+
+  step  210/400 | L=0.9582 | |S|=1.680 | s_norms=[8.89, 11.63, 11.47, 1.68] | 1.0s/step | VRAM 1.33GB | ETA 3min
+  step  220/400 | L=4.1874 | |S|=1.930 | s_norms=[9.23, 11.51, 11.04, 1.93] | 1.0s/step | VRAM 1.33GB | ETA 3min
+  step  230/400 | L=0.4417 | |S|=1.625 | s_norms=[8.99, 11.51, 11.44, 1.62] | 0.9s/step | VRAM 1.33GB | ETA 3min
+  step  240/400 | L=2.3435 | |S|=1.430 | s_norms=[9.37, 11.69, 11.48, 1.43] | 0.9s/step | VRAM 1.33GB | ETA 3min
+  step  250/400 | L=2.3686 | |S|=1.664 | s_norms=[9.06, 11.49, 11.67, 1.66] | 0.9s/step | VRAM 1.33GB | ETA 2min
+  step  260/400 | L=0.4449 | |S|=1.500 | s_norms=[8.97, 11.64, 11.59, 1.5] | 0.9s/step | VRAM 1.33GB | ETA 2min
+  step  270/400 | L=1.7273 | |S|=1.156 | s_norms=[9.28, 11.74, 10.95, 1.16] | 0.9s/step | VRAM 1.33GB | ETA 2min
+  step  280/400 | L=0.2504 | |S|=1.227 | s_norms=[9.24, 11.78, 11.02, 1.23] | 0.9s/step | VRAM 1.33GB | ETA 2min
+  step  290/400 | L=0.0688 | |S|=1.211 | s_norms=[9.11, 11.55, 10.95, 1.21] | 0.9s/step | VRAM 1.33GB | ETA 2min
+  step  300/400 | L=0.7070 | |S|=1.141 | s_norms=[9.27, 11.75, 10.28, 1.14] | 0.9s/step | VRAM 1.33GB | ETA 1min
+
+  eval @ step 300 | latent_steps=1
+  t2p persist=0.4737 (18/38) reset=0.4737 random=0.4737 delta(p-r)=+0.0000
+
+  step  310/400 | L=0.0729 | |S|=1.367 | s_norms=[9.2, 11.54, 10.86, 1.37] | 1.0s/step | VRAM 1.33GB | ETA 1min
+  step  320/400 | L=1.5154 | |S|=1.023 | s_norms=[9.23, 11.7, 10.7, 1.02] | 1.0s/step | VRAM 1.33GB | ETA 1min
+  step  330/400 | L=3.2528 | |S|=1.195 | s_norms=[9.25, 11.8, 11.01, 1.2] | 1.0s/step | VRAM 1.33GB | ETA 1min
+  step  340/400 | L=0.0870 | |S|=1.219 | s_norms=[9.13, 11.61, 10.33, 1.22] | 1.0s/step | VRAM 1.33GB | ETA 1min
+  step  350/400 | L=0.6794 | |S|=0.891 | s_norms=[9.21, 11.63, 10.69, 0.89] | 1.0s/step | VRAM 1.33GB | ETA 1min
+  step  360/400 | L=0.0990 | |S|=1.688 | s_norms=[9.3, 11.85, 11.12, 1.69] | 0.9s/step | VRAM 1.33GB | ETA 1min
+  step  370/400 | L=1.8563 | |S|=1.375 | s_norms=[9.17, 11.49, 11.65, 1.37] | 0.9s/step | VRAM 1.33GB | ETA 0min
+  step  380/400 | L=1.8714 | |S|=1.164 | s_norms=[9.14, 11.76, 11.69, 1.17] | 0.9s/step | VRAM 1.33GB | ETA 0min
+  step  390/400 | L=4.1173 | |S|=1.336 | s_norms=[9.24, 11.92, 11.57, 1.34] | 0.9s/step | VRAM 1.33GB | ETA 0min
+  step  400/400 | L=3.3476 | |S|=1.406 | s_norms=[9.06, 11.62, 11.88, 1.41] | 0.9s/step | VRAM 1.33GB | ETA 0min
+
+  eval @ step 400 | latent_steps=1
+  t2p persist=0.4737 (18/38) reset=0.4737 random=0.5000 delta(p-r)=+0.0000
+
+
+FINAL expanded eval (150-traj protocol):
+  persist  t2p 82/150 = 0.5467  W95[0.467,0.624]  |S|=1.161 loop|S|=8.235
+  reset    t2p 82/150 = 0.5467  W95[0.467,0.624]  |S|=1.156 loop|S|=8.227
+  random   t2p 80/150 = 0.5333  W95[0.454,0.611]  |S|=3.284 loop|S|=9.879
+
+DONE. Results in D:/training/checkpoints/clr_v2_s42/  (params=1084.4K, peak_vram=1.33GB, wall=8.2min)

@@ -1,0 +1,18 @@
+{
+  "status": "INVALIDATED_NOT_FOR_INFERENCE",
+  "experiment": "O3b-J3D initial harness run",
+  "reason": "Grouped probe training failed to freeze each model at its own early-stop checkpoint; some best_step values exceeded stop_step.",
+  "action": "Process 290 was terminated before held-out TestA/TestB performance evaluation. Partial outputs are preserved for audit only.",
+  "optimizer_screen_completed": true,
+  "main_train_validation_fits_started": true,
+  "heldout_performance_metrics_read": false,
+  "test_identity_metadata_was_checked_for_stage0_integrity": true,
+  "model_or_checkpoint_modified": false,
+  "invalidated_utc": "2026-09-25T01:44:13.685160+00:00",
+  "evidence": {
+    "early_stop_violation": "tables/r0_r1_converged_results.csv contains examples with best_step later than stop_step",
+    "run_log": "logs/j3d_pipeline_run.log",
+    "pid": 290
+  },
+  "replacement_run": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration_v2"
+}

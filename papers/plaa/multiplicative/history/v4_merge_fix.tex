@@ -1,0 +1,604 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath, amssymb}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{abstract}
+
+\geometry{
+  top=2.5cm, bottom=2.5cm,
+  left=2.5cm, right=2.5cm
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  urlcolor=blue!70!black,
+  pdftitle={PLAA: Persistent Latent Adaptive Architecture},
+  pdfauthor={Xiao Ouyang}
+}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  backgroundcolor=\color{gray!10},
+  frame=single,
+  framesep=4pt,
+  breaklines=true,
+  columns=fullflexible,
+  keepspaces=true,
+  xleftmargin=0.5em,
+  xrightmargin=0.5em
+}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\St}{S_t}
+\newcommand{\Stp}{S_{t+1}}
+\newcommand{\hs}{h_s}
+
+\title{
+  \textbf{PLAA: Persistent Latent Adaptive Architecture}[0.4em] \large Structural Symmetry Breaking Without Functional Coupling:\\ \large Latent Modulation as Training-Time Scaffold in Frozen LLMs }  \author{ Xiao Ouyang\thanks{Corresponding author} }  \date{\today}  \begin{document}  \maketitle \thispagestyle{empty}  \begin{abstract} We investigate whether persistent latent state modulation can achieve functional causal control in frozen pretrained LLMs. Using PLAA (Persistent Latent Adaptive Architecture)---a multiplicative FiLM mechanism with GRU-driven state evolution applied to frozen Qwen3-4B---we find a surprising dissociation: latent modulation induces genuine structural differentiation across layers ($6.6\times$ growth in inter-layer weight variance) but contributes only $\Delta \approx 0.04$ to inference-time language modeling, with persistent state coupling of exactly zero.  However, the same mechanism provides substantial \textbf{training-time regularization}: LoRA-only training on multi-turn trajectory data diverges (loss $= 7.81$, worse than the frozen baseline of $4.40$), while the full modulation system converges to $3.41$. The LoRA weights trained within the modulation framework retain their quality even when FiLM is removed at inference.  These results establish that \textbf{inference-time functional coupling} and \textbf{training-time optimization shaping} are separable phenomena in modulated LLM residual streams. Latent modulation can reshape the optimization landscape ($\partial \mathcal{L} / \partial W$ is substantially altered) without participating in the inference computation ($\partial y / \partial S_t \approx 0$). We additionally document a critical methodological failure: PEFT's \texttt{save\_pretrained()} silently discards custom injection layers, invalidating ablation studies that do not independently verify checkpoint weights. \end{abstract}  \newpage \setcounter{page}{1}  %------------------------------------------------------------------ \section{Introduction} %------------------------------------------------------------------  Recent work on recurrent memory, latent-variable dialogue, and activation engineering shares a common premise: injecting persistent signals into transformer residual streams can modulate model behavior in a controllable, state-dependent manner. This premise is rarely tested in isolation from the training objective that produces it.  \textbf{The question.} Does persistent latent modulation in frozen pretrained LLMs achieve functional causal control at inference time? Or does the modulation signal serve a different role?  \textbf{This paper.} We present a systematic empirical study using PLAA (Persistent Latent Adaptive Architecture), testing three injection mechanisms---additive gated cross-attention, AdaLN FiLM, and multiplicative FiLM---in a frozen Qwen3-4B model. Our central finding is a three-way dissociation:  \begin{enumerate}[leftmargin=*, label=\textbf{\arabic*.}]  \item \textbf{Structural symmetry breaking is real.} Multiplicative FiLM induces $6.6\times$ growth in inter-layer modulation variance, with rich phase dynamics including regime-hopping and metastable hierarchy formation.  \item \textbf{Functional causal control is absent.} Controlled ablation shows inference-time $\Delta \approx 0.04$ (reproduced across two independent training runs). Freezing the latent state produces $\Delta = 0.000$.  \item \textbf{Training-time scaffold effect is strong.} The modulation mechanism combined with auxiliary losses prevents LoRA divergence on trajectory data, enabling convergence where LoRA-only training fails catastrophically.  \end{enumerate}  The mechanistic interpretation is that latent modulation reshapes the optimization landscape without participating in inference computation: $\partial \mathcal{L} / \partial W$ is substantially altered by the modulation structure, but $\partial y / \partial S_t \approx 0$.  \textbf{Additional contributions:} (a) a taxonomy of injection failure modes (additive absorption, AdaLN destructive coupling); (b) documentation of a critical PEFT checkpoint failure that silently invalidates ablation studies; (c) a corrected evaluation protocol for any research combining PEFT adapters with custom injection layers.  %------------------------------------------------------------------ \section{Related Work} %------------------------------------------------------------------  \textbf{Latent-variable dialogue.} VHRED and related models maintain latent variables across dialogue turns but operate on trainable (non-frozen) decoders. PLAA tests whether similar mechanisms can modulate frozen pretrained LLMs.  \textbf{Parameter-efficient modulation.} LoRA, IA3, prefix tuning, and adapter layers all inject learned parameters into frozen transformers. These methods optimize for task performance directly. PLAA differs in maintaining a \emph{persistent dynamical state} that evolves across turns, testing whether temporal dynamics translate to functional control.  \textbf{Activation engineering and steering vectors.} Recent work demonstrates that additive interventions on residual streams can steer model behavior. Our additive injection results (Section~\ref{sec:additive}) are consistent with this literature when interventions are large, but show that small learned additive signals are absorbed under the tested regime.  \textbf{FiLM and conditional modulation.} Feature-wise Linear Modulation originates in visual question answering. We adapt it to LLM residual streams and find that its primary contribution is to training dynamics rather than inference-time conditioning.  %------------------------------------------------------------------ \section{Method} %------------------------------------------------------------------  \subsection{Architecture}  PLAA injects a learnable latent state $\St \in \R^{256}$ into a frozen Qwen3-4B model (4-bit NF4 quantization). The state evolves via a GRU cell: \[ \Stp = \mathrm{GRU}(\St,\, h_{\mathrm{last}})$
+where $h_{\mathrm{last}}$ is the final non-padded hidden state after the forward
+pass. Modulation is applied to layers 16--28 (13 layers total).
+
+\subsubsection*{Multiplicative FiLM (Primary Mechanism)}
+
+\begin{lstlisting}
+Each injected layer l in [16, 28]:
+  h_res  = self_attention(h)           # frozen
+  scale  = tanh(W_l . S_t)            # per-layer, W_l in R^{2560x256}
+  h_out  = h_res * (1 + alpha * scale) # alpha = 0.1
+  h_out  = MLP(h_out)                 # frozen
+\end{lstlisting}
+
+Zero initialization ensures modulation starts as identity. Trainable parameters:
+17.5M (13 scale projections + GRU + LoRA adapters).
+
+\subsection{Training}
+
+\subsubsection*{Data}
+
+3,197 dialogue micro-trajectories (3--5 turns each): 60\% PersonaChat, 30\% ESConv,
+10\% Bluemoon.
+
+\subsubsection*{Loss}
+
+$\mathcal{L} = \underbrace{0.3\cdot\mathcal{L}_\mathrm{CE}}_\text{language model} + \underbrace{0.5\cdot\|\Delta S\| + 0.3\cdot\mathcal{L}_\mathrm{repulsion} + 0.3\cdot\|S\|}_\text{auxiliary regularization} + \underbrace{(-0.001)\cdot\mathrm{Var}(\|W_\ell\|)}_\text{diversity pressure}$
+
+The auxiliary terms (coherence, repulsion, norm) regularize state dynamics. The
+diversity term encourages inter-layer specialization.
+
+\subsubsection*{Hyperparameters}
+
+Optimizer: AdamW, lr $= 10^{-4}$, batch size 2. Training: 2,650--2,850 steps
+depending on run. GPU: NVIDIA RTX PRO 6000 Blackwell (96\,GB VRAM).
+
+\subsection{Evaluation Protocol}
+\label{sec:protocol}
+
+\textbf{Checkpoint correction.} PEFT's \texttt{save\_pretrained()} persists only
+LoRA weights, silently discarding custom injection layers. This failure is
+undetectable without explicit weight verification: zero-initialized FiLM produces
+identity modulation, so the model functions normally with incorrect weights.
+
+All results in this paper use independently saved and verified FiLM weights:
+
+\begin{lstlisting}
+# Save
+torch.save({"plaa_core": plaa_core.state_dict(),
+            "scale_proj": {i: blocks[i].scale_proj.state_dict()
+                           for i in range(16, 29)}},
+           f"{ckpt}/plaa_core.pt")
+
+# Verify after loading
+scale_norms = sum(l.scale_proj.weight.norm() for l in layers)
+assert scale_norms > 1.0, "Weights are zero-initialized!"
+\end{lstlisting}
+
+\textbf{Ablation conditions.} All causal measurements use pure LM cross-entropy
+(no auxiliary terms) on held-out prompts:
+\begin{itemize}
+  \item \textbf{Trained:} full system with normal state evolution
+  \item \textbf{FiLM removed:} scale forced to zero (modulation disabled)
+  \item \textbf{State frozen:} $S_t = S_0$ for all turns (GRU disabled)
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Results}
+%------------------------------------------------------------------
+
+\subsection{Central Result: Training-Time Scaffold}
+\label{sec:scaffold}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Condition} & \textbf{Pure LM Loss} & \textbf{vs.\ Vanilla} & \textbf{Converged?} \\
+\midrule
+Vanilla Qwen3-4B (frozen)         & 4.403 & ---     & --- \\
+LoRA-only (same data, same steps) & 7.810 & $+3.41$ & \textbf{No} \\
+mFiLM trained (full system)       & 3.413 & $-0.99$ & Yes \\
+mFiLM, FiLM removed at inference  & 3.379 & $-1.02$ & Yes \\
+\bottomrule
+\end{tabular}
+\caption{Training-time scaffold effect. LoRA-only diverges on multi-turn trajectory
+data despite using all-token cross-entropy loss. The mFiLM system converges, and
+the trained LoRA weights retain quality when FiLM is removed at inference.}
+\end{table}
+
+\textbf{Interpretation.} LoRA adapters trained within the FiLM + auxiliary loss
+framework reach a qualitatively different optimum than LoRA trained alone. The
+FiLM mechanism does not contribute at inference (next section), but its presence
+during training prevents divergence. The auxiliary losses (coherence, norm,
+repulsion) provide gradient signals that stabilize LoRA optimization on multi-turn
+trajectory data where pure cross-entropy is insufficient.
+
+\subsection{Causal Ablation: Inference-Time Contribution}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Condition} & \textbf{v1 Loss} & \textbf{v2 Loss} & $\Delta$ \\
+\midrule
+Trained (normal $S$)     & 2.700 & 3.413 & --- \\
+FiLM removed (scale $=0$) & 2.744 & 3.379 & $+0.044$ / $+0.035$ \\
+State frozen ($S = S_0$) & 2.700 & 3.413 & $+0.000$ / $+0.000$ \\
+\bottomrule
+\end{tabular}
+\caption{Causal ablation across two independent training runs. v1: single-token
+training loss (2,650 steps). v2: all-token CE (2,850 steps). FiLM causal
+$\Delta \approx 0.04$ is stable. State coupling is zero in both.}
+\end{table}
+
+The causal contribution of FiLM at inference is $\Delta \approx 0.04$---real but
+negligible relative to the $0.99$--$1.02$ improvement over vanilla. The persistent
+state $\St$ is computationally inert: freezing it produces no measurable change.
+
+\subsection{Structural Dynamics}
+
+Despite functional inertness, the modulation system exhibits rich structural
+dynamics during training:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}
+\toprule
+\textbf{Step} & $w_\mathrm{std}$ & \textbf{cos (inter-layer)} \\
+\midrule
+   50 & 0.062 & 0.61 \\
+  350 & 0.244 & 0.35 \\
+  800 & 0.333 & 0.52 \\
+ 1800 & 0.356 & 0.63 \\
+ 2650 & 0.404 & 0.48 \\
+\bottomrule
+\end{tabular}
+\caption{Layer specialization growth (v1). $6.6\times$ increase in inter-layer
+modulation variance over training. See Appendix~\ref{app:dynamics} for full
+phase analysis.}
+\end{table}
+
+Layers develop distinct modulation profiles ($w_\mathrm{std}: 0.06 \to 0.40$),
+but this structural differentiation does not translate to functional specialization
+at inference time.
+
+\subsection{Preliminary Architectures: Additive and AdaLN}
+\label{sec:additive}
+
+Before arriving at multiplicative FiLM, two alternative injection mechanisms were
+tested and found insufficient:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccp{5.5cm}}
+\toprule
+\textbf{Mechanism} & \textbf{Causal} $\Delta$ & \textbf{LM Loss} & \textbf{Failure Mode} \\
+\midrule
+Additive (gated CA) & 2.01 (vs.\ noise $\pm 19$) & --- & Absorbed by residual stream \\
+AdaLN FiLM          & $+10.50$ (harmful) & 13.38 & Destructively coupled to aux.\ loss \\
+Mult.\ FiLM         & $+0.04$ & 3.41 & Structurally active, functionally inert \\
+\bottomrule
+\end{tabular}
+\caption{Architecture comparison. Additive injection is below noise floor. AdaLN
+is causally active but harmful. Multiplicative FiLM is the only viable architecture.
+See Appendix~\ref{app:additive} for detailed ablations.}
+\end{table}
+
+%------------------------------------------------------------------
+\section{Analysis}
+%------------------------------------------------------------------
+
+\subsection{Inference Graph vs.\ Optimization Graph}
+
+The central finding admits a precise mechanistic characterization. Consider two
+computational graphs:
+
+\textbf{Inference graph:} $x \to h_{\mathrm{layers}} \to y$, where modulation
+applies $h \cdot (1 + 0.1 \cdot \tanh(W_\ell \cdot S_t))$. With $\alpha = 0.1$
+and $\tanh$ bounding:
+$\left\|\frac{\partial y}{\partial S_t}\right\| \leq 0.1 \cdot \|h\| \cdot \|W_\ell\| \cdot (1 - \tanh^2(W_\ell S_t))$
+This gradient is bounded and, empirically, negligible: the frozen residual stream
+compensates for $\pm 10\%$ perturbations within its natural operating range.
+
+\textbf{Optimization graph:} $\theta_{\mathrm{LoRA}}, W_\ell, S_0 \to
+\mathcal{L}_\mathrm{total}$. Here the modulation structure participates through:
+\begin{itemize}
+  \item Auxiliary loss gradients ($\nabla_{W_\ell} \mathcal{L}_\mathrm{aux}$) that
+    provide non-zero gradient signal even when LM gradients are noisy
+  \item Multiplicative coupling between $W_\ell$ and LoRA parameters that creates
+    implicit gradient regularization
+  \item GRU state evolution that enforces temporal smoothness constraints on the
+    optimization trajectory
+\end{itemize}
+
+The result: $\partial \mathcal{L} / \partial W_{\mathrm{LoRA}}$ is substantially
+different in the presence of FiLM + auxiliary losses, guiding LoRA to a better
+minimum. But $\partial y / \partial S_t \approx 0$: the modulation does not
+participate in the final computation.
+
+\subsection{Why LoRA-Only Diverges}
+
+Multi-turn trajectory data presents a challenging optimization landscape for
+LoRA alone:
+\begin{itemize}
+  \item Each training sample spans 3--5 dialogue turns with state dependencies
+  \item Pure cross-entropy provides sparse, high-variance gradients across turns
+  \item Without auxiliary regularization, LoRA adapters overfit to local token
+    patterns while losing global coherence
+\end{itemize}
+
+The FiLM system addresses this through multiple mechanisms: the coherence loss
+($\|\Delta S\|$) penalizes abrupt representational shifts between turns; the norm
+penalty ($\|S\|$) prevents state explosion; the diversity pressure encourages
+layer-wise specialization that distributes the representational burden. These
+signals flow through the shared computation graph to regularize LoRA gradients.
+
+\subsection{Bounded Modulation and Residual Stream Robustness}
+
+The $\alpha = 0.1$ operating point creates a fundamental ceiling on inference-time
+influence. With hidden states $\|h\| \sim 50$--$100$, the modulation perturbation
+is bounded by $\pm 10\%$ of the residual stream magnitude. The frozen transformer
+layers downstream compensate for perturbations within this range, effectively
+absorbing the modulation signal.
+
+Alpha ablation (Appendix~\ref{app:alpha}) confirms that increasing $\alpha$ beyond
+$0.1$ produces harmful interference rather than stronger control: the LoRA adapters
+were optimized under $\alpha = 0.1$ and cannot adapt to larger modulation without
+retraining.
+
+\subsection{Structure--Function Dissociation}
+
+Weight-space metrics ($w_\mathrm{std}$, gradient cosine similarity) can be
+misleading indicators of functional influence. The multiplicative FiLM system
+exhibits:
+\begin{itemize}
+  \item $6.6\times$ growth in inter-layer weight variance
+  \item Phase transitions and regime-hopping dynamics
+  \item Metastable coupled hierarchy formation
+\end{itemize}
+
+None of these structural phenomena translate to measurable functional
+differentiation at inference time. This dissociation implies that structural
+complexity in modulation weights is necessary for the training-time scaffold
+effect (the diversity pressure requires weight differentiation) but is not
+sufficient for inference-time causal control.
+
+%------------------------------------------------------------------
+\section{Limitations}
+%------------------------------------------------------------------
+
+\begin{enumerate}
+  \item \textbf{Single base model.} All experiments use Qwen3-4B under NF4
+    quantization. The robustness of frozen residual streams to modulation may
+    differ across model families and scales.
+
+  \item \textbf{No comparison to existing modulation methods.} We do not compare
+    against prefix tuning, IA3, soft prompts, or activation steering under matched
+    conditions. Future work should establish whether these methods exhibit similar
+    structure--function dissociation.
+
+  \item \textbf{Fixed $\alpha$ regime.} The $\alpha = 0.1$ bound was chosen for
+    training stability. A purpose-designed curriculum that gradually increases
+    $\alpha$ may achieve stronger coupling.
+
+  \item \textbf{Evaluation scope.} Causal ablation measures pure LM cross-entropy.
+    Task-specific evaluations (emotion recognition, persona consistency) may reveal
+    functional contributions not captured by perplexity.
+
+  \item \textbf{Training data scale.} 3,197 trajectories is small by modern
+    standards. Larger-scale training may produce different dynamics.
+\end{enumerate}
+
+%------------------------------------------------------------------
+\section{Conclusion}
+%------------------------------------------------------------------
+
+We set out to build persistent state-driven modulation for frozen LLMs and found
+something different: a training-time optimization scaffold.
+
+Multiplicative FiLM modulation in frozen Qwen3-4B achieves genuine structural
+symmetry breaking ($6.6\times$ inter-layer variance growth) but contributes only
+$\Delta \approx 0.04$ at inference, with zero state coupling. The persistent latent
+state---the core design premise---is computationally inert. Yet the same mechanism,
+combined with auxiliary losses, prevents LoRA divergence on trajectory data and
+enables convergence to below-vanilla performance.
+
+The mechanistic explanation is a dissociation between the inference graph and the
+optimization graph: latent modulation reshapes $\partial \mathcal{L} / \partial
+W_{\mathrm{LoRA}}$ without participating in $\partial y / \partial S_t$. This
+establishes that structural differentiation, functional causal control, and
+training-time regularization are three separable phenomena in modulated LLM
+residual streams.
+
+\textbf{Implications.} Any work claiming functional latent control must verify:
+(1) checkpoint weights are non-zero; (2) causal ablation uses pure task loss;
+(3) state coupling is tested via freeze ablation. Structural metrics alone are
+insufficient evidence of functional influence.
+
+\textbf{Future directions.} Three approaches may bridge the structure--function gap:
+unbounded modulation with curriculum training; gated routing that makes the state
+causally necessary for prediction; and mixture-of-experts architectures where
+$\St$ selects computation paths rather than perturbing residual magnitudes.
+
+%------------------------------------------------------------------
+\appendix
+%------------------------------------------------------------------
+
+\section{Additive Injection: Detailed Ablation}
+\label{app:additive}
+
+\subsection*{Architecture}
+
+Gated cross-attention: $h_s + \mathrm{gate} \cdot e_o$, where
+$e_{\mathrm{mem}} = \mathrm{proj}(\St) \in \R^{16 \times 2560}$,
+gate initialized $0.1$ with $\tanh$ activation. 387M trainable parameters.
+
+\subsection*{Multi-Stage Attenuation}
+
+Three compounding factors reduce effective influence:
+\begin{enumerate}
+  \item $\|S_t\| \approx 0.15$ (norm penalty) $\Rightarrow$ small projection
+  \item $\tanh(0.1) \approx 0.1$ gate scale
+  \item $\times 13$ residual layers $\Rightarrow$ effective $\approx 0.0003 \cdot \|h\|$
+\end{enumerate}
+
+\subsection*{Gate Ablation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Condition} & \textbf{PPL} & $\Delta$\textbf{PPL} \\
+\midrule
+gate $= 0$      & 27.03 & ---  \\
+gate $= 1.0$    & 26.26 & 0.77 \\
+gate $= 2.0$    & 25.02 & 2.01 \\
+gate $=$ random & 25.94 & 1.09 \\
+\bottomrule
+\end{tabular}
+\caption{Max $\Delta = 2.01$, noise std $= \pm 19$. Below noise floor.}
+\end{table}
+
+\section{AdaLN FiLM: Detailed Analysis}
+\label{app:adaln}
+
+\subsection*{Architecture}
+
+$\mathrm{LN}(h_s) \cdot (1 + \alpha\cdot\tanh(W_\mathrm{scale}\,\St)) +
+\alpha\cdot\tanh(W_\mathrm{shift}\,\St)$, with $\alpha = 0.1$. 17.5M parameters.
+
+\subsection*{Invalid vs.\ Corrected Measurement}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccl}
+\toprule
+& \textbf{Invalid (composite)} & \textbf{Corrected (pure LM)} & \textbf{Interpretation} \\
+\midrule
+Trained       & 14.68 & 13.382 & System active \\
+FiLM removed  & 3.14  & 2.878  & Better without FiLM \\
+$\Delta$      & 11.44 & $+10.50$ & \textbf{Harmful} \\
+State frozen  & 13.35 & 13.382 & Zero coupling \\
+\bottomrule
+\end{tabular}
+\caption{AdaLN modulation is destructively coupled to the training objective.
+The trained system (13.38) is far worse than vanilla Qwen3-4B (3.70).}
+\end{table}
+
+\subsection*{Temporal--Specialization Tension}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Variant} & $w_\mathrm{std}$ & $|S|$ & \textbf{cos} \\
+\midrule
+No coupling (v5)       & 0.033 & 0.57 & 0.15 \\
+Coupling 0.01 (v6)     & 0.000 & 2.59 & 0.19 \\
+Coupling 0.001 (v7)    & 0.000 & 0.44 & 0.16 \\
+\bottomrule
+\end{tabular}
+\caption{Even weak coupling ($0.001\times$) collapses layer specialization.}
+\end{table}
+
+\section{Phase Dynamics and Regime-Hopping}
+\label{app:dynamics}
+
+\subsection*{Four-Phase Taxonomy}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{clccc}
+\toprule
+\textbf{Phase} & \textbf{Name} & $w_\mathrm{std}$ & \textbf{cos} & \textbf{Dynamics} \\
+\midrule
+I   & Symmetric          & $<0.05$       & $>0.9$      & Homogeneous \\
+II  & Convergent         & $0.05$--$0.3$ & $0.3$--$0.7$& Emerging specialization \\
+III & Specialized        & $0.3$--$0.5$  & $0.3$--$0.5$& Stable hierarchy \\
+IV  & Metastable Coupled & $0.35$--$0.5$ & $0.4$--$0.7$& Hierarchy + bursts \\
+\bottomrule
+\end{tabular}
+\caption{Phase taxonomy based on structural metrics. Multiplicative FiLM (v1)
+reaches Phase IV. Phase classification does not imply functional specialization.}
+\end{table}
+
+\subsection*{Regime-Hopping Events (v1)}
+
+Two synchronization bursts (step 1750: cos $= 0.627$; step 1950: cos $= 0.696$)
+briefly restore global coupling. $w_\mathrm{std}$ does not collapse during bursts
+($0.348 \to 0.382$), and loss recovers to lower baseline afterward. Structural
+differentiation strengthens under perturbation.
+
+\subsection*{v2 State Dynamics (All-Token CE)}
+
+Under all-token CE training, state dynamics are qualitatively different from v1:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cccc}
+\toprule
+& \textbf{v1 (single-token)} & \textbf{v2 (all-token)} & \textbf{Ratio} \\
+\midrule
+$|S|$ baseline    & 0.15--0.57 & 2.2--3.9  & $\sim 7\times$ \\
+$|S|$ burst       & not observed & 9.13     & --- \\
+$dS$ range        & 0.5--1.0   & 0.5--8.6  & $\sim 5\times$ \\
+$w_\mathrm{std}$ @ step 1200 & $\sim 0.30$ & 0.09--0.10 & $0.3\times$ \\
+\bottomrule
+\end{tabular}
+\caption{v2 shows more active state dynamics but slower layer specialization,
+suggesting all-token CE prioritizes state evolution over structural differentiation.
+Despite these differences, final causal $\Delta$ is equivalent ($\approx 0.04$).}
+\end{table}
+
+The v2 system exhibits regime-hopping bursts ($|S| = 9.13$ at step 1050, recovering
+by step 1150) not observed in v1. This confirms that all-token CE provides stronger
+gradient signal to the GRU, producing more active state dynamics. However, this
+increased dynamism does not translate to increased functional coupling---the final
+state freeze $\Delta$ remains zero.
+
+\section{Alpha Ablation and Causal Sensitivity}
+\label{app:alpha}
+
+Starting from the multiplicative FiLM checkpoint at step 850 ($w_\mathrm{std} =
+0.307$), we swept $\alpha \in \{0.1, 0.5, 1.0\}$:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+$\alpha$ & \textbf{Step} & $\Delta$ \textbf{causal} & $w_\mathrm{std}$ & \textbf{Loss} \\
+\midrule
+\multirow{2}{*}{0.1} & 0   & $-0.045$ & 0.307model to \emph{depend} on
+    the modulation signal for correct next-token prediction, making the latent state
+    causally necessary rather than optional.
+  \item \textbf{Competitive computation:} Mixture-of-experts style routing where
+    $\St$ selects which expert processes each token, creating a hard dependency on
+    the state.
+\end{itemize}
+
+The central open problem is clear: how to convert structural differentiation into
+functional specialization, and how to make the latent state causally necessary rather
+than decorative.
+
+%------------------------------------------------------------------
+\appendix
+%------------------------------------------------------------------
+
+\section{Full Training Pipeline}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llccc}
+\toprule
+\textbf{Phase} & \textbf{Content} & \textbf{Steps} & \textbf{Params} & \textbf{Status} \\
+\midrule
+1              & YaRN 256K context extension & ---  & ---    & Complete \\
+2              & SFT (134K samples)          & ---  & ---    & Complete \\
+2.5            & Persona alignment           & ---  & ---    & Complete \\
+3A             & Stability validation        & 1K   & ---    & Complete \\
+3B             & Gradient flow verification  & ---  & ---    & Complete \\
+3C v1          & Single-step additive        & 5K   & 387M   & Complete \\
+3C v2          & Trajectory additive         & 1.4K & 387M   & Complete \\
+3C v3          & Additive + gate noise       & 6.7K & 387M   & Baseline \\
+3C FiLM (AdaLN)& AdaLN modulation           & 7K   & 17.5M  & Ablated  \\
+\textbf{3C mFiLM} & \textbf{Multiplicative FiLM} & \textbf{2.65K} & \textbf{17.5M} & \textbf{Primary} \\
+\bottomrule
+\end{tabular}
+\caption{Full training pipeline.}
+\end{table}
+
+\section{Scale/Shift Statistics (AdaLN)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Step 1000} & \textbf{Step 2000} \\
+\midrule
+scale mean        & 0.0001 & 0.0001 \\
+scale std         & 0.0060 & 0.0055 \\
+scale max         & 0.0228 & 0.0209 \\
+layer\_scale\_std & 0.0060 & 0.0055 \\
+\bottomrule
+\end{tabular}
+\caption{AdaLN scale/shift statistics. All 13 layers produce nearly identical
+modulation, confirming no layer specialization under baseline AdaLN training.}
+\end{table}
+
+\section{Alpha Ablation and Causal Sensitivity}
+\label{app:alpha}
+
+Starting from the multiplicative FiLM checkpoint at step 850 ($w_\mathrm{std} =
+0.307$), we swept $\alpha \in \{0.1, 0.5, 1.0\}$, measuring causal $\Delta$ at
+load time (step 0) and after 500 additional training steps.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+$\alpha$ & \textbf{Step} & $\Delta$ \textbf{causal} & $w_\mathrm{std}$ & \textbf{Loss (trained)} \\
+\midrule
+\multirow{2}{*}{0.1} & 0   & $-0.045$ & 0.307 & 2.700 \\
+                     & 500 & $+0.095$ & 0.515 & 2.682 \\
+\midrule
+\multirow{2}{*}{0.5} & 0   & $+0.238$ & 0.307 & 2.938 \\
+                     & 500 & $+0.526$ & 0.539 & 3.225 \\
+\midrule
+\multirow{2}{*}{1.0} & 0   & $+2.679$ & 0.307 & 5.381 \\
+                     & 500 & $+2.862$ & 0.467 & 6.621 \\
+\bottomrule
+\end{tabular}
+\caption{Alpha ablation. Positive $\Delta$ indicates removing FiLM \emph{improves}
+loss (modulation is harmful). All values are pure LM cross-entropy.}
+\end{table}
+
+Three findings emerge:
+
+\textbf{1.} Causal sensitivity grows with $\alpha$: $-0.045 \to +2.862$.
+
+\textbf{2.} Strong modulation ($\alpha \geq 0.5$) is harmful. The frozen LoRA adapters and Qwen backbone were optimized under $\alpha = 0.1$; abruptly increasing $\alpha$ disrupts learned compensation patterns, and 500 additional training steps fail to recover.
+
+\textbf{3.} The $\alpha = 0.1$ operating point is real but narrow. The paper's central finding---structural differentiation without proportional functional influence---holds within this regime. The narrow operating window represents a genuine architectural limitation.
+
+\begin{thebibliography}{9}
+\bibitem{perez2018film} Perez, E., et al. FiLM: Visual Reasoning with a General Conditioning Layer. \textit{AAAI 2018}.
+\bibitem{peebles2023scalable} Peebles, W. \& Xie, S. Scalable Diffusion Models with Transformers. \textit{ICCV 2023}.
+\bibitem{huang2017arbitrary} Huang, X. \& Belongie, S. Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization. \textit{ICCV 2017}.
+\bibitem{sukhbaatar2019augmenting} Sukhbaatar, S., et al. Augmenting Self-attention with Persistent Memory. \textit{arXiv:1907.01470}.
+\bibitem{wu2022memorizing} Wu, Y., et al. Memorizing Transformers. \textit{ICLR 2022}.
+\end{thebibliography}
+
+\end{document}

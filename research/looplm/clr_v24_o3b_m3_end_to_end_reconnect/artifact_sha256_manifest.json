@@ -1,0 +1,183 @@
+{
+  "candidate_b_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "created_utc": "2026-09-25T13:31:47.272151+00:00",
+  "experiment": "O3b-M3",
+  "files": [
+    {
+      "bytes": 28814,
+      "path": "__pycache__/finalize_dependency_audit.cpython-311.pyc",
+      "sha256": "d63c5b7868ce590bc9a81eed309400cad1f2da38de20a2416468faa2f2bfedf6"
+    },
+    {
+      "bytes": 7335,
+      "path": "__pycache__/recover_source_reference.cpython-311.pyc",
+      "sha256": "d8daf231f054a1eab93381a150eee6b155d9117e199edc1e98dee8b5a440bff1"
+    },
+    {
+      "bytes": 10577,
+      "path": "__pycache__/remote_dependency_search.cpython-311.pyc",
+      "sha256": "ba6acac410ad0688e7b5449b50cb9feeaa639adfe725b4b57cbd6abde35c772a"
+    },
+    {
+      "bytes": 8040,
+      "path": "__pycache__/stage0_freeze_policy.cpython-311.pyc",
+      "sha256": "08af6687db9d349163c413925e86b2ec5aa35b922d4565c13978347d6ff0799b"
+    },
+    {
+      "bytes": 110,
+      "path": "address_action_results.csv",
+      "sha256": "083ef4b733e7d52ccea261c0bd0f4d21776639a74baf7ce0ceafb436b70bb6f1"
+    },
+    {
+      "bytes": 352,
+      "path": "baseline_reproduction.csv",
+      "sha256": "2bb0fc8348d30244e81ae30b3a76a02358cd991622345adb0a579aeae7779699"
+    },
+    {
+      "bytes": 220,
+      "path": "baseline_reproduction_gate.json",
+      "sha256": "8c7b8c0da0bba54cb29ecb1d1fb0bb069d7560da1f3e96bdbb852b6d9741b57a"
+    },
+    {
+      "bytes": 1691,
+      "path": "bundle_compatibility_audit.json",
+      "sha256": "2c781b7440ea44d493e4fd7dbed045da895c8b467feb3959e785c113a78953a4"
+    },
+    {
+      "bytes": 15184,
+      "path": "dependency_recovery_manifest.json",
+      "sha256": "35da2b54982ce01e98e4919af9daf4c1d9ae9252b53f3b15e8e2c02530573f56"
+    },
+    {
+      "bytes": 460,
+      "path": "final_o3b_gate.json",
+      "sha256": "b9fc83cf030439cd371ec9ab1b30710d84b475c3acd1d075a396899036808171"
+    },
+    {
+      "bytes": 6392,
+      "path": "final_report.md",
+      "sha256": "0b6ea3479c171a521d29f57734c23775910813a24c5b5ed7355f911811b00c5b"
+    },
+    {
+      "bytes": 70,
+      "path": "FINAL_VERDICT.txt",
+      "sha256": "425d015c350c2e3640d239eada851552ee583bd8bce2e8e3e2a0e814bf3b0ed6"
+    },
+    {
+      "bytes": 26822,
+      "path": "finalize_dependency_audit.py",
+      "sha256": "8c4db60a1892eb53dcad3a6c300ebae5c8b18ab367f620239cfe839643bc97c3"
+    },
+    {
+      "bytes": 110,
+      "path": "free_slot_regression.csv",
+      "sha256": "083ef4b733e7d52ccea261c0bd0f4d21776639a74baf7ce0ceafb436b70bb6f1"
+    },
+    {
+      "bytes": 110,
+      "path": "full_kv_regression.csv",
+      "sha256": "083ef4b733e7d52ccea261c0bd0f4d21776639a74baf7ce0ceafb436b70bb6f1"
+    },
+    {
+      "bytes": 1728,
+      "path": "local_dependency_search.json",
+      "sha256": "261f90a7f20d02ae84df50f5f331f5ad485bc56feb8ccc34797127a4eac6f137"
+    },
+    {
+      "bytes": 12260,
+      "path": "m2_address_policy_frozen_manifest.json",
+      "sha256": "03551431b57e150897a3957c4a121f807037f7d0c8bda68b6827160b74d171ac"
+    },
+    {
+      "bytes": 6221,
+      "path": "m2_policy_integrity_check.json",
+      "sha256": "0ccd6fcdb96030d4582e084b8965150b55bfddc95518309442ced873603e6483"
+    },
+    {
+      "bytes": 488,
+      "path": "reconnect_config.json",
+      "sha256": "ade8c1fa5887c6bb96905b885f88eb02c48f8027a524b1ea0f7b35a674283305"
+    },
+    {
+      "bytes": 5170,
+      "path": "recover_source_reference.py",
+      "sha256": "1a7e602fba3082208111c7e0747cc6eeb1d6be1cb6ace11bdec76516abd5b9c5"
+    },
+    {
+      "bytes": 24300,
+      "path": "remote_dependency_search.json",
+      "sha256": "65105f0f0682f6cab48edbc0abefe3d5c8ac79644287137d25feec88d8c0eadf"
+    },
+    {
+      "bytes": 7609,
+      "path": "remote_dependency_search.py",
+      "sha256": "b902f422fe810dadbd09a2bf44082739cab1f3a7d869247b604196cc701ad9b0"
+    },
+    {
+      "bytes": 5136,
+      "path": "remote_source_and_checkpoint_evidence.json",
+      "sha256": "df5e207d9402a4ba4ba0c675faa0733c92e93dd92dfa524f15981d6400b457fd"
+    },
+    {
+      "bytes": 110,
+      "path": "retrieval_regression.csv",
+      "sha256": "083ef4b733e7d52ccea261c0bd0f4d21776639a74baf7ce0ceafb436b70bb6f1"
+    },
+    {
+      "bytes": 24142,
+      "path": "source_reference/a1_v24_o21a.py",
+      "sha256": "f91ff8f05c6f9427bf724f4040b3616f3da409bc600358d4a80f0f895955d0fb"
+    },
+    {
+      "bytes": 42834,
+      "path": "source_reference/a1_v24_o21a_mr.py",
+      "sha256": "fe18d2425357c1152d98c216e8e793a4f6f1db611ab2bd12082b7863776169df"
+    },
+    {
+      "bytes": 9697,
+      "path": "source_reference/a1_v24_o2_common.py",
+      "sha256": "947ce501081fa63e338b3c99c76705792050df0c2cce9e76725807079da5446d"
+    },
+    {
+      "bytes": 28989,
+      "path": "source_reference/a1_v24_o3a.py",
+      "sha256": "f7142e82aa35233175ca6b14aaeb383ffe5bdee37c48371b9af314cbfa5f7b92"
+    },
+    {
+      "bytes": 39619,
+      "path": "source_reference/a1_v24_o3b.py",
+      "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd"
+    },
+    {
+      "bytes": 37928,
+      "path": "source_reference/a1_v24_vgen.py",
+      "sha256": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13"
+    },
+    {
+      "bytes": 550,
+      "path": "source_reference/o3b_k_diagnostic_config.json",
+      "sha256": "21819cc4d85e8b6b52f06bfc2a0fe4f33bcbe822025a1aa3d2432800aad5e0b2"
+    },
+    {
+      "bytes": 736,
+      "path": "source_reference/o3b_l_diagnostic_config.json",
+      "sha256": "ee83fafc4eefa6c2cc66683fb5908db6d0fd4a54795a10d1c5ff416764aa5d7c"
+    },
+    {
+      "bytes": 5606,
+      "path": "stage0_freeze_policy.py",
+      "sha256": "303b3892c10b1cf72b43c79762ac5d62b6bec1055ea706bbd8d5d04130287602"
+    },
+    {
+      "bytes": 439,
+      "path": "testa_overlap_caveat.json",
+      "sha256": "37a557bbb65b39b5c50e2166e0e799d6573b81d2d84b726222dbe02d548ca9a4"
+    },
+    {
+      "bytes": 110,
+      "path": "update_state_transition_audit.csv",
+      "sha256": "083ef4b733e7d52ccea261c0bd0f4d21776639a74baf7ce0ceafb436b70bb6f1"
+    }
+  ],
+  "verdict": "O3b-M3-INCOMPLETE — ORIGINAL FROZEN O3b DEPENDENCIES NOT RECOVERED"
+}

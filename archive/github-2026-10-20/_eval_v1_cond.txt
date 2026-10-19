@@ -1,0 +1,6 @@
+old v1 ckpt | step: 300 | ds: 64 | film: [3, 7, 11, 15, 19, 23]
+eval trajs=150 ceiling=0.5238
+  persist  t2p 89/168 = 0.5298  W95[0.454,0.604]  |S|=0.616
+  reset    t2p 88/168 = 0.5238  W95[0.449,0.598]  |S|=0.614
+  random   t2p 88/168 = 0.5238  W95[0.449,0.598]  |S|=0.639
+saved cond_eval.json

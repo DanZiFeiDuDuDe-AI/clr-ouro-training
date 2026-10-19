@@ -1,0 +1,1 @@
+{"mode": "extract", "rows": {"train": 11665, "val": 2332, "testA": 2332, "testB": 2332}, "sampled_reextraction_rows": 256, "row_join_pass": true, "numerical_reextraction_pass": true, "elapsed_s": 211.93227553367615, "probe_training_count": 0}

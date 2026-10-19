@@ -1,0 +1,44 @@
+{
+  "entity": {
+    "primary": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "counterpart": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "candidate_index": 5
+    }
+  },
+  "relation": {
+    "primary": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "counterpart": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "candidate_index": 5
+    }
+  },
+  "joint": {
+    "primary": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "candidate_index": 2
+    },
+    "counterpart": {
+      "optimizer": "AdamW",
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "candidate_index": 8
+    }
+  }
+}

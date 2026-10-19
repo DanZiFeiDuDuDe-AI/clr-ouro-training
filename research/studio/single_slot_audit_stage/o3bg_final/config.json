@@ -1,0 +1,50 @@
+{
+  "phase": "CLR-v2.4-O3b-G",
+  "seed": 42,
+  "git_sha": "NO_GIT_REPO",
+  "device": "cuda",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "cache_reused": true,
+  "frozen": [
+    "backbone/Ouro",
+    "V/ValueEncoder/GRU",
+    "allocator",
+    "memory write/update",
+    "downstream answer head",
+    "original O2.1b KeyEncoder"
+  ],
+  "trainable": [
+    "small learned entity/relation binding heads",
+    "auxiliary train-only entity/relation classifiers"
+  ],
+  "variants": [
+    "G1_hadamard",
+    "G2_residual_l0p5",
+    "G2_residual_l1",
+    "G2_residual_l2",
+    "G3_projected_tensor",
+    "G4_learned_concat"
+  ],
+  "loss": "L_pair + 0.25 L_entity + 0.25 L_relation + 0.5 L_hard; labels not used at inference",
+  "hard_negative_sampling": {
+    "P2": 0.25,
+    "P3": 0.25
+  },
+  "pair_sizes": {
+    "train": 6000,
+    "val": 3000,
+    "testA": 3000,
+    "testB": 3000
+  },
+  "best_variant": "G3_projected_tensor",
+  "best_testB_variant_diagnostic": "G2_residual_l2",
+  "peak_vram": {
+    "allocated_gb": 0.145532416,
+    "reserved_gb": 0.195035136
+  },
+  "wall_clock_s": 6164.920186499978,
+  "verdict": "O3b-G FAIL: LEARNED BINDING INDUCTIVE BIAS INSUFFICIENT",
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "independent unresolved issue"
+}

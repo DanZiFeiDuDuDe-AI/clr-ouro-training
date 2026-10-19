@@ -1,0 +1,42 @@
+{
+  "evaluation": "frozen validation only",
+  "fit": "train only",
+  "kind": "centroid",
+  "metrics": {
+    "N1": {
+      "accuracy": 0.08682634730538923,
+      "correct": 29,
+      "count": 334
+    },
+    "N2": {
+      "accuracy": 0.06006006006006006,
+      "correct": 40,
+      "count": 666
+    },
+    "N4": {
+      "accuracy": 0.08108108108108109,
+      "correct": 108,
+      "count": 1332
+    },
+    "UPDATE_latest": {
+      "accuracy": 0.07245080500894455,
+      "correct": 81,
+      "count": 1118
+    },
+    "single_write": {
+      "accuracy": 0.07590051457975987,
+      "correct": 177,
+      "count": 2332
+    },
+    "value_identity": {
+      "accuracy": 0.07478260869565218,
+      "correct": 258,
+      "count": 3450
+    }
+  },
+  "preprocessing": "cosine",
+  "selection": "final fixed-step model; no validation selection",
+  "snapshot": "3k",
+  "stage": "R1",
+  "steps": 0
+}

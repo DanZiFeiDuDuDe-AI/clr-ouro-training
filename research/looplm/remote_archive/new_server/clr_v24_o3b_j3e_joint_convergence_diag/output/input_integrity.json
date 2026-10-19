@@ -1,0 +1,376 @@
+{
+  "experiment": "O3b-J3E Stage 0 input integrity and standardized transform audit",
+  "cache_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "output_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag",
+  "source_certification_verdict": "J3C-P — FRESH ID-CARRYING FEATURE CACHE PROVENANCE CERTIFIED",
+  "selected_file_count": 21,
+  "selected_files": [
+    {
+      "filename": "R1_train.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "4393e9d3ddae491157ca88e1c4bad6450639e918d77dda47ccdb058c3905032d",
+      "expected_sha256": "4393e9d3ddae491157ca88e1c4bad6450639e918d77dda47ccdb058c3905032d",
+      "sha_pass": true
+    },
+    {
+      "filename": "R2_train.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "730b30d3961ebce3e073c6c0cf42bbbebef9bbb415ba99f91310b84c5020076a",
+      "expected_sha256": "730b30d3961ebce3e073c6c0cf42bbbebef9bbb415ba99f91310b84c5020076a",
+      "sha_pass": true
+    },
+    {
+      "filename": "R1_val.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "3b946a9c4972a26e3789e4fd1807e380dd999d906f3e9fe91eef85224d987197",
+      "expected_sha256": "3b946a9c4972a26e3789e4fd1807e380dd999d906f3e9fe91eef85224d987197",
+      "sha_pass": true
+    },
+    {
+      "filename": "R2_val.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "773f93a7171daecaebdbc33323cf51a15eb436480bf026f198ec4ab69501a074",
+      "expected_sha256": "773f93a7171daecaebdbc33323cf51a15eb436480bf026f198ec4ab69501a074",
+      "sha_pass": true
+    },
+    {
+      "filename": "R1_testA.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "12ca5b95c1431e9b1b83e19219ef81b9ae8ee2cd9e46d4d218442d60da83bd98",
+      "expected_sha256": "12ca5b95c1431e9b1b83e19219ef81b9ae8ee2cd9e46d4d218442d60da83bd98",
+      "sha_pass": true
+    },
+    {
+      "filename": "R2_testA.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "ad9a838901dbed5c72d6ac6c869ecd29f3e5f6292eb93ebf2682509ef3b28c9b",
+      "expected_sha256": "ad9a838901dbed5c72d6ac6c869ecd29f3e5f6292eb93ebf2682509ef3b28c9b",
+      "sha_pass": true
+    },
+    {
+      "filename": "R1_testB.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "c57bdc55277b7ae707baf53e44c26768c5312be7388b43da0a83affb34dfd049",
+      "expected_sha256": "c57bdc55277b7ae707baf53e44c26768c5312be7388b43da0a83affb34dfd049",
+      "sha_pass": true
+    },
+    {
+      "filename": "R2_testB.npy",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "68475fd25c194586d174726245422b02b0cc56ef7313878ec5c25f076859ef36",
+      "expected_sha256": "68475fd25c194586d174726245422b02b0cc56ef7313878ec5c25f076859ef36",
+      "sha_pass": true
+    },
+    {
+      "filename": "labels_train.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 1710972,
+      "expected_bytes": 1710972,
+      "sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115",
+      "expected_sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115",
+      "sha_pass": true
+    },
+    {
+      "filename": "labels_val.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 313881,
+      "expected_bytes": 313881,
+      "sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7",
+      "expected_sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7",
+      "sha_pass": true
+    },
+    {
+      "filename": "labels_testA.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 332314,
+      "expected_bytes": 332314,
+      "sha256": "f234ae2af50dc2ef34715700fd7ee9f7029291d5819bbcd2f9a9f911d495d5e0",
+      "expected_sha256": "f234ae2af50dc2ef34715700fd7ee9f7029291d5819bbcd2f9a9f911d495d5e0",
+      "sha_pass": true
+    },
+    {
+      "filename": "labels_testB.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 326905,
+      "expected_bytes": 326905,
+      "sha256": "90ebf1234f511876b83ee01309b9b928cb7a127c408b93f238f860043bce8aea",
+      "expected_sha256": "90ebf1234f511876b83ee01309b9b928cb7a127c408b93f238f860043bce8aea",
+      "sha_pass": true
+    },
+    {
+      "filename": "H_fresh_train_sidecar.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 4153720,
+      "expected_bytes": 4153720,
+      "sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078",
+      "expected_sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078",
+      "sha_pass": true
+    },
+    {
+      "filename": "H_fresh_val_sidecar.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 769144,
+      "expected_bytes": 769144,
+      "sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf",
+      "expected_sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf",
+      "sha_pass": true
+    },
+    {
+      "filename": "H_fresh_testA_sidecar.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 805930,
+      "expected_bytes": 805930,
+      "sha256": "f091dd82ac03b5ad88a97e806667b8f4904dec74465e4ac94298ee8d2750c581",
+      "expected_sha256": "f091dd82ac03b5ad88a97e806667b8f4904dec74465e4ac94298ee8d2750c581",
+      "sha_pass": true
+    },
+    {
+      "filename": "H_fresh_testB_sidecar.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 800680,
+      "expected_bytes": 800680,
+      "sha256": "6f659e03df8a85f4e0f061ca3a141216ee5d5ce752b2c0895bf4fd8e5711aa99",
+      "expected_sha256": "6f659e03df8a85f4e0f061ca3a141216ee5d5ce752b2c0895bf4fd8e5711aa99",
+      "sha_pass": true
+    },
+    {
+      "filename": "feature_row_plan.csv",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 7983600,
+      "expected_bytes": 7983600,
+      "sha256": "978edaabf6458a752a34fb9bfe1baca41d407f60f0b87dd444ac0c1eeeccb732",
+      "expected_sha256": "978edaabf6458a752a34fb9bfe1baca41d407f60f0b87dd444ac0c1eeeccb732",
+      "sha_pass": true
+    },
+    {
+      "filename": "fresh_row_join_summary.json",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 3334,
+      "expected_bytes": 3334,
+      "sha256": "43640cc5a4a69b5fccd5cb2fa0b3c7856d083906c47faed0c9460f9534ead555",
+      "expected_sha256": "43640cc5a4a69b5fccd5cb2fa0b3c7856d083906c47faed0c9460f9534ead555",
+      "sha_pass": true
+    },
+    {
+      "filename": "stage_definition.json",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 284,
+      "expected_bytes": 284,
+      "sha256": "85da9a669e57959afdf3bb949868e936593f6f97ad3a8b7f857431651f704433",
+      "expected_sha256": "85da9a669e57959afdf3bb949868e936593f6f97ad3a8b7f857431651f704433",
+      "sha_pass": true
+    },
+    {
+      "filename": "w1_svd_matrices.npz",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 6798595,
+      "expected_bytes": 6798595,
+      "sha256": "e9973ef3b28f353eb88cdc472f3796b4c7076c38b8542f3acf8d29bcf16cab2b",
+      "expected_sha256": "e9973ef3b28f353eb88cdc472f3796b4c7076c38b8542f3acf8d29bcf16cab2b",
+      "sha_pass": true
+    },
+    {
+      "filename": "checkpoint_sha256_before_after.json",
+      "exists": true,
+      "in_source_manifest": true,
+      "bytes": 374,
+      "expected_bytes": 374,
+      "sha256": "21c4813392a9a8bf462783f43338c7fda5473bad28d6fa12345e6e37e1a1f312",
+      "expected_sha256": "21c4813392a9a8bf462783f43338c7fda5473bad28d6fa12345e6e37e1a1f312",
+      "sha_pass": true
+    }
+  ],
+  "splits": {
+    "train": {
+      "rows": 11665,
+      "unique_feature_row_ids": 11665,
+      "joint_known": 11665,
+      "joint_unknown": 0,
+      "joint_class_count": 2378,
+      "R1_R2_metadata": {
+        "R1": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 11665,
+          "metadata_pass": true
+        },
+        "R2": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 11665,
+          "metadata_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "val": {
+      "rows": 2332,
+      "unique_feature_row_ids": 2332,
+      "joint_known": 2307,
+      "joint_unknown": 25,
+      "joint_class_count": 1475,
+      "R1_R2_metadata": {
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "testA": {
+      "rows": 2332,
+      "unique_feature_row_ids": 2332,
+      "joint_known": 2312,
+      "joint_unknown": 20,
+      "joint_class_count": 1479,
+      "R1_R2_metadata": {
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "testB": {
+      "rows": 2332,
+      "unique_feature_row_ids": 2332,
+      "joint_known": 0,
+      "joint_unknown": 2332,
+      "joint_class_count": 0,
+      "R1_R2_metadata": {
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "source_row_count": 2332,
+          "metadata_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    }
+  },
+  "joint_label_integrity": {
+    "train_known": 11665,
+    "train_classes": 2378,
+    "class_ids_contiguous": true,
+    "val_known_in_train_classes": 2307,
+    "testA_known_in_train_classes": 2312,
+    "testB_known_in_train_classes": 0
+  },
+  "svd": {
+    "U_shape": [
+      256,
+      256
+    ],
+    "S_shape": [
+      256
+    ],
+    "Vh_shape": [
+      256,
+      2048
+    ],
+    "U_orthogonality_max_abs_error": 1.9984014443252818e-15,
+    "raw_definition": "R2 = R1 @ U.T",
+    "standardized_definition": "R2_std = R1_std @ B + offset; B=diag(sd_R1) U.T diag(1/sd_R2)",
+    "B_condition_number": 44.102477776598995,
+    "train_standardized_transform_error": {
+      "max_abs": 2.4420335942298976e-06,
+      "mean_abs": 2.2522869002208567e-07
+    },
+    "validation_standardized_transform_error": {
+      "max_abs": 2.319546058560107e-06,
+      "mean_abs": 2.2572262900313208e-07
+    },
+    "synthetic_bidirectional_affine_classifier_transfer_max_logit_error": 4.3478049889245085e-05
+  },
+  "test_splits_used_for_model_selection_or_metrics": false,
+  "test_features_used_for_standardization": false,
+  "checkpoint_modified": false,
+  "errors": [],
+  "pass": true
+}

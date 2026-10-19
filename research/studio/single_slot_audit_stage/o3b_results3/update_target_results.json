@@ -1,0 +1,120 @@
+{
+  "testA": {
+    "binary": {
+      "accuracy": 0.909,
+      "precision_update": 0.919917864476386,
+      "recall_update": 0.896,
+      "f1_update": 0.9078014184397163,
+      "tp": 448,
+      "tn": 461,
+      "fp": 39,
+      "fn": 52,
+      "auroc": 0.9754679999999999,
+      "n": 1000,
+      "threshold": 0.5299999999999999
+    },
+    "update_target_accuracy_on_true_update": 0.988,
+    "new_pred_new_rate_on_true_new": 0.922,
+    "confusion": {
+      "true_NEW_pred_NEW": 461,
+      "true_NEW_pred_UPDATE": 39,
+      "true_UPDATE_pred_UPDATE": 448,
+      "true_UPDATE_pred_NEW": 52
+    }
+  },
+  "testB": {
+    "binary": {
+      "accuracy": 0.906,
+      "precision_update": 0.921161825726141,
+      "recall_update": 0.888,
+      "f1_update": 0.9042769857433809,
+      "tp": 444,
+      "tn": 462,
+      "fp": 38,
+      "fn": 56,
+      "auroc": 0.972744,
+      "n": 1000,
+      "threshold": 0.5299999999999999
+    },
+    "update_target_accuracy_on_true_update": 0.98,
+    "new_pred_new_rate_on_true_new": 0.924,
+    "confusion": {
+      "true_NEW_pred_NEW": 462,
+      "true_NEW_pred_UPDATE": 38,
+      "true_UPDATE_pred_UPDATE": 444,
+      "true_UPDATE_pred_NEW": 56
+    }
+  },
+  "slot_permutation": {
+    "normal": {
+      "episodes": 1000,
+      "retrieval_accuracy": 0.9829184968277208,
+      "answer_accuracy": 0.931185944363104,
+      "all_facts_retained_rate": 0.965,
+      "all_facts_answered_rate": 0.862,
+      "action_accuracy": 0.902,
+      "update_target_accuracy": 0.908,
+      "new_valid_empty_rate": 0.884,
+      "new_collision_rate": 0.11599999999999999,
+      "duplicate_key_rate": 0.046,
+      "latest_value_accuracy": 0.918,
+      "old_value_probability": 0.002262397237328638,
+      "untouched_k_drift": 0.0,
+      "untouched_v_drift": 0.0
+    },
+    "permuted": {
+      "episodes": 1000,
+      "retrieval_accuracy": 0.9817219817219818,
+      "answer_accuracy": 0.9187109187109187,
+      "all_facts_retained_rate": 0.962,
+      "all_facts_answered_rate": 0.84,
+      "action_accuracy": 0.9,
+      "update_target_accuracy": 0.876,
+      "new_valid_empty_rate": 0.912,
+      "new_collision_rate": 0.08799999999999997,
+      "duplicate_key_rate": 0.062,
+      "latest_value_accuracy": 0.912,
+      "old_value_probability": 0.0028963943695850167,
+      "untouched_k_drift": 0.0,
+      "untouched_v_drift": 0.0
+    },
+    "update_target_drop_pp": 3.200000000000003,
+    "retrieval_drop_pp": 0.11965151057390377
+  },
+  "fact_order_permutation": {
+    "normal": {
+      "episodes": 1000,
+      "retrieval_accuracy": 0.9829184968277208,
+      "answer_accuracy": 0.931185944363104,
+      "all_facts_retained_rate": 0.965,
+      "all_facts_answered_rate": 0.862,
+      "action_accuracy": 0.902,
+      "update_target_accuracy": 0.908,
+      "new_valid_empty_rate": 0.884,
+      "new_collision_rate": 0.11599999999999999,
+      "duplicate_key_rate": 0.046,
+      "latest_value_accuracy": 0.918,
+      "old_value_probability": 0.002262397237328638,
+      "untouched_k_drift": 0.0,
+      "untouched_v_drift": 0.0
+    },
+    "reversed": {
+      "episodes": 1000,
+      "retrieval_accuracy": 0.9819159335288368,
+      "answer_accuracy": 0.9232649071358748,
+      "all_facts_retained_rate": 0.963,
+      "all_facts_answered_rate": 0.852,
+      "action_accuracy": 0.909,
+      "update_target_accuracy": 0.918,
+      "new_valid_empty_rate": 0.888,
+      "new_collision_rate": 0.11199999999999999,
+      "duplicate_key_rate": 0.041,
+      "latest_value_accuracy": 0.906,
+      "old_value_probability": 0.001760080259149869,
+      "untouched_k_drift": 0.0,
+      "untouched_v_drift": 0.0
+    },
+    "update_target_drop_pp": -1.0000000000000009,
+    "retrieval_drop_pp": 0.10025632988840405
+  }
+}

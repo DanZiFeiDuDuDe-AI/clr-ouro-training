@@ -1,0 +1,7 @@
+{
+  "train_acc": 1.0,
+  "val_acc": 0.8975,
+  "testA_acc": 0.8475,
+  "testB_acc": 0.8375,
+  "epochs": 83
+}

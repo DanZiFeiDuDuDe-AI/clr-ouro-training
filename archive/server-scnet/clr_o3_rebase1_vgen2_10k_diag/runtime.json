@@ -1,0 +1,11 @@
+{
+  "best_step": 9600,
+  "cuda_device_count": 1,
+  "device": "cuda",
+  "device_name": "BW",
+  "eval_count": 101,
+  "gpu_name": "BW",
+  "torch": "2.9.0",
+  "training_steps": 10000,
+  "wall_clock_s": 66.87168724101502
+}

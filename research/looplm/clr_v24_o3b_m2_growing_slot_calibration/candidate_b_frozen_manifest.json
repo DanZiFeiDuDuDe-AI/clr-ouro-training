@@ -1,0 +1,26 @@
+{
+  "candidate": "B",
+  "candidate_config_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+  "checkpoint_sha256_after": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "checkpoint_sha256_before": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "checkpoint_source": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+  "deployed_seed": 43,
+  "feature_source": {
+    "entity": "J3C H_mention_fresh_{split}.npy exact entity-mention mean hidden, 2048D",
+    "relation": "J3C H_base_I0_{split}.npy; bitwise equal to corresponding MR fact_H, 2048D"
+  },
+  "freeze_stage": "after_frozen_holdout_evaluation",
+  "frozen_at_utc": "2026-09-25T12:04:43.463628+00:00",
+  "hidden_dim": 64,
+  "normalization": {
+    "stats": "checkpoint feature_stats; fitted during O3b-M on train only; no refit",
+    "type": "train-only per dimension"
+  },
+  "old_global_threshold": 0.57,
+  "pair_head": "Linear(256,64) + GELU + Linear(64,1)",
+  "scoring_function": "sigmoid(pair_head([abs(k_e(q)-k_e(m)), k_e(q)*k_e(m), abs(k_r(q)-k_r(m)), k_r(q)*k_r(m)]))",
+  "state_dict_sha256_after": "c7a087c7e99fa276e49c4a7497516aa6179496566e92c138034116785ee10808",
+  "state_dict_sha256_before": "c7a087c7e99fa276e49c4a7497516aa6179496566e92c138034116785ee10808",
+  "trained_or_updated_in_m2": false,
+  "weights_frozen": true
+}

@@ -1,0 +1,48 @@
+{
+  "normal": {
+    "episodes": 333,
+    "writes": 1332,
+    "valid_allocation_rate": 1.0,
+    "collision_rate": 0.0,
+    "per_fact_retrieval": [
+      0.993993993993994,
+      0.996996996996997,
+      1.0,
+      0.987987987987988
+    ],
+    "per_fact_answer": [
+      0.948948948948949,
+      0.93993993993994,
+      0.9519519519519519,
+      0.9099099099099099
+    ],
+    "retrieval_accuracy": 0.9947447447447447,
+    "answer_accuracy": 0.9376876876876877,
+    "all_facts_retained_rate": 0.978978978978979,
+    "all_facts_answered_rate": 0.7837837837837838
+  },
+  "reversed": {
+    "episodes": 333,
+    "writes": 1332,
+    "valid_allocation_rate": 1.0,
+    "collision_rate": 0.0,
+    "per_fact_retrieval": [
+      0.993993993993994,
+      0.996996996996997,
+      1.0,
+      0.987987987987988
+    ],
+    "per_fact_answer": [
+      0.93993993993994,
+      0.9309309309309309,
+      0.9459459459459459,
+      0.9069069069069069
+    ],
+    "retrieval_accuracy": 0.9947447447447447,
+    "answer_accuracy": 0.9309309309309309,
+    "all_facts_retained_rate": 0.978978978978979,
+    "all_facts_answered_rate": 0.7597597597597597
+  },
+  "retrieval_drop_pp": 0.0,
+  "answer_drop_pp": 0.6756756756756799
+}

@@ -1,0 +1,66 @@
+{
+  "curves": [
+    {
+      "gradient_norm": 0.8188601136207581,
+      "step": 200,
+      "train_accuracy": 0.9900807738304138,
+      "train_loss": 0.09948472678661346
+    },
+    {
+      "gradient_norm": 0.3280640244483948,
+      "step": 400,
+      "train_accuracy": 0.9965421557426453,
+      "train_loss": 0.02444417029619217
+    },
+    {
+      "gradient_norm": 0.1126105934381485,
+      "step": 600,
+      "train_accuracy": 0.999066174030304,
+      "train_loss": 0.01162720937281847
+    },
+    {
+      "gradient_norm": 0.2869265377521515,
+      "step": 800,
+      "train_accuracy": 0.9993438124656677,
+      "train_loss": 0.01189331989735365
+    },
+    {
+      "gradient_norm": 0.48552146553993225,
+      "step": 1000,
+      "train_accuracy": 0.9959616661071777,
+      "train_loss": 0.030834484845399857
+    },
+    {
+      "gradient_norm": 0.8320255875587463,
+      "step": 1200,
+      "train_accuracy": 0.9824331402778625,
+      "train_loss": 0.10196410119533539
+    },
+    {
+      "gradient_norm": 0.574204683303833,
+      "step": 1400,
+      "train_accuracy": 0.9956587553024292,
+      "train_loss": 0.09688761085271835
+    },
+    {
+      "gradient_norm": 0.35686758160591125,
+      "step": 1600,
+      "train_accuracy": 0.9990156888961792,
+      "train_loss": 0.009476092644035816
+    },
+    {
+      "gradient_norm": 0.019397441297769547,
+      "step": 1800,
+      "train_accuracy": 0.9999243021011353,
+      "train_loss": 0.0010622348636388779
+    },
+    {
+      "gradient_norm": 0.006067356094717979,
+      "step": 2000,
+      "train_accuracy": 1.0,
+      "train_loss": 0.0005187461501918733
+    }
+  ],
+  "parameters": 131136,
+  "train_accuracy": 1.0
+}

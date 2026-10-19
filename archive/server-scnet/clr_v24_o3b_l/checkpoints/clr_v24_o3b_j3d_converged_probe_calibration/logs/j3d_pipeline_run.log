@@ -1,0 +1,314 @@
+PROGRESS tag=screen_entity_00 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_00 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_00 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=1/18 optimizer=AdamW lr=0.0003 wd=0.0 val_acc=1.000000 val_loss=0.017714
+PROGRESS tag=screen_entity_01 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_01 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_01 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=2/18 optimizer=AdamW lr=0.001 wd=0.0 val_acc=1.000000 val_loss=0.003088
+PROGRESS tag=screen_entity_02 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_02 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_02 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=3/18 optimizer=AdamW lr=0.003 wd=0.0 val_acc=1.000000 val_loss=0.000785
+PROGRESS tag=screen_entity_03 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_03 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_03 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=4/18 optimizer=AdamW lr=0.0003 wd=0.0001 val_acc=1.000000 val_loss=0.017724
+PROGRESS tag=screen_entity_04 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_04 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_04 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=5/18 optimizer=AdamW lr=0.001 wd=0.0001 val_acc=1.000000 val_loss=0.003090
+PROGRESS tag=screen_entity_05 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_05 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_05 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=6/18 optimizer=AdamW lr=0.003 wd=0.0001 val_acc=1.000000 val_loss=0.000787
+PROGRESS tag=screen_entity_06 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_06 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_06 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=7/18 optimizer=AdamW lr=0.0003 wd=0.001 val_acc=1.000000 val_loss=0.017749
+PROGRESS tag=screen_entity_07 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_07 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_07 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=8/18 optimizer=AdamW lr=0.001 wd=0.001 val_acc=1.000000 val_loss=0.003112
+PROGRESS tag=screen_entity_08 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_08 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_08 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=9/18 optimizer=AdamW lr=0.003 wd=0.001 val_acc=1.000000 val_loss=0.000805
+PROGRESS tag=screen_entity_09 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_09 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_09 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=10/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0 val_acc=0.995862 val_loss=0.419289
+PROGRESS tag=screen_entity_10 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_10 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_10 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=11/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0 val_acc=0.999443 val_loss=0.076619
+PROGRESS tag=screen_entity_11 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_11 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_11 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=12/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0 val_acc=0.999893 val_loss=0.023752
+PROGRESS tag=screen_entity_12 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_12 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_12 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=13/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0001 val_acc=0.995776 val_loss=0.423991
+PROGRESS tag=screen_entity_13 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_13 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_13 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=14/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0001 val_acc=0.999443 val_loss=0.081596
+PROGRESS tag=screen_entity_14 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_14 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_14 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=15/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0001 val_acc=0.999893 val_loss=0.030086
+PROGRESS tag=screen_entity_15 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_15 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_15 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=16/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.001 val_acc=0.994983 val_loss=0.467397
+PROGRESS tag=screen_entity_16 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_16 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_16 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=17/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.001 val_acc=0.999421 val_loss=0.133093
+PROGRESS tag=screen_entity_17 task=entity step=1000/3000 active=4/4
+PROGRESS tag=screen_entity_17 task=entity step=2000/3000 active=4/4
+PROGRESS tag=screen_entity_17 task=entity step=3000/3000 active=4/4
+SCREEN task=entity candidate=18/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.001 val_acc=0.999721 val_loss=0.103550
+PROGRESS tag=screen_relation_00 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_00 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_00 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=1/18 optimizer=AdamW lr=0.0003 wd=0.0 val_acc=0.941960 val_loss=0.227980
+PROGRESS tag=screen_relation_01 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_01 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_01 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=2/18 optimizer=AdamW lr=0.001 wd=0.0 val_acc=0.964901 val_loss=0.128723
+PROGRESS tag=screen_relation_02 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_02 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_02 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=3/18 optimizer=AdamW lr=0.003 wd=0.0 val_acc=0.972449 val_loss=0.091877
+PROGRESS tag=screen_relation_03 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_03 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_03 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=4/18 optimizer=AdamW lr=0.0003 wd=0.0001 val_acc=0.941960 val_loss=0.227997
+PROGRESS tag=screen_relation_04 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_04 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_04 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=5/18 optimizer=AdamW lr=0.001 wd=0.0001 val_acc=0.964901 val_loss=0.128734
+PROGRESS tag=screen_relation_05 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_05 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_05 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=6/18 optimizer=AdamW lr=0.003 wd=0.0001 val_acc=0.972449 val_loss=0.091889
+PROGRESS tag=screen_relation_06 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_06 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_06 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=7/18 optimizer=AdamW lr=0.0003 wd=0.001 val_acc=0.941917 val_loss=0.228040
+PROGRESS tag=screen_relation_07 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_07 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_07 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=8/18 optimizer=AdamW lr=0.001 wd=0.001 val_acc=0.964923 val_loss=0.128821
+PROGRESS tag=screen_relation_08 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_08 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_08 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=9/18 optimizer=AdamW lr=0.003 wd=0.001 val_acc=0.972341 val_loss=0.092002
+PROGRESS tag=screen_relation_09 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_09 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_09 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=10/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0 val_acc=0.953816 val_loss=0.160680
+PROGRESS tag=screen_relation_10 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_10 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_10 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=11/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0 val_acc=0.960463 val_loss=0.134673
+PROGRESS tag=screen_relation_11 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_11 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_11 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=12/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0 val_acc=0.962757 val_loss=0.198097
+PROGRESS tag=screen_relation_12 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_12 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_12 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=13/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0001 val_acc=0.953795 val_loss=0.161101
+PROGRESS tag=screen_relation_13 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_13 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_13 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=14/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0001 val_acc=0.960334 val_loss=0.148015
+PROGRESS tag=screen_relation_14 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_14 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_14 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=15/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0001 val_acc=0.959949 val_loss=0.275338
+PROGRESS tag=screen_relation_15 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_15 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_15 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=16/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.001 val_acc=0.953752 val_loss=0.165303
+PROGRESS tag=screen_relation_16 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_16 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_16 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=17/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.001 val_acc=0.960420 val_loss=0.141322
+PROGRESS tag=screen_relation_17 task=relation step=1000/3000 active=4/4
+PROGRESS tag=screen_relation_17 task=relation step=2000/3000 active=4/4
+PROGRESS tag=screen_relation_17 task=relation step=3000/3000 active=4/4
+SCREEN task=relation candidate=18/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.001 val_acc=0.946033 val_loss=1.011866
+PROGRESS tag=screen_joint_00 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_00 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_00 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=1/18 optimizer=AdamW lr=0.0003 wd=0.0 val_acc=0.806935 val_loss=0.652328
+PROGRESS tag=screen_joint_01 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_01 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_01 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=2/18 optimizer=AdamW lr=0.001 wd=0.0 val_acc=0.841071 val_loss=0.509129
+PROGRESS tag=screen_joint_02 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_02 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_02 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=3/18 optimizer=AdamW lr=0.003 wd=0.0 val_acc=0.853294 val_loss=0.500858
+PROGRESS tag=screen_joint_03 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_03 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_03 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=4/18 optimizer=AdamW lr=0.0003 wd=0.0001 val_acc=0.806914 val_loss=0.652376
+PROGRESS tag=screen_joint_04 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_04 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_04 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=5/18 optimizer=AdamW lr=0.001 wd=0.0001 val_acc=0.841071 val_loss=0.509133
+PROGRESS tag=screen_joint_05 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_05 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_05 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=6/18 optimizer=AdamW lr=0.003 wd=0.0001 val_acc=0.853273 val_loss=0.500795
+PROGRESS tag=screen_joint_06 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_06 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_06 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=7/18 optimizer=AdamW lr=0.0003 wd=0.001 val_acc=0.806914 val_loss=0.652497
+PROGRESS tag=screen_joint_07 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_07 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_07 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=8/18 optimizer=AdamW lr=0.001 wd=0.001 val_acc=0.841114 val_loss=0.509160
+PROGRESS tag=screen_joint_08 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_08 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_08 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=9/18 optimizer=AdamW lr=0.003 wd=0.001 val_acc=0.853273 val_loss=0.500244
+PROGRESS tag=screen_joint_09 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_09 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_09 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=10/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0 val_acc=0.343281 val_loss=3.838426
+PROGRESS tag=screen_joint_10 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_10 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_10 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=11/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0 val_acc=0.615236 val_loss=1.638534
+PROGRESS tag=screen_joint_11 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_11 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_11 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=12/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0 val_acc=0.767924 val_loss=0.836449
+PROGRESS tag=screen_joint_12 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_12 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_12 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=13/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.0001 val_acc=0.342739 val_loss=3.847520
+PROGRESS tag=screen_joint_13 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_13 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_13 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=14/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.0001 val_acc=0.611899 val_loss=1.662006
+PROGRESS tag=screen_joint_14 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_14 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_14 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=15/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.0001 val_acc=0.761920 val_loss=0.874288
+PROGRESS tag=screen_joint_15 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_15 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_15 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=16/18 optimizer=SGD_momentum_0.9 lr=0.003 wd=0.001 val_acc=0.337451 val_loss=3.929289
+PROGRESS tag=screen_joint_16 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_16 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_16 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=17/18 optimizer=SGD_momentum_0.9 lr=0.01 wd=0.001 val_acc=0.582206 val_loss=1.881201
+PROGRESS tag=screen_joint_17 task=joint step=1000/3000 active=4/4
+PROGRESS tag=screen_joint_17 task=joint step=2000/3000 active=4/4
+PROGRESS tag=screen_joint_17 task=joint step=3000/3000 active=4/4
+SCREEN task=joint candidate=18/18 optimizer=SGD_momentum_0.9 lr=0.03 wd=0.001 val_acc=0.697117 val_loss=1.264652
+PROGRESS tag=r0_r1_entity task=entity step=1000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=2000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=3000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=4000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=5000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=6000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=7000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=8000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=9000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=10000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=11000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=12000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=13000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=14000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=15000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=16000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=17000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=18000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=19000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=20000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=21000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=22000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=23000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=24000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=25000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=26000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=27000/50000 active=20/20
+PROGRESS tag=r0_r1_entity task=entity step=28000/50000 active=18/20
+PROGRESS tag=r0_r1_entity task=entity step=29000/50000 active=18/20
+PROGRESS tag=r0_r1_entity task=entity step=30000/50000 active=16/20
+PROGRESS tag=r0_r1_entity task=entity step=31000/50000 active=12/20
+PROGRESS tag=r0_r1_entity task=entity step=32000/50000 active=12/20
+PROGRESS tag=r0_r1_entity task=entity step=33000/50000 active=12/20
+PROGRESS tag=r0_r1_entity task=entity step=34000/50000 active=12/20
+PROGRESS tag=r0_r1_entity task=entity step=35000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=36000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=37000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=38000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=39000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=40000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=41000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=42000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=43000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=44000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=45000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=46000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=47000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=48000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=49000/50000 active=10/20
+PROGRESS tag=r0_r1_entity task=entity step=50000/50000 active=10/20
+FIT_DONE r0_r1 task=entity converged=0/20
+PROGRESS tag=r0_r1_relation task=relation step=1000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=2000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=3000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=4000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=5000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=6000/50000 active=20/20
+PROGRESS tag=r0_r1_relation task=relation step=7000/50000 active=18/20
+PROGRESS tag=r0_r1_relation task=relation step=8000/50000 active=12/20
+PROGRESS tag=r0_r1_relation task=relation step=9000/50000 active=12/20
+PROGRESS tag=r0_r1_relation task=relation step=10000/50000 active=10/20
+PROGRESS tag=r0_r1_relation task=relation step=11000/50000 active=10/20
+PROGRESS tag=r0_r1_relation task=relation step=12000/50000 active=10/20
+PROGRESS tag=r0_r1_relation task=relation step=13000/50000 active=10/20
+PROGRESS tag=r0_r1_relation task=relation step=14000/50000 active=9/20
+PROGRESS tag=r0_r1_relation task=relation step=15000/50000 active=5/20
+PROGRESS tag=r0_r1_relation task=relation step=16000/50000 active=5/20
+PROGRESS tag=r0_r1_relation task=relation step=17000/50000 active=5/20
+PROGRESS tag=r0_r1_relation task=relation step=18000/50000 active=5/20
+PROGRESS tag=r0_r1_relation task=relation step=19000/50000 active=5/20
+PROGRESS tag=r0_r1_relation task=relation step=20000/50000 active=5/20
+FIT_DONE r0_r1 task=relation converged=0/20
+PROGRESS tag=r0_r1_joint task=joint step=1000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=2000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=3000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=4000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=5000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=6000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=7000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=8000/50000 active=20/20
+PROGRESS tag=r0_r1_joint task=joint step=9000/50000 active=15/20
+PROGRESS tag=r0_r1_joint task=joint step=10000/50000 active=15/20
+PROGRESS tag=r0_r1_joint task=joint step=11000/50000 active=14/20
+PROGRESS tag=r0_r1_joint task=joint step=12000/50000 active=14/20
+PROGRESS tag=r0_r1_joint task=joint step=13000/50000 active=13/20
+PROGRESS tag=r0_r1_joint task=joint step=14000/50000 active=10/20
+PROGRESS tag=r0_r1_joint task=joint step=15000/50000 active=10/20
+PROGRESS tag=r0_r1_joint task=joint step=16000/50000 active=9/20
+PROGRESS tag=r0_r1_joint task=joint step=17000/50000 active=9/20
+PROGRESS tag=r0_r1_joint task=joint step=18000/50000 active=9/20
+PROGRESS tag=r0_r1_joint task=joint step=19000/50000 active=9/20
+PROGRESS tag=r0_r1_joint task=joint step=20000/50000 active=8/20
+PROGRESS tag=r0_r1_joint task=joint step=21000/50000 active=8/20
+PROGRESS tag=r0_r1_joint task=joint step=22000/50000 active=8/20
+PROGRESS tag=r0_r1_joint task=joint step=23000/50000 active=8/20
+PROGRESS tag=r0_r1_joint task=joint step=24000/50000 active=8/20
+PROGRESS tag=r0_r1_joint task=joint step=25000/50000 active=4/20
+PROGRESS tag=r0_r1_joint task=joint step=26000/50000 active=2/20

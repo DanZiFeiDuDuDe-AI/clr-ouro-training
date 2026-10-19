@@ -1,0 +1,44 @@
+  step   10/400 | gen=13.9148 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.09 | lr=1.50e-04
+  step   20/400 | gen=12.7868 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=3.00e-04
+  step   30/400 | gen=14.0370 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=2.99e-04
+  step   40/400 | gen=13.5385 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.07 | lr=2.98e-04
+  step   50/400 | gen=14.0042 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=2.95e-04
+  step   60/400 | gen=9.8071 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.06 | lr=2.92e-04
+  step   70/400 | gen=13.3442 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=2.87e-04
+  step   80/400 | gen=11.9659 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.09 | lr=2.82e-04
+  step   90/400 | gen=14.7870 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=2.76e-04
+  step  100/400 | gen=13.9095 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.08 | lr=2.68e-04
+  EVAL s100: t2p w=0.058 wo=0.072 d=-0.014 (ceiling 0.536) | t1 w=0.860 wo=0.850 | last w=0.050 wo=0.050 | all w=0.395 wo=0.399
+  step  110/400 | gen=14.5299 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.09 | lr=2.60e-04
+  step  120/400 | gen=13.1805 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.07 | lr=2.52e-04
+  step  130/400 | gen=13.6976 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=2.42e-04
+  step  140/400 | gen=12.4526 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.07 | lr=2.32e-04
+  step  150/400 | gen=12.9691 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.07 | lr=2.21e-04
+  step  160/400 | gen=13.0732 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.07 | lr=2.10e-04
+  step  170/400 | gen=13.2445 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.09 | lr=1.99e-04
+  step  180/400 | gen=10.6650 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.08 | lr=1.87e-04
+  step  190/400 | gen=12.5768 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=1.75e-04
+  step  200/400 | gen=11.2888 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.09 | lr=1.62e-04
+  EVAL s200: t2p w=0.072 wo=0.072 d=+0.000 (ceiling 0.536) | t1 w=0.900 wo=0.900 | last w=0.060 wo=0.060 | all w=0.420 wo=0.420
+  step  210/400 | gen=12.1353 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.09 | lr=1.50e-04
+  step  220/400 | gen=11.4259 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.07 | lr=1.38e-04
+  step  230/400 | gen=11.4304 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.08 | lr=1.25e-04
+  step  240/400 | gen=10.4038 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.09 | lr=1.13e-04
+  step  250/400 | gen=12.5129 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.09 | lr=1.01e-04
+  step  260/400 | gen=12.7617 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.07 | lr=8.97e-05
+  step  270/400 | gen=11.5565 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.07 | lr=7.86e-05
+  step  280/400 | gen=12.6856 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.09 | lr=6.80e-05
+  step  290/400 | gen=12.8108 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.09 | lr=5.79e-05
+  step  300/400 | gen=13.3953 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=4.84e-05
+  EVAL s300: t2p w=0.072 wo=0.072 d=+0.000 (ceiling 0.536) | t1 w=0.890 wo=0.890 | last w=0.060 wo=0.060 | all w=0.416 wo=0.416
+  step  310/400 | gen=13.9329 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.08 | lr=3.96e-05
+  step  320/400 | gen=12.7485 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=3.16e-05
+  step  330/400 | gen=14.0984 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.08 | lr=2.44e-05
+  step  340/400 | gen=12.5909 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.09 | lr=1.81e-05
+  step  350/400 | gen=12.9981 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=1.26e-05
+  step  360/400 | gen=10.5680 coh=0.000 probe=0.000 probe_acc=0/1 |S|=0.08 | lr=8.13e-06
+  step  370/400 | gen=12.6337 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.09 | lr=4.59e-06
+  step  380/400 | gen=13.0389 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.08 | lr=2.05e-06
+  step  390/400 | gen=10.6875 coh=0.000 probe=0.000 probe_acc=0/2 |S|=0.08 | lr=5.12e-07
+  step  400/400 | gen=12.7064 coh=0.000 probe=0.000 probe_acc=0/3 |S|=0.09 | lr=0.00e+00
+  EVAL s400: t2p w=0.072 wo=0.072 d=+0.000 (ceiling 0.536) | t1 w=0.890 wo=0.890 | last w=0.060 wo=0.060 | all w=0.416 wo=0.416

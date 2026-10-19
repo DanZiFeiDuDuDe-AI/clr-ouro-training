@@ -1,0 +1,12 @@
+{
+  "O3b_operational_address": "INCOMPLETE",
+  "O3c_allowed": false,
+  "address_gates": "NOT_RUN_IN_REAL_MEMORY",
+  "baseline_reproduction": "NOT_RUN",
+  "dependency_recovery": "FAIL_TO_RECOVER_REQUIRED_ORIGINAL_WEIGHTS",
+  "free_slot_regression": "NOT_RUN",
+  "full_kv_regression": "NOT_RUN",
+  "real_reconnect": "NOT_RUN",
+  "retrieval_regression": "NOT_RUN",
+  "verdict": "O3b-M3-INCOMPLETE — ORIGINAL FROZEN O3b DEPENDENCIES NOT RECOVERED"
+}

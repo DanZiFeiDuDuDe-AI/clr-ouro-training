@@ -1,0 +1,28 @@
+{
+  "python_files_parsed": 595,
+  "historical_syntax_or_encoding_issues": [
+    {
+      "path": "research/looplm/_mk_halt.py",
+      "error": "SyntaxError"
+    },
+    {
+      "path": "research/plaa/plaa_decoder.py",
+      "error": "SyntaxError"
+    },
+    {
+      "path": "research/plaa/train_multitask.py",
+      "error": "SyntaxError"
+    },
+    {
+      "path": "research/plaa/experts/react_decoder.py",
+      "error": "SyntaxError"
+    },
+    {
+      "path": "archive/github-2026-10-20/_mk_halt.py",
+      "error": "SyntaxError"
+    }
+  ],
+  "redaction_introduced_syntax_errors": [],
+  "model_code_executed": false,
+  "method": "ast.parse(bytes), honoring declared source encoding"
+}

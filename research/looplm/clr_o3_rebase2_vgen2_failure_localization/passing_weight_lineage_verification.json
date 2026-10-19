@@ -1,0 +1,95 @@
+{
+  "count": 18,
+  "verified": [
+    {
+      "original_manifest_matches": true,
+      "path": "best_val_candidate.pt",
+      "sha256": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_00000.pt",
+      "sha256": "d5b362dd2e1c7a4ed3a5e265123ff074cc049f62c2140a16e271ff2e1cbd174c"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_00100.pt",
+      "sha256": "fff2436d177c1f9080ab108324e1a2f00f603017bfaef813b13cea953b1a000f"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_00200.pt",
+      "sha256": "a41519c7090a1020b00ca13a3380a88134a370e6af824216c0c16e5330605e00"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_00500.pt",
+      "sha256": "1545240878de8be9c13d4324c0cc41b5420a9928743bc91694aecb513ee7ca6e"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_01000.pt",
+      "sha256": "2f8f255eafeae9b30fe90ffb6948aef08d28a785c8b669fd5cdcca69963a7544"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_01500.pt",
+      "sha256": "52291740b68f2bf16e3a3e8e70b6eced66ae480f6718521145daeed19954dcca"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_02000.pt",
+      "sha256": "4df85578a23d995f206b7a8f4570f7fced356294b1fef8f7974d6c9eb4c39ca2"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_02500.pt",
+      "sha256": "f7bde8bd7805416938522f8cc914cf583e5d345fef2d9b3bb9b26960358df411"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_03000.pt",
+      "sha256": "f0b4c2115a96f1ac356de89dc7e22364e700d9f658208d577c06e9fdcd62d947"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_04000.pt",
+      "sha256": "90b9fb33087f9534f9092931558821271314911413e0e872476bb1d7eafeee61"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_05000.pt",
+      "sha256": "8f1a6c7447173ac3b89957d3d74033ec836e19713c58cd7b1451756fcb3fcb38"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_06000.pt",
+      "sha256": "961b0841d010b99e04bda4a3c14672f273553d9e2e042fb89b4929f9147a3321"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_07000.pt",
+      "sha256": "8fca5f312f16009d0635740e894c9de1b30c5eb438306b994469ae6a7bd6e45b"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_08000.pt",
+      "sha256": "86c7acd2cb520fa97e5ffad1fa8f5206f9530a2da251cbdf69dfd593c3a5268c"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_09000.pt",
+      "sha256": "6b749262ae1032f9692af5b2ae90cde876dc747d79cb271b2031d20edd1e0e5d"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "snapshots/step_10000.pt",
+      "sha256": "3003231e99d47b1727cd50e858f55047d7b36b634ae8b2d7732e3a8bef6c60f7"
+    },
+    {
+      "original_manifest_matches": true,
+      "path": "vgen2_rebase_10k_best.pt",
+      "sha256": "ddb31622105ce646efb3d0ea4ef1bb2523d93a30b023d6a1b27415b0d775efbb"
+    }
+  ]
+}

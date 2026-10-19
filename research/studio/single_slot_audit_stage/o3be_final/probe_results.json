@@ -1,0 +1,148 @@
+{
+  "relation_map": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+  },
+  "entity_class_count": 600,
+  "note": "TestB entity probe is closed-world; known_fraction is reported because names are unseen.",
+  "K_e_to_entity": {
+    "params": 19800,
+    "train": {
+      "accuracy": 0.02914702100300043,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.020154373927958835,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.02358490566037736,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": null,
+      "n_known": 0,
+      "known_fraction": 0.0
+    }
+  },
+  "K_r_to_entity": {
+    "params": 19800,
+    "train": {
+      "accuracy": 0.004972138876982426,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.003001715265866209,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.0038593481989708405,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": null,
+      "n_known": 0,
+      "known_fraction": 0.0
+    }
+  },
+  "K_full_to_entity": {
+    "params": 39000,
+    "train": {
+      "accuracy": 0.0534076296613802,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.037307032590051456,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.045454545454545456,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": null,
+      "n_known": 0,
+      "known_fraction": 0.0
+    }
+  },
+  "K_e_to_relation": {
+    "params": 132,
+    "train": {
+      "accuracy": 0.595970852978997,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.5994854202401372,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.5917667238421955,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": 0.5913379073756432,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    }
+  },
+  "K_r_to_relation": {
+    "params": 132,
+    "train": {
+      "accuracy": 0.8284612087441063,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.8168953687821612,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.8267581475128645,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": 0.8190394511149228,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    }
+  },
+  "K_full_to_relation": {
+    "params": 260,
+    "train": {
+      "accuracy": 0.9295327903986284,
+      "n_known": 11665,
+      "known_fraction": 1.0
+    },
+    "val": {
+      "accuracy": 0.9172384219554031,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testA": {
+      "accuracy": 0.9275300171526587,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    },
+    "testB": {
+      "accuracy": 0.9240994854202401,
+      "n_known": 2332,
+      "known_fraction": 1.0
+    }
+  }
+}

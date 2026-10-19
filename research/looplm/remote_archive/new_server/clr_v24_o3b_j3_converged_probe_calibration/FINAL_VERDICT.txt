@@ -1,0 +1,9 @@
+J3-F — STAGE 0 ROW-IDENTITY AUDIT FAILS; CONVERGED PROBE CALIBRATION NOT RUN
+Measurement gate: FAIL (Stage 0)
+Reconnect: NO
+O3c: NO
+Architecture modified: NO
+Checkpoint modified: NO
+Data leakage detected: NO
+Optimizer calibration: NOT RUN
+J stagewise revalidation: NOT RUN

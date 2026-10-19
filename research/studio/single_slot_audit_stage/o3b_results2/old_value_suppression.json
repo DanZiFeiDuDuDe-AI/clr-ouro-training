@@ -1,0 +1,24 @@
+{
+  "testA": {
+    "old_value_probability": 0.0022443249666786284,
+    "latest_value_accuracy": 0.918
+  },
+  "testB": {
+    "old_value_probability": 0.0022196176144967713,
+    "latest_value_accuracy": 0.93
+  },
+  "multi_update": {
+    "1": {
+      "old_value_probability": 0.0013774823164567351,
+      "latest_value_accuracy": 1.0
+    },
+    "2": {
+      "old_value_probability": 3.548370955286373e-06,
+      "latest_value_accuracy": 0.5
+    },
+    "4": {
+      "old_value_probability": 1.3660002978754804e-07,
+      "latest_value_accuracy": 0.25
+    }
+  }
+}

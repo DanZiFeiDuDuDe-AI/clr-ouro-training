@@ -1,0 +1,944 @@
+{
+  "steps": 3000,
+  "best_step": 500,
+  "best_score": 0.4808248587570621,
+  "best_threshold": 3.53905234078411e-05,
+  "wall_clock_s": 41.4312351999979,
+  "params": 40067,
+  "peak_vram": {
+    "allocated_gb": 0.049004032,
+    "reserved_gb": 0.069206016
+  },
+  "logs": [
+    {
+      "step": 1,
+      "loss": 1.020438551902771,
+      "loss_action": 0.6964321136474609,
+      "loss_update_target": 0.32400640845298767,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.556648,
+          "n": 1000,
+          "threshold": 0.05
+        },
+        "update_target_accuracy_on_true_update": 0.744,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 0.05
+    },
+    {
+      "step": 100,
+      "loss": 0.9107792377471924,
+      "loss_action": 0.6440251469612122,
+      "loss_update_target": 0.2667540907859802,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.570396,
+          "n": 1000,
+          "threshold": 0.05
+        },
+        "update_target_accuracy_on_true_update": 0.742,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 0.05
+    },
+    {
+      "step": 200,
+      "loss": 0.5394600629806519,
+      "loss_action": 0.42305105924606323,
+      "loss_update_target": 0.11640898138284683,
+      "val": {
+        "binary": {
+          "accuracy": 0.502,
+          "precision_update": 0.501002004008016,
+          "recall_update": 1.0,
+          "f1_update": 0.6675567423230975,
+          "tp": 500,
+          "tn": 2,
+          "fp": 498,
+          "fn": 0,
+          "auroc": 0.566132,
+          "n": 1000,
+          "threshold": 0.017983650788664818
+        },
+        "update_target_accuracy_on_true_update": 0.746,
+        "new_pred_new_rate_on_true_new": 0.004,
+        "confusion": {
+          "true_NEW_pred_NEW": 2,
+          "true_NEW_pred_UPDATE": 498,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 0.017983650788664818
+    },
+    {
+      "step": 300,
+      "loss": 0.3921664357185364,
+      "loss_action": 0.30074918270111084,
+      "loss_update_target": 0.09141726046800613,
+      "val": {
+        "binary": {
+          "accuracy": 0.501,
+          "precision_update": 0.5005005005005005,
+          "recall_update": 1.0,
+          "f1_update": 0.66711140760507,
+          "tp": 500,
+          "tn": 1,
+          "fp": 499,
+          "fn": 0,
+          "auroc": 0.551768,
+          "n": 1000,
+          "threshold": 0.0003855095710605383
+        },
+        "update_target_accuracy_on_true_update": 0.728,
+        "new_pred_new_rate_on_true_new": 0.002,
+        "confusion": {
+          "true_NEW_pred_NEW": 1,
+          "true_NEW_pred_UPDATE": 499,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 0.0003855095710605383
+    },
+    {
+      "step": 400,
+      "loss": 0.44663047790527344,
+      "loss_action": 0.27356040477752686,
+      "loss_update_target": 0.1730700582265854,
+      "val": {
+        "binary": {
+          "accuracy": 0.501,
+          "precision_update": 0.5005005005005005,
+          "recall_update": 1.0,
+          "f1_update": 0.66711140760507,
+          "tp": 500,
+          "tn": 1,
+          "fp": 499,
+          "fn": 0,
+          "auroc": 0.543256,
+          "n": 1000,
+          "threshold": 2.4990815290948376e-05
+        },
+        "update_target_accuracy_on_true_update": 0.736,
+        "new_pred_new_rate_on_true_new": 0.002,
+        "confusion": {
+          "true_NEW_pred_NEW": 1,
+          "true_NEW_pred_UPDATE": 499,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 2.4990815290948376e-05
+    },
+    {
+      "step": 500,
+      "loss": 0.2940027713775635,
+      "loss_action": 0.21463321149349213,
+      "loss_update_target": 0.07936955243349075,
+      "val": {
+        "binary": {
+          "accuracy": 0.511,
+          "precision_update": 0.5056410256410256,
+          "recall_update": 0.986,
+          "f1_update": 0.6684745762711863,
+          "tp": 493,
+          "tn": 18,
+          "fp": 482,
+          "fn": 7,
+          "auroc": 0.540656,
+          "n": 1000,
+          "threshold": 3.53905234078411e-05
+        },
+        "update_target_accuracy_on_true_update": 0.738,
+        "new_pred_new_rate_on_true_new": 0.036,
+        "confusion": {
+          "true_NEW_pred_NEW": 18,
+          "true_NEW_pred_UPDATE": 482,
+          "true_UPDATE_pred_UPDATE": 493,
+          "true_UPDATE_pred_NEW": 7
+        }
+      },
+      "threshold": 3.53905234078411e-05
+    },
+    {
+      "step": 600,
+      "loss": 0.279083251953125,
+      "loss_action": 0.23283971846103668,
+      "loss_update_target": 0.04624352976679802,
+      "val": {
+        "binary": {
+          "accuracy": 0.509,
+          "precision_update": 0.5045965270684372,
+          "recall_update": 0.988,
+          "f1_update": 0.6680189317106153,
+          "tp": 494,
+          "tn": 15,
+          "fp": 485,
+          "fn": 6,
+          "auroc": 0.538432,
+          "n": 1000,
+          "threshold": 9.305922503699549e-06
+        },
+        "update_target_accuracy_on_true_update": 0.726,
+        "new_pred_new_rate_on_true_new": 0.03,
+        "confusion": {
+          "true_NEW_pred_NEW": 15,
+          "true_NEW_pred_UPDATE": 485,
+          "true_UPDATE_pred_UPDATE": 494,
+          "true_UPDATE_pred_NEW": 6
+        }
+      },
+      "threshold": 9.305922503699549e-06
+    },
+    {
+      "step": 700,
+      "loss": 0.2511095404624939,
+      "loss_action": 0.15314754843711853,
+      "loss_update_target": 0.09796197712421417,
+      "val": {
+        "binary": {
+          "accuracy": 0.508,
+          "precision_update": 0.5040816326530613,
+          "recall_update": 0.988,
+          "f1_update": 0.6675675675675676,
+          "tp": 494,
+          "tn": 14,
+          "fp": 486,
+          "fn": 6,
+          "auroc": 0.535132,
+          "n": 1000,
+          "threshold": 5.318682724464452e-06
+        },
+        "update_target_accuracy_on_true_update": 0.728,
+        "new_pred_new_rate_on_true_new": 0.028,
+        "confusion": {
+          "true_NEW_pred_NEW": 14,
+          "true_NEW_pred_UPDATE": 486,
+          "true_UPDATE_pred_UPDATE": 494,
+          "true_UPDATE_pred_NEW": 6
+        }
+      },
+      "threshold": 5.318682724464452e-06
+    },
+    {
+      "step": 800,
+      "loss": 0.17513570189476013,
+      "loss_action": 0.12478602677583694,
+      "loss_update_target": 0.050349682569503784,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.53474,
+          "n": 1000,
+          "threshold": 1.6781608280780347e-07
+        },
+        "update_target_accuracy_on_true_update": 0.726,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.6781608280780347e-07
+    },
+    {
+      "step": 900,
+      "loss": 0.32936638593673706,
+      "loss_action": 0.2548447549343109,
+      "loss_update_target": 0.07452163845300674,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.535984,
+          "n": 1000,
+          "threshold": 2.7121527068629803e-07
+        },
+        "update_target_accuracy_on_true_update": 0.718,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 2.7121527068629803e-07
+    },
+    {
+      "step": 1000,
+      "loss": 0.17174746096134186,
+      "loss_action": 0.12076272070407867,
+      "loss_update_target": 0.05098474398255348,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.535556,
+          "n": 1000,
+          "threshold": 2.8275016461520863e-07
+        },
+        "update_target_accuracy_on_true_update": 0.722,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 2.8275016461520863e-07
+    },
+    {
+      "step": 1100,
+      "loss": 0.23026488721370697,
+      "loss_action": 0.15637269616127014,
+      "loss_update_target": 0.07389219105243683,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.536332,
+          "n": 1000,
+          "threshold": 1.7247025141386985e-07
+        },
+        "update_target_accuracy_on_true_update": 0.72,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.7247025141386985e-07
+    },
+    {
+      "step": 1200,
+      "loss": 0.28882452845573425,
+      "loss_action": 0.20670431852340698,
+      "loss_update_target": 0.08212020993232727,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.534224,
+          "n": 1000,
+          "threshold": 1.6021310500491381e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.6021310500491381e-07
+    },
+    {
+      "step": 1300,
+      "loss": 0.19400592148303986,
+      "loss_action": 0.15881727635860443,
+      "loss_update_target": 0.035188641399145126,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.53366,
+          "n": 1000,
+          "threshold": 1.4876758314130711e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.4876758314130711e-07
+    },
+    {
+      "step": 1400,
+      "loss": 0.22193527221679688,
+      "loss_action": 0.19787491858005524,
+      "loss_update_target": 0.024060357362031937,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.534404,
+          "n": 1000,
+          "threshold": 1.499012114436482e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.499012114436482e-07
+    },
+    {
+      "step": 1500,
+      "loss": 0.2458917200565338,
+      "loss_action": 0.19581949710845947,
+      "loss_update_target": 0.050072215497493744,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.5334760000000001,
+          "n": 1000,
+          "threshold": 1.658511479263325e-07
+        },
+        "update_target_accuracy_on_true_update": 0.722,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.658511479263325e-07
+    },
+    {
+      "step": 1600,
+      "loss": 0.1642017662525177,
+      "loss_action": 0.12261620163917542,
+      "loss_update_target": 0.041585568338632584,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.534224,
+          "n": 1000,
+          "threshold": 1.9168230380728346e-07
+        },
+        "update_target_accuracy_on_true_update": 0.72,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.9168230380728346e-07
+    },
+    {
+      "step": 1700,
+      "loss": 0.22130388021469116,
+      "loss_action": 0.1469307392835617,
+      "loss_update_target": 0.07437314838171005,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.53646,
+          "n": 1000,
+          "threshold": 1.709424566342932e-07
+        },
+        "update_target_accuracy_on_true_update": 0.718,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.709424566342932e-07
+    },
+    {
+      "step": 1800,
+      "loss": 0.22086432576179504,
+      "loss_action": 0.19883689284324646,
+      "loss_update_target": 0.02202744036912918,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.535752,
+          "n": 1000,
+          "threshold": 1.5514162043928081e-07
+        },
+        "update_target_accuracy_on_true_update": 0.72,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.5514162043928081e-07
+    },
+    {
+      "step": 1900,
+      "loss": 0.20580503344535828,
+      "loss_action": 0.1251157522201538,
+      "loss_update_target": 0.08068927377462387,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.537732,
+          "n": 1000,
+          "threshold": 2.364749320804549e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 2.364749320804549e-07
+    },
+    {
+      "step": 2000,
+      "loss": 0.23787668347358704,
+      "loss_action": 0.20377320051193237,
+      "loss_update_target": 0.03410348668694496,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.53742,
+          "n": 1000,
+          "threshold": 1.7545697517107328e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.7545697517107328e-07
+    },
+    {
+      "step": 2100,
+      "loss": 0.14543750882148743,
+      "loss_action": 0.13540434837341309,
+      "loss_update_target": 0.010033153928816319,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.537048,
+          "n": 1000,
+          "threshold": 1.311396431447065e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.311396431447065e-07
+    },
+    {
+      "step": 2200,
+      "loss": 0.2833296060562134,
+      "loss_action": 0.23754718899726868,
+      "loss_update_target": 0.04578240588307381,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.5378320000000001,
+          "n": 1000,
+          "threshold": 1.1343487216208814e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.1343487216208814e-07
+    },
+    {
+      "step": 2300,
+      "loss": 0.2657579183578491,
+      "loss_action": 0.22628289461135864,
+      "loss_update_target": 0.03947501629590988,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.537308,
+          "n": 1000,
+          "threshold": 1.7057101331374724e-07
+        },
+        "update_target_accuracy_on_true_update": 0.72,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.7057101331374724e-07
+    },
+    {
+      "step": 2400,
+      "loss": 0.15789999067783356,
+      "loss_action": 0.13454023003578186,
+      "loss_update_target": 0.0233597569167614,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.5396319999999999,
+          "n": 1000,
+          "threshold": 1.5028554400942085e-07
+        },
+        "update_target_accuracy_on_true_update": 0.722,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.5028554400942085e-07
+    },
+    {
+      "step": 2500,
+      "loss": 0.2548447549343109,
+      "loss_action": 0.18918848037719727,
+      "loss_update_target": 0.06565626710653305,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.53798,
+          "n": 1000,
+          "threshold": 7.705854443429416e-08
+        },
+        "update_target_accuracy_on_true_update": 0.72,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 7.705854443429416e-08
+    },
+    {
+      "step": 2600,
+      "loss": 0.25368213653564453,
+      "loss_action": 0.16221874952316284,
+      "loss_update_target": 0.0914633721113205,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.539088,
+          "n": 1000,
+          "threshold": 1.196567325223441e-07
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.196567325223441e-07
+    },
+    {
+      "step": 2700,
+      "loss": 0.22650377452373505,
+      "loss_action": 0.16845454275608063,
+      "loss_update_target": 0.05804923176765442,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.540496,
+          "n": 1000,
+          "threshold": 1.2638221846827946e-07
+        },
+        "update_target_accuracy_on_true_update": 0.718,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.2638221846827946e-07
+    },
+    {
+      "step": 2800,
+      "loss": 0.26027432084083557,
+      "loss_action": 0.14057151973247528,
+      "loss_update_target": 0.1197027936577797,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.541576,
+          "n": 1000,
+          "threshold": 7.234011434320564e-08
+        },
+        "update_target_accuracy_on_true_update": 0.718,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 7.234011434320564e-08
+    },
+    {
+      "step": 2900,
+      "loss": 0.19165095686912537,
+      "loss_action": 0.15870381891727448,
+      "loss_update_target": 0.032947130501270294,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.5403640000000001,
+          "n": 1000,
+          "threshold": 1.40634611511814e-07
+        },
+        "update_target_accuracy_on_true_update": 0.718,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 1.40634611511814e-07
+    },
+    {
+      "step": 3000,
+      "loss": 0.19829116761684418,
+      "loss_action": 0.14842009544372559,
+      "loss_update_target": 0.04987107589840889,
+      "val": {
+        "binary": {
+          "accuracy": 0.5,
+          "precision_update": 0.5,
+          "recall_update": 1.0,
+          "f1_update": 0.6666666666666666,
+          "tp": 500,
+          "tn": 0,
+          "fp": 500,
+          "fn": 0,
+          "auroc": 0.539064,
+          "n": 1000,
+          "threshold": 4.533132980100163e-08
+        },
+        "update_target_accuracy_on_true_update": 0.724,
+        "new_pred_new_rate_on_true_new": 0.0,
+        "confusion": {
+          "true_NEW_pred_NEW": 0,
+          "true_NEW_pred_UPDATE": 500,
+          "true_UPDATE_pred_UPDATE": 500,
+          "true_UPDATE_pred_NEW": 0
+        }
+      },
+      "threshold": 4.533132980100163e-08
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "primary": "J2-F MEASUREMENT PIPELINE STILL NOT RELIABLE",
+  "secondary": "PROBE OPTIMIZATION NOT SATURATED; R1/R2 independently fitted probe scores are optimizer-sensitive",
+  "stage1_gate": {
+    "status": "FAIL-MEASUREMENT",
+    "reason": "Training curves continue to improve materially between 500 and 1000 steps; independent probes remain representation/learning-rate sensitive despite algebraically equivalent R1/R2 and exact transferred-logit parity. Probe optimization is not saturated/reliable for J cliff attribution.",
+    "j_revalidation_started": false,
+    "branch": "B_measurement_pipeline_diagnosis",
+    "reconnect": false,
+    "o3c": false
+  },
+  "j2_run": false,
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "unresolved; not touched",
+  "checkpoint_modified": false,
+  "data_leakage_detected": false,
+  "token_sample_id_limitation": true
+}

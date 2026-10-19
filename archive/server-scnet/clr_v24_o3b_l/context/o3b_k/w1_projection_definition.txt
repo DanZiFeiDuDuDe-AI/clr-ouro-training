@@ -1,0 +1,9 @@
+W1 SVD / subspace protocol
+
+W1 shape = (256, 2048); PyTorch forward is Y = H @ W1.T + b1.
+rank(W1) = 256; row-space dimension = 256; nullspace dimension = 1792.
+Retained row-space projector: P_R = V_R.T @ V_R, where V_R = Vh[:rank].
+Nullspace projector: P_N = I - P_R; H_R = H @ P_R; H_N = H - H_R.
+Whitened row-space coordinates: H @ V_R.T (no singular-value weighting).
+Real first-layer output: H @ W1.T + b1.
+All KeyEncoder weights, Ouro/backbone, memory path, matcher, and production architecture remained frozen.

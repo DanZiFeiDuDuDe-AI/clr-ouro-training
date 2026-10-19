@@ -1,0 +1,12 @@
+{
+  "K-K_protocol": "exact O3b-G pair_refs; val threshold only",
+  "pair_seeds": {
+    "train": 43,
+    "val": 44,
+    "testA": 45,
+    "testB": 46
+  },
+  "testB_entity_probe": "N/A closed-world; use same-entity equality",
+  "mention_source": "O3b-H token_layer_features.npz; no Ouro rerun in O3b-I",
+  "no_reconnect": true
+}

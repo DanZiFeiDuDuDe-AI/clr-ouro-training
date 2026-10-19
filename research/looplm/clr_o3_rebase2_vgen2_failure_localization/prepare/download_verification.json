@@ -1,0 +1,64 @@
+{
+  "host": "ssh.zzai.scnet.cn",
+  "port": 11810,
+  "remote": "/root/private_data/clr_o3_rebase2_vgen2_failure_localization/prepare",
+  "verified_files": [
+    {
+      "path": "10k_val.npz",
+      "bytes": 26985107,
+      "sha256": "66cc0ab3d43cb4acf93a168e62cb3f4ff8c1ad6bef0ff2d26b25c3b1feff1312"
+    },
+    {
+      "path": "3k_val.npz",
+      "bytes": 27013372,
+      "sha256": "44edf679eaead2148453d7fe20b9a12c86a20753774e81a0e15daa0867a79cce"
+    },
+    {
+      "path": "COMPLETE.json",
+      "bytes": 52,
+      "sha256": "53751ce60cfa77e13b0abf2a8cafafcdcbda4220722c4c76f492b42263b77a7c"
+    },
+    {
+      "path": "carrier_construction.json",
+      "bytes": 496,
+      "sha256": "2fcb2b3e46cdc15d4a48a79dc65c18daa2ff6427944ffe413238c7b221cc1160"
+    },
+    {
+      "path": "environment_manifest.json",
+      "bytes": 2074,
+      "sha256": "8ab1347e3958a688489c368eae5359ddf39b5d8f78552512df6750a0a1bf997c"
+    },
+    {
+      "path": "extraction_policy_frozen.json",
+      "bytes": 5384,
+      "sha256": "b53182cce202549cf3f65f2de27e58a8c7dc43ada7965749832337eb60ed3e67"
+    },
+    {
+      "path": "input_audit.json",
+      "bytes": 16235,
+      "sha256": "61bba9486bcda16e8c3d1f422368587eca985d6eeca13fa02403c102ddc1502d"
+    },
+    {
+      "path": "joint_label_map.json",
+      "bytes": 396263,
+      "sha256": "d1adc265f2a47bae7d5f6d73340e4d1417fa6c004de27fbb3ca6e07d85c600f5"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1724,
+      "sha256": "93af7a12a65cb1d0b20680139a79a1b945a03f61ab8895535d5c536a636dd688"
+    },
+    {
+      "path": "paired_replay.csv",
+      "bytes": 186989,
+      "sha256": "f110a7d21c71792298c95605460ade7480600575ffa6c07d608c4b0fb3ecdb5a"
+    },
+    {
+      "path": "paired_replay.json",
+      "bytes": 81811,
+      "sha256": "72f3abbb624bab48f25561b44818c611caa921ed9a37e556e5111891220bb239"
+    }
+  ],
+  "verified_at_unix": 1790962139.9727933,
+  "weights": 0
+}

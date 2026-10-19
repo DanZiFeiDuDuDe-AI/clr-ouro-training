@@ -1,0 +1,172 @@
+DEVICE cuda name=BW torch=2.9.0
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/code/j3e_runner.py", line 724, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/code/j3e_runner.py", line 717, in main
+    return main_convergence()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/code/j3e_runner.py", line 417, in main_convergence
+    summaries, curves, _ = train_config(cfg, 100000, 200, SEEDS, 1024, f"phase_b_{i}")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/code/j3e_runner.py", line 329, in train_config
+    train_metrics = evaluate(xtr, ytr, W.detach(), B.detach())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3e_joint_convergence_diag/code/j3e_runner.py", line 138, in evaluate
+    logits = torch.bmm(xb, W.transpose(1, 2)) + b[:, None, :]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected size for first two dimensions of batch2 tensor to be: [2, 256] but got: [10, 256].
+DEVICE cuda name=BW torch=2.9.0
+PROGRESS phase_b_1 step=2000/100000 plateau=0/10 elapsed=12.0s
+PROGRESS phase_b_1 step=4000/100000 plateau=0/10 elapsed=20.1s
+PROGRESS phase_b_1 step=6000/100000 plateau=0/10 elapsed=28.2s
+PROGRESS phase_b_1 step=8000/100000 plateau=0/10 elapsed=36.3s
+PROGRESS phase_b_1 step=10000/100000 plateau=0/10 elapsed=44.4s
+PROGRESS phase_b_1 step=12000/100000 plateau=0/10 elapsed=52.6s
+PROGRESS phase_b_1 step=14000/100000 plateau=0/10 elapsed=60.7s
+PROGRESS phase_b_1 step=16000/100000 plateau=0/10 elapsed=68.9s
+PROGRESS phase_b_1 step=18000/100000 plateau=0/10 elapsed=77.1s
+PROGRESS phase_b_1 step=20000/100000 plateau=0/10 elapsed=85.2s
+PROGRESS phase_b_1 step=22000/100000 plateau=0/10 elapsed=93.3s
+PROGRESS phase_b_1 step=24000/100000 plateau=0/10 elapsed=101.5s
+PROGRESS phase_b_1 step=26000/100000 plateau=0/10 elapsed=109.8s
+PROGRESS phase_b_1 step=28000/100000 plateau=0/10 elapsed=117.9s
+PROGRESS phase_b_1 step=30000/100000 plateau=0/10 elapsed=126.1s
+PROGRESS phase_b_1 step=32000/100000 plateau=0/10 elapsed=134.2s
+PROGRESS phase_b_1 step=34000/100000 plateau=0/10 elapsed=142.4s
+PROGRESS phase_b_1 step=36000/100000 plateau=0/10 elapsed=150.6s
+PROGRESS phase_b_1 step=38000/100000 plateau=0/10 elapsed=158.8s
+PROGRESS phase_b_1 step=40000/100000 plateau=0/10 elapsed=166.9s
+PROGRESS phase_b_1 step=42000/100000 plateau=0/10 elapsed=175.1s
+PROGRESS phase_b_1 step=44000/100000 plateau=0/10 elapsed=183.3s
+PROGRESS phase_b_1 step=46000/100000 plateau=0/10 elapsed=191.4s
+PROGRESS phase_b_1 step=48000/100000 plateau=0/10 elapsed=199.5s
+PROGRESS phase_b_1 step=50000/100000 plateau=0/10 elapsed=207.7s
+PROGRESS phase_b_1 step=52000/100000 plateau=0/10 elapsed=215.9s
+PROGRESS phase_b_1 step=54000/100000 plateau=0/10 elapsed=224.1s
+PROGRESS phase_b_1 step=56000/100000 plateau=0/10 elapsed=232.2s
+PROGRESS phase_b_1 step=58000/100000 plateau=0/10 elapsed=240.4s
+PROGRESS phase_b_1 step=60000/100000 plateau=0/10 elapsed=248.6s
+PROGRESS phase_b_1 step=62000/100000 plateau=0/10 elapsed=256.7s
+PROGRESS phase_b_1 step=64000/100000 plateau=0/10 elapsed=265.0s
+PROGRESS phase_b_1 step=66000/100000 plateau=0/10 elapsed=273.1s
+PROGRESS phase_b_1 step=68000/100000 plateau=0/10 elapsed=281.3s
+PROGRESS phase_b_1 step=70000/100000 plateau=0/10 elapsed=289.4s
+PROGRESS phase_b_1 step=72000/100000 plateau=0/10 elapsed=297.6s
+PROGRESS phase_b_1 step=74000/100000 plateau=0/10 elapsed=305.7s
+PROGRESS phase_b_1 step=76000/100000 plateau=0/10 elapsed=313.9s
+PROGRESS phase_b_1 step=78000/100000 plateau=0/10 elapsed=322.0s
+PROGRESS phase_b_1 step=80000/100000 plateau=0/10 elapsed=330.2s
+PROGRESS phase_b_1 step=82000/100000 plateau=0/10 elapsed=338.3s
+PROGRESS phase_b_1 step=84000/100000 plateau=0/10 elapsed=346.5s
+PROGRESS phase_b_1 step=86000/100000 plateau=0/10 elapsed=354.6s
+PROGRESS phase_b_1 step=88000/100000 plateau=0/10 elapsed=362.8s
+PROGRESS phase_b_1 step=90000/100000 plateau=0/10 elapsed=370.9s
+PROGRESS phase_b_1 step=92000/100000 plateau=0/10 elapsed=379.1s
+PROGRESS phase_b_1 step=94000/100000 plateau=0/10 elapsed=387.2s
+PROGRESS phase_b_1 step=96000/100000 plateau=0/10 elapsed=395.4s
+PROGRESS phase_b_1 step=98000/100000 plateau=0/10 elapsed=403.5s
+PROGRESS phase_b_1 step=100000/100000 plateau=0/10 elapsed=411.7s
+PHASE_B_DONE 1/3 plateau=0/10
+PROGRESS phase_b_2 step=2000/100000 plateau=0/10 elapsed=7.4s
+PROGRESS phase_b_2 step=4000/100000 plateau=0/10 elapsed=14.7s
+PROGRESS phase_b_2 step=6000/100000 plateau=0/10 elapsed=22.0s
+PROGRESS phase_b_2 step=8000/100000 plateau=0/10 elapsed=29.2s
+PROGRESS phase_b_2 step=10000/100000 plateau=0/10 elapsed=36.5s
+PROGRESS phase_b_2 step=12000/100000 plateau=0/10 elapsed=43.7s
+PROGRESS phase_b_2 step=14000/100000 plateau=0/10 elapsed=51.0s
+PROGRESS phase_b_2 step=16000/100000 plateau=0/10 elapsed=58.2s
+PROGRESS phase_b_2 step=18000/100000 plateau=0/10 elapsed=65.5s
+PROGRESS phase_b_2 step=20000/100000 plateau=0/10 elapsed=72.7s
+PROGRESS phase_b_2 step=22000/100000 plateau=0/10 elapsed=79.9s
+PROGRESS phase_b_2 step=24000/100000 plateau=0/10 elapsed=87.2s
+PROGRESS phase_b_2 step=26000/100000 plateau=0/10 elapsed=94.4s
+PROGRESS phase_b_2 step=28000/100000 plateau=0/10 elapsed=101.7s
+PROGRESS phase_b_2 step=30000/100000 plateau=0/10 elapsed=108.9s
+PROGRESS phase_b_2 step=32000/100000 plateau=0/10 elapsed=116.1s
+PROGRESS phase_b_2 step=34000/100000 plateau=0/10 elapsed=123.3s
+PROGRESS phase_b_2 step=36000/100000 plateau=0/10 elapsed=130.6s
+PROGRESS phase_b_2 step=38000/100000 plateau=0/10 elapsed=137.7s
+PROGRESS phase_b_2 step=40000/100000 plateau=0/10 elapsed=144.9s
+PROGRESS phase_b_2 step=42000/100000 plateau=0/10 elapsed=152.1s
+PROGRESS phase_b_2 step=44000/100000 plateau=0/10 elapsed=159.3s
+PROGRESS phase_b_2 step=46000/100000 plateau=0/10 elapsed=166.5s
+PROGRESS phase_b_2 step=48000/100000 plateau=0/10 elapsed=173.8s
+PROGRESS phase_b_2 step=50000/100000 plateau=0/10 elapsed=181.0s
+PROGRESS phase_b_2 step=52000/100000 plateau=0/10 elapsed=188.2s
+PROGRESS phase_b_2 step=54000/100000 plateau=0/10 elapsed=195.5s
+PROGRESS phase_b_2 step=56000/100000 plateau=0/10 elapsed=202.7s
+PROGRESS phase_b_2 step=58000/100000 plateau=0/10 elapsed=209.9s
+PROGRESS phase_b_2 step=60000/100000 plateau=0/10 elapsed=217.0s
+PROGRESS phase_b_2 step=62000/100000 plateau=0/10 elapsed=224.3s
+PROGRESS phase_b_2 step=64000/100000 plateau=0/10 elapsed=231.5s
+PROGRESS phase_b_2 step=66000/100000 plateau=0/10 elapsed=238.7s
+PROGRESS phase_b_2 step=68000/100000 plateau=0/10 elapsed=245.9s
+PROGRESS phase_b_2 step=70000/100000 plateau=0/10 elapsed=253.1s
+PROGRESS phase_b_2 step=72000/100000 plateau=0/10 elapsed=260.3s
+PROGRESS phase_b_2 step=74000/100000 plateau=0/10 elapsed=267.5s
+PROGRESS phase_b_2 step=76000/100000 plateau=0/10 elapsed=274.7s
+PROGRESS phase_b_2 step=78000/100000 plateau=0/10 elapsed=281.9s
+PROGRESS phase_b_2 step=80000/100000 plateau=0/10 elapsed=289.1s
+PROGRESS phase_b_2 step=82000/100000 plateau=0/10 elapsed=296.4s
+PROGRESS phase_b_2 step=84000/100000 plateau=0/10 elapsed=303.6s
+PROGRESS phase_b_2 step=86000/100000 plateau=0/10 elapsed=310.8s
+PROGRESS phase_b_2 step=88000/100000 plateau=0/10 elapsed=318.0s
+PROGRESS phase_b_2 step=90000/100000 plateau=0/10 elapsed=325.2s
+PROGRESS phase_b_2 step=92000/100000 plateau=0/10 elapsed=332.4s
+PROGRESS phase_b_2 step=94000/100000 plateau=0/10 elapsed=339.6s
+PROGRESS phase_b_2 step=96000/100000 plateau=0/10 elapsed=346.9s
+PROGRESS phase_b_2 step=98000/100000 plateau=0/10 elapsed=354.0s
+PROGRESS phase_b_2 step=100000/100000 plateau=0/10 elapsed=361.2s
+PHASE_B_DONE 2/3 plateau=0/10
+PROGRESS phase_b_3 step=2000/100000 plateau=0/10 elapsed=8.5s
+PROGRESS phase_b_3 step=4000/100000 plateau=0/10 elapsed=16.8s
+PROGRESS phase_b_3 step=6000/100000 plateau=0/10 elapsed=25.1s
+PROGRESS phase_b_3 step=8000/100000 plateau=0/10 elapsed=33.3s
+PROGRESS phase_b_3 step=10000/100000 plateau=0/10 elapsed=41.6s
+PROGRESS phase_b_3 step=12000/100000 plateau=0/10 elapsed=49.9s
+PROGRESS phase_b_3 step=14000/100000 plateau=0/10 elapsed=58.2s
+PROGRESS phase_b_3 step=16000/100000 plateau=0/10 elapsed=66.6s
+PROGRESS phase_b_3 step=18000/100000 plateau=0/10 elapsed=74.9s
+PROGRESS phase_b_3 step=20000/100000 plateau=0/10 elapsed=83.2s
+PROGRESS phase_b_3 step=22000/100000 plateau=0/10 elapsed=91.5s
+PROGRESS phase_b_3 step=24000/100000 plateau=0/10 elapsed=99.8s
+PROGRESS phase_b_3 step=26000/100000 plateau=0/10 elapsed=108.1s
+PROGRESS phase_b_3 step=28000/100000 plateau=0/10 elapsed=116.4s
+PROGRESS phase_b_3 step=30000/100000 plateau=0/10 elapsed=124.7s
+PROGRESS phase_b_3 step=32000/100000 plateau=0/10 elapsed=132.9s
+PROGRESS phase_b_3 step=34000/100000 plateau=0/10 elapsed=141.3s
+PROGRESS phase_b_3 step=36000/100000 plateau=0/10 elapsed=149.6s
+PROGRESS phase_b_3 step=38000/100000 plateau=0/10 elapsed=157.9s
+PROGRESS phase_b_3 step=40000/100000 plateau=0/10 elapsed=166.2s
+PROGRESS phase_b_3 step=42000/100000 plateau=0/10 elapsed=174.5s
+PROGRESS phase_b_3 step=44000/100000 plateau=0/10 elapsed=182.7s
+PROGRESS phase_b_3 step=46000/100000 plateau=0/10 elapsed=191.1s
+PROGRESS phase_b_3 step=48000/100000 plateau=0/10 elapsed=199.4s
+PROGRESS phase_b_3 step=50000/100000 plateau=0/10 elapsed=207.7s
+PROGRESS phase_b_3 step=52000/100000 plateau=0/10 elapsed=216.0s
+PROGRESS phase_b_3 step=54000/100000 plateau=0/10 elapsed=224.4s
+PROGRESS phase_b_3 step=56000/100000 plateau=0/10 elapsed=232.7s
+PROGRESS phase_b_3 step=58000/100000 plateau=0/10 elapsed=241.0s
+PROGRESS phase_b_3 step=60000/100000 plateau=0/10 elapsed=249.3s
+PROGRESS phase_b_3 step=62000/100000 plateau=0/10 elapsed=257.6s
+PROGRESS phase_b_3 step=64000/100000 plateau=0/10 elapsed=265.9s
+PROGRESS phase_b_3 step=66000/100000 plateau=0/10 elapsed=274.2s
+PROGRESS phase_b_3 step=68000/100000 plateau=0/10 elapsed=282.5s
+PROGRESS phase_b_3 step=70000/100000 plateau=0/10 elapsed=290.8s
+PROGRESS phase_b_3 step=72000/100000 plateau=0/10 elapsed=299.2s
+PROGRESS phase_b_3 step=74000/100000 plateau=0/10 elapsed=307.5s
+PROGRESS phase_b_3 step=76000/100000 plateau=0/10 elapsed=315.9s
+PROGRESS phase_b_3 step=78000/100000 plateau=0/10 elapsed=324.2s
+PROGRESS phase_b_3 step=80000/100000 plateau=0/10 elapsed=332.5s
+PROGRESS phase_b_3 step=82000/100000 plateau=0/10 elapsed=340.8s
+PROGRESS phase_b_3 step=84000/100000 plateau=0/10 elapsed=349.1s
+PROGRESS phase_b_3 step=86000/100000 plateau=0/10 elapsed=357.4s
+PROGRESS phase_b_3 step=88000/100000 plateau=0/10 elapsed=365.7s
+PROGRESS phase_b_3 step=90000/100000 plateau=0/10 elapsed=374.0s
+PROGRESS phase_b_3 step=92000/100000 plateau=0/10 elapsed=382.3s
+PROGRESS phase_b_3 step=94000/100000 plateau=0/10 elapsed=390.6s
+PROGRESS phase_b_3 step=96000/100000 plateau=0/10 elapsed=398.9s
+PROGRESS phase_b_3 step=98000/100000 plateau=0/10 elapsed=407.2s
+PROGRESS phase_b_3 step=100000/100000 plateau=0/10 elapsed=415.6s
+PHASE_B_DONE 3/3 plateau=0/10

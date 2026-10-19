@@ -1,0 +1,15 @@
+{
+  "available": true,
+  "layer_metadata": {
+    "layer_count": 24,
+    "wanted_layers": [
+      0,
+      6,
+      12,
+      18,
+      23
+    ],
+    "max_tokens": 1024
+  },
+  "source": "bounded frozen-Ouro extraction; original cache had no layer tensors"
+}

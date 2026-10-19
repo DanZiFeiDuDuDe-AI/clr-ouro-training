@@ -1,0 +1,59 @@
+{
+  "best_step": 1100,
+  "best_val_macro": 1.0,
+  "experiment": "CLR-O3-REBASE-1/O21A",
+  "gate_pass": true,
+  "protocol_frozen": true,
+  "test_evaluation": "COMPLETED_FROZEN_EVALUATION",
+  "test_gate_pass": true,
+  "test_metrics": {
+    "testA": {
+      "1": {
+        "count": 334,
+        "retrieval": 1.0
+      },
+      "2": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "4": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "macro_retrieval": 1.0,
+      "same_entity": {
+        "count": 65,
+        "retrieval": 1.0
+      },
+      "same_relation": {
+        "count": 63,
+        "retrieval": 1.0
+      }
+    },
+    "testB": {
+      "1": {
+        "count": 334,
+        "retrieval": 1.0
+      },
+      "2": {
+        "count": 333,
+        "retrieval": 0.996996996996997
+      },
+      "4": {
+        "count": 333,
+        "retrieval": 1.0
+      },
+      "macro_retrieval": 0.998998998998999,
+      "same_entity": {
+        "count": 70,
+        "retrieval": 1.0
+      },
+      "same_relation": {
+        "count": 63,
+        "retrieval": 1.0
+      }
+    }
+  },
+  "val_N4_retrieval": 1.0,
+  "val_gate_pass": true
+}

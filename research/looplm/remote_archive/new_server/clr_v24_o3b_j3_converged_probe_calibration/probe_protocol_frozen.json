@@ -1,0 +1,4 @@
+{
+  "status": "NOT_FROZEN",
+  "reason": "Stage 0 critical row-identity audit failed; no probe training or optimizer selection was started."
+}

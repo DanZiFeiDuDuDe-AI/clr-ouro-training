@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "D:\training\_diag_scale.py", line 10, in <module>
-    sdp = ck1["plaa_core"]["scale_proj.weight"] if "plaa_core" in ck1 else \
-          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
-KeyError: 'scale_proj.weight'

@@ -1,0 +1,15 @@
+{
+  "eos_token_id": 0,
+  "files_sha256": {
+    "merges.txt": "5f835c5e4f81e3beee0ea9c3a548ad76ba483c2353caccf5da508ed814f45e3a",
+    "special_tokens_map.json": "d5b5a96adff8cbb0ab6d84bff374e028389dccd7e7a290f9416934bacc8bf10a",
+    "tokenizer.json": "b311bfdc7381a38b252f361e358af465c0dcca6afacf6c95fc33c212e40604e4",
+    "tokenizer_config.json": "a6598e7c4f390dcf8bd69c62bfe4dbf240bc9b38d7748be5172c314b923ed969",
+    "vocab.json": "7b9de3f47796abf8d00ab96be299fea0dc9afdf1827f34e7e0b9fb44593efe5c"
+  },
+  "is_fast": true,
+  "pad_token_id": 0,
+  "padding_side": "right",
+  "tokenizer_class": "GPT2TokenizerFast",
+  "vocab_size": 49152
+}

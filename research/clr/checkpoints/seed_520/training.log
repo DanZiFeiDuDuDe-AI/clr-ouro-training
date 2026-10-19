@@ -1,0 +1,44 @@
+  step   10/400 | gen=13.3195 coh=3.158 probe=2.326 probe_acc=0/1 |S|=3.18 | lr=1.50e-04
+  step   20/400 | gen=12.3675 coh=3.152 probe=3.200 probe_acc=0/2 |S|=5.38 | lr=3.00e-04
+  step   30/400 | gen=10.1984 coh=2.710 probe=2.503 probe_acc=0/3 |S|=7.03 | lr=2.99e-04
+  step   40/400 | gen=2.4109 coh=7.489 probe=2.777 probe_acc=0/1 |S|=7.54 | lr=2.98e-04
+  step   50/400 | gen=0.7323 coh=7.667 probe=2.783 probe_acc=0/1 |S|=7.73 | lr=2.95e-04
+  step   60/400 | gen=0.6592 coh=7.690 probe=2.585 probe_acc=0/1 |S|=7.79 | lr=2.92e-04
+  step   70/400 | gen=1.5756 coh=3.904 probe=2.300 probe_acc=0/2 |S|=7.79 | lr=2.87e-04
+  step   80/400 | gen=0.5013 coh=3.859 probe=2.347 probe_acc=0/2 |S|=7.80 | lr=2.82e-04
+  step   90/400 | gen=1.2645 coh=3.835 probe=2.149 probe_acc=0/2 |S|=7.80 | lr=2.76e-04
+  step  100/400 | gen=0.4455 coh=7.599 probe=2.160 probe_acc=0/1 |S|=7.80 | lr=2.68e-04
+  EVAL s100: t2p w=0.173 wo=0.094 d=+0.079 (ceiling 0.554) | t1 w=1.000 wo=0.750 | last w=0.150 wo=0.090 | all w=0.519 wo=0.368
+  step  110/400 | gen=2.2553 coh=3.818 probe=3.105 probe_acc=0/2 |S|=7.80 | lr=2.60e-04
+  step  120/400 | gen=1.8602 coh=3.802 probe=2.466 probe_acc=1/2 |S|=7.80 | lr=2.52e-04
+  step  130/400 | gen=0.2135 coh=7.571 probe=2.101 probe_acc=1/1 |S|=7.79 | lr=2.42e-04
+  step  140/400 | gen=0.5882 coh=3.788 probe=2.914 probe_acc=0/2 |S|=7.80 | lr=2.32e-04
+  step  150/400 | gen=1.3914 coh=2.523 probe=3.115 probe_acc=0/3 |S|=7.80 | lr=2.21e-04
+  step  160/400 | gen=0.4819 coh=3.763 probe=2.656 probe_acc=0/2 |S|=7.80 | lr=2.10e-04
+  step  170/400 | gen=0.2162 coh=7.481 probe=2.161 probe_acc=0/1 |S|=7.80 | lr=1.99e-04
+  step  180/400 | gen=0.8653 coh=2.497 probe=3.081 probe_acc=0/3 |S|=7.80 | lr=1.87e-04
+  step  190/400 | gen=1.6434 coh=2.494 probe=2.165 probe_acc=0/3 |S|=7.80 | lr=1.75e-04
+  step  200/400 | gen=0.1036 coh=7.442 probe=2.129 probe_acc=0/1 |S|=7.80 | lr=1.62e-04
+  EVAL s200: t2p w=0.439 wo=0.094 d=+0.345 (ceiling 0.554) | t1 w=1.000 wo=0.750 | last w=0.460 wo=0.090 | all w=0.674 wo=0.368
+  step  210/400 | gen=0.8676 coh=3.712 probe=2.375 probe_acc=0/2 |S|=7.80 | lr=1.50e-04
+  step  220/400 | gen=0.2717 coh=7.384 probe=2.152 probe_acc=0/1 |S|=7.80 | lr=1.38e-04
+  step  230/400 | gen=0.8239 coh=3.702 probe=2.095 probe_acc=2/2 |S|=7.80 | lr=1.25e-04
+  step  240/400 | gen=1.5797 coh=3.696 probe=2.758 probe_acc=0/2 |S|=7.80 | lr=1.13e-04
+  step  250/400 | gen=0.3213 coh=3.685 probe=2.472 probe_acc=0/2 |S|=7.80 | lr=1.01e-04
+  step  260/400 | gen=0.7530 coh=3.692 probe=2.872 probe_acc=0/2 |S|=7.80 | lr=8.97e-05
+  step  270/400 | gen=0.2860 coh=3.696 probe=2.988 probe_acc=0/2 |S|=7.80 | lr=7.86e-05
+  step  280/400 | gen=0.8249 coh=2.464 probe=2.456 probe_acc=0/3 |S|=7.80 | lr=6.80e-05
+  step  290/400 | gen=1.2667 coh=2.464 probe=2.344 probe_acc=1/3 |S|=7.80 | lr=5.79e-05
+  step  300/400 | gen=1.4472 coh=3.695 probe=3.036 probe_acc=0/2 |S|=7.80 | lr=4.84e-05
+  EVAL s300: t2p w=0.453 wo=0.086 d=+0.367 (ceiling 0.554) | t1 w=1.000 wo=0.760 | last w=0.480 wo=0.080 | all w=0.682 wo=0.368
+  step  310/400 | gen=0.6311 coh=3.695 probe=2.856 probe_acc=0/2 |S|=7.80 | lr=3.96e-05
+  step  320/400 | gen=0.2308 coh=3.689 probe=2.357 probe_acc=0/2 |S|=7.80 | lr=3.16e-05
+  step  330/400 | gen=1.9493 coh=3.695 probe=2.828 probe_acc=0/2 |S|=7.80 | lr=2.44e-05
+  step  340/400 | gen=0.0690 coh=7.374 probe=2.393 probe_acc=0/1 |S|=7.80 | lr=1.81e-05
+  step  350/400 | gen=1.4329 coh=2.470 probe=2.573 probe_acc=0/3 |S|=7.80 | lr=1.26e-05
+  step  360/400 | gen=0.3061 coh=3.695 probe=2.436 probe_acc=1/2 |S|=7.80 | lr=8.13e-06
+  step  370/400 | gen=0.9739 coh=2.468 probe=2.871 probe_acc=0/3 |S|=7.80 | lr=4.59e-06
+  step  380/400 | gen=0.0883 coh=7.385 probe=2.097 probe_acc=1/1 |S|=7.80 | lr=2.05e-06
+  step  390/400 | gen=2.5067 coh=2.470 probe=2.552 probe_acc=1/3 |S|=7.80 | lr=5.12e-07
+  step  400/400 | gen=0.1369 coh=7.365 probe=2.092 probe_acc=1/1 |S|=7.80 | lr=0.00e+00
+  EVAL s400: t2p w=0.475 wo=0.086 d=+0.388 (ceiling 0.554) | t1 w=1.000 wo=0.760 | last w=0.500 wo=0.080 | all w=0.695 wo=0.368

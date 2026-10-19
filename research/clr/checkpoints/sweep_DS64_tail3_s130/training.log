@@ -1,0 +1,6 @@
+  step    1/4 | gen=11.3958 coh=3.046 probe=2.670 probe_acc=0/1 |S|=3.06 | lr=3.00e-04
+  step    2/4 | gen=13.7260 coh=2.113 probe=2.673 probe_acc=0/2 |S|=3.46 | lr=2.25e-04
+  EVAL s2: t2p w=0.000 wo=0.000 d=+0.000 (ceiling 0.625) | t1 w=1.000 wo=1.000 | last w=0.000 wo=0.000 | all w=0.429 wo=0.429
+  step    3/4 | gen=14.2516 coh=1.910 probe=2.718 probe_acc=0/3 |S|=3.57 | lr=7.50e-05
+  step    4/4 | gen=11.5616 coh=2.817 probe=2.677 probe_acc=0/1 |S|=2.84 | lr=0.00e+00
+  EVAL s4: t2p w=0.000 wo=0.000 d=+0.000 (ceiling 0.625) | t1 w=1.000 wo=1.000 | last w=0.000 wo=0.000 | all w=0.429 wo=0.429

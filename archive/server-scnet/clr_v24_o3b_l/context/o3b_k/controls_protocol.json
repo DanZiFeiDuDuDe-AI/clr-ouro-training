@@ -1,0 +1,15 @@
+{
+  "carriers": [
+    "K-I0",
+    "K-I2b",
+    "K-I2a"
+  ],
+  "probe_steps": 180,
+  "n_random": 10,
+  "eval_splits": [
+    "testA",
+    "testB"
+  ],
+  "sweep_probe_steps": 180,
+  "elapsed_s": 548.8484532000002
+}

@@ -1,0 +1,57 @@
+{
+  "pattern_results": [
+    {
+      "empty_slots": [
+        0
+      ],
+      "valid_rate": 1.0,
+      "selected_empty_rate": 1.0,
+      "selected_frequency": [
+        256,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "empty_slots": [
+        1
+      ],
+      "valid_rate": 1.0,
+      "selected_empty_rate": 1.0,
+      "selected_frequency": [
+        0,
+        256,
+        0,
+        0
+      ]
+    },
+    {
+      "empty_slots": [
+        2
+      ],
+      "valid_rate": 1.0,
+      "selected_empty_rate": 1.0,
+      "selected_frequency": [
+        0,
+        0,
+        256,
+        0
+      ]
+    },
+    {
+      "empty_slots": [
+        3
+      ],
+      "valid_rate": 1.0,
+      "selected_empty_rate": 1.0,
+      "selected_frequency": [
+        0,
+        0,
+        0,
+        256
+      ]
+    }
+  ],
+  "pipeline": 1.0
+}

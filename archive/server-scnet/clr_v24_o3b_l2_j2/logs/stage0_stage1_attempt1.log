@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 383, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_j2_stage1.py", line 378, in main
+    print(json.dumps({"stage":"start","out":str(ROOT),"device":str(DEVICE),"device_name":torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"},flush=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 234, in dumps
+    return cls(
+           ^^^^
+TypeError: JSONEncoder.__init__() got an unexpected keyword argument 'flush'

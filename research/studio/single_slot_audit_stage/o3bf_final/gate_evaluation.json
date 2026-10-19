@@ -1,0 +1,19 @@
+{
+  "baseline_f0_reproduced": true,
+  "metric_protocol_audit": "Initial O3b-F Q-K matcher section was superseded: fit_metric consumed K_a instead of K_b. Canonical metric diagnosis is the exact K-K addendum.",
+  "canonical_protocol": "O3b-D/E exact K-K equality; same cache, splits, pair seeds and frozen KeyEncoder",
+  "canonical_best_bilinear": "symmetric_bilinear",
+  "canonical_best_bilinear_testB_f1": 0.8741851368970013,
+  "canonical_best_bilinear_testB_recall": 0.894,
+  "canonical_best_bilinear_testB_P2": 0.6,
+  "canonical_best_diagnostic_matcher": "interaction_mlp",
+  "canonical_best_matcher_testB_f1": 0.9074507183427998,
+  "canonical_best_matcher_testB_recall": 0.9053333333333333,
+  "canonical_best_matcher_testB_P2": 0.68,
+  "explicit_best": "concat",
+  "explicit_best_testB_f1": 1.0,
+  "explicit_gap_vs_best_bilinear_testB_f1": 0.1258148631029987,
+  "explicit_gap_vs_best_matcher_testB_f1": 0.0925492813681862,
+  "metric_rescue_pass": false,
+  "verdict": "O3b-F: MIXED BINDING + METRIC FAILURE"
+}

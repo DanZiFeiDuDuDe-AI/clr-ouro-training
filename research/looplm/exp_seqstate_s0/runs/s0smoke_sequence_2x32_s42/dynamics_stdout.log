@@ -1,0 +1,330 @@
+========================================================================
+[S0 dynamics] ckpt=runs/s0smoke_sequence_2x32_s42/best_model.pt
+  state type : sequence  K=2  d=32  seed=42  n_traj=60
+========================================================================
+C:\Users\Ouyang Quan\AppData\Local\Programs\Python\Python313\Lib\site-packages\transformers\modeling_rope_utils.py:1034: FutureWarning: `rope_config_validation` is deprecated and has been removed. Its functionality has been moved to RotaryEmbeddingConfigMixin.validate_rope method. PreTrainedConfig inherits this class, so please call self.validate_rope() instead. Also, make sure to use the new rope_parameters syntax. You can call self.standardize_rope_params() in the meantime.
+  warnings.warn(
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[ERROR] `cache_position` is part of OuroModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\Ouyang Quan\.cache\huggingface\modules\transformers_modules\Ouro_hyphen_1_dot_4B\modeling_ouro.py.
+[transformers] The `check_model_inputs` decorator is deprecated in favor of `merge_with_config_defaults`.
+[ERROR] `cache_position` is part of OuroForCausalLM.forward's signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\Ouyang Quan\.cache\huggingface\modules\transformers_modules\Ouro_hyphen_1_dot_4B\modeling_ouro.py.
+Loading weights:   0%|          | 0/269 [00:00<?, ?it/s]Loading weights:   0%|          | 1/269 [00:00<00:46,  5.82it/s]Loading weights:   1%|¨‡         | 4/269 [00:00<00:16, 16.49it/s]Loading weights:  11%|¨€         | 29/269 [00:00<00:02, 103.91it/s]Loading weights:  19%|¨€¨        | 51/269 [00:00<00:01, 144.20it/s]Loading weights:  27%|¨€¨€¨ƒ       | 73/269 [00:00<00:01, 164.97it/s]Loading weights:  35%|¨€¨€¨€¨„      | 95/269 [00:00<00:00, 180.88it/s]Loading weights:  43%|¨€¨€¨€¨€¨†     | 117/269 [00:00<00:00, 188.02it/s]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 139/269 [00:00<00:00, 195.81it/s]Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 162/269 [00:01<00:00, 201.81it/s]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 185/269 [00:01<00:00, 204.67it/s]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 207/269 [00:01<00:00, 207.66it/s]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 229/269 [00:01<00:00, 206.53it/s]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 250/269 [00:01<00:00, 197.41it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 269/269 [00:01<00:00, 173.04it/s]
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+[transformers] `layer_type_validation` is deprecated and will be removed in v5.20. Use `PreTrainedConfig.validate_layer_type` instead
+ckpt step 300
+{
+  "ckpt": "runs/s0smoke_sequence_2x32_s42/best_model.pt",
+  "n_traj": 60,
+  "K": 2,
+  "d": 32,
+  "state_type": "sequence",
+  "per_slot_norm": {
+    "loop1": {
+      "slot1": {
+        "mean": 4.7536,
+        "sd": 0.3469,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 4.5948,
+        "sd": 0.4245,
+        "n": 119
+      }
+    },
+    "loop2": {
+      "slot1": {
+        "mean": 8.2904,
+        "sd": 0.3356,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 8.1653,
+        "sd": 0.3963,
+        "n": 119
+      }
+    },
+    "loop3": {
+      "slot1": {
+        "mean": 5.1287,
+        "sd": 0.3195,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 5.0182,
+        "sd": 0.3631,
+        "n": 119
+      }
+    },
+    "loop4": {
+      "slot1": {
+        "mean": 0.848,
+        "sd": 0.5205,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 0.8601,
+        "sd": 0.5312,
+        "n": 119
+      }
+    }
+  },
+  "slot_cos_matrix": {
+    "loop1": {
+      "matrix": [
+        [
+          1.0,
+          0.9918
+        ],
+        [
+          0.9918,
+          1.0
+        ]
+      ],
+      "mean_pairwise": 0.9918
+    },
+    "loop2": {
+      "matrix": [
+        [
+          1.0,
+          0.9969
+        ],
+        [
+          0.9969,
+          1.0
+        ]
+      ],
+      "mean_pairwise": 0.9969
+    },
+    "loop3": {
+      "matrix": [
+        [
+          1.0,
+          0.9886
+        ],
+        [
+          0.9886,
+          1.0
+        ]
+      ],
+      "mean_pairwise": 0.9886
+    },
+    "loop4": {
+      "matrix": [
+        [
+          1.0,
+          0.4233
+        ],
+        [
+          0.4233,
+          1.0
+        ]
+      ],
+      "mean_pairwise": 0.4233
+    }
+  },
+  "slot_variance": {
+    "loop1": {
+      "slot1": 0.012553,
+      "slot2": 0.015186
+    },
+    "loop2": {
+      "slot1": 0.013667,
+      "slot2": 0.015592
+    },
+    "loop3": {
+      "slot1": 0.015382,
+      "slot2": 0.017935
+    },
+    "loop4": {
+      "slot1": 0.022004,
+      "slot2": 0.02479
+    }
+  },
+  "cross_traj_cos_slot": {
+    "loop1": {
+      "slot1": {
+        "mean": 0.9913,
+        "sd": 0.0201,
+        "n": 1066
+      },
+      "slot2": {
+        "mean": 0.9893,
+        "sd": 0.0227,
+        "n": 1066
+      }
+    },
+    "loop2": {
+      "slot1": {
+        "mean": 0.997,
+        "sd": 0.0058,
+        "n": 1066
+      },
+      "slot2": {
+        "mean": 0.9962,
+        "sd": 0.0081,
+        "n": 1066
+      }
+    },
+    "loop3": {
+      "slot1": {
+        "mean": 0.9903,
+        "sd": 0.0198,
+        "n": 1066
+      },
+      "slot2": {
+        "mean": 0.9873,
+        "sd": 0.0289,
+        "n": 1066
+      }
+    },
+    "loop4": {
+      "slot1": {
+        "mean": 0.4758,
+        "sd": 0.27,
+        "n": 1066
+      },
+      "slot2": {
+        "mean": 0.4481,
+        "sd": 0.2958,
+        "n": 1066
+      }
+    }
+  },
+  "cross_iter_cos_slot": {
+    "c12": {
+      "slot1": {
+        "mean": 0.9948,
+        "sd": 0.0034,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 0.995,
+        "sd": 0.004,
+        "n": 119
+      }
+    },
+    "c23": {
+      "slot1": {
+        "mean": 0.9801,
+        "sd": 0.0077,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 0.978,
+        "sd": 0.008,
+        "n": 119
+      }
+    },
+    "c34": {
+      "slot1": {
+        "mean": 0.2183,
+        "sd": 0.3854,
+        "n": 119
+      },
+      "slot2": {
+        "mean": 0.1919,
+        "sd": 0.4088,
+        "n": 119
+      }
+    }
+  },
+  "pooled_cross_traj_cos": {
+    "loop1": {
+      "mean": 0.9999,
+      "sd": 0.0001,
+      "n": 1066
+    },
+    "loop2": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "n": 1066
+    },
+    "loop3": {
+      "mean": 0.9999,
+      "sd": 0.0001,
+      "n": 1066
+    },
+    "loop4": {
+      "mean": 0.3533,
+      "sd": 0.8045,
+      "n": 1066
+    }
+  },
+  "effective_rank": {
+    "loop1": {
+      "participation_ratio": 14.24,
+      "top5_svals": [
+        7.469,
+        3.349,
+        3.223,
+        2.593,
+        2.058
+      ],
+      "cum_energy_top5": [
+        0.193,
+        0.28,
+        0.364,
+        0.431,
+        0.484
+      ],
+      "n_samples": 119
+    },
+    "loop2": {
+      "participation_ratio": 15.95,
+      "top5_svals": [
+        6.878,
+        3.898,
+        3.579,
+        2.982,
+        2.346
+      ],
+      "cum_energy_top5": [
+        0.164,
+        0.257,
+        0.342,
+        0.413,
+        0.469
+      ],
+      "n_samples": 119
+    },
+    "loop3": {
+      "participation_ratio": 16.33,
+      "top5_svals": [
+        6.736,
+        4.579,
+        4.129,
+        3.64,
+        2.354
+      ],
+      "cum_energy_top5": [
+        0.149,
+        0.25,
+        0.341,
+        0.421,
+        0.473
+      ],
+      "n_samples": 119
+    },
+    "loop4": {
+      "participation_ratio": 16.3,
+      "top5_svals": [
+        7.68,
+        5.487,
+        4.963,
+        4.565,
+        2.831
+      ],
+      "cum_energy_top5": [
+        0.143,
+        0.245,
+        0.338,
+        0.423,
+        0.476
+      ],
+      "n_samples": 119
+    }
+  }
+}
+
+saved -> D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_2x32_s42/dynamics_s0.json

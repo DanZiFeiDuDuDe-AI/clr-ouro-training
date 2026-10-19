@@ -1,0 +1,9 @@
+{"stage": "loaded_existing_lr_matrix", "rows": 2160}
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_measurement_diagnosis.py", line 215, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/o3b_l2_measurement_diagnosis.py", line 146, in main
+    if r["step"] not in (500,1000) or r["split"] not in ("val","testA","testB"): continue
+                                      ~^^^^^^^^^
+KeyError: 'split'

@@ -1,0 +1,91 @@
+{
+  "experiment": "local_clutrr_v2_nolora",
+  "model": "Qwen3.5-0.8B",
+  "config": {
+    "DS": 64,
+    "film_layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "LR": 0.0003,
+    "use_lora": false,
+    "coh_w": 0.05,
+    "probe_w": 0.2,
+    "steps": 4,
+    "train_samples": 24,
+    "eval_samples": 6,
+    "n_relations": 14
+  },
+  "bayes_ceiling_t2p": 0.625,
+  "bayes_ceiling_all": 0.5714285714285714,
+  "eval_log": [
+    {
+      "step": 2,
+      "with_S": {
+        "t1": 1.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.42857142857142855
+      },
+      "without_S": {
+        "t1": 1.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.42857142857142855
+      },
+      "delta": {
+        "t1": 0.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.0
+      }
+    },
+    {
+      "step": 4,
+      "with_S": {
+        "t1": 1.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.42857142857142855
+      },
+      "without_S": {
+        "t1": 1.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.42857142857142855
+      },
+      "delta": {
+        "t1": 0.0,
+        "t2p": 0.0,
+        "last": 0.0,
+        "all": 0.0
+      }
+    }
+  ],
+  "final_delta_t2p": 0.0,
+  "best_delta_t2p": 0.0,
+  "final_with_S_t2p": 0.0,
+  "final_without_S_t2p": 0.0
+}

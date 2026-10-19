@@ -1,0 +1,9 @@
+{
+  "best_step": 1100,
+  "cuda_available": true,
+  "device": "cuda",
+  "device_name": "BW",
+  "steps": 3000,
+  "torch": "2.9.0",
+  "wall_clock_s": 23.89264852902852
+}

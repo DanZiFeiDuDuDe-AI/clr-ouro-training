@@ -1,0 +1,2 @@
+﻿status,reason,split,canonical_id,feature_row_index,max_abs_diff,mean_abs_diff,cosine_similarity
+NOT_RUN,"Stage 6 strict row join did not pass; historical tokenizer, mention locator, selected state/pooling, and row identity are unavailable. Re-extraction would not certify the old cache.",,,,,,

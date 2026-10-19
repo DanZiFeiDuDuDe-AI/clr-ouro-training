@@ -1,0 +1,93 @@
+{
+  "experiment": "O3b-M4",
+  "created_utc": "2026-09-25T14:16:18.292233+00:00",
+  "hash_algorithm": "SHA-256",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "artifact_forensics_inventory.csv",
+      "bytes": 8666,
+      "sha256": "38455b1a135df6ea67377fdbb0b0567fdbadedd50c84f680d23dc57807441c1c"
+    },
+    {
+      "path": "audit_search_log.txt",
+      "bytes": 1555,
+      "sha256": "05aa7b53b2dd9066989f37567bdbf0d403c43cb98520c160b5830ab1dbcfb595"
+    },
+    {
+      "path": "build_m4_audit.py",
+      "bytes": 58737,
+      "sha256": "8c4cd6ce8b213e7dadf7c5d36076d3f36c370e48c91e275af239a81c35dbea3d"
+    },
+    {
+      "path": "bundle_interface_dryrun.json",
+      "bytes": 1963,
+      "sha256": "aca5fb2be777c3af72f25b647c93ebdddc75be883a85d9108f1ba9201916fc9e"
+    },
+    {
+      "path": "component_recoverability_matrix.csv",
+      "bytes": 3619,
+      "sha256": "50468ea75cef1a9928bedbfab42e5bc9af8bd2253f2939f02b235b9b31246b87"
+    },
+    {
+      "path": "final_report.md",
+      "bytes": 6971,
+      "sha256": "fbdcbe6aa89e2b8d6419be8d15034f5972a635f124fbb1be4efd1019bdb164da"
+    },
+    {
+      "path": "FINAL_VERDICT.txt",
+      "bytes": 65,
+      "sha256": "3b63c75d63f07b773b84f04ea6632d2acdcd99fa64653a4efac5c8b5d7c09109"
+    },
+    {
+      "path": "historical_bundle_contract.json",
+      "bytes": 8807,
+      "sha256": "45117af88033195e47cedb2add60044a5edbcc93f9bab425fcd5ee11099c37ae"
+    },
+    {
+      "path": "historical_bundle_contract.md",
+      "bytes": 3384,
+      "sha256": "b5b6e5985559431520c4eb82cc39904e8b4222d46e090255f8c0f51e4d21b9c4"
+    },
+    {
+      "path": "historical_metric_anchors.json",
+      "bytes": 2249,
+      "sha256": "2884a3208c3840d33d83ba35dd620e68bd45134502f91ac06dc0bcb275241827"
+    },
+    {
+      "path": "m4_starting_artifact_manifest.json",
+      "bytes": 11795,
+      "sha256": "2aa49bce1d56adb67f3391a03c3695ff372da7fadef8732ef520086ee75c67f2"
+    },
+    {
+      "path": "partial_state_recovery_audit.csv",
+      "bytes": 2228,
+      "sha256": "0d12d61c79bbd148a067e3b4646c891f733094a0fc9eba8f723f36a7cd9d6e98"
+    },
+    {
+      "path": "reconstructed_components_manifest.json",
+      "bytes": 1861,
+      "sha256": "7c0caed6f0058f518198ebf6eddaafbe68d7188f5ad5c0f8e9151fe1fd013287"
+    },
+    {
+      "path": "retraining_requirements.md",
+      "bytes": 3994,
+      "sha256": "2ce60c311883afcf430d744a03f42c1b34ea2477d8e5b47384fd3cb59488f706"
+    },
+    {
+      "path": "source_only_reconstruction_audit.csv",
+      "bytes": 1963,
+      "sha256": "15432972cc295571aa88d09c883842ba5542567c7242df99f6f303af0c81ef59"
+    },
+    {
+      "path": "source_reference/a1_v23_r2_common.py",
+      "bytes": 4213,
+      "sha256": "2d9affa2dd0638c800a3e0d0e8a0f286e8ea18972390de889882b323dabd811f"
+    },
+    {
+      "path": "source_reference/clr_v23_oracle_r2.py",
+      "bytes": 2235,
+      "sha256": "0f3bb6477ce716b3f40f802492057ee34fc565539ef46af28835e929e60a7dc0"
+    }
+  ]
+}

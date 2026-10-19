@@ -1,0 +1,93 @@
+{
+  "steps": [
+    3000,
+    3000
+  ],
+  "tensors": [
+    {
+      "group": "core",
+      "name": "content_read.weight",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "core",
+      "name": "content_read.bias",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "core",
+      "name": "shared_gru.weight_ih",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "core",
+      "name": "shared_gru.weight_hh",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "core",
+      "name": "shared_gru.bias_ih",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "core",
+      "name": "shared_gru.bias_hh",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.0.weight",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.0.bias",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.1.weight",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.1.bias",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.2.weight",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.2.bias",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.3.weight",
+      "equal": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "group": "value_heads",
+      "name": "heads.3.bias",
+      "equal": true,
+      "max_abs_diff": 0.0
+    }
+  ],
+  "all_exact": true
+}

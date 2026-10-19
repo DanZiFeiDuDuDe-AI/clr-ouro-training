@@ -1,0 +1,1 @@
+Checkpoint NumPy 2 global-path compatibility: numpy._core -> numpy.core during torch.load only; checkpoint bytes unchanged.

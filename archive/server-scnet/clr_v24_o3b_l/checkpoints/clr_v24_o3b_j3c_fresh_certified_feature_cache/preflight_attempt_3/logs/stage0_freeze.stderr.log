@@ -1,0 +1,18 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0925 00:23:06.477774 22314 Context.cpp:368] torch.backends.cuda.matmul.allow_tf32 is not supported on ROCm by default. Please set environment variable HIPBLASLT_ALLOW_TF32=1 to enable it.
+/usr/local/lib/python3.11/site-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /home/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 1107, in <module>
+    main()
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 1101, in main
+    stage0_freeze()
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 550, in stage0_freeze
+    write_jsonl(OUT / "mention_resolution_manifest.jsonl", resolutions)
+  File "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/code/j3c_extract.py", line 62, in write_jsonl
+    with path.open("x", encoding="utf-8", newline="\n") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: [Errno 17] File exists: '/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/mention_resolution_manifest.jsonl'

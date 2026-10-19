@@ -1,0 +1,36 @@
+{
+  "normal": {
+    "episodes": 1000,
+    "retrieval_accuracy": 0.982498784637822,
+    "answer_accuracy": 0.9309674282936315,
+    "all_facts_retained_rate": 0.964,
+    "all_facts_answered_rate": 0.861,
+    "action_accuracy": 0.904,
+    "update_target_accuracy": 0.902,
+    "new_valid_empty_rate": 0.894,
+    "new_collision_rate": 0.10599999999999998,
+    "duplicate_key_rate": 0.049,
+    "latest_value_accuracy": 0.918,
+    "old_value_probability": 0.0022443249666786284,
+    "untouched_k_drift": 0.0,
+    "untouched_v_drift": 0.0
+  },
+  "reversed": {
+    "episodes": 1000,
+    "retrieval_accuracy": 0.9820213799805636,
+    "answer_accuracy": 0.9222546161321672,
+    "all_facts_retained_rate": 0.963,
+    "all_facts_answered_rate": 0.851,
+    "action_accuracy": 0.911,
+    "update_target_accuracy": 0.908,
+    "new_valid_empty_rate": 0.902,
+    "new_collision_rate": 0.09799999999999998,
+    "duplicate_key_rate": 0.046,
+    "latest_value_accuracy": 0.906,
+    "old_value_probability": 0.0015836364952795305,
+    "untouched_k_drift": 0.0,
+    "untouched_v_drift": 0.0
+  },
+  "update_target_drop_pp": -0.6000000000000005,
+  "retrieval_drop_pp": 0.047740465725842895
+}

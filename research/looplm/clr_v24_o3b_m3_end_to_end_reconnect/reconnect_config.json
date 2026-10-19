@@ -1,0 +1,10 @@
+{
+  "action": "UPDATE iff top1 >= threshold, target argmax occupied slot; otherwise NEW via original O3a allocator",
+  "candidate": "Candidate B seed 43; frozen checkpoint only",
+  "capacity": 4,
+  "changes_to_model_or_policy": false,
+  "reason": "M3 Stage 1 did not recover the original frozen dependency bundle; baseline reproduction gate therefore blocks reconnect.",
+  "rule": "Rule A",
+  "status": "NOT_RUN_BASELINE_GATE_BLOCKED",
+  "threshold_exact": 0.8504285216331482
+}

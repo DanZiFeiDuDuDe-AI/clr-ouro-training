@@ -1,0 +1,13 @@
+O3b-M4 read-only forensic audit log
+created_utc=2026-09-25T14:16:18.292233+00:00
+Local roots: H:\LoopLM, remote_archive\cheems, remote_archive\new_server, checkpoints, M2, M3.
+Remote roots: /root/private_data/clr_v24_o3b_l; /public/home/ac92f4k0z9; /public/share/ac92f4k0z9; /tmp/tmp1i7o9mxn.
+Remote model-file extension scan found O21B plus M2 Candidate A/B/C state files only; expected O21A-MR/VGen2/O3a/router/R2 state absent.
+Remote O21A-MR directory contains cache manifest, relation map, train/val/TestA/TestB NPZ and metadata; no checkpoint.
+Remote temp directory contains _remote_module_non_scriptable.py and its pycache only.
+Remote Candidate B SHA recheck matched frozen M2 SHA; O21B SHA recheck matched the archive SHA.
+O21B checkpoint was inspected locally with trusted weights-only-off loading: top keys include key/query; query tensor shapes match but provenance is not O21A-MR and it was rejected as a substitute.
+Remote PyTorch tensor deserialization/signature inspection was unavailable because import failed on missing libgalaxyhip.so.5; no-target findings are based on scoped filename/extension inventory and exact path checks, not remote tensor loading.
+Additional source files a1_v23_r2_common.py and clr_v23_oracle_r2.py were copied read-only from the remote user's project code directory; local SHA-256 matched remote sha256sum.
+No torch model inference, training, baseline reproduction, retrieval/full-KV evaluation, or reconnect was performed.
+No other users' storage was inspected; no model/checkpoint was modified.

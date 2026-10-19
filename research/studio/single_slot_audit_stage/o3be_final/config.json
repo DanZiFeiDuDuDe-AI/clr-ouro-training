@@ -1,0 +1,42 @@
+{
+  "phase": "CLR-v2.4-O3b-E",
+  "seed": 42,
+  "device": "cuda",
+  "source_key_checkpoint": "D:\\training\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+  "source_o3b_d_report": "D:\\training\\checkpoints\\clr_v24_o3b_diag\\v24_o3b_diag_report.md",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "git_sha": "NO_GIT_REPO",
+  "git_diff": "NO_GIT_REPO",
+  "frozen": [
+    "original KeyEncoder",
+    "V/Value path",
+    "GRU",
+    "QueryEncoder",
+    "O3a allocator",
+    "backbone",
+    "memory/slots",
+    "downstream answer head"
+  ],
+  "trainable": [
+    "tied Linear K_e projection",
+    "tied Linear K_r projection",
+    "relation auxiliary classifier"
+  ],
+  "factor_dim": 32,
+  "query_projection": "tied to key factor projections on frozen QueryEncoder output",
+  "loss": "L_pair + 0.5 L_relation + 0.5 L_P2; no answer loss",
+  "variants": [
+    "original",
+    "P2 25% of negatives",
+    "P2 50% of negatives"
+  ],
+  "steps": 3000,
+  "best_variant": "original",
+  "best_scheme": "E1_a1_b1",
+  "factor_params": 4292,
+  "wall_clock_s": 5783.0447023000015,
+  "peak_vram": {
+    "allocated_gb": 0.056447488,
+    "reserved_gb": 0.075497472
+  }
+}

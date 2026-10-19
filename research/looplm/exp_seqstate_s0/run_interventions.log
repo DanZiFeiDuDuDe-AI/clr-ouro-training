@@ -1,0 +1,234 @@
+==== INTERVENTIONS s0smoke_sequence_2x32_s42 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_2x32_s42/best_model.pt
+  state type      : sequence
+  num slots       : 2  slot dim: 32
+  trainable params: 946,912
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : f8c1170f89855ea9 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.824, 4.881, 4.925, 4.837, 4.831, 4.721]
+  [interventions-only] kept k_curve/early_readout from D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_2x32_s42/eval_s0.json
+    [normal] 50/150 traj, 61s
+    [normal] 100/150 traj, 123s
+  normal           t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [zero_slots] 50/150 traj, 59s
+    [zero_slots] 100/150 traj, 119s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [random_slots] 50/150 traj, 60s
+    [random_slots] 100/150 traj, 120s
+  random_slots     t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [static_trained] 50/150 traj, 60s
+    [static_trained] 100/150 traj, 120s
+  static_trained   t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [permute_1] 50/150 traj, 60s
+    [permute_1] 100/150 traj, 121s
+  permute_1        t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [permute_2] 50/150 traj, 60s
+    [permute_2] 100/150 traj, 121s
+  permute_2        t2p=0.5400 (81/150)  W95(0.4602, 0.6178)
+    [permute_3] 50/150 traj, 60s
+    [permute_3] 100/150 traj, 121s
+  permute_3        t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [single_slot_1] 50/150 traj, 61s
+    [single_slot_1] 100/150 traj, 121s
+  single_slot_1    t2p=0.4467 (67/150)  W95(0.3694, 0.5266)
+    [single_slot_2] 50/150 traj, 60s
+    [single_slot_2] 100/150 traj, 121s
+  single_slot_2    t2p=0.4267 (64/150)  W95(0.3503, 0.5067)
+    [dropout_p0.25_s1] 50/150 traj, 61s
+    [dropout_p0.25_s1] 100/150 traj, 121s
+  dropout_p0.25_s1 t2p=0.5400 (81/150)  W95(0.4602, 0.6178)
+    [dropout_p0.25_s2] 50/150 traj, 61s
+    [dropout_p0.25_s2] 100/150 traj, 121s
+  dropout_p0.25_s2 t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [dropout_p0.25_s3] 50/150 traj, 61s
+    [dropout_p0.25_s3] 100/150 traj, 121s
+  dropout_p0.25_s3 t2p=0.5400 (81/150)  W95(0.4602, 0.6178)
+    [dropout_p0.5_s1] 50/150 traj, 61s
+    [dropout_p0.5_s1] 100/150 traj, 121s
+  dropout_p0.5_s1  t2p=0.4000 (60/150)  W95(0.325, 0.48)
+    [dropout_p0.5_s2] 50/150 traj, 61s
+    [dropout_p0.5_s2] 100/150 traj, 121s
+  dropout_p0.5_s2  t2p=0.4467 (67/150)  W95(0.3694, 0.5266)
+    [dropout_p0.5_s3] 50/150 traj, 61s
+    [dropout_p0.5_s3] 100/150 traj, 121s
+  dropout_p0.5_s3  t2p=0.4333 (65/150)  W95(0.3567, 0.5133)
+    [dropout_p0.75_s1] 50/150 traj, 61s
+    [dropout_p0.75_s1] 100/150 traj, 121s
+  dropout_p0.75_s1 t2p=0.0533 (8/150)  W95(0.0273, 0.1017)
+    [dropout_p0.75_s2] 50/150 traj, 61s
+    [dropout_p0.75_s2] 100/150 traj, 121s
+  dropout_p0.75_s2 t2p=0.0733 (11/150)  W95(0.0414, 0.1265)
+    [dropout_p0.75_s3] 50/150 traj, 61s
+    [dropout_p0.75_s3] 100/150 traj, 122s
+  dropout_p0.75_s3 t2p=0.0733 (11/150)  W95(0.0414, 0.1265)
+
+DONE -> D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_2x32_s42/eval_s0.json
+==== INTERVENTIONS s0smoke_sequence_4x16_s42 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_4x16_s42/best_model.pt
+  state type      : sequence
+  num slots       : 4  slot dim: 16
+  trainable params: 937,488
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : eb853149c5d31cc1 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.993, 5.044, 5.084, 4.987, 4.979, 4.85]
+  [interventions-only] kept k_curve/early_readout from D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_4x16_s42/eval_s0.json
+    [normal] 50/150 traj, 60s
+    [normal] 100/150 traj, 120s
+  normal           t2p=0.5400 (81/150)  W95(0.4602, 0.6178)
+    [zero_slots] 50/150 traj, 61s
+    [zero_slots] 100/150 traj, 122s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [random_slots] 50/150 traj, 61s
+    [random_slots] 100/150 traj, 122s
+  random_slots     t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [static_trained] 50/150 traj, 61s
+    [static_trained] 100/150 traj, 122s
+  static_trained   t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [permute_1] 50/150 traj, 61s
+    [permute_1] 100/150 traj, 122s
+  permute_1        t2p=0.5067 (76/150)  W95(0.4275, 0.5855)
+    [permute_2] 50/150 traj, 61s
+    [permute_2] 100/150 traj, 122s
+  permute_2        t2p=0.5200 (78/150)  W95(0.4406, 0.5984)
+    [permute_3] 50/150 traj, 61s
+    [permute_3] 100/150 traj, 122s
+  permute_3        t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [single_slot_1] 50/150 traj, 61s
+    [single_slot_1] 100/150 traj, 122s
+  single_slot_1    t2p=0.0267 (4/150)  W95(0.0104, 0.0666)
+    [single_slot_2] 50/150 traj, 61s
+    [single_slot_2] 100/150 traj, 122s
+  single_slot_2    t2p=0.0267 (4/150)  W95(0.0104, 0.0666)
+    [single_slot_3] 50/150 traj, 61s
+    [single_slot_3] 100/150 traj, 122s
+  single_slot_3    t2p=0.0267 (4/150)  W95(0.0104, 0.0666)
+    [single_slot_4] 50/150 traj, 61s
+    [single_slot_4] 100/150 traj, 122s
+  single_slot_4    t2p=0.0467 (7/150)  W95(0.0228, 0.0932)
+    [dropout_p0.25_s1] 50/150 traj, 61s
+    [dropout_p0.25_s1] 100/150 traj, 122s
+  dropout_p0.25_s1 t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [dropout_p0.25_s2] 50/150 traj, 61s
+    [dropout_p0.25_s2] 100/150 traj, 122s
+  dropout_p0.25_s2 t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [dropout_p0.25_s3] 50/150 traj, 61s
+    [dropout_p0.25_s3] 100/150 traj, 122s
+  dropout_p0.25_s3 t2p=0.5133 (77/150)  W95(0.434, 0.592)
+    [dropout_p0.5_s1] 50/150 traj, 61s
+    [dropout_p0.5_s1] 100/150 traj, 122s
+  dropout_p0.5_s1  t2p=0.3733 (56/150)  W95(0.3, 0.453)
+    [dropout_p0.5_s2] 50/150 traj, 61s
+    [dropout_p0.5_s2] 100/150 traj, 122s
+  dropout_p0.5_s2  t2p=0.3733 (56/150)  W95(0.3, 0.453)
+    [dropout_p0.5_s3] 50/150 traj, 61s
+    [dropout_p0.5_s3] 100/150 traj, 122s
+  dropout_p0.5_s3  t2p=0.4133 (62/150)  W95(0.3377, 0.4933)
+    [dropout_p0.75_s1] 50/150 traj, 61s
+    [dropout_p0.75_s1] 100/150 traj, 122s
+  dropout_p0.75_s1 t2p=0.0667 (10/150)  W95(0.0366, 0.1184)
+    [dropout_p0.75_s2] 50/150 traj, 61s
+    [dropout_p0.75_s2] 100/150 traj, 122s
+  dropout_p0.75_s2 t2p=0.0400 (6/150)  W95(0.0185, 0.0845)
+    [dropout_p0.75_s3] 50/150 traj, 61s
+    [dropout_p0.75_s3] 100/150 traj, 122s
+  dropout_p0.75_s3 t2p=0.0133 (2/150)  W95(0.0037, 0.0473)
+
+DONE -> D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_4x16_s42/eval_s0.json
+==== INTERVENTIONS s0smoke_sequence_8x8_s42 ====
+========================================================================
+[S0 eval] ckpt=runs/s0smoke_sequence_8x8_s42/best_model.pt
+  state type      : sequence
+  num slots       : 8  slot dim: 8
+  trainable params: 935,080
+  backbone frozen : 818,088,961
+  dataset split   : train=600 traj, eval=150 traj (replayed RNG stream, seed 42)
+  seed            : 42
+  eval protocol   : v1 per-loop state update; argmax next-token readout; with_S vs without_S (literal-zero modulation); t1/t2p/last/all
+  checkpoint hash : b924105249ecb8c8 (recorded: None)
+========================================================================
+ckpt step 300 | scale_proj norms [4.807, 4.863, 4.871, 4.825, 4.808, 4.691]
+  [interventions-only] kept k_curve/early_readout from D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_8x8_s42/eval_s0.json
+    [normal] 50/150 traj, 60s
+    [normal] 100/150 traj, 120s
+  normal           t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [zero_slots] 50/150 traj, 61s
+    [zero_slots] 100/150 traj, 122s
+  zero_slots       t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [random_slots] 50/150 traj, 61s
+    [random_slots] 100/150 traj, 122s
+  random_slots     t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [static_trained] 50/150 traj, 61s
+    [static_trained] 100/150 traj, 122s
+  static_trained   t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [permute_1] 50/150 traj, 61s
+    [permute_1] 100/150 traj, 122s
+  permute_1        t2p=0.5533 (83/150)  W95(0.4734, 0.6306)
+    [permute_2] 50/150 traj, 61s
+    [permute_2] 100/150 traj, 122s
+  permute_2        t2p=0.5400 (81/150)  W95(0.4602, 0.6178)
+    [permute_3] 50/150 traj, 61s
+    [permute_3] 100/150 traj, 122s
+  permute_3        t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [single_slot_1] 50/150 traj, 61s
+    [single_slot_1] 100/150 traj, 122s
+  single_slot_1    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_2] 50/150 traj, 61s
+    [single_slot_2] 100/150 traj, 122s
+  single_slot_2    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_3] 50/150 traj, 61s
+    [single_slot_3] 100/150 traj, 122s
+  single_slot_3    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_4] 50/150 traj, 61s
+    [single_slot_4] 100/150 traj, 122s
+  single_slot_4    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_5] 50/150 traj, 61s
+    [single_slot_5] 100/150 traj, 122s
+  single_slot_5    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_6] 50/150 traj, 61s
+    [single_slot_6] 100/150 traj, 122s
+  single_slot_6    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_7] 50/150 traj, 61s
+    [single_slot_7] 100/150 traj, 122s
+  single_slot_7    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [single_slot_8] 50/150 traj, 61s
+    [single_slot_8] 100/150 traj, 122s
+  single_slot_8    t2p=0.0000 (0/150)  W95(0.0, 0.025)
+    [dropout_p0.25_s1] 50/150 traj, 61s
+    [dropout_p0.25_s1] 100/150 traj, 122s
+  dropout_p0.25_s1 t2p=0.5267 (79/150)  W95(0.4471, 0.6049)
+    [dropout_p0.25_s2] 50/150 traj, 61s
+    [dropout_p0.25_s2] 100/150 traj, 122s
+  dropout_p0.25_s2 t2p=0.5267 (79/150)  W95(0.4471, 0.6049)
+    [dropout_p0.25_s3] 50/150 traj, 61s
+    [dropout_p0.25_s3] 100/150 traj, 122s
+  dropout_p0.25_s3 t2p=0.5333 (80/150)  W95(0.4537, 0.6113)
+    [dropout_p0.5_s1] 50/150 traj, 61s
+    [dropout_p0.5_s1] 100/150 traj, 122s
+  dropout_p0.5_s1  t2p=0.3533 (53/150)  W95(0.2814, 0.4326)
+    [dropout_p0.5_s2] 50/150 traj, 61s
+    [dropout_p0.5_s2] 100/150 traj, 122s
+  dropout_p0.5_s2  t2p=0.3467 (52/150)  W95(0.2752, 0.4258)
+    [dropout_p0.5_s3] 50/150 traj, 61s
+    [dropout_p0.5_s3] 100/150 traj, 122s
+  dropout_p0.5_s3  t2p=0.3733 (56/150)  W95(0.3, 0.453)
+    [dropout_p0.75_s1] 50/150 traj, 61s
+    [dropout_p0.75_s1] 100/150 traj, 122s
+  dropout_p0.75_s1 t2p=0.0533 (8/150)  W95(0.0273, 0.1017)
+    [dropout_p0.75_s2] 50/150 traj, 61s
+    [dropout_p0.75_s2] 100/150 traj, 122s
+  dropout_p0.75_s2 t2p=0.0400 (6/150)  W95(0.0185, 0.0845)
+    [dropout_p0.75_s3] 50/150 traj, 61s
+    [dropout_p0.75_s3] 100/150 traj, 122s
+  dropout_p0.75_s3 t2p=0.0133 (2/150)  W95(0.0037, 0.0473)
+
+DONE -> D:\LoopLM\exp_seqstate_s0\runs\s0smoke_sequence_8x8_s42/eval_s0.json

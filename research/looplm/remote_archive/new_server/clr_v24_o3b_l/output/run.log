@@ -1,0 +1,10 @@
+{"stage": "loaded_i2b", "elapsed_s": 4.671888159005903}
+{"stage": "decomposition", "elapsed_s": 8.913160743017215}
+{"stage": "raw_matched_probes", "elapsed_s": 30.822289353003725}
+{"stage": "standardized_matched_probes", "elapsed_s": 47.22624833602458}
+{"stage": "spectrum_controls", "elapsed_s": 78.2561842900468}
+{"stage": "longer_step_sanity", "elapsed_s": 91.72838177502854}
+{"stage": "geometry_conditioning", "elapsed_s": 100.62022114003776}
+{"stage": "sigma_permutations", "elapsed_s": 118.80652634304715}
+{"stage": "complete", "elapsed_s": 118.89646042900858}
+{"out": "/root/private_data/clr_v24_o3b_l/output", "report": "/root/private_data/clr_v24_o3b_l/output/v24_o3b_l_matched_sigma_ablation_report.md", "primary": "L-B SINGULAR WEIGHTING MAINLY CHANGES PROBE CONDITIONING", "raw_delta_entity": -0.22216981132075472, "raw_delta_relation": -0.043975128644939965, "standardized_delta_entity": -0.00038593481989707135, "standardized_delta_relation": 0.003151801029159529, "standardized_delta_joint": -0.003070934256055363, "entity_percentile": 0.0, "relation_percentile": 15.0, "wall_clock_s": 118.89649540901883}

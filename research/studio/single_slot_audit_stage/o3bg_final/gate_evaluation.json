@@ -1,0 +1,20 @@
+{
+  "baseline_reproduced": true,
+  "selection": "best variant selected by validation F1; TestB not used for selection",
+  "best_variant": "G3_projected_tensor",
+  "best_testB_variant_diagnostic": "G2_residual_l2",
+  "testB_f1_ge_95": false,
+  "testB_recall_ge_95": false,
+  "testB_P2_ge_95": false,
+  "same_entity_relation_ge_90": false,
+  "entity_fixed_relation_ge_90": false,
+  "joint_linear_improved": false,
+  "joint_mlp_improved": false,
+  "eplus_rminus_error_fraction": 0.0,
+  "verdict": "O3b-G FAIL: LEARNED BINDING INDUCTIVE BIAS INSUFFICIENT",
+  "reconnect": false,
+  "o3c": false,
+  "repeated_v_update_contamination": "independent unresolved issue",
+  "partial_binding_recovery": false,
+  "secondary_diagnosis": null
+}

@@ -1,0 +1,10 @@
+{
+  "issue": "Initial O3b-F F3 cross-interface matcher paired Q_a with K_a because fit_metric consumed data[ka]; it did not pair Q_a with K_b.",
+  "impact": "Only the initial O3b-F Q-K pair-matcher table was invalid. O3b-D/E and O3b-F F0 K-K factorized baseline were unaffected.",
+  "resolution": "Patched a1_v24_o3b_f.py to use an explicit qk_b field, and ran a formal exact K-K addendum on the original O3b-D/E protocol.",
+  "canonical_artifact": "kk_metric_addendum.json",
+  "canonical_used_for_verdict": true,
+  "o3bd_or_o3be_invalidated": false,
+  "reconnect_performed": false,
+  "o3c_entered": false
+}

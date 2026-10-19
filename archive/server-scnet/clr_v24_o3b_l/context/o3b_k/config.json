@@ -1,0 +1,24 @@
+{
+  "phase": "CLR-v2.4-O3b-K",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "source_key_checkpoint": "D:\\training\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+  "carriers": [
+    "K-I0",
+    "K-I2b",
+    "K-I2a"
+  ],
+  "n_random": 10,
+  "probe_steps_core": 180,
+  "probe_steps_controls": 180,
+  "probe_steps_sweep": 180,
+  "classifier_steps": 60,
+  "w1_shape": [
+    256,
+    2048
+  ],
+  "rank": 256,
+  "reconnect": false,
+  "o3c": false,
+  "architecture_changed": false,
+  "wall_clock_s": 1208.555868800002
+}

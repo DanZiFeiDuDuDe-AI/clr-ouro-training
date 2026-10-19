@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_BEFORE_ANY_TEST_METRIC_EVALUATION",
+  "reference_historical_cliff_pp": -55.62,
+  "primary_measurement": "fresh-cache, converged, standardized Z0-to-Z1 entity linear-accessibility paired delta",
+  "categories": {
+    "not_reproduced_at_comparable_magnitude": "absolute drop <= 10 percentage points",
+    "strong_cliff_reproduced": "absolute drop >= 40 percentage points",
+    "partial_cliff_reproduced": "drop magnitude > 10pp and < 40pp"
+  },
+  "nonlinear_trigger": {
+    "comparison": "standardized Z0 vs Z1, entity task",
+    "mean_delta_Z1_minus_Z0_at_most_pp": -5.0,
+    "paired_bootstrap_95ci_upper_strictly_below_zero": true,
+    "required_splits": ["validation", "TestA"],
+    "also_require_TestB_when_known_labels_exist": true
+  },
+  "interpretation_limit": "These thresholds classify probe accessibility results only; they do not establish information destruction."
+}

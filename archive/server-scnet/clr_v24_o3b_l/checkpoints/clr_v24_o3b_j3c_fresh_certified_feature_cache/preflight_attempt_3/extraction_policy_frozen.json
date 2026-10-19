@@ -1,0 +1,111 @@
+{
+  "R_controls": {
+    "R0": "H_fresh @ Vh.T",
+    "R1": "R0 * S elementwise",
+    "R2": "H_fresh @ W1.T; algebraically R1 @ U.T",
+    "float": "CPU float64 SVD; feature transforms emitted float32",
+    "source": "exact first KeyEncoder Linear W1 from frozen O2.1b b1_best.pt",
+    "svd": "W1=U diag(S) Vh; thin full-rank SVD"
+  },
+  "canonical_identity": "<split>:ep<episode_index>:<episode_id>:item<item_index>:fact<flat_fact_index>; never a tensor row index.",
+  "determinism": {
+    "batch_size": 32,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "model_eval_no_grad_no_optimizer_no_backward": true,
+    "numerical_reextraction_sample": "up to 64 accepted rows per split, selected by ascending SHA256(feature_row_id); re-tokenize source text, re-locate the frozen exact mention, then re-forward original full extraction batches with identical source composition and padding width",
+    "predeclared_tolerance": {
+      "basis": "bf16 model computation, float32 cache, same device/software and identical original batch composition",
+      "max_abs_diff": 0.001,
+      "mean_abs_diff": 0.0001,
+      "min_cosine_similarity": 0.99999
+    },
+    "python_numpy_torch_seed": 42,
+    "source_order": "fixed split order then episode metadata order then item position",
+    "tf32": false,
+    "torch_deterministic_algorithms": "enabled with warn_only=True"
+  },
+  "experiment": "clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "fact_eligibility": "Every source fact enumerated by split -> metadata episode order -> item position; no count cap or prefix truncation.",
+  "frozen_before_any_model_forward": true,
+  "frozen_code_sha256": "46c71a7d4ad502caa45b00ddebc1eee961495f753cf9f0aa0a03f3b089951cb5",
+  "j_stages": {
+    "Z0": "H_fresh I2b carrier, 2048D",
+    "Z1": "KeyEncoder.net[0] Linear(2048->256), includes frozen bias, pre-activation",
+    "Z2": "KeyEncoder.net[1] GELU output, 256D",
+    "Z3": "KeyEncoder.net[2] Linear(256->64), pre-normalization",
+    "Z4": "L2-normalize Z3 across dimension 64"
+  },
+  "labels": {
+    "entity": "train_persons.json order; unseen entity -> -1",
+    "evaluation_splits_do_not_change_vocab": true,
+    "joint": "sorted unique (entity_raw, relation_id) pairs observed in train; unseen pair or unknown entity -> -1",
+    "relation": "source relation_ids integer; relation string retained"
+  },
+  "mention_matching": {
+    "acceptance": "exactly one occurrence; accepted mention_id is <canonical_fact_id>:m0",
+    "multiple_occurrences": "exclude with multiple_matches; record all candidate spans; never choose first",
+    "needle": "entity_raw",
+    "noncontiguous_mapping": "exclude with token_span_noncontiguous; never silently use a bounding interval",
+    "normalization": "none; entity_normalized is recorded as entity_raw; exact Unicode codepoint, case-sensitive literal match",
+    "overlapping_occurrences": "count all, advancing search by one codepoint",
+    "source_text": "MR metadata fact_texts[item_index]",
+    "token_mapping": "token offsets overlap the unique character span; token span is [min_index,max_index+1)",
+    "unmappable": "exclude with token_span_unmapped",
+    "zero_occurrences": "exclude with no_match"
+  },
+  "policy_version": 1,
+  "primary_j_input_H": {
+    "additional_saved_components": [
+      "H_base_I0",
+      "H_mention_fresh",
+      "H_I2a=H_base_I0+H_mention_fresh",
+      "H_fresh=H_I2b"
+    ],
+    "base_component": "source MR train/val/test data NPZ fact_H, joined by canonical source fact flat_fact_index; the NPZ is hashed and never prefix-aligned",
+    "formula": "MR cache fact_H addressed by fact_offsets + 2.0 * fresh entity-mention mean hidden state",
+    "mention_component": "fresh hidden state defined above",
+    "name": "fresh J-I2b carrier"
+  },
+  "prohibited": [
+    "probe training",
+    "checkpoint/model modification",
+    "architecture changes",
+    "memory reconnect",
+    "O3c",
+    "TestA/TestB rule tuning"
+  ],
+  "seed": 42,
+  "source_hidden_state": {
+    "architecture_code": "pinned modeling_ouro.py from source_snapshot/Ouro-1.4B",
+    "checkpoint": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache/source_snapshot/Ouro-1.4B/model.safetensors",
+    "checkpoint_sha256": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+    "device": "cuda",
+    "feature_storage_dtype": "float32",
+    "inference_mode": true,
+    "max_length": 512,
+    "model_dtype": "bfloat16",
+    "model_eval": true,
+    "pooling": "arithmetic mean of selected mention token hidden states",
+    "requires_grad": false,
+    "selected_state": "OuroModel hidden_states_list[-1], final UT pass (total_ut_steps-1), after the model RMSNorm; not a memory write state"
+  },
+  "splits": [
+    "train",
+    "val",
+    "testA",
+    "testB"
+  ],
+  "tokenization": {
+    "add_special_tokens": true,
+    "fast_tokenizer_required": true,
+    "identifier": "ByteDance/Ouro-1.4B",
+    "max_tokens_including_special_tokens": 512,
+    "padding": "right; batch-dynamic, pad to batch maximum",
+    "persisted_inputs": "input_ids, offsets and mention span are included in mention_resolution_manifest.jsonl before forward",
+    "revision": "574fa66cb8bf5abdc979642d01cf2b79b16bfab1",
+    "source": "local pinned tokenizer assets in source_snapshot/Ouro-1.4B",
+    "too_long": "exclude as too_long; no truncation",
+    "truncation": false
+  }
+}

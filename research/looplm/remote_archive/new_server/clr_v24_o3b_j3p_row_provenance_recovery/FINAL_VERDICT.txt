@@ -1,0 +1,2 @@
+J3P-F — HISTORICAL ROW PROVENANCE CANNOT BE CERTIFIED
+Provenance gate failure; no confirmed row misalignment.

@@ -1,0 +1,58 @@
+{
+  "experiment": "O3b-M operational same-key addressing rescue",
+  "status": "PRE-REGISTERED BEFORE HEAD TRAINING",
+  "scope": "Frozen-feature operational pair classification; no attribution work, backbone training, model architecture changes, or O3c",
+  "cache": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "splits": ["train", "val", "testA", "testB"],
+  "source_separation": "Generate pairs independently inside fixed source split; require disjoint canonical_fact_id, feature_row_id, and stable_source_record_sha256 across splits.",
+  "entity_feature": "H_mention_fresh: frozen exact entity-mention mean hidden state, 2048D, float32; not normalized at cache source.",
+  "relation_feature": "H_base_I0: frozen MR fact_H by certified canonical source row, 2048D, float32; not normalized at cache source.",
+  "pair_types": {
+    "P1": "same entity + same relation; positive/update",
+    "P2": "same entity + different relation; negative/new; primary hard negative",
+    "P3": "different entity + same relation; negative/new",
+    "P4": "different entity + different relation; negative/new"
+  },
+  "pair_sampling": {
+    "balanced_per_type": true,
+    "train_cap_per_type": 8000,
+    "val_test_cap_per_type": 2000,
+    "p1_priority": "Prefer different object_value pairs before same-value repeated rows.",
+    "sampling_seed": 2409,
+    "pair_rows_used_across_splits": false
+  },
+  "candidate_heads": {
+    "A": "Factorized cosine entity/relation scorers with trainable scalar scale/bias; same-key probability is product/equivalent summed logits.",
+    "B": "Train-only standardized frozen E/R inputs -> separate 64D linear key parts -> symmetric abs-difference/Hadamard pair features -> 64-hidden MLP.",
+    "C": "Two independent cosine-based entity/relation gates; final SameKey is the conjunction of validation-frozen gates."
+  },
+  "training": {
+    "seeds": [17, 29, 43, 61, 79],
+    "max_epochs": 40,
+    "early_stop_patience_epochs": 7,
+    "min_epochs": 12,
+    "batch_size": 1024,
+    "optimizer": "AdamW",
+    "learning_rates": {"A": 0.03, "B": 0.001, "C": 0.03},
+    "weight_decay": 0.0001,
+    "checkpoint_selection": "Validation-only operational score; choose candidate by mean score across seeds, deploy the median-validation-score seed (no ensemble)."
+  },
+  "threshold_selection": "Validation only; maximize mean of SameKey F1, P1/update recall, P2 accuracy, and overall negative/new accuracy; deterministic threshold tie-breaks.",
+  "offline_gate": {
+    "same_key_f1_testA_min": 0.95,
+    "same_key_f1_testB_min": 0.95,
+    "update_recall_testA_min": 0.95,
+    "update_recall_testB_min": 0.95,
+    "p2_accuracy_testA_min": 0.95,
+    "p2_accuracy_testB_min": 0.90,
+    "new_false_update_rate_max": 0.05
+  },
+  "action_gate": {
+    "update_target_slot_recall_min": 0.95,
+    "new_collision_rate_max": 0.05,
+    "duplicate_same_key_creation_rate_max": 0.05,
+    "p2_wrong_update_rate_max": 0.05
+  },
+  "test_usage": "TestA/TestB are untouched until candidates, thresholds, and the winner checkpoint have been frozen using train/validation only. Test metrics are never used for tuning or winner selection.",
+  "reconnect_policy": "Do not reconnect until both offline and action-simulation gates pass. No O3c in this experiment."
+}

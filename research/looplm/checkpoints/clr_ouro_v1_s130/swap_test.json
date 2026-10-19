@@ -1,0 +1,38 @@
+{
+  "ckpt": "D:/LoopLM/checkpoints/clr_ouro_v1_s130/best_model.pt",
+  "n_traj": 150,
+  "conditions": {
+    "A_normal": {
+      "t2p": 0.4933,
+      "t2p_counts": "74/150",
+      "t2p_wilson95": [
+        0.4145,
+        0.5725
+      ]
+    },
+    "B_content_swap": {
+      "t2p": 0.5,
+      "t2p_counts": "75/150",
+      "t2p_wilson95": [
+        0.421,
+        0.579
+      ]
+    },
+    "C_carrier_swap": {
+      "t2p": 0.5067,
+      "t2p_counts": "76/150",
+      "t2p_wilson95": [
+        0.4275,
+        0.5855
+      ]
+    },
+    "D_content_erase": {
+      "t2p": 0.5,
+      "t2p_counts": "75/150",
+      "t2p_wilson95": [
+        0.421,
+        0.579
+      ]
+    }
+  }
+}

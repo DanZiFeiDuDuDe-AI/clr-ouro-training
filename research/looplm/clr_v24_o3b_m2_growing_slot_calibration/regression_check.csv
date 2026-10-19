@@ -1,0 +1,2 @@
+﻿status,detail
+NOT_RUN: real reconnect not run,Cannot compare retrieval/full-KV answer or free-slot regression without the unchanged O3a/O3b frozen checkpoint bundle.

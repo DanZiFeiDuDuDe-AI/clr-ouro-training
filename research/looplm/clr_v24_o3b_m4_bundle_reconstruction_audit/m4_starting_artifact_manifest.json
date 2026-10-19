@@ -1,0 +1,215 @@
+{
+  "experiment": "O3b-M4 CERTIFIED BASELINE INTEGRATION BUNDLE RECONSTRUCTION AUDIT",
+  "created_utc": "2026-09-25T14:16:18.292233+00:00",
+  "workspace": "H:\\LoopLM",
+  "freeze_status": "M2 Candidate B and Rule A untouched; M4 performs read-only forensic analysis except copying original source files into this new audit folder",
+  "frozen_m2_artifacts": {
+    "candidate": "B",
+    "candidate_checkpoint_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+    "candidate_checkpoint_remote_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+    "candidate_config_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+    "candidate_state_dict_sha256": "c7a087c7e99fa276e49c4a7497516aa6179496566e92c138034116785ee10808",
+    "rule": "A",
+    "rule_a_threshold": 0.8504285216331482,
+    "rule_a_frozen_config_path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\decision_rule_frozen.json",
+    "rule_a_frozen_config_sha256": "82c236fc6f098508aeed4d2bc7488b5edae8a287128f57f0a042ae16352d0f5c",
+    "m2_final_report_path": "H:\\LoopLM\\clr_v24_o3b_m2_growing_slot_calibration\\final_report.md",
+    "m2_final_report_sha256": "d45368dd6fb9d41fbf51dae2c0aba1655b46d30d17dc85eee1cc688421428abb",
+    "m2_frozen_manifest_sha256": "d92ea01b090d294a382f2d9922e41ff17e1ee93703a849298fb0179ebb0fbc7f"
+  },
+  "m3_artifacts": {
+    "dependency_recovery_manifest_path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\dependency_recovery_manifest.json",
+    "dependency_recovery_manifest_sha256": "35da2b54982ce01e98e4919af9daf4c1d9ae9252b53f3b15e8e2c02530573f56",
+    "policy_manifest_path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\m2_address_policy_frozen_manifest.json",
+    "policy_manifest_sha256": "03551431b57e150897a3957c4a121f807037f7d0c8bda68b6827160b74d171ac",
+    "remote_source_and_checkpoint_evidence_path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\remote_source_and_checkpoint_evidence.json",
+    "remote_dependency_search_sha256": "65105f0f0682f6cab48edbc0abefe3d5c8ac79644287137d25feec88d8c0eadf",
+    "local_dependency_search_sha256": "261f90a7f20d02ae84df50f5f331f5ad485bc56feb8ccc34797127a4eac6f137"
+  },
+  "source_hashes": {
+    "a1_v24_o3b.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3b.py",
+      "sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd",
+      "expected_or_remote_sha256": "687e0c3024cbb04100c4fb06bdbec5af471a7fdb9c4cc9ccf3852aab6ca3ddfd",
+      "matches_expected": true,
+      "bytes": 39619,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v24_o21a.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a.py",
+      "sha256": "f91ff8f05c6f9427bf724f4040b3616f3da409bc600358d4a80f0f895955d0fb",
+      "expected_or_remote_sha256": "f91ff8f05c6f9427bf724f4040b3616f3da409bc600358d4a80f0f895955d0fb",
+      "matches_expected": true,
+      "bytes": 24142,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v24_o21a_mr.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o21a_mr.py",
+      "sha256": "fe18d2425357c1152d98c216e8e793a4f6f1db611ab2bd12082b7863776169df",
+      "expected_or_remote_sha256": "fe18d2425357c1152d98c216e8e793a4f6f1db611ab2bd12082b7863776169df",
+      "matches_expected": true,
+      "bytes": 42834,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v24_vgen.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_vgen.py",
+      "sha256": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13",
+      "expected_or_remote_sha256": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13",
+      "matches_expected": true,
+      "bytes": 37928,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v24_o3a.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o3a.py",
+      "sha256": "f7142e82aa35233175ca6b14aaeb383ffe5bdee37c48371b9af314cbfa5f7b92",
+      "expected_or_remote_sha256": "f7142e82aa35233175ca6b14aaeb383ffe5bdee37c48371b9af314cbfa5f7b92",
+      "matches_expected": true,
+      "bytes": 28989,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v24_o2_common.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_o2_common.py",
+      "sha256": "947ce501081fa63e338b3c99c76705792050df0c2cce9e76725807079da5446d",
+      "expected_or_remote_sha256": "947ce501081fa63e338b3c99c76705792050df0c2cce9e76725807079da5446d",
+      "matches_expected": true,
+      "bytes": 9697,
+      "provenance": "M3 remote snapshot"
+    },
+    "a1_v23_r2_common.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\a1_v23_r2_common.py",
+      "sha256": "2d9affa2dd0638c800a3e0d0e8a0f286e8ea18972390de889882b323dabd811f",
+      "expected_or_remote_sha256": "2d9affa2dd0638c800a3e0d0e8a0f286e8ea18972390de889882b323dabd811f",
+      "matches_expected": true,
+      "bytes": 4213,
+      "provenance": "M4 read-only SFTP copy; remote sha256sum matched"
+    },
+    "clr_v23_oracle_r2.py": {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\clr_v23_oracle_r2.py",
+      "sha256": "0f3bb6477ce716b3f40f802492057ee34fc565539ef46af28835e929e60a7dc0",
+      "expected_or_remote_sha256": "0f3bb6477ce716b3f40f802492057ee34fc565539ef46af28835e929e60a7dc0",
+      "matches_expected": true,
+      "bytes": 2235,
+      "provenance": "M4 read-only SFTP copy; remote sha256sum matched"
+    }
+  },
+  "source_identity_notes": {
+    "O3b_router_source": "Exact remote/local archived source match; SHA verified.",
+    "VGen2_source": "Only a1_v24_vgen.py was found; its default output is clr_v24_vgen, whereas O3b expects clr_v24_vgen2/best.pt. No vgen2-named source/config/log was found, so source identity for that exact run is not fully certified.",
+    "R2_class_source": "M4 copied clr_v23_oracle_r2.py and a1_v23_r2_common.py; both local hashes match remote sha256sum."
+  },
+  "discovered_remote_paths": {
+    "checkpoint_config": [
+      {
+        "component": "O21A-MR",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/best_model.pt",
+        "status": "MISSING"
+      },
+      {
+        "component": "VGen2",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_vgen2/best.pt",
+        "status": "MISSING"
+      },
+      {
+        "component": "O3a K-aware allocator",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3a_allocation/allocator_kaware_best.pt",
+        "status": "MISSING"
+      },
+      {
+        "component": "O3b baseline router",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/router_best.pt",
+        "status": "MISSING"
+      },
+      {
+        "component": "O2.3 R2 core source checkpoint",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v23_oracle_r2/best_model.pt",
+        "status": "MISSING; upstream VGen2 training/loader dependency"
+      },
+      {
+        "component": "O21B KeyEncoder",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21b/b1_best.pt",
+        "status": "EXACTLY RECOVERABLE"
+      },
+      {
+        "component": "Candidate B M2 address checkpoint",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+        "status": "EXACTLY RECOVERABLE; not a baseline substitute"
+      },
+      {
+        "component": "O3b baseline config",
+        "path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_update/config.json",
+        "status": "MISSING"
+      },
+      {
+        "component": "O3b-L diagnostic config",
+        "path": "/root/private_data/clr_v24_o3b_l/output/config.json",
+        "status": "PRESENT; diagnosis-only, not baseline config"
+      },
+      {
+        "component": "O3b-K diagnostic config",
+        "path": "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json",
+        "status": "PRESENT; diagnosis-only, not baseline config"
+      }
+    ],
+    "user_owned_remote_model_candidates": [
+      [
+        "O21B",
+        4356237,
+        "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+      ],
+      [
+        "Candidate B seeds 17/29/43/61/79",
+        5831945,
+        "only seed 43 frozen SHA individually certified by M2/M3"
+      ],
+      [
+        "Candidate A/C seeds",
+        30290,
+        "M2 candidate files; not baseline component state"
+      ]
+    ],
+    "o21a_mr_cache_files": [
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/manifest.json",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/relations.json",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_data.npz",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/val_data.npz",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testA_data.npz",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testB_data.npz",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_meta.jsonl",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/val_meta.jsonl",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testA_meta.jsonl",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/testB_meta.jsonl",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o21a_mr/cache/train_persons.json"
+    ],
+    "diagnostic_configs_not_baseline": [
+      "/root/private_data/clr_v24_o3b_l/output/config.json",
+      "/root/private_data/clr_v24_o3b_l/context/o3b_k/config.json"
+    ],
+    "diagnostic_and_m2_logs": [
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m2_growing_slot_calibration/logs/calibrate_v4.log",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m2_growing_slot_calibration/logs/holdout_v4.log",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m2_growing_slot_calibration/logs/finalize_v6.log",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/logs/runner_v3.stdout.log",
+      "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_m_operational_samekey_rescue/logs/runner_v3.stderr.log",
+      "/root/private_data/clr_v24_o3b_l/output/run.log"
+    ],
+    "remote_tmp_files": [
+      "/tmp/tmp1i7o9mxn/_remote_module_non_scriptable.py",
+      "/tmp/tmp1i7o9mxn/__pycache__/_remote_module_non_scriptable.cpython-311.pyc"
+    ],
+    "additional_source_files_fetched_read_only": [
+      "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\a1_v23_r2_common.py",
+      "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\clr_v23_oracle_r2.py"
+    ]
+  },
+  "remote_search_scope": {
+    "active_project": "/root/private_data/clr_v24_o3b_l",
+    "user_owned_home_mirror": "/public/home/ac92f4k0z9",
+    "user_owned_shared_storage": "/public/share/ac92f4k0z9",
+    "tmp_scope": "/tmp/tmp1i7o9mxn plus CLR/O3b-named top-level temporary files",
+    "other_users_data": "Not inspected",
+    "remote_current_hash_recheck": {
+      "candidate_b": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+      "o21b": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570"
+    }
+  }
+}

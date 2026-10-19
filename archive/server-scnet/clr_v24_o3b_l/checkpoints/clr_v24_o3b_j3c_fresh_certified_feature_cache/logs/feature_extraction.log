@@ -1,0 +1,37 @@
+policy_sha256=b53182cce202549cf3f65f2de27e58a8c7dc43ada7965749832337eb60ed3e67
+model_forward_started_unix=1790267239.8293664
+probe_training_count=0
+model_loaded_unix=1790267244.596666
+model_dtype=torch.bfloat16
+device=cuda:0
+forward split=train rows=32/11665
+forward split=train rows=800/11665
+forward split=train rows=1600/11665
+forward split=train rows=2400/11665
+forward split=train rows=3200/11665
+forward split=train rows=4000/11665
+forward split=train rows=4800/11665
+forward split=train rows=5600/11665
+forward split=train rows=6400/11665
+forward split=train rows=7200/11665
+forward split=train rows=8000/11665
+forward split=train rows=8800/11665
+forward split=train rows=9600/11665
+forward split=train rows=10400/11665
+forward split=train rows=11200/11665
+saved split=train rows=11665 R2_R1U_max_abs=1.9073486e-06
+forward split=val rows=32/2332
+forward split=val rows=800/2332
+forward split=val rows=1600/2332
+saved split=val rows=2332 R2_R1U_max_abs=1.9073486e-06
+forward split=testA rows=32/2332
+forward split=testA rows=800/2332
+forward split=testA rows=1600/2332
+saved split=testA rows=2332 R2_R1U_max_abs=1.9073486e-06
+forward split=testB rows=32/2332
+forward split=testB rows=800/2332
+forward split=testB rows=1600/2332
+saved split=testB rows=2332 R2_R1U_max_abs=1.9073486e-06
+model_forward_finished_unix=1790267445.3260913
+model_forward_count=extraction_plus_sample_recheck
+probe_training_count=0

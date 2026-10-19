@@ -1,0 +1,48 @@
+{
+  "experiment": "O3b-M4 historical anchor recovery",
+  "source_quality": "User-provided project history + extant source/report evidence; anchors below are labeled by provenance and are not conflated with the missing baseline router's own test metrics.",
+  "O21A_MR": {
+    "last_validation_pass": "NOT RECOVERED as an output artifact",
+    "metrics": null,
+    "available": "Exact training source and MR cache survive; source report template says to report retrieval/answer gates, but metrics.json/train.log/best_model.pt were not found."
+  },
+  "VGen2": {
+    "last_validation_pass": "NOT RECOVERED",
+    "metrics": null,
+    "available": "a1_v24_vgen.py source contains staged validation selection; no VGen2-specific run config, metrics, train log, or checkpoint; expected output path differs from source default."
+  },
+  "O3a": {
+    "last_validation_pass": "QUALITATIVE PASS from supplied project state: 'PASS — learned free-slot allocation'",
+    "metrics": null,
+    "available": "Exact source objective/hparams survive; original report, config, allocator checkpoint and exact numeric validation metrics absent."
+  },
+  "O3b_baseline_router": {
+    "last_validation_pass": "NOT RECOVERED for router_best.pt",
+    "metrics": null,
+    "available": "Original source and defaults survive; original output config/report/log/router checkpoint absent."
+  },
+  "historical_O3b_operational_context_from_user_brief": {
+    "raw_cosine_same_key_f1_percent": {
+      "TestA": 88.44,
+      "TestB": 86.56
+    },
+    "best_pair_mlp_same_key_f1_percent": {
+      "TestA": 95.09,
+      "TestB": 94.07
+    },
+    "update_recall_percent": {
+      "TestA": 96.2,
+      "TestB": 94.07
+    },
+    "same_entity_different_relation_P2_accuracy_percent": {
+      "TestA": 82.4,
+      "TestB": 83.6
+    },
+    "K_to_relation_probe_percent_approx": "59–61",
+    "caveat": "These are prior O3b operational/diagnostic anchors as supplied, not certified metrics of the missing original UpdateRouter checkpoint."
+  },
+  "O21B": {
+    "checkpoint_sha256": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+    "source_run_metric": "Detailed O21B run metrics/config not recovered in this bundle."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FROZEN",
+  "candidate": "B — factorized key + symmetric pair MLP",
+  "checkpoint": "clr_v24_o3b_m_operational_samekey_rescue/models/candidate_b_seed_43.pt",
+  "expected_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "local_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "remote_sha256": "43b9b6dc4c0baf3d85c37c6debe2ae7eaaf0baeb0636a50367a001024c0f94fc",
+  "config_sha256": "17bf2445b14cfd0a701f28c3a671da2844d37dab4f4aadc91b240b14c4068114",
+  "state_dict_sha256": "c7a087c7e99fa276e49c4a7497516aa6179496566e92c138034116785ee10808",
+  "rule": "A",
+  "threshold": 0.8504285216331482,
+  "retrained_or_recalibrated": false,
+  "modified": false
+}

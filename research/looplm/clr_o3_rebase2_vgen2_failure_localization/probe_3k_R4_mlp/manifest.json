@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "bytes": 912,
+      "path": "metrics.json",
+      "sha256": "c7e86a5b77ebb2e51b32fc3524598861063cc80a5cfda2c0bfbedf6038d08bc0"
+    },
+    {
+      "bytes": 36477,
+      "path": "probe.pt",
+      "sha256": "4d6a25990cca44e2c7f2cc6d9d457e53ff25ab1015ac0fe52baef12fd7a7bb70"
+    },
+    {
+      "bytes": 1673,
+      "path": "train_metrics.json",
+      "sha256": "e261ecfa9826a71e104f9ef67fc0550779cadcf17ccf2b1d6f1e56746719302b"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "available": true,
+  "cache_has_token_or_layer": false,
+  "sampling": {
+    "facts_per_split": 4096,
+    "queries_per_split": 1024
+  },
+  "layers": {
+    "layer_count": 24,
+    "wanted_layers": [
+      0,
+      6,
+      12,
+      18,
+      23
+    ],
+    "max_tokens": 1024
+  },
+  "feature_dims": {
+    "entity_mention_mean": 2048,
+    "entity_mention_max": 2048,
+    "relation_span_mean": 2048,
+    "final_token": 2048,
+    "prev_token": 2048,
+    "next_token": 2048,
+    "global_mean": 2048,
+    "layer_0_mention_mean": 2048,
+    "layer_6_mention_mean": 2048,
+    "layer_12_mention_mean": 2048,
+    "layer_18_mention_mean": 2048,
+    "layer_23_mention_mean": 2048
+  }
+}

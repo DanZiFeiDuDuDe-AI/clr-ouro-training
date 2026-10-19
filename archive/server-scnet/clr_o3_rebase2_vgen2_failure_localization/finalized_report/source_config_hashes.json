@@ -1,0 +1,17 @@
+{
+  "git_sha": null,
+  "reason": "H:/LoopLM is not a Git repository; no historical commit recovered. Content hashes replace provenance guesses.",
+  "remote_dataset_checkpoint_hashes": "prepare/input_audit.json",
+  "sha256": {
+    "AGENTS.md": "1a3f218e054f8c41f3182b7b18941f3307d19b3787e936705abe086a787ab497",
+    "SERVER_CONNECTION.md": "a6b8ae8e1d70d098dab87c41e5aa075c84ef14e65856eec0e73df13b796c5626",
+    "clr_o3_rebase1_fresh_operational_baseline\\components\\vgen2\\vgen2_rebase_config.json": "5be7a10274df9b1ae7689f71cc1bb3726fd03cdf605303988b06fa434b576b8b",
+    "clr_o3_rebase1_vgen2_10k_diag\\vgen2_10k_frozen_config.json": "8fc1168bc4127d23c4b2498c91de0097499a5f40175cca1e1ef50ac3774a1409",
+    "clr_o3_rebase2_vgen2_failure_localization\\audit_source_split.py": "d9959385d2cdf9acc636b12f6a32196e5d757f5bbf5d9912c71b56e0022ff1fa",
+    "clr_o3_rebase2_vgen2_failure_localization\\diagnose.py": "3855f6e38d48288631038315f11ef8664610c5408067de22cd4af40d05edd544",
+    "clr_o3_rebase2_vgen2_failure_localization\\run_diagnostics.py": "62943e4dcc39633c14ca29e77a6a3ce027134ec5d3838f8b6c6b9172b1335466",
+    "clr_v24_o3b_m3_end_to_end_reconnect\\source_reference\\a1_v24_vgen.py": "9702072f84695750b4977c47e7c0aaeccb6ad66ac620548247e95ba9b77d2d13",
+    "tools\\remote_weights.py": "e9ee77b8c52bd39e523b2dc4f849ef7577eeaacb9af56099075b2375161c46c1",
+    "tools\\train_and_pull.py": "4eb70e8faac6c8b0182d7004d16db24fbb593159cc7e5e42de795763234b7922"
+  }
+}

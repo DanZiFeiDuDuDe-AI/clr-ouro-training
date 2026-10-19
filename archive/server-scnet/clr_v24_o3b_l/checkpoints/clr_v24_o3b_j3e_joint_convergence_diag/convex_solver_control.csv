@@ -1,0 +1,3 @@
+representation,seed,optimizer,iterations,iteration,train_loss,validation_loss,validation_accuracy,gradient_norm,wall_seconds,converged_by_grad_tolerance,test_metrics_read
+R1,11,torch.LBFGS_strong_wolfe,300,300,2.411852904060652e-07,3.024301767349243,0.8201127052307129,5.056912755208032e-07,1.0781338214874268,True,False
+R2,11,torch.LBFGS_strong_wolfe,300,300,8.856218869368604e-07,0.9621556401252747,0.8972691893577576,1.1220256510569016e-06,1.0547502040863037,True,False

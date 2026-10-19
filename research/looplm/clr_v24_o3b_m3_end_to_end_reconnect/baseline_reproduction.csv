@@ -1,0 +1,5 @@
+﻿component,status,metric,baseline,recovered,delta,reason
+O3a free-slot allocation,NOT_RUN,,,,,Original frozen allocator checkpoint missing
+Retrieval,NOT_RUN,,,,,Baseline bundle not reliably recovered
+Full KV answer,NOT_RUN,,,,,Baseline bundle not reliably recovered
+Original router/action behavior,NOT_RUN,,,,,Original router checkpoint missing

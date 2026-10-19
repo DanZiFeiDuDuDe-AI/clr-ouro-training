@@ -1,0 +1,1322 @@
+{
+  "experiment": "O3b-J3D Stage 0 certified cache integrity recheck",
+  "cache_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3c_fresh_certified_feature_cache",
+  "output_path": "/root/private_data/clr_v24_o3b_l/checkpoints/clr_v24_o3b_j3d_converged_probe_calibration",
+  "source_certification_verdict": "J3C-P — FRESH ID-CARRYING FEATURE CACHE PROVENANCE CERTIFIED",
+  "source_manifest_file_count": 135,
+  "selected_file_count": 59,
+  "selected_file_checks": [
+    {
+      "filename": "H_mention_fresh_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 95559808,
+      "expected_bytes": 95559808,
+      "sha256": "4752e03b4b4ff3a65ce77ae4c27cfa304644815a4640c6297e8bb2f7ad0dfce5",
+      "expected_sha256": "4752e03b4b4ff3a65ce77ae4c27cfa304644815a4640c6297e8bb2f7ad0dfce5",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 95559808,
+      "expected_bytes": 95559808,
+      "sha256": "56dc0cee4bfb4878b94963ed94917487dbfc847b787192a95f6244bb3813f167",
+      "expected_sha256": "56dc0cee4bfb4878b94963ed94917487dbfc847b787192a95f6244bb3813f167",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z0_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 95559808,
+      "expected_bytes": 95559808,
+      "sha256": "56dc0cee4bfb4878b94963ed94917487dbfc847b787192a95f6244bb3813f167",
+      "expected_sha256": "56dc0cee4bfb4878b94963ed94917487dbfc847b787192a95f6244bb3813f167",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z1_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "06b18e8fbc921bd9beba480ee613c4ffff335d7ceda6d669d7cf1fb1ddc1014f",
+      "expected_sha256": "06b18e8fbc921bd9beba480ee613c4ffff335d7ceda6d669d7cf1fb1ddc1014f",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z2_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "e35705ee0041d35e2ed9439e466f1d72c77b9e67d4553356f45111fd3a2ce27f",
+      "expected_sha256": "e35705ee0041d35e2ed9439e466f1d72c77b9e67d4553356f45111fd3a2ce27f",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z3_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2986368,
+      "expected_bytes": 2986368,
+      "sha256": "e02938d83b9408eb5d5002619a32953d2f1621da83017e46dc1fa6ce08369fdd",
+      "expected_sha256": "e02938d83b9408eb5d5002619a32953d2f1621da83017e46dc1fa6ce08369fdd",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z4_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2986368,
+      "expected_bytes": 2986368,
+      "sha256": "6640e2e382018f3097e82d4167f210e43b84f6c21b0928b831fe97a4c974dd53",
+      "expected_sha256": "6640e2e382018f3097e82d4167f210e43b84f6c21b0928b831fe97a4c974dd53",
+      "hash_pass": true
+    },
+    {
+      "filename": "R0_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "ef421020be41ca91e323beb2c6466117f348cdc6959b1447cfd624f0c3a0714f",
+      "expected_sha256": "ef421020be41ca91e323beb2c6466117f348cdc6959b1447cfd624f0c3a0714f",
+      "hash_pass": true
+    },
+    {
+      "filename": "R1_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "4393e9d3ddae491157ca88e1c4bad6450639e918d77dda47ccdb058c3905032d",
+      "expected_sha256": "4393e9d3ddae491157ca88e1c4bad6450639e918d77dda47ccdb058c3905032d",
+      "hash_pass": true
+    },
+    {
+      "filename": "R2_train.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 11945088,
+      "expected_bytes": 11945088,
+      "sha256": "730b30d3961ebce3e073c6c0cf42bbbebef9bbb415ba99f91310b84c5020076a",
+      "expected_sha256": "730b30d3961ebce3e073c6c0cf42bbbebef9bbb415ba99f91310b84c5020076a",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_mention_fresh_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "d17d24ecc060c28033a4aa5d6c682634370c3c51f589b04f96499a31f1b08726",
+      "expected_sha256": "d17d24ecc060c28033a4aa5d6c682634370c3c51f589b04f96499a31f1b08726",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "490241fa77969c4a57c26838afa6ece9bf2557b67d5e52461b087b25c896aa53",
+      "expected_sha256": "490241fa77969c4a57c26838afa6ece9bf2557b67d5e52461b087b25c896aa53",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z0_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "490241fa77969c4a57c26838afa6ece9bf2557b67d5e52461b087b25c896aa53",
+      "expected_sha256": "490241fa77969c4a57c26838afa6ece9bf2557b67d5e52461b087b25c896aa53",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z1_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "f1ad6d6a80b36b71ae5cef9005fdfb8ac3f68a1ea1d2b9735b57704395580f85",
+      "expected_sha256": "f1ad6d6a80b36b71ae5cef9005fdfb8ac3f68a1ea1d2b9735b57704395580f85",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z2_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "210a04f97266e43c0219c65c97f79e107fec18f94312370bb40ccecbd1c0869e",
+      "expected_sha256": "210a04f97266e43c0219c65c97f79e107fec18f94312370bb40ccecbd1c0869e",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z3_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "e2944633470a194d5dc89485f1bc9892ecb99b52fc4a171031487573a26e6c35",
+      "expected_sha256": "e2944633470a194d5dc89485f1bc9892ecb99b52fc4a171031487573a26e6c35",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z4_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "a5aef68ca89895317dc3f3754ac5c0944b0ea8bfd9be3fe2112c7d49a198d086",
+      "expected_sha256": "a5aef68ca89895317dc3f3754ac5c0944b0ea8bfd9be3fe2112c7d49a198d086",
+      "hash_pass": true
+    },
+    {
+      "filename": "R0_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "96e1efe11f81abf1e3fb161121b6c266762817aafbb73f392aa02140ee1f272d",
+      "expected_sha256": "96e1efe11f81abf1e3fb161121b6c266762817aafbb73f392aa02140ee1f272d",
+      "hash_pass": true
+    },
+    {
+      "filename": "R1_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "3b946a9c4972a26e3789e4fd1807e380dd999d906f3e9fe91eef85224d987197",
+      "expected_sha256": "3b946a9c4972a26e3789e4fd1807e380dd999d906f3e9fe91eef85224d987197",
+      "hash_pass": true
+    },
+    {
+      "filename": "R2_val.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "773f93a7171daecaebdbc33323cf51a15eb436480bf026f198ec4ab69501a074",
+      "expected_sha256": "773f93a7171daecaebdbc33323cf51a15eb436480bf026f198ec4ab69501a074",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_mention_fresh_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "b64a42d24dbd8ae45fc52a18865b197f361625b788a81ddaa8601c8d12f8dbcb",
+      "expected_sha256": "b64a42d24dbd8ae45fc52a18865b197f361625b788a81ddaa8601c8d12f8dbcb",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "1f6a25891928a18d75487f63fedf65ee243c5778001f681bdcd99537e27241c8",
+      "expected_sha256": "1f6a25891928a18d75487f63fedf65ee243c5778001f681bdcd99537e27241c8",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z0_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "1f6a25891928a18d75487f63fedf65ee243c5778001f681bdcd99537e27241c8",
+      "expected_sha256": "1f6a25891928a18d75487f63fedf65ee243c5778001f681bdcd99537e27241c8",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z1_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "a1cd617e52396d1838b0d6dbaba9967f396356cfa72ae1692ba94b2e1bad67ed",
+      "expected_sha256": "a1cd617e52396d1838b0d6dbaba9967f396356cfa72ae1692ba94b2e1bad67ed",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z2_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "928ca760695ac21ffc264ffe46d3c7db6593ef28bd711876fd22673be3f247b2",
+      "expected_sha256": "928ca760695ac21ffc264ffe46d3c7db6593ef28bd711876fd22673be3f247b2",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z3_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "ba8bb9be30011f24658b84c158457e3acc71c5adb5aa91be42b7af92952c3ea6",
+      "expected_sha256": "ba8bb9be30011f24658b84c158457e3acc71c5adb5aa91be42b7af92952c3ea6",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z4_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "4c5c8cbcd7a3889377ecb7a95d236648c382ab63478e191a069434921ac6b38b",
+      "expected_sha256": "4c5c8cbcd7a3889377ecb7a95d236648c382ab63478e191a069434921ac6b38b",
+      "hash_pass": true
+    },
+    {
+      "filename": "R0_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "086214aecb784c8c14e8dce9f02923d35669b10e7821a52292d84ec52aa726ae",
+      "expected_sha256": "086214aecb784c8c14e8dce9f02923d35669b10e7821a52292d84ec52aa726ae",
+      "hash_pass": true
+    },
+    {
+      "filename": "R1_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "12ca5b95c1431e9b1b83e19219ef81b9ae8ee2cd9e46d4d218442d60da83bd98",
+      "expected_sha256": "12ca5b95c1431e9b1b83e19219ef81b9ae8ee2cd9e46d4d218442d60da83bd98",
+      "hash_pass": true
+    },
+    {
+      "filename": "R2_testA.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "ad9a838901dbed5c72d6ac6c869ecd29f3e5f6292eb93ebf2682509ef3b28c9b",
+      "expected_sha256": "ad9a838901dbed5c72d6ac6c869ecd29f3e5f6292eb93ebf2682509ef3b28c9b",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_mention_fresh_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "21873664641c8a9453c784aebb41d2ffc9abaa828cd7ff9e9f47ef508438e114",
+      "expected_sha256": "21873664641c8a9453c784aebb41d2ffc9abaa828cd7ff9e9f47ef508438e114",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "f2a38b81287de776288343e102700caf45bbacd9e2650b7da3ea3394dfd4e798",
+      "expected_sha256": "f2a38b81287de776288343e102700caf45bbacd9e2650b7da3ea3394dfd4e798",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z0_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 19103872,
+      "expected_bytes": 19103872,
+      "sha256": "f2a38b81287de776288343e102700caf45bbacd9e2650b7da3ea3394dfd4e798",
+      "expected_sha256": "f2a38b81287de776288343e102700caf45bbacd9e2650b7da3ea3394dfd4e798",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z1_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "67416a3ab7dd00f9ebe3cf9dbaa267f9e0b8833a9677e45d7e097ab049e4515d",
+      "expected_sha256": "67416a3ab7dd00f9ebe3cf9dbaa267f9e0b8833a9677e45d7e097ab049e4515d",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z2_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "df090d170807c7a55071d644d765d486b627d7adeb78853f73e5867ea1cf6792",
+      "expected_sha256": "df090d170807c7a55071d644d765d486b627d7adeb78853f73e5867ea1cf6792",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z3_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "0f9e9374b234242611292c978bdfcaa78854af928849487071ceed4870bc7d36",
+      "expected_sha256": "0f9e9374b234242611292c978bdfcaa78854af928849487071ceed4870bc7d36",
+      "hash_pass": true
+    },
+    {
+      "filename": "Z4_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 597120,
+      "expected_bytes": 597120,
+      "sha256": "f563739b2306b35115c10ae9e7ab232b504086b1bd802d0fa7a61b93e023a41a",
+      "expected_sha256": "f563739b2306b35115c10ae9e7ab232b504086b1bd802d0fa7a61b93e023a41a",
+      "hash_pass": true
+    },
+    {
+      "filename": "R0_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "5aaa683907472618fdffe57178a847cb7a30f7ccc52b80864788378baeb73ff5",
+      "expected_sha256": "5aaa683907472618fdffe57178a847cb7a30f7ccc52b80864788378baeb73ff5",
+      "hash_pass": true
+    },
+    {
+      "filename": "R1_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "c57bdc55277b7ae707baf53e44c26768c5312be7388b43da0a83affb34dfd049",
+      "expected_sha256": "c57bdc55277b7ae707baf53e44c26768c5312be7388b43da0a83affb34dfd049",
+      "hash_pass": true
+    },
+    {
+      "filename": "R2_testB.npy",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2388096,
+      "expected_bytes": 2388096,
+      "sha256": "68475fd25c194586d174726245422b02b0cc56ef7313878ec5c25f076859ef36",
+      "expected_sha256": "68475fd25c194586d174726245422b02b0cc56ef7313878ec5c25f076859ef36",
+      "hash_pass": true
+    },
+    {
+      "filename": "labels_train.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 1710972,
+      "expected_bytes": 1710972,
+      "sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115",
+      "expected_sha256": "9675c07f287a6683c59ec639017973a366e547d90a8122109532539cc2eb3115",
+      "hash_pass": true
+    },
+    {
+      "filename": "labels_val.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 313881,
+      "expected_bytes": 313881,
+      "sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7",
+      "expected_sha256": "409000a5f9d9e8b222bfa4ce5eb0b2c23c5e4fdc5d205c4f6ac40cbf6c51c3c7",
+      "hash_pass": true
+    },
+    {
+      "filename": "labels_testA.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 332314,
+      "expected_bytes": 332314,
+      "sha256": "f234ae2af50dc2ef34715700fd7ee9f7029291d5819bbcd2f9a9f911d495d5e0",
+      "expected_sha256": "f234ae2af50dc2ef34715700fd7ee9f7029291d5819bbcd2f9a9f911d495d5e0",
+      "hash_pass": true
+    },
+    {
+      "filename": "labels_testB.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 326905,
+      "expected_bytes": 326905,
+      "sha256": "90ebf1234f511876b83ee01309b9b928cb7a127c408b93f238f860043bce8aea",
+      "expected_sha256": "90ebf1234f511876b83ee01309b9b928cb7a127c408b93f238f860043bce8aea",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_train_sidecar.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 4153720,
+      "expected_bytes": 4153720,
+      "sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078",
+      "expected_sha256": "de1a14ef47982520db5444e7a86ee8f19e1a86cc1db4958081f23eb51e00d078",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_val_sidecar.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 769144,
+      "expected_bytes": 769144,
+      "sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf",
+      "expected_sha256": "0f299457a26fa0f9524db3dc83a055d26541562c775336b45ebcd3fb7b4fc7cf",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_testA_sidecar.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 805930,
+      "expected_bytes": 805930,
+      "sha256": "f091dd82ac03b5ad88a97e806667b8f4904dec74465e4ac94298ee8d2750c581",
+      "expected_sha256": "f091dd82ac03b5ad88a97e806667b8f4904dec74465e4ac94298ee8d2750c581",
+      "hash_pass": true
+    },
+    {
+      "filename": "H_fresh_testB_sidecar.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 800680,
+      "expected_bytes": 800680,
+      "sha256": "6f659e03df8a85f4e0f061ca3a141216ee5d5ce752b2c0895bf4fd8e5711aa99",
+      "expected_sha256": "6f659e03df8a85f4e0f061ca3a141216ee5d5ce752b2c0895bf4fd8e5711aa99",
+      "hash_pass": true
+    },
+    {
+      "filename": "feature_row_plan.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 7983600,
+      "expected_bytes": 7983600,
+      "sha256": "978edaabf6458a752a34fb9bfe1baca41d407f60f0b87dd444ac0c1eeeccb732",
+      "expected_sha256": "978edaabf6458a752a34fb9bfe1baca41d407f60f0b87dd444ac0c1eeeccb732",
+      "hash_pass": true
+    },
+    {
+      "filename": "canonical_source_manifest.jsonl",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 18019157,
+      "expected_bytes": 18019157,
+      "sha256": "07e36a0893fa479bc7bb2caeb28b8b98573a3c414165d030f232fe2ae1395ca5",
+      "expected_sha256": "07e36a0893fa479bc7bb2caeb28b8b98573a3c414165d030f232fe2ae1395ca5",
+      "hash_pass": true
+    },
+    {
+      "filename": "mention_resolution_manifest.jsonl",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 24532702,
+      "expected_bytes": 24532702,
+      "sha256": "cf3cc3287074dde5ee9f1ee7bcb0d65930d4cd8581dc0ddf34b28d52cdbc19ea",
+      "expected_sha256": "cf3cc3287074dde5ee9f1ee7bcb0d65930d4cd8581dc0ddf34b28d52cdbc19ea",
+      "hash_pass": true
+    },
+    {
+      "filename": "fresh_row_join_audit.csv",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 2505276,
+      "expected_bytes": 2505276,
+      "sha256": "73e44935d7d3ecb25c194a983443260a38fa5be53d003dafe488211321a4fb23",
+      "expected_sha256": "73e44935d7d3ecb25c194a983443260a38fa5be53d003dafe488211321a4fb23",
+      "hash_pass": true
+    },
+    {
+      "filename": "fresh_row_join_summary.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 3334,
+      "expected_bytes": 3334,
+      "sha256": "43640cc5a4a69b5fccd5cb2fa0b3c7856d083906c47faed0c9460f9534ead555",
+      "expected_sha256": "43640cc5a4a69b5fccd5cb2fa0b3c7856d083906c47faed0c9460f9534ead555",
+      "hash_pass": true
+    },
+    {
+      "filename": "stage_definition.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 284,
+      "expected_bytes": 284,
+      "sha256": "85da9a669e57959afdf3bb949868e936593f6f97ad3a8b7f857431651f704433",
+      "expected_sha256": "85da9a669e57959afdf3bb949868e936593f6f97ad3a8b7f857431651f704433",
+      "hash_pass": true
+    },
+    {
+      "filename": "w1_svd_matrices.npz",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 6798595,
+      "expected_bytes": 6798595,
+      "sha256": "e9973ef3b28f353eb88cdc472f3796b4c7076c38b8542f3acf8d29bcf16cab2b",
+      "expected_sha256": "e9973ef3b28f353eb88cdc472f3796b4c7076c38b8542f3acf8d29bcf16cab2b",
+      "hash_pass": true
+    },
+    {
+      "filename": "w1_svd_metrics.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 6520,
+      "expected_bytes": 6520,
+      "sha256": "be8424a78115b42609646f168a4e2350b3561bb006d6f20360372a85938b2c84",
+      "expected_sha256": "be8424a78115b42609646f168a4e2350b3561bb006d6f20360372a85938b2c84",
+      "hash_pass": true
+    },
+    {
+      "filename": "extraction_policy_frozen.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 5384,
+      "expected_bytes": 5384,
+      "sha256": "b53182cce202549cf3f65f2de27e58a8c7dc43ada7965749832337eb60ed3e67",
+      "expected_sha256": "b53182cce202549cf3f65f2de27e58a8c7dc43ada7965749832337eb60ed3e67",
+      "hash_pass": true
+    },
+    {
+      "filename": "artifact_hash_manifest.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 9182,
+      "expected_bytes": 9182,
+      "sha256": "564dd44157592896cd92b540f973c47303fa627d8af3d4f7ccc7c7ca40e12c1f",
+      "expected_sha256": "564dd44157592896cd92b540f973c47303fa627d8af3d4f7ccc7c7ca40e12c1f",
+      "hash_pass": true
+    },
+    {
+      "filename": "checkpoint_sha256_before_after.json",
+      "exists": true,
+      "manifest_entry": true,
+      "bytes": 374,
+      "expected_bytes": 374,
+      "sha256": "21c4813392a9a8bf462783f43338c7fda5473bad28d6fa12345e6e37e1a1f312",
+      "expected_sha256": "21c4813392a9a8bf462783f43338c7fda5473bad28d6fa12345e6e37e1a1f312",
+      "hash_pass": true
+    }
+  ],
+  "splits": {
+    "train": {
+      "expected_rows": 11665,
+      "label_rows": 11665,
+      "sidecar_rows": 11665,
+      "plan_rows": 11665,
+      "unique_feature_ids": 11665,
+      "feature_ids_first_last": [
+        "train:ep0:train-0:item0:fact0:m0",
+        "train:ep4999:train-4999:item0:fact11664:m0"
+      ],
+      "feature_arrays": {
+        "H_mention_fresh": {
+          "shape": [
+            11665,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "H_fresh": {
+          "shape": [
+            11665,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z0": {
+          "shape": [
+            11665,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z1": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z2": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z3": {
+          "shape": [
+            11665,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "Z4": {
+          "shape": [
+            11665,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "R0": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R1": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R2": {
+          "shape": [
+            11665,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "val": {
+      "expected_rows": 2332,
+      "label_rows": 2332,
+      "sidecar_rows": 2332,
+      "plan_rows": 2332,
+      "unique_feature_ids": 2332,
+      "feature_ids_first_last": [
+        "val:ep0:val-0:item0:fact0:m0",
+        "val:ep999:val-999:item0:fact2331:m0"
+      ],
+      "feature_arrays": {
+        "H_mention_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "H_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z0": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z3": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "Z4": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "R0": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "testA": {
+      "expected_rows": 2332,
+      "label_rows": 2332,
+      "sidecar_rows": 2332,
+      "plan_rows": 2332,
+      "unique_feature_ids": 2332,
+      "feature_ids_first_last": [
+        "testA:ep0:testA-0:item0:fact0:m0",
+        "testA:ep999:testA-999:item0:fact2331:m0"
+      ],
+      "feature_arrays": {
+        "H_mention_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "H_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z0": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z3": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "Z4": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "R0": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    "testB": {
+      "expected_rows": 2332,
+      "label_rows": 2332,
+      "sidecar_rows": 2332,
+      "plan_rows": 2332,
+      "unique_feature_ids": 2332,
+      "feature_ids_first_last": [
+        "testB:ep0:testB-0:item0:fact0:m0",
+        "testB:ep999:testB-999:item0:fact2331:m0"
+      ],
+      "feature_arrays": {
+        "H_mention_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "H_fresh": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z0": {
+          "shape": [
+            2332,
+            2048
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 2048,
+          "dim_pass": true
+        },
+        "Z1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "Z3": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "Z4": {
+          "shape": [
+            2332,
+            64
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 64,
+          "dim_pass": true
+        },
+        "R0": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R1": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        },
+        "R2": {
+          "shape": [
+            2332,
+            256
+          ],
+          "dtype": "float32",
+          "finite": true,
+          "expected_dim": 256,
+          "dim_pass": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    }
+  },
+  "all_feature_ids_unique_across_splits": true,
+  "all_row_indices_unique_across_splits": true,
+  "all_canonical_fact_ids_unique_across_splits": true,
+  "total_unique_feature_ids": 18661,
+  "stage_definition": {
+    "Z0": "H_fresh I2b carrier, 2048D",
+    "Z1": "KeyEncoder.net[0] Linear(2048->256), includes frozen bias, pre-activation",
+    "Z2": "KeyEncoder.net[1] GELU output, 256D",
+    "Z3": "KeyEncoder.net[2] Linear(256->64), pre-normalization",
+    "Z4": "L2-normalize Z3 across dimension 64"
+  },
+  "source_row_join_summary": {
+    "accepted_minus_plan": 0,
+    "accepted_unique_source_facts": 18661,
+    "all_stages_and_controls_same_ids_order": true,
+    "duplicate_feature_ids": 0,
+    "label_join_by_feature_row_id": true,
+    "mention_resolution_rows": 18661,
+    "orphan_or_failed_row_count": 0,
+    "per_split_feature_rows": {
+      "testA": 2332,
+      "testB": 2332,
+      "train": 11665,
+      "val": 2332
+    },
+    "per_split_stage_shapes": {
+      "testA": {
+        "H_I0": [
+          2332,
+          2048
+        ],
+        "H_I2a": [
+          2332,
+          2048
+        ],
+        "H_base_I0": [
+          2332,
+          2048
+        ],
+        "H_fresh": [
+          2332,
+          2048
+        ],
+        "H_mention_fresh": [
+          2332,
+          2048
+        ],
+        "R0": [
+          2332,
+          256
+        ],
+        "R1": [
+          2332,
+          256
+        ],
+        "R2": [
+          2332,
+          256
+        ],
+        "Z0": [
+          2332,
+          2048
+        ],
+        "Z1": [
+          2332,
+          256
+        ],
+        "Z2": [
+          2332,
+          256
+        ],
+        "Z3": [
+          2332,
+          64
+        ],
+        "Z4": [
+          2332,
+          64
+        ]
+      },
+      "testB": {
+        "H_I0": [
+          2332,
+          2048
+        ],
+        "H_I2a": [
+          2332,
+          2048
+        ],
+        "H_base_I0": [
+          2332,
+          2048
+        ],
+        "H_fresh": [
+          2332,
+          2048
+        ],
+        "H_mention_fresh": [
+          2332,
+          2048
+        ],
+        "R0": [
+          2332,
+          256
+        ],
+        "R1": [
+          2332,
+          256
+        ],
+        "R2": [
+          2332,
+          256
+        ],
+        "Z0": [
+          2332,
+          2048
+        ],
+        "Z1": [
+          2332,
+          256
+        ],
+        "Z2": [
+          2332,
+          256
+        ],
+        "Z3": [
+          2332,
+          64
+        ],
+        "Z4": [
+          2332,
+          64
+        ]
+      },
+      "train": {
+        "H_I0": [
+          11665,
+          2048
+        ],
+        "H_I2a": [
+          11665,
+          2048
+        ],
+        "H_base_I0": [
+          11665,
+          2048
+        ],
+        "H_fresh": [
+          11665,
+          2048
+        ],
+        "H_mention_fresh": [
+          11665,
+          2048
+        ],
+        "R0": [
+          11665,
+          256
+        ],
+        "R1": [
+          11665,
+          256
+        ],
+        "R2": [
+          11665,
+          256
+        ],
+        "Z0": [
+          11665,
+          2048
+        ],
+        "Z1": [
+          11665,
+          256
+        ],
+        "Z2": [
+          11665,
+          256
+        ],
+        "Z3": [
+          11665,
+          64
+        ],
+        "Z4": [
+          11665,
+          64
+        ]
+      },
+      "val": {
+        "H_I0": [
+          2332,
+          2048
+        ],
+        "H_I2a": [
+          2332,
+          2048
+        ],
+        "H_base_I0": [
+          2332,
+          2048
+        ],
+        "H_fresh": [
+          2332,
+          2048
+        ],
+        "H_mention_fresh": [
+          2332,
+          2048
+        ],
+        "R0": [
+          2332,
+          256
+        ],
+        "R1": [
+          2332,
+          256
+        ],
+        "R2": [
+          2332,
+          256
+        ],
+        "Z0": [
+          2332,
+          2048
+        ],
+        "Z1": [
+          2332,
+          256
+        ],
+        "Z2": [
+          2332,
+          256
+        ],
+        "Z3": [
+          2332,
+          64
+        ],
+        "Z4": [
+          2332,
+          64
+        ]
+      }
+    },
+    "plan_minus_accepted": 0,
+    "planned_feature_rows": 18661,
+    "row_join_pass": true,
+    "source_resolution_bijection": true,
+    "source_rows": 18661
+  },
+  "checkpoint_before_after": {
+    "keyencoder_after": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+    "keyencoder_before": "6c2018ccc17a3b6c8bcfa91425f426c8d8c88a37d5f5f1b7796ec18a2d32a570",
+    "ouro_after": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+    "ouro_before": "58872a72616c736595b8b7662079c5b12c5a162ec16eae94f21c348dfa9885af",
+    "unchanged": true
+  },
+  "test_splits_used_for_metrics_or_selection": false,
+  "errors": [],
+  "pass": true,
+  "elapsed_seconds": 1.4978680610656738
+}

@@ -1,0 +1,45 @@
+{
+  "experiment": "O3b-M4",
+  "verdict": "PARTIALLY RECONSTRUCTABLE — RETRAINING REQUIRED",
+  "learned_checkpoints_created": [],
+  "learned_checkpoints_modified": [],
+  "deterministic_contract_elements": [
+    {
+      "component": "K/V/occupancy shapes and zero initialization",
+      "source": "a1_v24_o3b.py, a1_v23_r2_common.py, clr_v23_oracle_r2.py",
+      "status": "Recovered in historical_bundle_contract.json; no new model artifact materialized"
+    },
+    {
+      "component": "L2 normalization and Q-K dot/argmax matcher",
+      "source": "a1_v24_o21a.py and a1_v24_o3a.py",
+      "status": "Recovered from exact source"
+    },
+    {
+      "component": "NEW/UPDATE action and slot semantics",
+      "source": "a1_v24_o3b.py",
+      "status": "Recovered from exact source; not behaviorally executed"
+    },
+    {
+      "component": "cache relation/value index metadata",
+      "source": "O21A-MR cache manifest/relations/person metadata",
+      "status": "Present remotely; data, not learned state"
+    }
+  ],
+  "not_reconstructed_reason": "Every missing target module listed is learned and has no complete serialized state. Source architecture alone or same-shaped foreign weights cannot certify historical behavior.",
+  "source_snapshots_copied": [
+    {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\a1_v23_r2_common.py",
+      "exists": true,
+      "bytes": 4213,
+      "sha256": "2d9affa2dd0638c800a3e0d0e8a0f286e8ea18972390de889882b323dabd811f",
+      "role": "source"
+    },
+    {
+      "path": "H:\\LoopLM\\clr_v24_o3b_m4_bundle_reconstruction_audit\\source_reference\\clr_v23_oracle_r2.py",
+      "exists": true,
+      "bytes": 2235,
+      "sha256": "0f3bb6477ce716b3f40f802492057ee34fc565539ef46af28835e929e60a7dc0",
+      "role": "source"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# O3b-J3E final report
+
+## FINAL VERDICT
+
+**J3E-F — STANDARDIZED JOINT PROBE STILL FAILS TO REACH VERIFIED CONVERGENCE**
+
+Only standardized R1/R2 and Joint labels were used for probes. TestA was evaluated only after the train/validation-selected protocol was frozen. TestB Joint is not evaluable because Stage 0 found no known labels. No model/checkpoint or architecture was modified; reconnect and O3c were not run.
+
+## Q1–Q17
+
+**Q1. Analytical weight transfer:** PASS; maximum observed transferred-logit absolute error across recorded splits/directions: 6.103515625e-05. Prediction mismatch rates are in `weight_transfer_control.csv`.
+**Q2. Matched protocol reached plateau for every R1/R2 seed?** No — 0/10 selected-protocol runs met the registered 50-evaluation rule.
+**Q3. Frozen protocol:** `SGD_momentum_0.9`, lr `0.1`, weight decay `0.0`, batch `1024`, seeds `[11, 23, 37, 53, 71]`, hard ceiling `100000`. It was frozen from train/validation only; verified convergence: `False`.
+**Q4. Does wd=0 improve basis invariance?** No reliable fix. Same-LR AdamW R1−R2 best-validation CE gap was 0.28199843035503314 at wd=0 versus 0.2862973548641607 at wd=1e-3; accuracy gap was -6.163849154746425pp versus -6.0078023407022085pp. No candidate plateaued, so these are not converged contrasts.
+**Q5. Full batch:** the selected optimizer/LR/WD full-batch run was compared against minibatch seed 11 at step 5,000 on validation only: `{"R1": {"full_batch_val_ce": 0.5202318039592752, "minibatch_val_ce_step5000": 0.5201990679242011, "full_batch_val_accuracy": 0.8361508452535761, "minibatch_val_accuracy_step5000": 0.835283918508886}, "R2": {"full_batch_val_ce": 0.3300014324271288, "minibatch_val_ce_step5000": 0.3300328081724806, "full_batch_val_accuracy": 0.9141742522756827, "minibatch_val_accuracy_step5000": 0.9133073255309926}}`. It did not satisfy the full multi-seed plateau gate.
+**Q6. LBFGS/convex control:** {'verdict': 'NO — independent LBFGS runs still have a visible validation gap', 'validation_ce_R1': 3.024301767349243, 'validation_ce_R2': 0.9621556401252747, 'validation_ce_R1_minus_R2': 2.0621461272239685, 'validation_accuracy_R1': 0.8201127052307129, 'validation_accuracy_R2': 0.8972691893577576, 'validation_accuracy_R1_minus_R2_pp': -7.715648412704468, 'train_ce_R1': 2.411852904060652e-07, 'train_ce_R2': 8.856218869368604e-07}. Train CE reached approximately 2.4e-7 (R1) and 8.9e-7 (R2), yet validation remained 3.024 vs 0.962 CE; this shows a high-fit solution with coordinate-dependent generalization, not a representation-class mismatch. See `convex_solver_control.csv` and `logs/controls.log`.
+**Q7. Known-good transferred solution loss gap on validation (independent CE − transferred CE):** pooled bidirectional mean 0.000 ± 0.236 (paired/bootstrap 95% CI [-0.134, 0.134]; n=10) hides cancellation. Directionally, R2→R1 is 0.224 ± 0.001 (paired/bootstrap 95% CI [0.223, 0.224]; n=5); R1→R2 is -0.224 ± 0.001 (paired/bootstrap 95% CI [-0.224, -0.223]; n=5). Train and TestA direction-specific gaps are in `known_good_solution_gap.csv`.
+**Q8. Known-good transferred solution better than independent fit:** in the informative R2→R1 direction, transferred solution beats independent R1 in 5/5 validation seeds by loss and 5/5 by accuracy; mean CE gain 0.224 ± 0.001 (paired/bootstrap 95% CI [0.223, 0.224]; n=5), mean accuracy gain 7.768 ± 0.197 pp (paired/bootstrap 95% CI [7.603, 7.906] pp; n=5). R1→R2 reverses direction, as shown in the same table.
+**Q9. Paired transformed initialization:** initial max logit error `1.7580912858861097e-06`, max prediction mismatch `0.0`. At 10k steps, paired-minus-independent validation CE `0.001 ± 0.001 (paired/bootstrap 95% CI [0.000, 0.001]; n=10)` and accuracy `-0.017 ± 0.157 pp (paired/bootstrap 95% CI [-0.113, 0.074] pp; n=10)`. See `paired_initialization_control.csv`, `paired_initialization_initial_equivalence.csv`, and `paired_initialization_curves.csv`.
+**Q10. Warm-start retention:** step checkpoints `{"R1_to_R2": {"val_ce_change_1000_minus_0": {"n": 5, "mean": -0.007715749740600586, "std": 0.00026335848713233365, "ci95": [-0.00785888433456421, -0.007482439279556274]}, "val_accuracy_change_pp_1000_minus_0": {"n": 5, "mean": 0.16471624374389648, "std": 0.08883211347841259, "ci95": [0.10403275489807129, 0.23406982421875]}, "steps_recorded": [0, 10, 100, 1000]}, "R2_to_R1": {"val_ce_change_1000_minus_0": {"n": 5, "mean": 9.884834289550782e-05, "std": 1.2390033724597105e-05, "ci95": [9.021162986755371e-05, 0.00010939836502075196]}, "val_accuracy_change_pp_1000_minus_0": {"n": 5, "mean": 0.008668899536132812, "std": 0.04748151824686012, "ci95": [-0.026006698608398438, 0.052013397216796875]}, "steps_recorded": [0, 10, 100, 1000]}}`; see `transfer_warmstart_control.csv`.
+**Q11. Frozen-protocol TestA Joint R1−R2 accuracy delta:** -8.045 ± 0.081 pp (paired/bootstrap 95% CI [-8.097, -7.976] pp; n=5).
+**Q12. Do five-seed CI and convergence support basis invariance?** No / unresolved; CI within ±1pp: `False`, includes zero: `False`, all runs converged: `False`. TestA score is descriptive because the convergence gate failed.
+**Q13. Most likely failure source:** optimizer parameterization sensitivity is the leading explanation; strict convergence remains unverified, while explicit weight-decay/init effects are secondary or unresolved. Directional transfer and LBFGS results implicate optimizer parameterization/implicit bias more strongly than representation loss; the exact contributor remains unresolved.
+**Q14. Standardized R1/R2 Joint gate:** **FAIL**.
+**Q15. Can the complete J3 measurement gate resume?** NO.
+**Q16. Reconnect allowed?** NO.
+**Q17. Exactly one next experiment:** Run a narrower deterministic solver study: float64 full-batch LBFGS for standardized R1/R2 Joint, initialize one basis from the affine-transferred classifier of the other, log stationary-gradient and line-search convergence, use train/validation only, and do not select on TestA.
+
+## Core interpretation
+
+A numerically transferable classifier demonstrates that the standardized R1/R2 linear hypothesis classes are equivalent. None of the three 100k-step minibatch protocol candidates reached the pre-registered plateau criterion. Yet the directional known-good test is highly diagnostic: an R2-trained classifier transfers into R1 with exactly preserved logits/predictions and beats the independently fitted R1 classifier by about 7.77pp on validation and 8.04pp on TestA; the reverse transfer inherits R1's weaker solution. Full-batch SGD tracks minibatch SGD closely at 5k, and paired initialization starts with equal logits but does not materially alter the 10k trajectory. LBFGS reaches near-zero training CE in both bases but different validation quality. This supports optimizer/parameterization or implicit-regularization sensitivity, not information loss in R1/R2; the strict convergence gate nevertheless remains failed.
+
+## Artifacts and run integrity
+
+Input integrity: `True`; files SHA-checked: 21. TestB Joint: **NOT EVALUABLE — 0 known labels**. Data leakage detected: No. Checkpoint/model modified: No. GPU used: BW / Torch 2.9.0+DTK; exact wall statistics are in stage logs. Plot status: `PASS` (optimizer_search_validation_ce.png, selected_protocol_convergence.png, known_good_transfer_vs_independent.png, paired_initialization_trajectory.png, full_batch_matched_control.png).
+
+Reconnect allowed: No. O3c allowed: No. Repeated V-update contamination: unresolved; untouched.

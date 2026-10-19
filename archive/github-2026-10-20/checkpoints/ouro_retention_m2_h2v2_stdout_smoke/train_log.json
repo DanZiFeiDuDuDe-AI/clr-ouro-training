@@ -1,0 +1,21 @@
+{
+  "steps": 1,
+  "losses": [
+    0.7902243137359619
+  ],
+  "final_loss": 0.7902243137359619,
+  "lr": 0.0001,
+  "rank": 4,
+  "alpha": 8.0,
+  "lam_block": 0.3,
+  "lam_logit": 1.0,
+  "lam_rank": 0.1,
+  "rank_mode": "hinge",
+  "rank_margin": 1.0,
+  "seed": 42,
+  "matched": 1,
+  "skipped": 0,
+  "epochs": 1,
+  "base_ckpt": "D:/training/checkpoints/ouro_retention_m2_d3/best_model.pt",
+  "ckpt_path": "D:/training/checkpoints/ouro_retention_m2_h2v2_stdout_smoke\\best_model.pt"
+}

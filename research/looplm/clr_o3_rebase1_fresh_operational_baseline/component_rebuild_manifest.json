@@ -1,0 +1,16 @@
+{
+  "experiment": "CLR-O3-REBASE-1",
+  "status": "STOPPED_AT_VGEN2_STANDALONE_GATE",
+  "components": [
+    {"name": "Frozen Ouro/extraction", "status": "REUSED_FROZEN", "trained": false, "backbone_forward": false},
+    {"name": "O21A rebase K/Q", "status": "PASS", "checkpoint": "components/o21a/o21a_rebase.pt", "checkpoint_sha256": "dadf66a59c8722ef86604aff67528f415acb18f3e72ba4ccfac415df37e90ced", "selected_step": 1100, "test_evaluation": "FINAL_ONLY_AFTER_VAL_SELECTION"},
+    {"name": "VGen2 rebase Core/value heads", "status": "FAIL_STANDALONE_GATE", "checkpoint": "components/vgen2/vgen2_rebase.pt", "checkpoint_sha256": "f7ef1bf210981de8215fce831cb85ca23ee8f1e32cffd21d68ee6a658e8dd8fd", "selected_step": 3000, "test_evaluation": "NOT_RUN_VAL_GATE_FAILED"},
+    {"name": "O3a allocator rebase", "status": "NOT_RUN_STOP_RULE", "reason": "VGen2 standalone gate failed"},
+    {"name": "Candidate B", "status": "PASS_FROZEN_SHA_AND_THRESHOLD", "trained": false, "threshold": 0.8504285216331482},
+    {"name": "Minimal router", "status": "CONTRACT_ONLY_NOT_IMPLEMENTED", "reason": "downstream integration blocked by VGen2 failure"},
+    {"name": "New bundle", "status": "NOT_CREATED", "reason": "O21A passed but VGen2 failed; component-freeze prerequisites unmet"}
+  ],
+  "test_exposure": {"o21a": "TestA/TestB final evaluation completed after checkpoint freeze", "vgen2": "TestA/TestB not opened", "o3a": "not run"},
+  "historical_reproduction": false,
+  "model_or_old_checkpoint_modified": false
+}

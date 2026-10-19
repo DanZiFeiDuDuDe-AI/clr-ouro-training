@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/root/private_data/clr_v24_o3b_j3_converged_probe_calibration/code/stage0_audit.py", line 338, in <module>
+    main()
+  File "/root/private_data/clr_v24_o3b_j3_converged_probe_calibration/code/stage0_audit.py", line 111, in main
+    token, token_path = j.load_token_arrays()
+                        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/private_data/clr_v24_o3b_l/code/a1_v24_o3b_j.py", line 128, in load_token_arrays
+    raise FileNotFoundError(f"required reused O3b-H cache missing: {p}")
+FileNotFoundError: required reused O3b-H cache missing: D:/training/checkpoints/clr_v24_o3b_h_entity_carrier_diag/token_layer_features.npz

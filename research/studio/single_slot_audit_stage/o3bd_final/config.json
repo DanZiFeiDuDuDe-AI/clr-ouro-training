@@ -1,0 +1,33 @@
+{
+  "phase": "CLR-v2.4-O3b-D",
+  "seed": 42,
+  "device": "cuda",
+  "source_key_checkpoint": "D:\\training\\checkpoints\\clr_v24_o21b\\b1_best.pt",
+  "source_o3b_checkpoint": "D:\\training\\checkpoints\\clr_v24_o3b_update\\router_best.pt",
+  "cache": "D:\\training\\checkpoints\\clr_v24_o21a_mr\\cache",
+  "frozen": [
+    "KeyEncoder",
+    "ValueWriter/V/GRU",
+    "QueryEncoder",
+    "read router",
+    "decoder",
+    "answer head",
+    "O3a allocator",
+    "Ouro",
+    "physical slots"
+  ],
+  "trainable": [
+    "small K-K SameKeyJudge only"
+  ],
+  "pair_protocol": "P1-P7 balanced; source split disjoint; cross-pair exact fact leakage false",
+  "steps": 3000,
+  "best_judge": "B3_pair_mlp",
+  "best_step": 3000,
+  "judge_params": 16513,
+  "threshold": 0.4228423237800598,
+  "wall_clock_s": 4155.1606243999995,
+  "peak_vram": {
+    "allocated_gb": 0.025799168,
+    "reserved_gb": 0.044040192
+  }
+}

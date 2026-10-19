@@ -1,0 +1,54 @@
+{
+  "conditions": {
+    "testA_new_false_update": true,
+    "testA_p2_accuracy": true,
+    "testA_same_key_f1": true,
+    "testA_update_recall": true,
+    "testB_new_false_update": true,
+    "testB_p2_accuracy": true,
+    "testB_same_key_f1": true,
+    "testB_update_recall": true
+  },
+  "deployed_seed": 43,
+  "pass": true,
+  "selection_split": "validation only",
+  "testA": {
+    "accuracy": 0.9993545611015491,
+    "candidate": "B",
+    "new_false_update_rate": 0.0008605851979345956,
+    "operational_score": 0.99903225770662,
+    "p1_accuracy": 1.0,
+    "p2_accuracy": 0.9982788296041308,
+    "p2_false_update_rate": 0.0017211703958691911,
+    "p3_accuracy": 0.9991394148020654,
+    "p4_accuracy": 1.0,
+    "precision": 0.9974248927038627,
+    "same_key_f1": 0.9987107864202837,
+    "seed": 43,
+    "split": "testA",
+    "threshold": 0.57,
+    "update_recall": 1.0
+  },
+  "testB": {
+    "accuracy": 0.9988849241748439,
+    "candidate": "B",
+    "new_false_update_rate": 0.0008920606601248885,
+    "operational_score": 0.9985506499952475,
+    "p1_accuracy": 0.9982158786797503,
+    "p2_accuracy": 0.9991079393398751,
+    "p2_false_update_rate": 0.0008920606601248885,
+    "p3_accuracy": 0.9982158786797503,
+    "p4_accuracy": 1.0,
+    "precision": 0.9973262032085561,
+    "same_key_f1": 0.9977708426214892,
+    "seed": 43,
+    "split": "testB",
+    "threshold": 0.57,
+    "update_recall": 0.9982158786797503
+  },
+  "testB_joint_label": "NOT_USED; same-key uses preserved semantic entity/relation identity, not closed-world joint classes",
+  "thresholds": {
+    "threshold": 0.57
+  },
+  "winner": "B"
+}

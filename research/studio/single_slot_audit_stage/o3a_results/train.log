@@ -1,0 +1,26 @@
+{
+  "k_aware": {
+    "k_aware": true,
+    "steps": 3000,
+    "best_step": 100,
+    "best_val_macro_valid": 1.0,
+    "wall_clock_s": 35.735851899997215,
+    "params": 9348,
+    "peak_vram": {
+      "allocated_gb": 0.035915776,
+      "reserved_gb": 0.048234496
+    }
+  },
+  "k_blind": {
+    "k_aware": false,
+    "steps": 3000,
+    "best_step": 100,
+    "best_val_macro_valid": 1.0,
+    "wall_clock_s": 35.79337569999916,
+    "params": 580,
+    "peak_vram": {
+      "allocated_gb": 0.035776512,
+      "reserved_gb": 0.048234496
+    }
+  }
+}

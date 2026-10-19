@@ -1,0 +1,29 @@
+{
+  "host": "ssh.zzai.scnet.cn",
+  "port": 11810,
+  "remote": "/root/private_data/clr_o3_rebase2_vgen2_failure_localization/probe_3k_R1_centroid",
+  "verified_files": [
+    {
+      "path": "COMPLETE.json",
+      "bytes": 52,
+      "sha256": "c82e498ac1f0f435aa2b826a5a6c1d5717407661e8a7e863e2e4c351bd075c44"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 311,
+      "sha256": "7cafe8e306c4a88b3070723eebef9cef540bfea40b6f7a0e9093b8744f681206"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 883,
+      "sha256": "b9612078f6341207387e6be449a9229b7b12da90d80de5db06c5959f0f83b94f"
+    },
+    {
+      "path": "probe.pt",
+      "bytes": 525851,
+      "sha256": "3df492ca2907fa4516f7290a04b5fea073e1dfa5f10cea7f97609546fc6a39f3"
+    }
+  ],
+  "verified_at_unix": 1790961591.4070153,
+  "weights": 1
+}

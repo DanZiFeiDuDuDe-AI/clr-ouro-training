@@ -1,0 +1,22 @@
+{
+  "train": {
+    "n": 3500,
+    "positive": 1750,
+    "negative": 1750
+  },
+  "val": {
+    "n": 3500,
+    "positive": 1750,
+    "negative": 1750
+  },
+  "testA": {
+    "n": 3500,
+    "positive": 1750,
+    "negative": 1750
+  },
+  "testB": {
+    "n": 3500,
+    "positive": 1750,
+    "negative": 1750
+  }
+}

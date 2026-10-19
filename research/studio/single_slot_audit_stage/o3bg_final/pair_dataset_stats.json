@@ -1,0 +1,69 @@
+{
+  "train_exact": {
+    "n": 6000,
+    "counts": {
+      "P4_same_value_diff_key": 500,
+      "P6_lexical_hard_negative": 500,
+      "P2_same_entity_diff_relation": 500,
+      "P1_same_key": 3000,
+      "P3_same_relation_diff_entity": 500,
+      "P7_similar_entity_names": 500,
+      "P5_fully_different": 500
+    }
+  },
+  "train_hard": {
+    "n": 6000,
+    "counts": {
+      "P1_same_key": 3000,
+      "P7_similar_entity_names": 375,
+      "P2_same_entity_diff_relation": 750,
+      "P6_lexical_hard_negative": 375,
+      "P5_fully_different": 375,
+      "P3_same_relation_diff_entity": 750,
+      "P4_same_value_diff_key": 375
+    }
+  },
+  "val_test": {
+    "val": {
+      "n": 3000,
+      "counts": {
+        "P1_same_key": 1500,
+        "P5_fully_different": 250,
+        "P2_same_entity_diff_relation": 250,
+        "P7_similar_entity_names": 250,
+        "P3_same_relation_diff_entity": 250,
+        "P4_same_value_diff_key": 250,
+        "P6_lexical_hard_negative": 250
+      }
+    },
+    "testA": {
+      "n": 3000,
+      "counts": {
+        "P1_same_key": 1500,
+        "P5_fully_different": 250,
+        "P6_lexical_hard_negative": 250,
+        "P7_similar_entity_names": 250,
+        "P2_same_entity_diff_relation": 250,
+        "P4_same_value_diff_key": 250,
+        "P3_same_relation_diff_entity": 250
+      }
+    },
+    "testB": {
+      "n": 3000,
+      "counts": {
+        "P1_same_key": 1500,
+        "P5_fully_different": 250,
+        "P7_similar_entity_names": 250,
+        "P2_same_entity_diff_relation": 250,
+        "P4_same_value_diff_key": 250,
+        "P6_lexical_hard_negative": 250,
+        "P3_same_relation_diff_entity": 250
+      }
+    }
+  },
+  "sampling": {
+    "P2_negative_fraction": 0.25,
+    "P3_negative_fraction": 0.25,
+    "same_episode_pairing": false
+  }
+}
