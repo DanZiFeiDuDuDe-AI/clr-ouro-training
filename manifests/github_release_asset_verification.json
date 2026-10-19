@@ -1,0 +1,141 @@
+{
+  "tag": "archive-2026-10-20",
+  "repository": "DanZiFeiDuDuDe-AI/clr-ouro-training",
+  "commit": "25d5156a248ddc0e7a4ea467409ebb649e2067fd",
+  "assets": [
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0001",
+      "bytes": 536870912,
+      "sha256": "a16d41620a5674bd50823becab30dab097d455db4584927a9dd19bfcc1ae7b1c",
+      "github_digest": "sha256:a16d41620a5674bd50823becab30dab097d455db4584927a9dd19bfcc1ae7b1c",
+      "asset_id": 656899674
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0002",
+      "bytes": 536870912,
+      "sha256": "1f81dd81f6ba0e447040e5d8657dcfae87f9224c62c03a8cb6454678426a4919",
+      "github_digest": "sha256:1f81dd81f6ba0e447040e5d8657dcfae87f9224c62c03a8cb6454678426a4919",
+      "asset_id": 656899676
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0003",
+      "bytes": 536870912,
+      "sha256": "1e3c792780487c1367ca9948e9e800c9b147842291f6f4ef08a4491a0896be6c",
+      "github_digest": "sha256:1e3c792780487c1367ca9948e9e800c9b147842291f6f4ef08a4491a0896be6c",
+      "asset_id": 656899655
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0004",
+      "bytes": 536870912,
+      "sha256": "4022514a58aa3de9df9e2ff93dfc50112bb94e37813e79554983de6fc2776b1f",
+      "github_digest": "sha256:4022514a58aa3de9df9e2ff93dfc50112bb94e37813e79554983de6fc2776b1f",
+      "asset_id": 656899654
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0005",
+      "bytes": 536870912,
+      "sha256": "2395844bd486476f4fa661e18c13b166331afd8974e4f2d8fba473db63c678e7",
+      "github_digest": "sha256:2395844bd486476f4fa661e18c13b166331afd8974e4f2d8fba473db63c678e7",
+      "asset_id": 656899649
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0006",
+      "bytes": 536870912,
+      "sha256": "c0ef31fddf62049269c71d481567db1558d35559c3fa75cedadfbb84d5af35d0",
+      "github_digest": "sha256:c0ef31fddf62049269c71d481567db1558d35559c3fa75cedadfbb84d5af35d0",
+      "asset_id": 656926983
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0007",
+      "bytes": 536870912,
+      "sha256": "9201c34da7a08fb7d36aa1da304a31238c8b5f2675afd6300d9db22bc9b769c3",
+      "github_digest": "sha256:9201c34da7a08fb7d36aa1da304a31238c8b5f2675afd6300d9db22bc9b769c3",
+      "asset_id": 656927074
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0008",
+      "bytes": 536870912,
+      "sha256": "78d5f317997e0eb34cf0aaa4c2381eb2c2070fbfcecfa7c8967ad0285e7e2407",
+      "github_digest": "sha256:78d5f317997e0eb34cf0aaa4c2381eb2c2070fbfcecfa7c8967ad0285e7e2407",
+      "asset_id": 656927118
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0009",
+      "bytes": 536870912,
+      "sha256": "aaff51bc08b62b0aeff64ba7555658572dfe156d562c4e4c32f87f6946da9da6",
+      "github_digest": "sha256:aaff51bc08b62b0aeff64ba7555658572dfe156d562c4e4c32f87f6946da9da6",
+      "asset_id": 656927137
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0010",
+      "bytes": 536870912,
+      "sha256": "162a9de6910daa9d6e9290c77547f8501e6ffe33b456ade1335e4a615ac3162f",
+      "github_digest": "sha256:162a9de6910daa9d6e9290c77547f8501e6ffe33b456ade1335e4a615ac3162f",
+      "asset_id": 656927967
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0011",
+      "bytes": 536870912,
+      "sha256": "5aa34896611676439656f163ef6cd22f5bfafc3f1d899dea4daf1914ad4722ab",
+      "github_digest": "sha256:5aa34896611676439656f163ef6cd22f5bfafc3f1d899dea4daf1914ad4722ab",
+      "asset_id": 656952128
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0012",
+      "bytes": 536870912,
+      "sha256": "5698438082f27b52b5ab3e44da54dc08bbfa0fa7df7e788fc5039d050e7ba4f0",
+      "github_digest": "sha256:5698438082f27b52b5ab3e44da54dc08bbfa0fa7df7e788fc5039d050e7ba4f0",
+      "asset_id": 656952385
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0013",
+      "bytes": 536870912,
+      "sha256": "8937ed0e32a750b7ac54731488ceebe14e2e635cd060aeff57ab7daa105eac6c",
+      "github_digest": "sha256:8937ed0e32a750b7ac54731488ceebe14e2e635cd060aeff57ab7daa105eac6c",
+      "asset_id": 656952415
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0014",
+      "bytes": 536870912,
+      "sha256": "fcbc641f1f134851b456e58eefef170ad5e6739bc012eecb81074cda007fc9be",
+      "github_digest": "sha256:fcbc641f1f134851b456e58eefef170ad5e6739bc012eecb81074cda007fc9be",
+      "asset_id": 656952592
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0015",
+      "bytes": 536870912,
+      "sha256": "29ecaf02b0c5160df093e111afdb66b61c54e672758ba90aa33e8f273368a81c",
+      "github_digest": "sha256:29ecaf02b0c5160df093e111afdb66b61c54e672758ba90aa33e8f273368a81c",
+      "asset_id": 656952698
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0016",
+      "bytes": 536870912,
+      "sha256": "84812ddbe7b2036ef6e3e8f4e5d0875eb87e10dbfe861356929aaeabcde6612e",
+      "github_digest": "sha256:84812ddbe7b2036ef6e3e8f4e5d0875eb87e10dbfe861356929aaeabcde6612e",
+      "asset_id": 656976470
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0017",
+      "bytes": 536870912,
+      "sha256": "3697a57a1f04da0e6bbbf0ccfed522dfbef8d18b8ca8f5d4caf4f7ed007e25c7",
+      "github_digest": "sha256:3697a57a1f04da0e6bbbf0ccfed522dfbef8d18b8ca8f5d4caf4f7ed007e25c7",
+      "asset_id": 656977050
+    },
+    {
+      "name": "research-artifacts-2026-10-20.tar.zst.part-0018",
+      "bytes": 46462671,
+      "sha256": "729d7e9e8f5668fe5e4ab47343f85ad938aa3dacb8d20ee4b229a0f3a8cf9804",
+      "github_digest": "sha256:729d7e9e8f5668fe5e4ab47343f85ad938aa3dacb8d20ee4b229a0f3a8cf9804",
+      "asset_id": 656977223
+    },
+    {
+      "name": "artifacts.json",
+      "bytes": 145832,
+      "sha256": "a4f0bfb2ed231c55a8ccdacd54db71b28177bbe29e0f32a0335fb4b340b2b0ae",
+      "github_digest": "sha256:a4f0bfb2ed231c55a8ccdacd54db71b28177bbe29e0f32a0335fb4b340b2b0ae",
+      "asset_id": 656899373
+    }
+  ],
+  "all_verified": true
+}

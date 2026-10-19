@@ -15,6 +15,20 @@
 | 下载权重、数据集与特征缓存 | [数据、权重与恢复](docs/数据权重与恢复.md) |
 | 核对归档是否完整 | [来源清单](manifests/files.jsonl) · [统计](manifests/archive_summary.json) |
 
+## 本次归档统计
+
+| 项目 | 数量 |
+|---|---:|
+| 来源文件记录 | 3,584 |
+| 随 Git 保存的来源文件 | 2,802 |
+| 由 Release 恢复的模型产物路径 | 782 |
+| 去重后的模型产物对象 | 460 |
+| Release 分卷 | 18 |
+| 分卷总大小 | 9.17 GB |
+| 按原路径完整恢复的逻辑大小 | 24.68 GB |
+
+大小使用十进制 GB。已验证全部分卷和对象；GitHub 返回的附件 SHA-256 也已逐项核对，见[发布校验记录](manifests/github_release_asset_verification.json)。
+
 ## 目录结构
 
 ```text
@@ -41,7 +55,7 @@ third_party/                    基座模型的官方模型卡、许可和来源
 先取得代码、论文和文件索引：
 
 ```bash
-git clone --depth 1 https://github.com/DanZiFeiDuDuDe-AI/clr-ouro-training.git
+git clone --depth 1 --config core.longpaths=true https://github.com/DanZiFeiDuDuDe-AI/clr-ouro-training.git
 cd clr-ouro-training
 ```
 
